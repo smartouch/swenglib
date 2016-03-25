@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-sxddkLnK1aVjjLOfbQsK5Q" name="define_subsystem_physical_interfaces,_bZHvIC5AEeCF96HKX9wM8A" guid="-sxddkLnK1aVjjLOfbQsK5Q" changeDate="2011-02-03T11:06:27.861-0800" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Systems engineering generally defines what is known as the &quot;logical interface&quot; between the system and its actors and&#xD;
+    among subsystems. The logical interfaces provides organizations of named services, (highly) abstract data types with&#xD;
+    ranges and constraints, and various quality of service parameters. In this task, the engineering staff must refine&#xD;
+    these logical interfaces in deployable physical interfaces. Requires the usage of services within defined APIs of&#xD;
+    existing equipment or agreements between teams on devices not yet developed. The services must be qualified with actual&#xD;
+    data schema (bit-mapped formats), and qualities of service.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    Every logical interface must be realized, but it may not be in a 1:1 way; it is common for a logical interface to&#xD;
+    result in many physical messages or machine motions that constitute the actual physical interface. In addition, logical&#xD;
+    interfaces should provide range and fidelity metadata on the parameters of the interface but not the physical data&#xD;
+    schema; the physical data scheme must be defined within this task.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_cQwsMC_JEeCriPIXxL5cpA" name="Refine logical service into physical service" guid="_cQwsMC_JEeCriPIXxL5cpA">
+    <sectionDescription>For all services within an interface, the means by which the service will be invoked must be specified (TCP/IP? RS-232?&#xD;
+UDP datagram?).</sectionDescription>
+  </sections>
+  <sections xmi:id="_lG3KMC_JEeCriPIXxL5cpA" name="Refine data schema" guid="_lG3KMC_JEeCriPIXxL5cpA">
+    <sectionDescription>For all parameters of all services (including return values), the bit-mapping of the formats must be determined explicitly.&#xD;
+The logical information should specify the extent of the parameter (i.e. acceptable values) but the schema must define the&#xD;
+storage and transmission format, bit ordering, and so on.</sectionDescription>
+  </sections>
+  <sections xmi:id="_0t1fEC_JEeCriPIXxL5cpA" name="Refine constraints" guid="_0t1fEC_JEeCriPIXxL5cpA">
+    <sectionDescription>Any quality of service constraints associated with an interface must be refined in the light of the invocation of the&#xD;
+physical service(s) invoked and the data formats used.</sectionDescription>
+  </sections>
+  <sections xmi:id="_Hzt0sC_TEeCw-ve53qxA0Q" name="Put physical interfaces into shared model" guid="_Hzt0sC_TEeCw-ve53qxA0Q">
+    <sectionDescription>Physical interfaces between the system and the actors or between subsystems should be held within the shared model for&#xD;
+easy, common access.</sectionDescription>
+  </sections>
+  <sections xmi:id="_w2TdwC_SEeCw-ve53qxA0Q" name="Baseline the interfaces" guid="_w2TdwC_SEeCw-ve53qxA0Q">
+    <sectionDescription>Put the interfaces under configuration control to ensure controlled changes and a common understanding of what is needed.</sectionDescription>
+  </sections>
+  <sections xmi:id="_hUclsEEmEeCRBdp-xn1ltA" name="Review the physical interfaces" guid="_hUclsEEmEeCRBdp-xn1ltA">
+    <sectionDescription>Review and evaluate the resulting physical interfaces between the system and its actors and between the subsystems in terms&#xD;
+of consistency, adequacy, compliance with standards and known APIs and completeness. This includes service invocations,&#xD;
+data structures, and quality of services aspects. The mapping between logical and physical may be complex - only in the&#xD;
+simplest of systems is it 1:1.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this step is to create physical, realizable interfaces from the logical interfaces received from systems&#xD;
+engineering.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

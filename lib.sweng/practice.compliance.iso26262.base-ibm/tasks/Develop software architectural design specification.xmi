@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-zKAdlct5l4PXAWqigZEXlA" name=",_pD0nIKPJEeC6tIhMGJuAIA" guid="-zKAdlct5l4PXAWqigZEXlA" changeDate="2011-08-24T05:37:27.646-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    This task covers the specification and&amp;nbsp;design of the software architecture down to the point where the Software&#xD;
+    units can start to be specified.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To ensure that the specification complies with good practices around software architecture design a number of&#xD;
+    guidelines regarding use of notations, verifiability (implies bi-directional traceability), suitability for&#xD;
+    configurable software, feasibility for design and implementation and testability are described.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The steps below detail the&amp;nbsp;appropriate methods&amp;nbsp;regarding Notations, principles, error detection and&#xD;
+    handling.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If using a model based approach the software architecture can be developed by applying the above guidelines&amp;nbsp;to &lt;a&#xD;
+    class=&quot;elementLink&quot; href=&quot;./../../process.real_time.base-ibm/capabilitypatterns/hi_fi_modeling_6294D12E.html&quot;&#xD;
+    guid=&quot;_4vJEUbw5Ed-eitZNR_0_Rg&quot;>High-Fidelity Modeling&lt;/a>&amp;nbsp;and &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../process.real_time.base-ibm/capabilitypatterns/arch_dsgn_rt_7DCE0CD6.html&quot;&#xD;
+    guid=&quot;_QV0mgbavEd-qJK6AskeP4g&quot;>Architectural Design - RT&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_KqxWIMNnEeC2XvbLomrPmA" name="Determine appropriate notations for software architectural design" guid="_KqxWIMNnEeC2XvbLomrPmA">
+    <sectionDescription>&lt;p>%EOL%    The notation that a design is expressed in has a bearing on the understandability of the design. The typical forms of%EOL%    expression are Informal (such as hand drawn flow diagrams or tool-generated diagrams) , Semi-Formal, (such as UML where%EOL%    the design is developed in a consistent manner in a model based process) and Formal (such as Z or CSP, where the design%EOL%    is expressed as sets of complex formula).%EOL%&lt;/p>%EOL%&lt;p>%EOL%    Please refer to Table 3 - Notations for software architectural design&quot; located at ISO 26262 volume 6, clause 7.4.1,%EOL%    this describes the mapping of these three notation types&amp;nbsp;against ASIL levels.%EOL%&lt;/p>%EOL%&lt;p>%EOL%    In summary, Semi Formal notations such as those used in model based systems and software development are recommended%EOL%    for items with an ASIL of A and Highly Recommended for ASILs B, C and D.%EOL%&lt;/p>%EOL%&lt;p>%EOL%    Formal notations are only recommended for ASILs A through to D, while Informal Notations are only highly recommended%EOL%    for ASILs A and B and recommended for ASILs C and D.%EOL%&lt;/p>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_QWp64MNnEeC2XvbLomrPmA" name="Determine appropriate principles for software architectural design" guid="_QWp64MNnEeC2XvbLomrPmA">
+    <sectionDescription>&lt;p>%EOL%    The notation that a design is expressed in has a bearing on the understandability of the design. The typical forms of%EOL%    expression are Informal (such as hand drawn flow diagrams or tool-generated diagrams) , Semi-Formal, (such as UML where%EOL%    the design is developed in a consistent manner in a model based process) and Formal (such as Z or CSP, where the design%EOL%    is expressed as sets of complex formula).%EOL%&lt;/p>%EOL%&lt;p>%EOL%    Please refer to Table 3 - Notations for software architectural design&quot; located at ISO 26262 volume 6, clause 7.4.1,%EOL%    this describes the mapping of these three notation types&amp;nbsp;against ASIL levels.%EOL%&lt;/p>%EOL%&lt;p>%EOL%    In summary, Semi Formal notations such as those used in model based systems and software development are recommended%EOL%    for items with an ASIL of A and Highly Recommended for ASILs B, C and D.%EOL%&lt;/p>%EOL%&lt;p>%EOL%    Formal notations are only recommended for ASILs A through to D, while Informal Notations are only highly recommended%EOL%    for ASILs A and B and recommended for ASILs C and D.%EOL%&lt;/p>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_NRsfoMNoEeC2XvbLomrPmA" name="Develop SW architectural design" guid="_NRsfoMNoEeC2XvbLomrPmA">
+    <sectionDescription>&lt;p>&#xD;
+    The software architectural specification/design shall&amp;nbsp;capture the static and dynamic aspects of the architecture&#xD;
+    (see ISO 26262, volume 6, clause 7.4.5). In the case of model based development capturing the structure and behavior of&#xD;
+    the item under development is an inherent part of the overall modeling activities.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If software partitioning is used, as described in ISO 26262, volume 6, annex D to prevent interference between software&#xD;
+    components then it shall be ensured that If employing shared resources that the software partitions do not interfere&#xD;
+    with one another and that the part of the software that implements the software partitioning shall have the same or&#xD;
+    higher ASIL than the highest ASIL associated with the component.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A technique highly recommended for ASIL D and recommended for ASILS A,B and C is that software partitioning is&#xD;
+    supported by dedicated hardware features.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The software partitions shall be verified correctly during software integration and testing.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    ASIL decomposition if used shall be applied according to ISO 26262. volume 9, clause 5.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_RIAp4MNoEeC2XvbLomrPmA" name="Trace SW architectural design back to SW requirements" guid="_RIAp4MNoEeC2XvbLomrPmA">
+    <sectionDescription>&lt;p>&#xD;
+    Every safety related component should be traced back to the safety requirements (thus the component, inherits the ASIl&#xD;
+    of the safety requirement); and it is categorized as being either;-&#xD;
+&lt;/p>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p>&#xD;
+        Newly developed,&#xD;
+    &lt;/p>&#xD;
+    &lt;p>&#xD;
+        Reused with modifications,&#xD;
+    &lt;/p>&#xD;
+    &lt;p>&#xD;
+        Reused without modifications, or as a&#xD;
+    &lt;/p>&#xD;
+    &lt;p>&#xD;
+        &amp;nbsp;COTS product.&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;If the embedded software has to implement a mixture of non safety and safety related software components with&#xD;
+    different ASILs, then all of the embedded software is treated in accordance with the highest ASIL. This is unless the&#xD;
+    software component meets the criteria for coexistence which is detailed in ISO 26262, volume 9, clause 6.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_VzyR8MNnEeC2XvbLomrPmA" name="Determine appropriate methods for error detection and error handling at the software architectural level" guid="_VzyR8MNnEeC2XvbLomrPmA">
+    <sectionDescription>&lt;p>&#xD;
+    Mechanisms for error detection and error handling are based upon the results of the safety analysis. These mechanisms&#xD;
+    are applicable to specific ASILs&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Please refer to Table 5 - Mechanisms for error detection at the software architectural level located at ISO 26262 volume&#xD;
+    6, clause, 7.4.15, to see the complete mapping of mechanism, detailed below to ASIL levels.&#xD;
+&lt;/p>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p>&#xD;
+        Plausibility check, including assertion checks and using reference models of desired behavior from complex checks&#xD;
+        (this mechanism&amp;nbsp;is&amp;nbsp;highly recommended&amp;nbsp;all ASIL levels)&#xD;
+    &lt;/p>&#xD;
+    &lt;p>&#xD;
+        Detection of data errors, such as error detection codes and multiple data storage, (this mechanism is recommended&#xD;
+        for all ASIL levels)&#xD;
+    &lt;/p>&#xD;
+    &lt;p>&#xD;
+        External monitoring facility&#xD;
+    &lt;/p>&#xD;
+    &lt;p>&#xD;
+        Control flow monitoring&#xD;
+    &lt;/p>&#xD;
+    &lt;p>&#xD;
+        Diverse software design (not intended to imply n-version programming)&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;p dir=&quot;ltr&quot;>&#xD;
+    Please refer to Table 6 - Mechanisms for error handling at the software architectural level located at ISO 26262 volume 6,&#xD;
+    clause, 7.4.15, to see the complete mapping of mechanism, detailed below to ASIL levels.&#xD;
+&lt;/p>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p dir=&quot;ltr&quot;>&#xD;
+        Static recovery mechanism, such as, recovery blocks, backward and forward recovery and recovery through repetition&#xD;
+        (this mechanism is recommended for all ASIL levels)&#xD;
+    &lt;/p>&#xD;
+    &lt;p>&#xD;
+        Graceful degradation, this refers to prioritizing functions to reduce the adverse affects of possible failures on&#xD;
+        the functional safety of the item (this mechanism is recommended for ASILs A and B and highly recommended for ASILs&#xD;
+        C and D).&#xD;
+    &lt;/p>&#xD;
+    &lt;p>&#xD;
+        Independent parallel redundancy, for this mechanism to be successful there has to be dissimilar software in each&#xD;
+        parallel path (this mechanism is recommend at ASIL level C and highly recommended at ASIL level D).&#xD;
+    &lt;/p>&#xD;
+    &lt;p>&#xD;
+        Correcting codes for data (this mechanism is recommended for all ASIL levels)&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote></sectionDescription>
+  </sections>
+  <sections xmi:id="_UYVLIMNoEeC2XvbLomrPmA" name="Estimate SW resources" guid="_UYVLIMNoEeC2XvbLomrPmA">
+    <sectionDescription>&lt;p>&#xD;
+    Finally, an upper estimation of the required resources for the embedded software should be made, these should cover&#xD;
+    aspects such as execution time, storage space and communication resources.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>To develop the Software architecture specification and relate it back to the software specification</purpose>
+</org.eclipse.epf.uma:TaskDescription>

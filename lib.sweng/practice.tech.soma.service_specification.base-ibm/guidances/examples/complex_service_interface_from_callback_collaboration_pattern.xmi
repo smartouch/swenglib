@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-F47hfniZOZ3WtU5BSv4FEA" name="new_example,_OqDUQJd1Ed6K4On4I33bEg" guid="-F47hfniZOZ3WtU5BSv4FEA" changeDate="2009-10-28T22:50:20.828-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../practice.tech.soma.service_specification.base-ibm/guidances/guidelines/identify_service_interfaces_from_role_interaction_patterns_A80FD7EE.html&quot; guid=&quot;_cBOmEJaLEd6mO_N3erykYQ&quot;>Guideline: Identify Service Interfaces from Collaboration Role Interaction Patterns&lt;/a>&amp;nbsp;presents four rules for describing ServiceInterfaces based upon pairs of interacting roles in Service&#xD;
+    Collaborations. The rule illustrated here is:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Rule 4. Create a ServiceInterface with a provided interface and a required interface when the&amp;nbsp;provider&#xD;
+    role responds back to the&amp;nbsp;consumer role&amp;nbsp;with a callBack message.&lt;/strong>&amp;nbsp;&amp;nbsp;In&amp;nbsp;this case,&#xD;
+    the&amp;nbsp;provider role requires that the user be able to accept messages; therefore, the provider requires an interface&#xD;
+    with the consumer.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In&amp;nbsp;Figure 1, &quot;role1&quot; sends a message to &quot;role2,&quot; and &quot;role2&quot; responds with a callBack. From the perspective of&#xD;
+    the&amp;nbsp;provider, &quot;role2,&quot; two interfaces are involved:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A provided (realized)&amp;nbsp;interface that offers the operation: &quot;do This&quot;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A consumed&amp;nbsp;(required) interface that offers the operation: &quot;callBack&quot;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The ServiceInterface might be created and configured as shown in Figure 2.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 1.&amp;nbsp; &amp;nbsp;The callback collaboration pattern&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;412&quot; alt=&quot;&quot; src=&quot;./resources/collab_if_from_collab_pattern.jpg&quot; width=&quot;593&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 2.&amp;nbsp; Modeling the structure of a complex service interface&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    &lt;img height=&quot;188&quot; alt=&quot;&quot; src=&quot;./resources/service_interface_collab_rule_4.gif&quot; width=&quot;544&quot; />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

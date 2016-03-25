@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_yQhgISZREd-Hb5ChSoDHIA" guid="_yQhgISZREd-Hb5ChSoDHIA">
+    <resourceDescriptors xmi:id="_yQrRICZREd-Hb5ChSoDHIA" id="-ZQjcolet0DRCuvUfrJgTTA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_xfqECiZREd-Hb5ChSoDHIA" name="develop_support_material_within_scope" guid="_xfqECiZREd-Hb5ChSoDHIA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz04iZREd-Hb5ChSoDHIA" name="develop_support_material" guid="_xfz04iZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz04yZREd-Hb5ChSoDHIA" name="develop_support_material" guid="_xfz04yZREd-Hb5ChSoDHIA" presentationName="Develop Support Material" superActivities="_xfqECyZREd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_KjZZyCZIEd-Hb5ChSoDHIA#_KjZaGiZIEd-Hb5ChSoDHIA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz04CZREd-Hb5ChSoDHIA" name="test_and_evaluate" guid="_xfz04CZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz04SZREd-Hb5ChSoDHIA" name="test_and_evaluate" guid="_xfz04SZREd-Hb5ChSoDHIA" presentationName="Test and Evaluate" superActivities="_xfqECyZREd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_Kj2FxiZIEd-Hb5ChSoDHIA#_Kj2F4CZIEd-Hb5ChSoDHIA"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_xfqECyZREd-Hb5ChSoDHIA" name="develop_support_material_within_scope" guid="_xfqECyZREd-Hb5ChSoDHIA" presentationName="Develop Support Material [within Scope]" briefDescription="This covers activities required to develop supporting material, such as tutorials, product documentation, samples, within the scope identified in the iteration plan. " hasMultipleOccurrences="true" breakdownElements="_xfz04yZREd-Hb5ChSoDHIA _xfz04SZREd-Hb5ChSoDHIA">
+      <methodElementProperty xmi:id="_4C3bQLemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-ZQjcolet0DRCuvUfrJgTTA" href="uma://-ZQjcolet0DRCuvUfrJgTTA#-ZQjcolet0DRCuvUfrJgTTA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

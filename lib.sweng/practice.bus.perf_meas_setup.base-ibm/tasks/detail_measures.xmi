@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-votbIjlK7FCwvLidPw8zjA" name=",_OXSEUP0ZEd20w98rSqT2fg" guid="-votbIjlK7FCwvLidPw8zjA" changeDate="2009-04-13T17:00:06.734-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    To be able to reason about a measure and understand its usage, very specific details for the measure are needed.&#xD;
+    Specifically, detailing involves answering the following questions:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Who is involved in the collection and usage?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What is collected (ex. Defect Count, Actual Cost, Function Points, User Stories)?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How is the collection to occur (manual or automatic)?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        When will it be collected (ex. daily, weekly, monthly, quarterly)?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How are the results of the collection to be displayed (ex. trend chart, distribution chart, tabular)?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        When will the&amp;nbsp;derived measure&amp;nbsp;be displayed?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <sections xmi:id="_bVApkP0aEd20w98rSqT2fg" name="Detail each Measure" guid="_bVApkP0aEd20w98rSqT2fg">
+    <sectionDescription>&lt;p>&#xD;
+    Details about the data elements and associated manipulations are documented in the Measurement Specification. A&#xD;
+    Measurement Specification needs only to&amp;nbsp;be created when the details of a measure are not supported by automated&#xD;
+    data collection. In other words, if the measure is collected manually or not currently detailed in an automated&#xD;
+    collection tool, the actual&amp;nbsp;attributes used&amp;nbsp;in the base measure&amp;nbsp;must be documented in the Measurement&#xD;
+    Specification. See &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.bus.perf_meas_setup.base-ibm/guidances/guidelines/meas_metric_attr_7872593B.html&quot; guid=&quot;_XS0oEDqHEd6VQ8VD96v9YQ&quot;>Measures, Metrics and Attributes&lt;/a>&amp;nbsp;for definitions and clarity of use.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As an example of an operational measure, Cost Variance Percentage, the&amp;nbsp;base measures&amp;nbsp;needing collected are&#xD;
+    Budget at Completion and Actual Cost. To determine the percentage of the Cost Variance the calculation is: Cost&#xD;
+    Variance = (Budget at Completion - the Actual Cost) / Budget at Completion. The step of detailing the measure for Cost&#xD;
+    Variance Percentage in the artifact, Measurement Specification would mean documenting:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The attributes used in the measure (dollars)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The base measures used in the&amp;nbsp;derived measure&amp;nbsp;(Budget at Completion, Actual Cost)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The derived measure&amp;nbsp;used CV=(BC-AC)/BC&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The following items should also be considered:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The timing needed for each practice measure collection&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The relationship for each practice, and practice measure to operational measures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The relationship for each operational measure to business measure&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How each metric in the multi-tiered system is evaluated&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The format to be used with each metric display&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_fAAUoP0aEd20w98rSqT2fg" name="Define Data Interpretation" guid="_fAAUoP0aEd20w98rSqT2fg">
+    <sectionDescription>&lt;p>&#xD;
+    The data of a measure can be either subjective or objective. Either way, the use of the data must be documented in&#xD;
+    order to properly reason about the information. Besides knowing what a collected value is, reasoning about it must also&#xD;
+    include the context in which it was collected. Interpretation for a measure includes: timing, purpose, and&#xD;
+    relationships.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    At what time within the lifecycle of a project a measure was recorded must be kept in mind or else erroneous decision&#xD;
+    making occurs. For example, reporting on the trend associated with Iteration Velocity may indicate a much lower than&#xD;
+    desired release of functionality early in a project's lifecycle. However, good engineering practice stresses that the&#xD;
+    functionality associated with the higher risk or the most difficult, risky functionality,&amp;nbsp;be implemented first.&#xD;
+    During this portion of the lifecycle progress may be slower simply because of the complexity or difficulty of the&#xD;
+    effort while later in the lifecycle when less risky or &quot;easier&quot; functionality is being implemented the desired rate&#xD;
+    would naturally be higher. Therefore, the timing and usage for a particular measure must be understood and documented&#xD;
+    in order to be properly interpreted.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The purpose of the collection for a measure must also be documented so the interpretation of it is appropriately&#xD;
+    constrained. For example, using a trend chart for Iteration Velocity should not be used to tell you that resources are&#xD;
+    appropriately applied. The resources may or may not be appropriately applied. Using a trend chart of Iteration Velocity&#xD;
+    for evaluation of resource allocations is subject to any interpretation the viewer may want to come away with.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Relationships to other measures need to be identified. It is through the relationships that exist between measures that&#xD;
+    an organization can trace the impact of a change at one level of the organization to another. For example, an&#xD;
+    operational objective for an IT organization might be to improve on the delivery of what their customers are asking.&#xD;
+    Establishing a relationship between the more tactical measure of Iteration Velocity and the more long term, annual&#xD;
+    measure of improving Customer Satisfaction provides the ability to trace the impact of change. Improving Iteration&#xD;
+    Velocity, along with other defined control metrics, would provide metric values giving confidence that Customer&#xD;
+    Satisfaction will show improvement when that measure is collected.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_okYNkAhBEd6Kkc8oH2MuNg" name="Detail the Measurement Infrastructure" guid="_okYNkAhBEd6Kkc8oH2MuNg">
+    <sectionDescription>After defining the measurement infrastructure, the definitions need to be implemented in a tool set. The tool set consists&#xD;
+of any software or hardware used in the collection, manipulation, storage, and reporting of the measure. For non-automated&#xD;
+collections, this would include creating the calculations in a spreadsheet to use with the entered data values.</sectionDescription>
+  </sections>
+  <sections xmi:id="_vxT60A3SEd6ABKaDlDsS9w" name="Detail the Measurement Procedures" guid="_vxT60A3SEd6ABKaDlDsS9w">
+    <sectionDescription>&lt;p>&#xD;
+    Detailing the measurement process involves specifying:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Organizational: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Individuals to fill the roles responsible for configuring the measurement system&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Individuals filling the roles responsible for collecting and reporting the implemented metrics&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Individuals to maintain the system&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Detailed work items supplied to the deployment project manager for inclusion in the deployment project plan.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The change process, (enhancements and defects) for the performance measurement systems, the details for submitting&#xD;
+        a request, evaluating a request, implementing an approved request, or rejecting a request&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The procedures of the Performance Measurement System including: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Getting started procedures&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Project procedures&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Program / Portfolio procedures&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Enterprise Procedures&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Maintance Procedures&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The actual timing of the collection for each measure (ex. Wednesday, December 21, 2012 at 11 pm)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <purpose>To identify the data elements, calculations, and display formats for each derived measure.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

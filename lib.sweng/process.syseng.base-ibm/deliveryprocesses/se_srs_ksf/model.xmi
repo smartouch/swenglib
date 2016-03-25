@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_ypkBcMWJEd60U_QPQnBUkQ" guid="_ypkBcMWJEd60U_QPQnBUkQ">
+    <resourceDescriptors xmi:id="_ypkBccWJEd60U_QPQnBUkQ" id="-BmIzx9xnTtezm16ZlLCfcw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_ymuv4MWJEd60U_QPQnBUkQ" name="se_srs_ksf" guid="_ymuv4MWJEd60U_QPQnBUkQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_fE2PMMWKEd60U_QPQnBUkQ" name="elab_srs" guid="_fE2PMMWKEd60U_QPQnBUkQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_fE2PMcWKEd60U_QPQnBUkQ" name="elab_srs" guid="_fE2PMcWKEd60U_QPQnBUkQ" superActivities="_ymuv4cWJEd60U_QPQnBUkQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_xPSq8GG0Ed6ByZ91UzrddQ#_xPSq8WG0Ed6ByZ91UzrddQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_jfhqwMWKEd60U_QPQnBUkQ" name="val_uc_act" guid="_jfhqwMWKEd60U_QPQnBUkQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_jf0lsMWKEd60U_QPQnBUkQ" name="val_uc_act" guid="_jf0lsMWKEd60U_QPQnBUkQ" superActivities="_ymuv4cWJEd60U_QPQnBUkQ" linkToPredecessor="_NHu3ccWMEd60U_QPQnBUkQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_AYgX0GKcEd6Ih4GzU1_Daw#_AYgX0WKcEd6Ih4GzU1_Daw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_NHu3ccWMEd60U_QPQnBUkQ" guid="_NHu3ccWMEd60U_QPQnBUkQ" pred="_sHK2AMWKEd60U_QPQnBUkQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_oqCAwMWKEd60U_QPQnBUkQ" name="arch_an_ksf" guid="_oqCAwMWKEd60U_QPQnBUkQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_oqCAwcWKEd60U_QPQnBUkQ" name="arch_an_ksf" guid="_oqCAwcWKEd60U_QPQnBUkQ" superActivities="_ymuv4cWJEd60U_QPQnBUkQ" linkToPredecessor="_orSTEcWMEd60U_QPQnBUkQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_49fSMJgZEd6u7McLcbxIEQ#_49fSMZgZEd6u7McLcbxIEQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_orSTEcWMEd60U_QPQnBUkQ" guid="_orSTEcWMEd60U_QPQnBUkQ" pred="_2TYyYMWKEd60U_QPQnBUkQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_quNfAMWKEd60U_QPQnBUkQ" name="arch_dsgn_uc" guid="_quNfAMWKEd60U_QPQnBUkQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_quzU4MWKEd60U_QPQnBUkQ" name="arch_dsgn_uc" guid="_quzU4MWKEd60U_QPQnBUkQ" superActivities="_ymuv4cWJEd60U_QPQnBUkQ" linkToPredecessor="_pTEr0MWMEd60U_QPQnBUkQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_ZaJxkJi5Ed6JmoH2XFiafA#_ZaJxkZi5Ed6JmoH2XFiafA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_pTEr0MWMEd60U_QPQnBUkQ" guid="_pTEr0MWMEd60U_QPQnBUkQ" pred="_oqCAwcWKEd60U_QPQnBUkQ"/>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_sHK2AMWKEd60U_QPQnBUkQ" name="Requirements Analysis Gate Review" guid="_sHK2AMWKEd60U_QPQnBUkQ" presentationName="Requirements Analysis Gate Review" superActivities="_ymuv4cWJEd60U_QPQnBUkQ" linkToPredecessor="_VAXoINVlEd6aqbXSUcHDpA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_2TYyYMWKEd60U_QPQnBUkQ" name="Functional Analysis Gate Review" guid="_2TYyYMWKEd60U_QPQnBUkQ" presentationName="Functional Analysis Gate Review" superActivities="_ymuv4cWJEd60U_QPQnBUkQ" linkToPredecessor="_V-p1UNVlEd6aqbXSUcHDpA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_7gbfAMWKEd60U_QPQnBUkQ" name="Architectural Design Gate Review" guid="_7gbfAMWKEd60U_QPQnBUkQ" presentationName="Architectural Design Gate Review" superActivities="_ymuv4cWJEd60U_QPQnBUkQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_VAXoINVlEd6aqbXSUcHDpA" guid="_VAXoINVlEd6aqbXSUcHDpA" pred="_fE2PMcWKEd60U_QPQnBUkQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_V-p1UNVlEd6aqbXSUcHDpA" guid="_V-p1UNVlEd6aqbXSUcHDpA" pred="_jf0lsMWKEd60U_QPQnBUkQ"/>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_ymuv4cWJEd60U_QPQnBUkQ" name="se_srs_ksf" guid="_ymuv4cWJEd60U_QPQnBUkQ" presentationName="SE - Use-case focused" breakdownElements="_fE2PMcWKEd60U_QPQnBUkQ _sHK2AMWKEd60U_QPQnBUkQ _jf0lsMWKEd60U_QPQnBUkQ _2TYyYMWKEd60U_QPQnBUkQ _oqCAwcWKEd60U_QPQnBUkQ _quzU4MWKEd60U_QPQnBUkQ _7gbfAMWKEd60U_QPQnBUkQ">
+      <methodElementProperty xmi:id="_4GcTs7emEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-BmIzx9xnTtezm16ZlLCfcw" href="uma://-BmIzx9xnTtezm16ZlLCfcw#-BmIzx9xnTtezm16ZlLCfcw"/>
+      <includesPatterns href="uma://_xPSq8GG0Ed6ByZ91UzrddQ#_xPSq8WG0Ed6ByZ91UzrddQ"/>
+      <includesPatterns href="uma://_AYgX0GKcEd6Ih4GzU1_Daw#_AYgX0WKcEd6Ih4GzU1_Daw"/>
+      <includesPatterns href="uma://_49fSMJgZEd6u7McLcbxIEQ#_49fSMZgZEd6u7McLcbxIEQ"/>
+      <includesPatterns href="uma://_ZaJxkJi5Ed6JmoH2XFiafA#_ZaJxkZi5Ed6JmoH2XFiafA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

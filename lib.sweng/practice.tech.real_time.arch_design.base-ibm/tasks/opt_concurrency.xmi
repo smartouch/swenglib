@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-5wsN2cbvOKzfZA3hWv5S9Q" name="opt_concurrency,_iUIJALB2Ed-_-u_W99sqSA" guid="-5wsN2cbvOKzfZA3hWv5S9Q" changeDate="2010-10-20T10:12:55.218-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    The concurrency and resource architectural view is one of critical importance for real-time and embedded systems. This&#xD;
+    view is concerned with:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The identification of concurrency units (tasks or threads)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specification of the scheduling policy for the concurrency units&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specification of the scheduling metadata for the concurrency units, including arrival pattern, synchronization&#xD;
+        pattern, periodicity, jitter, minimum arrival time, worst case execution time, blocking time, etc.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specification of the resource sharing strategies and patterns between concurrency units&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Determination of the timeliness of tasks and the scheduleability of the task sets.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Determining and eliminating potential deadlock.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <sections xmi:id="_qcI_sNxtEd-iT-dJmEtOOg" name="Make a new Active class for each task" guid="_qcI_sNxtEd-iT-dJmEtOOg">
+    <sectionDescription>Active classes are the fundamental unit of concurrency in the UML. We recommend you create new classes here rather than&#xD;
+make classes from your analysis model active. This makes for an easier migration to the concurrency architecture.</sectionDescription>
+  </sections>
+  <sections xmi:id="_AxwW0NxuEd-iT-dJmEtOOg" name="Identify Tasks" guid="_AxwW0NxuEd-iT-dJmEtOOg">
+    <sectionDescription>Using the task identification strategies, define which tasks should be created.</sectionDescription>
+  </sections>
+  <sections xmi:id="_CFWssNxuEd-iT-dJmEtOOg" name="Analyze concurrency architecture for scheduleability" guid="_CFWssNxuEd-iT-dJmEtOOg">
+    <sectionDescription>We recommend that you perform scheduleability analysis on your concurrency architecture to ensure that even under conditions&#xD;
+not tested, you can be guaranteed that all deadlines can be met.</sectionDescription>
+  </sections>
+  <sections xmi:id="_DxrroNxuEd-iT-dJmEtOOg" name="Apply resource sharing patterns" guid="_DxrroNxuEd-iT-dJmEtOOg">
+    <sectionDescription>The resource patterns are applied with model refactoring to integrate them into the system design.</sectionDescription>
+  </sections>
+  <sections xmi:id="_NFup4NxuEd-iT-dJmEtOOg" name="Identify synchronization points" guid="_NFup4NxuEd-iT-dJmEtOOg">
+    <sectionDescription>Synchronization points are points in different task action sequences when they must interact with other tasks.</sectionDescription>
+  </sections>
+  <sections xmi:id="_O_xUsNxuEd-iT-dJmEtOOg" name="Apply scheduling patterns" guid="_O_xUsNxuEd-iT-dJmEtOOg">
+    <sectionDescription>The scheduling patterns are applied to integrate them into the system design.</sectionDescription>
+  </sections>
+  <sections xmi:id="_QnVIYNxuEd-iT-dJmEtOOg" name="Select resource sharing patterns" guid="_QnVIYNxuEd-iT-dJmEtOOg">
+    <sectionDescription>A resource sharing pattern focuses on a technical means for sharing a resource so as to maintain its integrity while&#xD;
+simultaneously optimizing its client's usage.</sectionDescription>
+  </sections>
+  <sections xmi:id="_SJPAANxuEd-iT-dJmEtOOg" name="Test model with tasks in place" guid="_SJPAANxuEd-iT-dJmEtOOg">
+    <sectionDescription>The testing of the elaborated model should focus on two aspects. First, the addition of the concurrency elements should not&#xD;
+break existing functionality. Secondly, the desired optimizations should be achieved.</sectionDescription>
+  </sections>
+  <sections xmi:id="_Tuj_ENxuEd-iT-dJmEtOOg" name="Identify shared resources" guid="_Tuj_ENxuEd-iT-dJmEtOOg">
+    <sectionDescription>Resources are typically passive elements that are constrained in some way. When resources are shared, care must be taken to&#xD;
+ensure their integrity.</sectionDescription>
+  </sections>
+  <sections xmi:id="_VEiTgNxuEd-iT-dJmEtOOg" name="Select scheduling patterns" guid="_VEiTgNxuEd-iT-dJmEtOOg">
+    <sectionDescription>There are many ways to schedule tasks. See the associated guidance.</sectionDescription>
+  </sections>
+  <sections xmi:id="_WSeGQNxuEd-iT-dJmEtOOg" name="Apply synchronization patterns" guid="_WSeGQNxuEd-iT-dJmEtOOg">
+    <sectionDescription>The synchronization patterns are applied with model refactoring to integrate them into the system design.</sectionDescription>
+  </sections>
+  <sections xmi:id="_X7-asNxuEd-iT-dJmEtOOg" name="Select synchronization patterns" guid="_X7-asNxuEd-iT-dJmEtOOg">
+    <sectionDescription>There are many synchronization strategies and patterns that can be applied. For more information, see the referenced&#xD;
+material.</sectionDescription>
+  </sections>
+  <sections xmi:id="_fB3fUNxuEd-iT-dJmEtOOg" name="Refine each task" guid="_fB3fUNxuEd-iT-dJmEtOOg">
+    <sectionDescription>&lt;p>&#xD;
+    This includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Specifying the tasks properties, such as: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Priority&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Worst case execution time&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Blocking time&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Deadline&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Period&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Jitter&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Minimum inter-arrival time&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Maximum burst length&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Adding &quot;passive&quot; objects into the «active» class as parts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Refactor the collaboration to include the «active» classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Refine scenarios to include «active» classes&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to identify the concurrency units, map passive objects into task threads, specify how the tasks&#xD;
+will run, and specify how resources will be shared among the tasks.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-DP6DHU8faEpzlyMPc0BzBA" name="service_identification,_LOfIUa2aEd6tfrxTUPeKPg" guid="-DP6DHU8faEpzlyMPc0BzBA" version="7.5.0">
+    <mainDescription>&lt;p>&#xD;
+    This is a &quot;project-scope&quot; workflow; the assumption is that the project continues with Service Specification&#xD;
+    activities.&amp;nbsp; If a project is being executed where service identification results are the end products, consider&#xD;
+    performing the &quot;Service Litmus Testing&quot; activity from the Rational SOMA Service Specification practice as the terminal&#xD;
+    activity in the workflow.&amp;nbsp; Doing so provides you with a ready list of services to be defined and implemented&#xD;
+    during future endeavors.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The workflow begins with goal-service modeling, to help emphasize the importance of ensuring that the SOA ties back to&#xD;
+    the business strategy.&amp;nbsp; If you are beginning with an empty candidate service portfolio, it might be difficult to&#xD;
+    describe meaningful, goal-fulfilling candidates that also fit well with candidates discovered during the other&#xD;
+    activities, such as Business Model Analysis.&amp;nbsp; You can address this issue in a number of ways, including:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Pay particular attention during refactoring activities to the need to reconcile the services discovered during&#xD;
+        goal-service modeling with the services discovered during other activities; or&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Delay goal-service modeling.&amp;nbsp; In some cases, it can be useful to dispense with the&amp;nbsp;initial Goal-Service&#xD;
+        Modeling activity entirely, and focus on using the second instance, which ends the illustrated workflow, as a&#xD;
+        &quot;catcher&quot; activity to ensure that each goal is served by a candidate service.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <keyConsiderations>&lt;p>&#xD;
+    The workflow diagram illustrates an optional second round of goal-service modeling at the end of System&#xD;
+    Identification.&amp;nbsp; This is performed only if there is a need to either of the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        re-confirm that all sub-goals have been addressed by at least one service.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        allocate newly discovered candidate services to sub-goals.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xsTUntCw1zRgrNdakgQf1w" name="associate_services_to_business_goals_1,_V7OwIK2gEd6_dJstfLPnzA" guid="-xsTUntCw1zRgrNdakgQf1w">
+    <keyConsiderations>&lt;p>&#xD;
+    Failure to clearly define business goals will make it difficult to determine if proposed candidate services are&#xD;
+    business-aligned and appropriate for use in an SOA based initiative.&amp;nbsp;Because Goal-Service Modeling can also&#xD;
+    identify (not simply validate) candidate services, failure to create this work product can lead to gaps in the service&#xD;
+    portfolio. These factors can result in additional effort and cost due to the creation of unnecessary services, or&#xD;
+    reduced success of the SOA based solution due to gaps in the service portfolio.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Because&amp;nbsp;the Goal-Service Model is important to defining the scope of other service identification activities,&#xD;
+    failure to create it could result in unnecessary effort being spent in other activities, or gaps in the output from&#xD;
+    those activities.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Although the Goal-Service Model is considered important, if not essential, for a majority of SOA based initiatives,&#xD;
+    there could be occasional circumstances where the focus is narrowed to the creation of services for common technology&#xD;
+    functions which might not appear to be easily aligned with specific business goals. It is worth considering that, even&#xD;
+    in these scenarios, the Goal-Service Model can be used to document goals related to the Business of IT.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This task produces a goal-service model -- an allocation of candidate services (or existing services) to business&#xD;
+    goals.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In this task, the work product slot of [Business Requirements] is fulfilled by Business Goals.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This technique begins with generalized statements of business goals, with subsequent decomposition into sub-goals that&#xD;
+    must be met in order to fulfill&amp;nbsp;each higher level goal. This eventually leads to a level of decomposition that&#xD;
+    supports the identification of services associated with the sub-goals. During this process, KPIs are identified and&#xD;
+    collected along with the metrics that will be used to measure, monitor, and verify the degree of success in actually&#xD;
+    achieving the goals.&amp;nbsp; Finally, candidate services and services are allocated to the goals and sub-goals.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Task steps &lt;code>Identify business goals and sub-divide into sub-goals&lt;/code> and&amp;nbsp;&lt;code>Identify Key Performance Indicators and&#xD;
+    metrics for sub-goals&lt;/code> are optional.&amp;nbsp; They do not need to be performed if a goal hierarchy with associated KPIs&#xD;
+    and metrics already exists when the task begins.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_identification.base-ibm/guidances/examples/identifying_candidate_services_from_business_goals_E936E134.html&quot; guid=&quot;_p3DoIGTgEd6EKfYvqjfiMA&quot;>Example: Identifying Candidate Services from Business Goals&lt;/a>&amp;nbsp;for two sample&#xD;
+    representations of a goal-service model.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QqvvNsAFibgN4mb3-iVd9g" name="associate_services_to_business_goals,_xdavQa2fEd6_dJstfLPnzA" guid="-QqvvNsAFibgN4mb3-iVd9g">
+    <keyConsiderations>&lt;p>&#xD;
+    Failure to clearly define business goals will make it difficult to determine if proposed candidate services are&#xD;
+    business-aligned and appropriate for use in an SOA based initiative.&amp;nbsp;Because Goal-Service Modeling can also&#xD;
+    identify (not simply validate) candidate services, failure to create this work product can lead to gaps in the service&#xD;
+    portfolio. These factors can result in additional effort and cost due to the creation of unnecessary services, or&#xD;
+    reduced success of the SOA based solution due to gaps in the service portfolio.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Because&amp;nbsp;the Goal-Service Model is important to defining the scope of other service identification activities,&#xD;
+    failure to create it could result in unnecessary effort being spent in other activities, or gaps in the output from&#xD;
+    those activities.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Although the Goal-Service Model is considered important, if not essential, for a majority of SOA based initiatives,&#xD;
+    there could be occasional circumstances where the focus is narrowed to the creation of services for common technology&#xD;
+    functions which might not appear to be easily aligned with specific business goals. It is worth considering that, even&#xD;
+    in these scenarios, the Goal-Service Model can be used to document goals related to the Business of IT.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This task produces a goal-service model -- an allocation of candidate services (or existing services) to business&#xD;
+    goals.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In this task, the work product slot of [Business Requirements] is fulfilled by Business Goals.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This technique begins with generalized statements of business goals, with subsequent decomposition into sub-goals that&#xD;
+    must be met in order to fulfill&amp;nbsp;each higher level goal. This eventually leads to a level of decomposition that&#xD;
+    supports the identification of services associated with the sub-goals. During this process, KPIs are identified and&#xD;
+    collected along with the metrics that will be used to measure, monitor, and verify the degree of success in actually&#xD;
+    achieving the goals.&amp;nbsp; Finally, candidate services and services are allocated to the goals and sub-goals.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Task steps &lt;code>Identify business goals and sub-divide into sub-goals&lt;/code> and&amp;nbsp;&lt;code>Identify Key Performance Indicators and&#xD;
+    metrics for sub-goals&lt;/code> are optional.&amp;nbsp; They do not need to be performed if a goal hierarchy with associated KPIs&#xD;
+    and metrics already exists when the task begins.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_identification.base-ibm/guidances/examples/identifying_candidate_services_from_business_goals_E936E134.html&quot; guid=&quot;_p3DoIGTgEd6EKfYvqjfiMA&quot;>Example: Identifying Candidate Services from Business Goals&lt;/a>&amp;nbsp;for two sample&#xD;
+    representations of a goal-service model.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xDYo71ywO-QvYW2ev-PbPA" name="goal_service_model,_xdavRq2fEd6_dJstfLPnzA" guid="-xDYo71ywO-QvYW2ev-PbPA">
+    <keyConsiderations>The Goal Service Model is required to ensure traceability between the Business Strategy and IT Capabilities; it supports&#xD;
+accountability in the relationship between the business and IT and as such must be kept up to date.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The Goal-Service Model relates business goals to candidate services and exposed services.&amp;nbsp; This model is developed&#xD;
+    iteratively.&amp;nbsp; During&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_identification.base-ibm/tasks/associate_services_to_business_goals_9515DEBE.html&quot; guid=&quot;_unALUK-BEd2qXOsgZ_h9PA&quot;>Task: Identify and Associate Services to Business Goals&lt;/a>,&amp;nbsp;the model includes&#xD;
+    all candidate services mapped to the business strategy in terms of business goals. During Service Specification's&#xD;
+    litmus testing,&amp;nbsp;service exposure decisions are&amp;nbsp;made.&amp;nbsp;&amp;nbsp;The mapping of exposed services must be&#xD;
+    checked and, if necessary, refined to ensure that the details are correct.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Create a single&amp;nbsp;instance of the Goal-Service Model to address all business domains that are within the scope of&#xD;
+    the project.&amp;nbsp; It is preferable to create a single Goal-Service Model instance for the project, rather than one per&#xD;
+    domain.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This work product&amp;nbsp;can be represented in a number of ways, described below.&amp;nbsp; The&amp;nbsp;representation itself is&#xD;
+    far less important than the fact that the information represented has to be kept up-to-date as the details of the&#xD;
+    service model change. Therefore it is common for this model to be represented in a form that facilitates rapid review&#xD;
+    and change.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-0HLndwI5e_Y4HU0aFUfcKQ" name="refactor_the_candidate_service_model,_L_aAMK2gEd6_dJstfLPnzA" guid="-0HLndwI5e_Y4HU0aFUfcKQ">
+    <refinedDescription>&lt;p>&#xD;
+    Applying multiple candidate service identification techniques most likely will result in&amp;nbsp;identifying some&#xD;
+    candidate services that overlap each other, functionally and structurally.&amp;nbsp; This task is performed&amp;nbsp;so that&#xD;
+    redundant concepts are eliminated and the remaining candidates are structured and related so as to maximize&#xD;
+    comprehension and future maintenance.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The main tool that is used to perform the refactoring is &lt;em>commonality and variability analysis&lt;/em>.&amp;nbsp; This is&#xD;
+    introduced in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/variability_analysis_5DE99340.html&quot; guid=&quot;_Tt8JMEo3Ed6D_7XK49c0nw&quot;>Concept: Variability Analysis&lt;/a>.&amp;nbsp;&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/variability_analysis_AF5936CF.html&quot; guid=&quot;_lP-BoFbREd6MCpkuB85p5g&quot;>Guideline: Variability Analysis&lt;/a>&amp;nbsp;provides additional discussion on this&#xD;
+    technique.&amp;nbsp; &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/variability_analysis_8B6BEC31.html&quot; guid=&quot;_f_0xkEo3Ed6D_7XK49c0nw&quot;>Example: Variability Analysis&lt;/a>&amp;nbsp;presents an example&amp;nbsp;and also illustrates&#xD;
+    some common taxonomic hierarchies that are used to describe variability.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

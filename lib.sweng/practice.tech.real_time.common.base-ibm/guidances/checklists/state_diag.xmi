@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-CZIM5z0p2xbvtbqH05-E2Q" name="new_checklist,_wfx7EOIpEd-aTvH4QbT1dw" guid="-CZIM5z0p2xbvtbqH05-E2Q" version="7.5.0">
+  <mainDescription>A state diagram provides a static view of the entire state space of an object at some level of abstraction, from the&#xD;
+complete system down to simple primitive objects.</mainDescription>
+  <sections xmi:id="_A7OAgOIvEd-aTvH4QbT1dw" name="Does the state machine define the behavior for reactive classes and use cases?" guid="_A7OAgOIvEd-aTvH4QbT1dw">
+    <sectionDescription>Every class or use case that responds to incoming events should have an explicit state machine created.</sectionDescription>
+  </sections>
+  <sections xmi:id="_D5gWkOIvEd-aTvH4QbT1dw" name="Does every level of nesting have a default state?" guid="_D5gWkOIvEd-aTvH4QbT1dw"/>
+  <sections xmi:id="_F-3gkOIvEd-aTvH4QbT1dw" name="Does every composite state contain more than one nested state?" guid="_F-3gkOIvEd-aTvH4QbT1dw">
+    <sectionDescription>An exception to this rule is when the state machine is for a base class which is expected to be extended in subclasses by&#xD;
+adding additional nested states.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IsngQOIvEd-aTvH4QbT1dw" name="Does every and-state have a default state?" guid="_IsngQOIvEd-aTvH4QbT1dw"/>
+  <sections xmi:id="_dwIWUOIvEd-aTvH4QbT1dw" name="Does every and-states represent independence of execution and not OS threads?" guid="_dwIWUOIvEd-aTvH4QbT1dw">
+    <sectionDescription>Active classes are the primary means in the UML to represent OS threads not and-states.</sectionDescription>
+  </sections>
+  <sections xmi:id="_iqPf4OIvEd-aTvH4QbT1dw" name="Are all events for a state machine synchronous or all asynchronous?" guid="_iqPf4OIvEd-aTvH4QbT1dw">
+    <sectionDescription>Use of both synchronous and asynchronous events in the same state machine can lead to race conditions, so mixing them in&#xD;
+the same state machine should be done with great care.</sectionDescription>
+  </sections>
+  <sections xmi:id="_mfq5UOIvEd-aTvH4QbT1dw" name="Are all state and event names drawn from the problem domain?" guid="_mfq5UOIvEd-aTvH4QbT1dw">
+    <sectionDescription>The state machine should usually map closely to the problem concepts being represented.</sectionDescription>
+  </sections>
+  <sections xmi:id="_pcw8kOIvEd-aTvH4QbT1dw" name="Are composite and and-states used when they simplify the overall state machine?" guid="_pcw8kOIvEd-aTvH4QbT1dw">
+    <sectionDescription>The use of nesting and orthogonality should be restricted to circumstances in which they simplify the state machine.&#xD;
+And-states can always be separated out into separate classes (with relations to the original) but that may or may not&#xD;
+simplify the behavioral representation. In general, separate classes are preferred unless the and-states are inherently&#xD;
+tightly-coupled. Also, it is usually preferable to use and-states for use case state machines.</sectionDescription>
+  </sections>
+  <sections xmi:id="_uLQsAOIvEd-aTvH4QbT1dw" name="Are race conditions addressed when the same event occurs in different and-states?" guid="_uLQsAOIvEd-aTvH4QbT1dw">
+    <sectionDescription>A Race Condition can arise when the same event is used in orthogonal and-states. Such circumstances should be examined to&#xD;
+ensure that they do not lead to race conditions.</sectionDescription>
+  </sections>
+  <sections xmi:id="_x_fLkOIvEd-aTvH4QbT1dw" name="Is the guard on the same conditional pseudostate orthogonal?" guid="_x_fLkOIvEd-aTvH4QbT1dw">
+    <sectionDescription>Guard conditions should be non-overlapping, so that it is clear which path is taken; for example [x&amp;gt;0] and &amp;lt;x &amp;lt;=)]&#xD;
+are orthogonal, but [x&amp;gt;0] and [x&amp;gt;10] are not.</sectionDescription>
+  </sections>
+  <sections xmi:id="_001oEOIvEd-aTvH4QbT1dw" name="Do guards have side effects?" guid="_001oEOIvEd-aTvH4QbT1dw">
+    <sectionDescription>A&amp;nbsp;guard should not change anything - whether it is a state, value of other condition - due to its execution.</sectionDescription>
+  </sections>
+  <sections xmi:id="_3SVlQOIvEd-aTvH4QbT1dw" name="Are actions assumed to execute after guards?" guid="_3SVlQOIvEd-aTvH4QbT1dw">
+    <sectionDescription>In UML state machines, guards are always executed prior to actions.</sectionDescription>
+  </sections>
+  <sections xmi:id="_5labIOIvEd-aTvH4QbT1dw" name="Is transition flow primarily top-bottom and left-right?" guid="_5labIOIvEd-aTvH4QbT1dw">
+    <sectionDescription>This isn't always possible but when it is, it makes the diagram easier to read.</sectionDescription>
+  </sections>
+  <sections xmi:id="_94yU0OIvEd-aTvH4QbT1dw" name="Are most states conditions in which the context waits for an event of interest?" guid="_94yU0OIvEd-aTvH4QbT1dw">
+    <sectionDescription>This isn't universally true since occasionally states are added to force a run-to-completion step, but the vast majority of&#xD;
+states wait for events of interest.</sectionDescription>
+  </sections>
+  <sections xmi:id="_CtsOQOIwEd-aTvH4QbT1dw" name="Is every state reachable?" guid="_CtsOQOIwEd-aTvH4QbT1dw"/>
+  <sections xmi:id="_D475YOIwEd-aTvH4QbT1dw" name="Are black-hole states avoided?" guid="_D475YOIwEd-aTvH4QbT1dw">
+    <sectionDescription>Avoid states that have no exiting transitions. If a state machine terminates, it should transition to a terminal&#xD;
+pseudostate.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

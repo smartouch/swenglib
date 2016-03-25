@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Aq3a5YBlUwrnM0Bwvfsp1Q" name="identify_candidate_services_from_business_functional_models,_uYy9sGTPEd6EKfYvqjfiMA" guid="-Aq3a5YBlUwrnM0Bwvfsp1Q" changeDate="2009-09-24T14:45:07.100-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Candidate services&amp;nbsp;can be mapped to the&amp;nbsp;business services which are identified during functional area&#xD;
+    analysis at two levels:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Individual business&amp;nbsp;functions can be mapped to individual candidate services&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Business service interfaces (collections of cohesive business functions) can be mapped to individual candidate&#xD;
+        services&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The business service interfaces coming out of the functional area analysis will be manifested either as&amp;nbsp;interfaces&#xD;
+    on the functional areas or&amp;nbsp;interfaces on business systems that are allocated to functional areas.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In this task, the work product slot of [Business Design] is filled by the Functional Area Model.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    Identifying candidate services from business functional models is one of several schemes which complement each other&#xD;
+    during candidate services identification.&amp;nbsp; Omitting any of the methods increases the risk that some candidate&#xD;
+    services will not be discovered.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This particular technique provides a valuable coverage check on the results obtained from identifying candidate&#xD;
+    services&amp;nbsp;using business process analysis.&amp;nbsp; The business functions in the functional area model are expected&#xD;
+    to&amp;nbsp;be essentially identical to the process tasks that are allocated to functional areas during &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.bus.common.extend-ibm/guidances/concepts/business_process_decomposition_70D1DA00.html&quot; guid=&quot;_0XDGMEozEd6D_7XK49c0nw&quot;>business process decomposition&lt;/a>.&amp;nbsp; So, the two techniques&amp;nbsp;are expected&#xD;
+    to&amp;nbsp;yield similar sets of large-grained service operations.&amp;nbsp; If this is not the case, this indicates that&#xD;
+    either the business functional model or the process model&amp;nbsp;is incomplete.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_jQ308HiBEd6L1v5Y8xO1jw" name="Perform functional area analysis (optional)" guid="_jQ308HiBEd6L1v5Y8xO1jw">
+    <sectionDescription>&lt;p>&#xD;
+    This&amp;nbsp;step is optional if a Functional Area Model [Business Design]&amp;nbsp;already is available as input to service&#xD;
+    identification.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/performing_functional_area_analysis_30EE424E.html&quot; guid=&quot;_klEJQEo1Ed6D_7XK49c0nw&quot;>Guideline: Performing Functional Area Analysis&lt;/a>&amp;nbsp;for core guidance on creating a&#xD;
+    functional area model.&amp;nbsp; Use &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/checklists/functional_area_analysis_724C5A06.html&quot; guid=&quot;_1KBJUEo1Ed6D_7XK49c0nw&quot;>Checklist: Functional Area Analysis&lt;/a>&amp;nbsp;to improve the correctness and completeness&#xD;
+    of your work.&amp;nbsp; &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.bus.common.extend-ibm/guidances/examples/functional_area_analysis_8A424EC8.html&quot; guid=&quot;_zrm1sGpiEd6g0_jzBUWUGg&quot;>Example: Functional Area Analysis&lt;/a>&amp;nbsp;walks through the thought process of&#xD;
+    identifying a business' functional areas.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_ncMl4HiBEd6L1v5Y8xO1jw" name="Identify candidate services from business functions" guid="_ncMl4HiBEd6L1v5Y8xO1jw">
+    <sectionDescription>&lt;p>&#xD;
+    Map the business functions in the functional area model into candidate services.&amp;nbsp; This mapping can be performed at&#xD;
+    two levels:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Individual business&amp;nbsp;functions can be mapped to individual candidate services&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Business service interfaces (collections of cohesive business functions) can be mapped to individual candidate&#xD;
+        services&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The business service interfaces coming out of the functional area analysis will be manifested either as&amp;nbsp;interfaces&#xD;
+    on the functional areas or&amp;nbsp;as interfaces on business systems that are allocated to functional areas.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Generally, the recommended&amp;nbsp;practice is to map&amp;nbsp;a business service interface to a single candidate&#xD;
+    service.&amp;nbsp; This assumes that the functions allocated to the business service interface are cohesive.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Figure 1 shows a portion of a functional area model, expressed in UML notation.&amp;nbsp; The business service&#xD;
+    interface, which in this case offers a single operation, would be mapped to a candidate service.&#xD;
+&lt;/p>&#xD;
+&lt;p>&lt;strong>Figure 1. Part of a functional area model&lt;/strong>&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&#xD;
+    &lt;img height=&quot;267&quot; alt=&quot;&quot; src=&quot;./resources/sales_domain_overview.gif&quot; width=&quot;454&quot; />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_JU8R4HiWEd6ks5VPZ8tZkQ" name="Update candidate service portfolio and service hierarchy" guid="_JU8R4HiWEd6ks5VPZ8tZkQ">
+    <sectionDescription>Add the new candidate service to the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/candidate_services_portfolio_A1269E3C.html&quot; guid=&quot;_YDPAYEo1Ed6D_7XK49c0nw&quot;>candidate service portfolio&lt;/a>.&amp;nbsp;&amp;nbsp; Position&amp;nbsp;them within the candidate service&#xD;
+hierarchy.&amp;nbsp; &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/candidate_services_portfolio_FE0053FA.html&quot; guid=&quot;_hsZDIGkaEd6g1IDZLlcC3g&quot;>Example: Candidate Services Portfolio&lt;/a>&amp;nbsp;provides some samples and discussion&#xD;
+regarding the candidate service hierarchy.</sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    To identify candidate services based upon business services that were identified during a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.bus.common.extend-ibm/guidances/concepts/functional_area_analysis_9B1F96D5.html&quot; guid=&quot;_fk1woEo1Ed6D_7XK49c0nw&quot;>functional area analysis&lt;/a>.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

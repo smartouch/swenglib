@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-tnPJ-5liZTlojjI2YB92aA" name="identify_testability_mechanisms,_A6C9YHE6Edy8Ac588DXPCQ" guid="-tnPJ-5liZTlojjI2YB92aA" changeDate="2007-12-20T13:22:47.109-0800" version="7.2.0">
+  <sections xmi:id="_nu2DQHdaEdyqd9oUl_5ulw" name="Examine the Software Architecture and its Target Environments " guid="_nu2DQHdaEdyqd9oUl_5ulw">
+    <sectionDescription>To perform this task within the appropriate context, it is important to have a good understanding of the software being&#xD;
+developed, its architecture, and the key mechanisms and features that it will support. Examine the available documentation&#xD;
+for the software architecture to gain an initial understanding, and supplement this with interviews or discussions with the&#xD;
+software architect as required. Consider the impact that each target deployment environment might have on this information,&#xD;
+and note any important findings that you think may be relevant to the test effort.</sectionDescription>
+  </sections>
+  <sections xmi:id="_sOvWAHdaEdyqd9oUl_5ulw" name="Identify Candidate Mechanisms for Test " guid="_sOvWAHdaEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Using your knowledge of the software architecture and its target environments, examine the information provided in the&#xD;
+    test approach. Consider the key technical aspects of the approach, and assemble a list of candidate mechanisms that&#xD;
+    will be needed to support it. Here is a partial list of common mechanisms you should consider as candidates;&#xD;
+    persistence, concurrency, distribution, communication, security, transaction management, recovery, error detection&#xD;
+    handling and reporting, and process control and synchronization.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    These mechanisms often apply to both manual and automated test efforts, although a specific mechanism may have more or&#xD;
+    less relevance to manual or automated testing. Also, even where the same mechanism is required for both manual and&#xD;
+    automated test efforts, the characteristics of the implemented solution will usually differ.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_uazk8HdaEdyqd9oUl_5ulw" name="Inventory the Existing Test Mechanisms " guid="_uazk8HdaEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Examine the available test tools and existing test implementations, and create an inventory of mechanisms that have one&#xD;
+    or more existing solutions. While this step is more obviously relevant in terms of the automated test effort, there are&#xD;
+    some equivalent considerations for the manual test effort.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;a id=&quot;ExistingAutomationMechanisms&quot; name=&quot;ExistingAutomationMechanisms&quot;>&lt;strong>Test automation&#xD;
+    mechanisms&lt;/strong>&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Start by compiling a list of the tools available to you or that you plan to purchase. Remember that automation tools&#xD;
+    take many forms, and your list will usually include more than the automated test implementation and execution tools.&#xD;
+    For each tool, examine the mechanisms provided by the tool. For example, does the scripting tool you plan to use&#xD;
+    provide its own data persistency mechanism and, if so, is it appropriate for your needs, or will you need to supplement&#xD;
+    it? Other questions might include: Does the execution tool allow concurrent execution of test scripts on multiple host&#xD;
+    client machines? Does the execution tool allow distribution of scripts from a central master machine to multiple host&#xD;
+    client machines?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Where existing test automation implementations are available, there will be additional mechanisms to inventory. Some&#xD;
+    aspects of these implementations will extend or supplement the basic mechanisms provided by the tools to make them more&#xD;
+    useful. Other aspects will offer implementations for additional mechanisms not provided in the base tool. &#xD;
+    &lt;!--- See [[[Guidelines: Test Automation Architecture]]] &#xD;
+    for further suggestions.&lt;/p>=-->&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    &lt;a id=&quot;ExistingManualMechanisms&quot; name=&quot;ExistingManualMechanisms&quot;>Manual test mechanisms&lt;/a>&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    At a basic level, this will involve reviewing the test guidelines that exist for test implementation and execution. You&#xD;
+    should look for existing process solutions for issues such as concurrency (how testers can share data sets, especially&#xD;
+    existing data beds, without adversely affecting each other) and distribution (if the test team is distributed, what&#xD;
+    solutions are available to coordinate the separate test efforts).&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_yJrDYHdaEdyqd9oUl_5ulw" name="Define the Test Mechanisms You Will Use " guid="_yJrDYHdaEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Now that you have decided on the test mechanisms required, you need to communicate your choices to the test team and&#xD;
+    other stakeholders in the test effort. Document the decisions about the test mechanisms required for automation as part&#xD;
+    of the the Test Automation Architecture documentation, and those that relate to manual testing as part of the Test&#xD;
+    Guidelines.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As an alternative to formal documentation, you might choose to simply record this information as a set of informal&#xD;
+    architecture and process notes, accompanied by some explanatory diagrams, possibly retained on a white-board. During&#xD;
+    test implementation and execution, individual testers will make use of this information to make tactical decisions.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Where you have identified the potential requirement for special test interfaces that will need to be built into the&#xD;
+    software being developed, you should consider recording this requirement by creating one or more outlined Test&#xD;
+    Interface Specifications; this outline should provide a name and brief description, and enumerate the main test&#xD;
+    interface requirements or features. Avoid spending a lot of time on these outlines: the list of requirements and&#xD;
+    features will be subsequently detailed in &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.independent_testing.base-ibm/tasks/define_testability_elements_ED2AC642.html&quot;&#xD;
+    guid=&quot;_4REVYHE5Edy8Ac588DXPCQ&quot;>Task: Define Testability Elements&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_47cSIHdaEdyqd9oUl_5ulw" name="Evaluate and Verify Your Results " guid="_47cSIHdaEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    You should evaluate whether your work is of appropriate quality, and that it is complete enough to be useful to those&#xD;
+    team members who will make subsequent use of it as input to their work. Where possible, use checklists to verify that&#xD;
+    quality and completeness are good enough.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Have the people who perform the downstream tasks that rely on your work as input review your interim work. Do this&#xD;
+    while you still have time available to take action to address their concerns. You should also evaluate your work&#xD;
+    against the key input work products to make sure that you have represented them accurately and sufficiently. It may be&#xD;
+    useful to have the author of the input work product review your work on this basis.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

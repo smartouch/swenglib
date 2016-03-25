@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-MQ_UEdNt5pKYFP3OABfq-w" name="Architectural Analysis - Key Systems Functions,_49fSMZgZEd6u7McLcbxIEQ" guid="-MQ_UEdNt5pKYFP3OABfq-w" version="7.5.0"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qFEJQUbwwKNqXRh4A-3Dfw" name="id_key_sys_functions,_1J4oQJgaEd6u7McLcbxIEQ" guid="-qFEJQUbwwKNqXRh4A-3Dfw">
+    <refinedDescription>&lt;p>&#xD;
+    The use-case black-box activity diagrams created during functional analysis are reviewed to group the action nodes into&#xD;
+    key system functions. Possible criteria for grouping system functions are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the system functions are cohesive and/or tightly coupled;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the system functions may be realized by a single architectural component;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the system functions will be realized by reuse of an existing component (HW/SW);&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the system functions will be reused within the system; or&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the system functions address a specific design constraint.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-l85StSypRIsUvpu1mTSy2g" name="stk_reqs_spec,_1KCZQJgaEd6u7McLcbxIEQ" guid="-l85StSypRIsUvpu1mTSy2g">
+    <refinedDescription>&lt;p>&#xD;
+    In practice, there&amp;nbsp;may be several levels of Stakeholder Requirements Specification - for example, in some cases&#xD;
+    the Vision could be sufficient. In other cases, organizations may need to work with several levels of Stakeholder,&#xD;
+    evolving the specification for the different levels. Typically, this&amp;nbsp;would include specifications such as&#xD;
+    a&amp;nbsp;Product Vision, Product Objectives, Product Specification, etc.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If more than one level of Stakeholder Requirement Specification is used, then remember the following points:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Each document must be a complete and consistent description of the problem, at an appropriate level of abstraction&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Traceability must be maintained throughout the levels&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All documents must be maintained in parallel&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Frequently, it&amp;nbsp;is sufficient to evolve a single document. However, we recommend retaining at least the distinction&#xD;
+    between the overall Vision and the Stakeholder Requirements.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZHpbflsXSGhfZay9GI5H0A" name="sys_operation,_1KCZQZgaEd6u7McLcbxIEQ" guid="-ZHpbflsXSGhfZay9GI5H0A">
+    <refinedDescription>&lt;p>&#xD;
+    An operation specification has the following outline:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Description&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Input/Output Parameters&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Non-functional requirements: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                These are derived from the non-functional requirements associated with the steps in the various Use Cases&#xD;
+                that this operation supports.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                The context in which the operation is used (i.e. a particular Use Case) may or may not be captured (e.g. it may&#xD;
+                be specified in terms of supporting the minimum performance requirement when all Use Cases are considered)&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Pre-conditions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Post-conditions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Superordinate system traceability&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: use-case (steps) traceability&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In most of the cases, the Operations are defined for the top-level system and the main subsystems, going with the&#xD;
+    decomposition as deep as needed, in a recursive fashion. The Operations are grouped around interfaces along the main&#xD;
+    responsibilities of the (sub)system under consideration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible&amp;nbsp;for the integrity of the operation set,&amp;nbsp;should ensure&amp;nbsp;that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the operations are unique and there is no overlap between them&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the related operations are logically grouped around interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        each operation is properly documented&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the traceability relationships to other operations and/or use-case steps have been established&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        proper coverage of the use cases or system's operations, based on the scope of the current iteration&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2shVoSxqe2YSA7Cp27o-Jg" name="sys_srs,_1KCZQpgaEd6u7McLcbxIEQ" guid="-2shVoSxqe2YSA7Cp27o-Jg">
+    <refinedDescription>&lt;p>&#xD;
+    A&amp;nbsp;System Requirements Specification is strictly the set of all relevant System Requirements for a project. This&#xD;
+    set provides a complete and consistent abstract description of the solution to the problem represented by a stakeholder&#xD;
+    specification or a similar artifact, and its context, at an appropriate level of abstraction.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In practice, there&amp;nbsp;may be several levels of&amp;nbsp;System Requirements Specification - for example, in some cases&#xD;
+    the a single level might be enough, in others, the system must be broken-down into subsystems at various levels.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If more than one level of System Requirement Specification is used, then remember the following points:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Each specification must be a complete and consistent description of the solution, at an appropriate level of&#xD;
+        abstraction&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Traceability must be maintained throughout the levels&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All specifications must be maintained in parallel&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Frequently, it&amp;nbsp;is sufficient to evolve a single specification.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The system requirements specification captures all of the system functional and non-functional requirements in one&#xD;
+    place so that they may be analyzed for consistency, completeness and correctness.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Requirements must be clear, unambiguous, testable and complete. They must include all required properties of the&#xD;
+    system. Care must be taken not to over-specify (a common problem) by including design measures in the requirements.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ecvvuDL-z7TVamFOjXO0uA" name="key_sys_function,_1KCZQ5gaEd6u7McLcbxIEQ" guid="-ecvvuDL-z7TVamFOjXO0uA">
+    <refinedDescription>&lt;p>&#xD;
+    A key system function is a logical grouping of system functions defined to support the architectural analysis. A key&#xD;
+    system function could be:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        a group of system functions that are cohesive and/or tightly coupled;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        a group of system functions that may be realized by a single architectural component;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        a group of system functions that will be realized by reuse of an existing component (HW/SW);&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        a group of system functions that may be reused within the system;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        a group of system functions that address a specific design constraint&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The set of key system functions should include all system functions; however a system function may be member of more&#xD;
+    than one key system function.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9zYWQmVmtuGQv8-bb_Juyg" name="def_candidate_sols,_1y3T0JgaEd6u7McLcbxIEQ" guid="-9zYWQmVmtuGQv8-bb_Juyg">
+    <refinedDescription>Each key system function is analyzed with regard to its realization. At this stage, associated stakeholder requirements&#xD;
+need to be identified and taken into consideration. Typically, first-cut design decisions are made: &quot;Buy or build?&quot; i.e.&#xD;
+Should the key system function be realized as a COTS component or developed internally? Based on these preconditions,&#xD;
+possible solutions then are identified in a team representing all relevant areas of expertise. The task ends with a set of&#xD;
+agreed alternative solutions for the chosen key system function.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--tN5-CzZSX9K2J3KGABTJA" name="candidate_sol,_1zBE0JgaEd6u7McLcbxIEQ" guid="--tN5-CzZSX9K2J3KGABTJA">
+    <refinedDescription>&lt;p>&#xD;
+    There is always more than one way to realize a key system function. Candidate solutions should take into consideration&#xD;
+    previously developed hardware and software components, non-developmental items, and COTS hardware and software.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In order to limit the scope of the trade study, the list of candidate solutions should be limited to those that are&#xD;
+    feasible (cost, schedule), and low risk. Eliminate candidates that don't satisfy the associated system requirements for&#xD;
+    the key system function. Keep the list of candidates as small as possible.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JxSIS__v1sVQ2U-WRIDklg" name="merge_sols_sys_arch,_2kovAJgaEd6u7McLcbxIEQ" guid="-JxSIS__v1sVQ2U-WRIDklg">
+    <refinedDescription>&lt;p>&#xD;
+    The solutions&amp;nbsp;selected for each key system function are merged to define the equipment breakdown structure. It is&#xD;
+    assumed that the initial key system functions were independent. Thus, the final merged solution is the preferred&#xD;
+    solution based upon the assessment criteria for the complete architecture. It will be the basis of the subsequent&#xD;
+    architectural design activities. These design decisions are captured in the Trade Study Report along with any resulting&#xD;
+    design constraints.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9b8zerKCojAlFU8OlaEt3Q" name="trade_study,_2kovAZgaEd6u7McLcbxIEQ" guid="-9b8zerKCojAlFU8OlaEt3Q">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact captures the&amp;nbsp;conclusions and supporting data of trade studies performed to determine the&#xD;
+    architectural elements that will be used to realize different aspects of the system.&amp;nbsp; It is a composite artifact&#xD;
+    that evolves throughout the architectural analysis capturing the results of each stage of analysis and providing the&#xD;
+    necessary input data for the next stage of analysis&amp;nbsp;in the process of determining the preferred solution&#xD;
+    architecture.&amp;nbsp;Upon completion it captures the design justification for key architectural design decisions.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-upzWtidko60o3SaO0zXSJg" name="sys_struc_diag,_2kovApgaEd6u7McLcbxIEQ" guid="-upzWtidko60o3SaO0zXSJg">
+    <refinedDescription>&lt;p>&#xD;
+    The main type of elements used to describe the internal structure are system blocks.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A System Block is an element of the structural description of the system under development. It is an encapsulated&#xD;
+    entity, i.e. its communication with the environment is performed through ports and&amp;nbsp;associated interfaces. A System&#xD;
+    Block may be decomposed into sub-System Blocks. At the lowest level of decomposition, the behavior of a System Block is&#xD;
+    described by means of a statechart diagram.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A System Block must have a defined boundary. Communication with the environment is performed via ports and associated&#xD;
+    interfaces.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WGLsmzNo2ySI5ngVCR5BDA" name="sys_op_seq_diag,_FYdB1PM7Ed-Fw-MeaQjkmw" guid="-WGLsmzNo2ySI5ngVCR5BDA">
+    <refinedDescription>&lt;p>&#xD;
+    The number of viewpoints considered will drive the number of sequence diagrams needed, as for the most complex case,&#xD;
+    for each viewpoint, there will be at least one&amp;nbsp;sequence diagram, showing how specific view elements are realizing&#xD;
+    the main operation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible for the integrity of the operation realization should&amp;nbsp;ensure that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The operation realization correctly realizes the behavior of its corresponding operation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All the chosen viewpoints are addressed and there is at least one realization per viewpoint.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The associated non-functional requirements are correctly budgeted across the subsystems operations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The operation realization is properly documented and the correspondent diagrams suit their purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The realization associations are correct.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2XHpBU_bV42CucZ71EYH3A" name="sys_op_act_diag,_FYdB1_M7Ed-Fw-MeaQjkmw" guid="-2XHpBU_bV42CucZ71EYH3A">
+    <refinedDescription>&lt;p>&#xD;
+    The number of viewpoints considered will drive the number of activity diagrams needed, as for the most complex case,&#xD;
+    for each viewpoint, there will be an activity&amp;nbsp;diagram, showing how specific view elements are realizing the main&#xD;
+    operation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible for the integrity of the operation realization should&amp;nbsp;ensure that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The operation realization correctly realizes the behavior of its corresponding operation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All the chosen viewpoints are addressed and there is at least one realization per viewpoint.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The associated non-functional requirements are correctly budgeted across the subsystems operations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The operation realization is properly documented and the correspondent diagrams suit their purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The realization associations are correct.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mnRiGuVmLfYWz6Wh0dTrGg" name="sys_arch_model,_FYmy1_M7Ed-Fw-MeaQjkmw" guid="-mnRiGuVmLfYWz6Wh0dTrGg">
+    <refinedDescription>The System Architectural Model&amp;nbsp;is&amp;nbsp;a hierarchical structure of System Blocks, behavior and delegation ports for&#xD;
+each block, interfaces&amp;nbsp;definitions for each port, and state-chart diagrams specifying the state-based behavior for&#xD;
+each leaf system block.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_ABvjEa2aEd6tfrxTUPeKPg" guid="_ABvjEa2aEd6tfrxTUPeKPg">
+    <resourceDescriptors xmi:id="_ABvjEq2aEd6tfrxTUPeKPg" id="-khoHr1Nopsv5ILZgwD7Oqw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="__7CeIK2ZEd6tfrxTUPeKPg" name="rational_soma_29_workflow" guid="__7CeIK2ZEd6tfrxTUPeKPg">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="___AegK2hEd6_dJstfLPnzA" name="use_case_driven_business_modeling" guid="___AegK2hEd6_dJstfLPnzA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="___Aega2hEd6_dJstfLPnzA" name="use_case_driven_business_modeling" guid="___Aega2hEd6_dJstfLPnzA" superActivities="__7CeIa2ZEd6tfrxTUPeKPg" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_YzdzwEDPEd6xU9AA2v_L1g#_YzdzwUDPEd6xU9AA2v_L1g"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_rE4FkK2vEd6yGemYg1UfWw" name="service_identification" guid="_rE4FkK2vEd6yGemYg1UfWw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_rE4Fka2vEd6yGemYg1UfWw" name="service_identification" guid="_rE4Fka2vEd6yGemYg1UfWw" superActivities="__7CeIa2ZEd6tfrxTUPeKPg" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_LOfIUK2aEd6tfrxTUPeKPg#_LOfIUa2aEd6tfrxTUPeKPg"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_N48lAK3-Ed6VrvYQQTveHA" name="service_realization_decisions" guid="_N48lAK3-Ed6VrvYQQTveHA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_N48lAa3-Ed6VrvYQQTveHA" name="service_realization_decisions" guid="_N48lAa3-Ed6VrvYQQTveHA" superActivities="__7CeIa2ZEd6tfrxTUPeKPg" linkToPredecessor="_GdVwMLFNEd69ivGsO9X4aw" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_6GUkgK38Ed6VrvYQQTveHA#_6GUkga38Ed6VrvYQQTveHA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_GdVwMLFNEd69ivGsO9X4aw" guid="_GdVwMLFNEd69ivGsO9X4aw" pred="_-z_ZMbFMEd69ivGsO9X4aw"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_-z_ZMLFMEd69ivGsO9X4aw" name="service_specification" guid="_-z_ZMLFMEd69ivGsO9X4aw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_-z_ZMbFMEd69ivGsO9X4aw" name="service_specification" guid="_-z_ZMbFMEd69ivGsO9X4aw" superActivities="__7CeIa2ZEd6tfrxTUPeKPg" linkToPredecessor="_F6oEsLFNEd69ivGsO9X4aw" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_eeSNYJm3Ed6wYer5xLEQPw#_eeSNYZm3Ed6wYer5xLEQPw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_F6oEsLFNEd69ivGsO9X4aw" guid="_F6oEsLFNEd69ivGsO9X4aw" pred="_rE4Fka2vEd6yGemYg1UfWw"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="__7CeIa2ZEd6tfrxTUPeKPg" name="rational_soma_29_workflow" guid="__7CeIa2ZEd6tfrxTUPeKPg" presentationName="IBM Rational SOMA 2.9 Workflow" briefDescription="This workflow represents the key activities in IBM Rational SOMA 2.9" breakdownElements="___Aega2hEd6_dJstfLPnzA _rE4Fka2vEd6yGemYg1UfWw _-z_ZMbFMEd69ivGsO9X4aw _N48lAa3-Ed6VrvYQQTveHA">
+      <methodElementProperty xmi:id="_3_4_0LemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-khoHr1Nopsv5ILZgwD7Oqw" href="uma://-khoHr1Nopsv5ILZgwD7Oqw#-khoHr1Nopsv5ILZgwD7Oqw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

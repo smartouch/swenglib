@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-jJM5RkXS-oUJSSCyc__VyQ" name="team_operation_preconditions,_INFvIL0-Edu3k9FtUxqwFg" guid="-jJM5RkXS-oUJSSCyc__VyQ" authors="Monvorath Phongpaibul" changeDate="2008-02-06T14:24:06.053-0800" version="1.0.0">
+  <sections xmi:id="_4IiGL9TyEdy1Dvz54vCgqw" name="Deliver: Prohibit Compilation Errors [client]" guid="_4IiGL9TyEdy1Dvz54vCgqw">
+    <sectionDescription>&lt;p>&#xD;
+    This precondition provides a mechanism for configuring the deliver operation to recommend or require that there are no&#xD;
+    compilation errors in the workspace at the time of delivery.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Overrulable:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Yes : Delivery can be enforced.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                No : No code delivery allowed if there&amp;nbsp;are compilation errors in their workspaces.&amp;nbsp;&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_4IiGKtTyEdy1Dvz54vCgqw" name="Deliver: Prohibit Unused Imports [client]" guid="_4IiGKtTyEdy1Dvz54vCgqw">
+    <sectionDescription>&lt;p>&#xD;
+    This precondition provides a mechanism for configuring the deliver operation to require or recommend that there are no&#xD;
+    unused imports at the time of delivery.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Overrulable:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Yes : Delivery can be enforced.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                No : No code delivery allowed if there&amp;nbsp;are unused imports.&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_4IiGLdTyEdy1Dvz54vCgqw" name="Deliver: Require Content [client]" guid="_4IiGLdTyEdy1Dvz54vCgqw">
+    <sectionDescription>&lt;p dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>&#xD;
+    This precondition provides a mechanism for configuring the deliver operation such that files matching a specified&#xD;
+    pattern can be checked to ensure they contain specific content such as a copyright notice at the time the change set is&#xD;
+    delivered.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Overrulable: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Yes : Delivery can be enforced.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                No : No code delivery allowed if there is no require content.&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_4IiGK9TyEdy1Dvz54vCgqw" name="Deliver: Require Test Run [client]" guid="_4IiGK9TyEdy1Dvz54vCgqw">
+    <sectionDescription>&lt;p>&#xD;
+    This precondition provides a mechanism for configuring the deliver operation to recommend or require that a specified&#xD;
+    test suite is executed prior to delivery.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Overrulable:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Yes : Delivery can be enforced.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                No : No code delivery allowed if a specific test suite have not been&amp;nbsp;run.&amp;nbsp;&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_4IiGLNTyEdy1Dvz54vCgqw" name="Deliver: Require Work Items and Comments [client]" guid="_4IiGLNTyEdy1Dvz54vCgqw">
+    <sectionDescription>&lt;p>&#xD;
+    This precondition provides a mechanism for configuring the deliver operation such that a workitem, comment, or both are&#xD;
+    required or recommended when the change set is delivered.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Overrulable:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Yes : Delivery can be enforced.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                No : No code delivery allowed if there is&amp;nbsp;no work item associated with.&amp;nbsp;&amp;nbsp;&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_4IiGLtTyEdy1Dvz54vCgqw" name="Deliver: Deliver Permissions Precondition [server]" guid="_4IiGLtTyEdy1Dvz54vCgqw">
+    <sectionDescription>&lt;p>&#xD;
+    This precondition restrict deliveries to streams in this process area to the contributors who own the components being&#xD;
+    delivered to.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Overrulable:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Yes : Delivery can be enforced.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                No : No code delivery allowed&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_4IiGMNTyEdy1Dvz54vCgqw" name="Deliver: Ensure Delivered Change-sets Reviewed [server]" guid="_4IiGMNTyEdy1Dvz54vCgqw">
+    <sectionDescription>&lt;p>&#xD;
+    This precondition ensures that changes being delivered have an approved review task. It allows specifying the reviewers&#xD;
+    by name or by role&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Overrulable:&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Yes : Delivery can be enforced.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                No : No code delivery allowed if the changes have not been approved.&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_4IiGKdTyEdy1Dvz54vCgqw" name="Deliver: Required Content [server]" guid="_4IiGKdTyEdy1Dvz54vCgqw">
+    <sectionDescription>&lt;p>&#xD;
+    This precondition ensures that the files contain specific textual content.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Overrulable: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Yes : Delivery can be enforced.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                No : No code delivery allowed if there is no require content.&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

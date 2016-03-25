@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-6RIiFQB63UQbchZhHsp_bQ" name="run_tests,_ryPnwHE6Edy8Ac588DXPCQ" guid="-6RIiFQB63UQbchZhHsp_bQ" changeDate="2007-12-20T13:44:28.171-0800" version="7.2.0">
+  <sections xmi:id="_I2e-QHd2Edyqd9oUl_5ulw" name="Setup Test Environment to Known State " guid="_I2e-QHd2Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Set up the test environment to ensure that all of the required components (hardware, software, tools, data, and so on)&#xD;
+    have been established, and are available and ready in the test environment in the correct state to enable the tests to&#xD;
+    be conducted. Typically, this will involve some form of basic environment reset (for example, Registry and other&#xD;
+    configuration files), restoration of underlying databases to the require state, and the setup of any peripheral devices&#xD;
+    (such as loading paper into printers). While some tasks can be performed automatically, some aspects typically require&#xD;
+    human attention.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The use of environment support tools (such as those that enable hard-disk image capture and restoration) is extremely&#xD;
+    valuable in managing this effort effectively.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_KFdS0Hd2Edyqd9oUl_5ulw" name="Set Execution Tool Options " guid="_KFdS0Hd2Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Set the execution options of the supporting tools. Depending on the sophistication of the tool, there may be many&#xD;
+    options to consider. Failing to set these options appropriately may reduce the usefulness and value of the resulting&#xD;
+    Test Logs and other outputs. Where possible, you should try to store these tool options and settings, so that they can&#xD;
+    be reloaded easily based on one or more predetermined profiles. In the case of automated test execution tools, there&#xD;
+    may be many different settings to be considered, such as the speed at which execution should be performed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In the case of manual testing, it is often simply a matter of logging into issue or change request tracking systems, or&#xD;
+    partitioning a new unique entry in a support system for logging results. You should give some thought to concerns such&#xD;
+    as the name, location, and state of the Test Log to be written to.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_NV7lEHd2Edyqd9oUl_5ulw" name="Schedule Test Suite Execution" guid="_NV7lEHd2Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    In many cases where test execution can be attended, the Test Suite can be executed relatively on demand. In these&#xD;
+    cases, scheduling will likely need to take into account considerations such as the work of other testers, other team&#xD;
+    members, as well as different test teams that share the test environment. In these cases, test execution will typically&#xD;
+    need to work around infrequent environment resets.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    However, in cases where unattended execution of automated tests is desired, or where the execution of many tests&#xD;
+    running concurrently on different machines must be coordinated, some form of automated scheduling mechanism may be&#xD;
+    required. Either use the features of your automated test execution tool, or develop your own utility functions to&#xD;
+    enable the required scheduling.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_PSf_cHd2Edyqd9oUl_5ulw" name="Execute Test Suite " guid="_PSf_cHd2Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Executing the Test Suite will vary depending upon whether testing is conducted automatically or manually. In either&#xD;
+    case, the test suites developed during the test implementation tasks are used to either execute the tests&#xD;
+    automatically, or guide the manual execution of the tests.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_RQkOoHd2Edyqd9oUl_5ulw" name="Evaluate Execution of Test Suite " guid="_RQkOoHd2Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    The execution of testing ends or terminates in one of two conditions:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Normal:&lt;/b> All of the Tests execute as intended to completion.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Abnormal or premature:&lt;/b> The Tests did not execute completely as intended. When testing ends abnormally, the&#xD;
+        Test Logs from which subsequent Test Results are derived may be unreliable. The cause of the abnormal termination&#xD;
+        needs to be identified and, if necessary, the fault corrected and the tests re-executed.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_TI96sHd2Edyqd9oUl_5ulw" name="Recover from Halted Tests " guid="_TI96sHd2Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    To recover from halted tests, do the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Inspect the Test Logs and other output&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Correct errors&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Schedule and execute the Test Suite again&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Reevaluate the execution of the Test Suite&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    For more details, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.independent_testing.base-ibm/guidances/guidelines/recover_halt_tests_213CF2B5.html&quot;&#xD;
+    guid=&quot;_v9LekLJeEdyHw6xErAkVmw&quot;>Guideline: Recovering from Halting Tests&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_U8JvkHd2Edyqd9oUl_5ulw" name="Inspect the Test Logs for Completeness and Accuracy " guid="_U8JvkHd2Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    When test execution initially completes, you should review the Test Logsto ensure that the logs are reliable, and that&#xD;
+    reported failures, warnings, or unexpected results were not caused by external (to the target-of-test) influences (such&#xD;
+    as improper environment setup or invalid input data for the test).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For GUI-driven automated Tests, common Test failures include:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Test verification failures:&lt;/b> This occurs when the actual result and the expected result do not match. Verify&#xD;
+        that the verification method(s) used focus only on the essential items or properties, and modify if necessary.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Unexpected GUI windows:&lt;/b> This occurs for several reasons. The most common is when a GUI window other than the&#xD;
+        expected one is active, or the number of displayed GUI windows is greater than expected. Ensure that the test&#xD;
+        environment has been set up and initialized as intended for proper test execution.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Missing GUI windows:&lt;/b> This failure is noted when a GUI window is expected to be available (but not&#xD;
+        necessarily active) and is not. Ensure that the test environment has been set up and initialized as intended for&#xD;
+        proper test execution. Verify that the actual missing windows are or were removed from the target-of-test.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    If the reported failures are due to errors identified in the test work products, or due to problems with the test&#xD;
+    environment, the appropriate corrective action should be taken and the testing re-executed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If the Test Log enables you to determine that the failures are due to genuine failures in the Target Test Items, then&#xD;
+    the execution portion of the task is complete.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_XNSrwHd2Edyqd9oUl_5ulw" name="Restore Test Environment to Known State " guid="_XNSrwHd2Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    (See the first step) Next, you should restore the environment back to its original state. Typically, this will involve&#xD;
+    some form of basic environment reset (for example, Registry and other configuration files), restoration of underlying&#xD;
+    databases to a known state, and so on, in addition to tasks such as loading paper into printers. While some tasks can&#xD;
+    be performed automatically, some aspects typically require human attention.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_ZALlsHd2Edyqd9oUl_5ulw" name="Maintain Traceability Relationships " guid="_ZALlsHd2Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Using the Traceability requirements for your project, update the traceability relationships as required. A good&#xD;
+    starting point is to consider traceability in terms of measuring the extent of testing or test coverage. As a general&#xD;
+    rule, base the measurement of the extent of testing against the motivators that you discovered during the test planning&#xD;
+    activities.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Test Suites might also be traced to the defined Test Cases that they realize. They may also be traced to elements of&#xD;
+    the requirements, software specification, design, or implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Whatever relationships you have decided are important to trace, you will need to update the status of the relationships&#xD;
+    that were established during implementation of the Test Suite.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_auTUYHd2Edyqd9oUl_5ulw" name="Evaluate and Verify Your Results " guid="_auTUYHd2Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    You should evaluate whether your work is of appropriate quality, and that it is complete enough to be useful to those&#xD;
+    team members who will make subsequent use of it as input to their work. Where possible, use checklists to verify that&#xD;
+    quality and completeness are good enough.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Have the people who perform the downstream tasks that rely on your work as input review your interim work. Do this&#xD;
+    while you still have time available to take action to address their concerns. You should also evaluate your work&#xD;
+    against the key input work products to make sure that you have represented them accurately and sufficiently. It may be&#xD;
+    useful to have the author of the input work product review your work on this basis.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

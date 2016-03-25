@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-LyDHf-bPkwxmz_iUj1oskg" name="perform_review,_dBOOsJiWEeCHuaDqfjetaA" guid="-LyDHf-bPkwxmz_iUj1oskg">
+    <keyConsiderations>&lt;p>&#xD;
+    Reviews are &lt;em>very&lt;/em> expensive to perform but, when performed well,&amp;nbsp;are highly valuable. It is crucial that&#xD;
+    they be performed effectively. Identified issues should be solved outside of the meeting. Subsequent reviews need only&#xD;
+    go over the action lists from the meeting to ensure each issue has been appropriately addressed. This means that action&#xD;
+    lists are essential artifacts for effective reviews.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is crucial to understand that reviews are not a replacement for good modeling in the first place. One of the basic&#xD;
+    requirements prior to a review is that the model &lt;em>executes properly&lt;/em>. In a PIM review, this means that it is&#xD;
+    debugged and can replicate (via execution) the use case scenarios. In a PSM review, this means that the model has&#xD;
+    passed formal unit testing. You should NEVER find a compilation problem in a review; it is far cheaper to have the&#xD;
+    product owner find that on their own &lt;em>prior to planning the review&lt;/em> rather than find it in a room full of&#xD;
+    people. The intent of the review should be to evaluate an set of already high-quality artifacts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is also very important to &lt;em>stay focused&lt;/em> during the review. The meeting leader needs to rule with a (silk&#xD;
+    covered) iron fist. Reviews are very expensive so the object is to perform the intent of the review as efficiently as&#xD;
+    possible.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note: subsequent reviews of an already-reviewed work product should focus exclusively on the action list from the&#xD;
+    previous review.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    There are a number of work products created in a modern software-centric development project. Any of them may be&#xD;
+    subject to a review, depending on the delivery process in which they are created. Some of these include:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Requirements specification&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Systems engineering models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Architectural Specifications&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Project schedules&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Software or hardware design models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Software source code&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test cases, procedures, and results&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Plans: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Software Development Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Quality Assurance Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Software Verification Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Verification and Validation Test Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Configuration Management Plan&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The best way to inject quality into work products is through careful engineering and demonstration and test via&#xD;
+    execution or simulation. For many of these work products, execution isn’t feasible, so reviews are a way of assessing&#xD;
+    the quality of the work product. In addition, many work products must conform to guidelines, standards or templates and&#xD;
+    this is most easily demonstrated through a review process. Lastly, reviews also serve to disseminate information to&#xD;
+    different stakeholders about the structure, content, and quality of a work product.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-OpuNumQmLjRjDtdB6dhWcA" name="reviewer,_dBOOsZiWEeCHuaDqfjetaA" guid="-OpuNumQmLjRjDtdB6dhWcA">
+    <refinedDescription>&lt;a id=&quot;Top&quot; name=&quot;Top&quot;>&lt;/a>&lt;a id=&quot;XE_Reviewer__role_definition&quot; name=&quot;XE_Reviewer__role_definition&quot;>&lt;/a>&lt;a id=&quot;Description&quot;&#xD;
+name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Any member of the project team can take on the &lt;a class=&quot;PresentationName&quot;&#xD;
+    guid=&quot;{638E0897-F63B-444C-8178-D05224689DE7}&quot;>Reviewer&lt;/a> role, as long as they have the appropriate pre-requisite&#xD;
+    skills. For reviews that involve multiple team members, one person playing this role will also need to take&#xD;
+    responsibility for coordinating the review process itself , playing the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.default.role_def.extend-ibm/roles/review_coordinator_D598A3E4.html&quot;&#xD;
+    guid=&quot;{D6CA9DC7-4DF2-4BA4-A0AD-7FBAEB6539E1}&quot;>Review Coordinator&lt;/a> role. Reviews can be generalized into two main&#xD;
+    categories: management reviews of project progress and technical reviews of project work products.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Mj-wBs_wzj5Giefb0Bpl0w" name="review_coordinator,_dBOOs5iWEeCHuaDqfjetaA" guid="-Mj-wBs_wzj5Giefb0Bpl0w">
+    <refinedDescription>&lt;a id=&quot;Top&quot; name=&quot;Top&quot;>&lt;/a>&lt;a id=&quot;XE_Review_Coordinator__role_definition&quot;&#xD;
+name=&quot;XE_Review_Coordinator__role_definition&quot;>&lt;/a>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The &lt;a class=&quot;PresentationName&quot; guid=&quot;{D6CA9DC7-4DF2-4BA4-A0AD-7FBAEB6539E1}&quot;>Review Coordinator&lt;/a> role is&#xD;
+    responsible for managing the review process. Reviews can be generalized into two main categories: management reviews of&#xD;
+    project progress and technical reviews of project work products. This role is responsible for the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Ensuring that required reviews are conducted&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring that the appropriate review attendees are included and notified with appropriate review details&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Conducting the review in an appropriate and efficient manner&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring that follow-up tasks that result from the review are managed to closure&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    When staffing this role, you need to consider both the skills required for the role and the different approaches you&#xD;
+    can take to assigning staff to the role.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Bx3J4dMowVwLWNa6FT1N3g" name="review_record,_dBOOtZiWEeCHuaDqfjetaA" guid="-Bx3J4dMowVwLWNa6FT1N3g">
+    <refinedDescription>&lt;p>&#xD;
+    &lt;!--StartFragment-->A review record is an assessment work product specialized for capturing the results of review&#xD;
+    activities.&lt;!--EndFragment-->&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7IIkAdRVEzABVt18y3X1KA" name="work_items_list,_dBOOuZiWEeCHuaDqfjetaA" guid="-7IIkAdRVEzABVt18y3X1KA">
+    <keyConsiderations>&lt;p>&#xD;
+    Work Items should contain estimates. See guidelines on managing work items and agile estimation.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact provides a focal point for the entire team:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        It provides one list containing all requests for additional capabilities or enhancement for that application. Note&#xD;
+        that some of these requests may never be implemented, or be implemented in later projects.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one list of all the work to be prioritized, estimated, and assigned within the project. The risk list&#xD;
+        is prioritized separately.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one place to go to for the development team to understand what&amp;nbsp;micro-increments&amp;nbsp;need to be&#xD;
+        delivered, get references to material required to carry out the work, and report progress made.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    These are the typical work items that go on this list:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Use cases (and references to use-case specifications)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        System-wide requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Changes and enhancement requests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defects&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Development tasks&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Work items can be very large in scope, especially when capturing requests for enhancements, such as &quot;Support Financial&#xD;
+    Planning&quot; for a personal finance application. To allow the application to be developed in micro-increments, work items&#xD;
+    are analyzed and broken down into smaller work items so that they can be assigned to an iteration, such as a use-case&#xD;
+    scenario for&amp;nbsp;&quot;Calculate Net Worth&quot;. Further breakdown may be required to identify suitable tasks to be assigned to&#xD;
+    developers, such as &quot;Develop UI for Calculate Net Worth&quot;. This means that work items often have parent/child&#xD;
+    relationships, where the lowest level is a specification and tracking device for micro-increments.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ba08Y8u1lDThNsaDVxma0Q" name="change_request,_dBOOu5iWEeCHuaDqfjetaA" guid="-ba08Y8u1lDThNsaDVxma0Q">
+    <refinedDescription>&lt;p>&#xD;
+    A change request (CR) is typically a proposed variance from the system's current (or currently planned) behavior. It&#xD;
+    can also be used for a generic piece of work that is required to support the project. Change requests may include&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A report of an error (defect)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        An enhancement request&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Change requests provide a record of decisions and, with an appropriate assessment process, ensures that their change&#xD;
+    impacts are considered.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Some important types of change requests include:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Enhancement Requests&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Used by various stakeholders to request future features that they desire to have included in the product. These are a&#xD;
+    type of stakeholder request that capture and articulate an understanding of the stakeholders needs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Defects&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Reports of anomalies or failures in a delivered work product. Defects include such things as omissions and&#xD;
+    imperfections found during early lifecycle phases, or symptoms of faults (failures) that need to be isolated and&#xD;
+    corrected within the software. Defects may also include deviations from what can reasonably be expected of the software&#xD;
+    behavior (such as usability issues).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The purpose of a defect is to communicate the details of the issue, enabling corrective action, resolution, and&#xD;
+    tracking to occur.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zE1KcXDXZeW1KNs04CBNhw" name="perform_review,_gaCkoJiWEeCHuaDqfjetaA" guid="-zE1KcXDXZeW1KNs04CBNhw">
+    <keyConsiderations>&lt;p>&#xD;
+    Reviews are &lt;em>very&lt;/em> expensive to perform but, when performed well,&amp;nbsp;are highly valuable. It is crucial that&#xD;
+    they be performed effectively. Identified issues should be solved outside of the meeting. Subsequent reviews need only&#xD;
+    go over the action lists from the meeting to ensure each issue has been appropriately addressed. This means that action&#xD;
+    lists are essential artifacts for effective reviews.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is crucial to understand that reviews are not a replacement for good modeling in the first place. One of the basic&#xD;
+    requirements prior to a review is that the model &lt;em>executes properly&lt;/em>. In a PIM review, this means that it is&#xD;
+    debugged and can replicate (via execution) the use case scenarios. In a PSM review, this means that the model has&#xD;
+    passed formal unit testing. You should NEVER find a compilation problem in a review; it is far cheaper to have the&#xD;
+    product owner find that on their own &lt;em>prior to planning the review&lt;/em> rather than find it in a room full of&#xD;
+    people. The intent of the review should be to evaluate an set of already high-quality artifacts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is also very important to &lt;em>stay focused&lt;/em> during the review. The meeting leader needs to rule with a (silk&#xD;
+    covered) iron fist. Reviews are very expensive so the object is to perform the intent of the review as efficiently as&#xD;
+    possible.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note: subsequent reviews of an already-reviewed work product should focus exclusively on the action list from the&#xD;
+    previous review.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    There are a number of work products created in a modern software-centric development project. Any of them may be&#xD;
+    subject to a review, depending on the delivery process in which they are created. Some of these include:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Requirements specification&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Systems engineering models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Architectural Specifications&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Project schedules&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Software or hardware design models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Software source code&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test cases, procedures, and results&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Plans: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Software Development Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Quality Assurance Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Software Verification Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Verification and Validation Test Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Configuration Management Plan&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The best way to inject quality into work products is through careful engineering and demonstration and test via&#xD;
+    execution or simulation. For many of these work products, execution isn’t feasible, so reviews are a way of assessing&#xD;
+    the quality of the work product. In addition, many work products must conform to guidelines, standards or templates and&#xD;
+    this is most easily demonstrated through a review process. Lastly, reviews also serve to disseminate information to&#xD;
+    different stakeholders about the structure, content, and quality of a work product.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-RnIDsxGllQyUV4nOQb6dMQ" name="gen_sys_reqs,_o4wbkJ2zEeC0Asc9EUyvKA" guid="-RnIDsxGllQyUV4nOQb6dMQ">
+    <refinedDescription>&lt;p>&#xD;
+    The main objective of this task is to ensure that the System Requirements are expressed in a formal, structured,&#xD;
+    verifiable, unambiguous manner (this is the Engineering part of the process), to maximize the chance that the system to&#xD;
+    be developed is exactly the system the Stakeholders need (asked for).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is a definition of the solution to the problem, at the level of what the system has to do, rather than how it will&#xD;
+    do it (which is design). It is likely that changes will be proposed during this task.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-rURUm9VE2iRG2nJzHCWBLg" name="link_reqs,_sWCawJ2zEeC0Asc9EUyvKA" guid="-rURUm9VE2iRG2nJzHCWBLg">
+    <refinedDescription>&lt;p>&#xD;
+    Establish traceability from each System Requirement to one or more requirements in the Stakeholder Requirements&#xD;
+    Specification to ensure that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        All System Requirements are derived from Stakeholder Requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All Stakeholder Requirements are satisfied by one or more System Requirements.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-60cdR4qfvGZxWSqnmnEEkw" name="id_sys_uc,_uGP0IJ2zEeC0Asc9EUyvKA" guid="-60cdR4qfvGZxWSqnmnEEkw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TnyKDjpnPiEHRXsdu1kAEQ" name="qa_engineer,__Y-hAaUvEeGyUNw1dreaBg" guid="-TnyKDjpnPiEHRXsdu1kAEQ">
+    <refinedDescription>This role is focused on adherence to process and industry standards and guidelines. They are heavily involved in reviews,&#xD;
+primarily ensuring that checklists meant to quantity adherence to standards and guidelines are met. They often have a role&#xD;
+in following up to ensure action items from reviews are completed.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-d3ylXS3nJh4jVo4JwYVFpg" name="qa_plan,_RZoPIcVSEeGxD7hZWwmjuQ" guid="-d3ylXS3nJh4jVo4JwYVFpg">
+    <refinedDescription>&lt;p>&#xD;
+    This work product addresses the role, activities, outputs and sequence of software quality assurance activities through&#xD;
+    the entire software development lifecycle. The primary software quality assurance activities are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Ensuring process steps are undertaking according to project process definitions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure work products meet content and organizational guidelines and standards&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure process phase transition criteria are enforced&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Partake in reviews, assessments, and audits&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Provide guidelines for consistent application of software quality assurance criteria to process steps and work&#xD;
+        products&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-JYMvuUmRNsqwzldUTrep6w" name="DO 178B,_1XfvAW9iEeCJFoHdlpPovQ" guid="-JYMvuUmRNsqwzldUTrep6w" version="7.5.1">
+    <mainDescription>This workflow shows the key elements relevant to a&amp;nbsp;IEC 62304&amp;nbsp;software project. In this mapping, we emphasize&#xD;
+those tasks, roles, and work products directly relevant to&amp;nbsp;IEC 62304&amp;nbsp;projects.</mainDescription>
+  </org.eclipse.epf.uma:DeliveryProcessDescription>
+</xmi:XMI>

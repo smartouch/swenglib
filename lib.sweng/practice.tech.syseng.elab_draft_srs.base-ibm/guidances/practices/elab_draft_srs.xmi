@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:PracticeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-G7W2c6dvvNR_cC00S_shUg" name="elab_draft_srs,_OzdnIJfyEd6u7McLcbxIEQ" guid="-G7W2c6dvvNR_cC00S_shUg" changeDate="2009-11-25T11:03:49.406-0800" version="7.5.0">
+  <problem>&lt;p>&#xD;
+    The main value proposition points for this practice are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Enables early collaboration with stakeholders to validate requirements and to provide the foundation for system&#xD;
+        architecture.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        More rapid achievement and more complete SRS.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The objective of&amp;nbsp;this practice&amp;nbsp;is to analyze the process inputs: the stakeholder requirements are translated&#xD;
+    into system requirements that define what the system must do (functional requirements) and how well it must perform&#xD;
+    (quality of service requirements). It starts with the analysis and optional refinement of the stakeholder requirements,&#xD;
+    having as an output the Stakeholder Requirements Specification. Essentially, stakeholder requirements focus on required&#xD;
+    capabilities. These are transformed into required system functions (&quot;shall&quot; statements) and documented in the Draft&#xD;
+    System Requirements Specification. For traceability, the identified system requirements are linked to the associated&#xD;
+    stakeholder requirements. Next major step&amp;nbsp;is the definition of system use cases. A use case describes a specific&#xD;
+    operational aspect of the system (operational thread). It specifies the behavior as perceived by the actors (user) and&#xD;
+    the message flow between the actors and the use case. An actor may be a person, another system or a piece of hardware&#xD;
+    external to the System under Design (SuD). A use case does not reveal or imply the system's internal structure (black&#xD;
+    box view).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Use cases may be structured hierarchically - but care should be taken not to functionally decompose the use cases. Use&#xD;
+    cases are not functions, they use functions. There is no &quot;golden rule&quot; with regard to the number of use cases needed to&#xD;
+    describe a system. Experience shows that for large systems, typically 6 to 24 use cases may be defined at the top&#xD;
+    level. At the lowest level a use case should be described by at least 5, with a maximum of 25 essential use case&#xD;
+    scenarios. At this stage, emphasis is put on the identification of &quot;sunny day&quot; use cases, assuming an error/fail free&#xD;
+    system behavior. Exception scenarios will be identified at a later stage through model execution. If more than 5&#xD;
+    error/fail scenarios are found for a use case, they should be grouped in a separate exception use case, which are then&#xD;
+    linked to the &quot;sunny day&quot; use case via an include or extend dependency.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In order to assure that all functional and associated performance requirements are covered by the use cases, respective&#xD;
+    traceability links need to be established. If functional system requirements are traced to multiple use cases, it is an&#xD;
+    indication that the use cases are not independent. Ideally, use cases should be independent of one another.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Once the system-level use cases are defined and the complete coverage of the functional and associated performance&#xD;
+    requirements is assured, the requirements analysis phase ends.&#xD;
+&lt;/p></problem>
+  <application>&lt;p>&#xD;
+    Start with the practice description and then use the associated workflow as an entry point in this material. Understand&#xD;
+    in detail each task involved in this practice and then shift your focus on the artifacts which are produced and their&#xD;
+    states: Stakeholder Requirements Specification, Systems Requirements Specification (draft), System Use Cases.&#xD;
+&lt;/p></application>
+</org.eclipse.epf.uma:PracticeDescription>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-BHJ__58g83xQLUgOYdWOcQ" name="define_testability_design_elements,_4REVYHE5Edy8Ac588DXPCQ" guid="-BHJ__58g83xQLUgOYdWOcQ" changeDate="2007-12-20T13:19:58.734-0800" version="7.2.0">
+  <sections xmi:id="_daz5kHdYEdyqd9oUl_5ulw" name="For Each Required Target Test Item, Identify Relationships with Test Mechanisms " guid="_daz5kHdYEdyqd9oUl_5ulw">
+    <sectionDescription>For each target test item, review the list of test mechanisms, and identify the ones that could provide support. Analyze&#xD;
+how closely the selected test mechanisms provide a complete test solution, and how they can be adapted to become a better&#xD;
+fit. If no candidates are found (or the adaptation effort is significant), define new test mechanisms, and try to find a&#xD;
+balance between specificity and reusability.</sectionDescription>
+  </sections>
+  <sections xmi:id="_evTAQHdYEdyqd9oUl_5ulw" name="Identify Dynamic Elements and Events of the System " guid="_evTAQHdYEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;div align=&quot;left&quot;>&#xD;
+    Using the available software requirements and design information, identify the dynamic elements and events of the&#xD;
+    system. Using the use-case, design, implementation, and deployment models, you can identify relevant items such as&#xD;
+    control classes, processes, threads, and events. Places to begin your research include classes stereotyped as&#xD;
+    &amp;lt;&amp;lt;control&amp;gt;&amp;gt;, use-case realizations, and elements described in the process architectural view or the&#xD;
+    implementation model stereotyped as &amp;lt;&amp;lt;process&amp;gt;&amp;gt; or &amp;lt;&amp;lt;thread&amp;gt;&amp;gt;.&#xD;
+&lt;/div>&#xD;
+&lt;p>&#xD;
+    In relation to the constraints imposed by the test environment, define the physical requirements.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_jrM5kHdYEdyqd9oUl_5ulw" name="Identify System Boundaries and Interfaces " guid="_jrM5kHdYEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Another useful group of elements to examine are the Interfaces of the system, most importantly those that relate to&#xD;
+    actors external to the boundaries of the system. Using the Design and Implementation models, look for elements defined&#xD;
+    with the stereotype &amp;lt;&amp;lt;interface&amp;gt;&amp;gt;. Also examine the models for the existence of classes stereotyped as&#xD;
+    &amp;lt;&amp;lt;boundary&amp;gt;&amp;gt;.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As a tester, it is useful to explore past these system boundaries to gain an understanding of the expectations of the&#xD;
+    related systems (both client and service providers). This will give you a more thorough understanding of what is needed&#xD;
+    (both in terms of validation of the interfaces, and in terms of the test infrastructure required to test and possibly&#xD;
+    simulate these interfaces).&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_lpt0sHdYEdyqd9oUl_5ulw" name="Identify Test Infrastructure Elements " guid="_lpt0sHdYEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    For an iterative test effort to be successful, it is important to identify and maintain an appropriate infrastructure.&#xD;
+    Without an infrastructure to help maintain it, the test effort can quickly become unmaintainable and unusable. While&#xD;
+    more obviously relevant to the automated test effort, test infrastructure is also an important concern for the manual&#xD;
+    test effort.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Consider the dynamic elements and events in the system: what dependencies will these place on the implementation of&#xD;
+    individual tests? Look for opportunities to uncouple the dependencies between individual tests, and manage them through&#xD;
+    common points of control that provide a layer of indirection. Common areas to explore for dependencies include test&#xD;
+    navigation, test data use, and system state changes.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Using the information that you have gathered, consider what requirements will govern the test infrastructure, and what&#xD;
+    facilities it will need to provide to enable a successful test approach.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more details, see the Identify Test Infrastructure Elements section in &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.independent_testing.base-ibm/guidances/guidelines/def_testability_el_B94FAAF8.html&quot;&#xD;
+    guid=&quot;_ODuDELJZEdyHw6xErAkVmw&quot;>Guideline: Defining Testability Elements&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_niHgwHdYEdyqd9oUl_5ulw" name="Identify Test-Specific Design Needs " guid="_niHgwHdYEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Especially where test automation is concerned, it is likely that the test implementation and assessment needs will&#xD;
+    place some constraints on both the way the development team enacts the software engineering process, and on the&#xD;
+    architecture and design of the software. It is important both that the software development team is not unduly hampered&#xD;
+    in their core development work, and that the test team has the ability to perform the necessary testing.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Using the information that you have gathered, consider what requirements the test effort will place on the development&#xD;
+    effort.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more details, see the Identify Test-Specific Needs section in &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.independent_testing.base-ibm/guidances/guidelines/def_testability_el_B94FAAF8.html&quot;&#xD;
+    guid=&quot;_ODuDELJZEdyHw6xErAkVmw&quot;>Guideline: Defining Testability Elements&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_pyNUEHdYEdyqd9oUl_5ulw" name="Define Software Testability Requirements " guid="_pyNUEHdYEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Using the previous work performed on the task, define the test-specific requirements and constraints that should be&#xD;
+    considered in the software design and implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more details, see the Define Software Testability Requirements section in &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.independent_testing.base-ibm/guidances/guidelines/def_testability_el_B94FAAF8.html&quot;&#xD;
+    guid=&quot;_ODuDELJZEdyHw6xErAkVmw&quot;>Guideline: Defining Testability Elements&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_r4BxEHdYEdyqd9oUl_5ulw" name="Define Test Infrastructure " guid="_r4BxEHdYEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Using the previous work performed on the task, define the test infrastructure that is required to support test&#xD;
+    implementation and execution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Remember that you are defining the implementation features of the infrastructure; your main objective is to define the&#xD;
+    various parts of the solution that will implement that infrastructure.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more details, see the Identify Test Infrastructure Elements section in &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.independent_testing.base-ibm/guidances/guidelines/def_testability_el_B94FAAF8.html&quot;&#xD;
+    guid=&quot;_ODuDELJZEdyHw6xErAkVmw&quot;>Guideline: Defining Testability Elements&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_ucYkMHdYEdyqd9oUl_5ulw" name="Evaluate and Verify Your Results " guid="_ucYkMHdYEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    You should evaluate whether your work is of appropriate quality, and that it is complete enough to be useful to those&#xD;
+    team members who will make subsequent use of it as input to their work. Where possible, use checklists to verify that&#xD;
+    quality and completeness are good enough.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Have the people who perform the downstream tasks that rely on your work as input review your interim work. Do this&#xD;
+    while you still have time available to take action to address their concerns. You should also evaluate your work&#xD;
+    against the key input work products to make sure that you have represented them accurately and sufficiently. It may be&#xD;
+    useful to have the author of the input work product review your work on this basis.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    The purpose of this task is to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identify the elements needed to support the target test items&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify the physical elements of the test implementation infrastructure required to enable testing under each Test&#xD;
+        Environment Configuration&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Define the software design requirements that will need to be met to enable the software to be physically testable&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_ulSw8AahEeKDn6MuflC_BA" guid="_ulSw8AahEeKDn6MuflC_BA">
+    <resourceDescriptors xmi:id="_ulSw8QahEeKDn6MuflC_BA" id="-mx75oOijBHh-DnSnaY51Ww" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ulWbUAahEeKDn6MuflC_BA" id="-_tZ19WZ9yqqR2q8QnPCmfA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_91quQJEZEeCUs8vNyweFYw" name="8.9 Verification Planning" guid="_91quQJEZEeCUs8vNyweFYw">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_pSZzoJEbEeCUs8vNyweFYw" name="Create verification report" guid="_pSZzoJEbEeCUs8vNyweFYw" presentationName="Create verification report" briefDescription="The verification report details how the verification progressed against the verification plan and an evaluation of the verification results." isPlanned="true" superActivities="_91quQZEZEeCUs8vNyweFYw" linkToPredecessor="_DIw4MZEdEeCUs8vNyweFYw" additionallyPerformedBy="_Uzb_p5EcEeCUs8vNyweFYw" mandatoryInput="_Uzb_pJEcEeCUs8vNyweFYw _Uzb_sJEcEeCUs8vNyweFYw _lo4R8Z2BEeCk2aQcgmZB_w" output="_lo4R9J2BEeCk2aQcgmZB_w" performedPrimarilyBy="_Uzb_oZEcEeCUs8vNyweFYw">
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_V3DOMJEbEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_pSZzoZEbEeCUs8vNyweFYw" name="Develop verification plan" guid="_pSZzoZEbEeCUs8vNyweFYw" presentationName="Develop verification plan" briefDescription="The verification plan covers the content of the work products to be verified, the verification tools,methods and environment with pass and fail criteria.&#xD;&#xA;Strategies should be in place for dealing with anomalies and also regression.&#xD;&#xA;Verification planning should also consider complexity of the work products, the methods, their maturity and prior experiences." isPlanned="true" superActivities="_91quQZEZEeCUs8vNyweFYw" additionallyPerformedBy="_Uzb_p5EcEeCUs8vNyweFYw" mandatoryInput="_Uzb_rZEcEeCUs8vNyweFYw" output="_Uzb_pJEcEeCUs8vNyweFYw" performedPrimarilyBy="_Uzb_qpEcEeCUs8vNyweFYw _Uzb_oZEcEeCUs8vNyweFYw">
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_EnckEJEaEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_pSZzopEbEeCUs8vNyweFYw" name="Develop Verification Specification" guid="_pSZzopEbEeCUs8vNyweFYw" presentationName="Develop Verification Specification" briefDescription="The specification of verification specifies the methods selected to be used for verification, these  methods shall include&#xD;&#xA;review or analysis checklists, simulation scenarios or test cases and test data.&#xD;&#xA;" isPlanned="true" superActivities="_91quQZEZEeCUs8vNyweFYw" linkToPredecessor="_xua9sZEbEeCUs8vNyweFYw" additionallyPerformedBy="_Uzb_p5EcEeCUs8vNyweFYw" mandatoryInput="_Uzb_pJEcEeCUs8vNyweFYw _Uzb_rZEcEeCUs8vNyweFYw" output="_Uzb_sJEcEeCUs8vNyweFYw" performedPrimarilyBy="_Uzb_qpEcEeCUs8vNyweFYw _Uzb_oZEcEeCUs8vNyweFYw">
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_tI_gIJEaEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_xua9sZEbEeCUs8vNyweFYw" guid="_xua9sZEbEeCUs8vNyweFYw" pred="_pSZzoZEbEeCUs8vNyweFYw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_Uzb_oZEcEeCUs8vNyweFYw" name="Safety Manager" guid="_Uzb_oZEcEeCUs8vNyweFYw" presentationName="Safety Manager" briefDescription="Plans the safety activities in the development  subphases of the safety lifecycle.&#xD;&#xA;He is responsible for the maintenance of the safety plan, and for monitoring the progress of the safety activities against the safety plan." isPlanned="false" superActivities="_91quQZEZEeCUs8vNyweFYw" modifies="_lo4R9J2BEeCk2aQcgmZB_w _Uzb_pJEcEeCUs8vNyweFYw _Uzb_sJEcEeCUs8vNyweFYw">
+      <methodElementProperty xmi:id="_ulYQgAahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-mx75oOijBHh-DnSnaY51Ww" href="uma://-mx75oOijBHh-DnSnaY51Ww#-mx75oOijBHh-DnSnaY51Ww"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_jhKyAIedEeCpk9ipETsKDg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Uzb_pJEcEeCUs8vNyweFYw" name="Verification Plan" guid="_Uzb_pJEcEeCUs8vNyweFYw" presentationName="Verification Plan" briefDescription="Planning of the verification activity, typically detailing how the verification is to be carried out and by whom." isPlanned="false" superActivities="_91quQZEZEeCUs8vNyweFYw">
+      <methodElementProperty xmi:id="_ulYQgQahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_cWuqcJA2EeCXD5XcLandUA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_Uzb_p5EcEeCUs8vNyweFYw" name="Project member" guid="_Uzb_p5EcEeCUs8vNyweFYw" presentationName="Project member" briefDescription="Overarching role that covers anyone on the project that has impact on the lifecycle of the element being developed.&#xD;&#xA;The project member role can be used to assign someone a task that requires a skill set that is outside the general roles defined." isPlanned="false" superActivities="_91quQZEZEeCUs8vNyweFYw" modifies="_lo4R8Z2BEeCk2aQcgmZB_w">
+      <methodElementProperty xmi:id="_ulYQggahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_MKQyEJEWEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_Uzb_qpEcEeCUs8vNyweFYw" name="Quality Manager" guid="_Uzb_qpEcEeCUs8vNyweFYw" presentationName="Quality Manager" briefDescription="Ensures that the quality management system is operating correctly to support ISO 26262." isPlanned="false" superActivities="_91quQZEZEeCUs8vNyweFYw" modifies="_Uzb_pJEcEeCUs8vNyweFYw _Uzb_sJEcEeCUs8vNyweFYw">
+      <methodElementProperty xmi:id="_ulYQgwahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_GfaEQIejEeCpk9ipETsKDg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Uzb_rZEcEeCUs8vNyweFYw" name="Safety plan" guid="_Uzb_rZEcEeCUs8vNyweFYw" presentationName="Safety plan " briefDescription="Plan to control and guide the safety activities of a project including dates, milestones, tasks, deliverables, responsibilities and resources.&#xD;&#xA;&#xD;&#xA;This is the Initial version of the safety plan, that gets refined through further stages of development in the Safety plan Vn+1." isPlanned="false" superActivities="_91quQZEZEeCUs8vNyweFYw">
+      <methodElementProperty xmi:id="_ulYQhAahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_YSuNcIhqEeCE4bK4CwiExg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Uzb_sJEcEeCUs8vNyweFYw" name="Verification Specification" guid="_Uzb_sJEcEeCUs8vNyweFYw" presentationName="Verification Specification" briefDescription="Specification detailing the test methods, guidance and pass fail criteria for the verification task in hand." isPlanned="false" superActivities="_91quQZEZEeCUs8vNyweFYw">
+      <methodElementProperty xmi:id="_ulYQhQahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_jxCf4JA2EeCXD5XcLandUA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4CRr8JEcEeCUs8vNyweFYw" name="Verification task" guid="_4CRr8JEcEeCUs8vNyweFYw" presentationName="Verification task" briefDescription="The task of carrying out the verification plan and specification for any of the applicable phases.&#xD;&#xA;i.e. concept phase, during the design phases and the production and operation phase." isPlanned="true" superActivities="_91quQZEZEeCUs8vNyweFYw" linkToPredecessor="_CXS_AZEdEeCUs8vNyweFYw" mandatoryInput="_Uzb_pJEcEeCUs8vNyweFYw _Uzb_sJEcEeCUs8vNyweFYw" output="_lo4R8Z2BEeCk2aQcgmZB_w" performedPrimarilyBy="_Uzb_p5EcEeCUs8vNyweFYw">
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_V3Yv8JEcEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_CXS_AZEdEeCUs8vNyweFYw" guid="_CXS_AZEdEeCUs8vNyweFYw" pred="_pSZzopEbEeCUs8vNyweFYw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_DIw4MZEdEeCUs8vNyweFYw" guid="_DIw4MZEdEeCUs8vNyweFYw" pred="_4CRr8JEcEeCUs8vNyweFYw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_lo4R8Z2BEeCk2aQcgmZB_w" name="Verified work product or element" guid="_lo4R8Z2BEeCk2aQcgmZB_w" presentationName="Verified work product or element" isPlanned="false" superActivities="_91quQZEZEeCUs8vNyweFYw">
+      <methodElementProperty xmi:id="_ulYQhgahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_wokTcJEcEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_lo4R9J2BEeCk2aQcgmZB_w" name="Verification Report" guid="_lo4R9J2BEeCk2aQcgmZB_w" presentationName="Verification Report" briefDescription="A report detailing the outcome of the verification and whether the item passed or failed the verification." isPlanned="false" superActivities="_91quQZEZEeCUs8vNyweFYw">
+      <methodElementProperty xmi:id="_ulYQhwahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_fnf3oJA2EeCXD5XcLandUA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_91quQZEZEeCUs8vNyweFYw" name="8.9 Verification Planning" guid="_91quQZEZEeCUs8vNyweFYw" presentationName="8.9 Verification Planning" briefDescription="Generic set of tasks required to carry out verification. This is something that happens in many places in the workflow." breakdownElements="_pSZzoZEbEeCUs8vNyweFYw _pSZzopEbEeCUs8vNyweFYw _4CRr8JEcEeCUs8vNyweFYw _pSZzoJEbEeCUs8vNyweFYw _Uzb_oZEcEeCUs8vNyweFYw _Uzb_pJEcEeCUs8vNyweFYw _Uzb_p5EcEeCUs8vNyweFYw _Uzb_qpEcEeCUs8vNyweFYw _Uzb_rZEcEeCUs8vNyweFYw _Uzb_sJEcEeCUs8vNyweFYw _lo4R8Z2BEeCk2aQcgmZB_w _lo4R9J2BEeCk2aQcgmZB_w">
+      <presentation xmi:id="-_tZ19WZ9yqqR2q8QnPCmfA" href="uma://-mx75oOijBHh-DnSnaY51Ww#-_tZ19WZ9yqqR2q8QnPCmfA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

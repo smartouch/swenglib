@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Rx29gMFjEeGh1OUl278fdA" guid="_Rx29gMFjEeGh1OUl278fdA">
+    <resourceDescriptors xmi:id="_Rx29gcFjEeGh1OUl278fdA" id="-K9ybyXsY8md0DcvfZrF1DA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_Rv-uMMFjEeGh1OUl278fdA" name="iuv" guid="_Rv-uMMFjEeGh1OUl278fdA">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_UZJv4MFjEeGh1OUl278fdA" name="prepare_for_iuv" guid="_UZJv4MFjEeGh1OUl278fdA" presentationName="Prepare for IUV" superActivities="_Rv-uMcFjEeGh1OUl278fdA">
+      <guidelines href="uma://_GMW2QLS7EeGqmsDJBiIzJg#_yrpBUME_EeGh1OUl278fdA"/>
+      <Task href="uma://_GMW2QLS7EeGqmsDJBiIzJg#_zugIYMCCEeGh1OUl278fdA"/>
+      <selectedSteps href="uma://-R-MUyfltGn9TOaUeVKFs9w#_XNrE0MCFEeGh1OUl278fdA"/>
+      <selectedSteps href="uma://-R-MUyfltGn9TOaUeVKFs9w#_YK7-UMCFEeGh1OUl278fdA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_U2OtcMFjEeGh1OUl278fdA" name="conduct_iuv" guid="_U2OtcMFjEeGh1OUl278fdA" presentationName="Conduct IUV" superActivities="_Rv-uMcFjEeGh1OUl278fdA" linkToPredecessor="_gJJMIMFjEeGh1OUl278fdA">
+      <guidelines href="uma://_GMW2QLS7EeGqmsDJBiIzJg#_AQH6AMFAEeGh1OUl278fdA"/>
+      <guidelines href="uma://_GMW2QLS7EeGqmsDJBiIzJg#_ehw3UMCiEeGh1OUl278fdA"/>
+      <Task href="uma://_GMW2QLS7EeGqmsDJBiIzJg#_40cHcMCCEeGh1OUl278fdA"/>
+      <selectedSteps href="uma://-lsQRGJBb4gQLi1lP_BPpYw#_B9LBAMCYEeGh1OUl278fdA"/>
+      <selectedSteps href="uma://-lsQRGJBb4gQLi1lP_BPpYw#_DE4P8MCYEeGh1OUl278fdA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_VJXE0MFjEeGh1OUl278fdA" name="assess_iuv" guid="_VJXE0MFjEeGh1OUl278fdA" presentationName="Assess IUV" superActivities="_Rv-uMcFjEeGh1OUl278fdA" linkToPredecessor="_iAiyoMFjEeGh1OUl278fdA">
+      <guidelines href="uma://_GMW2QLS7EeGqmsDJBiIzJg#_AQH6AMFAEeGh1OUl278fdA"/>
+      <Task href="uma://_GMW2QLS7EeGqmsDJBiIzJg#_8m4eUMCCEeGh1OUl278fdA"/>
+      <selectedSteps href="uma://-PGBb8TdvEVbaEWW5AosEkw#_GH2RsMCYEeGh1OUl278fdA"/>
+      <selectedSteps href="uma://-PGBb8TdvEVbaEWW5AosEkw#_JrUYcMCYEeGh1OUl278fdA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_gJJMIMFjEeGh1OUl278fdA" guid="_gJJMIMFjEeGh1OUl278fdA" pred="_UZJv4MFjEeGh1OUl278fdA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_iAiyoMFjEeGh1OUl278fdA" guid="_iAiyoMFjEeGh1OUl278fdA" pred="_U2OtcMFjEeGh1OUl278fdA"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_Rv-uMcFjEeGh1OUl278fdA" name="iuv" guid="_Rv-uMcFjEeGh1OUl278fdA" presentationName="Intended Use Validation" breakdownElements="_UZJv4MFjEeGh1OUl278fdA _U2OtcMFjEeGh1OUl278fdA _VJXE0MFjEeGh1OUl278fdA">
+      <presentation xmi:id="-K9ybyXsY8md0DcvfZrF1DA" href="uma://-K9ybyXsY8md0DcvfZrF1DA#-K9ybyXsY8md0DcvfZrF1DA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

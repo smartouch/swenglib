@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-xDSDBNeIS7FlVtpSM4sb1A" name="single_operation_service_component_pattern,_tIoboGWmEd6Zd-lbA790BQ" guid="-xDSDBNeIS7FlVtpSM4sb1A" changeDate="2009-10-29T09:06:54.906-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    In some cases where services are identified in the Service Model with multiple operations, it is more appropriate to&#xD;
+    implement the operations individually as stand-alone services separating the logical service and physical service&#xD;
+    views. Such a pattern has advantages in terms of flexibility of sourcing, high availability, versioning, and evolution&#xD;
+    but does lose the notion of an interface to a service as a set of related operations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Modeling service components according to this pattern has a single &amp;lt;&amp;lt;Service Component&amp;gt;&amp;gt; realizing a single&#xD;
+    interface with a single operation, all named according to common conventions and demonstrated below.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 1.&amp;nbsp; Realizing the Single Operation Service Component pattern&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img src=&quot;./resources/singleopsrvccomp_ptrn1.3.gif&quot; />&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In this case, as we mentioned, there is no direct realization of the original service specification by any one element&#xD;
+    in the pattern above. Therefore, it seems worthwhile to introduce an element in the model that can provide traceability&#xD;
+    back to the service specification. In the example below, we have introduced a component, stereotyped&#xD;
+    &amp;lt;&amp;lt;subsystem&amp;gt;&amp;gt;, that is noted as implementing the service specification and also owning the elements&#xD;
+    described above.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 2.&amp;nbsp; Introducing a &amp;lt;&amp;lt;subsystem&amp;gt;&amp;gt; to own all the components that collectively implement&#xD;
+    the original service specification&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&lt;img src=&quot;./resources/singleopsrvccomp_ptrn2.2.gif&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This pattern also does not introduce the &amp;lt;&amp;lt;facade&amp;gt;&amp;gt; component because consumers of the services are&#xD;
+    responsible for identifying the services they use.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_5i1UADOJEd6jS7-0yMOEJQ" guid="_5i1UADOJEd6jS7-0yMOEJQ">
+    <resourceDescriptors xmi:id="_bCK3AEPwEd6g3sm3i_bp6Q" id="-UvfwP5NoK5kZA3cE2ysXJw" uri="roles/business_analyst.assign.xmi"/>
+    <resourceDescriptors xmi:id="_6sRksExpEd6O2Ni6Yzt9ew" id="-u_tjqFFRkBAaCkUTeh8lzA" uri="tasks/define_the_business.assign.xmi"/>
+    <resourceDescriptors xmi:id="_Sz5E8UxqEd6O2Ni6Yzt9ew" id="-8dziUuhtqLLATm3EJzdxMg" uri="tasks/describe_the_business.assign.xmi"/>
+    <resourceDescriptors xmi:id="_Qh4REU_CEd6hzZ6BBpIuVw" id="-QqGfM6hzRTZm8-KruxKb-w" uri="roles/stakeholder.assign.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_5hM8UDOJEd6jS7-0yMOEJQ" userChangeable="false" name="practice.bus.use_case_driven_business_modeling.assign-ibm" guid="_5hM8UDOJEd6jS7-0yMOEJQ" briefDescription="Role assignments" authors="Jim Ruehlin" changeDate="2010-04-27T16:10:29.218-0700">
+    <methodElementProperty xmi:id="_1w1uQbemEd-oHLor78AFuw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_VBVtYBXVEdyM9L6rbYAZaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5hM8UTOJEd6jS7-0yMOEJQ" name="Content" guid="_5hM8UTOJEd6jS7-0yMOEJQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5hM8UjOJEd6jS7-0yMOEJQ" name="Categories" guid="_5hM8UjOJEd6jS7-0yMOEJQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5hM8UzOJEd6jS7-0yMOEJQ" name="Domains" guid="_5hM8UzOJEd6jS7-0yMOEJQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_QRaWgE-eEd6hzZ6BBpIuVw" name="business_modeling_domain.assign" guid="_QRaWgE-eEd6hzZ6BBpIuVw" variabilityType="contributes">
+            <methodElementProperty xmi:id="_rgFOUOvYEeGiQctThs2A2w" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_xCV7YK_jEdyRnp6Y1hLYVQ#_1KYVIGncEd-FnY0iDvOKYw"/>
+            <conceptsAndPapers href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_LBT9wE-9Ed6hzZ6BBpIuVw"/>
+            <checklists href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_11KJIDQdEd6UdJtXX0x6GA"/>
+            <guidelines href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_1W5JkFCJEd6HMOWuocLkZg"/>
+            <guidelines href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_e8PLIFBtEd6HMOWuocLkZg"/>
+            <guidelines href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_YOJxQFBnEd6HMOWuocLkZg"/>
+            <workProducts href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_CGlW4E-bEd6hzZ6BBpIuVw"/>
+            <workProducts href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_vGh2wEcdEd6GBq2DuQ5crg"/>
+            <workProducts href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_vZ1FIFUyEd6lItlEOevULA"/>
+            <workProducts href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_qfJmgFqmEd6cz7WWjCrtdA"/>
+            <workProducts href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_tOPC8FqmEd6cz7WWjCrtdA"/>
+            <workProducts href="uma://_ZqI0ADNQEd6_nLybut0Zyw#{0DADA95B-7C1D-44BD-9DB5-41AC99767753}"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5hM8VDOJEd6jS7-0yMOEJQ" name="Disciplines" guid="_5hM8VDOJEd6jS7-0yMOEJQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_aOu7QE-eEd6hzZ6BBpIuVw" name="business_modeling.assign" guid="_aOu7QE-eEd6hzZ6BBpIuVw" variabilityType="contributes" tasks="_nLDmUEPuEd6g3sm3i_bp6Q _Gk1HEExqEd6O2Ni6Yzt9ew _BUI1ME-6Ed6hzZ6BBpIuVw _nWMFAFn3Ed6TDdjsK-pYkg _5skm4E-5Ed6hzZ6BBpIuVw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_xCV7YK_jEdyRnp6Y1hLYVQ#_XN1rQIaqEd2rFt_NOMF8oQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5hM8VTOJEd6jS7-0yMOEJQ" name="RoleSets" guid="_5hM8VTOJEd6jS7-0yMOEJQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_h1mDUE-8Ed6hzZ6BBpIuVw" name="business" guid="_h1mDUE-8Ed6hzZ6BBpIuVw" presentationName="Business">
+            <roles href="uma://_yjPyAMYfEdyXeo04os5BOw#_PheIcH6GEd2OX42dL3uvNA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5hM8VjOJEd6jS7-0yMOEJQ" name="WP Types" guid="_5hM8VjOJEd6jS7-0yMOEJQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5hM8VzOJEd6jS7-0yMOEJQ" name="Tools" guid="_5hM8VzOJEd6jS7-0yMOEJQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_zm0okPwUEd-awsaUroHNGA" name="rational_requirements_composer.assign" guid="_zm0okPwUEd-awsaUroHNGA" variabilityType="contributes">
+            <methodElementProperty xmi:id="_PPSbwOcCEeGGTZBISgdU8w" name="me_edited" value="true"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_3mXbsMYhEdyXeo04os5BOw#_2o2r0HU_Ed2KwLyf6ks5lg"/>
+            <toolMentors href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_Cz2KcVnsEd6TDdjsK-pYkg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5hM8WDOJEd6jS7-0yMOEJQ" name="StandardCategories" guid="_5hM8WDOJEd6jS7-0yMOEJQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5hM8WTOJEd6jS7-0yMOEJQ" name="CustomCategories" guid="_5hM8WTOJEd6jS7-0yMOEJQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5hM8WjOJEd6jS7-0yMOEJQ" name="Hidden" guid="_5hM8WjOJEd6jS7-0yMOEJQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_5hM8WzOJEd6jS7-0yMOEJQ" name="Custom Categories" guid="_5hM8WzOJEd6jS7-0yMOEJQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_5hM8XDOJEd6jS7-0yMOEJQ" name="CoreContent" guid="_5hM8XDOJEd6jS7-0yMOEJQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_T1gt8EPuEd6g3sm3i_bp6Q" name="role_assignments" guid="_T1gt8EPuEd6g3sm3i_bp6Q" presentationName="Role Assignments">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_WMw5MEPuEd6g3sm3i_bp6Q" name="business_analyst.assign" guid="_WMw5MEPuEd6g3sm3i_bp6Q" briefDescription="This role leads and coordinates business requirements elicitation by outlining and delimiting the organization being modeled, and by describing how the business must operate in order to achieve its goals and objectives." variabilityType="contributes">
+            <methodElementProperty xmi:id="_kWjHMOvVEeGiQctThs2A2w" name="me_edited" value="true"/>
+            <presentation xmi:id="-UvfwP5NoK5kZA3cE2ysXJw" href="uma://-UvfwP5NoK5kZA3cE2ysXJw#-UvfwP5NoK5kZA3cE2ysXJw"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_yjPyAMYfEdyXeo04os5BOw#_PheIcH6GEd2OX42dL3uvNA"/>
+            <responsibleFor href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_CGlW4E-bEd6hzZ6BBpIuVw"/>
+            <responsibleFor href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_vGh2wEcdEd6GBq2DuQ5crg"/>
+            <responsibleFor href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_vZ1FIFUyEd6lItlEOevULA"/>
+            <responsibleFor href="uma://_ZqI0ADNQEd6_nLybut0Zyw#{0DADA95B-7C1D-44BD-9DB5-41AC99767753}"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_nLDmUEPuEd6g3sm3i_bp6Q" name="define_the_business.assign" guid="_nLDmUEPuEd6g3sm3i_bp6Q" variabilityType="contributes" performedBy="_WMw5MEPuEd6g3sm3i_bp6Q" additionallyPerformedBy="__sREgEceEd6GBq2DuQ5crg">
+            <presentation xmi:id="-u_tjqFFRkBAaCkUTeh8lzA" href="uma://-u_tjqFFRkBAaCkUTeh8lzA#-u_tjqFFRkBAaCkUTeh8lzA"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_sfkLcDNcEd6_nLybut0Zyw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="__sREgEceEd6GBq2DuQ5crg" name="stakeholder.assign" guid="__sREgEceEd6GBq2DuQ5crg" variabilityType="contributes">
+            <presentation xmi:id="-QqGfM6hzRTZm8-KruxKb-w" href="uma://-QqGfM6hzRTZm8-KruxKb-w#-QqGfM6hzRTZm8-KruxKb-w"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_dTa6gMAYEdqX-s4mWhkyqQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Gk1HEExqEd6O2Ni6Yzt9ew" name="describe_the_business.assign" guid="_Gk1HEExqEd6O2Ni6Yzt9ew" variabilityType="contributes">
+            <presentation xmi:id="-8dziUuhtqLLATm3EJzdxMg" href="uma://-8dziUuhtqLLATm3EJzdxMg#-8dziUuhtqLLATm3EJzdxMg"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_gd1T4EDOEd6xU9AA2v_L1g"/>
+            <performedBy href="uma://_yjPyAMYfEdyXeo04os5BOw#_PheIcH6GEd2OX42dL3uvNA"/>
+            <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_dTa6gMAYEdqX-s4mWhkyqQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_5skm4E-5Ed6hzZ6BBpIuVw" name="structure_the_business_uc_model.assign" guid="_5skm4E-5Ed6hzZ6BBpIuVw" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_1_pyEEcaEd6GBq2DuQ5crg"/>
+            <performedBy href="uma://_yjPyAMYfEdyXeo04os5BOw#_PheIcH6GEd2OX42dL3uvNA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_BUI1ME-6Ed6hzZ6BBpIuVw" name="model_the_business.assign" guid="_BUI1ME-6Ed6hzZ6BBpIuVw" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_6rtWAEDOEd6xU9AA2v_L1g"/>
+            <performedBy href="uma://_yjPyAMYfEdyXeo04os5BOw#_PheIcH6GEd2OX42dL3uvNA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_nWMFAFn3Ed6TDdjsK-pYkg" name="model_a_scenario.assign" guid="_nWMFAFn3Ed6TDdjsK-pYkg" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_CWz54FnQEd6TDdjsK-pYkg"/>
+            <performedBy href="uma://_yjPyAMYfEdyXeo04os5BOw#_PheIcH6GEd2OX42dL3uvNA"/>
+            <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_dTa6gMAYEdqX-s4mWhkyqQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_5hM8XTOJEd6jS7-0yMOEJQ" name="CapabilityPatterns" guid="_5hM8XTOJEd6jS7-0yMOEJQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_5hM8XjOJEd6jS7-0yMOEJQ" name="DeliveryProcesses" guid="_5hM8XjOJEd6jS7-0yMOEJQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_5hM8XzOJEd6jS7-0yMOEJQ" name="ProcessContributions" guid="_5hM8XzOJEd6jS7-0yMOEJQ"/>
+    <bases href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_ZqI0ADNQEd6_nLybut0Zyw"/>
+    <bases href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_6Bi1YLAYEd2oW_uTVb0U4w"/>
+    <bases href="uma://_yjPyAMYfEdyXeo04os5BOw#_yjPyAMYfEdyXeo04os5BOw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

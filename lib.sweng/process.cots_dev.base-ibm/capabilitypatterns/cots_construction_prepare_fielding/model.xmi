@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_uDW9UOwsEd-sjp03to1LnQ" guid="_uDW9UOwsEd-sjp03to1LnQ">
+    <resourceDescriptors xmi:id="_uDW9UewsEd-sjp03to1LnQ" id="-ic5AQ8x4LY-Tkv6WsUtIAw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_s-qmKOwsEd-sjp03to1LnQ" name="cots_construction_prepare_fielding" guid="_s-qmKOwsEd-sjp03to1LnQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_vmkxgB6KEeCLp5muur8Asw" name="plan_deployment" guid="_vmkxgB6KEeCLp5muur8Asw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_vmkxgR6KEeCLp5muur8Asw" name="plan_deployment" guid="_vmkxgR6KEeCLp5muur8Asw" superActivities="_s-qmMOwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlGB1BY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_w7zfEB6KEeCLp5muur8Asw" name="develop_support_material" guid="_w7zfEB6KEeCLp5muur8Asw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_w7zfER6KEeCLp5muur8Asw" name="develop_support_material" guid="_w7zfER6KEeCLp5muur8Asw" superActivities="_s-qmMOwsEd-sjp03to1LnQ" linkToPredecessor="_CYy6YB6LEeCLp5muur8Asw" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlPyuhY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_CYy6YB6LEeCLp5muur8Asw" guid="_CYy6YB6LEeCLp5muur8Asw">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlGB1BY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_B1oi8B6LEeCLp5muur8Asw" name="package_product" guid="_B1oi8B6LEeCLp5muur8Asw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_B1oi8R6LEeCLp5muur8Asw" name="package_product" guid="_B1oi8R6LEeCLp5muur8Asw" isOptional="true" superActivities="_s-qmMOwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlGB5hY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_GnGt4B6LEeCLp5muur8Asw" name="produce_deployment_unit" guid="_GnGt4B6LEeCLp5muur8Asw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_GnGt4R6LEeCLp5muur8Asw" name="produce_deployment_unit" guid="_GnGt4R6LEeCLp5muur8Asw" superActivities="_s-qmMOwsEd-sjp03to1LnQ" linkToPredecessor="_MS_SoB6LEeCLp5muur8Asw" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlGB7BY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_MS_SoB6LEeCLp5muur8Asw" guid="_MS_SoB6LEeCLp5muur8Asw">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlPyuhY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_JCqxYB6LEeCLp5muur8Asw" name="manage_acceptance_test" guid="_JCqxYB6LEeCLp5muur8Asw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_JCqxYR6LEeCLp5muur8Asw" name="manage_acceptance_test" guid="_JCqxYR6LEeCLp5muur8Asw" superActivities="_s-qmMOwsEd-sjp03to1LnQ" linkToPredecessor="_MS_SoR6LEeCLp5muur8Asw" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlGBrRY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_MS_SoR6LEeCLp5muur8Asw" guid="_MS_SoR6LEeCLp5muur8Asw">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlGB1BY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_KBZqgB6LEeCLp5muur8Asw" name="beta_test_product" guid="_KBZqgB6LEeCLp5muur8Asw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_KBZqgR6LEeCLp5muur8Asw" name="beta_test_product" guid="_KBZqgR6LEeCLp5muur8Asw" isOptional="true" superActivities="_s-qmMOwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlGB-hY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_s-qmMOwsEd-sjp03to1LnQ" name="cots_construction_prepare_fielding" guid="_s-qmMOwsEd-sjp03to1LnQ" presentationName="Prepare Solution Fielding" briefDescription="This covers essential tasks aimed at preparing the solution for fielding in the construction phase." breakdownElements="_vmkxgR6KEeCLp5muur8Asw _w7zfER6KEeCLp5muur8Asw _B1oi8R6LEeCLp5muur8Asw _GnGt4R6LEeCLp5muur8Asw _JCqxYR6LEeCLp5muur8Asw _KBZqgR6LEeCLp5muur8Asw">
+      <methodElementProperty xmi:id="_t92MMOwsEd-sjp03to1LnQ" name="publish_ad" value="false"/>
+      <methodElementProperty xmi:id="_t92MMewsEd-sjp03to1LnQ" name="process_synFree" value="true"/>
+      <presentation xmi:id="-ic5AQ8x4LY-Tkv6WsUtIAw" href="uma://-ic5AQ8x4LY-Tkv6WsUtIAw#-ic5AQ8x4LY-Tkv6WsUtIAw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

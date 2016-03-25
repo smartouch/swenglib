@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_DddgUd04Ed-7no4nyxiTMA" guid="_DddgUd04Ed-7no4nyxiTMA">
+    <resourceDescriptors xmi:id="_DddgUt04Ed-7no4nyxiTMA" id="-jdZ3zV8ecAgD2wbXpQNafQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_Dct5cN04Ed-7no4nyxiTMA" name="full_spiral_rt" guid="_Dct5cN04Ed-7no4nyxiTMA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Zo-DwN05Ed-7no4nyxiTMA" name="Prespiral Setup" guid="_Zo-DwN05Ed-7no4nyxiTMA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gDtnsN07Ed-7no4nyxiTMA" name="Prespiral Planning" guid="_gDtnsN07Ed-7no4nyxiTMA">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_gDtnsd07Ed-7no4nyxiTMA" name="Prespiral Planning" guid="_gDtnsd07Ed-7no4nyxiTMA" presentationName="Prespiral Planning" briefDescription="To effectively run a project, the team needs to be organized, complete with specific people being assigned roles, and that team needs to be aware of how they are to perform their work and their work goals. The plans constructed during this capability pattern identify the information the project team requires to execute the project." superActivities="_Zo-Dwd05Ed-7no4nyxiTMA"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_qYuTsN07Ed-7no4nyxiTMA" name="Define and Deploy Dev Env" guid="_qYuTsN07Ed-7no4nyxiTMA">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_qYuTsd07Ed-7no4nyxiTMA" name="Define and Deploy Dev Env" guid="_qYuTsd07Ed-7no4nyxiTMA" presentationName="Define and Deploy Dev Env" briefDescription="This activity defines the process and tools that will be used on the project; installs, configures and initializes the development tools, and launches the development environment." superActivities="_Zo-Dwd05Ed-7no4nyxiTMA"/>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_wL6aUN07Ed-7no4nyxiTMA" name="elab_srs" guid="_wL6aUN07Ed-7no4nyxiTMA">
+        <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_wL6aUd07Ed-7no4nyxiTMA" name="elab_srs" guid="_wL6aUd07Ed-7no4nyxiTMA" presentationName="Develop Stakeholder Reqs" superActivities="_Zo-Dwd05Ed-7no4nyxiTMA" variabilityType="extends">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_xPSq8GG0Ed6ByZ91UzrddQ#_xPSq8WG0Ed6ByZ91UzrddQ"/>
+        </processElements>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_Zo-Dwd05Ed-7no4nyxiTMA" name="Prespiral Setup" guid="_Zo-Dwd05Ed-7no4nyxiTMA" presentationName="Prespiral Setup" briefDescription="Sets the stage for an incremental spiral development project." superActivities="_Dct5cd04Ed-7no4nyxiTMA" breakdownElements="_gDtnsd07Ed-7no4nyxiTMA _qYuTsd07Ed-7no4nyxiTMA _wL6aUd07Ed-7no4nyxiTMA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_x3njoN06Ed-7no4nyxiTMA" name="microcycle_rt" guid="_x3njoN06Ed-7no4nyxiTMA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_x3xUoN06Ed-7no4nyxiTMA" name="microcycle_rt" guid="_x3xUoN06Ed-7no4nyxiTMA" superActivities="_Dct5cd04Ed-7no4nyxiTMA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_ytYjcN05Ed-7no4nyxiTMA#_ytYjcd05Ed-7no4nyxiTMA"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_Dct5cd04Ed-7no4nyxiTMA" name="full_spiral_rt" guid="_Dct5cd04Ed-7no4nyxiTMA" presentationName="Full Spiral Process" briefDescription="The Full Spiral Process is a software-only approach to embedded systems development. It begins with some general planning, then, high quality system components are developed in an iterative, incremental lifecycle. Those components are pieced together to form the overall system." breakdownElements="_Zo-Dwd05Ed-7no4nyxiTMA _x3xUoN06Ed-7no4nyxiTMA">
+      <methodElementProperty xmi:id="_sD8lMOkJEd-I1fnAy2RxGw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-jdZ3zV8ecAgD2wbXpQNafQ" href="uma://-jdZ3zV8ecAgD2wbXpQNafQ#-jdZ3zV8ecAgD2wbXpQNafQ"/>
+      <includesPatterns href="uma://_ytYjcN05Ed-7no4nyxiTMA#_ytYjcd05Ed-7no4nyxiTMA"/>
+      <includesPatterns href="uma://_xPSq8GG0Ed6ByZ91UzrddQ#_xPSq8WG0Ed6ByZ91UzrddQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

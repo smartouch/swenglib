@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-sqVp_6OzzMipFxxtOv2hsg" name="monitor_test_effort,_h7aiMHFeEdy8Ac588DXPCQ" guid="-sqVp_6OzzMipFxxtOv2hsg" changeDate="2008-01-11T11:13:45.125-0800" version="7.2.0">
+  <sections xmi:id="_YXcDUHd5Edyqd9oUl_5ulw" name="Capture Work Status" guid="_YXcDUHd5Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    There are different ways to approach this step, and much of the approach will depend on your project culture. Where&#xD;
+    available, gather and collate progress reports prepared by individual team members or sub-teams. Project time sheets&#xD;
+    are another possible source to consider. If project scheduling systems such as Microsoft&amp;reg; Project are actively used and&#xD;
+    updated with actual progress, this provides another useful information source. Where available and actively used, you&#xD;
+    might also derive objective status or progress metrics from configuration and change management systems.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For this step and subsequent steps that deal with gathering information and assessing the test effort, try to obtain a&#xD;
+    balanced view, incorporating both objective and subjective measures. Remember that objective numbers only give part of&#xD;
+    the picture, and need to be supported and explained by the current project &quot;climate&quot;. Conversely, do not rely purely on&#xD;
+    hearsay and subjective speculation about the test effort: look for supporting objective evidence. Supplement your&#xD;
+    objective data by discussion with either team leads or (where possible) individual team members to gather subjective&#xD;
+    assessments and gauge how much confidence you can place in the objective data.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_bGiG0Hd5Edyqd9oUl_5ulw" name="Gather Test Effort Productivity and Effectiveness Metrics" guid="_bGiG0Hd5Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Investigate how much effort has been spent on the identification, definition, design, implementation, and execution of&#xD;
+    tests. Keep an eye out for signs of excessive effort being devoted to one aspect of the test effort to the detriment of&#xD;
+    others. Look also for areas where effort may be unproductive, or not showing sufficient benefit for the level of effort&#xD;
+    being expended.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Look also at the effectiveness of the testing. Look for data that supports your initial observations of effectiveness.&#xD;
+    Consider aspects such as defect discovery rate, defect severity counts, duplicate defect statistics, and defects&#xD;
+    detected as test escapes.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_fKaL8Hd5Edyqd9oUl_5ulw" name="Gather Change Request Distribution, Trend and Aging Metrics" guid="_fKaL8Hd5Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Identify important trends evident in the Change Request data. In general, it is less important for this task to spend&#xD;
+    time analyzing data volumes, and more important to identify what the relative data trends are indicating. Look for&#xD;
+    positive signs such as a steady, continuous rate of defect discovery, or a light ongoing increase or decrease in&#xD;
+    discovery rate over time. Be on the lookout for sharp peaks and troughs in discovery rate that indicate the test team&#xD;
+    may be encountering process, environmental, political, or other problems that are reducing their productivity.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Look at trends in defect closures. Look for significant increases of closures by development staff as &quot;not&#xD;
+    reproducible&quot;: Identify cases where this is a result of the test team not performing sufficient analysis of the&#xD;
+    failure, and quantify the extent of this problem. Look at trends in defects being closed by development staff as&#xD;
+    &quot;functioning as designed&quot;: Identify cases where this is a result of the test team not performing sufficient analysis of&#xD;
+    the specification, and quantify the extent of this problem. Be careful to confirm that these indications are not false,&#xD;
+    and due instead to overworked developers triaging their workload. You should also perform some analysis of defect&#xD;
+    verification trends, as fixes to defects are released to the test team in subsequent builds: look out for trends that&#xD;
+    indicate that defects awaiting verification by the test team are aging or growing to an unmanageable number.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Look for other trends that indicate problems. Look at the the way in which defects and other change requests have been&#xD;
+    recorded or managed by the test team: ambiguous and insufficient information on a change request is difficult and&#xD;
+    frustrating for a developer to take action on. The team should take care to monitor that the quality of the information&#xD;
+    recorded against defects remains (on average) relatively high. Take the opportunity to improve the clarity of the&#xD;
+    associated Change Requests, eliminating ambiguity and emotive language and reasoning. Work together with the&#xD;
+    individuals who created these work products to ensure that the essence of the problem is clearly stated, and encourage&#xD;
+    them to find factual and accurate ways to approach discussing the Issues.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Also look out for imbalances in defect distribution on a number of different dimensions. Look for functional areas of&#xD;
+    the application or the specification that have low defect counts raised against them: this may indicate an exposure&#xD;
+    that insufficient testing has been undertaken in that functional area. Look also at distribution by test team members:&#xD;
+    there may be indications that individual team members are overworked, and that productivity is suffering.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_heOosHd5Edyqd9oUl_5ulw" name="Gather Traceability, Coverage and Dependency Metrics" guid="_heOosHd5Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Analyze the state of the traceability relationships between the testing assets (Test Ideas, Test Motivators, Test&#xD;
+    Cases, Test Scripts, Test Suites, and Change Requests) and the upstream and downstream assets that they relate to. Look&#xD;
+    for signs that indicate that the test effort is focused on the correct areas and a useful set of motivations. Look also&#xD;
+    for negative indications that suggest certain aspects of testing are missing, or are no longer of importance: If the&#xD;
+    requirements or development teams are working on areas not represented by the current test effort, this should raise&#xD;
+    concerns.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_m5k3EHd5Edyqd9oUl_5ulw" name="Evaluate Metrics and Formulate Initial Assessment" guid="_m5k3EHd5Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;div align=&quot;left&quot;>&#xD;
+    Collate all of the information you have gathered and evaluate it as a collective whole. Remember that each piece of the&#xD;
+    data gathered only addresses one aspect of the total assessment, and you must formulate your assessment of the test&#xD;
+    effort based on a balanced and considered view of all data.&#xD;
+&lt;/div>&#xD;
+&lt;p>&#xD;
+    Record your initial assessment in a format that will be suitable for the stakeholders to assess, make comments, and&#xD;
+    give feedback on.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_rOu5cHd5Edyqd9oUl_5ulw" name="Record Findings" guid="_rOu5cHd5Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    This task produces summary status information that is important to the project manager and other roles in the&#xD;
+    management team. These roles will use the summary findings to make informed decisions about the project.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Record some aspects of the test effort assessment in a format that allows subsequent assessments to be compared and&#xD;
+    contrasted with previous ones. This will enable you to analyze the relative trend in test effort improvements over&#xD;
+    time.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_tsFssHd5Edyqd9oUl_5ulw" name="Plan and Implement Improvement Initiatives" guid="_tsFssHd5Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Based on your analysis and the feedback that you have received from various stakeholders, identify opportunities for&#xD;
+    improvement. Look for ways to make the testing more effective, productive, and efficient. This might involve:&#xD;
+    reassigning staff (including pairing staff to work more effectively, or employing specialized contractors), using&#xD;
+    productivity tools to improve efficiency, and finding alternative approaches and techniques that are more productive in&#xD;
+    terms of finding defects.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In most cases, it is better to make small, incremental improvements to the test effort and avoid the risk of derailing&#xD;
+    the project with large, unsettling changes; in some cases, a bigger change is warranted and useful. Use your best&#xD;
+    judgment to formulate an appropriate approach to improvement, and discuss your ideas with other management staff to get&#xD;
+    their input before committing the team to embrace large changes.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_yeUFkHd5Edyqd9oUl_5ulw" name="Monitor and Support Improvement Initiatives" guid="_yeUFkHd5Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    For the improvements to be effective, you will need to manage their success. Identify ways that you will be able to&#xD;
+    monitor improvement initiatives (preferably in advance on their adoption) to assess their effectiveness. Either&#xD;
+    actively monitor the progress being made in adopting the changes yourself, or appoint someone else on the team to do&#xD;
+    so.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Most changes meet resistance or problems that must be overcome for them to be ultimately successful. Allow time for,&#xD;
+    and be prepared to quickly address, any issues that arise and prevent the initiative from succeeding. Be sensitive to&#xD;
+    peoples' natural reluctance to change, and find ways to address their concerns appropriately.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_1205gHd5Edyqd9oUl_5ulw" name="Evaluate and Verify Your Results" guid="_1205gHd5Edyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    You should evaluate whether your work is of appropriate quality, and that it is complete enough to be useful to those&#xD;
+    team members who will make subsequent use of it as input to their work. Where possible, use checklists to verify that&#xD;
+    quality and completeness are good enough.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Have the people who perform the downstream tasks that rely on your work as input review your interim work. Do this&#xD;
+    while you still have time available to take action to address their concerns. You should also evaluate your work&#xD;
+    against the key input work products to make sure that you have represented them accurately and sufficiently. It may be&#xD;
+    useful to have the author of the input work product review your work on this basis.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    The purpose of this task is to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Make an assessment of the productivity, effectiveness, and completeness of the test effort&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Make adjustments to the test effort (both tactical and strategic) to improve effectiveness&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

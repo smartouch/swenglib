@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wizards xmlns="http://www.ibm.com/rmc/library/xmldef">
+  <wizard name="IBM Practices" id="IBM_Practices">
+    <page name="Enterprise Practices">
+      <description>The following pages are enterprise practices, click &quot;Next&quot; to proceed</description>
+    </page>
+    <page name="Enterprise Architecture">
+      <description>Enterprise Architecture</description>
+      <selection name="Enterprise Architecture">
+        <description>Practices for enterprise architecture</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_ent_arch"/>
+          </where>
+        </query>
+      </selection>
+    </page>
+    <page name="Software Capability Improvement">
+      <description>Software Capability Improvement</description>
+      <selection name="Software Capability Improvement">
+        <description>Practices for enterprise level software capability improvement</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_ent_sw_ci"/>
+          </where>
+        </query>
+      </selection>
+    </page>
+    <page name="Other Enterprise Practices">
+      <description>Other Enterprise Practices</description>
+      <selection name="Other Enterprise Practices">
+        <description>Other Enterprise Practices</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_enterprise"/>
+          </where>
+        </query>
+      </selection>
+    </page>
+
+    <page name="Software Development Practices">
+      <description>The following pages are software development practices, please click &quot;Next&quot; to proceed</description>
+    </page>
+    <page name="Software Architecture">
+      <description>Software Architecture</description>
+      <selection name="Software Architecture">
+        <description>Application Software Architecture</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_sw_arch"/>
+          </where>
+        </query>
+      </selection>
+      <selection name="SOMA based software architecture">
+        <description>SOMA based software architecture</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_sw_arch_soma"/>
+          </where>
+        </query>
+      </selection>
+    </page>
+    <page name="Change and Configuration Management">
+      <description>Change and Configuration Management</description>
+      <selection name="Change and Configuration Management">
+        <description>Practices for software development change and configuration management</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_sw_cc_mgmt"/>
+          </where>
+        </query>
+      </selection>
+    </page>
+    <page name="Deployment ">
+      <description>Select either "Documentation and Training" or "User Support and Training Development". Select either "Production Release" or "Deployment Management".</description>
+      <selection name="Deployment">
+        <description>Practices for software deployment</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_sw_deployment"/>
+          </where>
+        </query>
+      </selection>
+    </page>
+    <page name="Development">
+      <description>Development</description>
+      <selection name="Development">
+        <description>Practices for general software development process</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_sw_development"/>
+          </where>
+        </query>
+      </selection>
+      <selection name="Application Development">
+        <description>Practices for a more specific application development or implementation process</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_sw_dev_impl"/>
+          </where>
+        </query>
+      </selection>
+    </page>
+    <page name="Project Management ">
+      <description>Project Management</description>
+      <selection name="Project Management">
+        <description>Practices for software development project management</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_sw_proj_mgmt"/>
+          </where>
+        </query>
+      </selection>
+    </page>
+    <page name="Requirements">
+      <description>Requirements</description>
+      <selection name="Requirements">
+        <description>Practices for software requirements</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_sw_reqts"/>
+          </where>
+        </query>
+      </selection>
+    </page>
+    <page name="Testing">
+      <description>Testing</description>
+      <selection name="Application Testing">
+        <description>Application Testing</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_sw_testing_application"/>
+          </where>
+        </query>
+      </selection>
+      <selection name="Test Management">
+        <description>Practices for software testing management</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_sw_testing_mgmt"/>
+          </where>
+        </query>
+      </selection>
+      <selection name="Specialized Testing">
+        <description>Practices for specialized software testing</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_sw_testing_support"/>
+          </where>
+        </query>
+      </selection>
+    </page>
+    <page name="Environment">
+      <description>Environment</description>
+      <selection name="Environment">
+        <description>Practices for software development environment</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_sw_environment"/>
+          </where>
+        </query>
+      </selection>
+    </page>
+    <page name="Business Rules Development">
+      <description> Business Rules Development</description>
+      <selection name="Business Rules Development">
+        <query>
+          <where>
+            <condition name="tag" value="cat_sw_brd"/>
+          </where>
+        </query>
+      </selection>
+    </page>
+    <page name="Systems Engineering Practices">
+      <description>The following pages are systems engineering practices</description>
+    </page>
+    <page name="Systems Architecture">
+      <description>Systems Architecture</description>
+      <selection name="Systems Architecture">
+        <description>Practices for systems architecture</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_syseng_arch"/>
+          </where>
+        </query>
+      </selection>
+    </page>
+    <page name="Systems Requirements">
+      <description>Systems Requirements</description>
+      <selection name="Systems Requirements">
+        <description>Practices for systems requirements</description>
+        <query>
+          <where>
+            <condition name="tag" value="cat_syseng_reqts"/>
+          </where>
+        </query>
+      </selection>
+    </page>
+    <include>
+      <query>
+        <where>
+          <condition name="plugin" value="/core.*/"/>
+          <condition name="type" value="MethodPlugin"/>
+        </where>
+      </query>
+    </include>
+    <views>
+      <query>
+        <where>
+          <condition name="tag" value="nav_wizard_view"/>
+        </where>
+      </query>
+    </views>
+  </wizard>
+</wizards>

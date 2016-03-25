@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-3evGiFnpOMTXi0GafvU3_g" name="develop_physical_database_design,_7CyLUAo8Edygr55FhBZqVw" guid="-3evGiFnpOMTXi0GafvU3_g" changeDate="2008-04-15T03:22:45.000-0700" version="7.1.0">
+  <mainDescription>&lt;p>
+    This task outputs a physical database design which is represented as a physical data model. This model is the source
+    from which the schema data definition language (DDL) code for direct physical implementation of the target database is
+    created.
+&lt;/p>
+&lt;p>
+    Typically an idealized design of the database is used as an input to this task. Primarily driven from a business
+    context, this logical design is created without consideration for the target implementation environment. Progression to
+    a physical design involves making adjustments to the model in order to account for various implementation
+    considerations and performance requirements.
+&lt;/p></mainDescription>
+  <externalId xsi:nil="true"/>
+  <keyConsiderations>&lt;p>
+    Before introducing complexity into the database design for performance or other reasons, check if there is some
+    flexibility in the requirements that could allow a simpler design.
+&lt;/p>
+&lt;p>
+    Consider using tools that generate DDL from the model, to save development time and to ensure the model is consistent
+    with the implemented database.
+&lt;/p></keyConsiderations>
+  <purpose>Create an implementation-specific database design that will provide adequate performance and ensure database integrity and
+security.</purpose>
+  <alternatives xsi:nil="true"/>
+</org.eclipse.epf.uma:TaskDescription>

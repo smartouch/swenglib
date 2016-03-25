@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-qOWw_0bTztqjb13VXC-GcA" name="new_checklist,_D8VtUKjrEdyJVOhzd9w5gA" guid="-qOWw_0bTztqjb13VXC-GcA" changeDate="2008-09-10T11:08:24.423-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    This is a general checklist for code reviews. Use this as a starting place for&amp;nbsp;a team's review of their&#xD;
+    code.&amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_1lAScH9hEd2zS8U3DVRSmQ" name="Does the code follow the coding guidelines?" guid="_1lAScH9hEd2zS8U3DVRSmQ">
+    <sectionDescription>See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../practice.tech.design_driven_implementation.base-ibm/workproducts/code_analysis_guidelines_BF97268F.html&quot; guid=&quot;_5IU1kKhEEdymmoKrEVbjiw&quot;>Artifact: Code Analysis Guidelines&lt;/a>&amp;nbsp;for your team's documented guidelines.</sectionDescription>
+  </sections>
+  <sections xmi:id="_758bQH9hEd2zS8U3DVRSmQ" name="Is the code self-documenting?" guid="_758bQH9hEd2zS8U3DVRSmQ">
+    <sectionDescription>&lt;p>&#xD;
+    Readers should be able to understand the code by reading it, and without referring to external documentation. This is&#xD;
+    separate from being able to understand the design, which might be discernable in the code but will also need the design&#xD;
+    artifact to fully understand it.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Rfg1gH9iEd2zS8U3DVRSmQ" name="Have all errors detected by code-rule checking and/or runtime error detection tools been addressed?" guid="_Rfg1gH9iEd2zS8U3DVRSmQ"/>
+  <sections xmi:id="_UPiGEH9iEd2zS8U3DVRSmQ" name="Are all comments up-to-date?" guid="_UPiGEH9iEd2zS8U3DVRSmQ"/>
+  <sections xmi:id="_VfkKkH9iEd2zS8U3DVRSmQ" name="Are the comments clear and correct?" guid="_VfkKkH9iEd2zS8U3DVRSmQ"/>
+  <sections xmi:id="_Wtf9UH9iEd2zS8U3DVRSmQ" name="Are the comments easy to modify if the code changes?" guid="_Wtf9UH9iEd2zS8U3DVRSmQ"/>
+  <sections xmi:id="_YIUVgH9iEd2zS8U3DVRSmQ" name="Do the comments focus on explaining &quot;what&quot; and &quot;why&quot; rather than &quot;how&quot;?" guid="_YIUVgH9iEd2zS8U3DVRSmQ">
+    <sectionDescription>The &quot;how&quot; should be clear in the way the code is written.</sectionDescription>
+  </sections>
+  <sections xmi:id="_fOo38H9iEd2zS8U3DVRSmQ" name="Are all surprises, exceptional cases, and work-arounds explained in the comments?" guid="_fOo38H9iEd2zS8U3DVRSmQ"/>
+  <sections xmi:id="_isllgH9iEd2zS8U3DVRSmQ" name="Is the purpose of each operation explained in the comments?" guid="_isllgH9iEd2zS8U3DVRSmQ"/>
+  <sections xmi:id="_klH0cH9iEd2zS8U3DVRSmQ" name="Are all the relevant facts about each operation commented?" guid="_klH0cH9iEd2zS8U3DVRSmQ"/>
+  <sections xmi:id="_mb6-AH9iEd2zS8U3DVRSmQ" name="Does each operation have a name that describes what the operation does?" guid="_mb6-AH9iEd2zS8U3DVRSmQ">
+    <sectionDescription>Don't restrict the team to short names. Use names that are as long as necessary to fully explain what an operation does.</sectionDescription>
+  </sections>
+  <sections xmi:id="_tXQYcH9iEd2zS8U3DVRSmQ" name="Do the parameters and variables have descriptive names?" guid="_tXQYcH9iEd2zS8U3DVRSmQ">
+    <sectionDescription>Don't restrict the team to short names. Use names that are as long as necessary to fully explain what a parameter does.</sectionDescription>
+  </sections>
+  <sections xmi:id="_yWVhkH9iEd2zS8U3DVRSmQ" name="Is the normal path through each operation clearly distinguishable from other exceptional paths?" guid="_yWVhkH9iEd2zS8U3DVRSmQ"/>
+  <sections xmi:id="_1lHKsH9iEd2zS8U3DVRSmQ" name="Are any operations or functions too long?" guid="_1lHKsH9iEd2zS8U3DVRSmQ">
+    <sectionDescription>&lt;p>&#xD;
+    Long operations are difficult to read and understand. Simplify operations by extracting cohesive sections into private&#xD;
+    operations.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_98gTcH9iEd2zS8U3DVRSmQ" name="Is loop-nesting minimized?" guid="_98gTcH9iEd2zS8U3DVRSmQ">
+    <sectionDescription>Deeply nested loops makes code more difficult to understand and maintain.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

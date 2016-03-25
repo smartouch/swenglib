@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-UVRzFHXsPk8tKGhuXEwgmw" name="run_unit_tests,_253ZoAtPEd2FmcoR1ME0CA" guid="-UVRzFHXsPk8tKGhuXEwgmw" changeDate="2008-09-13T09:02:16.024-0700" version="7.1.0">
+  <sections xmi:id="_253ZogtPEd2FmcoR1ME0CA" name="Set up the test" guid="_253ZogtPEd2FmcoR1ME0CA">
+    <sectionDescription>&lt;p>&#xD;
+    Use information from the developer test to prepare the system and environment to run the test. Update information in&#xD;
+    the developer test if anything is incomplete or incorrect.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Set up the test environment to ensure that all the needed elements, such as hardware, software, tools, data, and so on,&#xD;
+    have been implemented and are in the test environment. Initialize the test environment to ensure all components are in&#xD;
+    the correct initial state for the start of testing.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_253ZpQtPEd2FmcoR1ME0CA" name="Execute the unit test" guid="_253ZpQtPEd2FmcoR1ME0CA">
+    <sectionDescription>&lt;p>&#xD;
+    Execute the test procedures as described in the developer test. Update information in the developer test if anything is&#xD;
+    incomplete or incorrect.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>&lt;em>Note&lt;/em>&lt;/strong>: Executing test procedures will vary depending on whether testing is automated or&#xD;
+    manual, and whether test components are needed as either drivers or stubs.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_253ZpAtPEd2FmcoR1ME0CA" name="Evaluate test execution" guid="_253ZpAtPEd2FmcoR1ME0CA">
+    <sectionDescription>&lt;p>&#xD;
+    Review the test results after the test executes to ensure the results are reliable and reported failures, warnings, or&#xD;
+    unexpected results are not caused by external influences (to the target-of-test), such as improper setup or data.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The test completed normally if all test procedures or scripts execute as described in the developer test, even if the&#xD;
+    software itself fails.&lt;br />&#xD;
+    &lt;br />&#xD;
+    The test completed abnormally or prematurely if the procedures or scripts did not execute as described in the developer&#xD;
+    tests. This may be because the test itself has errors or the environment was not set up correctly.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_253ZowtPEd2FmcoR1ME0CA" name="Verify test results" guid="_253ZowtPEd2FmcoR1ME0CA">
+    <sectionDescription>If the test results indicate the failures are genuinely due to problems in the software, fix any bugs or create a bug&#xD;
+report (change request).</sectionDescription>
+  </sections>
+  <sections xmi:id="_253ZoQtPEd2FmcoR1ME0CA" name="Recover from halted tests" guid="_253ZoQtPEd2FmcoR1ME0CA">
+    <sectionDescription>&lt;a id=&quot;Recover From Halted Tests&quot; name=&quot;Recover From Halted Tests&quot;>&lt;/a> &#xD;
+&lt;div align=&quot;left&quot;>&#xD;
+    There are two major types of halted tests:&#xD;
+&lt;/div>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Fatal errors-the system fails; for example, network failures, hardware crashes, and the like.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test Script Command Failures-specific to automated testing, this is when a test script cannot execute a command or&#xD;
+        a line of code.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Both types of abnormal termination to testing may exhibit the same symptoms:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Unexpected actions, windows, or events occur while the test script is executing.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test environment appears unresponsive or in an undesirable state, such as hung or crashed.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    To recover from halted tests:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Determine the actual cause of the problem.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Correct the problem.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Set up the test environment again.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Initialize the test environment again.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Execute the tests again.&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    To verify a unit (component, subsystem, etc) correctly fulfills its design.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

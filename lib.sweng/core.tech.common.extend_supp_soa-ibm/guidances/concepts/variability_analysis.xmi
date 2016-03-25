@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Cpgs-20t1jXY2OUIrnun_A" name="variability_analysis,_Tt8JMEo3Ed6D_7XK49c0nw" guid="-Cpgs-20t1jXY2OUIrnun_A" changeDate="2010-09-01T15:45:11.013-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    The service designer must be aware that in forming a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>ServiceInterface&lt;/a>&amp;nbsp;they have to balance two competing forces;&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Specialization&lt;/strong>; the need to ensure that a service does what is required of it.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Generalization&lt;/strong>; the need to ensure that a service is as reusable as possible, in that future&#xD;
+        requirements do not require major redesign of existing services.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    To this end, the designer might employ techniques commonly termed &quot;Commonality and Variability&quot; analysis. These&#xD;
+    techniques have been known and documented for some time, predominantly in the area of pattern formulation [&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/supportingmaterials/tech_references_17D34A60.html&quot; guid=&quot;_OKj94D8iEd2AxfTL63EayA&quot;>ARS00&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/supportingmaterials/tech_references_17D34A60.html&quot; guid=&quot;_OKj94D8iEd2AxfTL63EayA&quot;>COP98&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/supportingmaterials/tech_references_17D34A60.html&quot; guid=&quot;_OKj94D8iEd2AxfTL63EayA&quot;>GAB98&lt;/a>] and software product line engineering [&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/supportingmaterials/tech_references_17D34A60.html&quot; guid=&quot;_OKj94D8iEd2AxfTL63EayA&quot;>GBS00&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/supportingmaterials/tech_references_17D34A60.html&quot; guid=&quot;_OKj94D8iEd2AxfTL63EayA&quot;>GBS01&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/supportingmaterials/tech_references_17D34A60.html&quot; guid=&quot;_OKj94D8iEd2AxfTL63EayA&quot;>JB02&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/supportingmaterials/tech_references_17D34A60.html&quot; guid=&quot;_OKj94D8iEd2AxfTL63EayA&quot;>MRR04&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/supportingmaterials/tech_references_17D34A60.html&quot; guid=&quot;_OKj94D8iEd2AxfTL63EayA&quot;>PRN76&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/supportingmaterials/tech_references_17D34A60.html&quot; guid=&quot;_OKj94D8iEd2AxfTL63EayA&quot;>SBM01&lt;/a>]. These are areas where the designer is also balancing these same forces in&#xD;
+    patterns -&amp;nbsp;the need to capture the variability as parameters for the pattern, to&amp;nbsp;enable the pattern's&#xD;
+    applicability in different situations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In the literature on patterns, [COP98] describes commonality as &quot;&lt;em>the essence of an abstraction&quot;&lt;/em>, and&#xD;
+    variability as &quot;&lt;em>the spice of life&lt;/em>&quot; while [GAB98] more concretely describes the relationship between&#xD;
+    commonality and abstraction --&amp;nbsp;a good abstraction needs to capture the &lt;i>common&lt;/i> aspects across the solution&#xD;
+    while specifying the &lt;i>variabilities&lt;/i> of individual elements.&#xD;
+&lt;/p>&#xD;
+&lt;blockquote>&#xD;
+    &lt;em>Abstraction in programming is the process of identifying common patterns that have systematic variations; an&#xD;
+    abstraction represents the common pattern and provides a means for specifying which variation to use.&lt;/em>&#xD;
+&lt;/blockquote>&#xD;
+&lt;p>&#xD;
+    In&amp;nbsp;similar terms&amp;nbsp;[PRN76] defines a &lt;em>family&lt;/em> of programs (we would tend to describe in terms of&#xD;
+    software product lines today) based on the common properties of the set and the special properties of the individual&#xD;
+    members:&#xD;
+&lt;/p>&#xD;
+&lt;blockquote>&#xD;
+    &lt;p>&#xD;
+        &lt;em>We consider a set of programs to constitute a&lt;/em> family&lt;em>, whenever it is worthwhile to study programs from&#xD;
+        the set by first studying the common properties of the set and then determining the special properties of the&#xD;
+        individual family members.&lt;/em>&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

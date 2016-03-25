@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-93YkBVzYvbRMkDywlvaKng" name="gather_subsystem_spec_data,_oSI7Di4-EeCF96HKX9wM8A" guid="-93YkBVzYvbRMkDywlvaKng" changeDate="2011-02-04T10:31:43.003-0800" changeDescription="Feb 1, 2011: Initial version |" version="[Not used]">
+  <mainDescription>&lt;p>&#xD;
+    It is expected that the organization of the model(s) used by the system engineering staff will naturally colocate much&#xD;
+    of the necessary data. However, there is usually other data - which might be stored in non-model files and tool formats&#xD;
+    - that must be provided to the subsystem teams to ensure they build the right thing. This information includes&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Requirements allocated to the subsystem with links to requirements repositories&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use case, scenario, and state data defining subsystem functionality&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Constraints and quality of service information, including parameters such as heat, weight, power, speed, and so on&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        (Logical) operational contracts including&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;list-style: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                function or service name&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                data pass in or out&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                pre- and post-conditions&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                quality of service constraints&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Algorithmic and computational functionality&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        (Logical) interfaces among subsystems and between subsystems and system actors&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Architectural structure into which the subsystem must fit&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In general, if SysML or UML is used as the primary method for capturing information, it is recommended that the system&#xD;
+    engineering model contain all this information in one package per subsystem and hand off a package to each relevant&#xD;
+    subsystem (there may be nested packages). If there is significant data external to the model, then a conformance list&#xD;
+    should provide a list of all data to be passed.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    Key considerations include:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Completeness&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Accuracy&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ease of access by the subsystem teams&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Clarity&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    If relevant, be sure to include quality of service and dependability expectations as well.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is also important not to overspecify the internal structure of the subsystem, a common error. The external behavior,&#xD;
+    performance and dependability should be specified by the handoff system data but the internal structure and&#xD;
+    internal-only interfaces should not.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_V7lxgC_XEeCw-ve53qxA0Q" name="Create new subsystem model package within systems model" guid="_V7lxgC_XEeCw-ve53qxA0Q"/>
+  <sections xmi:id="_oSI7Dy4-EeCF96HKX9wM8A" name="Collect relevant pieces of the systems model" guid="_oSI7Dy4-EeCF96HKX9wM8A">
+    <sectionDescription>&lt;p>&#xD;
+    Move the relevant specification information into the subsystem package. This typically includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        (Logical) operation contracts and service specifications&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        State machines&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Subsystem level use cases&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Activity diagrams&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Sequence diagrams&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Requirements traceability links&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_rHZAEEEeEeCRBdp-xn1ltA" name="Review Handoff Specification Data" guid="_rHZAEEEeEeCRBdp-xn1ltA">
+    <sectionDescription>Examine the specification data handed off from systems engineering to ensure that it is complete, accurate, adequate, and&#xD;
+clear.&amp;nbsp;Ensure that it&amp;nbsp;meets the needs of the subsystem team as a basis on which to perform downstream Engineering&#xD;
+and construction.</sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    The purpose of this task is to colocate all the data being passed to the subsystem teams to ensure that the subsystem&#xD;
+    have a clear understanding of what they need to produce, the logical interfaces they must support, the functionality&#xD;
+    they must provide, the requirements they must meet, and the qualities of service that they must sustain.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

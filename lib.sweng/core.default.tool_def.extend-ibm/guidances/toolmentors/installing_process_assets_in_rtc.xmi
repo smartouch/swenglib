@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ZtvrUEQUrzcYJx8N3H7qOA" name="new_toolmentor,_9XW3sHWPEd-P3eiLBcUmDw" guid="-ZtvrUEQUrzcYJx8N3H7qOA" changeDate="2010-06-11T12:34:32.374-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    This configuration comes with a process template to be used in Rational Team Concert. You need administrator privilege&#xD;
+    in Rational Team Concert to install a process template. After it is installed, you can use the template to create any&#xD;
+    number of projects.&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Install the process template&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Install the process template following either of these Rational Software Information Center help topics, depending on&#xD;
+    which client you use for access to Rational Team Concert:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a&#xD;
+        href=&quot;http://pic.dhe.ibm.com/infocenter/clmhelp/v4r0/topic/com.ibm.jazz.platform.doc/topics/t_export_import_process_templates.html&quot;&#xD;
+         target=&quot;_blank&quot;>Importing process templates in Rational Team Concert Eclipse-based interface&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a&#xD;
+        href=&quot;http://pic.dhe.ibm.com/infocenter/clmhelp/v4r0/topic/com.ibm.jazz.platform.doc/topics/t_importing_process_templates_web.html&quot;&#xD;
+         target=&quot;_blank&quot;>Import process template in the Rational Team Concert Web interface&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h3>&#xD;
+    Install the published process content&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Install the&amp;nbsp;published process&amp;nbsp;content so that team members can consult it easily. The content published from&#xD;
+    Rational Method Composer should be available as a WAR (Web archive) file named &lt;em>&amp;lt;process_name&amp;gt;.war&lt;/em>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In your Web server, such as the Jazz server (Tomcat), deploy that WAR file to &lt;em>/jazz/server/tomcat/webapps&lt;/em>.&#xD;
+    When the server runs, that&amp;nbsp;should create a folder called&amp;nbsp;&lt;em>&amp;lt;process_name&amp;gt;&lt;/em> on the&#xD;
+    server,&amp;nbsp;such as &lt;em>/jazz/server/tomcat/webapps/&amp;lt;process_name&amp;gt;&lt;/em>.&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Set up the process description for your project&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Projects created using Rational Team Concert point to a process description defined by the process template. By&#xD;
+    default, the process template available with this configuration points to the published process content deployed to the&#xD;
+    Web server in the previous section, typically at URL with the following format:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;em>-http://&amp;lt;server_name&amp;gt;:&amp;lt;port_number&amp;gt;/&amp;lt;process_name&amp;gt;/index.htm&lt;/em>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Depending on your server name, port number, and process name, you&amp;nbsp;may need to change the link to the process&#xD;
+    description designated in your project area so that it points to the correct URL. For more information on how to&#xD;
+    customize the process description for your project, see &lt;a&#xD;
+    href=&quot;http://publib.boulder.ibm.com/infocenter/clmhelp/v4r0/topic/com.ibm.jazz.platform.doc/topics/t_create_process_temp_doc.html&quot;&#xD;
+     target=&quot;_blank&quot;>Creating process template documentation&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

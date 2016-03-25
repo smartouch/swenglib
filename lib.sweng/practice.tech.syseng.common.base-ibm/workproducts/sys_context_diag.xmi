@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-xbd9x6PsnyWlkmNmPHyRXw" name="sys_context_diag,_6rxOMJfzEd6u7McLcbxIEQ" guid="-xbd9x6PsnyWlkmNmPHyRXw" changeDate="2009-11-19T10:37:09.140-0800" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    The system context diagram describes the&amp;nbsp;top-level collaboration showing the system (modeled as a top-level&#xD;
+    subsystem), its interfaces and its relationships with its actors, including the external I/O entities that flow between&#xD;
+    actor and system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Main information captured in the system context diagram:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The interfaces to be &lt;i>realized&lt;/i> by the system (in terms of the &lt;i>operations&lt;/i> the systems provides, and the&#xD;
+        associated protocols supported, the &lt;i>state variables&lt;/i> and &lt;i>stores&lt;/i> that the system realizes, and&#xD;
+        attributes).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The &lt;i>I/O entities&lt;/i> that flow between the system and its actors.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The interfaces &lt;i>required&lt;/i> by the system (to be realized by the actors which interact with the system) for&#xD;
+        correct performance. Often, if the actor represents an existing system with which the system must communicate,&#xD;
+        these required interfaces simply reflect constraints imposed by that other system.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To better understand the interactions between the system under development with the external entities (represented&#xD;
+        as actors).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To understand the services required of the system.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To delineate the boundaries of the system.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To ensure that the appropriate requirements are present and being developed.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  <impactOfNotHaving>Without this&amp;nbsp;artifact, understanding the boundaries of the system under development and how it interacts with the&#xD;
+external environment would be very difficult.</impactOfNotHaving>
+  <representationOptions>Block Definition Diagram&amp;nbsp;with I/O Entities and direction stereotypes.</representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:PracticeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-PTeFkw1jIYbpa1BSU_n23w" name="build_val_uc,_oRcK0JNnEd6TXvoh_VAeug" guid="-PTeFkw1jIYbpa1BSU_n23w" changeDate="2009-11-24T14:50:10.125-0800" version="7.5.0">
+  <problem>&lt;p>&#xD;
+    The main value proposition of this practice is to accelerate the&amp;nbsp;approval by stakeholder of system requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The main emphasis is on the transformation of the functional system requirements into a coherent description of system&#xD;
+    functions (operations). The analysis is use case-based, i.e. each system-level use case that was identified in the&#xD;
+    previous requirements analysis phase is translated into an executable model. The model and the underlying requirements&#xD;
+    then are verified and validated through model execution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There are three alternatives on how to perform this practice, depending on the available information and the modeler's&#xD;
+    preference. The same set of artifacts will be produced, but the order will differ. Regardless of the approach, the&#xD;
+    central artifact is the statechart diagram.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Alternative 1&lt;/strong> starts with the definition of use case scenarios. Customers often describe sequences of&#xD;
+    required system usage. Once a set of essential scenarios is captured, the identified functional flow is merged into a&#xD;
+    common description in an activity diagram. Ports and interfaces are created from the sequence diagrams. The final step&#xD;
+    in this approach is the definition of the state-based behavior in a statechart diagram.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Alternative 2&lt;/strong> starts with the definition of the use case functional flow. This is a common approach,&#xD;
+    if systems engineers have to elaborate requirements. Typically, customers like to express their requirements from the&#xD;
+    &quot;big picture&quot; point of view. Once the overall functional flow is defined, use case scenarios are derived from the&#xD;
+    activity diagram. Ports and interfaces are created from the sequence diagrams. Lastly, its state-based behavior is&#xD;
+    captured in a statechart diagram.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Alternative 3&lt;/strong> starts with the definition of the use case state-based behavior. This approach is&#xD;
+    recommended if the system under design (SuD) is strongly state-based. In this case, the creation of an activity diagram&#xD;
+    may even be skipped. Use case scenarios then are derived as paths through the statechart diagram. From the sequence&#xD;
+    diagram then ports and associated interfaces are generated.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Whenever during the use case based functional analysis new requirements are identified or high-level requirements are&#xD;
+    detailed by derived requirements, they need to be documented. The use case model is analyzed through model execution&#xD;
+    using the black-box use case scenarios as the basis for respective stimuli.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Once the use case model and the underlying functional requirements are verified and validated, &lt;strong>Rainy Day&#xD;
+    Analysis&lt;/strong> may be performed. This analysis focuses on the identification of system error / fail behavior that&#xD;
+    was not covered by the initial set of requirements.&#xD;
+&lt;/p></problem>
+  <application>&lt;p>&#xD;
+    Get familiar with the types of diagrams involved in this practice. Each diagram plays a specific role in the&#xD;
+    elaboration of the use case behavior. The activity diagram describes the overall functional flow of the use case. It&#xD;
+    groups functional requirements in actions and shows, how these actions/operations are linked to each other. The&#xD;
+    sequence diagram describes a specific path through the use case and defines the interactions (messages) between the&#xD;
+    operations and the actors. The statechart diagram aggregates the information from the activity diagram (functional&#xD;
+    flow) and the sequence diagrams (actor interactions). It puts this information into the context of system states and&#xD;
+    adds to it the system behavior due to external stimuli of different priority&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The central work product is the state-chart diagram, as it comprises the information of both the black-box sequence&#xD;
+    diagrams and the use case black-box activity diagrams and can be verified and validated through model execution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As there are three alternative approaches on how to perform this practice, first identify which one(s) are applicable&#xD;
+    to your specific environment. Follow the appropriate workflow and focus on the order of producing the main artifacts&#xD;
+    and on the tasks involved in their production/consumption.&#xD;
+&lt;/p></application>
+</org.eclipse.epf.uma:PracticeDescription>

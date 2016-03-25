@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-xNjestlziYoSEnZpKbgdDw" name="create_new_subsystem_model,_u48k4C5AEeCF96HKX9wM8A" guid="-xNjestlziYoSEnZpKbgdDw" changeDate="2011-02-03T10:39:22.517-0800" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    Following systems engineering, a hand off from the system team to each of the subsystem will be created. It will be a&#xD;
+    package - or possibly even a separate model -&amp;nbsp;that forms the model-based specification for the subsystem. This&#xD;
+    task creates the subsystem model that will import that specification and provide a place for the subsystem team to&#xD;
+    allocate the requirements into the various discipline, create the deployment architecture for the subsystem and for the&#xD;
+    software engineers to put their software analysis and design.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    It is not expected that the non-software engineering disciplines will continue to work in UML/SysML models after the&#xD;
+    requirements are allocated and the deployment architecture defined. Nevertheless, this model provides the specification&#xD;
+    for those hardware engineering disciplines.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_kHQrMC_FEeCriPIXxL5cpA" name="Determine desired structure" guid="_kHQrMC_FEeCriPIXxL5cpA">
+    <sectionDescription>This step outlines the model structure to be used. See guidance materials for recommended model organizations.</sectionDescription>
+  </sections>
+  <sections xmi:id="_rD6UQC_FEeCriPIXxL5cpA" name="Create empty model" guid="_rD6UQC_FEeCriPIXxL5cpA"/>
+  <sections xmi:id="_sTVUwC_FEeCriPIXxL5cpA" name="Create model package structure" guid="_sTVUwC_FEeCriPIXxL5cpA"/>
+  <sections xmi:id="_UUs8UEEnEeCRBdp-xn1ltA" name="Import System Engineering Specification" guid="_UUs8UEEnEeCRBdp-xn1ltA">
+    <sectionDescription>Create a locally controlled copy of the engineering specifications handed off by systems engineering. The imported&#xD;
+specification will require refinement - including allocation to engineering disciplines and creation of derived&#xD;
+requirements - before it is ready to be used.</sectionDescription>
+  </sections>
+  <sections xmi:id="_76UREEEmEeCRBdp-xn1ltA" name="Establish Subsystem baseline" guid="_76UREEEmEeCRBdp-xn1ltA">
+    <sectionDescription>The subsystem baseline includes the hand off information imported from system engineering, the deployment architecture of&#xD;
+the subsystem the allocated requirements and specified interdisciplinary interfaces. This forms the starting point of what&#xD;
+is commonly known as &quot;down-stream engineering&quot; or &quot;development engineering&quot; which includes design and development of&#xD;
+electronic, mechanical and software aspects of a subsystem.</sectionDescription>
+  </sections>
+  <purpose>The purpose is to create a model-based environment in which the subsystem engineerings - of all disciplines - can work.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

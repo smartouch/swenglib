@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-v3e2PD-Z29nomC1Em0f53A" name="Architectural Trade Study,_iRNPQWKqEd6Ih4GzU1_Daw" guid="-v3e2PD-Z29nomC1Em0f53A" version="7.5.0"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wF3qStOCAk-MdWvaHUE5Mg" name="def_criteria,_-_wFoJjUEd6JmoH2XFiafA" guid="-wF3qStOCAk-MdWvaHUE5Mg">
+    <refinedDescription>&lt;p>&#xD;
+    In order to identify the best solution from a set of candidate solutions, assessment criteria need to be identified.&#xD;
+    Meaningful assessment criteria are established in collaboration with stakeholders and a team representing all relevant&#xD;
+    areas of expertise. Typically, the assessment criteria are based upon customer constraints, required performance&#xD;
+    characteristics, and/or costs.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8J1gAmw8QTw2FGbls2jz5A" name="assign_weights,__m8BcJjUEd6JmoH2XFiafA" guid="-8J1gAmw8QTw2FGbls2jz5A">
+    <refinedDescription>&lt;p>&#xD;
+    Not all assessment criteria are equal. Some are more important than others. Assessment criteria are weighted according&#xD;
+    to their relative importance to the overall solution. The weighting factors are normalized to add up to 1.0. This task&#xD;
+    should be performed in collaboration with stakeholders and relevant domain experts.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-cDZHpzQdpQEx5f1Chcr5QA" name="def_util_curve,_AUPMUJjVEd6JmoH2XFiafA" guid="-cDZHpzQdpQEx5f1Chcr5QA">
+    <refinedDescription>&lt;p>&#xD;
+    A normalization curve, also known as a utility curve or value function, is used to compute the measure of effectiveness&#xD;
+    of a candidate solution for a particular assessment criterion. This curve yields a normalized value typically between 0&#xD;
+    and 10. The input value to the curve is typically based upon equipment specifications or derived from calculations&#xD;
+    based upon possible solutions. In this case it is considered as being objective. A utility curve may also be created by&#xD;
+    knowledgeable project members. In this case the curve reflects the consensus among the group but should be considered&#xD;
+    as subjective.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-m12Ljyemj0F3TgyHRW3vVg" name="assign_moes,_BNAnYJjVEd6JmoH2XFiafA" guid="-m12Ljyemj0F3TgyHRW3vVg">
+    <refinedDescription>&lt;p>&#xD;
+    The Measure of Effectiveness (MoE) describes how effective a solution candidate is for a particular assessment&#xD;
+    criterion. The MoE is a normalized value computed using the utility curve and the nominal value specified for the&#xD;
+    solution candidate.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The nominal values are typically determined from equipment specifications or derived from calculations based upon the&#xD;
+    relevant solution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The assignment of MoEs to each candidate solution is a prerequisite for the identification of the preferred solution.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-3Lyvo62gckqVgrr_robBQg" name="determine_sol,_Bn-sIJjVEd6JmoH2XFiafA" guid="-3Lyvo62gckqVgrr_robBQg">
+    <refinedDescription>&lt;p>&#xD;
+    The determination of a preferred solution is performed by means of &lt;em>Weighted Objectives&lt;/em> calculations. In this&#xD;
+    analysis the MoE values for each of the assessment criteria are multiplied by the appropriate assessment weight. The&#xD;
+    weighted values for each alternative solution are then&amp;nbsp;added to obtain a total score for each solution. The&#xD;
+    solution with the highest score is selected as the implementation for that particular aspect of the system.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WkOYTrXJ8XBhRrXv87JKDw" name="stk_reqs_spec,_VZJFUMJdEd6Ame-XMnb0Gg" guid="-WkOYTrXJ8XBhRrXv87JKDw">
+    <refinedDescription>&lt;p>&#xD;
+    In practice, there&amp;nbsp;may be several levels of Stakeholder Requirements Specification - for example, in some cases&#xD;
+    the Vision could be sufficient. In other cases, organizations may need to work with several levels of Stakeholder,&#xD;
+    evolving the specification for the different levels. Typically, this&amp;nbsp;would include specifications such as&#xD;
+    a&amp;nbsp;Product Vision, Product Objectives, Product Specification, etc.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If more than one level of Stakeholder Requirement Specification is used, then remember the following points:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Each document must be a complete and consistent description of the problem, at an appropriate level of abstraction&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Traceability must be maintained throughout the levels&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All documents must be maintained in parallel&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Frequently, it&amp;nbsp;is sufficient to evolve a single document. However, we recommend retaining at least the distinction&#xD;
+    between the overall Vision and the Stakeholder Requirements.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-1PZojDjjNY2Su9ragj9Lig" name="trade_study,_VZJFUcJdEd6Ame-XMnb0Gg" guid="-1PZojDjjNY2Su9ragj9Lig">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact captures the&amp;nbsp;conclusions and supporting data of trade studies performed to determine the&#xD;
+    architectural elements that will be used to realize different aspects of the system.&amp;nbsp; It is a composite artifact&#xD;
+    that evolves throughout the architectural analysis capturing the results of each stage of analysis and providing the&#xD;
+    necessary input data for the next stage of analysis&amp;nbsp;in the process of determining the preferred solution&#xD;
+    architecture.&amp;nbsp;Upon completion it captures the design justification for key architectural design decisions.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Jj_u_SSFojHzSDbkKrvm3w" name="trace_record,_VZJFUsJdEd6Ame-XMnb0Gg" guid="-Jj_u_SSFojHzSDbkKrvm3w">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact records information about relationships between information in the development. It is often a logical&#xD;
+    rather than a physical construct. There is generally no specific physical &quot;place&quot; where all this information exists,&#xD;
+    but it is distributed throughout the physical storage of the information used for development.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The traceability record&amp;nbsp;allows those involved in the development of a system to understand the relationships&#xD;
+    between different elements in the development, for example, which requirements are tested by a particular test case.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Where information is needed about the relationships between two specific types of information (for example Stakeholder&#xD;
+    Requirements and System Requirements), it is often extracted into a Traceability Matrix.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

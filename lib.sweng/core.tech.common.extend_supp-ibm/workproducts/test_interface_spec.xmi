@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-7ippOkpA639BCopcLXcvzw" name="test_interface_spec,_jFAf8HE8Edy8Ac588DXPCQ" guid="-7ippOkpA639BCopcLXcvzw" changeDate="2008-10-08T15:28:36.959-0700" version="7.1.0">
+  <mainDescription>&lt;p>&#xD;
+    Test Interface Specifications are used in situations where aspects of the system that do not normally have visibility&#xD;
+    must be observed, or where control of the software is required in a way not normally available through the standard&#xD;
+    interface. &lt;!--StartFragment-->Each test Interface should provide a unique and well-defined group of services. &#xD;
+    &lt;!--EndFragment-->&#xD;
+&lt;/p></mainDescription>
+  <purpose>&lt;p>&#xD;
+    To provide a means of documenting the special requirements of the test effort that will place constraints or additional&#xD;
+    requirements on the design of the software.&#xD;
+&lt;/p></purpose>
+  <impactOfNotHaving>&lt;p>&#xD;
+    If there is a need for testability for different components under development, not capturing this information might&#xD;
+    lead to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Delays in testing some aspects of the system, as there is not enough test access to the associated subsystems.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Communications problems between the development and the test teams, as the testability needs are not properly&#xD;
+        expressed.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Potential for schedule overruns.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></impactOfNotHaving>
+  <reasonsForNotNeeding>This is an optional artifact. On many projects, there is either sufficient accessibility for test in the visible operations&#xD;
+on classes, user interfaces and so on. Common reasons to create test interface specifications include UI extensions to&#xD;
+allow GUI test tools to interact with the tool and diagnostic message logging routines, especially for batch processes.</reasonsForNotNeeding>
+  <briefOutline>&lt;p>&#xD;
+    Each Test Interface Specification should consider various aspects of testing, including the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        What is the nature of the interface? For example, does it allow dynamic two-way communication, does it provide&#xD;
+        individual real-time status feedback or, once activated, does it simply log information passively?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Under what circumstances will the interface be used? Be sure to consider concurrency and access methods.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What ability is needed to activate and deactivate the interface?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What control is required to raise or lower the level of detail of the output from the operations provided by the&#xD;
+        interface?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></briefOutline>
+  <representationOptions>UML Representation: Interface &#xD;
+&lt;p>&#xD;
+    &lt;a id=&quot;Tailoring&quot; name=&quot;Tailoring&quot;>&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See the Interface related guidance for ideas on interfaces that can be applied to tailoring the Test Interface&#xD;
+    Specification.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Optionally enclosed in the other design or requirements related artifacts.&#xD;
+&lt;/p></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

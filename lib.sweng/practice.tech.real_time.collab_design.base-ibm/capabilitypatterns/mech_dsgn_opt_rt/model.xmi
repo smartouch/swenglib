@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_PVc8Yba0Ed-qJK6AskeP4g" guid="_PVc8Yba0Ed-qJK6AskeP4g">
+    <resourceDescriptors xmi:id="_PVc8Yra0Ed-qJK6AskeP4g" id="-9AbD1iCdPQA22v636N9khQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_PSxb0La0Ed-qJK6AskeP4g" name="mech_dsgn_opt_rt" guid="_PSxb0La0Ed-qJK6AskeP4g">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_eFvg4La0Ed-qJK6AskeP4g" name="opt_collaboration" guid="_eFvg4La0Ed-qJK6AskeP4g" presentationName="Optimize Collaboration" briefDescription="This task focuses on the optimization of a single design collaboration. " superActivities="_PSxb0ba0Ed-qJK6AskeP4g" additionallyPerformedBy="_knaiceOIEd-vEMv_8KBZSw _knaicuOIEd-vEMv_8KBZSw _knaic-OIEd-vEMv_8KBZSw" mandatoryInput="_knaidOOIEd-vEMv_8KBZSw _knaideOIEd-vEMv_8KBZSw _knaiduOIEd-vEMv_8KBZSw _knaid-OIEd-vEMv_8KBZSw" optionalInput="_knaieOOIEd-vEMv_8KBZSw" output="_knaidOOIEd-vEMv_8KBZSw _knaideOIEd-vEMv_8KBZSw" performedPrimarilyBy="_knaicOOIEd-vEMv_8KBZSw">
+      <methodElementProperty xmi:id="_rDt3QOkJEd-I1fnAy2RxGw" name="descriptor_localUsingInfo" value="_knaicOOIEd-vEMv_8KBZSw/performedPrimarilyBy/_knaiceOIEd-vEMv_8KBZSw/additionallyPerformedBy/_knaicuOIEd-vEMv_8KBZSw/additionallyPerformedBy/_knaic-OIEd-vEMv_8KBZSw/additionallyPerformedBy"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_QFRtcOK_Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_ESto4OLAEd-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_1MOK4OK_Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_aNgsQOLAEd-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_iD0hMOLAEd-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_S5PD0OK0Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_fiNAYOK9Ed-G2pDngtqTxA"/>
+      <Task href="uma://_UcHe0LXxEd-2qrSRq-Velw#_5yYe8LFBEd-mOKCs6c0xZQ"/>
+      <selectedSteps href="uma://-IjmziyHc_hH_WApDBPBOCw#_LuQYIN4EEd-8BsDLkQrDSQ"/>
+      <selectedSteps href="uma://-IjmziyHc_hH_WApDBPBOCw#_RbfAsN4EEd-8BsDLkQrDSQ"/>
+      <selectedSteps href="uma://-IjmziyHc_hH_WApDBPBOCw#_S17lcN4EEd-8BsDLkQrDSQ"/>
+      <selectedSteps href="uma://-IjmziyHc_hH_WApDBPBOCw#_VULwkN4EEd-8BsDLkQrDSQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_knaicOOIEd-vEMv_8KBZSw" name="rt_modeler" guid="_knaicOOIEd-vEMv_8KBZSw" presentationName="Software Modeler" briefDescription="The Software Modeler uses modeling techniques to represent abstractions of the system under development for a specific purpose. " isPlanned="false" superActivities="_PSxb0ba0Ed-qJK6AskeP4g" modifies="_knaidOOIEd-vEMv_8KBZSw _knaideOIEd-vEMv_8KBZSw">
+      <Role href="uma://_NWTdQMvrEd-j1uJpwhl9rw#_RhfEQMvrEd-j1uJpwhl9rw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_knaiceOIEd-vEMv_8KBZSw" name="architect" guid="_knaiceOIEd-vEMv_8KBZSw" presentationName="Architect" briefDescription="The Architect is responsible for defining the software architecture, which includes making the key technical decisions that constrain the overall design and implementation &#xD;&#xA;of the system." isPlanned="false" superActivities="_PSxb0ba0Ed-qJK6AskeP4g">
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_knaicuOIEd-vEMv_8KBZSw" name="rt_rel_czar" guid="_knaicuOIEd-vEMv_8KBZSw" presentationName="Reliability Czar" briefDescription="This role is assigned to the person(s) responsible for specification for and adherence to reliability requirements and regulations." isPlanned="false" superActivities="_PSxb0ba0Ed-qJK6AskeP4g">
+      <Role href="uma://_LTqnQLeLEd-05egMquN4Dg#_taMQkMsnEd-f7_TOobgnDw"/>
+      <responsibleForExclude href="uma://_LTqnQLeLEd-05egMquN4Dg#_xUh_MMsnEd-f7_TOobgnDw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_knaic-OIEd-vEMv_8KBZSw" name="rt_safe_czar" guid="_knaic-OIEd-vEMv_8KBZSw" presentationName="Safety Czar" briefDescription="This role is assigned to the person(s) responsible for specification for and adherence to safety requirements and regulations. " isPlanned="false" superActivities="_PSxb0ba0Ed-qJK6AskeP4g">
+      <Role href="uma://_LTqnQLeLEd-05egMquN4Dg#_hKsN0MsnEd-f7_TOobgnDw"/>
+      <responsibleForExclude href="uma://_LTqnQLeLEd-05egMquN4Dg#_WxDggMsnEd-f7_TOobgnDw"/>
+      <responsibleForExclude href="uma://_LTqnQLeLEd-05egMquN4Dg#_aYBnMMsnEd-f7_TOobgnDw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_knaidOOIEd-vEMv_8KBZSw" name="rt_psm" guid="_knaidOOIEd-vEMv_8KBZSw" presentationName="Platform Specific Model" briefDescription="The Platform Specific Model is an adaptation of a Platform Independent Model (PIM) for execution on a specific target through the selection of technologies, design solutions, or design patterns. " isPlanned="false" superActivities="_PSxb0ba0Ed-qJK6AskeP4g">
+      <methodElementProperty xmi:id="_rDt3QekJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_qfoWgOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_uGmdMOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_7oNoEOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_3SwDsOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_kY628OIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_wfx7EOIpEd-aTvH4QbT1dw"/>
+      <concepts href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_G-10wOK8Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_o6JxwOK-Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_7uBgcOK-Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_S5PD0OK0Ed-G2pDngtqTxA"/>
+      <WorkProduct href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_Os81MMvtEd-j1uJpwhl9rw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_knaideOIEd-vEMv_8KBZSw" name="rt_scenario" guid="_knaideOIEd-vEMv_8KBZSw" presentationName="Scenario" briefDescription="A scenario represents, at some level of abstraction, an interaction among elements of interest." isPlanned="false" superActivities="_PSxb0ba0Ed-qJK6AskeP4g">
+      <methodElementProperty xmi:id="_rDt3QukJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_kY628OIpEd-aTvH4QbT1dw"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_S5PD0OK0Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_o6JxwOK-Ed-G2pDngtqTxA"/>
+      <WorkProduct href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_N3ugkMvxEd-j1uJpwhl9rw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_knaiduOIEd-vEMv_8KBZSw" name="rt_model" guid="_knaiduOIEd-vEMv_8KBZSw" presentationName="Model" briefDescription="The model represents a deployed or deployable system at a high degree of semantic correctness, consistency and completeness." isPlanned="false" superActivities="_PSxb0ba0Ed-qJK6AskeP4g">
+      <methodElementProperty xmi:id="_rDt3Q-kJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <concepts href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_G-10wOK8Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_o6JxwOK-Ed-G2pDngtqTxA"/>
+      <WorkProduct href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_5dqM8MvsEd-j1uJpwhl9rw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_knaid-OIEd-vEMv_8KBZSw" name="rt_mc_mission" guid="_knaid-OIEd-vEMv_8KBZSw" presentationName="Microcycle Mission" briefDescription="The mission of a prototype is a high level overview of the goals, techniques, functionality, and target platforms for an incremental executable build of the system under development. " isPlanned="false" superActivities="_PSxb0ba0Ed-qJK6AskeP4g">
+      <methodElementProperty xmi:id="_rDt3ROkJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_RCq-gOIqEd-aTvH4QbT1dw"/>
+      <WorkProduct href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_eL0PkMvwEd-j1uJpwhl9rw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_knaieOOIEd-vEMv_8KBZSw" name="rt_pim" guid="_knaieOOIEd-vEMv_8KBZSw" presentationName="Platform Independent Model" briefDescription="The Platform Independent Model is a representation of the semantically essential elements of a model that does not contain technology or design-specific detail. " isPlanned="false" superActivities="_PSxb0ba0Ed-qJK6AskeP4g">
+      <methodElementProperty xmi:id="_rDt3RekJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_qfoWgOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_uGmdMOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_yZE_AOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_7oNoEOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_0kaOIOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_kY628OIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_wfx7EOIpEd-aTvH4QbT1dw"/>
+      <concepts href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_G-10wOK8Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_o6JxwOK-Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_S5PD0OK0Ed-G2pDngtqTxA"/>
+      <WorkProduct href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_LqyEsMvtEd-j1uJpwhl9rw"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_PSxb0ba0Ed-qJK6AskeP4g" name="mech_dsgn_opt_rt" guid="_PSxb0ba0Ed-qJK6AskeP4g" presentationName="Design and Optimize - Collaboration Level" breakdownElements="_eFvg4La0Ed-qJK6AskeP4g _knaicOOIEd-vEMv_8KBZSw _knaiceOIEd-vEMv_8KBZSw _knaicuOIEd-vEMv_8KBZSw _knaic-OIEd-vEMv_8KBZSw _knaidOOIEd-vEMv_8KBZSw _knaideOIEd-vEMv_8KBZSw _knaiduOIEd-vEMv_8KBZSw _knaid-OIEd-vEMv_8KBZSw _knaieOOIEd-vEMv_8KBZSw">
+      <methodElementProperty xmi:id="_rDt3RukJEd-I1fnAy2RxGw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-9AbD1iCdPQA22v636N9khQ" href="uma://-9AbD1iCdPQA22v636N9khQ#-9AbD1iCdPQA22v636N9khQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

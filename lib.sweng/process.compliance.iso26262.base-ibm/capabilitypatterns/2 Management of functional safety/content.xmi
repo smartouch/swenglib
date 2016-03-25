@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-XKhW-Rk5ApvdFYGCNrUWpg" name="Project_Manager,_8fOxEIeoEeCn6qzj2PKcxg" guid="-XKhW-Rk5ApvdFYGCNrUWpg">
+    <refinedDescription>&lt;div style=&quot;MARGIN-LEFT: 2em&quot;>&#xD;
+    &lt;p dir=&quot;ltr&quot;>&#xD;
+        Assigns the &amp;nbsp;safety manager&lt;br />&#xD;
+        Ensures that the safety activities are performed and compliance with ISO26262 is achieved&lt;br />&#xD;
+        Verifies that the organisation has provided the required resources to carry out the functional safety activities&#xD;
+    &lt;/p>&#xD;
+&lt;/div></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--BOkKYJnKaZ8SCh2ou2j2w" name="Capture organisational rules and process for functional safety,_-XfTMIeoEeCn6qzj2PKcxg" guid="--BOkKYJnKaZ8SCh2ou2j2w">
+    <refinedDescription>&lt;p>&#xD;
+    The organisation should have or will develop a safety culture, based establishment, execution and maintenance of a&#xD;
+    specific set of rules and processes that comply with ISO 26262.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Details of the requirements for this task are detailed in ISO 26262, vol 2, clause 5.4.2 The user is also recommended&#xD;
+    to examine appendix B, ISO 26262 vol 2, tables B1, examples of leading indicators of safety culture and B2 Examples of&#xD;
+    trailing indicators of a safety culture.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-0AlZ1Dh5nYkKIbbE-RpDJg" name="Safety_Manager,_-XfTMYeoEeCn6qzj2PKcxg" guid="-0AlZ1Dh5nYkKIbbE-RpDJg">
+    <refinedDescription>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-cu1F7wBGE2og_YXFfy-Bwg" name="Gather evidence that a quality management system is in place,__JQuYIeoEeCn6qzj2PKcxg" guid="-cu1F7wBGE2og_YXFfy-Bwg">
+    <refinedDescription>&lt;p>&#xD;
+    The organisations involve in the item development must be compliant with a quality standard such as&amp;nbsp; ISO TS 16949&#xD;
+    or ISO 9001 or there equivalents prior to starting work.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The management system used based on the standard must support the application of ISO 26262.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UeMt4l_rVXd0l1woi1UwCQ" name="Evidence of effective Electrical, Electronic quality management system,_leSztIhmEeCE4bK4CwiExg" guid="-UeMt4l_rVXd0l1woi1UwCQ">
+    <refinedDescription>All organisations in the development lifecycle of the artifact need to show compliance to a quality management standard&#xD;
+such as ISO TS 16949 or IS0 9001 or their equivalents. This is to support the application of ISO 26262</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gxVz-bhwz5je1K-XB0UKeA" name="Develop safety case,_AniFUIh8EeCE4bK4CwiExg" guid="-gxVz-bhwz5je1K-XB0UKeA">
+    <keyConsiderations>It should be noted that no inputs have been added to this section as they are to numerous to mention and in some cases may&#xD;
+go beyond the scope of the responsibility of the scope of the safety lifecycle.</keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AbhUZA4HPkvGiVp-XrlcFA" name="Develop safety plan,_BMCgkIh8EeCE4bK4CwiExg" guid="-AbhUZA4HPkvGiVp-XrlcFA">
+    <refinedDescription>&lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+    The safety plan is a live set of documents that gets refined throughout the safety lifecycle. Because of this a number&#xD;
+    of process and documents become part of the safety plan. The documents required to make up the safety plan are detailed&#xD;
+    in the safety planning task. The processes required are outlined in this guidance and point to the various clauses in&#xD;
+    the ISO 26262 specification.&#xD;
+&lt;/p>&#xD;
+&lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+    The safety manager is responsible for the planing,maintenance and monitoring of&amp;nbsp;the safety activities across the&#xD;
+    development subphases in the safety lifecycle.&#xD;
+&lt;/p>&#xD;
+&lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+    Safety planning should include information relating to the implementation of strategies, activities and the procedures&#xD;
+    required for achieving functional safety.&#xD;
+&lt;/p>&#xD;
+&lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+    This covers the planning for all forms of safety based requirements&amp;nbsp;the&amp;nbsp;verification and validation&#xD;
+    activities, including general planing for confirmation measures.&#xD;
+&lt;/p>&#xD;
+&lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+    The supporting process that are detailed in ISO 26262 Vol 8, such as planning for requirements management,&#xD;
+    configuration and change management, interfaces, verification, document templates, the qualification of Software tools,&#xD;
+    and hardware and software components.&#xD;
+&lt;/p>&#xD;
+&lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+    Detailed guidance is given in ISO 26262 Vol 2, clause 6.4.3.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mlOjfwUWtCrisZ1JSkdDCQ" name="Develop CP,_BuUHMIh8EeCE4bK4CwiExg" guid="-mlOjfwUWtCrisZ1JSkdDCQ">
+    <refinedDescription>&lt;p>&#xD;
+    The confirmation plan contains details of confirmation&amp;nbsp;measures which are confirmation reviews, audits or&#xD;
+    assessments of functional safety.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A confirmation review is an assessment of a work product to ensure it complies to ISO 26262. The&amp;nbsp;level of&#xD;
+    independence of the auditor is determined by the ASIL.&amp;nbsp;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-E0dsl2AXORMUvvuyjAzk0A" name="Develop functional safety asessment plan,_CJb88Ih8EeCE4bK4CwiExg" guid="-E0dsl2AXORMUvvuyjAzk0A">
+    <refinedDescription>&lt;p>&#xD;
+    The functional safety assessment considers the, confirmation plan, recommendations from previous functional safety&#xD;
+    assessments (if available) and results from previous functional safety audits and confirmation reviews.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The conclusion of the functional safety assessment must include a recommendation for acceptance, conditional&#xD;
+    acceptance, or rejection of the functional safety of the item.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The only condition under which conditional acceptance can be given is if the functional safety of the item is&#xD;
+    considered evident despite the identified open issues. If this happens it is expected that any&amp;nbsp;corrective actions&#xD;
+    listed in the functional safety assessment report, should be carried out.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If the item has been rejected then actions must be taken to correct the issue and the assessment repeated.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more details on the functional safety assessment report it is advised that the user refers to ISO 26262, Vol 2,&#xD;
+    clause 6.4.6.7&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Je9ndDmJevUXYEqtDmoieg" name="Organise and ensure sufficient qualified resources are available for the project,_DKsloIh8EeCE4bK4CwiExg" guid="-Je9ndDmJevUXYEqtDmoieg">
+    <refinedDescription>&lt;p>&#xD;
+    This is an ongoing task, that is carried out throughout the safety lifecycle of the project as employees leave and join&#xD;
+    the company.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It may require training programs to be put in place on tools and compliance processes for ISO 26262.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Cr5I81JzDmqoVRjbAVPGPg" name="Project_Manager,_DKsloYh8EeCE4bK4CwiExg" guid="-Cr5I81JzDmqoVRjbAVPGPg">
+    <refinedDescription>&lt;div style=&quot;MARGIN-LEFT: 2em&quot;>&#xD;
+    &lt;p dir=&quot;ltr&quot;>&#xD;
+        Assigns the &amp;nbsp;safety manager&lt;br />&#xD;
+        Ensures that the safety activities are performed and compliance with ISO26262 is achieved&lt;br />&#xD;
+        Verifies that the organisation has provided the required resources to carry out the functional safety activities&#xD;
+    &lt;/p>&#xD;
+&lt;/div></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vL_gMRn_94XyJ6iDDqPxwQ" name="Safety Manager,_DKslo4h8EeCE4bK4CwiExg" guid="-vL_gMRn_94XyJ6iDDqPxwQ">
+    <refinedDescription>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-rJCYxOp2qcl7pzS4CYCnKw" name="Determine CMs,_-e320I35EeCXD5XcLandUA" guid="-rJCYxOp2qcl7pzS4CYCnKw">
+    <refinedDescription>&lt;p>&#xD;
+    The main types of confirmation measures for ensuring functional safety are detailed in the table below.&#xD;
+&lt;/p>&#xD;
+&lt;table dir=&quot;ltr&quot; border=&quot;1&quot; cellspacing=&quot;1&quot; cellpadding=&quot;4&quot; width=&quot;652&quot;>&#xD;
+    &lt;tbody>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;18%&quot;>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;31%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>Functional safety audit&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;26%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>Confirmation review&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;25%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>Functional safety assessment&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;18%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Subject&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;31%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Implementation of processes required for functional safety&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;26%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Documented result of a specific safety activity&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;25%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Item as described in the Item definition (see ISO26262-3, Clause5)&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;18%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Result&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;31%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Audit report&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;26%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Confirmation review report&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;25%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Assessment report on functional safety of the item&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;18%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Responsibility of Auditor/Reviewer/ Safety Assessor&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;31%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Adequate evaluation of processes against the definition of the activity referenced or listed in the&#xD;
+                    safety plan.&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;26%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Adequate level of detail of the confirmation review&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;25%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Adequate evaluation of the achieved functional safety level&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;18%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Timing during lifecycle&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;31%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    During implementation of the required processes&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;26%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    After completion of the corresponding safety activity&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;25%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Progressively during development, or in a single block&#xD;
+                &lt;/p>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Completion before product release&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;18%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Scope and depth&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;31%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Determined by the auditor&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;26%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Planned prior to the review, in accordance with the safety plan&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;25%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Review of processes and safety measures required for functional safety&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; colspan=&quot;4&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                    acan be included in a functional safety assessment report&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+    &lt;/tbody>&#xD;
+&lt;/table>&#xD;
+&lt;p>&#xD;
+    The confirmation review is made up of a number of different confirmation measures which are assessed according the&#xD;
+    following guidelines in the table below.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        -: no requirement regarding this confirmation measure;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        I0: the confirmation measure should be performed;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        I1: the confirmation measure shall be performed;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        I2: the confirmation measure shall be performed by a person from a different team, i.e. not reporting to the same&#xD;
+        direct superior; and&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        I3: the confirmation measure shall be performed by a person from a different department or organisation, i.e.&#xD;
+        independent from the relevant department, regarding management, resources, and responsibility for release for&#xD;
+        production.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;center>&#xD;
+    &lt;table dir=&quot;ltr&quot; border=&quot;1&quot; cellspacing=&quot;1&quot; cellpadding=&quot;2&quot; width=&quot;651&quot;>&#xD;
+        &lt;tbody>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;top&quot; width=&quot;42%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        &lt;b>Confirmation measures&lt;/b>&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;34%&quot; colspan=&quot;4&quot;>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;23%&quot;>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;top&quot; width=&quot;42%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        Confirmation review of hazard analysis &amp;amp; risk assessment of the applicable item, in accordance&#xD;
+                        with ISO26262 (see ISO26262-3, Clause 7 and if applicable, ISO 26262-8, Clause 5)&#xD;
+                    &lt;/p>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        independent from the developers of the item&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;34%&quot; colspan=&quot;4&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I3&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;23%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                        For all ASILs, and including hazards rated as QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;top&quot; width=&quot;42%&quot;>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;34%&quot; colspan=&quot;4&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        applies to ASIL&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;23%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                        of the&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;top&quot; width=&quot;42%&quot;>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;8%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        &lt;b>A&lt;/b>&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        &lt;b>B&lt;/b>&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        &lt;b>C&lt;/b>&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        &lt;b>D&lt;/b>&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;23%&quot;>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;top&quot; width=&quot;42%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        Confirmation review of safety plan (see Clause 6)&#xD;
+                    &lt;/p>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        - independent from the developers of the item/ project management&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;8%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        -&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I1&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I2&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I3&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;23%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                        highest ASIL among safety goals of the item&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;top&quot; width=&quot;42%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        Confirmation review of integration and testing plan (see ISO26262-4, Clause 5)&#xD;
+                    &lt;/p>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        -independent from the developers of the item/ project management&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;8%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I0&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I1&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I2&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I2&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;23%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                        highest ASIL among safety goals of the item&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;top&quot; width=&quot;42%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        Confirmation review of validation plan (see ISO26262-4, Clause 5)&#xD;
+                    &lt;/p>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        -independent from the developers of the item/ project management&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;8%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I0&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I1&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I2&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I2&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;23%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                        highest ASIL among safety goals of the item&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;top&quot; width=&quot;42%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        Confirmation review of safety analyses (FMEA, FTA): (see ISO26262-9, 8.4.8)&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;8%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I1&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I1&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I2&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I3&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;23%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                        highest ASIL among safety goals of the item&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;top&quot; width=&quot;42%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        Confirmation review of qualification of software tools (see ISO26262-8, Clause 11)&#xD;
+                    &lt;/p>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        - independent from the person performing the qualification of the software tool&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;8%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        -&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I0&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I1&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I1&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;23%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                        highest ASIL among safety goals of the item&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;top&quot; width=&quot;42%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        Confirmation review of proven in use argument (analyses, data and credit). See ISO26262-8, Clause&#xD;
+                        14.&#xD;
+                    &lt;/p>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        -independent from the supplier of the argument&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;8%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I0&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I1&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I2&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I3&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;23%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                        ASIL of the safety goal or requirement related to the considered behaviour, or function, of the&#xD;
+                        candidate&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;top&quot; width=&quot;42%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        Confirmation review of completeness of safety case (see 6.4.5)&#xD;
+                    &lt;/p>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        - independent from authors of safety case&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;8%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I0&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I1&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I2&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I3&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;23%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                        highest ASIL among safety goals of the item&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;top&quot; width=&quot;42%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        Audit of safety process (see 6.4.6)&#xD;
+                    &lt;/p>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        - independent from the persons working in accordance with the processes required for functional&#xD;
+                        safety&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;8%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        -&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I0&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I2&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I3&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;23%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                        highest ASIL among safety goals of the item&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;top&quot; width=&quot;42%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        Functional safety assessment (see 6.4.6.7)&#xD;
+                    &lt;/p>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        -independent from the supplier of the safety case&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;8%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        -&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I0&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I2&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        I3&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;23%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                        highest ASIL among safety goals of the item&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+        &lt;/tbody>&#xD;
+    &lt;/table>&#xD;
+&lt;/center>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    Confirmation measures are carried out during item development and their contribute to a number of documents.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The results of the confirmation measures are added to the safety case.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more details around the confirmation measures the user is referred to ISO 26262, vol 2, Clause 6.4.6&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    &lt;br />&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-sbOtN9fbiINvflghDFMW2g" name="Assign PM,_PGMIAJBjEeCUs8vNyweFYw" guid="-sbOtN9fbiINvflghDFMW2g">
+    <refinedDescription>Assign a suitably qualified person who has overall responsibility an authority to ensure that the safety activities are&#xD;
+performed and compliance with ISO 26262 achieved</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-3f66GbjdtSTx2u0hIB2-Jg" name="Assign SM,_PrAFQJBjEeCUs8vNyweFYw" guid="-3f66GbjdtSTx2u0hIB2-Jg">
+    <refinedDescription>Assign a suitable qualified person to be responsible for functional safety management during the item development.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-m6pNCZsOpzwydJBE6gpbbQ" name="Organise Process and Tools Team,_1ZlKcJBjEeCUs8vNyweFYw" guid="-m6pNCZsOpzwydJBE6gpbbQ">
+    <refinedDescription>&lt;p>&#xD;
+    When setting up a new project it is necessary to set up an infrastructure to support that project. Due to the nature of&#xD;
+    the ISO 26262 standard, this means tool support for requirements, configuration and change management, possibly systems&#xD;
+    and software modeling and development tools,&amp;nbsp;compilers, documentation tools and hazard analysis tools etc.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It also requires the appropriate networks and infrastructure to be set up to enable users not only to use these tools&#xD;
+    but to communicate information.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-abE7sRuiYgoTt1AHr8BXIQ" name="Project independant tailoring of the safety cycle,_3tsJcJdmEeCPtY0LnWkRDw" guid="-abE7sRuiYgoTt1AHr8BXIQ">
+    <refinedDescription>&lt;p>&#xD;
+    The process of tailoring the safety lifecycle to fit in with the methods and practices of the organisation. This means&#xD;
+    that all the activities still need to be carried out but the phases in which this is done can altered or the activities&#xD;
+    can be combined or split according to how the organisation works.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is an overarching tailoring of the lifecycle and is different from tailoring the safety lifecycle during the&#xD;
+    project phase as that tailoring is based upon the project and the item to be developed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The exact details are given in ISO 26262 Vol 2, clause 5.4.5.&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8F9Bk36fF4kikyMJ_Q8o1A" name="Assign the release for production team,_EmftkJE1EeCUs8vNyweFYw" guid="-8F9Bk36fF4kikyMJ_Q8o1A">
+    <refinedDescription>This team has the responsibility and authority for maintaining functional safety of the item after the release for&#xD;
+production.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-02Nzg5FTMqM_0-G3q1ebmQ" name="Develop a field monitoring process for functional safety,_FJqsEJE1EeCUs8vNyweFYw" guid="-02Nzg5FTMqM_0-G3q1ebmQ">
+    <refinedDescription>The field monitoring process is used to collect information around the functional safety of the item so that it can be used&#xD;
+for quality control purpose and provide evidence of a proven in use argument</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-R_UyxKn4qKi3LwtXEIF6sg" name="Evidence of effective Electrical, Electronic quality management system,_FJz2BJE1EeCUs8vNyweFYw" guid="-R_UyxKn4qKi3LwtXEIF6sg">
+    <refinedDescription>All organisations in the development lifecycle of the artifact need to show compliance to a quality management standard&#xD;
+such as ISO TS 16949 or IS0 9001 or their equivalents. This is to support the application of ISO 26262</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-A1sv97CO5TqgK499yqxvlw" name="Exectue and maintain safety lifecycle processes,_FtubYJE1EeCUs8vNyweFYw" guid="-A1sv97CO5TqgK499yqxvlw">
+    <refinedDescription>&lt;p>&#xD;
+    This task is present because ISO 26262, vol 2, clause 7.4.2 states that&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &quot;The activities for ensuring the functional safety after release for production shall be planned, in accordance with&#xD;
+    ISO26262-7, and shall be initiated during system development.&quot;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is to ensure the functional safety of the item is not compromised will production planning is being&amp;nbsp;&#xD;
+    initiated.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-f22BD6IuE3v92sN4dyT59Q" name="Evidence of effective Electrical, Electronic quality management system,_D8MHUIeoEeCn6qzj2PKcxg" guid="-f22BD6IuE3v92sN4dyT59Q">
+    <refinedDescription>All organisations in the development lifecycle of the artifact need to show compliance to a quality management standard&#xD;
+such as ISO TS 16949 or IS0 9001 or their equivalents. This is to support the application of ISO 26262</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9LaHDdrp_AQNc-6yi-aMRg" name="Evidence of staff safety related competencies,_zoRiAIepEeCn6qzj2PKcxg" guid="-9LaHDdrp_AQNc-6yi-aMRg">
+    <refinedDescription>&lt;p>&#xD;
+    It is expected that all members of the team developing an item to ISO 26262 should have the relevant set of skills and&#xD;
+    competencies required to carry out the tasks to which they will be assigned.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If the relevant skills are not present it is expected that the organisation will develop or implement a training and&#xD;
+    qualification program.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Further details relating to this clause can be found in ISO 26262, vol 2, clause 5.4.3.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BTPM1iF7urdj2yTEliisSw" name="Safety_Manager,_zrjfgIepEeCn6qzj2PKcxg" guid="-BTPM1iF7urdj2yTEliisSw">
+    <refinedDescription>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-hQnbugzQzyqlZCmWwZsihQ" name="Project_Manager,_0UBNZJBfEeCUs8vNyweFYw" guid="-hQnbugzQzyqlZCmWwZsihQ">
+    <refinedDescription>&lt;div style=&quot;MARGIN-LEFT: 2em&quot;>&#xD;
+    &lt;p dir=&quot;ltr&quot;>&#xD;
+        Assigns the safety manager&lt;br />&#xD;
+        Ensures that the safety activities are performed and compliance with ISO26262 is achieved&lt;br />&#xD;
+        Verifies that the organisation has provided the required resources to carry out the functional safety activities&#xD;
+    &lt;/p>&#xD;
+&lt;/div></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="--HZbJmIJGo-bR1sD14_mvQ" name="Management_of functional safety,_3Emw4YenEeCn6qzj2PKcxg" guid="--HZbJmIJGo-bR1sD14_mvQ" version="7.5.1">
+    <usageGuidance>&lt;p>&#xD;
+    Some aspects of the overall safety management are ongoing throughout the lifecycle of the project, for instance the&#xD;
+    need to ensure suitable qualified and experienced staff are available to support the items development and production,&#xD;
+    another example is the need to maintain the quality systems that are prerequisite to starting an ISO 26262 based&#xD;
+    project.&#xD;
+&lt;/p></usageGuidance>
+    <purpose>To plan the safety management of the item under development so that it complies to ISO 26262.</purpose>
+  </org.eclipse.epf.uma:ProcessDescription>
+</xmi:XMI>

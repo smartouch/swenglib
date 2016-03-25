@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-pHefm5ORp74hyh0SFJV3zg" name=",_ODwn4ODTEdy_TKG9JydNsA" guid="-pHefm5ORp74hyh0SFJV3zg" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Analysis of the test results and system tuning is done in between each of the experiments. The experiment is designed&#xD;
+    to collect the data needed for tuning the subsystem or balancing the load across a cluster of servers. By moving from&#xD;
+    tuning a single application server to driving a cluster of application servers, you also introduce issues with pooling&#xD;
+    of connection to back-end database servers. Normal programming defaults will have multiple connections per virtual user&#xD;
+    session to the back-end database. This proves to be a significant and often repeated tuning exercise to redesign the&#xD;
+    application to pool these connections across multiple user sessions. Sizing the pool of connections to meet the need of&#xD;
+    the expected load of simultaneous outstanding requests to the database is something that must be done while driving one&#xD;
+    or more of the application servers at full load.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is important when planning your performance testing project to allow time in the schedule for sizing the application&#xD;
+    server, testing the load balancing across the cluster, tuning the database connection pool and maybe even some database&#xD;
+    table indices or optimizing certain application segments making multiple database queries in sequence to satisfy a user&#xD;
+    request. Leave time for possible work on heap fragmentation or memory leak issues in the application server testing if&#xD;
+    the application has not been stress tested before or if this is a significant re-write of the application. Once these&#xD;
+    preliminary activities have been scheduled then you can add in three to five full load tests to get your final system&#xD;
+    capacity measurements. Also if a multiple day soak test for system availability is requested, add schedule time for at&#xD;
+    least two or three attempts at performing this test with at least one day in between to analyze the results and modify&#xD;
+    the application in preparation for the next test run.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

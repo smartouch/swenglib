@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-lodOSjIXduNdwizvMK3Iyw" name="model_a_scenario,_CWz54FnQEd6TDdjsK-pYkg" guid="-lodOSjIXduNdwizvMK3Iyw" changeDate="2011-09-14T14:22:44.212-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Create representations (operations and ordering) of the behavior the business needs to perform in order to fulfill&#xD;
+    specific scenarios described in the business use cases. This is represented by business elements such as business&#xD;
+    components or areas, services, &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.bus.common.extend_supp-ibm/guidances/concepts/business_worker_54116484.html&quot;&#xD;
+    guid=&quot;__uNa8VoGEd6Gvq_dRUXeQw&quot;>workers&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/concepts/business_entity_49738474.html&quot;&#xD;
+    guid=&quot;__uNa8FoGEd6Gvq_dRUXeQw&quot;>entities&lt;/a>, etc. These white-box or internal descriptions of the business are&#xD;
+    organized as use-case realizations; each use case has a corresponding realization where all the white-box descriptions&#xD;
+    of the scenarios are maintained. This makes it easier to organize and understand how the business must operate in order&#xD;
+    to fulfill the behavior described in the business use cases.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The result of this task is a set of business descriptions that can be used for business re-engineering and the&#xD;
+    identification of system services for automation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Diagrams and elements from the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/whitepapers/rational_uml_profile_for_business_modeling_8DF6A099.html&quot;&#xD;
+     guid=&quot;_4d1TwGzBEd6mWPPjpApyKw&quot;>Rational UML Profile for Business Modeling&lt;/a> are used to describe the internal&#xD;
+    working of the business.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/whitepapers/effective_business_modeling_with_uml_AA2C7A4D.html&quot;&#xD;
+     guid=&quot;_qfXDIFn8Ed6Gvq_dRUXeQw&quot;>Whitepaper: Effective Business Modeling with UML: Describing Business Use Cases and&#xD;
+    Realizations&lt;/a>&amp;nbsp;for more detail on how to create business use case realizations.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_xA7EwFnSEd6TDdjsK-pYkg" name="Identify scenarios to define" guid="_xA7EwFnSEd6TDdjsK-pYkg">
+    <sectionDescription>&lt;p>&#xD;
+    Find scenarios in the business use cases&amp;nbsp;that&amp;nbsp;will be refined into&amp;nbsp;descriptions of how the business&#xD;
+    accomplishes those scenarios. Generally, high-priority or critical scenarios are the first that are selected for&#xD;
+    refinement into business use-case realizations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It can also&amp;nbsp;be useful to create UML activity diagrams of the candidate scenarios to determine their criticality&#xD;
+    and provide input to later steps in the task.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Create a sequence diagram for each selected scenario, and place it in a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/concepts/business_uc_realization_B9B77CA3.html&quot; guid=&quot;_NFkXsGDYEd6EnMwJEA4c6A&quot;>business use-case realization&lt;/a> that realizes the business use case. Create the&#xD;
+    realization if one doesn't exist, and add a realization relationship from the realization to the use case on a Business&#xD;
+    Use-case Realization diagram.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/tasks/describe_the_business_779831A7.html&quot; guid=&quot;_gd1T4EDOEd6xU9AA2v_L1g&quot;>Describe the Business&lt;/a>&amp;nbsp;for details on creating and adding sequence diagrams to&#xD;
+    the business use-case realization.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_zcMNUFnSEd6TDdjsK-pYkg" name="Identify business elements" guid="_zcMNUFnSEd6TDdjsK-pYkg">
+    <sectionDescription>&lt;p>&#xD;
+    Use the business use-case scenario to identify an initial set of&amp;nbsp;business elements&amp;nbsp;that will be used in the&#xD;
+    business use-case realization. Often, a collection of elements found earlier can be used before creating new&#xD;
+    ones.&amp;nbsp;Examine the [Business Architecture] for business elements that are implicitly or explicitly described, and&#xD;
+    that can contribute to fulfilling the business use-case scenarios you're working on.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/guidelines/finding_business_workers_and_entities_80EAAEED.html&quot; guid=&quot;_BKEDAFoJEd6Gvq_dRUXeQw&quot;>Finding Business Workers and Entities&lt;/a>&amp;nbsp;for information on how to find workers&#xD;
+    and entities. Also, see these examples of &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/examples/business_workers_and_entities_541E260E.html&quot; guid=&quot;_vjFlQFoIEd6Gvq_dRUXeQw&quot;>workers and entities&lt;/a> and their &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/examples/sequence_diagram_realizing_a_use-case_scenario_DEFFC1F0.html&quot; guid=&quot;_yyzpkFoIEd6Gvq_dRUXeQw&quot;>interactions&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_0fZWwFnSEd6TDdjsK-pYkg" name="Understand how elements interact!" guid="_0fZWwFnSEd6TDdjsK-pYkg">
+    <sectionDescription>&lt;p>&#xD;
+    Show all actions required to produce the scenario by describing them in a sequence diagram created in the business&#xD;
+    use-case realization. Add or use existing operations to business elements that show the behavior they need to perform&#xD;
+    in order to realize the scenario. Use existing operations whenever possible as this will make future normalization&#xD;
+    tasks easier.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Identify new business elements as appropriate.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Be clear how you reach each step of the sequence diagram. There&amp;nbsp;must be no ambiguities in understanding how to get&#xD;
+    from one step to the next.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/guidelines/describe_uc_scenario_in_a_realization_E0BD9691.html&quot; guid=&quot;_6-fXgHL0Ed6bjOEjgEchEQ&quot;>Guideline: Describe a Business Use-Case Scenario in a Business Use-Case Realization&lt;/a>&amp;nbsp;for guidance on illustrating the behavior that realizes a scenario.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_DFBmcGBBEd6N3oh9_fLQiQ" name="Identify relationships in the scenario" guid="_DFBmcGBBEd6N3oh9_fLQiQ">
+    <sectionDescription>&lt;p>&#xD;
+    This step is optional, though it can be useful to identify the structural relationships between business elements that&#xD;
+    participate in the sequence diagram. Create a class diagram showing the required relationships between the workers and&#xD;
+    entities to support their interactions in the sequence diagram. See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/guidelines/identify_the_structure_of_a_business_use-case_realization_E29AB880.html&quot; guid=&quot;_W9dxkHL6Ed6bjOEjgEchEQ&quot;>Guideline: Identify the Structure of a Business Use-Case Realization&lt;/a>.&#xD;
+&lt;/p>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_SJSdkGBGEd6N3oh9_fLQiQ" name="Refine relationships based on architectural constraints" guid="_SJSdkGBGEd6N3oh9_fLQiQ">
+    <sectionDescription>Use the [Business Architecture] to identify relationships between business elements that need to be refined. It's possible&#xD;
+the business architecture defines constraints or patterns that illustrate how some elements need to interact. This allows&#xD;
+the use-case realization to take into account different organizations, regulatory requirements, the physical distribution&#xD;
+of the organization, and other issues that are not obvious when examining the use case scenario by itself.</sectionDescription>
+  </sections>
+  <sections xmi:id="_OgzP4FnjEd6TDdjsK-pYkg" name="Achieve concurrence" guid="_OgzP4FnjEd6TDdjsK-pYkg">
+    <sectionDescription>&lt;p>&#xD;
+    Gain agreement between stakeholders and business analysts that the way the business is described will achieve the&#xD;
+    business's goals. This agreement is based on the experience and thoughtfulness of the participating roles because to-be&#xD;
+    processes are by definition untested.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To define business operations that fulfill the business described in the business use cases.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To define a business model for the business.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To provide the means for defining services that fulfill the goals of the business.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

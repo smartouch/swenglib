@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><template xmlns="http://jazz.net/xmlns/foundation/lpa/1.0/" xmlns:dc="http://purl.org/dc/terms/">
+
+	<!-- Template Description -->
+	<description>
+		<dc:identifier>rational.clm_sol_dm.integrated.template</dc:identifier>
+		<dc:title>IBM Rational CLM Solution (with Design Management)</dc:title>
+		<dc:description>This template sets up associated project areas for quality management, requirements management,  change and configuration management, and architecture management. The testers (in quality management), analysts (in requirements management), and architects (in architecture management) work integrated with development (in change and configuration management) and quality management tasks, requirements change requests, and architecture change requests are tracked in the change and configuration management project. The change and configuration management project area is configured to use the "IBM Rational CLM Solution" process template. The requirements management project area is configured to use the Agile Requirements project template.</dc:description>
+		<dc:creator>IBM Corp.</dc:creator>
+		<locales>
+			<locale>zh</locale>
+			<locale>zh_HK</locale>
+			<locale>zh_TW</locale>
+			<locale>cs</locale>
+			<locale>en_US</locale>
+			<locale>fr</locale>
+			<locale>de</locale>
+			<locale>hu</locale>
+			<locale>it</locale>
+			<locale>ja</locale>
+			<locale>ko</locale>
+			<locale>pl</locale>
+			<locale>pt_BR</locale>
+			<locale>ru</locale>
+			<locale>es</locale>
+		</locales>
+	</description>
+	
+	<!-- Define Project Areas -->
+	<projectAreas>
+	
+		<!-- RRC -->
+		<projectArea id="rrc.project">
+			<processTemplates>
+				<processTemplate>
+					<dc:identifier>RRSTemplateID</dc:identifier>
+					<dc:title>Requirements Management Default Process</dc:title>
+				</processTemplate>
+			</processTemplates>
+			<projectTemplates>
+				<projectTemplate>
+					<dc:identifier>Agile Requirements Template</dc:identifier>
+					<dc:title>Agile Requirements Template</dc:title>
+				</projectTemplate>
+			</projectTemplates>
+			<dc:subject>Requirements</dc:subject>
+			<domain ref="http://open-services.net/ns/rm#"/>
+		</projectArea>
+		
+		<!-- RTC -->
+		<projectArea id="rtc.project">
+			<processTemplates>
+				<processTemplate>
+					<dc:identifier>clm.process.ibm.com</dc:identifier>
+					<dc:title>IBM Rational CLM Solution - Process Template</dc:title>
+				</processTemplate>
+			</processTemplates>
+			<dc:subject>Change Management</dc:subject>
+			<domain ref="http://open-services.net/ns/cm#"/>
+		</projectArea>
+		
+		<!-- RQM -->
+		<projectArea id="rqm.project">
+			<processTemplates>
+				<processTemplate>
+					<dc:identifier>clm-qm.process.ibm.com</dc:identifier>
+					<dc:title>IBM Rational CLM Solution - Quality Management Process Template</dc:title>
+				</processTemplate>
+			</processTemplates>
+			<dc:subject>Quality Management</dc:subject>
+			<domain ref="http://open-services.net/ns/qm#"/>
+		</projectArea>
+		
+	</projectAreas>
+
+		
+		<!-- DM -->
+		<projectArea id="dm.project">
+			<processTemplates>
+				<processTemplate>
+					<dc:identifier>basic.dm.process</dc:identifier>
+					<dc:title>Basic</dc:title>
+				</processTemplate>
+			</processTemplates>
+			<dc:subject>Architecture Management</dc:subject>
+			<domain ref="http://open-services.net/ns/am#"/>
+		</projectArea>
+
+
+	<!-- Define Project Area Associations -->
+	<projectAreaAssociations>
+	
+		<!-- RRC implemented-by RTC -->
+		<projectAreaAssociation>
+			<sourceDomain ref="#rrc.project"/>
+			<linkType>implemented-by</linkType>
+			<targetDomain ref="#rtc.project"/>
+		</projectAreaAssociation>
+	
+		<!-- RTC implements RRC -->
+		<projectAreaAssociation>
+			<sourceDomain ref="#rtc.project"/>
+			<linkType>implements</linkType>
+			<targetDomain ref="#rrc.project"/>
+		</projectAreaAssociation>
+		
+		<!-- RTC tested-by RQM -->
+		<projectAreaAssociation>
+			<sourceDomain ref="#rtc.project"/>
+			<linkType>tested-by</linkType>
+			<targetDomain ref="#rqm.project"/>
+		</projectAreaAssociation>
+		
+		<!-- RQM tests RTC -->
+		<projectAreaAssociation>
+			<sourceDomain ref="#rqm.project"/>
+			<linkType>tests</linkType>
+			<targetDomain ref="#rtc.project"/>
+		</projectAreaAssociation>
+		
+		<!-- RQM validates RRC -->
+		<projectAreaAssociation>
+			<sourceDomain ref="#rqm.project"/>
+			<linkType>validates</linkType>
+			<targetDomain ref="#rrc.project"/>
+		</projectAreaAssociation>
+		
+		<!-- RRC validated-by RQM -->
+		<projectAreaAssociation>
+			<sourceDomain ref="#rrc.project"/>
+			<linkType>validated-by</linkType>
+			<targetDomain ref="#rqm.project"/>
+		</projectAreaAssociation>
+		
+		<!-- RTC tracks RQM -->
+		<projectAreaAssociation>
+			<sourceDomain ref="#rtc.project"/>
+			<linkType>tracks</linkType>
+			<targetDomain ref="#rqm.project"/>
+		</projectAreaAssociation>
+		
+		<!-- RQM tracked-by RTC -->
+		<projectAreaAssociation>
+			<sourceDomain ref="#rqm.project"/>
+			<linkType>tracked-by</linkType>
+			<targetDomain ref="#rtc.project"/>
+		</projectAreaAssociation>
+		
+		<!-- RTC tracks-rm RRC -->
+		<projectAreaAssociation>
+			<sourceDomain ref="#rtc.project"/>
+			<linkType>tracks-rm</linkType>
+			<targetDomain ref="#rrc.project"/>
+		</projectAreaAssociation>
+		
+		<!-- RRC tracked-by-cm RTC -->
+		<projectAreaAssociation>
+			<sourceDomain ref="#rrc.project"/>
+			<linkType>tracked-by-cm</linkType>
+			<targetDomain ref="#rtc.project"/>
+		</projectAreaAssociation>
+
+		<!-- DM architects RTC -->
+		<projectAreaAssociation>
+			<sourceDomain ref="#dm.project"/>
+			<linkType>architects</linkType>
+			<targetDomain ref="#rtc.project"/>
+		</projectAreaAssociation>
+		
+		<!-- RTC architected-by DM -->
+		<projectAreaAssociation>
+			<sourceDomain ref="#rtc.project"/>
+			<linkType>architected-by</linkType>
+			<targetDomain ref="#dm.project"/>
+		</projectAreaAssociation>
+		
+		<!-- DM validated-by-am RQM -->
+		<projectAreaAssociation>
+			<sourceDomain ref="#dm.project"/>
+			<linkType>validated-by-am</linkType>
+			<targetDomain ref="#rqm.project"/>
+		</projectAreaAssociation>
+		
+		<!-- RQM validates-am DM -->
+		<projectAreaAssociation>
+			<sourceDomain ref="#rqm.project"/>
+			<linkType>validates-am</linkType>
+			<targetDomain ref="#dm.project"/>
+		</projectAreaAssociation>
+		
+		<!-- DM elaborates RRC -->
+		<projectAreaAssociation>
+			<sourceDomain ref="#dm.project"/>
+			<linkType>elaborates</linkType>
+			<targetDomain ref="#rrc.project"/>
+		</projectAreaAssociation>
+		
+		<!-- RRC elaborated-by DM -->
+		<projectAreaAssociation>
+			<sourceDomain ref="#rrc.project"/>
+			<linkType>elaborated-by</linkType>
+			<targetDomain ref="#dm.project"/>
+		</projectAreaAssociation>
+
+	</projectAreaAssociations>
+	
+	<lifeCycleProjects>
+		<lifeCycleProject id="lpa.project">
+			<dc:title>${request.param.projectName}</dc:title>
+			<dc:description>${request.param.lpaProjectDescription}</dc:description>
+			<lifeCycleProjectContext ref="#rrc.project"/>
+			<lifeCycleProjectContext ref="#rtc.project"/>
+			<lifeCycleProjectContext ref="#rqm.project"/>
+			<lifeCycleProjectContext ref="#dm.project"/>
+		</lifeCycleProject>
+	</lifeCycleProjects>
+
+</template>

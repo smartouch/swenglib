@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types xmlns="http://www.ibm.com/rmc/library/usertype">
+
+
+<!-- IBM MODIFICATIONS -->
+
+	<type id="com.ibm.rmc.wi_type" name="Work Item Type">
+	<!-- This type is used to distinguish elements intended to become Jazz work item types -->
+		<rte_1>Main description</rte_1>
+		<rte_2>Not used</rte_2>
+		<rte_3>Not used</rte_3>
+		<rte_4>Not used</rte_4>
+		<rte_5>Not used</rte_5>
+		<rte_6>Not used</rte_6>
+		<rte_7>Not used</rte_7>
+		<node_icon>/udt_images/work_item_node.gif</node_icon>
+		<shape_icon>/udt_images/work_item_shape.gif</shape_icon>
+	</type>
+	<modifiedType id="com.ibm.rmc.wi_type" isJazzWorkItemType="true" />
+	
+
+	<type id="com.ibm.rmc.wi_state" name="Work Item State">
+	<!-- This type is used to model states of Jazz work items -->
+			<rte_1>Main description</rte_1>
+			<rte_2>Not used</rte_2>
+			<rte_3>Not used</rte_3>
+			<rte_4>Not used</rte_4>
+			<rte_5>Not used</rte_5>
+			<rte_6>Not used</rte_6>
+			<rte_7>Not used</rte_7>
+			<node_icon>/udt_images/wi_state_node.gif</node_icon>
+			<shape_icon>/udt_images/wi_state_shape.gif</shape_icon>
+	</type>
+
+	<modifiedType id="org.eclipse.epf.uma.Task">
+	<!-- This adds relationships for Jazz automation -->
+		<section id="com.ibm.rmc.affected_work_items" type="reference" publish="true">
+		<!-- This is the type of work items affected by the task -->
+			<name>Affected Work Items</name>
+			<reference id="extra-reference-1" publish="true">
+				<name>Work Item Types</name> 
+			</reference>
+		</section>	
+		<section id="com.ibm.rmc.is_of_type" type="reference" publish="true">
+		<!-- This is the type of work item type to create from this task. Not yet automated -->
+			<name>Of Type</name>
+			<reference id="extra-reference-1" publish="true">
+				<name>Work Item Type</name> 
+			</reference>
+		</section>	
+	</modifiedType>
+
+	<modifiedType id="org.eclipse.epf.uma.TaskDescriptor">
+	<!-- This adds custom relationships and attributes from a task to a task descriptor -->
+	</modifiedType>
+
+	<modifiedType id="org.eclipse.epf.uma.Activity">
+	<!-- This adds relationships for Jazz automation -->
+		<section id="com.ibm.rmc.affected_work_items" type="reference" publish="true">
+		<!-- This is the type of work items affected by the task -->
+			<name>Affected Work Items</name>
+			<reference id="extra-reference-1" publish="true">
+				<name>Work Item Types</name> 
+			</reference>
+		</section>	
+		<section id="com.ibm.rmc.is_of_type" type="reference" publish="true">
+		<!-- This is the type of work item type to create from this task. Not yet automated -->
+			<name>Of Type</name>
+			<reference id="extra-reference-1" publish="true">
+				<name>Work Item Type</name> 
+			</reference>
+		</section>	
+	</modifiedType>
+
+
+<!-- END OF IBM MODIFICATIONS -->
+
+	
+</types>

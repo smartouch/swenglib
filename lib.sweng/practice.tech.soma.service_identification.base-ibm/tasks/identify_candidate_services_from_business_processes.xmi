@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-QgxWdtZzFZZ5tCus3DUyNQ" name="identify_candidate_services_from_business_processes,_e9TgEGTPEd6EKfYvqjfiMA" guid="-QgxWdtZzFZZ5tCus3DUyNQ" changeDate="2009-09-26T07:25:41.531-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    One of the objectives of IT-centric SOA is to effectively automate the business.&amp;nbsp; With this in mind, it is clear&#xD;
+    that &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.bus.common.extend-ibm/guidances/concepts/business_process_6DC80DFA.html&quot; guid=&quot;_zjPQgIqmEd64Ytrb_zySHw&quot;>business process&lt;/a> models are a source of ideas for identifying IT services.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Service identification normally is performed using a process model that is decomposed to the level of business tasks&#xD;
+    that can be mapped to system use cases (see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.bus.common.extend-ibm/guidances/concepts/business_process_decomposition_70D1DA00.html&quot; guid=&quot;_0XDGMEozEd6D_7XK49c0nw&quot;>Concept: Business Process Decomposition&lt;/a>).&amp;nbsp; Using this decomposed model,&#xD;
+    candidate services at many levels of granularity can be identified:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Services that&amp;nbsp;coordinate the execution of full business processes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Services that&amp;nbsp;coordinate the execution of sub-processes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Services that coordinate the execution of system use cases&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Services that perform specific, limited functions, such as services that are responsible for a specific business&#xD;
+        calculation&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Each of these service types has value.&amp;nbsp; Their discovered instances are viable candidate services.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In this task, the work product slot of [Business Design] is filled by Business Model, which includes business process&#xD;
+    descriptions.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_l3Bq8HiZEd6ks5VPZ8tZkQ" name="Decompose business processes (optional)" guid="_l3Bq8HiZEd6ks5VPZ8tZkQ">
+    <sectionDescription>A decomposed business process model [Business Design]&amp;nbsp;is a necessary input to this technique.&amp;nbsp; If such a model&#xD;
+does not exist, create it in general accordance with &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.bus.common.extend-ibm/guidances/guidelines/decomposing_business_processes_4B6C7EDB.html&quot; guid=&quot;_5Mi1gEozEd6D_7XK49c0nw&quot;>Guideline: Decomposing Business Processes&lt;/a></sectionDescription>
+  </sections>
+  <sections xmi:id="_H4rLYHiaEd6ks5VPZ8tZkQ" name="Identify relevant processes and sub-processes" guid="_H4rLYHiaEd6ks5VPZ8tZkQ">
+    <sectionDescription>All of the business processes in a corporate business process model might not be relevant to a current project.</sectionDescription>
+  </sections>
+  <sections xmi:id="_RQvuAHiaEd6ks5VPZ8tZkQ" name="Eliminate fine-grained tasks that interact with a use interface" guid="_RQvuAHiaEd6ks5VPZ8tZkQ">
+    <sectionDescription>&lt;p>&#xD;
+    Business process models should not show this level of detail, anyway.&amp;nbsp; Items at this level are within the realm of&#xD;
+    system use cases.&amp;nbsp; If you find process elements at this level of detail, this&amp;nbsp;indicates that the business&#xD;
+    process decomposition has gone too far.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_ioOXMHiaEd6ks5VPZ8tZkQ" name="Eliminate highly-abstract processes" guid="_ioOXMHiaEd6ks5VPZ8tZkQ">
+    <sectionDescription>This is the opposite case from the previous task -- the process has not been decomposed.&amp;nbsp; If this process is relevant&#xD;
+to the current project, the business analyst team&amp;nbsp;needs to&amp;nbsp;re-visit the process and decompose it.</sectionDescription>
+  </sections>
+  <sections xmi:id="_0uMeEHiaEd6ks5VPZ8tZkQ" name="Map tasks at each level of the decomposed process to candidate services" guid="_0uMeEHiaEd6ks5VPZ8tZkQ">
+    <sectionDescription>As was mentioned in the Main Description of this task, business process models yield appropriate services at many levels of&#xD;
+the decomposed process.&amp;nbsp; Don't overlook higher-level services that map to the process itself, or to its major&#xD;
+sub-processes.&amp;nbsp; Those will be the gateways into the overall web of choreographed services that will realize those&#xD;
+major aspects of business functionality.</sectionDescription>
+  </sections>
+  <sections xmi:id="_YTPq8HibEd6ks5VPZ8tZkQ" name="Update candidate service portfolio and service hierarchy" guid="_YTPq8HibEd6ks5VPZ8tZkQ">
+    <sectionDescription>Add the new candidate services to the candidate service portfolio.&amp;nbsp; Position them within the candidate service&#xD;
+hierarchy in alignment with your chosen taxonomic approach.&amp;nbsp;</sectionDescription>
+  </sections>
+  <keyConsiderations>&lt;p>&#xD;
+    Identifying candidate services from business processes is one of several schemes that complement each other during&#xD;
+    candidate services identification.&amp;nbsp; Omitting any of the methods increases the risk that some candidate services&#xD;
+    will not be discovered.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This particular technique provides a valuable coverage check on the results obtained from identifying candidate&#xD;
+    services&amp;nbsp;using business functional models.&amp;nbsp; The process tasks that are allocated to functional areas during&#xD;
+    business process decomposition&amp;nbsp;are expected to&amp;nbsp;be essentially identical to the business functions that are&#xD;
+    allocated to the functional areas during&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.bus.common.extend-ibm/guidances/concepts/functional_area_analysis_9B1F96D5.html&quot; guid=&quot;_fk1woEo1Ed6D_7XK49c0nw&quot;>functional area analysis&lt;/a>.&amp;nbsp; So, the two techniques&amp;nbsp;are expected&#xD;
+    to&amp;nbsp;yield similar sets of large-grained service operations.&amp;nbsp; If this is not the case, this indicates that&#xD;
+    either the business functional model or the process model is incomplete.&#xD;
+&lt;/p></keyConsiderations>
+  <purpose>The purpose of this task is to identify candidate services from business processes.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:PracticeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-B9jzzNaRSVBTBzs6dbZosA" name="arch_design_uc,_Ca95AJi5Ed6JmoH2XFiafA" guid="-B9jzzNaRSVBTBzs6dbZosA" changeDate="2009-11-25T11:46:23.421-0800" version="7.5.0">
+  <problem>&lt;p>&#xD;
+    This practice focuses on the incremental (by use case) allocation of the functional requirements (system operations)&#xD;
+    and non-functional requirements to an architectural structure including ports and interfaces at the lowest level of&#xD;
+    decomposition.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The main value proposition is to enable the understanding of&amp;nbsp;the components in the system architecture, including&#xD;
+    new and legacy components that are impacted by the stakeholder requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Based on the design concept, optionally elaborated in a previous trade study, it starts with the decomposition of the&#xD;
+    chosen system block into parts. Generally, there are two ways to proceed with regard to the allocation of the system&#xD;
+    block operations to the parts. If an allocation concept exists, they may be copied directly into the relevant parts.&#xD;
+    Otherwise, the allocation can be elaborated graphically for each use case by means of the associated Use Case White-Box&#xD;
+    Activity Diagram. Essentially, this activity diagram is a copy of the use case black-box activity diagram, partitioned&#xD;
+    into swim lanes, each representing a block of the decomposition hierarchy. Based on the chosen design concept, the&#xD;
+    operations ( = actions) then are &quot;moved&quot; into respective block swim lanes. An essential requirement for this allocation&#xD;
+    is that the initial links (functional flow) between the actions are maintained. Use case white-box activity diagrams&#xD;
+    may be nested, thus reflecting the iterative architectural decompositions of the system under design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If an operation cannot be allocated to a single block, it must be decomposed. In this case, the associated decomposed&#xD;
+    SuD operations need to be linked to the parent operation through a respective dependency. A system-level operation may&#xD;
+    also be allocated to more than one block, e.g. architectural redundancy in order to meet fault tolerance requirements.&#xD;
+    In this case, the relevant action is copied into the respective block swim lane and integrated into the functional&#xD;
+    flow.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    White-box activity diagrams allow a first estimate of the resulting load on respective communication channels, as links&#xD;
+    that cross a swim lane correspond to interfaces.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Once all system block operations, that capture system functional requirements are allocated to system parts,&#xD;
+    non-functional requirements (e.g. design constraints) are allocated to the relevant parts and respective trace links&#xD;
+    are established.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Next, the focus shifts&amp;nbsp;on the definition of ports and interfaces, as well as on the definition of the state-based&#xD;
+    behavior of the system blocks at the lowest level of the architectural decomposition. Leaf block ports and interfaces&#xD;
+    are identified from White-Box Sequence Diagrams. White-box sequence diagrams are derived from the use case white-box&#xD;
+    activity diagrams that were created in the previous architectural design phase. The focus of black-box sequence&#xD;
+    diagrams was on the identification of the required sequences of system functions (operations). White-box activity&#xD;
+    diagrams focus on the collaboration between the different subsystems taking into consideration the allocation of the&#xD;
+    operations. The received service requests define the (provided) interfaces of a block.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The derivation of white-box sequence diagrams is performed iteratively for each use case white-box activity diagram.&#xD;
+    Once ports and interfaces are defined, the resulting state-based behavior of each leaf block needs to be captured in a&#xD;
+    statechart diagram.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The correctness and completeness of the system architecture model is verified through model execution. Once the model&#xD;
+    functionality is verified, the architectural design may be analyzed with regard to performance and safety requirements.&#xD;
+    The analysis may include Failure Modes Effects Analysis (FMEA), and Mission Criticality Analysis.&#xD;
+&lt;/p></problem>
+  <application>&lt;p>&#xD;
+    Start with the description of the practice. Next, understand the overall workflow and the tasks that need to be&#xD;
+    performed. Shift your focus on the main artifacts produced at each level of the architecture.&#xD;
+&lt;/p></application>
+</org.eclipse.epf.uma:PracticeDescription>

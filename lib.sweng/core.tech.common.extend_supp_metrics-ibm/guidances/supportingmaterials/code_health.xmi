@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-SGX-ge6Xo7Ggn0jaA3VVuQ" name="code_health,_vhaIkCxwEd27ZriaQAQC4w" guid="-SGX-ge6Xo7Ggn0jaA3VVuQ" authors="Monvorath Phongpaibul" changeDate="2011-06-29T16:42:15.296-0700" version="7.5.0">
+  <mainDescription>&lt;h3>&#xD;
+    Purpose&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Code Health calculates the number of unit test and compilation failures over time to help the team understand its&#xD;
+    confidence level in the stability of their code.&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Definition&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    &lt;code>Number of test failures = total number of tests performed on the codebase that failed&lt;/code>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font face=&quot;Courier New&quot;>Number of compilation failures = total number of compilations of the codebase that&#xD;
+    failed.&lt;/font>&lt;br />&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;h3>&#xD;
+    Analysis&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Plotting the two&amp;nbsp;measurements shows important aspects of the health of a codebase, as represented by the&#xD;
+    builds.&amp;nbsp; In a healthy codebase, these numbers should be at or near zero most of the time.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The following chart plots the number of unit test failures over time. Watch out for test failures.&amp;nbsp;They indicate&#xD;
+    that the team is not properly testing code prior to delivering it.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&#xD;
+    &lt;img alt=&quot;Code Health - Test Failures&quot; src=&quot;./resources/code_health_test_failures.gif&quot; width=&quot;560&quot; height=&quot;223&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In the following&amp;nbsp;chart, the number of compilation warnings/failures is plotted over time.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&#xD;
+    &lt;img alt=&quot;Code Health - Compile Failures&quot; src=&quot;./resources/code_health_failures.gif&quot; width=&quot;565&quot; height=&quot;254&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Frequency and reporting&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    The team monitors&amp;nbsp;this metric&amp;nbsp;throughout the iteration&amp;nbsp;to understand the stability of their code, and&#xD;
+    reviews Code Health&amp;nbsp;trends at the end of each iteration.&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Collection and reporting tools&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Code Health data&amp;nbsp;is collected in IBM&amp;reg; Rational&amp;reg; Team Concert&amp;reg;.&#xD;
+&lt;/p>&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

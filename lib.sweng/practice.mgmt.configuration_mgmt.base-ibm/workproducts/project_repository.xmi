@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-t30XWih0frRNOeP-RLJc7g" name="project_repository,_gPi2MFPJEeC0QeFAXej8ZA" guid="-t30XWih0frRNOeP-RLJc7g" changeDate="2011-03-30T08:45:48.781-0500">
+  <mainDescription>&lt;p>&#xD;
+    The project repository provides project participants a&amp;nbsp;control access&amp;nbsp;to project data. The common work&#xD;
+    products stored in project repository are :&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Configuration Items&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Baselines&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Configuration Audit Records&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    The key hardware considerations (in order of priority) for the project repository are the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Memory Requirements&lt;/strong>: Memory is one of the cheapest ways to improve the performance of a CM Tool. A&#xD;
+        rule of thumb for how much main memory is required in the server machine is to add all the database space used by&#xD;
+        the project repository, and divide by two.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Disk Input / Output Requirements&lt;/strong>: The second most likely performance bottleneck in the CM&#xD;
+        environment is the speed at which the data can be written to disk. Read/write intensive operations are check-in,&#xD;
+        check-out and baseline creation. It is a good idea to have a dedicated controller and channel per disk.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Network Bandwidth&lt;/strong>: Since the CM tool is usually a distributed application, adequate network&#xD;
+        capacity and reliability are required for good performance. The recommendation is to put machines hosting the&#xD;
+        project repository and views on the same subnet. And if the local area network (LAN) is too saturated as indicated&#xD;
+        by time outs and poor response, the idea is to increase network capacity or add a subnet for the CM tool hosing&#xD;
+        machine.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Project Repository Disk Space&lt;/strong>: Depending on the size of a project there could be multiple project&#xD;
+        repositories, and each project repository could contain tens of thousands of files and directories. The number of&#xD;
+        files in any given project repository will depend on the size of the machine on which the repository server is&#xD;
+        running, and the number of users expected to concurrently access data.A good rule of thumb is to allow disk space&#xD;
+        for growth, and have about 50% free space by allocating 2 giga-bytes of storage per project repository.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  <purpose>&lt;p>&#xD;
+    The project repository stores all the files and directories that are managed by the Configuration Management(CM) system&#xD;
+&lt;/p></purpose>
+  <impactOfNotHaving>Without this artifact project participants cannot store all versions of project files and directories</impactOfNotHaving>
+  <reasonsForNotNeeding>&lt;p>&#xD;
+    It is recommended for all projects to store all versions of project files and directories.&#xD;
+&lt;/p></reasonsForNotNeeding>
+</org.eclipse.epf.uma:ArtifactDescription>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-LrU8AmnlDne_qoQWqEktFA" name="Requirements Analysis,_4bxesWKDEd6Ih4GzU1_Daw" guid="-LrU8AmnlDne_qoQWqEktFA" version="7.5.0"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gyEGKG4TqYmYKxGrNy8FFQ" name="outline_use_cases,_CX5woGKEEd6Ih4GzU1_Daw" guid="-gyEGKG4TqYmYKxGrNy8FFQ">
+    <keyConsiderations>&lt;p>&#xD;
+    Some of the reasons to outline your use cases are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Iterative development reduces risk. For the same reason we do not implement the whole system in one hit, we do not&#xD;
+        develop the detailed requirements all at once.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Avoid getting bogged down in too much detail too early.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        You do not know everything at once. Outlining helps you discover what you don't know.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Outlining use cases creates a rough draft for fully specifying your use cases.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Outlining helps determine whether the use case is too small on its own or too big to be just one use case. It might&#xD;
+        also help decide whether the use case is actually more than just one use case.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Once you write out your steps, you might find that they really belong in another use case. If the outline shows&#xD;
+        that the use case does not have much to it, it may not be a use case at all.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Outlining adds value to finding all possible alternate flows.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Auy8f47-n-Lnyr7QUFQa9Q" name="sys_context_diag,_jXeWYJf1Ed6u7McLcbxIEQ" guid="-Auy8f47-n-Lnyr7QUFQa9Q">
+    <refinedDescription>&lt;p>&#xD;
+    The system context diagram describes the&amp;nbsp;top-level collaboration showing the system (modeled as a top-level&#xD;
+    subsystem), its interfaces and its relationships with its actors, including the external I/O entities that flow between&#xD;
+    actor and system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Main information captured in the system context diagram:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The interfaces to be &lt;i>realized&lt;/i> by the system (in terms of the &lt;i>operations&lt;/i> the systems provides, and the&#xD;
+        associated protocols supported, the &lt;i>state variables&lt;/i> and &lt;i>stores&lt;/i> that the system realizes, and&#xD;
+        attributes).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The &lt;i>I/O entities&lt;/i> that flow between the system and its actors.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The interfaces &lt;i>required&lt;/i> by the system (to be realized by the actors which interact with the system) for&#xD;
+        correct performance. Often, if the actor represents an existing system with which the system must communicate,&#xD;
+        these required interfaces simply reflect constraints imposed by that other system.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ts0I67qjMsnbHMFZovkrCA" name="sys_uc_diag,_jXeWYpf1Ed6u7McLcbxIEQ" guid="-ts0I67qjMsnbHMFZovkrCA">
+    <refinedDescription>This artifact should serve as a communication medium for customers, users, system developers. It also provides a basis for&#xD;
+prioritizing and partitioning the system use cases.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Cn7UFL0ve_6Mut-SmEPrcg" name="sys_uc_priority_list,_jXeWZZf1Ed6u7McLcbxIEQ" guid="-Cn7UFL0ve_6Mut-SmEPrcg">
+    <refinedDescription>&lt;p>&#xD;
+    The overall priority could be driven by a number of factors, for example:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The benefit to the stakeholders&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Architectural impact&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Risks to be mitigated&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Each use case should be assigned a value for each criterion relevant to the project and enough information should be&#xD;
+    provided in support for prioritizing and partitioning the system use cases.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-cSZ6IRhdTdLz-x7k_XjbiQ" name="system_wide_requirements,_qWbSktOrEd6vXdkWWDj_vQ" guid="-cSZ6IRhdTdLz-x7k_XjbiQ">
+    <keyConsiderations>&lt;ul>
+&lt;li>         When you document system-wide requirements, ensure that the needs
+of all of the stakeholders are represented. In         particular, include
+the needs of those who are responsible for maintaining or supporting the system
+after it is delivered.     &lt;/li>
+&lt;li>         Typically, there are some overlaps and gray areas between system-wide
+requirements and other requirements work         products. For example, the
+authorization behavior of a system can be specified as use cases or as statements
+within system-wide requirements. The overall driving need is that no important
+requirements are missed or duplicated, and that there is an agreed upon approach
+for capturing and processing every type of requirement.     &lt;/li>
+&lt;li>         System-wide requirements originate from many places. Documenting
+the source of the requirement is particularly         important when you separate
+externally mandated requirements.     &lt;/li>
+&lt;li>         Requirements are often thought of as &quot;Qualitative&quot; (specifying
+a quality or desirable characteristic) versus         &quot;Quantitative&quot; (specifying
+a quantity). Qualitative requirements can sometimes be elaborated into quantitative
+requirements.     &lt;/li>
+&lt;li>         A good quality requirement is one that you can verify, either
+through testing or some other objective evaluation.     &lt;/li>
+&lt;li>         You must evaluate system-wide requirements for cost, schedule
+impact, and level of contribution to business goals.         Based on your
+evaluation, the system-wide requirements should be iteratively challenged,
+defended, and amended.     &lt;/li>
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5ATHELQRH1Jnaw1EcWfiTA" name="sys_uc_act_diag,_FeuB6vM7Ed-Fw-MeaQjkmw" guid="-5ATHELQRH1Jnaw1EcWfiTA">
+    <refinedDescription>&lt;p>&#xD;
+    An Activity Diagram is similar to the classic flow chart. It describes a workflow, business process, or algorithm by&#xD;
+    decomposing the flow of execution into a set of actions and sub activities joined by transitions and various&#xD;
+    connectors. These actions and sub activities are called activity nodes. An activity can be a simple linear sequence of&#xD;
+    activity nodes or it can be a complex series of parallel activity nodes with conditional branching and concurrency.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There will be multiple instances of this artifact.&amp;nbsp;During requirements analysis, &quot;black-box&quot; activity diagrams are&#xD;
+    created describing the functional flows for the system as a whole.&amp;nbsp;During architectural design,&#xD;
+    &quot;white-box&quot;&amp;nbsp;activity diagrams are created that show the allocation of actions to specific system elements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Activities may be grouped and assigned to objects - e.g. subsystems. In this case, the activity diagram is split into&#xD;
+    swim lanes that depict the respective responsibilities.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zhPqPu_Ca2v8LCAnZXRlBQ" name="sys_uc_ib_diag,_FeuB8PM7Ed-Fw-MeaQjkmw" guid="-zhPqPu_Ca2v8LCAnZXRlBQ">
+    <refinedDescription>&lt;p>&#xD;
+    Elements of this diagram are instances of SysML blocks that represent the use case and its associated actor(s).&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Use-Case Block is the structural representation of a use case defined in the use-case diagram. It is used to&#xD;
+    represent the formal specification of the system behavior for the use case and acts as a location for the&#xD;
+    operations/functions that the use case employs. The Use-Case Block communicates with relevant Actor Blocks via&#xD;
+    ports&amp;nbsp;and associated provided and required interfaces.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An Actor Block is the realization of an actor that was previously identified in a system&amp;nbsp;use case diagram. An&#xD;
+    actor block represents a person, or system that is external to the system under development, that interacts&#xD;
+    with&amp;nbsp;the system under development&amp;nbsp;by providing the inputs to, and receiving&amp;nbsp;outputs&amp;nbsp;from&amp;nbsp;the&#xD;
+    system under development.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-P1dQIkrBeUCSxaiIiIqerw" name="sys_uc_seq_diag,_FeuB8_M7Ed-Fw-MeaQjkmw" guid="-P1dQIkrBeUCSxaiIiIqerw">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact describes the time-ordered sequence of interactions between a system use case and its associated actors.&#xD;
+    In addition to the sent and received messages (service requests), the use-case lifeline shows the requested operations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There will be multiple instances of this artifact.&amp;nbsp;Initially, &quot;black-box&quot;&amp;nbsp;sequence diagrams are created which&#xD;
+    evolve into &quot;white-box&quot;&amp;nbsp;sequence diagrams that show the&amp;nbsp;responsibilities of&amp;nbsp;specific system elements.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-iE9-gxUD5fFNvhflibog8w" name="sys_uc_st_chart_diag,_FeuB9vM7Ed-Fw-MeaQjkmw" guid="-iE9-gxUD5fFNvhflibog8w">
+    <refinedDescription>&lt;p>&#xD;
+    A Statechart Diagram describes the state-based behavior of a block. It aggregates the information from both the&#xD;
+    activity diagram (functional flow) and the sequence diagrams (interactions with the environment), and adds the&#xD;
+    event-driven block behavior to the diagram. As the &quot;language&quot; of statecharts is formally defined, the correctness and&#xD;
+    completeness of the resulting behavior can be verified/validated through model execution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Statechart diagrams are finite state machines that are extended by the notation of Hierarchy and Concurrency.&#xD;
+    Basically, a statechart diagram is comprised of a set of states joined by transitions and various connectors. An event&#xD;
+    may trigger a transition from one state to another. Actions can be performed on transitions and on state entry/exit.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Use-Case&amp;nbsp;Block Statechart Diagram must reflect the functional flow captured in the use-case black-box activity&#xD;
+    diagram as well as the associated use-case black-box sequence diagrams.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

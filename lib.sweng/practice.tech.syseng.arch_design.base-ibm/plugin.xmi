@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_gxwGwJi4Ed6JmoH2XFiafA" guid="_gxwGwJi4Ed6JmoH2XFiafA">
+    <subManagers xmi:id="_d_j2cZi5Ed6JmoH2XFiafA" href="uma://_d9LQ0Ji5Ed6JmoH2XFiafA#_d_j2cZi5Ed6JmoH2XFiafA"/>
+    <resourceDescriptors xmi:id="_d9LQ05i5Ed6JmoH2XFiafA" id="_d9LQ0Ji5Ed6JmoH2XFiafA" uri="capabilitypatterns/arch_dsgn_tmpl/model.xmi"/>
+    <resourceDescriptors xmi:id="_Jg0CEaoXEd63sOwvVJD3Tw" id="-MteyJVrqE08RN7MxbYiYTg" uri="tasks/allocate_nfr.xmi"/>
+    <resourceDescriptors xmi:id="_axI6YaoXEd63sOwvVJD3Tw" id="-V509Uc7hnfM_Tx22deUfyA" uri="tasks/budget_nfr.xmi"/>
+    <resourceDescriptors xmi:id="_sGYu8aoXEd63sOwvVJD3Tw" id="-2xAib8JQW4hDZt0ugGcOGQ" uri="tasks/create_sc_per_subsys.xmi"/>
+    <resourceDescriptors xmi:id="_lQ62gaoYEd63sOwvVJD3Tw" id="-s7tVRTVtUMddi95WXaLflw" uri="tasks/ver_sc_for_subsys.xmi"/>
+    <resourceDescriptors xmi:id="_sWDtMaoYEd63sOwvVJD3Tw" id="-d6Vz83NJPsVP4Zd28P12Hg" uri="tasks/verify_collaborations.xmi"/>
+    <resourceDescriptors xmi:id="_c4JsIMgREd6HLbk21fIWTg" id="-3_kCEtYj52-Gl4lzVx8vxg" uri="tasks/prioritize_subsystems.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_gxwGsJi4Ed6JmoH2XFiafA" userChangeable="false" name="practice.tech.syseng.arch_design.base-ibm" guid="_gxwGsJi4Ed6JmoH2XFiafA" presentationName="Architectural Design [abstract]" briefDescription="Abstract practice capturing the common elements of the concrete practices. Do not instantiate." changeDate="2009-09-16T11:29:18.531-0700">
+    <methodElementProperty xmi:id="_3PA8cbemEd-oHLor78AFuw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_VBVtYBXVEdyM9L6rbYAZaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gxwGsZi4Ed6JmoH2XFiafA" name="Content" guid="_gxwGsZi4Ed6JmoH2XFiafA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gxwGspi4Ed6JmoH2XFiafA" name="Categories" guid="_gxwGspi4Ed6JmoH2XFiafA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gxwGs5i4Ed6JmoH2XFiafA" name="Domains" guid="_gxwGs5i4Ed6JmoH2XFiafA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gxwGtJi4Ed6JmoH2XFiafA" name="Disciplines" guid="_gxwGtJi4Ed6JmoH2XFiafA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gxwGtZi4Ed6JmoH2XFiafA" name="RoleSets" guid="_gxwGtZi4Ed6JmoH2XFiafA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gxwGtpi4Ed6JmoH2XFiafA" name="WP Types" guid="_gxwGtpi4Ed6JmoH2XFiafA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gxwGt5i4Ed6JmoH2XFiafA" name="Tools" guid="_gxwGt5i4Ed6JmoH2XFiafA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gxwGuJi4Ed6JmoH2XFiafA" name="StandardCategories" guid="_gxwGuJi4Ed6JmoH2XFiafA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gxwGuZi4Ed6JmoH2XFiafA" name="CustomCategories" guid="_gxwGuZi4Ed6JmoH2XFiafA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gxwGupi4Ed6JmoH2XFiafA" name="Hidden" guid="_gxwGupi4Ed6JmoH2XFiafA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_gxwGu5i4Ed6JmoH2XFiafA" name="Custom Categories" guid="_gxwGu5i4Ed6JmoH2XFiafA"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gxwGvJi4Ed6JmoH2XFiafA" name="CoreContent" guid="_gxwGvJi4Ed6JmoH2XFiafA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_xCcuAJi4Ed6JmoH2XFiafA" name="Architectural Design" guid="_xCcuAJi4Ed6JmoH2XFiafA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_1GqAYKImEd6eYbGGXte97g" name="budget_nfr" guid="_1GqAYKImEd6eYbGGXte97g" presentationName="Budget Non-Functional Requirements with the Operations" briefDescription="This task describes a flowdown technique for deriving non-functional requirements.">
+            <presentation xmi:id="-V509Uc7hnfM_Tx22deUfyA" href="uma://-V509Uc7hnfM_Tx22deUfyA#-V509Uc7hnfM_Tx22deUfyA"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_VY4MkGKXEd6Ih4GzU1_Daw"/>
+            <mandatoryInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_BVh9cL-CEdqb7N6KIeDL8Q"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_VY4MkGKXEd6Ih4GzU1_Daw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_nDGwoKInEd6eYbGGXte97g" name="create_sc_per_subsys" guid="_nDGwoKInEd6eYbGGXte97g" presentationName="Create Statecharts for each Subsystem" briefDescription="This task defines the state based behavior for the elements defined during the system decomposition.">
+            <presentation xmi:id="-2xAib8JQW4hDZt0ugGcOGQ" href="uma://-2xAib8JQW4hDZt0ugGcOGQ#-2xAib8JQW4hDZt0ugGcOGQ"/>
+            <guidelines href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_LeiNkMgUEd67koQUdRbVsg"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_dTfs0JgYEd6u7McLcbxIEQ"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_dTfs0JgYEd6u7McLcbxIEQ"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_iEm0UKI9Ed6eYbGGXte97g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CtEWQKIoEd6eYbGGXte97g" name="ver_sc_for_subsys" guid="_CtEWQKIoEd6eYbGGXte97g" presentationName="Verify Statecharts for each Subsystem" briefDescription="This task describes the steps needed for the verification/validation of the elements defined during system decomposition.">
+            <presentation xmi:id="-s7tVRTVtUMddi95WXaLflw" href="uma://-s7tVRTVtUMddi95WXaLflw#-s7tVRTVtUMddi95WXaLflw"/>
+            <guidelines href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_LeiNkMgUEd67koQUdRbVsg"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_iEm0UKI9Ed6eYbGGXte97g"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_iEm0UKI9Ed6eYbGGXte97g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3vSNgKI8Ed6eYbGGXte97g" name="verify_collaborations" guid="_3vSNgKI8Ed6eYbGGXte97g" presentationName="Verify Collaborations" briefDescription="This task executes the architecture model to verify expected system behavior.">
+            <presentation xmi:id="-d6Vz83NJPsVP4Zd28P12Hg" href="uma://-d6Vz83NJPsVP4Zd28P12Hg#-d6Vz83NJPsVP4Zd28P12Hg"/>
+            <guidelines href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_dKsiwMgTEd67koQUdRbVsg"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_iEm0UKI9Ed6eYbGGXte97g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_GKtVQKI9Ed6eYbGGXte97g" name="allocate_nfr" guid="_GKtVQKI9Ed6eYbGGXte97g" presentationName="Allocate Nonfunctional Requirements" briefDescription="This task allocates non-functional requirements to each sub-block of the chosen architecture.">
+            <presentation xmi:id="-MteyJVrqE08RN7MxbYiYTg" href="uma://-MteyJVrqE08RN7MxbYiYTg#-MteyJVrqE08RN7MxbYiYTg"/>
+            <guidelines href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_0LQm8LNwEd6ufunCNQt1zA"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_dTfs0JgYEd6u7McLcbxIEQ"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_Iy0doEWQEd6Js4kKfkp_5Q"/>
+            <mandatoryInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_BVh9cL-CEdqb7N6KIeDL8Q"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_apx9UKJEEd6eYbGGXte97g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_TGUd0KJCEd6eYbGGXte97g" name="prioritize_subsystems" guid="_TGUd0KJCEd6eYbGGXte97g" presentationName="Prioritize Subsystems" briefDescription="This task is where the subsystems are prioritized, so that their order of development or further refinement can be decided.">
+            <presentation xmi:id="-3_kCEtYj52-Gl4lzVx8vxg" href="uma://-3_kCEtYj52-Gl4lzVx8vxg#-3_kCEtYj52-Gl4lzVx8vxg"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_dTfs0JgYEd6u7McLcbxIEQ"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_dTfs0JgYEd6u7McLcbxIEQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gxwGvZi4Ed6JmoH2XFiafA" name="CapabilityPatterns" guid="_gxwGvZi4Ed6JmoH2XFiafA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_d9LQ0Ji5Ed6JmoH2XFiafA" href="uma://_d9LQ0Ji5Ed6JmoH2XFiafA#_d9LQ0Ji5Ed6JmoH2XFiafA"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gxwGvpi4Ed6JmoH2XFiafA" name="DeliveryProcesses" guid="_gxwGvpi4Ed6JmoH2XFiafA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gxwGv5i4Ed6JmoH2XFiafA" name="ProcessContributions" guid="_gxwGv5i4Ed6JmoH2XFiafA"/>
+    <bases href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_WbKEoGG1Ed6ByZ91UzrddQ"/>
+    <bases href="uma://_mXU1ICSmEd6BKv8Pr8i7Eg#_mXU1ICSmEd6BKv8Pr8i7Eg"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

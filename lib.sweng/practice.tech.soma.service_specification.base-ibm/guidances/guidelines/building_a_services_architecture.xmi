@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-kBKKIXeRmCXqMr2WoLy_oQ" name="new_guideline,_vR9pQJgzEd6l6vBsNJSPDA" guid="-kBKKIXeRmCXqMr2WoLy_oQ" changeDate="2009-09-04T13:18:31.812-0700" version="7.5.0">
+  <mainDescription>&lt;p> &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/examples/services_architecture_soaml_BF38A4B3.html&quot; guid=&quot;_mOf5sFbBEd6MCpkuB85p5g&quot;>Example: ServicesArchitecture (SoaML)&lt;/a>,&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_composition_and_choreography_67057C86.html&quot; guid=&quot;_yAh28IA6Ed6H1oy6lZPykw&quot;>Concept: Service Composition and Choreography&lt;/a>, and &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/examples/soaml_design_model_sample_83612289.html&quot; guid=&quot;_AfQisHNIEd6va-EJWoOsvg&quot;>Example: Sample SoaML Design Model&lt;/a>&amp;nbsp;illustrate the&amp;nbsp;elements of a&amp;nbsp;ServicesArchitecture, &#xD;
+  which is a stereotyped UML collaboration:&amp;nbsp; &lt;/p>&#xD;
+&lt;ul>&#xD;
+    &#xD;
+  &lt;li> Collaboration parts, which interact to solve a business problem. In the &#xD;
+    most general case, the parts will have only role names to illustrate the roles &#xD;
+    that are involved in the collaboration. In a concrete ServicesArchitecture &#xD;
+    -- one that shows which specific Participants in the solution space are being &#xD;
+    used to address the problem --&amp;nbsp;the roles are typed with&amp;nbsp;Participants. &#xD;
+  &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/collaboration_use_soaml_CD661F65.html&quot; guid=&quot;_iLYT8GajEd65K8S2sWS35w&quot;>CollaborationUses&lt;/a>, which are used to bind the parts to the roles that they play&#xD;
+        in the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_contract_soaml_E57B30D4.html&quot; guid=&quot;_IhtgsFbBEd6MCpkuB85p5g&quot;>ServiceContracts&lt;/a> or in the&amp;nbsp;ServiceInterface protocols that govern the&#xD;
+        interactions of the parts. &lt;/li>&#xD;
+    &lt;li>&#xD;
+        An ownedBehavior (such as an Activity or an Interaction), which is used to explicitly illustrate how the parts&#xD;
+        interact to solve the problem. &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A structure diagram, which is used to connect the parts to the roles they play in the Collaboration Uses. &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p> Build each ServicesArchitecture by following these steps:&lt;/p>&#xD;
+&lt;ol>&#xD;
+  &lt;li> Identify the services that need to be involved in the solution. This information &#xD;
+    can be gleaned from the roles that were involved in the&amp;nbsp;original &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/termdefinitions/service_collaboration_35276470.html&quot; guid=&quot;_V4z3YJgtEd6l6vBsNJSPDA&quot;>Service &#xD;
+    Collaborations&lt;/a>. The required services will be the ones that were derived &#xD;
+    previously&amp;nbsp;from the Service Collaboration roles. &lt;/li>&#xD;
+  &lt;li> Identify the Participants that provide the necessary services. Add them &#xD;
+    to the ServicesArchitecture as parts. &lt;/li>&#xD;
+  &lt;li> Identify the ServiceContracts or the ServiceInterface protocols that govern &#xD;
+    the interactions of the Participants that are involved in the ServicesArchitecture.&amp;nbsp; &#xD;
+    Create a CollaborationUse for each such collaboration, and add it to the ServicesArchitecture. &#xD;
+  &lt;/li>&#xD;
+  &lt;li> In the ServicesArchitecture's structure diagram, bind all of the parts &#xD;
+    to the appropriate roles of the CollaborationUses. &lt;/li>&#xD;
+  &lt;li> Check your work. Leverage the ServiceContract and protocol behaviors to&amp;nbsp;create &#xD;
+    a behavior for the ServicesArchitecture that shows how all of the involved &#xD;
+    services interact to address the problem. The resulting behavior is expected &#xD;
+    to be a concrete rendering of the role-based behavior that was created for &#xD;
+    the original Service Collaboration. &lt;/li>&#xD;
+&lt;/ol>&#xD;
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

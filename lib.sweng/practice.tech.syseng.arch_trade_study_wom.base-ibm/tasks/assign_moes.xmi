@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-gAXVHgrJZFJ7XIy0DVvw-w" name="assign_moes,_3CkzsJjUEd6JmoH2XFiafA" guid="-gAXVHgrJZFJ7XIy0DVvw-w" changeDate="2009-10-26T11:17:52.515-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    The Measure of Effectiveness (MoE) describes how effective a solution candidate is for a particular assessment&#xD;
+    criterion. The MoE is a normalized value computed using the utility curve and the nominal value specified for the&#xD;
+    solution candidate.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The nominal values are typically determined from equipment specifications or derived from calculations based upon the&#xD;
+    relevant solution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The assignment of MoEs to each candidate solution is a prerequisite for the identification of the preferred solution.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_HMlVcMJcEd6Ame-XMnb0Gg" name="Select an assessment criterion" guid="_HMlVcMJcEd6Ame-XMnb0Gg">
+    <sectionDescription>There will be a utility curve associated with each assessment criterion. Select an assessment criterion and perform the&#xD;
+following steps.</sectionDescription>
+  </sections>
+  <sections xmi:id="_KOcj8MJcEd6Ame-XMnb0Gg" name="Determine the nominal values for each solution candidate" guid="_KOcj8MJcEd6Ame-XMnb0Gg">
+    <sectionDescription>For the subject assessment criterion, determine the nominal values for each solution candidate. This information may be&#xD;
+taken from equipment specifications, measurements or analysis.</sectionDescription>
+  </sections>
+  <sections xmi:id="_PMcH8MJcEd6Ame-XMnb0Gg" name="Compute MoE for each solution candidate" guid="_PMcH8MJcEd6Ame-XMnb0Gg">
+    <sectionDescription>Convert the nominal values for each solution candidate to the associated Measure of Effectiveness by applying the utility&#xD;
+curve for the subject criteria.</sectionDescription>
+  </sections>
+  <sections xmi:id="_Ss2ToMJcEd6Ame-XMnb0Gg" name="Repeat analysis for each assessment criterion" guid="_Ss2ToMJcEd6Ame-XMnb0Gg">
+    <sectionDescription>Repeat the previous three steps for each assessment criterion to complete the assessment.</sectionDescription>
+  </sections>
+  <sections xmi:id="_WLoHoMJcEd6Ame-XMnb0Gg" name="Update the Trade Study Report" guid="_WLoHoMJcEd6Ame-XMnb0Gg">
+    <sectionDescription>Update the relevant section of the Trade Study report to capture the matrix of MoEs.</sectionDescription>
+  </sections>
+  <purpose>In order to compare the different solutions via weighted objectives analysis each candidate solution needs to be&#xD;
+characterized by a set of normalized, dimensionless values (MoE) which take into consideration the effectiveness with&#xD;
+regard to the previously defined assessment criteria.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

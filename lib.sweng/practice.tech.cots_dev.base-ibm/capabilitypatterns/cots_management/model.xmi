@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_1Dr0YQS1EeCYi4skBaDrfw" guid="_1Dr0YQS1EeCYi4skBaDrfw">
+    <resourceDescriptors xmi:id="_1Dr0YgS1EeCYi4skBaDrfw" id="-CaytRZooMn3qIydQBz-3lQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_S-xvIAS2EeCYi4skBaDrfw" id="-bHrB-sqLXLhC72pFbCgeVw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_S-7gIAS2EeCYi4skBaDrfw" id="-XjM-q2lnbKaimHR2OWHsew" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_S-7gIgS2EeCYi4skBaDrfw" id="-QqkwjeA2ZZqlfdssErt9pQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_S_FRIAS2EeCYi4skBaDrfw" id="-q4TeQXWbcVQewAmsO56sPA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_08FXkAS1EeCYi4skBaDrfw" name="cots_management" guid="_08FXkAS1EeCYi4skBaDrfw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_I7fsUAS2EeCYi4skBaDrfw" name="cots_acquire_package" guid="_I7fsUAS2EeCYi4skBaDrfw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_I7fsUQS2EeCYi4skBaDrfw" name="cots_acquire_package" guid="_I7fsUQS2EeCYi4skBaDrfw" presentationName="Acquire Package" briefDescription="This activity recommends a feasible solution, arranges for the procurement of the selected package or packages, and handles receipt of the package or packages." superActivities="_08FXkQS1EeCYi4skBaDrfw" breakdownElements="_I7fsWgS2EeCYi4skBaDrfw _I7fsVQS2EeCYi4skBaDrfw _I7fsWAS2EeCYi4skBaDrfw _I7fsVAS2EeCYi4skBaDrfw _I7pdUQS2EeCYi4skBaDrfw">
+        <presentation xmi:id="-bHrB-sqLXLhC72pFbCgeVw" href="uma://-CaytRZooMn3qIydQBz-3lQ#-bHrB-sqLXLhC72pFbCgeVw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_I7fsVQS2EeCYi4skBaDrfw" name="cots_contracting_vehicules" guid="_I7fsVQS2EeCYi4skBaDrfw" presentationName="Contracting Vehicle" briefDescription="This is a mutually binding agreement between the Acquirer and the Vendor defining the obligations of each." superActivities="_I7fsUQS2EeCYi4skBaDrfw">
+        <methodElementProperty xmi:id="_I8GJQgS2EeCYi4skBaDrfw" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yylRNuwiEd-sjp03to1LnQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_I7fsWAS2EeCYi4skBaDrfw" name="cots_solution_recommendation" guid="_I7fsWAS2EeCYi4skBaDrfw" presentationName="Solution Recommendation" briefDescription="This presents the findings from the selection process to identify a final vendor(s) and vendor COTS package(s) for acquirer consideration. This artifact provides the rationale for the selection and includes the details for the exclusion of the other short list vendors and products and then summarizes the results, findings and conclusions for the acquirer executives." superActivities="_I7fsUQS2EeCYi4skBaDrfw">
+        <methodElementProperty xmi:id="_I8GJRQS2EeCYi4skBaDrfw" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHJewiEd-sjp03to1LnQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_I7fsVAS2EeCYi4skBaDrfw" name="cost_arrange_procurement_of_package" guid="_I7fsVAS2EeCYi4skBaDrfw" presentationName="Arrange Procurement of Package" briefDescription="This task focuses on arranging the procurement of package." superActivities="_I7fsUQS2EeCYi4skBaDrfw" optionalInput="_I7fsVQS2EeCYi4skBaDrfw _I7fsWAS2EeCYi4skBaDrfw" output="_I7fsVQS2EeCYi4skBaDrfw">
+        <Task href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHLOwiEd-sjp03to1LnQ"/>
+        <selectedSteps href="uma://-7TsGqvuAz-iewDSOmNdxvQ#_yycHL-wiEd-sjp03to1LnQ"/>
+        <selectedSteps href="uma://-7TsGqvuAz-iewDSOmNdxvQ#_yycHLewiEd-sjp03to1LnQ"/>
+        <selectedSteps href="uma://-7TsGqvuAz-iewDSOmNdxvQ#_yycHLuwiEd-sjp03to1LnQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_I7pdUQS2EeCYi4skBaDrfw" name="cots_manage_receipt_of_package" guid="_I7pdUQS2EeCYi4skBaDrfw" presentationName="Manage Receipt of Package" briefDescription="This task focuses on managing the receipt of package." superActivities="_I7fsUQS2EeCYi4skBaDrfw">
+        <Task href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHT-wiEd-sjp03to1LnQ"/>
+        <selectedSteps href="uma://-XTDkkkdM3l09L834EIInWg#_yycHUuwiEd-sjp03to1LnQ"/>
+        <selectedSteps href="uma://-XTDkkkdM3l09L834EIInWg#_yycHU-wiEd-sjp03to1LnQ"/>
+        <selectedSteps href="uma://-XTDkkkdM3l09L834EIInWg#_yycHUOwiEd-sjp03to1LnQ"/>
+        <selectedSteps href="uma://-XTDkkkdM3l09L834EIInWg#_yycHUewiEd-sjp03to1LnQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_I7fsWgS2EeCYi4skBaDrfw" name="cots_recommend_solution" guid="_I7fsWgS2EeCYi4skBaDrfw" presentationName="Recommend Solution" briefDescription="This task focuses on recommending solutions." superActivities="_I7fsUQS2EeCYi4skBaDrfw" output="_I7fsWAS2EeCYi4skBaDrfw">
+        <Task href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHW-wiEd-sjp03to1LnQ"/>
+        <selectedSteps href="uma://-grQXDjxxkt78Pl1Hy0S3-A#_yycHXOwiEd-sjp03to1LnQ"/>
+        <selectedSteps href="uma://-grQXDjxxkt78Pl1Hy0S3-A#_yycHXewiEd-sjp03to1LnQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_LUiAQAS2EeCYi4skBaDrfw" name="cots_monitor_and_control_vendor" guid="_LUiAQAS2EeCYi4skBaDrfw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_LUiAQQS2EeCYi4skBaDrfw" name="cots_monitor_and_control_vendor" guid="_LUiAQQS2EeCYi4skBaDrfw" presentationName="Monitor &amp; Control Vendor" briefDescription="This activity ensures that the vendor's performance meets contractual requirements, manages the acquisition activities in coordination with the overall management of the project, and manages the relationship with the vendor." superActivities="_08FXkQS1EeCYi4skBaDrfw" breakdownElements="_LUiARAS2EeCYi4skBaDrfw _LUiARQS2EeCYi4skBaDrfw _LUiAQwS2EeCYi4skBaDrfw _LUiARwS2EeCYi4skBaDrfw _LUiARgS2EeCYi4skBaDrfw _LUiASAS2EeCYi4skBaDrfw _LUiASQS2EeCYi4skBaDrfw _LUrxQAS2EeCYi4skBaDrfw">
+        <presentation xmi:id="-QqkwjeA2ZZqlfdssErt9pQ" href="uma://-CaytRZooMn3qIydQBz-3lQ#-QqkwjeA2ZZqlfdssErt9pQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_LUiAQwS2EeCYi4skBaDrfw" name="cots_manage_rfi" guid="_LUiAQwS2EeCYi4skBaDrfw" presentationName="Manage Request For Information (RFI)" briefDescription="This task focuses on managing the Request For Information (RFI)." superActivities="_LUiAQQS2EeCYi4skBaDrfw" optionalInput="_LUiARAS2EeCYi4skBaDrfw" output="_LUiARAS2EeCYi4skBaDrfw _LUiARQS2EeCYi4skBaDrfw">
+        <Task href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHPOwiEd-sjp03to1LnQ"/>
+        <selectedSteps href="uma://-c4g6knGh34VErQlBcEw7ag#_yycHPewiEd-sjp03to1LnQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_LUiARAS2EeCYi4skBaDrfw" name="cots_rfi" guid="_LUiARAS2EeCYi4skBaDrfw" presentationName="Request for Information" briefDescription="This is used for gathering general information about a vendor and a vendor's offerings. This artifact is a brief, expedient document designed to seek information about a vendor and vendor offerings for potential &quot;fit&quot; with the preliminary high-level stakeholder's business requirements and candidate solution(s)." superActivities="_LUiAQQS2EeCYi4skBaDrfw">
+        <methodElementProperty xmi:id="_LU-sMQS2EeCYi4skBaDrfw" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHI-wiEd-sjp03to1LnQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_LUiARQS2EeCYi4skBaDrfw" name="cots_vendor_response" guid="_LUiARQS2EeCYi4skBaDrfw" presentationName="Vendor Response" briefDescription="This represents the response from the vendor to a Request For Information (RFI) or Request For Proposal (RFP) ." superActivities="_LUiAQQS2EeCYi4skBaDrfw">
+        <methodElementProperty xmi:id="_LU-sMgS2EeCYi4skBaDrfw" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHIewiEd-sjp03to1LnQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_LUiARgS2EeCYi4skBaDrfw" name="cots_manage_rfp" guid="_LUiARgS2EeCYi4skBaDrfw" presentationName="Manage Request For Proposal (RFP)" briefDescription="This task focuses on managing the Request For Proposal (RFP)." superActivities="_LUiAQQS2EeCYi4skBaDrfw" optionalInput="_LUiARwS2EeCYi4skBaDrfw" output="_LUiARwS2EeCYi4skBaDrfw _LUiARQS2EeCYi4skBaDrfw">
+        <Task href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHJuwiEd-sjp03to1LnQ"/>
+        <selectedSteps href="uma://-ttJdjDzxhhqc1ThRogZtRA#_yycHJ-wiEd-sjp03to1LnQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_LUiARwS2EeCYi4skBaDrfw" name="cots_rfp" guid="_LUiARwS2EeCYi4skBaDrfw" presentationName="Request for Proposal" briefDescription="This is a formal Contracting Vehicle that solicits responses from vendors to detail their offerings. It presents a clear and concise description of the acquiring organization's business goals and objectives, functional and nonfunctional requirements and often includes legal terms and conditions the vendors must accept before they go forward in the selection process. " superActivities="_LUiAQQS2EeCYi4skBaDrfw">
+        <methodElementProperty xmi:id="_LU-sMwS2EeCYi4skBaDrfw" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHXuwiEd-sjp03to1LnQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_LUiASAS2EeCYi4skBaDrfw" name="cots_manage_contracting_vehicules" guid="_LUiASAS2EeCYi4skBaDrfw" presentationName="Manage Contracting Vehicle" briefDescription="This task focuses on managing contracting vehicle." superActivities="_LUiAQQS2EeCYi4skBaDrfw" optionalInput="_LUrxQAS2EeCYi4skBaDrfw" output="_LUrxQAS2EeCYi4skBaDrfw">
+        <Task href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yylRMewiEd-sjp03to1LnQ"/>
+        <selectedSteps href="uma://-7iQ0d5KL-O3mjaW9VnScFw#_yylRNewiEd-sjp03to1LnQ"/>
+        <selectedSteps href="uma://-7iQ0d5KL-O3mjaW9VnScFw#_yylRMuwiEd-sjp03to1LnQ"/>
+        <selectedSteps href="uma://-7iQ0d5KL-O3mjaW9VnScFw#_yylRNOwiEd-sjp03to1LnQ"/>
+        <selectedSteps href="uma://-7iQ0d5KL-O3mjaW9VnScFw#_yylRM-wiEd-sjp03to1LnQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_LUiASQS2EeCYi4skBaDrfw" name="rup_project_manager" guid="_LUiASQS2EeCYi4skBaDrfw" presentationName="Project Manager" briefDescription="This role plans, manages and allocates resources, shapes priorities, coordinates interactions with customers and users, and keeps the project team focused. The Project Manager also establishes a set of practices that ensure the integrity and quality of project work products." superActivities="_LUiAQQS2EeCYi4skBaDrfw" responsibleFor="_LUrxQAS2EeCYi4skBaDrfw">
+        <methodElementProperty xmi:id="_LU-sNAS2EeCYi4skBaDrfw" name="descriptor_createdByReference" value="true"/>
+        <responsibleForExclude href="uma://_NQtMkCx9Ed2K3Yip7M1QZA#{9B13F235-E8E9-4CDC-9ACE-216124C8C5EC}"/>
+        <responsibleForExclude href="uma://_NQtMkCx9Ed2K3Yip7M1QZA#{F6D674A6-D71A-4D36-A195-4C888C1D0E70}"/>
+        <responsibleForExclude href="uma://_NQtMkCx9Ed2K3Yip7M1QZA#{78157368-E2D1-457E-84AF-D8D2C1C20B97}"/>
+        <responsibleForExclude href="uma://_NQtMkCx9Ed2K3Yip7M1QZA#{55DB5C46-EA14-4B0A-8260-891AF5DAC294}"/>
+        <responsibleForExclude href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yylROewiEd-sjp03to1LnQ"/>
+        <responsibleForExclude href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yylROOwiEd-sjp03to1LnQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_LUrxQAS2EeCYi4skBaDrfw" name="cots_contracting_vehicules" guid="_LUrxQAS2EeCYi4skBaDrfw" presentationName="Contracting Vehicle" briefDescription="This is a mutually binding agreement between the Acquirer and the Vendor defining the obligations of each." superActivities="_LUiAQQS2EeCYi4skBaDrfw">
+        <methodElementProperty xmi:id="_LU-sNQS2EeCYi4skBaDrfw" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yylRNuwiEd-sjp03to1LnQ"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_08FXkQS1EeCYi4skBaDrfw" name="cots_management" guid="_08FXkQS1EeCYi4skBaDrfw" presentationName="COTS Management" breakdownElements="_I7fsUQS2EeCYi4skBaDrfw _LUiAQQS2EeCYi4skBaDrfw">
+      <presentation xmi:id="-CaytRZooMn3qIydQBz-3lQ" href="uma://-CaytRZooMn3qIydQBz-3lQ#-CaytRZooMn3qIydQBz-3lQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

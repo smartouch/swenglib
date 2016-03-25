@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-yNINNfY1UeFJyyhBjpxnig" name="design_the_classes,_8njn0FhUEd21tbtmum3VeQ" guid="-yNINNfY1UeFJyyhBjpxnig" changeDate="2008-10-15T00:02:49.406-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Put the &quot;finish and polish&quot; on a class or set of classes by adding or refining relationships, attributes, cohesion, and&#xD;
+    patterns. Any analysis classes or requirements that haven't been fully designed for the piece of functionality being&#xD;
+    worked on are completed here.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This task is close to implementation. The developer or an automated tool should be able to create code from the&#xD;
+    completed class design.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_gIUrgH6-Ed2npu1zF7yiGA" name="Increase encapsulation" guid="_gIUrgH6-Ed2npu1zF7yiGA">
+    <sectionDescription>&lt;p>&#xD;
+    Maintain the intention of the class's public interface. Eliminate or at least minimize publicly accessible attributes.&#xD;
+    Use methods to insulate attributes from public access. The need for class documentation beyond its public interface is&#xD;
+    an indication of encapsulation problems.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Minimize the exposure of private instance data through public methods. Consider providing copies of private data&#xD;
+    returned from public methods to prevent corruption of an instance.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_ic1EwH6-Ed2npu1zF7yiGA" name="Improve construction and utility of instances" guid="_ic1EwH6-Ed2npu1zF7yiGA">
+    <sectionDescription>&lt;p>&#xD;
+    Minimize the number of methods required to use the class. Reduce or eliminate the need to call public methods in a&#xD;
+    specific sequence to use an instance of the class.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Verify that class constructors prepare the class instance for use. A class's constructor should encapsulate all the&#xD;
+    work required to initialize an instance of the class. Consumers of the class instance should not need to deviate from&#xD;
+    the class's interface to prepare the object for use.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Provide deep copy constructors and methods, and support shallow and deep copies appropriately. Generally, users desire&#xD;
+    deep copies where attribute values are copied into the new instance of the class. It should be clear when a method&#xD;
+    provides a shallow copy (the new instance refers to the attributes in the original instance of the class).&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_jTQ9gH6-Ed2npu1zF7yiGA" name="Refine private data" guid="_jTQ9gH6-Ed2npu1zF7yiGA">
+    <sectionDescription>&lt;p>&#xD;
+    Identify additional attributes needed by the class to carry out its operations. Assure the proper state of the class is&#xD;
+    reflected by its attribute values.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Eliminate multi-attribute private data encapsulated by the class. For example, represent an address within a Person&#xD;
+    class with an Address class instead of several simple attributes that collectively make up the address. Define a new&#xD;
+    class with the components of complex data and use that as a single attribute within a class.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Find and convert raw numeric values used in method bodies to a class attribute. Decide if the attribute needs&#xD;
+    protection from runtime changes,&amp;nbsp;for example,&amp;nbsp;a constant.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_jpchgH7BEd2npu1zF7yiGA" name="Reduce generalization relationships" guid="_jpchgH7BEd2npu1zF7yiGA">
+    <sectionDescription>&lt;p>&#xD;
+    Convert generalization relationships to associations whenever possible. Associations keep the design more flexible.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Define a common base class that contains the behavioral contract for child classes to inherit. All child classes in the&#xD;
+    hierarchy must maintain this contract. In other words, maintain the &quot;is-a&quot; relationship between children and their&#xD;
+    parents. Consider moving child classes out of the hierarchy if they cannot maintain the behavioral requirements set&#xD;
+    forth in the base class.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Reduce the depth of the generalization hierarchy. Hierarchies more than 2 levels deep begin to be difficult to&#xD;
+    maintain.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Refactor the generalization hierarchy if its purpose has become unclear or distorted.&#xD;
+&lt;/p>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_OlgYMH7CEd2npu1zF7yiGA" name="Incorporate design patterns and implementation mechanisms" guid="_OlgYMH7CEd2npu1zF7yiGA">
+    <sectionDescription>Use design patterns and mechanisms as suited to the class being refined and in accordance with project design&#xD;
+guidelines.&lt;br />&#xD;
+&lt;br />&#xD;
+Patterns and mechanisms are typically incorporated as the design evolves. They are frequently applied across a set of&#xD;
+classes.&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_XxnicH7CEd2npu1zF7yiGA" name="Resolve concurrency collisions" guid="_XxnicH7CEd2npu1zF7yiGA">
+    <sectionDescription>&lt;p>&#xD;
+    Protect objects accessed concurrently by different threads of execution. Identify the code concurrently accessed in&#xD;
+    methods and protect them from simultaneous access. Select or design appropriate access control mechanisms to prevent&#xD;
+    conflicting simultaneous access.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Examples of these mechanisms include message queuing to serialize access, use of semaphores or tokens to allow access&#xD;
+    only to one thread at a time, or other variants of locking mechanisms. The choice of mechanism tends to be&#xD;
+    implementation dependent.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Incrementally incorporate known analysis elements or requirements into the class.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Incrementally incorporate new analysis elements or requirements that are identified or refined from a previous&#xD;
+        delivery of the solution.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Rework the class to correct problems discovered in a previous delivery of the solution.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

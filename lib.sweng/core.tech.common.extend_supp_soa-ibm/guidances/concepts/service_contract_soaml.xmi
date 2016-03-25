@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-zYTNkeFmwcJJja0Nf8hGZw" name="service_contract_soaml,_IhtgsFbBEd6MCpkuB85p5g" guid="-zYTNkeFmwcJJja0Nf8hGZw" changeDate="2009-10-06T21:11:59.734-0700" version="7.5.0">
+  <copyrightStatement href="uma://_4eYbIEcWEd6GBq2DuQ5crg#_6LLxwLNfEd6JDp2szLeSrA"/>
+  <mainDescription>&lt;p>&#xD;
+    Usage:&amp;nbsp; &quot;ServiceContract&quot; stereotypes UML Collaboration&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>A ServiceContract is the specification of the agreement between providers and consumers of a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp-ibm/guidances/concepts/service_2D3C4FFE.html&quot; guid=&quot;_OMw8cEozEd6D_7XK49c0nw&quot;>service&lt;/a> as to what information, products, assets, value, and obligations will flow&#xD;
+    between the providers and consumers of that service. It specifies the service without regard for realization,&#xD;
+    capabilities, or implementation. A ServiceContract does not require the specification of who, how, or why any party&#xD;
+    will fulfill their obligations under that ServiceContract, thus providing for the loose coupling of the SOA paradigm.&#xD;
+    In most cases a ServiceContract will specify two roles (provider and consumer), but other service roles might be&#xD;
+    specified as well. The ServiceContract might also own a behavior that specifies the sequencing of the exchanges between&#xD;
+    the parties, as well as the resulting state and delivery of the capability. The owned behavior is the choreography of&#xD;
+    the service.&amp;nbsp; It can use any of the standard UML behaviors, such as an interaction, timing, state, or activity&#xD;
+    diagram.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>Enterprise services&amp;nbsp;frequently are&amp;nbsp;complex and nested (for example, placing an order within&#xD;
+    the context of a long-term contract). A ServiceContract&amp;nbsp;can use other nested ServiceContracts, representing nested&#xD;
+    services, as&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/collaboration_use_soaml_CD661F65.html&quot; guid=&quot;_iLYT8GajEd65K8S2sWS35w&quot;>CollaborationUse&lt;/a>s. Such a nested service is performed and completed within the&#xD;
+    context of the larger grained service that uses it. A ServiceContract using nested ServiceContracts is called a&#xD;
+    compound service contract.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>One ServiceContract&amp;nbsp;can specialize another service contract using UML generalization. A specialized&#xD;
+    contract must comply with the more general contract, but it can restrict the behavior and/or operations used. A&#xD;
+    specialized contract&amp;nbsp;can be used either as a general contract, or as a specific agreement between specific parties&#xD;
+    for their use of that service.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>A ServiceContract is used to model an agreement between two or more parties.&amp;nbsp; It can constrain the&#xD;
+    expected real world effects of a service. ServiceContracts can cover requirements, service interactions, quality of&#xD;
+    service agreements, interface and choreography agreements, and commercial agreements.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>Each service role in a service contract has a type, which must be a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>ServiceInterface&lt;/a> or UML Interface, and which usually represents a provider or&#xD;
+    consumer. The ServiceContract is a binding agreement on entities that implement the service types. That is, any party&#xD;
+    that &quot;plays a role&quot; in a ServiceContract is bound by the service agreement, exchange patterns, behavior, and&#xD;
+    MessageType formats.&amp;nbsp;There are various ways to bind to or fulfill such an agreement, but compliance with the&#xD;
+    agreement is ultimately required to participate in the service.&amp;nbsp;&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;3&quot;>&lt;strong>Semantics&lt;/strong>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>ServiceContract shares all the semantics of UML2 Collaboration.&amp;nbsp; It extends those&#xD;
+    semantics by making the service contract binding on the types of the roles, without a collaboration use being required.&#xD;
+    Any behavior specified as part of a ServiceContract is then a specification of how the parties that use that service&#xD;
+    must interact. By typing a port with a ServiceContract that is the type of a role in a ServiceContract, the participant&#xD;
+    agrees to abide by that contract.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Where a ServiceInterface has a behavior and is also used as a type in a ServiceContract,&#xD;
+    the behavior of that ServiceInterface must comply with the service contract. However, common practice would be to&#xD;
+    specify a behavior in the service contract or service interface, not both.&lt;/font>&lt;/font>&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

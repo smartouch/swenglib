@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-OOqaMExsfEifMujo24z5nQ" name="sketch_business_process_diagram,_LoW5JWliEd2uEocHCzvrvg" guid="-OOqaMExsfEifMujo24z5nQ" authors="[Not used - put author information on the plug-in author field]" changeDate="2010-11-29T10:44:23.526-0800" changeDescription="[ Mandatory: Use this field to log changes and review comments. Include the date.||Dec 1, 2005: Initial version |Dec 6, 2005: Reviewed - set to &quot;rework&quot;.  Skills field needs to be revised to accommodate... ]" version="[Not used]">
+  <mainDescription>&lt;p>&#xD;
+    As part of a business improvement it is often necessary to understand the participants, the roles and activities that&#xD;
+    provides a result of value to the business, its customers and stakeholders.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    By capturing the business in an easily understood notation,&amp;nbsp;allows all stakeholders to participate in discussions,&#xD;
+    recommendations and solution definition, to meet some specified business need, objective&amp;nbsp;or goal. The business&#xD;
+    requirements, major participants, the desired results and the reason for the change&amp;nbsp;is often described in a vision&#xD;
+    document&amp;nbsp;(see Artifact:&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.bus.common.base-ibm/workproducts/business_vision_4355372C.html&quot;&#xD;
+    guid=&quot;_JOQEoH6LEd2OX42dL3uvNA&quot;>Business Vision&lt;/a>) and is used to drive&amp;nbsp;improvements in the software development.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If a vision document does not exist then there must be some documented business requirement&amp;nbsp;(defect, enhancement,&#xD;
+    e-mail, customer request) which is used to provide the scope of the Business Process Diagram, participants&amp;nbsp;and&#xD;
+    expected result.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p style=&quot;MARGIN-RIGHT: 0px&quot;>&#xD;
+    Begin with your existing, classified as&amp;nbsp;&quot;As-Is&quot;, &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/workproducts/business_process_diagram_4EC09E1B.html&quot;&#xD;
+    guid=&quot;_LoW5I2liEd2uEocHCzvrvg&quot;>Business Process Diagram&lt;/a>s, to identify those improvement&amp;nbsp;sketches, classified&#xD;
+    as &quot;To-Be&quot;,&amp;nbsp;that reflect the&amp;nbsp;new solution and the changes necessary by the current project.&#xD;
+&lt;/p>&#xD;
+&lt;p style=&quot;MARGIN-RIGHT: 0px&quot;>&#xD;
+    These &quot;To-Be&quot; become known as &quot;As-Is&quot; when used in future business solutions.&#xD;
+&lt;/p>&#xD;
+&lt;p style=&quot;MARGIN-RIGHT: 0px&quot;>&#xD;
+    As a general guidance, don't use&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/workproducts/business_process_diagram_4EC09E1B.html&quot;&#xD;
+    guid=&quot;_LoW5I2liEd2uEocHCzvrvg&quot;>Business Process Diagram&lt;/a>s&amp;nbsp;to document all the activities of a&#xD;
+    business,&amp;nbsp;just those that need improvement.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_eS5t0IRXEd2NXLIOKlSYRw" name="Create To-Be Business Process Diagram" guid="_eS5t0IRXEd2NXLIOKlSYRw">
+    <sectionDescription>&lt;p>&#xD;
+    80% of projects are updates to existing systems, in creating a new to-be business process diagram we&amp;nbsp;can actually&#xD;
+    create a new sketch, and&amp;nbsp;populating it with the contents of an existing diagram, and using this as the starting&#xD;
+    point.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_gCgqQIRXEd2NXLIOKlSYRw" name="For each new participant create a Lane" guid="_gCgqQIRXEd2NXLIOKlSYRw">
+    <sectionDescription>&lt;p>&#xD;
+    In the chosen &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/workproducts/business_process_diagram_4EC09E1B.html&quot;&#xD;
+    guid=&quot;_LoW5I2liEd2uEocHCzvrvg&quot;>Business Process Diagram&lt;/a>&amp;nbsp;(simple or B2B) draw a &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/lane_5A69F972.html&quot;&#xD;
+    guid=&quot;_6AXSIHjMEd24u7i-TAlU3A&quot;>Lane&lt;/a> that represents the role of&amp;nbsp;each new&amp;nbsp;participant (Actor, business&#xD;
+    worker, etc) necessary to complete a business &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/result_F54104B2.html&quot;&#xD;
+    guid=&quot;_bnSeEHjQEd24u7i-TAlU3A&quot;>Result&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Existing Use Case&amp;nbsp;Actors are a good source for identifying participants.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_L4WBcH6NEd2OX42dL3uvNA" name="Add a Start Event" guid="_L4WBcH6NEd2OX42dL3uvNA">
+    <sectionDescription>&lt;p>&#xD;
+    There are many ways that business process can be started (instantiated) - Business Process Modeling Notation defines&#xD;
+    six ways of triggering a &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/start_event_5AB3D7DD.html&quot;&#xD;
+    guid=&quot;_MzA8AHjREd24u7i-TAlU3A&quot;>Start Event&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is recommended to minimize the number of start of events for a business process, as it&amp;nbsp;can make it difficult to&#xD;
+    understand, usually there is one participant who is the main role in triggering the process.&amp;nbsp; If there is no&#xD;
+    clearly identified starting participant, attach the start event to the Pool.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If an existing &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/workproducts/business_process_diagram_4EC09E1B.html&quot;&#xD;
+    guid=&quot;_LoW5I2liEd2uEocHCzvrvg&quot;>Business Process Diagram&lt;/a> is used as a starting point, examine whether the start&#xD;
+    event is still valid. Modify as necessary.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_DurWMH6OEd2OX42dL3uvNA" name="Describe the process flow as tasks and decisions" guid="_DurWMH6OEd2OX42dL3uvNA">
+    <sectionDescription>&lt;p>&#xD;
+    For each of the business requirements, describe the flow&amp;nbsp;of &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/message_9F798C9F.html&quot;&#xD;
+    guid=&quot;_TmTKgHjNEd24u7i-TAlU3A&quot;>Message&lt;/a> and &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/data_object_D6070D58.html&quot;&#xD;
+    guid=&quot;_POlZ8H6MEd2OX42dL3uvNA&quot;>Data Object&lt;/a> necessary to achieve the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/process_E4548830.html&quot;&#xD;
+    guid=&quot;_MDJawHjQEd24u7i-TAlU3A&quot;>Process&lt;/a> &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/result_F54104B2.html&quot;&#xD;
+    guid=&quot;_bnSeEHjQEd24u7i-TAlU3A&quot;>Result&lt;/a>. The flow consists of &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/task_52EA9244.html&quot;&#xD;
+    guid=&quot;_Py2fUHjTEd24u7i-TAlU3A&quot;>Task&lt;/a>s, &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/decision_39272B75.html&quot;&#xD;
+    guid=&quot;_SlpioHjJEd24u7i-TAlU3A&quot;>Decision&lt;/a>s, &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/join_5C8E7279.html&quot;&#xD;
+    guid=&quot;_vdo6QHjMEd24u7i-TAlU3A&quot;>Join&lt;/a>, &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/fork_9B76056B.html&quot;&#xD;
+    guid=&quot;_gGuQEHjLEd24u7i-TAlU3A&quot;>Fork&lt;/a> and &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/sub_process_952B81EE.html&quot;&#xD;
+    guid=&quot;_mTIgQHjREd24u7i-TAlU3A&quot;>Sub-Process&lt;/a>. &amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Tasks are activities recognized by the business and&amp;nbsp;must not include software application details. The correct&#xD;
+    level of abstraction&amp;nbsp;must be maintained.&amp;nbsp; Details can be add either by referencing existing Use-Cases,&#xD;
+    Storyboard and Solution requirements, or creating new ones.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_uEAPEIRXEd2NXLIOKlSYRw" name="Optimize the process flow, by referencing sub-process tasks" guid="_uEAPEIRXEd2NXLIOKlSYRw">
+    <sectionDescription>After several &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/workproducts/business_process_diagram_4EC09E1B.html&quot;&#xD;
+guid=&quot;_LoW5I2liEd2uEocHCzvrvg&quot;>Business Process Diagram&lt;/a>s&amp;nbsp;have been sketched there is a duplication of some part of&#xD;
+the process. To increase reuse, reduce maintenance, improve communication&amp;nbsp;and ensure consistent development of the&#xD;
+process, it is necessary to create re-usable &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/sub_process_952B81EE.html&quot;&#xD;
+guid=&quot;_mTIgQHjREd24u7i-TAlU3A&quot;>Sub-Process&lt;/a>&amp;nbsp; &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/workproducts/business_process_diagram_4EC09E1B.html&quot;&#xD;
+guid=&quot;_LoW5I2liEd2uEocHCzvrvg&quot;>Business Process Diagram&lt;/a>&amp;nbsp;that optimize the process and to replace those tasks in&#xD;
+the main process with a &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/sub_process_952B81EE.html&quot;&#xD;
+guid=&quot;_mTIgQHjREd24u7i-TAlU3A&quot;>Sub-Process&lt;/a>&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/task_52EA9244.html&quot;&#xD;
+guid=&quot;_Py2fUHjTEd24u7i-TAlU3A&quot;>Task&lt;/a>.</sectionDescription>
+  </sections>
+  <sections xmi:id="_VVgqAH6OEd2OX42dL3uvNA" name="Add  End Events" guid="_VVgqAH6OEd2OX42dL3uvNA">
+    <sectionDescription>&lt;p>&#xD;
+    As the name implies, the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/end_event_434B9610.html&quot;&#xD;
+    guid=&quot;_m4vBUHjJEd24u7i-TAlU3A&quot;>End Event&lt;/a> indicates where a process will end and represents the expect results from&#xD;
+    the business process and often maps to features, problems described in the business vision.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Each &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/process_E4548830.html&quot;&#xD;
+    guid=&quot;_MDJawHjQEd24u7i-TAlU3A&quot;>Process&lt;/a> &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/result_F54104B2.html&quot;&#xD;
+    guid=&quot;_bnSeEHjQEd24u7i-TAlU3A&quot;>Result&lt;/a> in the sketch will have an end event. To aid clarity, it might be necessary&#xD;
+    to have multiple end events of the same&amp;nbsp;result, in&amp;nbsp;the sketch, rather than trying to draw connections to a&#xD;
+    single end event.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_O9PV8IRYEd2NXLIOKlSYRw" name="Add Use-Cases and Storyboard references" guid="_O9PV8IRYEd2NXLIOKlSYRw">
+    <sectionDescription>&lt;p>&#xD;
+    As the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/workproducts/business_process_diagram_4EC09E1B.html&quot;&#xD;
+    guid=&quot;_LoW5I2liEd2uEocHCzvrvg&quot;>Business Process Diagram&lt;/a> represents an abstract of the process it is necessary to&#xD;
+    provide more detail to the solution, this can be accomplished by adding new or existing Use-Cases, Storyboard and&#xD;
+    solution requirements to tasks in the process.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See the Storyboard and Use-Case guidelines for more information.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_WGznQH6SEd2OX42dL3uvNA" name="Add references to any supporting material" guid="_WGznQH6SEd2OX42dL3uvNA">
+    <sectionDescription>Once the draft &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/workproducts/business_process_diagram_4EC09E1B.html&quot;&#xD;
+guid=&quot;_LoW5I2liEd2uEocHCzvrvg&quot;>Business Process Diagram&lt;/a> is complete, add references (links) to any other existing&#xD;
+supporting material (web sites,&amp;nbsp;documents) both within and external to the project to provide a better understanding&#xD;
+of the problem, and desired solution.</sectionDescription>
+  </sections>
+  <sections xmi:id="_w7f18H6LEd2OX42dL3uvNA" name="Evaluate Your Results" guid="_w7f18H6LEd2OX42dL3uvNA">
+    <sectionDescription>Review the sketch at this stage to verify that the work is headed in the right direction and has the desired&amp;nbsp;&lt;a&#xD;
+class=&quot;elementLink&quot; href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/guidances/termdefinitions/result_F54104B2.html&quot;&#xD;
+guid=&quot;_bnSeEHjQEd24u7i-TAlU3A&quot;>Result&lt;/a>. Review early drafts with other Business Analysts and key stakeholders, recording&#xD;
+their comments and&amp;nbsp;applying their feedback, where appropriate,&amp;nbsp;to the sketch.</sectionDescription>
+  </sections>
+  <purpose>&lt;p style=&quot;MARGIN-RIGHT: 0px&quot;>&#xD;
+    This task provides a simple mechanism to capture complex business processes in order to gain a shared understanding of&#xD;
+    the business.&#xD;
+&lt;/p>&#xD;
+&lt;p style=&quot;MARGIN-RIGHT: 0px&quot;>&#xD;
+    &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.bus_proc_sketch.base-ibm/workproducts/business_process_diagram_4EC09E1B.html&quot;&#xD;
+    guid=&quot;_LoW5I2liEd2uEocHCzvrvg&quot;>Business Process Diagram&lt;/a>s are sketched to capture &quot;As-is&quot; business process&#xD;
+    and&amp;nbsp;needed improvement, and&amp;nbsp;can be the start of further detailed analysis, including, defining solution&#xD;
+    requirements, use cases, and storyboards or part of some further Business Architecture objectives, for instance,&#xD;
+    employment of further Business Process Management techniques, including process simulation (for instance with WebSphere&#xD;
+    Business Modeler).&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

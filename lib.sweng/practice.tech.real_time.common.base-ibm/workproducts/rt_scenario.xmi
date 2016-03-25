@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ihq1cpQLK9vLYo0g2HpQjw" name="rt_scenario,_N3ugkMvxEd-j1uJpwhl9rw" guid="-ihq1cpQLK9vLYo0g2HpQjw" changeDate="2010-10-26T11:42:01.140-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    A scenario is a partially ordered flow of messages among a set of elements at some level of abstraction. It is a common&#xD;
+    way to represent a path through a use case, and the elaboration of that path as object analysis and design proceeds.&#xD;
+    Indeed, the continuous execution policy encouraged by the Harmony process means that these scenarios are continually&#xD;
+    being elaborated and re-executed as the system analysis and design efforts proceed. Additionally, a scenario can be&#xD;
+    easily converted into a test case and executed as part of a test suite.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A scenario may be drawn to represent a desired behavior - and this is how &quot;specification scenarios&quot; are used to detail&#xD;
+    use cases. They may also be created automatically from the execution of the system or some portion thereof. These&#xD;
+    &quot;execution scenarios&quot; can then be compared - either manually or automatically - to the specification scenarios to&#xD;
+    ensure the behavior of the model is as desired.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>Over use of sequence diagram operators (opt, alt, etc) is discouraged because it complicates the scenario by (essentially)&#xD;
+representing multiple scenarios on&amp;nbsp;a single diagram. It is recommended to limit nesting of operators to no more than 2&#xD;
+levels and add multiple scenarios separately when needed.</keyConsiderations>
+  <purpose>A scenario can be used to represent a flow of services realizing a coherent set of requirements (e.g. use case), depict the&#xD;
+execution of elements, or as a test vector.</purpose>
+  <impactOfNotHaving>Lack of scenarios means that it is difficult to understand how collaborative groups of elements work together to achieve&#xD;
+the desired functionality. Since scenarios are used extensively to depict particular execution flows for use cases, their&#xD;
+lack makes it more difficult for both downstream engineering to ensure they are building the right system and for test&#xD;
+engineers to ensure they are testing the correct flows in their test cases.</impactOfNotHaving>
+  <representationOptions>&lt;p>&#xD;
+    The most common representation of a scenario is a sequence diagram. Timing diagrams may be used to show&amp;nbsp;the timing&#xD;
+    of the execution of the elements against a common time reference. The use of communication diagrams is discouraged.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    State and activity diagrams are useful for summarized (possibly large) sets of scenarios.&#xD;
+&lt;/p></representationOptions>
+  <notation>UML sequence diagrams are the most common notation, but communication and timing diagrams are available alternatives.</notation>
+</org.eclipse.epf.uma:ArtifactDescription>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-FfHDqkDgfqFBqzNN0ilhPw" name="outline_component_model,_xuokgAruEdy5ib8CxgclIA" guid="-FfHDqkDgfqFBqzNN0ilhPw" changeDate="2008-08-30T08:18:53.214-0700" version="v.1">
+  <mainDescription>In this task, you identify the most obvious candidates for logical components, and define some initial, high-level&#xD;
+collaborations between these components. You define key responsibilities for each component, and validate that your&#xD;
+architecture is on the right track. During this task, you make key decisions that affect the architecture, and then&#xD;
+document them.</mainDescription>
+  <sections xmi:id="_l1RCwFzpEd2ux6PWtFLIHw" name="Identify candidate components" guid="_l1RCwFzpEd2ux6PWtFLIHw">
+    <sectionDescription>&lt;p>&#xD;
+    Break the system up into major &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/concepts/logical_and_physical_components_93EAAF0D.html&quot; guid=&quot;_3mMfQIDvEd2z9IawWqZSFw&quot;>Logical Components&lt;/a> to contain successively smaller components. These components&#xD;
+    help you manage complexity, and allow developers to design and implement parts of the system in parallel. Define the&#xD;
+    major components around an &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/concepts/architectural_pattern_7308BF1.html&quot; guid=&quot;_rmX1gIBmEd2z9IawWqZSFw&quot;>Architectural Pattern&lt;/a> such as &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/concepts/layering_60B66437.html&quot; guid=&quot;_V2vkwEeZEd2fPvaEVG7O3Q&quot;>Layering&lt;/a>. See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/abstract_away_complexity_DBF13AE6.html&quot; guid=&quot;_we3F4ACpEdu8m4dIntu6jA&quot;>Guideline: Abstract Away Complexity&lt;/a> and &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/layering_F169CF07.html&quot; guid=&quot;_0gpkAMlgEdmt3adZL5Dmdw&quot;>Guideline: Layering&lt;/a>.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Identify candidate Logical Components to fulfill the architecturally significant functional requirements. Use key&#xD;
+    abstractions, or key concepts, identified in the requirements as inputs. &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/concepts/analysis_class_DA9AF873.html&quot; guid=&quot;_vKGosIBrEd2z9IawWqZSFw&quot;>Analysis Class&lt;/a> that model the system boundaries, data, and control logic also make&#xD;
+    good candidates. See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/guidelines/finding_analysis_classes_B6C80552.html&quot; guid=&quot;_QanxsIBtEd2z9IawWqZSFw&quot;>Guideline: Finding Analysis Classes&lt;/a>.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Name and briefly describe your candidate Logical Components in the Component Model. Visually model any obvious&#xD;
+    relationships using Component Relationship Diagrams. The components and relationships should not be highly detailed at&#xD;
+    this early stage.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/guidelines/identifying_components_EB167396.html&quot; guid=&quot;_DJSD8IEcEd2z9IawWqZSFw&quot;>Guideline: Identifying Components&lt;/a> and &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/using_visual_modeling_DA1CA6E4.html&quot; guid=&quot;_0SsecNr8EdyXE6np2_hUMA&quot;>Guideline: Using Visual Modeling&lt;/a>.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_sYJg8FzpEd2ux6PWtFLIHw" name="Define responsibilities" guid="_sYJg8FzpEd2ux6PWtFLIHw">
+    <sectionDescription>&lt;p>&#xD;
+    Your goal in this step is to express the system behavior in terms of collaborating components by specifying the&#xD;
+    responsibilities of each component.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Review the architecturally significant functional requirements, and look for the system behavior they describe.&#xD;
+    Allocate the behavior to responsibilities of one or more of your candidate components. Document each responsibility in&#xD;
+    the Component Model with a short name and description. State what the object does to fulfill the responsibility, and&#xD;
+    describe the result that occurs. Keep a &quot;black box&quot; focus on each component, and only specify externally observable&#xD;
+    responsibilities. See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/guidelines/identifying_components_EB167396.html&quot; guid=&quot;_DJSD8IEcEd2z9IawWqZSFw&quot;>Guideline: Identifying Components&lt;/a>.&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more complex requirements (in which a number of components must interact to carry out system behavior), show&#xD;
+    component interactions in the Component Model using one or more Component Interaction Diagrams.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_gfLH0FzpEd2ux6PWtFLIHw" name="Map mechanisms to components" guid="_gfLH0FzpEd2ux6PWtFLIHw">
+    <sectionDescription>&lt;p>&#xD;
+    Review your list of &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/analysis_mechanism_8369C159.html&quot; guid=&quot;_0gvqoMlgEdmt3adZL5Dmdw&quot;>Analysis Mechanisms&lt;/a> and their attributes in the Architectural Decisions.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Update the Component Model by listing the Analysis Mechanisms each component requires.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_yvk9EFzpEd2ux6PWtFLIHw" name="Validate the architecture" guid="_yvk9EFzpEd2ux6PWtFLIHw">
+    <sectionDescription>&lt;p>&#xD;
+    Review the Component Model to ensure that it is complete and consistent. Review the goals, requirements, and&#xD;
+    constraints to ensure that your architecture meets them; update them with any new information that you have discovered.&#xD;
+    If you find items that your architecture has not yet addressed, go through this task again to fill in the holes.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Review your list of potentially reusable assets for overlap with your candidate components. In the Component Model,&#xD;
+    note any components that you plan to reuse rather than build. Review the Architectural Decisions to ensure that you&#xD;
+    have captured the rationale for any significant decisions that you have made, especially those that are controversial&#xD;
+    or are based on reasoning that is not obvious.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    At this point, you have outlined but not detailed the Component Model, so keep your review informal.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Communicate the outline to your developers, and make sure that they understand it and can deliver it. Repeat the steps&#xD;
+    of this task as needed to incorporate their feedback into the outline. For checklists to assess the results of this&#xD;
+    task, refer to the output work products.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    The purpose of this task is to make a high-level first pass at developing a component-based model of the architecture.&#xD;
+    The model communicates whether the architecture is on track to address the architecturally significant requirements.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

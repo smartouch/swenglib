@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-EomW0eGPGI_pCdeoDPDQ9Q" name="test,_D89MAfD9Ed-Ut4CgUrXXXA" guid="-EomW0eGPGI_pCdeoDPDQ9Q" version="7.5.1"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Arom6e9Qfbs2iAsXOEmTmA" name="test_motivator,_b7seKWnnEd-4LqPkL9-h8Q" guid="-Arom6e9Qfbs2iAsXOEmTmA">
+    <refinedDescription>&lt;p>&#xD;
+    A test motivator is usually an external file that provides details about a test plan or test case. For example, a test&#xD;
+    motivator file could be a document or spreadsheet containing detailed information about a specific test plan or test&#xD;
+    case. It is convenient to be able to reference a test motivator file from a test plan and test case record. Test&#xD;
+    motivators are useful in linking test requirements with test plans and test cases.&#xD;
+&lt;/p>&#xD;
+&lt;div class=&quot;p&quot;>&#xD;
+    You can use associations between test plan and test case records with a test motivator to determine: &#xD;
+    &lt;ul>&#xD;
+        &lt;li>&#xD;
+            If there is test coverage for the motivator&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            If a test plan associated with a motivator has an associated external file&#xD;
+        &lt;/li>&#xD;
+    &lt;/ul>&#xD;
+&lt;/div></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QMRSya0whIZSHmmuUKmYOA" name="test_plan,_b7seJ2nnEd-4LqPkL9-h8Q" guid="-QMRSya0whIZSHmmuUKmYOA">
+    <refinedDescription>&lt;p>&#xD;
+    The Test Plan forms the framework within which the team performing the testing will work for the given schedule. It&#xD;
+    directs, guides, and constrains the test effort, focusing the work on the useful and necessary deliverables. It also&#xD;
+    communicates the intent of the effort to stakeholders. As such, the Test Plan should avoid detail that would not be&#xD;
+    understood, or would be considered irrelevant by the stakeholders in the test effort.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In cultures or domains in which this work product is not recognized as a formal work product, it is still important to&#xD;
+    address the different aspects represented by the Test Plan as part of the planning effort, and make appropriate&#xD;
+    decisions about what testing will be undertaken, and how the test effort will be conducted.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JEJ6nvedsfu4DZpn1_3vBQ" name="create_test_cases,_b72PWGnnEd-4LqPkL9-h8Q" guid="-JEJ6nvedsfu4DZpn1_3vBQ">
+    <keyConsiderations>&lt;p>&#xD;
+    Develop test cases in parallel with requirements so that Analysts and stakeholders can agree with the specific&#xD;
+    conditions of satisfaction for each requirement. The test cases act as acceptance criteria by expanding on the intent&#xD;
+    of the system&amp;nbsp;through actual scenarios of use.&amp;nbsp;This allows team members to measure progress in terms of&#xD;
+    passing test cases.&amp;nbsp;&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gLBtsYqE_pCyx54mCZYeGw" name="test_case,_b72PTmnnEd-4LqPkL9-h8Q" guid="-gLBtsYqE_pCyx54mCZYeGw">
+    <refinedDescription>&lt;p>&#xD;
+    A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
+    test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
+    formal environments, you can create test cases by identifying a unique ID, name, associated test data, and expected&#xD;
+    results.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Test cases can be derived from many sources, and typically include a subset of the requirements (such as use cases,&#xD;
+    performance characteristics, and reliability concerns) and other types of quality attributes. For more information on&#xD;
+    types of tests and their relationships to quality test attributes, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Concept: Testing Qualitative Requirements&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6-CmxEArsi-zwP3yEDXhwg" name="run_tests,_b72PVGnnEd-4LqPkL9-h8Q" guid="-6-CmxEArsi-zwP3yEDXhwg">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Run all tests as frequently as possible. Ideally, run all test scripts against each build deployed to the test&#xD;
+        environment. If this is impractical, run regression tests for existing functionality, and&amp;nbsp;focus the test cycle&#xD;
+        on work items completed in the new build.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Even test scripts that are expected to fail provide valuable feedback. However, once a test script is passing, it&#xD;
+        should not fail&amp;nbsp;against subsequent builds of the solution.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-kT1cZBVznMApIgB5iW7ajQ" name="test_log,_b72PUmnnEd-4LqPkL9-h8Q" guid="-kT1cZBVznMApIgB5iW7ajQ">
+    <refinedDescription>This artifact provides a detailed, typically time-based record that both verifies that a set of tests were run, and&#xD;
+provides information that relates to the success of those tests. The focus is typically on providing an accurate audit&#xD;
+trail, which enables you to undertake a post-run diagnosis of failures. This raw data is subsequently analyzed to determine&#xD;
+the results of an aspect of the test effort.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dt36G5R4Ka0wdOzyf4irnA" name="create_test_cases,_b8AAMGnnEd-4LqPkL9-h8Q" guid="-dt36G5R4Ka0wdOzyf4irnA">
+    <keyConsiderations>&lt;p>&#xD;
+    Develop test cases in parallel with requirements so that Analysts and stakeholders can agree with the specific&#xD;
+    conditions of satisfaction for each requirement. The test cases act as acceptance criteria by expanding on the intent&#xD;
+    of the system&amp;nbsp;through actual scenarios of use.&amp;nbsp;This allows team members to measure progress in terms of&#xD;
+    passing test cases.&amp;nbsp;&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bY643dH2Ja2SLDIQcyc3PQ" name="test_case,_b8AALmnnEd-4LqPkL9-h8Q" guid="-bY643dH2Ja2SLDIQcyc3PQ">
+    <refinedDescription>&lt;p>&#xD;
+    A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
+    test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
+    formal environments, you can create test cases by identifying a unique ID, name, associated test data, and expected&#xD;
+    results.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Test cases can be derived from many sources, and typically include a subset of the requirements (such as use cases,&#xD;
+    performance characteristics, and reliability concerns) and other types of quality attributes. For more information on&#xD;
+    types of tests and their relationships to quality test attributes, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Concept: Testing Qualitative Requirements&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-hYCKvyQGaOsFbJMHmWJLrg" name="run_tests,_b8AAOGnnEd-4LqPkL9-h8Q" guid="-hYCKvyQGaOsFbJMHmWJLrg">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Run all tests as frequently as possible. Ideally, run all test scripts against each build deployed to the test&#xD;
+        environment. If this is impractical, run regression tests for existing functionality, and&amp;nbsp;focus the test cycle&#xD;
+        on work items completed in the new build.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Even test scripts that are expected to fail provide valuable feedback. However, once a test script is passing, it&#xD;
+        should not fail&amp;nbsp;against subsequent builds of the solution.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TDFoVq50HZ7tYkysl5xSlA" name="test_log,_b8AAOmnnEd-4LqPkL9-h8Q" guid="-TDFoVq50HZ7tYkysl5xSlA">
+    <refinedDescription>This artifact provides a detailed, typically time-based record that both verifies that a set of tests were run, and&#xD;
+provides information that relates to the success of those tests. The focus is typically on providing an accurate audit&#xD;
+trail, which enables you to undertake a post-run diagnosis of failures. This raw data is subsequently analyzed to determine&#xD;
+the results of an aspect of the test effort.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_OHD3gDW-odH_Zrz2GZyZA" name="test_manager,_1Pa31PMxEd-m6bC08PA8Yw" guid="-_OHD3gDW-odH_Zrz2GZyZA">
+    <refinedDescription>Roles organize the responsibility for performing tasks and developing work products into logical groups. Each role can be&#xD;
+assigned to one or more people, and each person can fill one or more roles. When staffing the Test Manager role, you need&#xD;
+to consider both the skills required for the role and the different approaches you can take to assigning staff to the role.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wFEitBGvC4Nh1bEP1H2HzA" name="tester,_1XnxkfMxEd-m6bC08PA8Yw" guid="-wFEitBGvC4Nh1bEP1H2HzA">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying the tests that need to be performed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identifying the most appropriate implementation approach for a given test&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Implementing individual tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Setting up and running the tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Logging outcomes and verifying that the tests have been run&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Analyzing and guiding the recovery from execution errors&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Communicating test results to the team&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mSCpmsBJFmIYbfqEZOPszQ" name="vision,_1X6sgfMxEd-m6bC08PA8Yw" guid="-mSCpmsBJFmIYbfqEZOPszQ">
+    <keyConsiderations>&lt;p>&#xD;
+    It is good practice to keep this artifact brief, so you can release it to stakeholders as soon as possible, and to make&#xD;
+    the artifact easy for stakeholders to read and understand. You can accomplish this by including only the most important&#xD;
+    features and avoiding details of requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Projects that focus on product development might extend the marketing section and include a more detailed product&#xD;
+    position statement that is based on their needs and research.&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-V-sPn7naIvLXjbk7ULb43A" name="glossary,_1X6shPMxEd-m6bC08PA8Yw" guid="-V-sPn7naIvLXjbk7ULb43A">
+    <keyConsiderations>&lt;p>&#xD;
+    Although listed as an &lt;i>output from&lt;/i> and an &lt;i>input to&lt;/i> tasks associated with the requirements discipline, this&#xD;
+    artifact can be updated at any time and by any role as new terms are identified. The terms defined should be used&#xD;
+    according to the recorded definitions in all project documentation so that all stakeholders can clearly see that terms&#xD;
+    are being used consistently.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    One of the primary decisions when developing&amp;nbsp;this artifact&amp;nbsp;is whether to have all terms in a single glossary&#xD;
+    or to maintain terms in several glossaries, business terms artifacts, or models.&amp;nbsp;If terms are defined in multiple&#xD;
+    places, you need to communicate all of those sources to the team and decide which take precedence.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It may be important, even in small projects, to reference and use existing broader glossaries, business terms&#xD;
+    artifacts, or data models, where they exist.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Industry- and organization-wide glossaries may be referenced, and compliance with such specific chosen standards may be&#xD;
+    required.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;helps you avoid miscommunication by providing two essential resources:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A central location to look for terms and abbreviations that are new to development team members&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Definitions of terms that are used in specific ways within the domain&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Definitions for the glossary terms come from several sources, such as requirements documents, specifications, and&#xD;
+    discussions with stakeholders and domain experts.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TwuRFvR1Tb191E1JinGymQ" name="storyboard,_1YD2cfMxEd-m6bC08PA8Yw" guid="-TwuRFvR1Tb191E1JinGymQ">
+    <keyConsiderations>&lt;p>&#xD;
+One or multiple storyboards may be defined for a use case, thereby supporting a use-case-driven approach to software engineering, as well as providing an excellent means to validate the user's (actor's) expectations of these use cases and their role in the use-case flows of events.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;span class=&quot;Apple-style-span&quot; style=&quot;WORD-SPACING: 0px; FONT: 13px arial; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-INDENT: 0px; WHITE-SPACE: normal; LETTER-SPACING: normal; BORDER-COLLAPSE: separate; TEXT-ALIGN: left; orphans: 2; widows: 2; webkit-border-horizontal-spacing: 0px; webkit-border-vertical-spacing: 0px; webkit-text-decorations-in-effect: none; webkit-text-size-adjust: auto; webkit-text-stroke-width: 0&quot;>&#xD;
+Storyboards support requirements elicitation by enabling stakeholders to discover and clarify unknown or unclear requirements, and to provide feedbacks.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-O81gOafn7yIyFeimQpuJzg" name="user_role,_1YD2dPMxEd-m6bC08PA8Yw" guid="-O81gOafn7yIyFeimQpuJzg">
+    <refinedDescription>&lt;p> A user role&amp;nbsp;represents users of the system under development who have &#xD;
+  similar attributes. These are some of the common attributes that differentiate &#xD;
+  user roles from each other: &lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Frequency of using the software&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Proficiency with using computers and similar systems&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Domain knowledge&#xD;
+    &lt;/li>&#xD;
+    &#xD;
+  &lt;li> Reasons for using the system or problems that they want to solve&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p> Identifying user roles&amp;nbsp;helps the team and stakeholders gain insight on &#xD;
+  who will use the system, what their objectives are,&amp;nbsp;what problems they &#xD;
+  have that the system will be solving, and so on. &lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--VFcUqco1cQPl5yMomF2Dg" name="user_story,_1YD2d_MxEd-m6bC08PA8Yw" guid="--VFcUqco1cQPl5yMomF2Dg">
+    <keyConsiderations>&lt;p>&#xD;
+    Well-written user stories possess&amp;nbsp;the characteristics defined in the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.tech.user_story_driven_dev.base-ibm/guidances/concepts/invest_model_2D82989.html&quot; guid=&quot;_K8khID55Ed6FxpOwnkUDmw&quot;>INVEST Model&lt;/a>. For example, one of the characteristics of a good user story is that&#xD;
+    it can be tested even before development begins. This makes the user story valuable to stakeholders in a practical way.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    User stories capture the intended functionality of the system under development, from the user role&#xD;
+    perspective.&amp;nbsp;They are simple, clear, brief descriptions written&amp;nbsp;using business language in the context in&#xD;
+    which the need or capability&amp;nbsp;will be&amp;nbsp;used in the system.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A user story is in fact a reminder for further conversation between the team and stakeholders. User stories&amp;nbsp;are&#xD;
+    written down, but they are not meant to be contractual, or even interpreted without further discussions with the&#xD;
+    stakeholders. The on-going interaction between stakeholders and the team (to discuss the details of a user story) are&#xD;
+    more important than the resulting textual description itself.&amp;nbsp;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-x3AqJSrAaUPPEdb4tZzKIg" name="build,_1YqTYfMxEd-m6bC08PA8Yw" guid="-x3AqJSrAaUPPEdb4tZzKIg">
+    <refinedDescription>&lt;p>&#xD;
+    This working version of the system or part of the system&amp;nbsp;is the result of putting the implementation through a&#xD;
+    build process (typically an automated build script) that creates an executable version, or one that runs. This&#xD;
+    executable version will typically have a number of supporting files that are also considered part of this artifact.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-0EXtCTjub6pCXWlGwJfpqQ" name="design,_1YqTZPMxEd-m6bC08PA8Yw" guid="-0EXtCTjub6pCXWlGwJfpqQ">
+    <refinedDescription>&lt;p>&#xD;
+    This work product describes the elements that will make up the implemented system. It communicates abstractions of&#xD;
+    particular portions of the implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While architecture focuses on interfaces, patterns, and key decisions, the design fleshes out the technical details in&#xD;
+    readiness for implementation, or as part of implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This product can describe multiple static and dynamic views of the system for examination. Although various views may&#xD;
+    focus on divergent, seemingly independent issues of how the system will be put together and work, they should fit&#xD;
+    together without contradiction.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-rHgiYVKNk9oU-_DXed3_Xw" name="developer_test,_1Y0EYfMxEd-m6bC08PA8Yw" guid="-rHgiYVKNk9oU-_DXed3_Xw">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact covers all of the steps to validate a specific aspect of an implementation element. For example, a test&#xD;
+    could ensure that the parameters of a method properly accept the uppermost and lowermost required values. A developer&#xD;
+    test specifies test entries, execution conditions, and expected results. These details are identified to evaluate a&#xD;
+    particular aspect of a scenario.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When you collect developer tests for a specific implementation element, you can validate that the element performs as&#xD;
+    specified.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The tests be self-documenting so that it is clear upon completion of the test whether the implementation element has&#xD;
+    run correctly.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gdqGS0RgqoLNMaH_f_OCOw" name="implementation,_1Y0EZPMxEd-m6bC08PA8Yw" guid="-gdqGS0RgqoLNMaH_f_OCOw">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact is the collection of one or more of these elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Source code files&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data files&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Build scripts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Other files that are transformed into the executable system&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Rt5Gwm1oapmNzbBufcCkWw" name="tester,_1jitsfMxEd-m6bC08PA8Yw" guid="-Rt5Gwm1oapmNzbBufcCkWw">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying the tests that need to be performed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identifying the most appropriate implementation approach for a given test&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Implementing individual tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Setting up and running the tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Logging outcomes and verifying that the tests have been run&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Analyzing and guiding the recovery from execution errors&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Communicating test results to the team&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-eg5C0XxuoWIkc3pxUowx3Q" name="vision,_1j1oofMxEd-m6bC08PA8Yw" guid="-eg5C0XxuoWIkc3pxUowx3Q">
+    <keyConsiderations>&lt;p>&#xD;
+    It is good practice to keep this artifact brief, so you can release it to stakeholders as soon as possible, and to make&#xD;
+    the artifact easy for stakeholders to read and understand. You can accomplish this by including only the most important&#xD;
+    features and avoiding details of requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Projects that focus on product development might extend the marketing section and include a more detailed product&#xD;
+    position statement that is based on their needs and research.&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wfwsjvbWJYJq_FmvPpX7Cw" name="glossary,_1j-ykfMxEd-m6bC08PA8Yw" guid="-wfwsjvbWJYJq_FmvPpX7Cw">
+    <keyConsiderations>&lt;p>&#xD;
+    Although listed as an &lt;i>output from&lt;/i> and an &lt;i>input to&lt;/i> tasks associated with the requirements discipline, this&#xD;
+    artifact can be updated at any time and by any role as new terms are identified. The terms defined should be used&#xD;
+    according to the recorded definitions in all project documentation so that all stakeholders can clearly see that terms&#xD;
+    are being used consistently.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    One of the primary decisions when developing&amp;nbsp;this artifact&amp;nbsp;is whether to have all terms in a single glossary&#xD;
+    or to maintain terms in several glossaries, business terms artifacts, or models.&amp;nbsp;If terms are defined in multiple&#xD;
+    places, you need to communicate all of those sources to the team and decide which take precedence.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It may be important, even in small projects, to reference and use existing broader glossaries, business terms&#xD;
+    artifacts, or data models, where they exist.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Industry- and organization-wide glossaries may be referenced, and compliance with such specific chosen standards may be&#xD;
+    required.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;helps you avoid miscommunication by providing two essential resources:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A central location to look for terms and abbreviations that are new to development team members&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Definitions of terms that are used in specific ways within the domain&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Definitions for the glossary terms come from several sources, such as requirements documents, specifications, and&#xD;
+    discussions with stakeholders and domain experts.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jsaGt9maz__4gg-Cc_j7wg" name="storyboard,_1j-ylPMxEd-m6bC08PA8Yw" guid="-jsaGt9maz__4gg-Cc_j7wg">
+    <keyConsiderations>&lt;p>&#xD;
+One or multiple storyboards may be defined for a use case, thereby supporting a use-case-driven approach to software engineering, as well as providing an excellent means to validate the user's (actor's) expectations of these use cases and their role in the use-case flows of events.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;span class=&quot;Apple-style-span&quot; style=&quot;WORD-SPACING: 0px; FONT: 13px arial; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-INDENT: 0px; WHITE-SPACE: normal; LETTER-SPACING: normal; BORDER-COLLAPSE: separate; TEXT-ALIGN: left; orphans: 2; widows: 2; webkit-border-horizontal-spacing: 0px; webkit-border-vertical-spacing: 0px; webkit-text-decorations-in-effect: none; webkit-text-size-adjust: auto; webkit-text-stroke-width: 0&quot;>&#xD;
+Storyboards support requirements elicitation by enabling stakeholders to discover and clarify unknown or unclear requirements, and to provide feedbacks.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JHPbMcCyk_M9m1Zg_TNLgQ" name="user_role,_1j-yl_MxEd-m6bC08PA8Yw" guid="-JHPbMcCyk_M9m1Zg_TNLgQ">
+    <refinedDescription>&lt;p> A user role&amp;nbsp;represents users of the system under development who have &#xD;
+  similar attributes. These are some of the common attributes that differentiate &#xD;
+  user roles from each other: &lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Frequency of using the software&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Proficiency with using computers and similar systems&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Domain knowledge&#xD;
+    &lt;/li>&#xD;
+    &#xD;
+  &lt;li> Reasons for using the system or problems that they want to solve&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p> Identifying user roles&amp;nbsp;helps the team and stakeholders gain insight on &#xD;
+  who will use the system, what their objectives are,&amp;nbsp;what problems they &#xD;
+  have that the system will be solving, and so on. &lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wY3o60KiQBjAsoIbJelsaw" name="user_story,_1kIjkfMxEd-m6bC08PA8Yw" guid="-wY3o60KiQBjAsoIbJelsaw">
+    <keyConsiderations>&lt;p>&#xD;
+    Well-written user stories possess&amp;nbsp;the characteristics defined in the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.tech.user_story_driven_dev.base-ibm/guidances/concepts/invest_model_2D82989.html&quot; guid=&quot;_K8khID55Ed6FxpOwnkUDmw&quot;>INVEST Model&lt;/a>. For example, one of the characteristics of a good user story is that&#xD;
+    it can be tested even before development begins. This makes the user story valuable to stakeholders in a practical way.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    User stories capture the intended functionality of the system under development, from the user role&#xD;
+    perspective.&amp;nbsp;They are simple, clear, brief descriptions written&amp;nbsp;using business language in the context in&#xD;
+    which the need or capability&amp;nbsp;will be&amp;nbsp;used in the system.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A user story is in fact a reminder for further conversation between the team and stakeholders. User stories&amp;nbsp;are&#xD;
+    written down, but they are not meant to be contractual, or even interpreted without further discussions with the&#xD;
+    stakeholders. The on-going interaction between stakeholders and the team (to discuss the details of a user story) are&#xD;
+    more important than the resulting textual description itself.&amp;nbsp;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-DVA-kKmxwWYph6BGlJl20A" name="build,_1k4KcfMxEd-m6bC08PA8Yw" guid="-DVA-kKmxwWYph6BGlJl20A">
+    <refinedDescription>&lt;p>&#xD;
+    This working version of the system or part of the system&amp;nbsp;is the result of putting the implementation through a&#xD;
+    build process (typically an automated build script) that creates an executable version, or one that runs. This&#xD;
+    executable version will typically have a number of supporting files that are also considered part of this artifact.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-RuWEt60QLXEDHi5pM3VSJg" name="design,_1k4KdPMxEd-m6bC08PA8Yw" guid="-RuWEt60QLXEDHi5pM3VSJg">
+    <refinedDescription>&lt;p>&#xD;
+    This work product describes the elements that will make up the implemented system. It communicates abstractions of&#xD;
+    particular portions of the implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While architecture focuses on interfaces, patterns, and key decisions, the design fleshes out the technical details in&#xD;
+    readiness for implementation, or as part of implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This product can describe multiple static and dynamic views of the system for examination. Although various views may&#xD;
+    focus on divergent, seemingly independent issues of how the system will be put together and work, they should fit&#xD;
+    together without contradiction.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-P2p-TaqSHRC5ESJ5F7lg3g" name="developer_test,_1k4Kd_MxEd-m6bC08PA8Yw" guid="-P2p-TaqSHRC5ESJ5F7lg3g">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact covers all of the steps to validate a specific aspect of an implementation element. For example, a test&#xD;
+    could ensure that the parameters of a method properly accept the uppermost and lowermost required values. A developer&#xD;
+    test specifies test entries, execution conditions, and expected results. These details are identified to evaluate a&#xD;
+    particular aspect of a scenario.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When you collect developer tests for a specific implementation element, you can validate that the element performs as&#xD;
+    specified.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The tests be self-documenting so that it is clear upon completion of the test whether the implementation element has&#xD;
+    run correctly.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Iwquhha0ePvf7O08-PKfxg" name="implementation,_1lB7cfMxEd-m6bC08PA8Yw" guid="-Iwquhha0ePvf7O08-PKfxg">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact is the collection of one or more of these elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Source code files&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data files&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Build scripts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Other files that are transformed into the executable system&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EgzqPm0p1tt9alxfgg1GIA" name="user_support_specs,_Y73KQQNHEeKgIrW2BoUv0Q" guid="-EgzqPm0p1tt9alxfgg1GIA">
+    <keyConsiderations>&lt;p>&#xD;
+    Coordinate the User Support Specifications with the end user training material specifications to avoid having to cover&#xD;
+    the same topics twice - unless it is on purpose.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In writing the User Support Specifications, re-use as much as possible of the:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Package Design Documentation&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Package Extension Specifications&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Report Specifications&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interface Specifications&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In selecting the media for the user documentation take into the consideration the ease of maintenance, i.e., how will&#xD;
+    the documentation be updated, is the documentation accessible, and how will it be distributed.&amp;nbsp; Should the&#xD;
+    documentation be on-line on a server, and should some of it be kept in hard copy as a back up in case the server is&#xD;
+    inaccessible?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This must be done in conjunction with the development of user training materials.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The specifications are the work descriptions for the development of the various units of user documentation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The User Support Specifications should cover:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The configuration of the standard package, including accessibility and package extensions that have been developed.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The reports and interfaces that have been developed. &#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How a combination of these will be used to support the client's business processes.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The specifications define the boundaries between the different units of user documentation, as well as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Content&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Audience&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Purpose&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Standards to be used, and the language(s)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2MyV-XAhpgwh8EbLLrC-rw" name="requirements_attributes.add,_Y74_cQNHEeKgIrW2BoUv0Q" guid="-2MyV-XAhpgwh8EbLLrC-rw">
+    <keyConsiderations>Requirement attributes help the project team understand, prioritize, manage, track and validate the project requirements.</keyConsiderations>
+    <refinedDescription>A project requirement does not just consist of the description of the requirement. Each requirement needs a set of&#xD;
+properties - called attributes -&amp;nbsp;that capture important information about it. And requirements that belong to&#xD;
+different categories&amp;nbsp;can have a different set of attributes. All requirements&amp;nbsp;must have a core set of attributes&#xD;
+to capture critical information about each requirement. The information that is captured in the attributes can used to&#xD;
+generate views and reports, which are used to track and measure progress.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Y-tTS7juippa1yJjzfhUfg" name="requirements_traceability,_Y760oQNHEeKgIrW2BoUv0Q" guid="-Y-tTS7juippa1yJjzfhUfg">
+    <keyConsiderations>&lt;p>&#xD;
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'&quot;>In order to maintain the consistency&amp;nbsp;of the&#xD;
+    traceability,&amp;nbsp;this artifact must be re-assessed every time there is a change to the requirement or at the end of&#xD;
+    each milestone.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span style=&quot;FONT-SIZE: 10pt; LINE-HEIGHT: 115%; FONT-FAMILY: 'Arial','sans-serif'&quot;>In a small simple project, the&#xD;
+    traceability matrix can be&amp;nbsp;maintained in a spreadsheet. Automated tool support is helpful in a complicated&#xD;
+    large-scale project.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There are project resource costs to establishing and maintaining traceability. It is important to establish just enough&#xD;
+    traceability to support completeness checking and change impact analysis without over-using the technique by tracing&#xD;
+    &quot;everything to everything&quot;.&lt;br />&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'&quot;>&lt;span&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'&quot;>Traceability is defined by identifying which relationships&#xD;
+    between requirement types - or other artifacts -- are important enough to track and maintain.&lt;/span>&lt;/span>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TEDQJOEsiKE6hM6hipMCHQ" name="requirements_management_process_description,_Y78CwQNHEeKgIrW2BoUv0Q" guid="-TEDQJOEsiKE6hM6hipMCHQ">
+    <refinedDescription>&lt;p>&#xD;
+    The Requirements Management Process Description describes the requirements artifacts, requirement types, their&#xD;
+    respective requirements attributes, how requirements traceability will be managed, and specifies the information to be&#xD;
+    collected and tracked. It also specifies how requirements changes will be managed, as well as addressing requirements&#xD;
+    organization, tool automation, the necessary reports, views, and queries that will be generated and the related&#xD;
+    processes for requirements and requirements change management.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-U-Lzg-J5FMKSTgSxmA9Vcg" name="user_support_specs,_ZApjoQNHEeKgIrW2BoUv0Q" guid="-U-Lzg-J5FMKSTgSxmA9Vcg">
+    <keyConsiderations>&lt;p>&#xD;
+    Coordinate the User Support Specifications with the end user training material specifications to avoid having to cover&#xD;
+    the same topics twice - unless it is on purpose.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In writing the User Support Specifications, re-use as much as possible of the:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Package Design Documentation&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Package Extension Specifications&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Report Specifications&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interface Specifications&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In selecting the media for the user documentation take into the consideration the ease of maintenance, i.e., how will&#xD;
+    the documentation be updated, is the documentation accessible, and how will it be distributed.&amp;nbsp; Should the&#xD;
+    documentation be on-line on a server, and should some of it be kept in hard copy as a back up in case the server is&#xD;
+    inaccessible?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This must be done in conjunction with the development of user training materials.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The specifications are the work descriptions for the development of the various units of user documentation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The User Support Specifications should cover:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The configuration of the standard package, including accessibility and package extensions that have been developed.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The reports and interfaces that have been developed. &#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How a combination of these will be used to support the client's business processes.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The specifications define the boundaries between the different units of user documentation, as well as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Content&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Audience&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Purpose&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Standards to be used, and the language(s)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7WU2iK6ImeBcisMZzl9GJw" name="requirements_attributes.add,_ZAqKsQNHEeKgIrW2BoUv0Q" guid="-7WU2iK6ImeBcisMZzl9GJw">
+    <keyConsiderations>Requirement attributes help the project team understand, prioritize, manage, track and validate the project requirements.</keyConsiderations>
+    <refinedDescription>A project requirement does not just consist of the description of the requirement. Each requirement needs a set of&#xD;
+properties - called attributes -&amp;nbsp;that capture important information about it. And requirements that belong to&#xD;
+different categories&amp;nbsp;can have a different set of attributes. All requirements&amp;nbsp;must have a core set of attributes&#xD;
+to capture critical information about each requirement. The information that is captured in the attributes can used to&#xD;
+generate views and reports, which are used to track and measure progress.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aQdLO3febNcXXpphgf9-9w" name="requirements_traceability,_ZArY0QNHEeKgIrW2BoUv0Q" guid="-aQdLO3febNcXXpphgf9-9w">
+    <keyConsiderations>&lt;p>&#xD;
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'&quot;>In order to maintain the consistency&amp;nbsp;of the&#xD;
+    traceability,&amp;nbsp;this artifact must be re-assessed every time there is a change to the requirement or at the end of&#xD;
+    each milestone.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span style=&quot;FONT-SIZE: 10pt; LINE-HEIGHT: 115%; FONT-FAMILY: 'Arial','sans-serif'&quot;>In a small simple project, the&#xD;
+    traceability matrix can be&amp;nbsp;maintained in a spreadsheet. Automated tool support is helpful in a complicated&#xD;
+    large-scale project.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There are project resource costs to establishing and maintaining traceability. It is important to establish just enough&#xD;
+    traceability to support completeness checking and change impact analysis without over-using the technique by tracing&#xD;
+    &quot;everything to everything&quot;.&lt;br />&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'&quot;>&lt;span&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'&quot;>Traceability is defined by identifying which relationships&#xD;
+    between requirement types - or other artifacts -- are important enough to track and maintain.&lt;/span>&lt;/span>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-CGDDiepDjfVDhJ_SDlLT-w" name="requirements_management_process_description,_ZAsm8QNHEeKgIrW2BoUv0Q" guid="-CGDDiepDjfVDhJ_SDlLT-w">
+    <refinedDescription>&lt;p>&#xD;
+    The Requirements Management Process Description describes the requirements artifacts, requirement types, their&#xD;
+    respective requirements attributes, how requirements traceability will be managed, and specifies the information to be&#xD;
+    collected and tracked. It also specifies how requirements changes will be managed, as well as addressing requirements&#xD;
+    organization, tool automation, the necessary reports, views, and queries that will be generated and the related&#xD;
+    processes for requirements and requirements change management.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

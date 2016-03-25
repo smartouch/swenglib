@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-XR2mQpiioLrspCUjy61MPA" name="new_concept,_bRy0kIUYEd27AYIlqvCTLg" guid="-XR2mQpiioLrspCUjy61MPA" changeDate="2009-03-17T21:59:44.500-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    If a use case has segments of behavior that are optional or exceptional in character, and that do not add to the&#xD;
+    understanding of the primary purpose of the use case, factor those out to a new &lt;b>extension use case&lt;/b>. The original&#xD;
+    use case then becomes a &lt;b>base use case&lt;/b>, to which the extension use case has an extend-relationship.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In the base use case you declare extension points, which define where in the base use case extensions can be made.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Complex sub-flows and optional behavior are the first candidates for being partitioned out into extension use cases.&#xD;
+    Often this behavior can be quite complex and hard to describe: including it in the flow of events of a use case can&#xD;
+    make the &quot;normal&quot; behavior harder to see. Extracting it&amp;nbsp;must improve the comprehensibility of the use-case model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Make sure that the flow of events of the base use case is still complete and understandable by itself, without any&#xD;
+    reference to the extension use case.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Only the extension use case knows of the relationship between the two use cases. The base use case only knows it has&#xD;
+    extension points, it doesn't know what extension use cases are using them.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Briefly describe every extend-relationship you define. Define the conditions that must be met for the extension to&#xD;
+    occur. Make sure to define the extension point in the base use case at which the extension&amp;nbsp;must be inserted.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        If you do not define any conditions, it means the extension always is performed.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        If the extension use case has several behavior segments that are to be inserted at different extension points in&#xD;
+        the base use case, make sure to define these segments and the extension point for each segment in the base use&#xD;
+        case.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    For more information, see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../practice.tech.use_case_driven_dev.extend-ibm/guidances/guidelines/defining_extend_relationships_9E99C694.html&quot; guid=&quot;_hjbKkEk-Edyi3_jfs__bIQ&quot;>Guideline: Defining Extend Relationships&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

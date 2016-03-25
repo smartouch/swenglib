@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-4YIqmzfr65BtwrUu-pqEoQ" name="refine_col,_grBw8LeMEd-05egMquN4Dg" guid="-4YIqmzfr65BtwrUu-pqEoQ" changeDate="2010-10-25T14:19:44.296-0700" version="7.5.0">
+  <mainDescription>The refinement of the collaboration&amp;nbsp;usually requires addition or modification of class features (ports, operations,&#xD;
+attributes, etc) and class relations.</mainDescription>
+  <sections xmi:id="_DiloIOB-Ed-aE9U0mRj03A" name="Add element into collaboration" guid="_DiloIOB-Ed-aE9U0mRj03A">
+    <sectionDescription>Newly identified elements (classes, objects, functions, variables, etc) must be added correctly into the collaboration, and&#xD;
+linked in the various relations.</sectionDescription>
+  </sections>
+  <sections xmi:id="_FAAoYOB-Ed-aE9U0mRj03A" name="Add or refine operation" guid="_FAAoYOB-Ed-aE9U0mRj03A">
+    <sectionDescription>&lt;p>&#xD;
+    Add an operation to an object or class and/or refine it in terms of:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        parameter list (name or type)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        return value&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        pre-condition&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        post-condition&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        quality of service&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_GDXi0OB-Ed-aE9U0mRj03A" name="Add or refine attribute" guid="_GDXi0OB-Ed-aE9U0mRj03A">
+    <sectionDescription>&lt;p>&#xD;
+    Add or refine an attribute in terms of:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        type&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        range&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        default value&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_HaGFMOB-Ed-aE9U0mRj03A" name="Reify objects into a class" guid="_HaGFMOB-Ed-aE9U0mRj03A">
+    <sectionDescription>Abstract one or more objects into a class; for example, an elevator system contains Floor 1 UP button, Floor 1 DOWN button,&#xD;
+Floor 2 UP button, Elevator Destination Floor 1 button, etc, but only one Button class.</sectionDescription>
+  </sections>
+  <sections xmi:id="_I2VZsOB-Ed-aE9U0mRj03A" name="Add or refine association" guid="_I2VZsOB-Ed-aE9U0mRj03A">
+    <sectionDescription>&lt;p>&#xD;
+    Associations are added between classes when instances of those classes must be able to send messages. They can be&#xD;
+    refined in terms of:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        directionality (unidirectional or bidirectional)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        multiplicity&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        role end name&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        association name or label&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        association type &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                association&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                aggregation&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                composition&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_KOPn0OB-Ed-aE9U0mRj03A" name="Add or refine generalization" guid="_KOPn0OB-Ed-aE9U0mRj03A">
+    <sectionDescription>Generalization is an &quot;is-a-kind-of&quot; relation.&amp;nbsp; Generalization taxonomies can be constructed so that features (ports,&#xD;
+attributes, operations, states, transitions, associations, etc) are available to all subclasses. Refinement is usually an&#xD;
+adjustment of where in the taxonomy a class feature is introduced.</sectionDescription>
+  </sections>
+  <sections xmi:id="_LjCQgOB-Ed-aE9U0mRj03A" name="Add or refine state behavior" guid="_LjCQgOB-Ed-aE9U0mRj03A">
+    <sectionDescription>Classes can specify state machines. State machines enforce ordering of the behavior of a Classifier. State machines can be&#xD;
+refined by adding or changing actions, transitions or states, by nesting of states, or adding sub-machines. In object&#xD;
+analysis, state machines normally grow organically as functionality is added to a class.</sectionDescription>
+  </sections>
+  <sections xmi:id="_NQtTQOB-Ed-aE9U0mRj03A" name="Add or refine flow behavior" guid="_NQtTQOB-Ed-aE9U0mRj03A">
+    <sectionDescription>Flow of control is normally represented either with lines of code in the method body (simple case) or an activity diagram&#xD;
+(complex case). The activity diagrams can be refined by adding or changing flows, operators, actions, activities,&#xD;
+sub-activities, etc. Activity diagrams often grow organically as behavior is added to the class, rather than constructing&#xD;
+the algorithm in all its glory.</sectionDescription>
+  </sections>
+  <keyConsiderations>Make small incremental steps followed by model execution. You should execute the evolving collaboration frequently, from 10&#xD;
+to 60 minutes, typically.</keyConsiderations>
+  <purpose>The purpose of this task is to make small incremental changes to adjust for the newly added or modified elements.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

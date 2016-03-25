@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-_CFzNVUBqBWb4wM_wVYmWg" name="pattern_05_manage_composition_using_service_oriented_solutions,_plisgHypEd6buIXZTkenBw" guid="-_CFzNVUBqBWb4wM_wVYmWg" changeDate="2009-10-29T08:12:11.640-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    In this example we are working to realize a Purchase Order Process.&amp;nbsp;&amp;nbsp;We are dealing with one business&#xD;
+    functional area, that being OrderManagement. This functional area is solely responsible for executing the Purchase&#xD;
+    Order Process.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Our &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/templates/service_solution_design_model_9242B811.html&quot; guid=&quot;_3yebEFIREd6lNtylJFsPIg&quot;>Template: Service Solution Design Model&lt;/a>&amp;nbsp;partitions the information for a given&#xD;
+    &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/termdefinitions/service_oriented_solution.supp_soa_B0376546.html&quot; guid=&quot;_Frp-0IROEd6jqtIeWlQI8A&quot;>service-oriented solution&lt;/a> between two perspective packages -- Service Collaborations&#xD;
+    and &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_architecture_soaml_22F25B9A.html&quot; guid=&quot;_wYQYkEo3Ed6D_7XK49c0nw&quot;>ServicesArchitectures&lt;/a> -- as is seen here.&amp;nbsp; Each perspective has a package for&#xD;
+    the functional area, which itself owns a package for each service-oriented solution that is assigned to it.&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There is logic for dividing the information for a given service-oriented solution between two perspectives.&amp;nbsp; As is&#xD;
+    discussed in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_composition_and_choreography_67057C86.html&quot; guid=&quot;_yAh28IA6Ed6H1oy6lZPykw&quot;>Concept: Service Composition and Choreography&lt;/a>, &amp;lt;&amp;lt;perspective&amp;gt;&amp;gt; Service&#xD;
+    Collaborations is used as the home for &quot;analysis-style&quot; informal modeling of services and their interactions, while&#xD;
+    more formal specification of the communities of &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>Participants&lt;/a> that&amp;nbsp;are involved in each service-oriented solution is performed&#xD;
+    in &amp;lt;&amp;lt;perspective&amp;gt;&amp;gt; ServicesArchitectures.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 1.&amp;nbsp; Parallel structure between Service Collaboration and ServicesArchitecture portions of the&#xD;
+    service solution design template model&lt;/strong>&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp; &lt;img height=&quot;359&quot; alt=&quot;&quot; src=&quot;./resources/pattern_5_sc_vs_sa.jpg&quot; width=&quot;593&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Figure 2 shows how the information for a given ServicesArchitecture -- which is a stereotyped UML Collaboration&#xD;
+    --&amp;nbsp;is organized within the template.&amp;nbsp; The information for a Service Collaboration is organized&#xD;
+    similarly.&amp;nbsp; In the Service Collaboration, the instances generally will be &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/capability_soaml_56747F9.html&quot; guid=&quot;_A5_hYFbBEd6MCpkuB85p5g&quot;>Capabilities&lt;/a>, Interfaces, or &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>ServiceInterfaces&lt;/a>, and the Service Collaboration usually has no ServiceContract&#xD;
+    instances.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 2.&amp;nbsp; Organization of the content for a ServicesArchitecture&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&lt;img height=&quot;274&quot; alt=&quot;&quot; src=&quot;./resources/pattern_5_serv_arch_struc.jpg&quot; width=&quot;597&quot; />&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Full details for the model used in this example are provided in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/examples/soaml_design_model_sample_83612289.html&quot; guid=&quot;_AfQisHNIEd6va-EJWoOsvg&quot;>Example: Sample SoaML Design Model&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

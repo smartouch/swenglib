@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-afz_VQOl5hzJP4K93TYFuQ" name="component_specification,_ivUZwDfWEdyIwaPzqVg2tg" guid="-afz_VQOl5hzJP4K93TYFuQ" version="7.5.0">
+  <sections xmi:id="_Xo1VEItTEd2SzfkXap_cTQ" name="Do interfaces document all operations?" guid="_Xo1VEItTEd2SzfkXap_cTQ">
+    <sectionDescription>&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        Are the operations delivered by a component in the component interaction diagrams documented in its interface?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_dQyloItfEd2SzfkXap_cTQ" name="Does the component specification contain sufficient detail?" guid="_dQyloItfEd2SzfkXap_cTQ">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        For those components to be developed by 3rd parties, are the pre and post conditions on the operations indicated?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are the specifications of the components, taken together with the implementation guidance, sufficient to define the&#xD;
+        context for the subsequent design activities&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Do&amp;nbsp;component interaction diagrams show how the architecturally significant requirements are realized by the&#xD;
+        specified components?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="__Hs1sItfEd2SzfkXap_cTQ" name="Are interfaces well named?" guid="__Hs1sItfEd2SzfkXap_cTQ">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoNormal&quot;         style=&quot;MARGIN: 0in 0in 0pt 22.5pt; TEXT-INDENT: -0.25in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1; tab-stops: list .5in&quot;>&#xD;
+            &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>Does the interface name&amp;nbsp;reflect the role it plays in the&#xD;
+            system?&lt;/span>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoNormal&quot;         style=&quot;MARGIN: 0in 0in 0pt 22.5pt; TEXT-INDENT: -0.25in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1; tab-stops: list .5in&quot;>&#xD;
+            &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>Is the name short, containing only 1-2 words?&lt;/span>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div class=&quot;MsoNormal&quot;         style=&quot;MARGIN: 0in 0in 0pt 22.5pt; TEXT-INDENT: -0.25in; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo1; tab-stops: list .5in&quot;>&#xD;
+            &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial&quot;>Does the name omit the unneeded word &quot;interface&quot;?&lt;/span>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_WdTDIItgEd2SzfkXap_cTQ" name="Are interfaces well described?" guid="_WdTDIItgEd2SzfkXap_cTQ">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Does the description convey the responsibilities of the interface?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is the description several sentences long, up to a short paragraph?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Does the description illuminate the role the interface plays in the system, rather than simply restate the name of&#xD;
+        the interface?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Doe the interface specify&amp;nbsp;how the operations are used, and the order in which they are performed?&amp;nbsp; Do&#xD;
+        example sequence diagrams help illustrate the ordering of operations when needed?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        If the component that realizes an interface has externally-observable states, are the states illustrated by a state&#xD;
+        diagram?&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_w8UfoItgEd2SzfkXap_cTQ" name="Are operations well named?" guid="_w8UfoItgEd2SzfkXap_cTQ">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Do operation names reflect the result of the operation?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        When an operation sets or gets information, is the unneeded word &quot;set&quot; or &quot;get&quot; omitted&amp;nbsp;in the name of the&#xD;
+        operation?&amp;nbsp;Is it clear&amp;nbsp;that operations named after component data without parameters retrieve values,&#xD;
+        while corresponding operations with&amp;nbsp;parameters set values?&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_fXYMwIthEd2SzfkXap_cTQ" name="Are operations well described?" guid="_fXYMwIthEd2SzfkXap_cTQ">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Does the description of each operation describe what the operation does, including any key algorithms, and what&#xD;
+        value it returns?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Does the description name the parameters of the operation to indicate what information is being passed to the&#xD;
+        operation?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is the operation's return value specified, detailing possible values?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Does each parameter and return value identify its type?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_ehhGUItiEd2SzfkXap_cTQ" name="Are interfaces well structured?" guid="_ehhGUItiEd2SzfkXap_cTQ">
+    <sectionDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Are interfaces simple yet complete, providing all necessary operations, yet sufficient to specify a single service?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are interfaces understandable, providing sufficient information to both use and realize the interface without&#xD;
+        having to examine an existing usage or implementation?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are interfaces approachable, providing information to guide the user to its key properties without being&#xD;
+        overwhelmed by the details of the operations?&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

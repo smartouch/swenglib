@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-2flDiQ1cCPFxVwR6BJ6Bww" name="new_guideline,_iD0hMOLAEd-G2pDngtqTxA" guid="-2flDiQ1cCPFxVwR6BJ6Bww" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    A scenario is a particular actor-system interaction corresponding to a use case. It is a specific example of a use case&#xD;
+    execution in the system's operational environment. Scenarios have branching points at which there may be several&#xD;
+    responses or actions available to either the actor or the system. By this definition, many scenarios are required to&#xD;
+    fully elaborate a use case--typically one dozen to several dozen.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The object analysis model (aka PIM) executes to meet the functional requirements of the system, but is almost&#xD;
+    inevitably inadequate in terms of performance and other design considerations. As we add design elements, we elaborate&#xD;
+    the scenarios to ensure not only that the functionality isn't broken by our design decisions but also that the desired&#xD;
+    design optimizations are achieved.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is not possible to completely test all parts/interactions of a system at once. Therefore, scenarios are used to test&#xD;
+    a system in parts. A scenario shows how collaborations of objects interact. It represents typical paths through the&#xD;
+    state space as the system is used. Scenarios may not visit all states in all the participant objects nor activate all&#xD;
+    transitions, but they provide an order-dependent view of how the set of objects is expected to behave under some set of&#xD;
+    conditions with a specific ordering of external and internal stimuli. Because a scenario does not have enough&#xD;
+    information to fully define the complete behavioral model of an object, scenarios are said to be partially&#xD;
+    constructive. They can add operations and event handling to a state model, but they do not fully define the model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is best to start with the most simple and straight-forward scenario, execute and test that scenario, then add the&#xD;
+    next most simple and straight-forward scenario, execute and test that scenario, etc. By starting off small and working&#xD;
+    towards more complex scenarios, you can ensure that the most basic parts of your system are correct before trying to&#xD;
+    test more complex aspects.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

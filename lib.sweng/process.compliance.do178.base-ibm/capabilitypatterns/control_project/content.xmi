@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-L4X09U-GKCZLeVxE_zoIyg" name="vision,_FohRAG9kEeCJFoHdlpPovQ" guid="-L4X09U-GKCZLeVxE_zoIyg">
+    <keyConsiderations>&lt;p>&#xD;
+    It is good practice to keep this artifact brief, so you can release it to stakeholders as soon as possible, and to make&#xD;
+    the artifact easy for stakeholders to read and understand. You can accomplish this by including only the most important&#xD;
+    features and avoiding details of requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Projects that focus on product development might extend the marketing section and include a more detailed product&#xD;
+    position statement that is based on their needs and research.&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-beAFbyJSCulZ_N1vU_OUjw" name="risk_list,_FohRBm9kEeCJFoHdlpPovQ" guid="-beAFbyJSCulZ_N1vU_OUjw">
+    <keyConsiderations>&lt;p>&#xD;
+    This list should capture the critical and serious risks. If you find this list extending beyond 20 items, carefully&#xD;
+    consider whether they are really serious risks. Tracking more than 20 risks is an onerous task.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This list identifies, in decreasing order of priority, all the &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.base/guidances/termdefinitions/risk_33255339.html&quot;&#xD;
+    guid=&quot;_ii2LUEvGEdunZcj9T5hrMQ&quot;>risks&lt;/a> associated to a project.&amp;nbsp;It serves as a focal point for project&#xD;
+    activities, and is the basis around which iterations are organized.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.mgmt.common.extend_supp/guidances/concepts/risk_AF5840DA.html&quot;&#xD;
+    guid=&quot;_0bsLgMlgEdmt3adZL5Dmdw&quot;>Concept: Risk&lt;/a>&amp;nbsp;for more details.&lt;!--EndFragment-->&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-FKDiNzhwWsomZWi03YRIag" name="update_hazard_analysis,_KHEf8G9kEeCJFoHdlpPovQ" guid="-FKDiNzhwWsomZWi03YRIag">
+    <refinedDescription>The hazard analysis is a key document for safety critical systems as it combines the description of the hazards, the level&#xD;
+of risk, system faults that can lead to the hazard, and the control measures all together in a single view. The Fault is a&#xD;
+non-compliance of the system that can lead to the identified hazard. The severity is a measure of how bad the hazard is (an&#xD;
+arbitrary scale of 1-10 is used often used). The Risk is a value computed by the likelihood multiplied by the severity of&#xD;
+the occurrence. This task keeps the hazard analysis up to date, re-performing fault tree and failure modes and effect&#xD;
+analyses as appropriate.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-U-JbVwEVcRlHtIv__A8Jnw" name="rt_safe_czar,_KHEf8W9kEeCJFoHdlpPovQ" guid="-U-JbVwEVcRlHtIv__A8Jnw">
+    <refinedDescription>&lt;p>&#xD;
+    This&amp;nbsp;role only exists within projects developing safety critical systems or applications.&amp;nbsp;This &amp;nbsp;role is&#xD;
+    active throughout the project development and participates and oversees the following activities:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Specifying safety requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Analyzing work products for safety, including&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Requirements&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Use Cases&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Requirements scenarios&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Architecture&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Algorithms&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Classes, functions, and variables&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Test suites and test cases&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Configuration Management approach&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Performing fault tree analysis (FTA) to determine relations of faults, hazards, risks, and control measures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Reviewing work products for adherence to safety requirements and/or regulations&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Performing traceability between safety requirements and work products&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    With the explicit allocation of responsibility for safety, safety critical projects can be run more efficiently and&#xD;
+    productively, while reducing the risk of failing to meet the safety needs of the developed product.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JPkDPxxE-mIWtVWD83X7Rg" name="rt_rel_czar,_KHEf829kEeCJFoHdlpPovQ" guid="-JPkDPxxE-mIWtVWD83X7Rg">
+    <refinedDescription>This&amp;nbsp;role only exists within projects developing high-reliability systems or applications. The Reliability Czar role&#xD;
+is active throughout the project development and participates and oversees the following activities &#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Specifying reliability requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Analyzing work products for reliability, including &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Requirements&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Use Cases&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Requirements scenarios&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Architecture&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Algorithms&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Classes, functions, and variables&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Test suites and test cases&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Configuration Management approach&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Performing Fault Means Effect Analysis (FMEA)&amp;nbsp;to determine relations of faults, hazards, risks, and control&#xD;
+        measures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Reviewing work products for adherence to reliability requirements and/or regulations&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Performing traceability between reliability&amp;nbsp;requirements and work products&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    With the explicit allocation of responsibility for reliability, high-reliability projects can be run more efficiently&#xD;
+    and productively, while reducing the risk of failing to meet the safety needs of the developed product.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Z3mQjyNlhng8riqph5QqIQ" name="haz_an,_KHEf9W9kEeCJFoHdlpPovQ" guid="-Z3mQjyNlhng8riqph5QqIQ">
+    <keyConsiderations>All the relevant hazards of the system and the faults that can lead to those hazards must be identified in the hazard&#xD;
+analysis.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The hazard analysis is a key document for safety critical systems (see Term Definition: Safe) as it combines the&#xD;
+    description of the hazards, the level of risk, system faults that can lead to the hazard, and the control measures all&#xD;
+    together in a single view. The Fault is a non-compliance of the system that can lead to the identified hazard. The&#xD;
+    severity is a measure of how bad the hazard is (an arbitrary scale of 1-10 is used often used). The Risk is a value&#xD;
+    computed by the likelihood multiplied by the severity of the occurrence.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    All safety critical systems are real-time systems as well, since each fault has a period of time that it can be&#xD;
+    tolerated (called its Fault Tolerance Time). To be considered safe against a specific fault, the sum of the fault&#xD;
+    detection time and the control time (the time required for the control measure to handle the fault) must be less than&#xD;
+    or equal to the fault tolerance time.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The hazard analysis is usually coupled with one or more Fault Tree Analysis (FTA) to show how faults and other&#xD;
+    conditions can combine to lead to hazards.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The hazard analysis is created during the requirements analysis phase but not all aspects (such as the control&#xD;
+    measures) may be identified early on. The hazard analysis should be maintained throughout the development cycle - as&#xD;
+    new hazards or faults are identified, they must be added to the table. As control measures are specified, the analysis&#xD;
+    must be updated as well.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-W9R0rQKGE1T2_X0rWCuY-Q" name="fmea,_KHhL4G9kEeCJFoHdlpPovQ" guid="-W9R0rQKGE1T2_X0rWCuY-Q">
+    <refinedDescription>&lt;p>&#xD;
+    An FMEA is most often used in a bottom-up approach - that is detailed failures are examined to determine their ultimate&#xD;
+    consequences. In contrast, Fault Tree Analysis is more commonly used in a top-down approach, beginning with hazards and&#xD;
+    then determining what faults elicit them.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    FMEA and FTA are used in both reliability engineering and safety-critical system engineering.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-YuRLro3-NTNYoIPW5jWgng" name="fta,_KHhL4m9kEeCJFoHdlpPovQ" guid="-YuRLro3-NTNYoIPW5jWgng">
+    <refinedDescription>&lt;p>&#xD;
+    An FTA uses logical operators (commonly AND, OR, and NOT, but may also include XOR, NOR, and NAND) to depict the&#xD;
+    explicit relation between normal and exception (i.e. error) conditions and normal and exception (i.e. failure) events.&#xD;
+    FTA can be used to depict the causal chain of events and conditions for an existing design and also drive the&#xD;
+    development of design approaches (called control measures) that address the safety issues. These control measures are&#xD;
+    then added to the FTA as &quot;ANDing redundancy&quot; so that for the hazard to be manifest, both the original condition or&#xD;
+    fault must occur AND the control measure must fail as well.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An FTA is most often used in a top-down fashion, beginning with the hazards and the discovering that underlying faults&#xD;
+    that can lead to them. In contrast, an Fault Means and Effect Analysis (FMEA) is most often used in a bottom up&#xD;
+    fashion, beginning with the failures and then determining the consequences. Both are used in reliability and safety&#xD;
+    engineering.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-DhujBfBm_0z__wECBpNK1w" name="work_items_list,_h5WIIZErEeCnTdC8bcBfaw" guid="-DhujBfBm_0z__wECBpNK1w">
+    <keyConsiderations>&lt;p>&#xD;
+    Work Items should contain estimates. See guidelines on managing work items and agile estimation.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact provides a focal point for the entire team:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        It provides one list containing all requests for additional capabilities or enhancement for that application. Note&#xD;
+        that some of these requests may never be implemented, or be implemented in later projects.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one list of all the work to be prioritized, estimated, and assigned within the project. The risk list&#xD;
+        is prioritized separately.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one place to go to for the development team to understand what&amp;nbsp;micro-increments&amp;nbsp;need to be&#xD;
+        delivered, get references to material required to carry out the work, and report progress made.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    These are the typical work items that go on this list:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Use cases (and references to use-case specifications)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        System-wide requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Changes and enhancement requests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defects&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Development tasks&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Work items can be very large in scope, especially when capturing requests for enhancements, such as &quot;Support Financial&#xD;
+    Planning&quot; for a personal finance application. To allow the application to be developed in micro-increments, work items&#xD;
+    are analyzed and broken down into smaller work items so that they can be assigned to an iteration, such as a use-case&#xD;
+    scenario for&amp;nbsp;&quot;Calculate Net Worth&quot;. Further breakdown may be required to identify suitable tasks to be assigned to&#xD;
+    developers, such as &quot;Develop UI for Calculate Net Worth&quot;. This means that work items often have parent/child&#xD;
+    relationships, where the lowest level is a specification and tracking device for micro-increments.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-OkoAgthEnrwjPuQsiV4szA" name="iteration_plan,_h5WII5ErEeCnTdC8bcBfaw" guid="-OkoAgthEnrwjPuQsiV4szA">
+    <keyConsiderations>&lt;p>&#xD;
+    Work items assigned to an iteration do not necessarily have the same priority. When selecting work items from the Work&#xD;
+    Items List, the iteration plan may end up having work items with different priorities (for example, you assign the&#xD;
+    remaining high priority work items, plus a few mid-priority ones from the Work Items List). When work items are&#xD;
+    assigned to an iteration, no matter what their previous priorities, the team has to make sure that they are able to&#xD;
+    develop what has been assigned to the iteration. Deciding what to develop first (or even to develop things in parallel)&#xD;
+    on an iteration will vary from project to project, from iteration to iteration.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact captures the key milestones of an iteration, showing start and end dates, intermediate milestones,&#xD;
+    synchronization points with other teams, demos, and so on. This artifact is also used to capture issues that need to be&#xD;
+    solved during the iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You should list a few objectives for the iteration, which will help guide you throughout the iteration. Also, assess at&#xD;
+    the end if those objectives have been achieved.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The task assignments for an iteration are a subset of all tasks on the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html&quot;&#xD;
+    guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;>Artifact: Work Items List&lt;/a>. Therefore, the iteration plan ideally references those&#xD;
+    work items.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The evaluation criteria and iteration assessment information are captured in this artifact, so that you can communicate&#xD;
+    results and actions from assessments.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-hv023Sh083duZsQifHHf5g" name="manage_iteration,_lQEzYJErEeCnTdC8bcBfaw" guid="-hv023Sh083duZsQifHHf5g">
+    <keyConsiderations>&lt;p>&#xD;
+    Select an approach for the collection of basic metrics: ideally, they are automatically generated from the tools at&#xD;
+    hand, but can be manually assembled, or both. Outline which metrics the project should use in the &lt;a&#xD;
+    class=&quot;elementLink&quot; href=&quot;./../../core.mgmt.slot.base/workproducts/project_definition_and_scope_slot_BB8EB6F7.html&quot;&#xD;
+    guid=&quot;_RJMUcNpUEdyzZqGyZ7hwdw&quot;>[Project Definition and Scope]&lt;/a>.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    Developing the team is part of executing the project. The project manager is responsible for improving the interactions&#xD;
+    and trust between team members, incorporating team building into project activities, and empowering the team to make&#xD;
+    decisions. Management is done by objectives and not by time reporting.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The project manager helps the team meet the iteration objectives by removing constraints, and by monitoring the&#xD;
+    progress and work remaining to completion. When the team is falling behind, the project manager helps the team assess&#xD;
+    how it can reduce work and still meet the iteration goals. Involve stakeholders in approving changes and actions that&#xD;
+    affect them, so that their objectives for the iteration can be met, and the issues they raise can be solved throughout&#xD;
+    the iteration.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-SZI1aaR-aBz7aUZBmH4qWA" name="control_project,_N6xn4Ww_EeCcMLi_sG6TzQ" guid="-SZI1aaR-aBz7aUZBmH4qWA" version="7.5.1"/>
+</xmi:XMI>

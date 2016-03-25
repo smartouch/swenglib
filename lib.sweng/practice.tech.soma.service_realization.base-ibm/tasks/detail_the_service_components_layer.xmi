@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-7Fv7vFdP1Zv70SChJxWw6Q" name="allocate_service_components_to_layers,_zandcGWuEd6Zd-lbA790BQ" guid="-7Fv7vFdP1Zv70SChJxWw6Q" changeDate="2009-09-29T11:53:11.375-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    In this task, we leverage prior work performed during &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_realization.base-ibm/tasks/document_service_realization_decisions_FBBF29EC.html&quot; guid=&quot;_3ad-MGWuEd6Zd-lbA790BQ&quot;>Task: Document Service Realization Decisions&lt;/a>&amp;nbsp;to detail the designs of the&#xD;
+    Service, Technical, and Functional components that realize services.&amp;nbsp; We assume that we have the following level&#xD;
+    of artifacts in hand:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A completed Service Model;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A Component Model, including (at least) external specification of Service, Functional, and Technical components,&#xD;
+        their relationships,&amp;nbsp;and the behavioral flows between them;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Architectural Decisions, including realization decisions for each Service Component.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Unless this is a greenfield development, it is likely that a Component Design artifact, which documents the internal&#xD;
+    details of the components,&amp;nbsp;exists with some usable content.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    We further assume that IBM's &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/soa_solution_stack_1DD21069.html&quot; guid=&quot;_PlxhEGWuEd6Zd-lbA790BQ&quot;>SOA Solution Stack&lt;/a> is being used as the SOA functional reference architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The results of this task include the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Detailed designs of the Service, Functional, and Technical components, ready for implementation;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Details of how the components will be integrated at run-time; and&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Details of how the components will leverage the resources from the Operational Systems layer of the SOA Solutions&#xD;
+        Stack.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The following steps are not necessarily performed in sequence.&amp;nbsp; Rather, view them as a collection of actions to be&#xD;
+    performed as the service components are detailed.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_8miykIBqEd6gDe17473oSQ" name="Design the interfaces between the Service Components and the Operational Systems layers" guid="_8miykIBqEd6gDe17473oSQ">
+    <sectionDescription>&lt;p>&#xD;
+    &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_realization.base-ibm/tasks/document_service_realization_decisions_FBBF29EC.html&quot; guid=&quot;_3ad-MGWuEd6Zd-lbA790BQ&quot;>Task: Document Service Realization Decisions&lt;/a>&amp;nbsp;results in mappings being created&#xD;
+    between some Service Components and components in the Operational Systems layer that will realize them.&amp;nbsp; &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_realization.base-ibm/guidances/guidelines/making_realization_decisions_9F84FC4E.html&quot; guid=&quot;_fdSzYGWuEd6Zd-lbA790BQ&quot;>Guideline: Making Realization Decisions&lt;/a>&amp;nbsp;describes some of the techniques that&#xD;
+    can be used for service-enabling these pre-existing assets. This step involves developing the details of how those&#xD;
+    realizations are to be implemented.&amp;nbsp; Document these decisions in the Component Model or in Component Design.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_eKktcIBsEd6gDe17473oSQ" name="Design the internal details of to-be-built components" guid="_eKktcIBsEd6gDe17473oSQ">
+    <sectionDescription>In some cases, new components must be created for the Service Components layer.&amp;nbsp; Use standard object-oriented and&#xD;
+component design techniques, such as are described in the Component Based Software Architecture practice of the IBM&#xD;
+Practice Library, to specify the internals of these components.&amp;nbsp; Alternatively, apply the techniques described in the&#xD;
+Service Specification practice&amp;nbsp;recursively to drive down to the lowest levels of design detail.&amp;nbsp; Be certain to&#xD;
+reuse appropriate patterns, such as those described in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/service_component_patterns_24F299DA.html&quot; guid=&quot;_iQvsEGWmEd6Zd-lbA790BQ&quot;>Guideline: Service Component Patterns&lt;/a>&amp;nbsp;and in numerous &lt;a href=&quot;http://www.redbooks.ibm.com/cgi-bin/searchsite.cgi?query=Pattern&quot; target=&quot;_blank&quot;>IBM redbooks on patterns&lt;/a>.&amp;nbsp;&#xD;
+Document this work in the Component Design work product.</sectionDescription>
+  </sections>
+  <sections xmi:id="_XuJAEIBtEd6gDe17473oSQ" name="Specify necessary interactions with the layer's run-time infrastructure" guid="_XuJAEIBtEd6gDe17473oSQ">
+    <sectionDescription>In many cases, the components in this layer will not need special knowledge of the run-time infrastructure that surrounds&#xD;
+them.&amp;nbsp; If&amp;nbsp;this is not the case, be certain to honor the necessary interactions in the detailed design.&amp;nbsp;&#xD;
+Document this work in the Component Design work product.</sectionDescription>
+  </sections>
+  <sections xmi:id="_6bdTsIBtEd6gDe17473oSQ" name="Allocate code elements to micro-layers within the Service Components layer" guid="_6bdTsIBtEd6gDe17473oSQ">
+    <sectionDescription>&lt;p>&#xD;
+    Think through how future code elements will be packaged in order to control visibility and access.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Some things to consider in making these packaging decisions include the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        All components that provide application-independent business functionality can go in one layer.&#xD;
+        Application-independent business functions are things like &quot;customer management&quot; and &quot;product management&quot; that&#xD;
+        apply to a range of different applications.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All components that provide technical functions, such as error handling, authentication, logging and audit could go&#xD;
+        in another (logical) layer. These components are both business and application independent. In some cases,&#xD;
+        proximity of technical to functional components might require they be placed in a common layer. These are&#xD;
+        architectural decisions and need to be documented as such.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_AknYYIBwEd6gDe17473oSQ" name="Document run-time relationships between component instances" guid="_AknYYIBwEd6gDe17473oSQ">
+    <sectionDescription>Until&amp;nbsp;the ultimate (leaf-level code module) level of decomposition is reached, the components in this layer are akin&#xD;
+to the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>Participants&lt;/a> which were specified in the Service Specification practice.&amp;nbsp; That is,&#xD;
+they are components that&amp;nbsp;(should) expose their capabilities using well-defined and well-described interfaces.&amp;nbsp;&#xD;
+Accordingly, the run-time (instance-level) structure and behavior of the components which are found at each level of&#xD;
+decomposition&amp;nbsp;can be described using the same techniques -- such as conventional Collaborations and&#xD;
+ServicesArchitectures -- which were used during Service Specification.&amp;nbsp; Describe higher-level interactions in the&#xD;
+Component Model, and detailed interactions (driving component internals) in Component Design.</sectionDescription>
+  </sections>
+  <purpose>To provide detailed designs of the Service, Functional, and Technical components that realize services.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

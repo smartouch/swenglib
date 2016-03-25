@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-vXoRXWpfbdtYAWVeBKCneg" name=",_MTfpYFPHEeC0QeFAXej8ZA" guid="-vXoRXWpfbdtYAWVeBKCneg" changeDate="2011-09-12T16:58:14.375-0700" version="7.5.1">
+  <mainDescription>&lt;br /></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    This may not be necessary&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        For big organization&amp;nbsp;because they may&amp;nbsp;have separate tool department or a tool administrator to setup&#xD;
+        configuration management environment.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        For smaller project which are not mature enough&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&lt;br /></keyConsiderations>
+  <sections xmi:id="_p0MMcFcPEeC0QeFAXej8ZA" name="Set up the CM Hardware Environment " guid="_p0MMcFcPEeC0QeFAXej8ZA">
+    <sectionDescription>&lt;p>&#xD;
+    The Configuration Manager works with the System Administrator to allocate machine resources, and install the necessary&#xD;
+    software tools.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The key considerations (in order of priority) for the machine dedicated to running the server that mediates access to&#xD;
+    actual data in&amp;nbsp; the project repository are the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Memory Requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Disk Input / Output Requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Network Bandwidth&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Project Repository Disk Space&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Information on each of these items is provided under the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.mgmt.configuration_mgmt.base-ibm/workproducts/project_repository_8F07DAE2.html&quot;&#xD;
+    guid=&quot;_gPi2MFPJEeC0QeFAXej8ZA&quot;>Project Repository&lt;/a>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_0HuRwFcPEeC0QeFAXej8ZA" name="Map the Architecture to the Repository " guid="_0HuRwFcPEeC0QeFAXej8ZA">
+    <sectionDescription>The product directory structure serves a logically nested placeholder for all product-related work products. The shape of&#xD;
+the directory (which serves as the project repository) depends on the number of subsystems in the overall system, and the&#xD;
+number of elements in each subsystem.</sectionDescription>
+  </sections>
+  <sections xmi:id="_OBUtAFcQEeC0QeFAXej8ZA" name="Create Initial Set of Versioned Elements" guid="_OBUtAFcQEeC0QeFAXej8ZA">
+    <sectionDescription>Even on projects with no configuration management there is a notion of a directory structure and an existing body of&#xD;
+material that is used by the project on an on-going basis. The idea is to export/import the existing material into the&#xD;
+structure created for product development.</sectionDescription>
+  </sections>
+  <sections xmi:id="_v8SQcJkYEeCUCpXXVmHvNQ" name="Create Integration Workspace" guid="_v8SQcJkYEeCUCpXXVmHvNQ">
+    <sectionDescription>Create private workspace, where individuals can develop and change code in a contained area&lt;i>.&lt;/i> The integration&#xD;
+workspace is where subsystem and system integrators convince themselves that separately developed and tested components can&#xD;
+indeed work together as a product.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to establish an environment where the product can be developed and built. This is done in two&#xD;
+parts, firstly by setting up the hardware environment, and then by establishing the development environment.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

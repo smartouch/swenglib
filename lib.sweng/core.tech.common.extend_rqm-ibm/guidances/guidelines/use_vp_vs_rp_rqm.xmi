@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Az-oKhmJhQ9VpP9yvURzTw" name="use_vp_vs_rp_rqm,_Nhw24EbVEd2H4axSXHkZBg" guid="-Az-oKhmJhQ9VpP9yvURzTw" changeDate="2008-10-02T08:51:05.812-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    A manual test script contains steps, verification points and reporting points. The step is used to define an action to&#xD;
+    be executed. The verification and reporting points are special steps where a comparison must be executed between what's&#xD;
+    observed in the object under test and what is expected. In the case of manual testing the object under test can be an&#xD;
+    application or a physical device (&quot;Is the light switched on?&quot;). There is no real difference on how RQM deals with a&#xD;
+    verification point and a reporting point.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Adding more verification points to a script will give detailed reporting but will also be more time consuming (read&#xD;
+    expensive) to execute. Use verification points and reporting points wisely. Make note that for every step or&#xD;
+    verification or reporting point an associated defect could be created.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Special attention must be given to the last verification or reporting point. This sets the Actual Result in the&#xD;
+    Execution Results of the test in RQM. The final state can be changed in the Execution Results before saving to a more&#xD;
+    comprehensive state. The available states can be set in the administrative System Properties.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Actual Result of the last execution is visible in the status of the test case. Reporting and queries make use of&#xD;
+    this status in the Test Case Execution Result (TER).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    By adding a final (reporting) verification point to each script, one can capture the overall assessment, complemented&#xD;
+    with a comment from the tester, of the execution in the script log. The pass/fail result might be 'translated' into a&#xD;
+    more comprehensive execution result for the test case.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note: The list for the Actual Result field can be customized by users with Admin privileges.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

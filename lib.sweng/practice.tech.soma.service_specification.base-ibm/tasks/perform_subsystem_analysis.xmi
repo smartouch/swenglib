@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-A35kyRKM20GqK41E5_RbPw" name=",_Iui_4Hq9Ed6TH_N7AhVgiA" guid="-A35kyRKM20GqK41E5_RbPw" changeDate="2009-10-01T10:29:31.825-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Subsystem analysis establishes traceability from business &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.bus.common.extend-ibm/guidances/concepts/functional_area_analysis_9B1F96D5.html&quot; guid=&quot;_fk1woEo1Ed6D_7XK49c0nw&quot;>functional areas&lt;/a> to the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/design_subsystem_47086B8E.html&quot; guid=&quot;_5inEwEo2Ed6D_7XK49c0nw&quot;>IT subsystems&lt;/a> that support each such area.&amp;nbsp;&amp;nbsp;This process  prepares for detailed&#xD;
+    design by building understandings of the dependencies between the IT subsystems.&amp;nbsp; Finally, you make initial&#xD;
+    decisions regarding which detailed components will be involved in realizing each service in the service&#xD;
+    model.&amp;nbsp;&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This task marks the beginning of the transition from service solution specification into service realization design --&#xD;
+    that is, identification and design of the components that underpin the services.&amp;nbsp; Prior to this point, you have&#xD;
+    finished the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/workproducts/service_model_B9A1BF81.html&quot; guid=&quot;_IgcA4Eo1Ed6D_7XK49c0nw&quot;>service&#xD;
+    model&lt;/a>.&amp;nbsp; Now, begin focusing on&amp;nbsp;component-based design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The steps of this task are not necessarily performed in sequence -- and, sometimes, they need to be performed in&#xD;
+    concert with steps in other tasks.&amp;nbsp; For example, it is likely that some&amp;nbsp;dependencies between subsystems will&#xD;
+    be discovered during the&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../practice.tech.soma.service_specification.base-ibm/tasks/perform_component_specification_327DBD42.html&quot; guid=&quot;_MPsycHq9Ed6TH_N7AhVgiA&quot;>component specification task&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_pfKsIJifEd69jrnQ2K7ppQ" name="Identify IT subsystems" guid="_pfKsIJifEd69jrnQ2K7ppQ">
+    <sectionDescription>&lt;p>&#xD;
+    In the&amp;nbsp;component model, create an &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/design_subsystem_47086B8E.html&quot; guid=&quot;_5inEwEo2Ed6D_7XK49c0nw&quot;>IT subsystem&lt;/a> for each &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.bus.common.extend-ibm/guidances/concepts/business_subsystem_622C6CDE.html&quot; guid=&quot;_zfz4kGpmEd6g0_jzBUWUGg&quot;>business subsystem or business service interface&lt;/a>&amp;nbsp;that has been identified for&#xD;
+    each relevant functional area in the Functional Area model.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_8FksUHuwEd6TH_N7AhVgiA" name="Model subsystem dependencies" guid="_8FksUHuwEd6TH_N7AhVgiA">
+    <sectionDescription>Document subsystem dependencies in the&amp;nbsp;component model.&amp;nbsp; See&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.tech.soma.service_specification.base-ibm/guidances/guidelines/considerations_for_identifying_subsystem_dependencies_4EC100B7.html&quot; guid=&quot;_RJMfcJiiEd69jrnQ2K7ppQ&quot;>Considerations for Identifying Subsystem Dependencies&lt;/a>&amp;nbsp;to read more&#xD;
+about&amp;nbsp;reasons for doing this, dependency drivers, and how to model these dependencies.</sectionDescription>
+  </sections>
+  <sections xmi:id="_x1NaUHuxEd6TH_N7AhVgiA" name="Identify service component" guid="_x1NaUHuxEd6TH_N7AhVgiA">
+    <sectionDescription>&lt;p>&#xD;
+    In accordance with &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_component_54F50804.html&quot; guid=&quot;_Gcmp8GZaEd65K8S2sWS35w&quot;>Concept: Service Component&lt;/a>, define a service component in the&amp;nbsp;component&#xD;
+    model&amp;nbsp;to realize each service.&amp;nbsp; Allocate each service component to an IT subsystem.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    All the services that are provided by a given participant usually are realized by a single&amp;nbsp;service&#xD;
+    component.&amp;nbsp; If this is not the case, the SOA Architect&amp;nbsp;needs to&amp;nbsp;revisit the service model and consider&#xD;
+    refactoring the participant.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/service_component_patterns_24F299DA.html&quot; guid=&quot;_iQvsEGWmEd6Zd-lbA790BQ&quot;>Guideline: Service Component Patterns&lt;/a>&amp;nbsp;to learn more about how to transition&#xD;
+    from services to the components that implement the services.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_982FEHuyEd6TH_N7AhVgiA" name="Identify functional components" guid="_982FEHuyEd6TH_N7AhVgiA">
+    <sectionDescription>&lt;p>&#xD;
+    Identify the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/functional_component_595EAFE6.html&quot; guid=&quot;_Ocmr0GWpEd6Zd-lbA790BQ&quot;>functional components&lt;/a> that support each service component.&amp;nbsp; See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/identify_functional_components_A79BBCA0.html&quot; guid=&quot;_WorVYGWpEd6Zd-lbA790BQ&quot;>Guideline: Identify Functional Components&lt;/a>, &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/functional_component_4DCB9152.html&quot; guid=&quot;_yfK0cG5XEd6r8IYEh61bnQ&quot;>Example: Functional Component&lt;/a>, and &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/service_component_patterns_24F299DA.html&quot; guid=&quot;_iQvsEGWmEd6Zd-lbA790BQ&quot;>Guideline: Service Component Patterns&lt;/a>&amp;nbsp;for additional advice and information.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_gCEd8HuzEd6TH_N7AhVgiA" name="Identify Technical Components" guid="_gCEd8HuzEd6TH_N7AhVgiA">
+    <sectionDescription>&lt;p>&#xD;
+    Identify the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/technical_component_D89DA554.html&quot; guid=&quot;_RjrxgGWpEd6Zd-lbA790BQ&quot;>technical components&lt;/a> that support each service component.&amp;nbsp; See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/identify_technical_components_25AAD57D.html&quot; guid=&quot;_bku_sGWpEd6Zd-lbA790BQ&quot;>Guideline: Identify Technical Components&lt;/a>,&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/technical_component_FC4D8474.html&quot; guid=&quot;_Mp6DAG5YEd6r8IYEh61bnQ&quot;>Example: Technical Component&lt;/a>, and &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/service_component_patterns_24F299DA.html&quot; guid=&quot;_iQvsEGWmEd6Zd-lbA790BQ&quot;>Guideline: Service Component Patterns&lt;/a>&amp;nbsp;for additional advice and information.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To establish the linkage between business models and IT implementations&#xD;
+  &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To identify the service realization components that will be designed in detail&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

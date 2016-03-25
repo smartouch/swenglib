@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-iwu5v4eb6RMMBNImA8FNLA" name="design_performance_test,_Tbp-kHODEdyur-UVVhx-aQ" guid="-iwu5v4eb6RMMBNImA8FNLA" changeDate="2008-02-20T16:54:08.031-0800" version="7.2.0">
+  <sections xmi:id="_SC4wgHeDEdyqd9oUl_5ulw" name="Design the Modeled Workload" guid="_SC4wgHeDEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Break down the overall transaction rates and user scenarios into a set of keystroke and button click level user action&#xD;
+    sequences.&amp;nbsp; Each of these user sequences is considered a building block of the workload for a performance test.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    These tests are then mapped back onto transaction rates and the various user types (also called user&#xD;
+    groups).&amp;nbsp;&amp;nbsp; Each user group has specific rates and frequencies for the various transactions that group is&#xD;
+    expected to perform during the performance test.&#xD;
+&lt;/p>Another part of the design is the identification of where the user scenarios need to input unique values from a list&#xD;
+for each individual modeled user and places where the user scenarios need to make random selections to defeat caching&#xD;
+features of the system under test.&amp;nbsp; You then construct the sets of data values and adjust the user input sequences and&#xD;
+expected responses in the test programs to handle the variation of data inputs.</sectionDescription>
+  </sections>
+  <sections xmi:id="_TXrZMHeDEdyqd9oUl_5ulw" name="Build Workload Elements" guid="_TXrZMHeDEdyqd9oUl_5ulw">
+    <sectionDescription>Once all of the tests have been validated, a test schedule is created that models the production workload in order to&#xD;
+achieve the goals of the performance test.&amp;nbsp; The workload definition document should include the specifications for&#xD;
+think time variation, transaction rates, and the mixture of tests performed by each type of user described.&amp;nbsp; These&#xD;
+specifications result in parameter settings and test sequence design that is captured in the test schedule.&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_UuZ7kHeDEdyqd9oUl_5ulw" name="Ensure that Performance Tests are Consistent with Test Architecture" guid="_UuZ7kHeDEdyqd9oUl_5ulw">
+    <sectionDescription>Verify that the designed performance tests are consistent with the test automation architecture.&amp;nbsp; Review the test&#xD;
+architecture to also ensure that the modeled performance tests can be supported by the test environment configuration.</sectionDescription>
+  </sections>
+  <sections xmi:id="_WFH24HeDEdyqd9oUl_5ulw" name="Evaluate and Verify Results" guid="_WFH24HeDEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Now that you have completed the work, it is beneficial to verify that the work was of sufficient value, and that you&#xD;
+    did not simply consume vast quantities of paper. You should evaluate whether your work is of appropriate quality, and&#xD;
+    that it is complete enough to be useful to those team members who will make subsequent use of it as input to their&#xD;
+    work. Where possible, use the checklists provided in RUP to verify that quality and completeness are &quot;good enough&quot;.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Have the people performing the downstream tasks that rely on your work as input take part in reviewing your interim&#xD;
+    work. Do this while you still have time available to take action to address their concerns. You should also evaluate&#xD;
+    your work against the key input work products to make sure you have represented them accurately and sufficiently. It&#xD;
+    may be useful to have the author of the input work product review your work on this basis.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Since RUP is an iterative delivery process, in many cases work products evolve over time. As such, it is not usually&#xD;
+    necessary-and is often counterproductive-to fully-form a work product that will only be partially used or will not be&#xD;
+    used at all in immediately subsequent work. This is because there is a high probability that the situation surrounding&#xD;
+    the work product will change-and the assumptions made when the work product was created proven incorrect-before the&#xD;
+    work product is used, resulting in wasted effort and costly rework. Also avoid the trap of spending too many cycles on&#xD;
+    presentation to the detriment of content value. In project environments where presentation has importance and economic&#xD;
+    value as a project deliverable, you might want to consider using an administrative resource to perform presentation&#xD;
+    tasks.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    The purpose of this task is to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Design the modeled workload&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Construct workload definitions from modeled workload&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

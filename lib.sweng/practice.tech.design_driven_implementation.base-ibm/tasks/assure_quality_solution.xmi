@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-03aEZV2BYMDt0ZHfVd6JsA" name="assure_quality_solution,_JG58sKhGEdymmoKrEVbjiw" guid="-03aEZV2BYMDt0ZHfVd6JsA" changeDate="2008-09-13T11:18:37.538-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    Quality analysis encompasses both static analysis and runtime analysis. Static analysis focuses on the structural&#xD;
+    aspects of the software (conformity with coding guidelines, code complexity, code dependencies, etc). Runtime analysis&#xD;
+    looks at a program's behavior based on what it does when it runs (memory leaks, bottlenecks, memory footprint,&#xD;
+    etc)&lt;br />&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_W_k8sKhGEdymmoKrEVbjiw" name="Adopt guidelines for quality analysis" guid="_W_k8sKhGEdymmoKrEVbjiw">
+    <sectionDescription>&lt;p>&#xD;
+    Create the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.tech.design_driven_implementation.base-ibm/workproducts/code_analysis_guidelines_BF97268F.html&quot; guid=&quot;_5IU1kKhEEdymmoKrEVbjiw&quot;>Code Analysis Guidelines&lt;/a>&amp;nbsp;early in the project. See&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/coding_standard_1FF691E0.html&quot; guid=&quot;_aGqAsJ01EdyQ3oTO93enUw&quot;>Coding Standard&lt;/a>&amp;nbsp;for tips on creating good coding guidelines.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Review the coding guidelines at regular intervals, such as during iteration assessments or after baselines have been&#xD;
+    created. This can be done as a quick agenda item asking of it would be useful to change or add any coding guidelines.&#xD;
+    Some guidelines may be useless and can be dropped. There may be new guidelines that would be helpful that can be&#xD;
+    adopted. Or existing guidelines may need to be better enforced.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When adopting new guidelines or changing guidelines, the team will need to consider if they want to apply those&#xD;
+    guidelines to existing code. The benefit of doing so may not outweigh the cost and inconvenience of changing existing&#xD;
+    code. It may be worth using the guidelines on new code (and fixes to existing code), and asking later if the new&#xD;
+    guidelines provide enough value to change existing code.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_FAHpAEhhEd20avHnviZEkg" name="Improve the structure of the code" guid="_FAHpAEhhEd20avHnviZEkg">
+    <sectionDescription>&lt;p>&#xD;
+    Examine the code for compliance to coding guidelines. Compare the source code of an application with a set of&#xD;
+    predefined coding standards in the team's code analysis guidelines to ensure that the source code complies with those&#xD;
+    standards. Make changes to the implementation to conform to the guidelines and repair static analysis issues. Review&#xD;
+    the code to determine if it is unnecessary complex, and identify potential simplifications.&amp;nbsp;Look at code&#xD;
+    dependencies between implementation elements. Identify design patterns (best practices) and antipatterns (unwanted&#xD;
+    dependencies).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Make changes to the implementation to conform to the guidelines and repair static analysis issues.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/coding_standard_1FF691E0.html&quot; guid=&quot;_aGqAsJ01EdyQ3oTO93enUw&quot;>Concept: Coding Standard&lt;/a>&amp;nbsp;for links to common platform standards.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_eP6NwGSmEd2LNcUSuad3eQ" name="Improve the behavior of the code" guid="_eP6NwGSmEd2LNcUSuad3eQ">
+    <sectionDescription>Inspect the execution of your code to validate if your latest implemented elements have a negative impact on the&#xD;
+application's behavior. Make changes to the implementation to conform to the guidelines and repair runtime analysis issues.&#xD;
+See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.design_driven_implementation.base-ibm/guidances/concepts/runtime_observation_and_analysis_BC3CC29F.html&quot; guid=&quot;_zAF4IGSmEd2LNcUSuad3eQ&quot;>Concept: Runtime Observation and Analysis&lt;/a>&amp;nbsp;for more information.</sectionDescription>
+  </sections>
+  <sections xmi:id="_ENjqgIHDEd2wha4S3HCEUg" name="Address regression errors" guid="_ENjqgIHDEd2wha4S3HCEUg">
+    <sectionDescription>&lt;p>&#xD;
+    Check for regression errors in any code that was changed. Execute existing white-box and black-box tests against the&#xD;
+    affected code and repair any errors that were introduced as a result of improving the implementation.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>To assess and improve the quality of the code produced, based on guidelines and best practices.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

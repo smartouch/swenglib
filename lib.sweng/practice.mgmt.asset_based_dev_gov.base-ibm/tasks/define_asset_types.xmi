@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-DvRehKkF-tz1ZOpBpObb-w" name="define_asset_types,_T6WsMBX1EduMjZ4xb74kVg" guid="-DvRehKkF-tz1ZOpBpObb-w" changeDate="2007-04-16T11:42:18.296-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    An enterprise has a core set of artifacts that it relies on for its software development and related activities. An&#xD;
+    asset is a collection of artifacts, but is more than simply that.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An asset has several major characteristics, including:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A&amp;nbsp;collection of one or more artifacts: files, binaries, models, tests,&amp;nbsp;etc.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Connections: tool integrations that the asset needs to be properly used&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Access control: who can do what with the asset&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Classification: tagged values and terms to classify assets&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Relationships to other assets: dependencies, aggregation, etc.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Measurements: who is using the asset, what defects does it have,&amp;nbsp;etc.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Policies: descriptions of proper structure and content for the asset&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;129&quot; alt=&quot;Several major characteristics of an asset.&quot; src=&quot;./resources/asset.gif&quot; width=&quot;331&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Each asset is of a single type. The asset type describes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The purpose of the asset&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What content, or artifacts, it contains&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Relationships with other asset types&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Category schemas and contexts which are relevant&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Custom attributes, or metadata elements, on the asset type.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Development-time repositories manage assets that are relevant to development roles such as technical managers,&#xD;
+    analysts, architects, developers, and testers. This repository governs the assets as they are submitted, categorizes&#xD;
+    the assets, provides access control to the assets, and measures the activity level of assets in terms of their usage.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A collection of asset types with these characteristics describes an information architecture&amp;nbsp;that is enforced by&#xD;
+    the repository. The asset types should focus on those artifacts which are critical to the development-related&#xD;
+    activities in the enterprise. Not all artifacts are candidates for being in assets.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When an asset is submitted to the repository the asset type is selected. This selection dictates the&#xD;
+    artifacts&amp;nbsp;that are expected for the asset.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The basic model of asset types, assets, and artifacts is shown below. The asset type declares the expected structure,&#xD;
+    content, relationships and so on. The asset is an instance of one type, adhering to the constraints specified by the&#xD;
+    asset type.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;304&quot; alt=&quot;The asset type declares the expected structure, content, relationships and so forth.&quot;&#xD;
+    src=&quot;./resources/assettypes_assets.gif&quot; width=&quot;600&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When assets are submitted to the repository, it is very helpful to understand the structure of the selected asset type&#xD;
+    as well as its&amp;nbsp;relationships and other constraints. At times you may need to have a picture of the asset types and&#xD;
+    their structure in front of you.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When creating the asset types, it is useful to understand the artifact names and labels that have been used in other&#xD;
+    asset types. Managing the set of artifact names reduces both redundancy and the use of&amp;nbsp;different names for the&#xD;
+    same artifact. The administrator should have a single picture or a spreadsheet of the asset types, their definitions,&#xD;
+    and their structure along with the artifact definitions in order to reduce confusion and provide consistent use of&#xD;
+    terms.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_ScHNQP88EduLr5zGs322wA" name="Evaluate the Inputs to this Task" guid="_ScHNQP88EduLr5zGs322wA">
+    <sectionDescription>Determine what asset types may already be&amp;nbsp;defined by the Reuse Strategy, or the workflows, or may be implied by&#xD;
+someone's asset specification.</sectionDescription>
+  </sections>
+  <sections xmi:id="_UPJ4MP88EduLr5zGs322wA" name="Evaluate Reference Architectures and Models" guid="_UPJ4MP88EduLr5zGs322wA">
+    <sectionDescription>If the enterprise has specified reference models or architecture, evaluate what asset types may be implied through these&#xD;
+sources.</sectionDescription>
+  </sections>
+  <sections xmi:id="_aBJE8P88EduLr5zGs322wA" name="Evaluate Current Asset Types" guid="_aBJE8P88EduLr5zGs322wA">
+    <sectionDescription>Verify that the asset type being specified does not replicate what is already in the repository.</sectionDescription>
+  </sections>
+  <sections xmi:id="_cCClsP88EduLr5zGs322wA" name="Create Asset Type Specification" guid="_cCClsP88EduLr5zGs322wA">
+    <sectionDescription>Use the sample asset type specification to get started.</sectionDescription>
+  </sections>
+  <sections xmi:id="_e4IpEP88EduLr5zGs322wA" name="Review Asset Types" guid="_e4IpEP88EduLr5zGs322wA">
+    <sectionDescription>Achieve agreement from stakeholders: Asset Governance Board, Asset Manufacturing Team, Asset Consumers.</sectionDescription>
+  </sections>
+  <sections xmi:id="_iRi04P88EduLr5zGs322wA" name="Configure the Repository" guid="_iRi04P88EduLr5zGs322wA">
+    <sectionDescription>The asset type specification serves as input to the configure repository activities.</sectionDescription>
+  </sections>
+  <keyConsiderations>&lt;p>&#xD;
+    Impact/Influence on the ABD process:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+        href=&quot;./../../practice.mgmt.asset_based_dev.base-ibm/workproducts/asset_types_B692F96F.html&quot;&#xD;
+        guid=&quot;_MDnU0KaBEduHC6cE2S3HNg&quot;>Artifact: Asset Types&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+        href=&quot;./../../practice.mgmt.asset_based_dev.base-ibm/tasks/configure_repository_CC804EAF.html&quot;&#xD;
+        guid=&quot;_dI8ooKaCEduHC6cE2S3HNg&quot;>Task: Configure Repository&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+        href=&quot;./../../practice.mgmt.asset_based_dev.base-ibm/capabilitypatterns/AandM_B47E985F.html&quot;&#xD;
+        guid=&quot;_nfpIkQVqEdyJlaiJ7G71ig&quot;>Activity: Administration and Monitoring&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>

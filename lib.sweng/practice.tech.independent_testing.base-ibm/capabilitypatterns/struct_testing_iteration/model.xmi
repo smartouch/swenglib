@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_zBU-QYcrEdyuU5Sm8sc1Cw" guid="_zBU-QYcrEdyuU5Sm8sc1Cw">
+    <resourceDescriptors xmi:id="_zBU-QocrEdyuU5Sm8sc1Cw" id="-wTqpciR4JTvye-Q4le9dRQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_zAR1YIcrEdyuU5Sm8sc1Cw" name="struct_testing_iteration" guid="_zAR1YIcrEdyuU5Sm8sc1Cw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_eowtMIcsEdyuU5Sm8sc1Cw" name="plan_test" guid="_eowtMIcsEdyuU5Sm8sc1Cw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_eowtMYcsEdyuU5Sm8sc1Cw" name="plan_test" guid="_eowtMYcsEdyuU5Sm8sc1Cw" superActivities="_zAR1YYcrEdyuU5Sm8sc1Cw" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_8txq4IcqEdyuU5Sm8sc1Cw#_8txq4YcqEdyuU5Sm8sc1Cw"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_mPuekIcsEdyuU5Sm8sc1Cw" name="ver_test" guid="_mPuekIcsEdyuU5Sm8sc1Cw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_mPuekYcsEdyuU5Sm8sc1Cw" name="ver_test" guid="_mPuekYcsEdyuU5Sm8sc1Cw" superActivities="_zAR1YYcrEdyuU5Sm8sc1Cw" linkToPredecessor="_r4tnwJ7PEdyXcuIY0bYzYg" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_bScuIIcrEdyuU5Sm8sc1Cw#_bScuIYcrEdyuU5Sm8sc1Cw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_r4tnwJ7PEdyXcuIY0bYzYg" guid="_r4tnwJ7PEdyXcuIY0bYzYg" pred="_eowtMYcsEdyuU5Sm8sc1Cw"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_nBy0sIcsEdyuU5Sm8sc1Cw" name="impr_test" guid="_nBy0sIcsEdyuU5Sm8sc1Cw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_nBy0sYcsEdyuU5Sm8sc1Cw" name="impr_test" guid="_nBy0sYcsEdyuU5Sm8sc1Cw" superActivities="_zAR1YYcrEdyuU5Sm8sc1Cw" linkToPredecessor="_vMdQcJ7PEdyXcuIY0bYzYg" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_hs-hkIcrEdyuU5Sm8sc1Cw#_hs-hkYcrEdyuU5Sm8sc1Cw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_vMdQcJ7PEdyXcuIY0bYzYg" guid="_vMdQcJ7PEdyXcuIY0bYzYg" pred="_eowtMYcsEdyuU5Sm8sc1Cw"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_RCeUMJ7GEdyiZ7HzleslTA" name="gather_analyze_data" guid="_RCeUMJ7GEdyiZ7HzleslTA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_RCeUMZ7GEdyiZ7HzleslTA" name="gather_analyze_data" guid="_RCeUMZ7GEdyiZ7HzleslTA" superActivities="_zAR1YYcrEdyuU5Sm8sc1Cw" linkToPredecessor="_AM_ZQJ7QEdyXcuIY0bYzYg" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_G_KRoJ7FEdyiZ7HzleslTA#_G_KRoZ7FEdyiZ7HzleslTA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_AM_ZQJ7QEdyXcuIY0bYzYg" guid="_AM_ZQJ7QEdyXcuIY0bYzYg" pred="_eowtMYcsEdyuU5Sm8sc1Cw"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_M1_d8J7MEdyXcuIY0bYzYg" name="test_and_evaluate" guid="_M1_d8J7MEdyXcuIY0bYzYg">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_M-MXsJ7MEdyXcuIY0bYzYg" name="test_and_evaluate" guid="_M-MXsJ7MEdyXcuIY0bYzYg" superActivities="_zAR1YYcrEdyuU5Sm8sc1Cw" linkToPredecessor="_8Bg3UJ7PEdyXcuIY0bYzYg" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_54FUYJ7JEdyXcuIY0bYzYg#_54FUYZ7JEdyXcuIY0bYzYg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_8Bg3UJ7PEdyXcuIY0bYzYg" guid="_8Bg3UJ7PEdyXcuIY0bYzYg" pred="_eowtMYcsEdyuU5Sm8sc1Cw"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_zAR1YYcrEdyuU5Sm8sc1Cw" name="struct_testing_iteration" guid="_zAR1YYcrEdyuU5Sm8sc1Cw" presentationName="Test Iteration [Template]" briefDescription="This capability pattern covers the super-set of activities and workflows for a typical Test iteration. It should be specialized per testing level or type, and customized to fit the lifecycle context." breakdownElements="_eowtMYcsEdyuU5Sm8sc1Cw _mPuekYcsEdyuU5Sm8sc1Cw _nBy0sYcsEdyuU5Sm8sc1Cw _RCeUMZ7GEdyiZ7HzleslTA _M-MXsJ7MEdyXcuIY0bYzYg">
+      <methodElementProperty xmi:id="_2-LEELemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-wTqpciR4JTvye-Q4le9dRQ" href="uma://-wTqpciR4JTvye-Q4le9dRQ#-wTqpciR4JTvye-Q4le9dRQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

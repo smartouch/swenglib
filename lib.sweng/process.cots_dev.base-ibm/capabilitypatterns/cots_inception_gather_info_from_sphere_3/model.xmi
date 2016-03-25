@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_uGMO4OwsEd-sjp03to1LnQ" guid="_uGMO4OwsEd-sjp03to1LnQ">
+    <resourceDescriptors xmi:id="_uGMO4ewsEd-sjp03to1LnQ" id="-iwRfyjBTJGRvJ06JuDNz5w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_a53asRavEeCjx5QJHD1iHA" id="-rA3iNQh4DJr3jlMxXa_m6w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_a6BLsBavEeCjx5QJHD1iHA" id="-0S2k9ZEyB1OxPsWMnMCQFg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_Z7TicR6LEeCLp5muur8Asw" id="-V1GjKou588NY3P-8hKCe2w" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_s_HSFuwsEd-sjp03to1LnQ" name="cots_inception_gather_info_from_sphere_3" guid="_s_HSFuwsEd-sjp03to1LnQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_s_HSIewsEd-sjp03to1LnQ" name="cots_manage_rfi" guid="_s_HSIewsEd-sjp03to1LnQ" presentationName="Manage Request For Information (RFI)" briefDescription="This task focuses on managing the Request For Information (RFI)." isOptional="true" superActivities="_s_HSJOwsEd-sjp03to1LnQ" optionalInput="_s_HSGuwsEd-sjp03to1LnQ" output="_s_HSGuwsEd-sjp03to1LnQ _s_HSKOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_2UaTNBJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHPOwiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-c4g6knGh34VErQlBcEw7ag#_yycHPewiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s_HSGuwsEd-sjp03to1LnQ" name="cots_rfi" guid="_s_HSGuwsEd-sjp03to1LnQ" presentationName="Request for Information" briefDescription="This is used for gathering general information about a vendor and a vendor's offerings. This artifact is a brief, expedient document designed to seek information about a vendor and vendor offerings for potential &quot;fit&quot; with the preliminary high-level stakeholder's business requirements and candidate solution(s)." superActivities="_s_HSJOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t92NxOwsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_2UaTMxJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHI-wiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s_HSKOwsEd-sjp03to1LnQ" name="cots_vendor_response" guid="_s_HSKOwsEd-sjp03to1LnQ" presentationName="Vendor Response" briefDescription="This represents the response from the vendor to a Request For Information (RFI) or Request For Proposal (RFP) ." superActivities="_s_HSJOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t92NxewsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_2UkEMBJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHIewiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_s_HSIOwsEd-sjp03to1LnQ" name="cost_identify_packages_vendors" guid="_s_HSIOwsEd-sjp03to1LnQ" presentationName="Identify Relevant COTS Packages and Vendors" briefDescription="This task focuses on identifying relevant COTS Packages and Vendors." superActivities="_s_HSJOwsEd-sjp03to1LnQ" optionalInput="_2URJQBJFEeG_dc9n0A1YZA _2URJQxJFEeG_dc9n0A1YZA" output="_s_HSHOwsEd-sjp03to1LnQ _s_HSJewsEd-sjp03to1LnQ _s_HSJ-wsEd-sjp03to1LnQ _s_HSI-wsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_2UHYQBJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHQewiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-ntYWWMib5hl077qi_Qi9iA#_yycHQ-wiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-ntYWWMib5hl077qi_Qi9iA#_yycHROwiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-ntYWWMib5hl077qi_Qi9iA#_yycHQuwiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-ntYWWMib5hl077qi_Qi9iA#_yycHRewiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s_HSHOwsEd-sjp03to1LnQ" name="cots_market_segment_information" guid="_s_HSHOwsEd-sjp03to1LnQ" presentationName="Market Segment Information" briefDescription="This captures the broad characteristics of the market represented by a set of competing COTS packages that are under consideration for use in the solution." superActivities="_s_HSJOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t92NyewsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_2URJRRJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHWewiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s_HSJewsEd-sjp03to1LnQ" name="cots_package_dossier" guid="_s_HSJewsEd-sjp03to1LnQ" presentationName="COTS Package Dossier" briefDescription="This captures all of the information regarding a single COTS package." superActivities="_s_HSJOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t92NyuwsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_2URJRxJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHKOwiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s_HSJ-wsEd-sjp03to1LnQ" name="cots_package_screning_criteria" guid="_s_HSJ-wsEd-sjp03to1LnQ" presentationName="COTS Package Screening Criteria and Rationale" briefDescription="This accumulates and organizes the set of measurable criteria against which vendor offerings are initially evaluated and, ultimately, accepted or rejected for consideration as part of a solution." superActivities="_s_HSJOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t92Ny-wsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_2URJRhJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHS-wiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s_HSI-wsEd-sjp03to1LnQ" name="cots_vendor_dossier" guid="_s_HSI-wsEd-sjp03to1LnQ" presentationName="Vendor Dossier" briefDescription="This records and ties all of the vendor data that represents a single instance of vendor information into a logical unit." superActivities="_s_HSJOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t92NzOwsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_2UaTMRJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHJOwiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_s_HSGOwsEd-sjp03to1LnQ" name="cots_produce_rfi" guid="_s_HSGOwsEd-sjp03to1LnQ" presentationName="Produce Request For Information (RFI)" briefDescription="This task focuses on producing the Request For Information (RFI)." isOptional="true" superActivities="_s_HSJOwsEd-sjp03to1LnQ" optionalInput="_2URJQxJFEeG_dc9n0A1YZA" output="_s_HSGuwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_2UaTMhJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHTOwiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-wUSLCOcoXp-806vcfExc9w#_yycHTewiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-wUSLCOcoXp-806vcfExc9w#_yycHTuwiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_s_HSJuwsEd-sjp03to1LnQ" name="cost_prepare_eval_workshop" guid="_s_HSJuwsEd-sjp03to1LnQ" presentationName="Prepare For Vendor/Package Evaluation Workshop" briefDescription="This task focuses on preparing the Vendor and Package Evaluation Workshop." isOptional="true" superActivities="_s_HSJOwsEd-sjp03to1LnQ" optionalInput="_2URJQxJFEeG_dc9n0A1YZA" output="_s_HSHuwsEd-sjp03to1LnQ _s_HSF-wsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_2UkEMRJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHRuwiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-hPRuoumJn7Ui9Qk02H9NEA#_yycHSOwiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-hPRuoumJn7Ui9Qk02H9NEA#_yycHR-wiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-hPRuoumJn7Ui9Qk02H9NEA#_yycHSewiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s_HSHuwsEd-sjp03to1LnQ" name="cots_eval_score_sheet" guid="_s_HSHuwsEd-sjp03to1LnQ" presentationName="Evaluation Score Sheet" briefDescription="This provides a scoring mechanism that will be used by an evaluator while a vendor's COTS package is being demonstrated to the evaluator." superActivities="_s_HSJOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t92NzewsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_2UkEMxJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHIuwiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s_HSF-wsEd-sjp03to1LnQ" name="cots_eval_workshop_description" guid="_s_HSF-wsEd-sjp03to1LnQ" presentationName="Vendor and Package Evaluation Workshop Description" briefDescription="This establishes the scope, priorities, and topic flow for the evaluation workshop criteria." superActivities="_s_HSJOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t92NzuwsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_2UkEMhJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHMewiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_s_HSHewsEd-sjp03to1LnQ" name="cost_conduct_eval_workshop" guid="_s_HSHewsEd-sjp03to1LnQ" presentationName="Conduct Vendor/Package Evaluation Workshop" briefDescription="This task focuses on conducting the Vendor and Package Evaluation Workshop." isOptional="true" superActivities="_s_HSJOwsEd-sjp03to1LnQ" optionalInput="_s_HSHuwsEd-sjp03to1LnQ _s_HSF-wsEd-sjp03to1LnQ" output="_s_HSHuwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_2UkENBJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHPuwiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-5C2BFhGPZ8JlucyZ-YHGwg#_yycHQOwiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-5C2BFhGPZ8JlucyZ-YHGwg#_yycHP-wiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_2URJQBJFEeG_dc9n0A1YZA" name="business_requirements_slot" guid="_2URJQBJFEeG_dc9n0A1YZA" presentationName="[Business Requirements]" briefDescription="This slot serves as an abstraction of high-level artifacts that capture the overall business vision, business goals, and other high level concerns that are drivers of the business design." isPlanned="false" superActivities="_s_HSJOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_2URJQRJFEeG_dc9n0A1YZA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_2UaTMBJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_AuAlcDyVEdyz7ZnE62_AvQ#_LQx4cBYREd2eavK0BKAMiA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_2URJQxJFEeG_dc9n0A1YZA" name="technical_specification_slot" guid="_2URJQxJFEeG_dc9n0A1YZA" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isPlanned="false" superActivities="_s_HSJOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_2URJRBJFEeG_dc9n0A1YZA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_2URJSBJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_s_HSJOwsEd-sjp03to1LnQ" name="cots_inception_gather_info_from_sphere_3" guid="_s_HSJOwsEd-sjp03to1LnQ" presentationName="Gather Info from Sphere 3" briefDescription="This covers essential tasks aiming at gathering information from the Marketplace sphere in the inception phase." breakdownElements="_s_HSGuwsEd-sjp03to1LnQ _s_HSKOwsEd-sjp03to1LnQ _s_HSIOwsEd-sjp03to1LnQ _s_HSGOwsEd-sjp03to1LnQ _s_HSIewsEd-sjp03to1LnQ _s_HSHOwsEd-sjp03to1LnQ _s_HSJewsEd-sjp03to1LnQ _s_HSJ-wsEd-sjp03to1LnQ _s_HSI-wsEd-sjp03to1LnQ _s_HSJuwsEd-sjp03to1LnQ _s_HSHuwsEd-sjp03to1LnQ _s_HSF-wsEd-sjp03to1LnQ _s_HSHewsEd-sjp03to1LnQ _2URJQBJFEeG_dc9n0A1YZA _2URJQxJFEeG_dc9n0A1YZA">
+      <methodElementProperty xmi:id="_t92Nz-wsEd-sjp03to1LnQ" name="process_synFree" value="true"/>
+      <presentation xmi:id="-iwRfyjBTJGRvJ06JuDNz5w" href="uma://-iwRfyjBTJGRvJ06JuDNz5w#-iwRfyjBTJGRvJ06JuDNz5w"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-IMAifQj6djlmJakF9X4qgg" name="fta,_WxDggMsnEd-f7_TOobgnDw" guid="-IMAifQj6djlmJakF9X4qgg" changeDate="2010-10-29T10:58:00.656-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    An FTA uses logical operators (commonly AND, OR, and NOT, but may also include XOR, NOR, and NAND) to depict the&#xD;
+    explicit relation between normal and exception (i.e. error) conditions and normal and exception (i.e. failure) events.&#xD;
+    FTA can be used to depict the causal chain of events and conditions for an existing design and also drive the&#xD;
+    development of design approaches (called control measures) that address the safety issues. These control measures are&#xD;
+    then added to the FTA as &quot;ANDing redundancy&quot; so that for the hazard to be manifest, both the original condition or&#xD;
+    fault must occur AND the control measure must fail as well.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An FTA is most often used in a top-down fashion, beginning with the hazards and the discovering that underlying faults&#xD;
+    that can lead to them. In contrast, an Fault Means and Effect Analysis (FMEA) is most often used in a bottom up&#xD;
+    fashion, beginning with the failures and then determining the consequences. Both are used in reliability and safety&#xD;
+    engineering.&#xD;
+&lt;/p></mainDescription>
+  <purpose>The purpose of an FTA is to visually capture the logical causal chain of events and conditions that can lead to a hazard.</purpose>
+  <impactOfNotHaving>In a safety-critical system, the analysis of the conditions and events that lead to a hazard must be analyzed and&#xD;
+understood. An FTA can be the clearest measure for the visual depiction of this causal chains. Not having one or more FTAs&#xD;
+can result in missing system hazards and not handing combinations of circumstances that lead to safety-related accidents,&#xD;
+thus reducing the safety of the systems being developed.</impactOfNotHaving>
+  <reasonsForNotNeeding>An FTA addresses safety concerns, so non-safety-critical systems usually do not use FTAs.</reasonsForNotNeeding>
+</org.eclipse.epf.uma:ArtifactDescription>

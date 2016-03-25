@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-3sD89v_-491e20YkPZ65hw" name="apply_service_litmus_test,_sdFlEGfnEd6Lp4pMdHNm6g" guid="-3sD89v_-491e20YkPZ65hw" changeDate="2009-09-26T08:37:13.062-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    A service identification effort can create a large number of &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/candidate_service_277B23D6.html&quot; guid=&quot;_R5GZYEo1Ed6D_7XK49c0nw&quot;>candidate services&lt;/a> for service exposure.&amp;nbsp; However, it most likely will not be&#xD;
+    appropriate -- due to business fit, available resources, or technical concerns -- to invest in exposing all of the&#xD;
+    identified candidates.&amp;nbsp; &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../practice.tech.soma.service_specification.base-ibm/guidances/concepts/service_litmus_tests_8CE8505D.html&quot; guid=&quot;_dXhFEIkNEd6ilu16R-rAlg&quot;>Service Litmus Testing&lt;/a> is a procedure for filtering the candidates down to the core&#xD;
+    set of services that are most worthy of additional investment at the current time.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The first five steps  described below map to litmus testing criteria that has proven valuable in prior engagements.&amp;nbsp; Each criterion is to be applied to each candidate service that is in your &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/candidate_services_portfolio_A1269E3C.html&quot; guid=&quot;_YDPAYEo1Ed6D_7XK49c0nw&quot;>Candidate Service Portfolio&lt;/a> (this can simply be part of your service model).&amp;nbsp;&#xD;
+    Feel free to experiment with this list, to either subtract certain steps or to add your own.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In this task, the work product slot of [Business Design] is filled by the Business&amp;nbsp;Model work product, which&#xD;
+    contains business process descriptions.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    Application of service litmus tests is an iterative process. Early in the project, make decisions&amp;nbsp;based on current&#xD;
+    knowledge. Revisit service litmus tests&amp;nbsp;as more information is obtained throughout the design process.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Apply and review service litmus tests for each candidate service with the appropriate Subject Matter Experts or&#xD;
+    Stakeholders.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Reviewing results of the service litmus tests&amp;nbsp;is a useful way to track the appropriateness of the criteria and&#xD;
+    service granularity. For example, if too many candidate services are passing a particular test, that test definition&#xD;
+    might be too broad or the service level granularity might not&amp;nbsp;be appropriate.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A service might fail one or more of the service litmus tests but might still be exposed due to some project specific&#xD;
+    decision (business or IT). This is acceptable. There might be an architectural or business decision made to expose a&#xD;
+    service despite the service litmus tests.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_A_M-IGvhEd6g5fx0mjAn7Q" name="Ensure that the service is business aligned." guid="_A_M-IGvhEd6g5fx0mjAn7Q">
+    <sectionDescription>&lt;p>&#xD;
+    The first test of a service is about its business alignment. If the service is not traceable back to a business task or&#xD;
+    goal, it might not yield benefits required for SOA implementation. The following questions, if all are answered&#xD;
+    positively, mean the service is aligned with the business.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Does the service provide a required business functionality that supports business processes and goals?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is the business willing to fund the service through its lifecycle: provisioning, management, governance, and&#xD;
+        maintenance?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is the business willing to share the service internally or externally with clients or business partners? For&#xD;
+        example, implications might be additional costs, business secrets, security, and so on.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are there existing or future opportunities within the enterprise to reuse the service?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_0AfPgGvhEd6g3eZ9S9pc8Q" name="Ensure that the service is composable" guid="_0AfPgGvhEd6g3eZ9S9pc8Q">
+    <sectionDescription>&lt;p>&#xD;
+    Composable services can&amp;nbsp;participate in a service composition. Applications can be created using both hard-wired&#xD;
+    and loosely-wired &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/types_of_composite_services_36D966CD.html&quot; guid=&quot;_uSPukIkSEd6ilu16R-rAlg&quot;>composition approaches&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Goodness-of-fit questions here include the following criteria:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Does the service meet the required quality of service attributes as defined in the composition's non-functional&#xD;
+        requirements?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is the service stateless? (see &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/state_management_for_services_3A872034.html&quot; guid=&quot;_SfOYMGtFEd6dX9uDBR7y4Q&quot;>State Management for Services&lt;/a>)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is the service self-contained? Can the service be deployed independently to meet a business goal, although it might&#xD;
+        cooperate with other services at run-time to perform business processes? There are no implicit dependencies of the&#xD;
+        service on other embedded functionality. All dependent services are either replaceable or self-contained.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is the service's implementation technology neutral? Technology neutral means that the service does not impose&#xD;
+        support of non-standard (and unknown to the consumer) protocols or devices (for example, the constituent component&#xD;
+        requires intervention through a non-standard application interface).&lt;br />&#xD;
+        &lt;em>This test applies only when the service is deployed in the consumer's&lt;/em> &lt;em>environment. For example: A&#xD;
+        business provides an image retrieval service to its customers. It can provide this capability to its subscribed&#xD;
+        customers&amp;nbsp;using a Web service. Alternatively, the business can hand over to its customer the image retrieval&#xD;
+        capability exposed as a Web service, and a collection of images. Here, the customer will be burdened by the&#xD;
+        implementation of the technology search.&lt;/em>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_39XUwGvhEd6g3eZ9S9pc8Q" name="Ensure that the service has external description" guid="_39XUwGvhEd6g3eZ9S9pc8Q">
+    <sectionDescription>&lt;p>&#xD;
+    The most basic property of a service is that it has an externalized service description. The externalized service&#xD;
+    description might either be&amp;nbsp;generated automatically&amp;nbsp;using tools or manually coded.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Questions for this criterion include:&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Does the service have an externalized service description that is distinct and separate from the underlying&#xD;
+        physical implementation? A current example of this is WSDL.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Can the service be discovered and bound using the service description?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Does the service description contain meta-data about itself? That is, the service description must be&#xD;
+        self-sufficient, containing or referencing all of the information necessary to understand the message exchange&#xD;
+        between consumer and provider of a service.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="__pGRYGvhEd6g3eZ9S9pc8Q" name="Ensure that the service is reusable" guid="__pGRYGvhEd6g3eZ9S9pc8Q">
+    <sectionDescription>Can this service be used by the business stakeholder within all processes where its function is required?</sectionDescription>
+  </sections>
+  <sections xmi:id="_D_m-oGviEd6g3eZ9S9pc8Q" name="Ensure that the service is technically feasible" guid="_D_m-oGviEd6g3eZ9S9pc8Q">
+    <sectionDescription>&lt;p>&#xD;
+    Technical feasibility ensures that the service can actually be realized (implemented and deployed) according to&#xD;
+    functional and non-functional requirements using available technologies.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Is the implementation and management effort for the service reasonable and readily achievable given either the&#xD;
+        requirements or infrastructure of the implementation?&lt;br />&#xD;
+        &lt;em>This issue is addressed&amp;nbsp;after the realization's technical feasibility exploration&lt;/em>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_yDWn4IlCEd65XMCQ7LtxNw" name="Create Service Model elements to represent the services that are to be exposed." guid="_yDWn4IlCEd65XMCQ7LtxNw">
+    <sectionDescription>&lt;p>&#xD;
+    In the modeling approach using &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/soaml_4074BA7B.html&quot; guid=&quot;_XsWMIFIREd6lNtylJFsPIg&quot;>SoaML&lt;/a>,&amp;nbsp;each candidate service in&amp;nbsp;a graphical&amp;nbsp;version of&#xD;
+    the&amp;nbsp;service model is represented as a SoaML &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/capability_soaml_56747F9.html&quot; guid=&quot;_A5_hYFbBEd6MCpkuB85p5g&quot;>Capability&lt;/a>.&amp;nbsp; For each&amp;nbsp;candidate service that was selected for exposure,&#xD;
+    create a&amp;nbsp;service model element -- either&amp;nbsp;a SoaML &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>ServiceInterface&lt;/a> or a UML Interface&amp;nbsp;--&amp;nbsp;to represent the service that is&#xD;
+    carried forth for full definition.&amp;nbsp; A UML Interface &quot;can&quot; be used if the service simply offers capabilities to &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend-ibm/guidances/termdefinitions/service_consumer_91384414.html&quot; guid=&quot;_HDs9YIQuEd6VVeXj3w86dA&quot;>service consumers&lt;/a>&amp;nbsp;and has no&amp;nbsp;protocol that governs interaction between the&#xD;
+    service consumer and the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/termdefinitions/service_provider.supp_soa_478061A7.html&quot; guid=&quot;_ewRWAIRSEd6jqtIeWlQI8A&quot;>service provider&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>Identify and prioritize candidate services that will be exposed as discoverable services&amp;nbsp;and developed further.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

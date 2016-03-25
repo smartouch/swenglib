@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-gsyO8lTYcpXnp0Myvtnp3Q" name="structure_the_business_uc_model,_1_pyEEcaEd6GBq2DuQ5crg" guid="-gsyO8lTYcpXnp0Myvtnp3Q" changeDate="2009-09-22T11:01:03.265-0700" version="7.5.0">
+  <sections xmi:id="_7YVoUKehEd6TxKmzDJLukw" name="Identify common business requirements" guid="_7YVoUKehEd6TxKmzDJLukw">
+    <sectionDescription>Understand the requirements that are common to more than one&amp;nbsp;business use case, or that describe optional or&#xD;
+exceptional behavior. Review each completed business use case and note any commonality or exceptional behavior that's not&#xD;
+tightly coupled with the rest of the business&amp;nbsp;use case.</sectionDescription>
+  </sections>
+  <sections xmi:id="_8iZnsKehEd6TxKmzDJLukw" name="Organize business requirements in business use cases" guid="_8iZnsKehEd6TxKmzDJLukw">
+    <sectionDescription>&lt;p>&#xD;
+    Move the identified business&amp;nbsp;requirements to more appropriate business use cases to make understanding and&#xD;
+    managing the business&amp;nbsp;use cases easier.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Use &amp;lt;&amp;lt;include&amp;gt;&amp;gt; and &amp;lt;&amp;lt;extend&amp;gt;&amp;gt; relationships between business use cases to maintain the&#xD;
+    appropriate scenario flow across use cases.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_-LAkQKehEd6TxKmzDJLukw" name="Establish generalizations between actors" guid="_-LAkQKehEd6TxKmzDJLukw">
+    <sectionDescription>&lt;p>&#xD;
+    Model common characteristics between actors. Write a brief description of the actor-generalizations, and include them&#xD;
+    in use-case diagrams for further clarification. See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/guidelines/using_actor_generalization_89237482.html&quot; guid=&quot;_VG4VkFnvEd6TDdjsK-pYkg&quot;>Guideline: Using Actor Generalization&lt;/a>&amp;nbsp;for more information.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="__YfrEKehEd6TxKmzDJLukw" name="Organize the business use-case model into packages" guid="__YfrEKehEd6TxKmzDJLukw">
+    <sectionDescription>If the business use-case model has a large number of elements, consider organizing the business use cases into use-case&#xD;
+packages.&amp;nbsp;Focus on making the business use cases easy to locate for someone unfamiliar with the model.</sectionDescription>
+  </sections>
+  <sections xmi:id="_BPaJYKeiEd6TxKmzDJLukw" name="Evaluate results" guid="_BPaJYKeiEd6TxKmzDJLukw">
+    <sectionDescription>Discuss the incorporation of include-, and extend-relationships with the customers and stakeholders, and assure they have a&#xD;
+clear understanding of the system based on the updated business use case model.</sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    Structure the business use-case model&amp;nbsp;to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Extract behavior in business use cases that need to be considered as abstract use cases. Examples of such behavior&#xD;
+        includes common behavior, optional behavior, exceptional behavior, and behavior that is to be developed in later&#xD;
+        iterations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Find new abstract actors that define roles that are shared by several actors.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  <alternatives>If it's difficult or awkward to represent common requirements by structuring the business use case mode, consider moving&#xD;
+common content into other requirements work products instead of refactoring the model.</alternatives>
+</org.eclipse.epf.uma:TaskDescription>

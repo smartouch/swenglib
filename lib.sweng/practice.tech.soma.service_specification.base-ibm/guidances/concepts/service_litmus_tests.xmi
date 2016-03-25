@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Mfa96KRMCoYRd9ioiYUP4A" name="new_concept,_dXhFEIkNEd6ilu16R-rAlg" guid="-Mfa96KRMCoYRd9ioiYUP4A" changeDate="2009-10-06T22:56:18.953-0700" version="7.5.0">
+  <mainDescription>&lt;p> When &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/candidate_service_277B23D6.html&quot; guid=&quot;_R5GZYEo1Ed6D_7XK49c0nw&quot;>candidate &#xD;
+  services&lt;/a> have been selected and documented in the&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/candidate_services_portfolio_A1269E3C.html&quot; guid=&quot;_YDPAYEo1Ed6D_7XK49c0nw&quot;>Candidate &#xD;
+  Services Portfolio&lt;/a>, you then need to determine which ones will be exposed &#xD;
+  as services. Although, in theory, any candidate service could be exposed by &#xD;
+  exporting its interface as a service description, not every candidate service &#xD;
+  &lt;i>should&lt;/i> be. It might not be economically and practically feasible to do &#xD;
+  so (nonfunctional requirements might be compromised). In particular, the naive &#xD;
+  decision to expose &quot;all methods from all classes&quot; will result in an overwhelming &#xD;
+  and often unmanageable number of services, leading to the &quot;Service Proliferation &#xD;
+  Syndrome.&quot; This creates huge performance and service management problems, not &#xD;
+  to mention the fact that you might be giving away the company's intellectual &#xD;
+  capital. Moreover, you must remember that &lt;i>there is a cost associated with &#xD;
+  every service that you choose to expose.&lt;/i> The funding, governance, and the &#xD;
+  underlying infrastructure (security, performance, management) of the service &#xD;
+  and the components that will implement them must be taken into account. &lt;/p>&#xD;
+&lt;p> Clearly, some criteria are needed to help decide whether to expose a service. &#xD;
+  Most importantly, you need to decide whether to fund the creation of the service &#xD;
+  component that will provide the functionality of the service, as well as the &#xD;
+  maintenance, monitoring, security, performance, and other service level agreements &#xD;
+  for the service.&amp;nbsp; &lt;/p>&#xD;
+&lt;h4> Value of Service Litmus Tests &lt;/h4>&#xD;
+&lt;p> Project experiences indicate a set of criteria in the form of the &lt;i>Service &#xD;
+  Litmus Test&lt;/i> can and needs to be used to filter the collections of candidate &#xD;
+  services. This metaphor is used to denote a set of tests that, when applied, &#xD;
+  will determine whether a given service&amp;nbsp;is eligible for exposure by using &#xD;
+  a service description. These tests are employed together and help answer questions &#xD;
+  such as these: &lt;/p>&#xD;
+&lt;ul>&#xD;
+  &lt;li>From the list of candidate services, which ones are best to expose? &lt;/li>&#xD;
+  &lt;li>Thus, which ones will we fund? &lt;/li>&#xD;
+  &lt;li>Which ones have business value?&amp;nbsp;&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p> &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../practice.tech.soma.service_specification.base-ibm/guidances/examples/service_litmus_test_criteria_751A9BFC.html&quot; guid=&quot;_RMfY8J_SEd6NE9qBiC3itQ&quot;>Example: Service Litmus Test Criteria&lt;/a>&amp;nbsp;lists criteria that are commonly used &#xD;
+  during litmus testing. &lt;/p>&#xD;
+&lt;p> At the one extreme, every business use case might be considered to be a candidate &#xD;
+  service. At the other, only a few services are selected for exposure. Applying &#xD;
+  the Service Litmus Test usually gives something in the middle: a manageable &#xD;
+  set of services that the business wants to expose and that can later be used &#xD;
+  within compositions. &lt;/p>&#xD;
+&lt;p> Candidate services that pass all of the Service Litmus Tests should then be &#xD;
+  exposed as services in the service-oriented architecture (SOA). There might &#xD;
+  be candidate services that did not pass the Service Litmus Test yet are still &#xD;
+  implemented as services. The Service Litmus Test is an&lt;em> &lt;/em>aid to determine &#xD;
+  which services to expose.&amp;nbsp; If a business chooses to expose candidate services &#xD;
+  that did not pass the Service Litmus Test, the implication is that benefits &#xD;
+  associated with an SOA will not be maximized. &lt;/p>&#xD;
+&lt;p> Candidate services that do not meet the Service Litmus Test criteria will &#xD;
+  have to be implemented in some fashion, because they still are required to fulfill &#xD;
+  business needs. They might be implemented as methods on service components and &#xD;
+  will not require the generation of WSDL (Web Services Description Language) &#xD;
+  or other forms of service definitions; or they might be used as non-exposable &#xD;
+  entities. &lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

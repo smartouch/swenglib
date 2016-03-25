@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-nnw9WG05n42aRxD-nYQlZA" name="rt_psm,_Os81MMvtEd-j1uJpwhl9rw" guid="-nnw9WG05n42aRxD-nYQlZA" changeDate="2010-10-26T11:33:04.062-0700" version="7.5.0">
+  <mainDescription>The PSM is a model of the system that contains &lt;em>both&lt;/em> the essential elements from the PIM and technologies, design&#xD;
+patterns, and design solutions meant to optimize the PSM. In the Harmony/Embedded process, design is all about&#xD;
+optimization. While the PIM executes the required functionality of the system, it does so in an un-optimized fashion.&#xD;
+Specific technologies, architectures, design patterns, and other design decisions are added to provide the PIM functional&#xD;
+in a fashion optimized for the intended use and target platform(s).</mainDescription>
+  <keyConsiderations>The PSM must support the functionality of its parent PIM while at the same time making design and technology decisions that&#xD;
+optimize its properties against various design criteria, including QoS.</keyConsiderations>
+  <purpose>The purpose of the Platform-Specific Model (PSM) is to provide an optimized, targeted implementation of a Platform&#xD;
+Independent Model (PIM).</purpose>
+  <impactOfNotHaving>The PSM provides an optimized solution that meets the functional needs of the system, so not having a PSM means that while&#xD;
+the basic functionality may be met, it is certainly likely to be un-optimized and may not meet the system's required QoS&#xD;
+requirements.</impactOfNotHaving>
+  <reasonsForNotNeeding>In early prototypes (builds) there is usually more emphasis on key concepts (analysis, requirements, and architecture&#xD;
+concepts) while later prototypes focus more on fine-tuning, optimization, and deployment concerns. Thus, early prototypes&#xD;
+may have very little optimization present.</reasonsForNotNeeding>
+  <representation>The most important diagrams from the UML are: class, state, and sequence diagrams. Other diagrams add value but virtually&#xD;
+all systems can be specified and created from only these three basic types.</representation>
+  <notation>The Unified Modeling Language (UML) is the primary language for the representation of models although other domain-specific&#xD;
+representations (such as&amp;nbsp;Fault Tree Analysis)&amp;nbsp;are often used in conjunction with the UML.&amp;nbsp;&amp;nbsp;</notation>
+</org.eclipse.epf.uma:ArtifactDescription>

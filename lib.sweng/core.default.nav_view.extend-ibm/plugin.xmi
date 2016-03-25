@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_rhS80SB1Ed2BC837SW9yQQ" guid="_rhS80SB1Ed2BC837SW9yQQ">
+    <resourceDescriptors xmi:id="_ZbWFsSkVEd2t7eFOWSuooA" id="-KwssbENnuG_cklnzvZxtzw" uri="customcategories/release_info.xmi"/>
+    <resourceDescriptors xmi:id="_HzkxEYUHEd2L1_q-wjXweA" id="-jJG_2c0VdewcO_pTP8h5mg" uri="customcategories/navigation_view_generic-ibm.xmi"/>
+    <resourceDescriptors xmi:id="_cezC8IUHEd2L1_q-wjXweA" id="-BxzUyBwhaKpgyY_I6i5xVA" uri="guidances/supportingmaterials/welcome.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_rhS8wCB1Ed2BC837SW9yQQ" userChangeable="false" name="core.default.nav_view.extend-ibm" guid="_rhS8wCB1Ed2BC837SW9yQQ" presentationName="Default Navigation View (Extend-IBM)" briefDescription="This plug-in defines the default view for use with Rational Method Composer configurations." changeDate="2010-07-28T16:34:53.578-0700">
+    <methodElementProperty xmi:id="_03xYQremEd-oHLor78AFuw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_VBVtYBXVEdyM9L6rbYAZaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rhS8wSB1Ed2BC837SW9yQQ" name="Content" guid="_rhS8wSB1Ed2BC837SW9yQQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rhS8wiB1Ed2BC837SW9yQQ" name="Categories" guid="_rhS8wiB1Ed2BC837SW9yQQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rhS8wyB1Ed2BC837SW9yQQ" name="Domains" guid="_rhS8wyB1Ed2BC837SW9yQQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rhS8xCB1Ed2BC837SW9yQQ" name="Disciplines" guid="_rhS8xCB1Ed2BC837SW9yQQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rhS8xSB1Ed2BC837SW9yQQ" name="RoleSets" guid="_rhS8xSB1Ed2BC837SW9yQQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rhS8xiB1Ed2BC837SW9yQQ" name="WP Types" guid="_rhS8xiB1Ed2BC837SW9yQQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rhS8xyB1Ed2BC837SW9yQQ" name="Tools" guid="_rhS8xyB1Ed2BC837SW9yQQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rhS8yCB1Ed2BC837SW9yQQ" name="StandardCategories" guid="_rhS8yCB1Ed2BC837SW9yQQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rhS8ySB1Ed2BC837SW9yQQ" name="CustomCategories" guid="_rhS8ySB1Ed2BC837SW9yQQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rhS8yiB1Ed2BC837SW9yQQ" name="Hidden" guid="_rhS8yiB1Ed2BC837SW9yQQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_rhS8yyB1Ed2BC837SW9yQQ" name="Custom Categories" guid="_rhS8yyB1Ed2BC837SW9yQQ" categorizedElements="_JlLnICB2Ed2BC837SW9yQQ _HcLkwIUHEd2L1_q-wjXweA"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_44njMCB1Ed2BC837SW9yQQ" name="release_info" guid="_44njMCB1Ed2BC837SW9yQQ" shapeicon="customcategories/resources/whats_new.gif" nodeicon="customcategories/resources/whats_new_obj.gif" variabilityType="contributes">
+            <methodElementProperty xmi:id="_45EPICB1Ed2BC837SW9yQQ" name="CategoryElementsSortType" value="Alphabetic"/>
+            <methodElementProperty xmi:id="_M-71kCCUEd29NKtAT3ef0Q" name="query" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?>&#xD;&#xA;&lt;Query xmi:version=&quot;2.0&quot; xmlns:xmi=&quot;http://www.omg.org/XMI&quot; xmlns=&quot;http://www.ibm.com/rmc/library/xmldef&quot;>&#xD;&#xA;  &lt;where>&#xD;&#xA;    &lt;condition name=&quot;tag&quot; value=&quot;nav_release_information&quot;/>&#xD;&#xA;  &lt;/where>&#xD;&#xA;&lt;/Query>&#xD;&#xA;"/>
+            <presentation xmi:id="-KwssbENnuG_cklnzvZxtzw" href="uma://-KwssbENnuG_cklnzvZxtzw#-KwssbENnuG_cklnzvZxtzw"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_irqswCLOEd2ct852UDqXGQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_JlLnICB2Ed2BC837SW9yQQ" name="nav_view_building_blocks.ibm" guid="_JlLnICB2Ed2BC837SW9yQQ" variabilityType="contributes" categorizedElements="_44njMCB1Ed2BC837SW9yQQ _A7jiQCzUEd2NtaqYqV6Fmw _nNrRACziEd2bNK7cl_DvOQ _3WP18HVCEd2KwLyf6ks5lg _0NHUEGm6Ed-FnY0iDvOKYw _10RCoGm7Ed-FnY0iDvOKYw _LsMrIG6REd-2paJKv1XLGg">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_QbmjwMRdEdyD76CYS6Ta7A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_A7jiQCzUEd2NtaqYqV6Fmw" name="getting_started.ibm" guid="_A7jiQCzUEd2NtaqYqV6Fmw" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCIHYMRdEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Concept" href="uma://_WCUhAO8KEdmKSqa_gSYthg#_FxJEkFUKEd2_rMtRMt_EMg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Concept" href="uma://_WCUhAO8KEdmKSqa_gSYthg#_qhCTAFRREd2CWscN8Mx6rg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_nNrRACziEd2bNK7cl_DvOQ" name="measurements_list" guid="_nNrRACziEd2bNK7cl_DvOQ" presentationName="Measurements" shapeicon="customcategories/resources/compassl.gif" nodeicon="customcategories/resources/compass.gif">
+            <methodElementProperty xmi:id="_vbbVkCziEd2bNK7cl_DvOQ" name="query" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?>&#xD;&#xA;&lt;Query xmi:version=&quot;2.0&quot; xmlns:xmi=&quot;http://www.omg.org/XMI&quot; xmlns=&quot;http://www.ibm.com/rmc/library/xmldef&quot;>&#xD;&#xA;  &lt;where>&#xD;&#xA;    &lt;condition name=&quot;tag&quot; value=&quot;nav_measurement&quot;/>&#xD;&#xA;  &lt;/where>&#xD;&#xA;&lt;/Query>&#xD;&#xA;"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_3WP18HVCEd2KwLyf6ks5lg" name="guidances.ibm" guid="_3WP18HVCEd2KwLyf6ks5lg" variabilityType="contributes" categorizedElements="_nNrRACziEd2bNK7cl_DvOQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_qdO80MRhEdyD76CYS6Ta7A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_HcLkwIUHEd2L1_q-wjXweA" name="navigation_view_generic-ibm" guid="_HcLkwIUHEd2L1_q-wjXweA" presentationName="Team (IBM)">
+            <presentation xmi:id="-jJG_2c0VdewcO_pTP8h5mg" href="uma://-jJG_2c0VdewcO_pTP8h5mg#-jJG_2c0VdewcO_pTP8h5mg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="#_cc3JQIUHEd2L1_q-wjXweA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCIHYMRdEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCIHYsRdEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_RJ__ECLJEd2ct852UDqXGQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_10RCoGm7Ed-FnY0iDvOKYw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_LsMrIG6REd-2paJKv1XLGg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_0NHUEGm6Ed-FnY0iDvOKYw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_qdO80MRhEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_VTspMMRfEdyD76CYS6Ta7A"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_irqswCLOEd2ct852UDqXGQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_0NHUEGm6Ed-FnY0iDvOKYw" name="structured_work_products_list" guid="_0NHUEGm6Ed-FnY0iDvOKYw" presentationName="Work Products" shapeicon="customcategories/resources/workproducts_obj.gif" nodeicon="customcategories/resources/workproducts.gif">
+            <methodElementProperty xmi:id="_A0UFIGm7Ed-FnY0iDvOKYw" name="query" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?>&#xD;&#xA;&lt;Query xmi:version=&quot;2.0&quot; xmlns:xmi=&quot;http://www.omg.org/XMI&quot; xmlns=&quot;http://www.ibm.com/rmc/library/xmldef&quot;>&#xD;&#xA;  &lt;where>&#xD;&#xA;    &lt;condition name=&quot;tag&quot; value=&quot;nav_domain&quot;/>&#xD;&#xA;    &lt;condition name=&quot;type&quot; value=&quot;Domain&quot;/>&#xD;&#xA;  &lt;/where>&#xD;&#xA;&lt;/Query>&#xD;&#xA;"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_10RCoGm7Ed-FnY0iDvOKYw" name="structured_role_sets_list" guid="_10RCoGm7Ed-FnY0iDvOKYw" presentationName="Roles Sets" shapeicon="customcategories/resources/roles_obj.gif" nodeicon="customcategories/resources/roles.gif">
+            <methodElementProperty xmi:id="_5hosQGm7Ed-FnY0iDvOKYw" name="query" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?>&#xD;&#xA;&lt;Query xmi:version=&quot;2.0&quot; xmlns:xmi=&quot;http://www.omg.org/XMI&quot; xmlns=&quot;http://www.ibm.com/rmc/library/xmldef&quot;>&#xD;&#xA;  &lt;where>&#xD;&#xA;    &lt;condition name=&quot;tag&quot; value=&quot;nav_role_sets_grouping&quot;/>&#xD;&#xA;    &lt;condition name=&quot;type&quot; value=&quot;RoleSetGrouping&quot;/>&#xD;&#xA;  &lt;/where>&#xD;&#xA;&lt;/Query>&#xD;&#xA;"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_LsMrIG6REd-2paJKv1XLGg" name="structured_tasks_list" guid="_LsMrIG6REd-2paJKv1XLGg" presentationName="Tasks" briefDescription="List of tasks organized by discipline." shapeicon="customcategories/resources/tasks.gif" nodeicon="customcategories/resources/tasks_obj.gif">
+            <methodElementProperty xmi:id="_NxtmIG6REd-2paJKv1XLGg" name="query" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?>&#xD;&#xA;&lt;Query xmi:version=&quot;2.0&quot; xmlns:xmi=&quot;http://www.omg.org/XMI&quot; xmlns=&quot;http://www.ibm.com/rmc/library/xmldef&quot;>&#xD;&#xA;  &lt;where type=&quot;OR&quot;>&#xD;&#xA;    &lt;group type=&quot;AND&quot;>&#xD;&#xA;      &lt;condition name=&quot;tag&quot; value=&quot;nav_discipline_grouping&quot;/>&#xD;&#xA;      &lt;condition name=&quot;type&quot; value=&quot;DisciplineGrouping&quot;/>&#xD;&#xA;    &lt;/group>&#xD;&#xA;    &lt;group type=&quot;AND&quot;>&#xD;&#xA;      &lt;condition name=&quot;tag&quot; value=&quot;nav_discipline&quot;/>&#xD;&#xA;      &lt;condition name=&quot;type&quot; value=&quot;Discipline&quot;/>&#xD;&#xA;    &lt;/group>&#xD;&#xA;  &lt;/where>&#xD;&#xA;&lt;/Query>&#xD;&#xA;"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_rhS8zCB1Ed2BC837SW9yQQ" name="CoreContent" guid="_rhS8zCB1Ed2BC837SW9yQQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0tCHkCXbEd2rO_lmWP67BQ" name="general guidance" guid="_0tCHkCXbEd2rO_lmWP67BQ" presentationName="General Guidance">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_cc3JQIUHEd2L1_q-wjXweA" name="welcome" guid="_cc3JQIUHEd2L1_q-wjXweA" presentationName="Welcome" briefDescription="Welcome to your process website!  This website is the result of selecting and publishing a set of practices." shapeicon="guidances/supportingmaterials/resources/icon_introl.gif" nodeicon="guidances/supportingmaterials/resources/mic.gif">
+            <presentation xmi:id="-BxzUyBwhaKpgyY_I6i5xVA" href="uma://-BxzUyBwhaKpgyY_I6i5xVA#-BxzUyBwhaKpgyY_I6i5xVA"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_rhS8zSB1Ed2BC837SW9yQQ" name="CapabilityPatterns" guid="_rhS8zSB1Ed2BC837SW9yQQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_rhS8ziB1Ed2BC837SW9yQQ" name="DeliveryProcesses" guid="_rhS8ziB1Ed2BC837SW9yQQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_rhS8zyB1Ed2BC837SW9yQQ" name="ProcessContributions" guid="_rhS8zyB1Ed2BC837SW9yQQ"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+    <bases href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_iX6DsBXGEdyM9L6rbYAZaw"/>
+    <bases href="uma://_WCUhAO8KEdmKSqa_gSYthg#_WCUhAO8KEdmKSqa_gSYthg"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

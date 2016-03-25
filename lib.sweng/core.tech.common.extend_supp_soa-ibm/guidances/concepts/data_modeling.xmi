@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-ONKBRmOE_m1MM5yaOPv9ug" name="new_concept,_td2yMIqcEd64Ytrb_zySHw" guid="-ONKBRmOE_m1MM5yaOPv9ug" changeDate="2009-09-21T18:51:32.828-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Data modeling is a&amp;nbsp;method used to define and analyze data requirements needed to support the business processes of&#xD;
+    an organization. The data requirements are recorded as a conceptual &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/data_model_E4755C1E.html&quot; guid=&quot;_uYi1gEo1Ed6D_7XK49c0nw&quot;>data model&lt;/a> (also known as a domain model, or an &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/information_model_7F8FC275.html&quot; guid=&quot;_GjvrcIB_Ed6gDe17473oSQ&quot;>information model&lt;/a>)&amp;nbsp;with associated data definitions. Actual implementation of&#xD;
+    the conceptual model is called a logical data model. Multiple logical data models might be needed to&amp;nbsp;implement one&#xD;
+    conceptual data model [&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.soa.base-ibm/guidances/supportingmaterials/references.tech_soa_EEC0EA20.html&quot; guid=&quot;_yP1fkJTFEd6XkOqYTiD4_Q&quot;>WKIP_DML&lt;/a>].&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Both [&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.soa.base-ibm/guidances/supportingmaterials/references.tech_soa_EEC0EA20.html&quot; guid=&quot;_yP1fkJTFEd6XkOqYTiD4_Q&quot;>AMB01&lt;/a>] and [WKIP_DML] provide brief descriptions of a data modeling process.&amp;nbsp;&#xD;
+    Ambler's is summarized as follows:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identify entity types&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify attributes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Apply naming conventions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify relationships&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Apply data model patterns&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Assign keys&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Normalize to reduce data redundancy&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Denormalize to improve performance&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Details for each step of the process are provided in [Ambler].&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There is no universally-adopted notation for representing data models.&amp;nbsp; The two most popular notations, that for&#xD;
+    the Information Engineering Method [&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.soa.base-ibm/guidances/supportingmaterials/references.tech_soa_EEC0EA20.html&quot; guid=&quot;_yP1fkJTFEd6XkOqYTiD4_Q&quot;>FNK89&lt;/a>] and Barker's notation [&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.soa.base-ibm/guidances/supportingmaterials/references.tech_soa_EEC0EA20.html&quot; guid=&quot;_yP1fkJTFEd6XkOqYTiD4_Q&quot;>BRK90&lt;/a>], first evolved during the 1970's and 1980's, respectively.&amp;nbsp;&amp;nbsp;Each&#xD;
+    uses a variant of the &quot;pitchfork&quot; notation, used to describe multiplicity in entity-to-entity relationships,&amp;nbsp;that&#xD;
+    is commonly seen in data model Entity-Relationship diagrams (ERDs).&amp;nbsp; Another&amp;nbsp;notation, IDEF1X, was developed&#xD;
+    with the sponsorship of the United States Air Force during the early 1980's [&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.soa.base-ibm/guidances/supportingmaterials/references.tech_soa_EEC0EA20.html&quot; guid=&quot;_yP1fkJTFEd6XkOqYTiD4_Q&quot;>BRC92&lt;/a>].&amp;nbsp;&amp;nbsp;IDEF1X ERDs are characterized by &quot;ball&quot; notation&amp;nbsp;to&#xD;
+    denote&amp;nbsp;various multiplicities.&amp;nbsp; Unified Modeling Language (UML) has seen limited penetration into the data&#xD;
+    modeling domain, even though&amp;nbsp;UML is richer semantically than any of the other three notations and is able to&#xD;
+    represent relationships that the other notations cannot.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    [AMB01] provides a&amp;nbsp;useful tabular&amp;nbsp;comparison of the&amp;nbsp;graphical elements&amp;nbsp;provided by&amp;nbsp;each of the&#xD;
+    above four notations.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_yQXvICZREd-Hb5ChSoDHIA" guid="_yQXvICZREd-Hb5ChSoDHIA">
+    <resourceDescriptors xmi:id="_yQXvISZREd-Hb5ChSoDHIA" id="-rEp7jfRAsQxxmYH9QUr1sA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_xfqEAyZREd-Hb5ChSoDHIA" name="develop_initial_vision" guid="_xfqEAyZREd-Hb5ChSoDHIA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfqEBCZREd-Hb5ChSoDHIA" name="analyze_the_problem" guid="_xfqEBCZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfqEBSZREd-Hb5ChSoDHIA" name="analyze_the_problem" guid="_xfqEBSZREd-Hb5ChSoDHIA" superActivities="_xfqECSZREd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_KjsUsyZIEd-Hb5ChSoDHIA#_Kj2FqiZIEd-Hb5ChSoDHIA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_aHJP4CZSEd-Hb5ChSoDHIA" name="understand_stakeholder_needs" guid="_aHJP4CZSEd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_aHJP4SZSEd-Hb5ChSoDHIA" name="understand_stakeholder_needs" guid="_aHJP4SZSEd-Hb5ChSoDHIA" superActivities="_xfqECSZREd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_KjsUsyZIEd-Hb5ChSoDHIA#_KjsUuSZIEd-Hb5ChSoDHIA"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_xfqECSZREd-Hb5ChSoDHIA" name="develop_initial_vision" guid="_xfqECSZREd-Hb5ChSoDHIA" presentationName="Develop Initial Vision" briefDescription="This covers activities required to develop the initial vision for the project." breakdownElements="_xfqEBSZREd-Hb5ChSoDHIA _aHJP4SZSEd-Hb5ChSoDHIA">
+      <methodElementProperty xmi:id="_4F2d0LemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-rEp7jfRAsQxxmYH9QUr1sA" href="uma://-rEp7jfRAsQxxmYH9QUr1sA#-rEp7jfRAsQxxmYH9QUr1sA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

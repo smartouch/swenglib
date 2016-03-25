@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-9MCLdMOzBY_3iRmYIEoWJw" name="spec_logical_arch,_TGxyEJEzEeCnTdC8bcBfaw" guid="-9MCLdMOzBY_3iRmYIEoWJw" changeDate="2011-06-27T11:01:39.656-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    The logical architecture is the set of organizing principles and structures for the development project. The largest&#xD;
+    single aspect of this is the organization of the system model(s). The goals of a good logical architecture are to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        allow team members to complete their work as efficiently as possible&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        minimize interactions between teams&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        maximize access to the parts of the model they need but don't have control of&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        maximize ease of sharing parts when needed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        minimize rework and independent recreation of the same elements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        maximize the ease of system construction (compilation and deployment on target platforms)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        How large is the project?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How many development teams are involved?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How large is each team?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are the teams colocated?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How will the teams collaborate and share model artifacts?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What is the degree of interaction among the models or portions of the models?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are there architectural design patterns, guidelines, or principles to be shared across models?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Will the team be receiving a handoff model from system engineering?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are there legacy components, libraries, or source files to be shared among the teams?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is the hardware platform available to all team members for integration?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How will integration occur, who will do it, and when and where will this take place?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  <sections xmi:id="_JqLfoKDoEeC3BtbOsE9k9Q" name="Identify the team structure" guid="_JqLfoKDoEeC3BtbOsE9k9Q">
+    <sectionDescription>One of the model structure attempts to optimize is the collaboration within and between teams. The best model structures&#xD;
+take into account the set and structure of the teams that will work on the models. The teams need to be clarified as to&#xD;
+their responsibility (e.g. work on a subsystem, define requirements, manage assets between teams, etc.).</sectionDescription>
+  </sections>
+  <sections xmi:id="_KzpCEKDoEeC3BtbOsE9k9Q" name="Identify the elements that must be shared among teams" guid="_KzpCEKDoEeC3BtbOsE9k9Q">
+    <sectionDescription>Elements to be shared among different teams are normally stored in a model or package shared among the different teams. The&#xD;
+identifying the set of such elements can lead to a better understanding of the organization of the shared model.</sectionDescription>
+  </sections>
+  <sections xmi:id="_M_RMIKDoEeC3BtbOsE9k9Q" name="Construct the set of models" guid="_M_RMIKDoEeC3BtbOsE9k9Q">
+    <sectionDescription>It is common that each team will work on one or more models that they own and use models developed by other teams. This&#xD;
+step identifies what models are needed.</sectionDescription>
+  </sections>
+  <sections xmi:id="_OaUN0KDoEeC3BtbOsE9k9Q" name="Identify the structure of each model" guid="_OaUN0KDoEeC3BtbOsE9k9Q">
+    <sectionDescription>Each model is organized by packages. Each model structure must be specified so that each of the model elements has a&#xD;
+defined home.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to specify the organization and structure of things that exist at design-time.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

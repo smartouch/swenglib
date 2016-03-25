@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_bLFSAExtEd6QiZrGCd69pQ" guid="_bLFSAExtEd6QiZrGCd69pQ">
+    <subManagers xmi:id="_iR82IWKqEd6Ih4GzU1_Daw" href="uma://_iRNPQGKqEd6Ih4GzU1_Daw#_iR82IWKqEd6Ih4GzU1_Daw"/>
+    <resourceDescriptors xmi:id="_iRXAQGKqEd6Ih4GzU1_Daw" id="_iRNPQGKqEd6Ih4GzU1_Daw" uri="capabilitypatterns/arch_trades/model.xmi"/>
+    <resourceDescriptors xmi:id="_ZrfDUKk6Ed6l6bHFBRRYIg" id="-gAXVHgrJZFJ7XIy0DVvw-w" uri="tasks/assign_moes.xmi"/>
+    <resourceDescriptors xmi:id="_hWoKEak6Ed6l6bHFBRRYIg" id="-NAqvfsSd6EsS_R3q9uM0-A" uri="tasks/assign_weights.xmi"/>
+    <resourceDescriptors xmi:id="_lQYC0ak6Ed6l6bHFBRRYIg" id="-V7INE-r4pWlTo1PEbFT_Pg" uri="tasks/def_criteria.xmi"/>
+    <resourceDescriptors xmi:id="_uGK-0ak6Ed6l6bHFBRRYIg" id="-gm0XOuWn4_ngah5qVY0XHQ" uri="tasks/def_util_curve.xmi"/>
+    <resourceDescriptors xmi:id="_0C5b8Kk6Ed6l6bHFBRRYIg" id="-rSfOl7OKspTTPqi4qnQNHA" uri="tasks/determine_sol.xmi"/>
+    <resourceDescriptors xmi:id="_FHb78cJeEd6Ame-XMnb0Gg" id="-Y_caDv78RRQ_tRiH7QAevw" uri="guidances/practices/trade_study_wom.xmi"/>
+    <resourceDescriptors xmi:id="_0TlYYbCbEd-dpZ5d180AQw" id="-zpHvzyXeN4TaUfqGsv_j4g" uri="guidances/supportingmaterials/release_info_arch_trade_study_wom.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_bK8IEExtEd6QiZrGCd69pQ" userChangeable="false" name="practice.tech.syseng.arch_trade_study_wom.base-ibm" guid="_bK8IEExtEd6QiZrGCd69pQ" presentationName="Trade Study - Weighted Objectives Method" briefDescription="The objective of a trade study is to determine the best means of achieving the capability of a particular aspect of the system in a rational manner." changeDate="2009-10-27T14:34:09.578-0700">
+    <methodElementProperty xmi:id="_3QgKNbemEd-oHLor78AFuw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_VBVtYBXVEdyM9L6rbYAZaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bK8IEUxtEd6QiZrGCd69pQ" name="Content" guid="_bK8IEUxtEd6QiZrGCd69pQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bK8IEkxtEd6QiZrGCd69pQ" name="Categories" guid="_bK8IEkxtEd6QiZrGCd69pQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bK8IE0xtEd6QiZrGCd69pQ" name="Domains" guid="_bK8IE0xtEd6QiZrGCd69pQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bK8IFExtEd6QiZrGCd69pQ" name="Disciplines" guid="_bK8IFExtEd6QiZrGCd69pQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bK8IFUxtEd6QiZrGCd69pQ" name="RoleSets" guid="_bK8IFUxtEd6QiZrGCd69pQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bK8IFkxtEd6QiZrGCd69pQ" name="WP Types" guid="_bK8IFkxtEd6QiZrGCd69pQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bK8IF0xtEd6QiZrGCd69pQ" name="Tools" guid="_bK8IF0xtEd6QiZrGCd69pQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bK8IGExtEd6QiZrGCd69pQ" name="StandardCategories" guid="_bK8IGExtEd6QiZrGCd69pQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bK8IGUxtEd6QiZrGCd69pQ" name="CustomCategories" guid="_bK8IGUxtEd6QiZrGCd69pQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bK8IGkxtEd6QiZrGCd69pQ" name="Hidden" guid="_bK8IGkxtEd6QiZrGCd69pQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_bK8IG0xtEd6QiZrGCd69pQ" name="Custom Categories" guid="_bK8IG0xtEd6QiZrGCd69pQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bK8IHExtEd6QiZrGCd69pQ" name="CoreContent" guid="_bK8IHExtEd6QiZrGCd69pQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_PO-XAJi5Ed6JmoH2XFiafA" name="Trade Study" guid="_PO-XAJi5Ed6JmoH2XFiafA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_rIrNgJjUEd6JmoH2XFiafA" name="def_criteria" guid="_rIrNgJjUEd6JmoH2XFiafA" presentationName="Define Assessment Criteria" briefDescription="This task identifies the assessment criteria for solution candidates.">
+            <presentation xmi:id="-V7INE-r4pWlTo1PEbFT_Pg" href="uma://-V7INE-r4pWlTo1PEbFT_Pg#-V7INE-r4pWlTo1PEbFT_Pg"/>
+            <guidelines href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_0LQm8LNwEd6ufunCNQt1zA"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_NjZ3wEWQEd6Js4kKfkp_5Q"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_v7afoJgXEd6u7McLcbxIEQ"/>
+            <optionalInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_v7afoJgXEd6u7McLcbxIEQ"/>
+            <optionalInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_cFPJgEWQEd6Js4kKfkp_5Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ulEb4JjUEd6JmoH2XFiafA" name="assign_weights" guid="_ulEb4JjUEd6JmoH2XFiafA" presentationName="Assign Weights to Criteria" briefDescription="This task focuses on establishing weighting factors for each criterion.">
+            <presentation xmi:id="-NAqvfsSd6EsS_R3q9uM0-A" href="uma://-NAqvfsSd6EsS_R3q9uM0-A#-NAqvfsSd6EsS_R3q9uM0-A"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_v7afoJgXEd6u7McLcbxIEQ"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_v7afoJgXEd6u7McLcbxIEQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_y29H0JjUEd6JmoH2XFiafA" name="def_util_curve" guid="_y29H0JjUEd6JmoH2XFiafA" presentationName="Define Utility Curve for each Criterion" briefDescription="This task focuses on defining utility curves for each of the assessment criteria.">
+            <presentation xmi:id="-gm0XOuWn4_ngah5qVY0XHQ" href="uma://-gm0XOuWn4_ngah5qVY0XHQ#-gm0XOuWn4_ngah5qVY0XHQ"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_v7afoJgXEd6u7McLcbxIEQ"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_v7afoJgXEd6u7McLcbxIEQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3CkzsJjUEd6JmoH2XFiafA" name="assign_moes" guid="_3CkzsJjUEd6JmoH2XFiafA" presentationName="Assign MoEs to Candidate Solutions" briefDescription="This task focuses on assigning Measures of Effectiveness (MoE) values to each of the candidate solutions.">
+            <presentation xmi:id="-gAXVHgrJZFJ7XIy0DVvw-w" href="uma://-gAXVHgrJZFJ7XIy0DVvw-w#-gAXVHgrJZFJ7XIy0DVvw-w"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_v7afoJgXEd6u7McLcbxIEQ"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_v7afoJgXEd6u7McLcbxIEQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_7IijgJjUEd6JmoH2XFiafA" name="determine_sol" guid="_7IijgJjUEd6JmoH2XFiafA" presentationName="Determine Solution" briefDescription="This task focuses on determining the optimum solution for a selected aspect of the system.">
+            <presentation xmi:id="-rSfOl7OKspTTPqi4qnQNHA" href="uma://-rSfOl7OKspTTPqi4qnQNHA#-rSfOl7OKspTTPqi4qnQNHA"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_v7afoJgXEd6u7McLcbxIEQ"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_v7afoJgXEd6u7McLcbxIEQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_SSB4UJi5Ed6JmoH2XFiafA" name="trade_study_wom" guid="_SSB4UJi5Ed6JmoH2XFiafA" presentationName="Trade Study - Weighted Objectives Method" briefDescription="The objective of a trade study is to determine the best means of achieving the capability of a particular aspect of the system in a rational manner.">
+            <presentation xmi:id="-Y_caDv78RRQ_tRiH7QAevw" href="uma://-Y_caDv78RRQ_tRiH7QAevw#-Y_caDv78RRQ_tRiH7QAevw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_3CkzsJjUEd6JmoH2XFiafA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_ulEb4JjUEd6JmoH2XFiafA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_rIrNgJjUEd6JmoH2XFiafA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_y29H0JjUEd6JmoH2XFiafA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_7IijgJjUEd6JmoH2XFiafA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_NjZ3wEWQEd6Js4kKfkp_5Q"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_v7afoJgXEd6u7McLcbxIEQ"/>
+            <activityReferences href="uma://_iRNPQGKqEd6Ih4GzU1_Daw#_iRNPQWKqEd6Ih4GzU1_Daw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_0S-7cLCbEd-dpZ5d180AQw" name="release_info_arch_trade_study wom" guid="_0S-7cLCbEd-dpZ5d180AQw" presentationName="Practice: System Engineering - Trade Study - Weighted Objectives Method" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-zpHvzyXeN4TaUfqGsv_j4g" href="uma://-zpHvzyXeN4TaUfqGsv_j4g#-zpHvzyXeN4TaUfqGsv_j4g"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_bK8IHUxtEd6QiZrGCd69pQ" name="CapabilityPatterns" guid="_bK8IHUxtEd6QiZrGCd69pQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_iRNPQGKqEd6Ih4GzU1_Daw" href="uma://_iRNPQGKqEd6Ih4GzU1_Daw#_iRNPQGKqEd6Ih4GzU1_Daw"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_bK8IHkxtEd6QiZrGCd69pQ" name="DeliveryProcesses" guid="_bK8IHkxtEd6QiZrGCd69pQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_bK8IH0xtEd6QiZrGCd69pQ" name="ProcessContributions" guid="_bK8IH0xtEd6QiZrGCd69pQ"/>
+    <bases href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_WbKEoGG1Ed6ByZ91UzrddQ"/>
+    <bases href="uma://_A118oMYaEdyXeo04os5BOw#_A118oMYaEdyXeo04os5BOw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

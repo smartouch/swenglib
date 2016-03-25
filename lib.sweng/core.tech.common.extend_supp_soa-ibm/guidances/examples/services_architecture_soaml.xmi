@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-UlmJK14H_-HSX-JWwL8gxQ" name="service_architecture_soaml,_mOf5sFbBEd6MCpkuB85p5g" guid="-UlmJK14H_-HSX-JWwL8gxQ" changeDate="2011-06-21T15:52:21.084-0700" version="7.5.0">
+  <copyrightStatement href="uma://_4eYbIEcWEd6GBq2DuQ5crg#_cg5P8Lg9Ed6PrITAH4wF_w"/>
+  <mainDescription>&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>Figure 1&amp;nbsp;illustrates a services architecture involving three participants (dealer, mfg, and&#xD;
+    shipper) and three services (Purchasing Service, Ship Status, and Ship).&amp;nbsp;Each service is modeled using a&#xD;
+    CollaborationUse that is typed as the ServiceContract which is associated with the service.&amp;nbsp;&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;strong>Figure 1.&amp;nbsp; A ServicesArchitecture involving three participants and three services.&lt;/strong>&#xD;
+    Note: the purpose of the dealer network architecture is to establish the financially related services between dealers&#xD;
+    and manufacturers such that any dealer can do business with any manufacturer.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp; &lt;img alt=&quot;&quot; src=&quot;./resources/services_architecture_example_1.jpg&quot; width=&quot;599&quot; height=&quot;299&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>This services architecture shows how a community of dealers, manufacturers, and shippers can work&#xD;
+    together. Each party must provide and use the services specified in the architecture. If they do, they will then be&#xD;
+    able to participate in this community. This &quot;B2B&quot; SOA specifies the roles of the parties and the services they provide&#xD;
+    and use without specifying anything about who they are, their organizational structure, or internal processes. No&#xD;
+    &quot;controller&quot; or &quot;mediator&quot; is required as long as each agrees to the service contracts.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>By specifying a ServicesArchitecture, we can understand the services in our enterprise and communities&#xD;
+    in context and recognize the real (business) dependencies that exist between the participants. The purpose of the&#xD;
+    services architecture might also be specified as a comment. Each participant in a ServicesArchitecture must have a port&#xD;
+    that is compatible with the roles played in each ServiceContract role it is bound to.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Figure 2&amp;nbsp;serves to illustrate how the different elements in a ServicesArchitecture are related (the red&amp;nbsp;lines&#xD;
+    are illustrative only and have no UML meaning).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 2.&amp;nbsp; Relations between the elements that compose a ServicesArchitecture&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;./resources/services_architecture_example_2.jpg&quot; width=&quot;596&quot; height=&quot;566&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>The diagram shows the &quot;trace&quot; between a service architecture through the participants and their service&#xD;
+    points to the service contract that defines the service interfaces for each of the service points. What the above shows&#xD;
+    is that the Dealer&amp;nbsp;and Manufacturer are participants in a &quot;Dealer Network Architecture&quot; in which the dealer plays&#xD;
+    the role of the &quot;buyer&quot; in the &quot;Purchasing Service&quot; and the &quot;Manufacturer&quot; plays the role of the seller in the same&#xD;
+    service. Participating in these services requires that they have service ports defined on the participant type - these&#xD;
+    are the ports on &quot;Dealer&quot; and &quot;Manufacturer&quot; types. These ports have a ServiceInterface type defined in the &quot;Purchasing&#xD;
+    Service&quot; contract. These service interfaces each have two ports because Purchasing Service is a compound service&#xD;
+    contract - the service interfaces have a port for each nested service: Ordering Service &amp;amp; Invoicing Service,&#xD;
+    respectively.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>Refer to the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/examples/service_contract_soaml_A448B6E2.html&quot;&#xD;
+    guid=&quot;_RucNoFbPEd6MCpkuB85p5g&quot;>ServiceContract (SoaML)&lt;/a> example for further discussion of the Ordering Service&#xD;
+    service contract and compound service contracts.&lt;/font>&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

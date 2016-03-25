@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-dU9-1E_1LdOokvhPlpr2Qw" name="sys_statechart_diag,_iEm0UKI9Ed6eYbGGXte97g" guid="-dU9-1E_1LdOokvhPlpr2Qw" changeDate="2009-11-03T17:17:02.156-0800" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    A Statechart Diagram describes the state-based behavior of a block. It is one of&amp;nbsp;the most important behavior&#xD;
+    diagrams because&amp;nbsp;it aggregates the information from both the activity diagram (functional flow) and the sequence&#xD;
+    diagrams (interactions with the environment), and adds the event-driven block behavior to the diagram. As the&#xD;
+    &quot;language&quot; of statecharts is formally defined, the correctness and completeness of the resulting behavior can be&#xD;
+    verified/validated through model execution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Statechart diagrams are finite state machines that are extended by the notation of &lt;strong>&lt;em>Hierarchy&lt;/em>&lt;/strong>&#xD;
+    and &lt;strong>&lt;em>Concurrency&lt;/em>&lt;/strong>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Basically, a statechart diagram is comprised of a set of states joined by transitions and various connectors. An event&#xD;
+    may trigger a transition from one state to another. Actions can be performed on transitions and on state entry/exit.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In most of the cases a&amp;nbsp;System Block Statechart Diagram&amp;nbsp;is defined for each leaf system block.&amp;nbsp; The&#xD;
+    emergent behavior that results from the collaboration of each leaf block statechart diagram&amp;nbsp;must reflect the&#xD;
+    functional flow captured in the white-box activity diagram&amp;nbsp;as well as the associated&amp;nbsp;white-box sequence&#xD;
+    diagrams.&#xD;
+&lt;/p></mainDescription>
+  <purpose>The purpose of this&amp;nbsp;artifact is to capture a formal representation of&amp;nbsp;a system&amp;nbsp;block behavior to provide the&#xD;
+means to verify and validate the system architecture model through model execution.</purpose>
+  <impactOfNotHaving>Without this artifact it would not be possible to validate the system architectural model via model execution.</impactOfNotHaving>
+  <representationOptions>This diagram is usually represented as a UML/SysML state machine diagram. Back to top</representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

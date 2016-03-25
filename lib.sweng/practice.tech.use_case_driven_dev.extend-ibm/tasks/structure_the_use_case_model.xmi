@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-0dPtH9VKSSl98opIHfASmQ" name=",_CxpC0EEDEdyoefaQkqWN_Q" guid="-0dPtH9VKSSl98opIHfASmQ" changeDate="2011-10-14T16:18:28.494-0700" version="1.0.0">
+  <sections xmi:id="_YTQKIEEDEdyoefaQkqWN_Q" name="Identify Common Requirements" guid="_YTQKIEEDEdyoefaQkqWN_Q">
+    <sectionDescription>&lt;p>&#xD;
+    Understand the requirements that are common to more than one&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp/workproducts/use_case_22BE66E2.html&quot; guid=&quot;_0VGbUMlgEdmt3adZL5Dmdw&quot;>Use Case&lt;/a>, or that describe optional or exceptional behavior. Review each completed use case and note any commonality or&#xD;
+    exceptional behavior that's not tightly coupled with the rest of the use case.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_whTfQIUYEd27AYIlqvCTLg" name="Organize requirements in use cases" guid="_whTfQIUYEd27AYIlqvCTLg">
+    <sectionDescription>&lt;p>&#xD;
+    Move the identified requirements to more appropriate use cases to make understanding and managing the use cases easier.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.tech.use_case_driven_dev.extend-ibm/guidances/concepts/include_relationship_D0FFD316.html&quot; guid=&quot;_B-gycIUYEd27AYIlqvCTLg&quot;>Include Relationship&lt;/a>&amp;nbsp;and &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.tech.use_case_driven_dev.extend-ibm/guidances/concepts/extend_relationship_3C2CE638.html&quot; guid=&quot;_bRy0kIUYEd27AYIlqvCTLg&quot;>Extend Relationship&lt;/a>&amp;nbsp;to understand what kinds of relationships support&#xD;
+    structuring the use case model. See &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.tech.use_case_driven_dev.extend-ibm/guidances/guidelines/defining_include_relationships_AC1665F7.html&quot; guid=&quot;_9HuNEEk-Edyi3_jfs__bIQ&quot;>Defining Include Relationships&lt;/a>&amp;nbsp;and &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.tech.use_case_driven_dev.extend-ibm/guidances/guidelines/defining_extend_relationships_9E99C694.html&quot; guid=&quot;_hjbKkEk-Edyi3_jfs__bIQ&quot;>Defining Extend Relationships&lt;/a>&amp;nbsp;to understand how to organize and reference&#xD;
+    requirements within abstract use cases.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_uLN78EEDEdyoefaQkqWN_Q" name="Establish Generalizations Between Actors" guid="_uLN78EEDEdyoefaQkqWN_Q">
+    <sectionDescription>&lt;p>&#xD;
+    Model common characteristics between actors. Write a brief description of the actor-generalizations, and include them&#xD;
+    in use-case diagrams for further clarification.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more information, see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.use_case_driven_dev.extend-ibm/guidances/guidelines/using_actor_generalization_8A086DFC.html&quot; guid=&quot;_yeOwwEk8Edyi3_jfs__bIQ&quot;>Guideline: Using Actor Generalization&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_ymyIUEEDEdyoefaQkqWN_Q" name="Organize the Use-Case Model Content into Packages" guid="_ymyIUEEDEdyoefaQkqWN_Q">
+    <sectionDescription>If the use-case model has a large number of elements, you&amp;nbsp;might want to consider organizing the use cases into&#xD;
+use-case packages.&amp;nbsp; See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.use_case_driven_dev.extend-ibm/guidances/guidelines/packaging_use_cases_743ED23E.html&quot; guid=&quot;_D7J74D8oEd2JSYf1zEIFOw&quot;>Guideline: Packaging Use Cases&lt;/a>&amp;nbsp;for more information on when to consider this&#xD;
+option.</sectionDescription>
+  </sections>
+  <sections xmi:id="_08Pj0EEDEdyoefaQkqWN_Q" name="Evaluate Your Results" guid="_08Pj0EEDEdyoefaQkqWN_Q">
+    <sectionDescription>&lt;p>&#xD;
+    Discuss the incorporation of include-, and extend-relationships with the customer and the users, and assure they have a&#xD;
+    clear understanding of the system based on the updated use case model.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    The purpose of this task is to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Extract behavior in use cases that need to be considered as abstract use cases. Examples of such behavior includes&#xD;
+        common behavior, optional behavior, exceptional behavior, and behavior that is to be developed in later iterations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Find new abstract actors that define roles that are shared by several actors.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  <alternatives>If it's difficult or awkward to represent common requirements by structuring the use case model, consider moving common&#xD;
+content into other requirements work products instead of refactoring the model.</alternatives>
+</org.eclipse.epf.uma:TaskDescription>

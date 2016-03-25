@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-o-qNiz0rhxCBCHN6xL3vwA" name="development_discipline,_0uUD8SsBEd-5jezL08ZExg" guid="-o-qNiz0rhxCBCHN6xL3vwA" version="7.5.0"/>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-KMiA9KWR6BFSxhUV0Rm-BQ" name="design_the_database,{FB3EB753-A979-4849-B57B-97F39271F82B}" guid="-KMiA9KWR6BFSxhUV0Rm-BQ">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    This activity includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying the persistent classes in the design&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Designing appropriate database structures to store the persistent classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defining mechanisms and strategies for storing and retrieving persistent data in such a way that the performance&#xD;
+        criteria for the system are met&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The database and persistent data storage and retrieval mechanisms, are implemented and tested as part of the overall&#xD;
+    implementation of the components and subsystems of the application.&#xD;
+&lt;/p></mainDescription>
+    <keyConsiderations>&lt;a id=&quot;Timing&quot; name=&quot;Timing&quot;>&lt;/a>&lt;a id=&quot;Optionality&quot; name=&quot;Optionality&quot;>&lt;/a>&lt;a id=&quot;WorkGuidelines&quot;&#xD;
+name=&quot;WorkGuidelines&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Persistence must be treated as an integral part of the design effort, and close collaboration between designers and&#xD;
+    database designers is essential. Typically the database designer is a 'floating' resource, shared between several teams&#xD;
+    as a consulting resource to address persistence issues. The database designer is also typically responsible for the&#xD;
+    persistence mechanisms; if the persistence mechanism is built rather than bought, there will typically be a team of&#xD;
+    people working on this. Larger projects will typically require a small team of database designers who will need to&#xD;
+    coordinate work between both design teams and amongst themselves to ensure that persistence is consistently implemented&#xD;
+    across the project.&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br /></keyConsiderations>
+    <usageGuidance>&lt;p>&#xD;
+    In the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/elaboration_phase_BE880435.html&quot;&#xD;
+    guid=&quot;_2plxwBOMEduCNqgZdt_OaA&quot;>Elaboration Phase&lt;/a>, this activity focuses on ensuring that the persistence strategy&#xD;
+    is scalable and that the database design and persistence mechanism will support the throughput requirements of the&#xD;
+    system. Persistent classes identified in the class design task are mapped to the persistence mechanism and&#xD;
+    data-intensive use cases are analyzed to ensure the mechanisms will be scalable. The persistence mechanism and database&#xD;
+    design is assessed and validated.&lt;br />&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The Designers responsible for persistent classes need to have an understanding of the persistence in general and the&#xD;
+    persistence mechanisms in specific. Their primary responsibility is to ensure that persistent classes are identified&#xD;
+    and that these classes utilize the persistence mechanisms in an appropriate manner. The Database Designer needs to&#xD;
+    understand the persistent classes in the design model and so must have a working understanding of object-oriented&#xD;
+    design and implementation techniques. The Database Designer also needs a strong background in database concurrency and&#xD;
+    distribution issues.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-xBZDRpFetYJ4NZl9T5YZrA" name="design_components,{9C683674-97C1-4AEE-8DB0-9514AEFF698E}" guid="-xBZDRpFetYJ4NZl9T5YZrA">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    This activity has the following goals:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Refine the definitions of design elements by working out the 'details' of how the design elements realize the&#xD;
+        behavior required of them.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Refine and update the use-case realizations based on new design element identified (i.e. keeping the use-case&#xD;
+        realizations updated)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Review the design&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    Typically the work here is carried out individually or in small teams, with informal inter-group interactions where&#xD;
+    needed to communicate changes between the teams. As design elements are refined, responsibilities often shift between&#xD;
+    them, requiring simultaneous changes to a number of design elements and use-case realizations. Because of the interplay&#xD;
+    of responsibilities, it is almost impossible for design team members to work in complete isolation. To keep the design&#xD;
+    effort focused on the required behavior of the system (as expressed in use-case realizations), a typical pattern of&#xD;
+    interaction emerges:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        design elements are refined by the responsible persons or teams&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        a small group (perhaps 2-5 people) gathers informally to work out the impact of the new design elements on a set of&#xD;
+        existing use-case realizations&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        changes to both the use-case realization and the participating design elements are identified&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the cycle repeats until all required behavior for the iteration is designed.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Because the process itself is iterative, the criteria for 'all required behavior for the iteration' will depend on the&#xD;
+    position in the lifecycle.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Focus on architecturally-significant behaviors in the elaboration phase. Ignore all other 'details'.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        In the construction phase there is a shift to completeness and consistency of the design, so that by the end of the&#xD;
+        construction phase there are no unresolved design issues.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Note that the design for an iteration does not need to be complete before beginning implementation and test activities.&#xD;
+    Partially implementing and testing a design as it evolves can be an effective means of validating and refining design,&#xD;
+    even within an iteration.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Typically, one person or a small team is responsible for a set of design elements, usually one or more packages or&#xD;
+    subsystems containing other design elements. This person/team is responsible for fleshing out the design details for&#xD;
+    the elements contained in the package or subsystem: completing all operation definitions and the definition of&#xD;
+    relationships to other design elements. The design of capsules focuses on the recursive decomposition of functionality&#xD;
+    in the system in terms of capsules and (passive or data) classes. The design of classes focuses on refining the design&#xD;
+    of passive&amp;nbsp;class design elements, while the&amp;nbsp;design of subsystems&amp;nbsp;focuses on the allocation of behavior&#xD;
+    mapped to the subsystem itself to contained design elements (either contained capsules and classes or&#xD;
+    subsystems).&amp;nbsp; Typically subsystems are used primarily as large-grained model organization structures, while&#xD;
+    capsules being used for the bulk of the work and &quot;ordinary&quot; classes being relegated largely to passive stores of&#xD;
+    information.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The individuals or teams responsible for designing capsules should be knowledgeable in the implementation language as&#xD;
+    well as possessing expertise in the concurrency issues in general. Individuals responsible for designing&amp;nbsp;passive&#xD;
+    classes should also be knowledgeable in the implementation language as well as in algorithms or technologies to be&#xD;
+    employed by the class. Individuals or teams responsible for subsystems should be more generalists, able to make&#xD;
+    decisions on the proper partitioning of functionality between design elements, and able to understand the inherent&#xD;
+    trade-offs involved in various design alternatives.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While the individual design elements are refined, the use-case realizations must be refined to reflect the evolving&#xD;
+    responsibilities of the design elements. Typically, one person or a small team is responsible for refining one or more&#xD;
+    related use-case realizations. As design elements are added or refined, the use-case realizations need to be&#xD;
+    reconsidered and evolved as they become outdated, or as improvements in the design model allow for simplifications in&#xD;
+    the use-case realizations. The individuals or teams responsible for use-case realizations need to have broader&#xD;
+    understanding of the behavior required by the use cases and of the trade-offs of different approaches to allocating&#xD;
+    this behavior amongst design elements. In addition, since they are responsible for selecting the elements that will&#xD;
+    perform the use cases, they need to have a deep understanding of external (public) behaviors of the design elements&#xD;
+    themselves.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-76tgavdrKadmXVouLZSy0A" name="implement_components,{4DC6F53E-1FE1-44EE-812B-003D3BD1ACEA}" guid="-76tgavdrKadmXVouLZSy0A">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    In this activity:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The implementers write source code, adapt existing source code, compile, link and perform unit tests, as they&#xD;
+        implement the elements in the design model. If defects in the design are discovered, the implementer submits rework&#xD;
+        feedback on the design.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The implementers also fix code defects and perform unit tests to verify the changes. Finally, the code is reviewed&#xD;
+        to evaluate quality and compliance with the Programming Guidelines.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    The review task is best done in several sessions, each focused on small sections of the system or on specific issues.&#xD;
+    The goal of these sessions is to identify specific problems in the code that need to be resolved, not to resolve them&#xD;
+    on the spot; resolution discussions should be postponed until after the review. More frequent reviews which are smaller&#xD;
+    in scope are more productive than less frequent sessions which are larger in scope.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The tasks carried out by the implementer tend to be done by a single person. The review task is best carried out by a&#xD;
+    small team staffed by cross-functional team members, typically more senior members of technical staff with greater&#xD;
+    experience into common problems and pitfalls encountered in the programming language. Special expertise may be required&#xD;
+    in the problem domain, as is often the case in systems involving telephony or devices with special interfaces.&#xD;
+    Expertise in specific algorithms or programming techniques may also be required.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-9wKI9ODdIVuHeDMlr4ljug" name="integrate_each_subsystem,{26723872-54F2-48C0-8384-0F595BD86EAD}" guid="-9wKI9ODdIVuHeDMlr4ljug">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    If several implementers work (as a team) on the same Implementation Subsystem, the changes from the individual&#xD;
+    implementers need to be integrated to create a new consistent version of the Implementation Subsystem. The integration&#xD;
+    results in series of builds in a subsystem integration workspace. Each build is then integration tested by a tester or&#xD;
+    an implementer executing the developer tests. Following testing, the Implementation Subsystem is delivered into the&#xD;
+    system integration workspace.&#xD;
+&lt;/p></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    Integration work is typically automated to a large degree, with manual effort required when the build breaks. A&#xD;
+    frequent strategy is to perform automated nightly builds and some automated testing (usually at the unit level),&#xD;
+    allowing for frequent feedback from the build process.&lt;br />&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Integration is typically carried out by a single person (for a small project on which the build process in simple) or a&#xD;
+    small team (for a large project on which the build process is complex). The integrators need experience in software&#xD;
+    build management, configuration management, and experience in the programming language in which the components to be&#xD;
+    integrated are written. Because integration often involves a high degree of automation, expertise in operating system&#xD;
+    shell or scripting languages and tools like 'make' (on Unix) or 'ant' (for Java) is also essential.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-Tmvn8ovNi9lLLXQEudn_Ug" name="plan_the_integration,{3CBDBBD0-6482-4FA2-820B-F6711E0BD84B}" guid="-Tmvn8ovNi9lLLXQEudn_Ug">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Planning the integration is focused on which implementation subsystems should be implemented, and the order in which&#xD;
+    the implementation subsystems should be integrated in the current iteration.&#xD;
+&lt;/p></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    Planning the integration process should be done early, at least in rough form, when the architecture is baselined. As&#xD;
+    the architecture and design evolve, the integration plan should be examined and updated to ensure that the build plan&#xD;
+    does not become obsolete by changes in the architecture or the design.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Integration is typically carried out by a single person (for a small project on which the build process in simple) or a&#xD;
+    small team (for a large project on which the build process is complex). The integrators need experience in software&#xD;
+    build management, configuration management, and experience in the programming language in which the components to be&#xD;
+    integrated are written. Because integration often involves a high degree of automation, expertise in operating system&#xD;
+    shell or scripting languages and tools like 'make' (on Unix) or 'ant' (for Java) is also essential.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-ZYaJoUcjZlZ40pfmwSiqWA" name="integrate_the_system,{1EBA0F67-240A-4402-B830-4DB0FDFEEB9D}" guid="-ZYaJoUcjZlZ40pfmwSiqWA">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The integrator integrates the system, in accordance with the integration build plan, by adding the delivered&#xD;
+    implementation subsystems into the system integration workspace and creating builds. Each build is then integration&#xD;
+    tested by a tester. After the last increment, the build can be completely system tested by a tester.&#xD;
+&lt;/p></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    Integration work is typically automated to a large degree, with manual effort required when the build breaks. A&#xD;
+    frequent strategy is to perform automated nightly builds and some automated testing (usually at the unit level),&#xD;
+    allowing for frequent feedback from the build process.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Integration is typically carried out by a single person (for a small project on which the build process in simple) or a&#xD;
+    small team (for a large project on which the build process is complex). The integrators need experience in software&#xD;
+    build management, configuration management, and experience in the programming language in which the components to be&#xD;
+    integrated are written. Because integration often involves a high degree of automation, expertise in operating system&#xD;
+    shell or scripting languages and tools like 'make' (on Unix) or 'ant' (for Java) is also essential.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vFAtGNbRKnzznoKI_s60RA" name="outline_logical_data_model,_QF2I89etEd-Zq9ImbgqLFQ" guid="-vFAtGNbRKnzznoKI_s60RA">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Frequent stakeholder review and involvement is critical to the success of the logical database design.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data design and application logic design are highly dependent on and related to one another. Achieving good data&#xD;
+        design requires strong, ongoing teaming with application logic designers throughout the development cycle.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Physical implementation considerations are not factored in to logical database design. Independence from these&#xD;
+        concerns enables flexible yet stable data designs.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription xsi:nil="true"/>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KX71ID3THJ7hr-SvVSxTtQ" name="data_model,_QF_58NetEd-Zq9ImbgqLFQ" guid="-KX71ID3THJ7hr-SvVSxTtQ">
+    <keyConsiderations>&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        Focus on staying within the boundaries of the solution under development.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Any existing data models should be used as a starting point.&amp;nbsp; These models may be broad, enterprise models or&#xD;
+        more specific application data models. If an existing model is used as a starting point, it should not be simply&#xD;
+        accepted &quot;as is.&quot; Instead, some time should be invested to ensure that it is of sufficient quality and that it&#xD;
+        provides an accurate representation of business data requirements for the solution.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Draw from standard data model constructs in shaping and forming the logical data model as they can assist in&#xD;
+        providing a good framework from which the data details of the solution being developed can be initially understood&#xD;
+        and further refined.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Database refactoring can be difficult, so it is important to balance how much future design is included in your&#xD;
+        data model versus what is left for later refactoring.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The later instance of the model are typically normalized to third normal form.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The figure below illustrates that a data model has an association to an overall logical data design that is obtained&#xD;
+    via the progression of the data model through different states - entity relationship model, conceptual data model, and&#xD;
+    logical data model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;300&quot; alt=&quot;ERD - CDM - LDM transitions&quot; src=&quot;resources/ldm.gif&quot; width=&quot;399&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Though the above figure diagrammatically shows development of a logical data design as a cascading serious of steps,&#xD;
+    the delineation between these steps is not that clear-cut.&amp;nbsp; In reality, a logical data design expands, contracts,&#xD;
+    and interplays across these data model states throughout the development.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Entity Relationship Model (ERM)&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An ERM level of a logical data design presents a high-level view of the significant information of interest to the&#xD;
+    business and establishes the foundation from which data design will progress.&amp;nbsp; It depicts the significant business&#xD;
+    notions and concepts associated with an application as entities, potentially some elaboration as to the important&#xD;
+    business characteristics of those notions/concepts via the attributes listed for each entity, and the relationship&#xD;
+    between these business notions/concepts in the form or data relationships.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Conceptual Data Model (CDM)&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A CDM level of a logical data design depicts a high level statement of the main entities needed to support an&#xD;
+    application, along with known (but not necessarily complete) listings of the attributes associated with the entities in&#xD;
+    the data design.&amp;nbsp; It is an expansion of the information conveyed in the ERM level of a logical data model as&#xD;
+    usually discovered via top-down analysis.&amp;nbsp; Development of a logical data design to a CDM level is closely&#xD;
+    integrated with the development of&amp;nbsp; an application's process models.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Logical Data Model (LDM)&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A LDM is an implementation-independent data model and generally represents the final deliverable in the logical data&#xD;
+    design efforts of a project.&amp;nbsp; Using the CDM as input, it reflects the dynamic nature of the entities in the&#xD;
+    logical data design and optimizes the entities in the data model toward ensuring each strongly and uniquely represents&#xD;
+    a business notion.&lt;br />&#xD;
+    &lt;br />&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IHHByE393tqX7CdCa5JKdw" name="develop_data_migration_specs,_QF_58detEd-Zq9ImbgqLFQ" guid="-IHHByE393tqX7CdCa5JKdw">
+    <keyConsiderations>It is preferable to have legacy developers from the source data references as participants in the data mapping process.&#xD;
+Business analysts who possess an intimate knowledge of the data that needs to be migrated and those familiar with the&#xD;
+target systems should also be active participants in the process.</keyConsiderations>
+    <refinedDescription xsi:nil="true"/>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bHKbPXoW1Nj0YiW1RhEGEg" name="data_migration_specification,_QF_589etEd-Zq9ImbgqLFQ" guid="-bHKbPXoW1Nj0YiW1RhEGEg">
+    <keyConsiderations>&lt;ul class=&quot;noindent&quot;>
+    &lt;li>
+        It is preferable to have legacy developers from the source data reference as participants in the data mapping
+        process.
+    &lt;/li>
+    &lt;li>
+        Data mapping rules may be stored in an automated tool, preferably one with a repository.
+    &lt;/li>
+    &lt;li>
+        The logical level of the data model should be completed, and the external data references identified before the
+        data mapping is begun.
+    &lt;/li>
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>
+    This artifact is a detailed description of the requirements for accomplishing data transfers. A data reference can be
+    either a source (sending data into the system -inbound) or a target (receiving data from the system -outbound).
+&lt;/p>
+&lt;p>
+    Appropriate data sources are found for each of&amp;nbsp;the target data elements, and then rules are drafted to extract,
+    transform, and move the source to the target data element. Rules are developed for:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Data selection - rules describing the criteria by which data is to be selected
+    &lt;/li>
+    &lt;li>
+        Data cleansing - rules describing how the source data will be cleansed as it is extracted
+    &lt;/li>
+    &lt;li>
+        Error detection and correction - rules defining how missing or invalid data should be treated
+    &lt;/li>
+    &lt;li>
+        Data mapping - rules describing what must be done to the source data (transformation) to satisfy target data
+        requirements
+    &lt;/li>
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wZbM6d6dE8yXwXfDgDnfVQ" name="detail_logical_data_model,_QF_59NetEd-Zq9ImbgqLFQ" guid="-wZbM6d6dE8yXwXfDgDnfVQ">
+    <keyConsiderations>&lt;ul>
+    &lt;li>
+        Data design and application logic design are highly dependent on and related to one another. Achieving good data
+        design requires strong, ongoing teaming with application logic designers throughout the development cycle.
+    &lt;/li>
+    &lt;li>
+        Physical implementation considerations are not factored in to logical database design. Independence from these
+        concerns enables flexible yet stable data designs.
+    &lt;/li>
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;ul class=&quot;noindent&quot;>
+    &lt;li>
+        Fully identify entities, relationships, and attributes for each entity needed to support the requirements
+    &lt;/li>
+    &lt;li>
+        Detail each entity's attributes and keys
+    &lt;/li>
+    &lt;li>
+        Normalize the data
+    &lt;/li>
+    &lt;li>
+        Take into account for both static and dynamic data behaviors
+    &lt;/li>
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-SseT018Y8vK2zlC7lpvQbQ" name="develop_physical_database_design,_QF_59detEd-Zq9ImbgqLFQ" guid="-SseT018Y8vK2zlC7lpvQbQ">
+    <keyConsiderations>&lt;p>
+    Before introducing complexity into the database design for performance or other reasons, check if there is some
+    flexibility in the requirements that could allow a simpler design.
+&lt;/p>
+&lt;p>
+    Consider using tools that generate DDL from the model, to save development time and to ensure the model is consistent
+    with the implemented database.
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>
+    This task outputs a physical database design which is represented as a physical data model. This model is the source
+    from which the schema data definition language (DDL) code for direct physical implementation of the target database is
+    created.
+&lt;/p>
+&lt;p>
+    Typically an idealized design of the database is used as an input to this task. Primarily driven from a business
+    context, this logical design is created without consideration for the target implementation environment. Progression to
+    a physical design involves making adjustments to the model in order to account for various implementation
+    considerations and performance requirements.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IYa5ARlkTrF9kQwh4mO9TQ" name="physical_database_design,_QF_59tetEd-Zq9ImbgqLFQ" guid="-IYa5ARlkTrF9kQwh4mO9TQ">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>This artifact describes the implementation of data in a physical database. It specifies implementation details such as&#xD;
+referential integrity, indexes, constraints, views, and physical storage constructs.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dXiNj7lQt_4RcKFV1q3Keg" name="architectural_decisions,_HAdm5NevEd-Zq9ImbgqLFQ" guid="-dXiNj7lQt_4RcKFV1q3Keg">
+    <keyConsiderations>&lt;p>&#xD;
+    Some important considerations for making and implementing architectural decisions:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Make sure the process for making decisions has the right level of sponsorship necessary to enforce those decisions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Make architecturally significant decisions early and be sure to validate high risk decisions using an executable&#xD;
+        architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Review and update architectural decisions as development progresses and update this artifact so it reflects any&#xD;
+        changes to your decisions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It is not necessary to document every minute decision you make when developing the architecture; focus on those&#xD;
+        that are controversial or are based on reasoning that is not obvious&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact documents key architectural decisions and the rationale behind those decisions.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gIflxw_UDJVpIWG0qIbQSg" name="component_model,_HAdm5devEd-Zq9ImbgqLFQ" guid="-gIflxw_UDJVpIWG0qIbQSg">
+    <keyConsiderations>&lt;p>&#xD;
+    Points to consider when deciding whether to use a Component Model:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A Component Model is useful when you must design the system for multiple target environments, with separate design&#xD;
+        architectures. The Component Model is an abstraction, or a generalization, of the system design. It omits most of&#xD;
+        the details of the design in order to provide an overview of the system's functionality.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The Component Model provides value when the design is complex, such that new team members need a simplified,&#xD;
+        abstracted model to understand it. A well-defined architecture can serve the same purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Balance the extra work required to ensure that the component and design models remain consistent against the&#xD;
+        benefit of having a view of the system that represents only the most important details of how the system works. It&#xD;
+        can be very costly to maintain a high degree of fidelity between the Component Model and the system design. A less&#xD;
+        ambitious approach might be to maintain the Component Model with only the most important components and the key&#xD;
+        abstractions in the design. As the complexity of the Component Model increases, so does the cost to maintain it.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Once you no longer maintain the Component Model, its value decays rapidly. At some point, it no longer accurately&#xD;
+        reflects the current functional design of the system. Deciding to no longer maintain the Component Model may be&#xD;
+        appropriate, as it may have served its purpose, but the decision should be a conscious one.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Component models tend to be useful in companies where systems live for decades, or where there are many variants of the&#xD;
+    system.&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To ensure the successful development of a component model on a project, your team should:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Create a stable and coherent structure&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Focus on the right levels of abstraction&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Develop relationship and interaction diagrams in parallel&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Select architecturally significant requirements as inputs to the Component Model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Plan how your team will leverage the Component Model throughout the project lifecycle&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The component model describes the structure of a system in terms of its software components with their&#xD;
+    responsibilities, interfaces, relationships, and the way they collaborate to deliver the required functionality. The&#xD;
+    component model is the main artifact documenting the functional view of the architecture and serves as an abstraction&#xD;
+    of the design. Components identified may be decomposed into further component models before they complete the&#xD;
+    specification required for detailed design.&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Component models help define and document:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The structure of the system&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The recurring interactions and dependencies between sets of components&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The components present within an enterprise, each of which may be made up of smaller components.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Component models are documented at 2 levels:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The logical level - focuses on specifying the components' responsibilities and characteristics required to deliver&#xD;
+        the requirements. These specifications are technology and product neutral.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The physical level -focuses on how to implement the components to meet the previously established specifications.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    You may transform logical components into physical components via custom development, the purchase of products, or the&#xD;
+    reuse of assets.&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It may be important to maintain a separation between logical and physical components on larger projects. However,&#xD;
+    smaller or less complex projects may evolve a single logical component model into a physical model, and end up with&#xD;
+    only a physical model.&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Examples of components at the logical level are a 'Message Bus' or a 'Customer Relationship Manager' component.&#xD;
+    Components at the physical level that implement these logical components might be 'IBM WebSphere Message Broker' or&#xD;
+    'Siebel Contact Center.'&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Ctq_niZFxgBYsikr_aZ17A" name="component_specification,_HAdm5tevEd-Zq9ImbgqLFQ" guid="-Ctq_niZFxgBYsikr_aZ17A">
+    <keyConsiderations>&lt;p>&#xD;
+    Points to consider when deciding whether to use a Component Specification:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The Component Specification provides value when the architecture is complex, such that new team members need a&#xD;
+        simplified, abstracted model to understand it.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The extra work required to ensure that the Component Specification and Executable Architecture remain consistent&#xD;
+        must be balanced against the benefit of having a view of the system that represents only the most important details&#xD;
+        of how the system works. It can be very costly to maintain a high degree of fidelity between the Component&#xD;
+        Specification and Executable Architecture. As the complexity of the Component Specification increases, so does the&#xD;
+        cost to maintain it.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Once you no longer maintain the Component Specification, its value decays rapidly. At some point, it will no longer&#xD;
+        accurately reflect the Executable Architecture. Deciding to no longer maintain the Component Specification may be&#xD;
+        appropriate (it may have served its purpose), but the decision should be a conscious one.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Component Specifications tend to be useful in companies where systems live for decades, or where there are many&#xD;
+    variants of the system.&lt;br />&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact specifies the details of a component identified in the Component Model. The specification shows the&#xD;
+    interfaces offered and used by the component, identifies where business rules are placed, and details the operations&#xD;
+    and their signatures for each interface.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Component Interfaces&lt;/strong> - An interface specifies one or more operation signatures and is both offered and&#xD;
+    used by a component. Offering an interface means the component makes the interface available for other components to&#xD;
+    use.&amp;nbsp;&amp;nbsp;Each interface provides a unique and well-defined set of operations. Hiding the structure of a&#xD;
+    component and its data behind an interface allows that data to be changed without affecting how the interface is&#xD;
+    used.&amp;nbsp; The actual composition of that data may change, but the interface that provides access to that data is&#xD;
+    fixed. Interfaces also describe the state of a component.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Business Rules&lt;/strong> - Business Rules dictate the behavior of a system, and the component specification&#xD;
+    defines how the system implements the business rules.&amp;nbsp; For example, a business rule may state that Internet&#xD;
+    transactions for an on-line order can not exceed $1000 for a given account. A component that manages account&#xD;
+    transactions may define an on-line transactions interface that implements this business rule.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Operations&lt;/strong> - Fully specified Component Specifications assign operations and operation signatures to&#xD;
+    the interfaces and may define pre- and post-conditions on the operations.&amp;nbsp; Pre- and post-conditions specify the&#xD;
+    effect of an operation without prescribing an algorithm or implementation.&amp;nbsp;A post-condition specifies the effect&#xD;
+    of the operation on the components data or state.&amp;nbsp;A pre-condition is the condition under which the operation&#xD;
+    guarantees that the post-condition is true.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zeSsdyqEJDWoMjnfDsLs-g" name="design,_HAdm6NevEd-Zq9ImbgqLFQ" guid="-zeSsdyqEJDWoMjnfDsLs-g">
+    <refinedDescription>&lt;p>
+    This product can describe multiple static and dynamic views of the system for examination. Although various views may
+    focus on divergent, seemingly independent issues of how the system will be put together and work, they should fit
+    together without contradiction.
+&lt;/p>
+&lt;p>
+    It describes the elements that will make up the implemented system. It communicates abstractions of particular portions
+    of the implementation and can describe an&amp;nbsp;encapsulated subsystem, a high-level analysis of the system, a view of
+    the system in only one context, or other perspectives that explain a solution to a specific problem that needs to be
+    communicated.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IlkmT3s3zdu6KEx6dJiWTg" name="detail_component_model,_HAdm6devEd-Zq9ImbgqLFQ" guid="-IlkmT3s3zdu6KEx6dJiWTg">
+    <refinedDescription>&lt;p>&#xD;
+    In this task, you detail and structure the logical components, define their interfaces, and transform them into&#xD;
+    physical components. You validate whether the component model addresses the architecturally significant requirements.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-RMTOmj-F-kbNTnMWSrT1uA" name="design_solution,_HAnX4NevEd-Zq9ImbgqLFQ" guid="-RMTOmj-F-kbNTnMWSrT1uA">
+    <keyConsiderations>&lt;p>
+    Each step in this task can cause all previous steps to be revisited in light of new information and decisions.&amp;nbsp;
+    For example, while determining how elements collaborate&amp;nbsp;you might find a gap in the requirements that causes you
+    to go back to the beginning after collaborating with the analyst, or when evaluating the design a reviewer
+    could&amp;nbsp;note that a reusable element being used doesn't work as expected and that could cause you to identify new
+    elements to take its place.
+&lt;/p>
+&lt;p>
+    Consider the architecture while performing this task.&amp;nbsp; All design work must be done while regarding the
+    architecture within which the design exists.&amp;nbsp; Furthermore, certain design elements will be deemed architecturally
+    significant; those elements will require updates to the architecture.
+&lt;/p>
+&lt;p>
+    This task will be applied numerous times.&amp;nbsp; Design is best performed in small chunks.
+&lt;/p>
+&lt;p>
+    Even when starting the design for a particular project it&amp;nbsp;is expected that there will be existing frameworks and
+    reusable elements.&amp;nbsp; Every step of this task must give attention to the existing design and existing
+    implementation, utilizing existing elements when possible and emulating or improving existing elements as appropriate
+    while designing this portion of the solution.
+&lt;/p>
+&lt;p>
+    Apply patterns throughout this task.&amp;nbsp; Patterns represent proven designs and their usage promotes quality and
+    consistency across the design.
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>
+    This task is about designing part of the system, not the whole system.&amp;nbsp; It should be applied based upon some small
+    subset of requirements.&amp;nbsp; The requirements driving the design could be scenario-based functional requirements,
+    non-functional requirements, or a combination.
+&lt;/p>
+&lt;p>
+    This task can be applied in some specific context such as the database access elements required for some
+    scenario.&amp;nbsp; In this case the task might be applied&amp;nbsp;again later&amp;nbsp;to deal with a different context on the
+    same requirements.&amp;nbsp; Keep in mind that to actually build some functionality of value&amp;nbsp;to the users, all
+    contexts will typically need to be designed and implemented. For example, to actually utilize some system capability it
+    will have to have been designed and implemented all its context such as user interface, business rules, database
+    access, etc.
+&lt;/p>
+&lt;p>
+    For cohesion and completeness, this task is described as an end-to-end pass of designing a scenario of system usage. In
+    practice, this task will be revisited many times as the design is first considered, portions are implemented, more
+    design is performed based on what was learned, etc. The healthiest application of this task is in very close proximity
+    to the implementation.
+&lt;/p>
+&lt;p>
+    If this task is being performed on an architecturally significant element the results of this design should be
+    referenced by the &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.slot.base/workproducts/technical_architecture_slot_FF074CDD.html&quot; guid=&quot;_8OD-cLPTEduocbW-TPTq7A&quot;>[Technical Architecture]&lt;/a>.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-hP5-oj2inVRUgNehMJJjTw" name="detail_the_design,_HAnX4devEd-Zq9ImbgqLFQ" guid="-hP5-oj2inVRUgNehMJJjTw">
+    <refinedDescription>&lt;p>&#xD;
+    Put the &quot;finish and polish&quot; on a class or set of classes by adding or refining relationships, attributes, cohesion, and&#xD;
+    patterns. Any analysis classes or requirements that haven't been fully designed for the piece of functionality being&#xD;
+    worked on are completed here.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This task is close to implementation. The developer or an automated tool should be able to create code from the&#xD;
+    completed class design.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-C2dyafGvt6fyAPn7dtzpMA" name="architecture_overview,_HAnX5devEd-Zq9ImbgqLFQ" guid="-C2dyafGvt6fyAPn7dtzpMA">
+    <keyConsiderations>As communication is its main purpose, it is more important for the description of the architecture to be simple, brief,&#xD;
+clear, and understandable than comprehensive or accurate in all details.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact provides an overview of the main conceptual elements and relationships of an architecture, which might&#xD;
+    include candidate subsystems, components, nodes, connections, data stores, users and external systems. As such, it&#xD;
+    represents the governing ideas and candidate building blocks of the architecture.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EozB32s0eUReJ_LbRiZPVg" name="implement_the_solution,_rWiBA9evEd-Zq9ImbgqLFQ" guid="-EozB32s0eUReJ_LbRiZPVg">
+    <keyConsiderations>&lt;p>&#xD;
+    Implement incrementally. Take a small piece of the task to be performed, such as a new parameter or a small piece of a&#xD;
+    method, and implement it. When all tests run successfully, move on to the next small piece of the task. This is a&#xD;
+    low-risk approach that reduces the number of regression errors introduced into the code.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The [Project Work]&amp;nbsp;is implicitly used&amp;nbsp;in implementation tasks to manage which requirements or change requests&#xD;
+    are being realized in the code.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The developer must be aware of and follow the code analysis guidelines while creating the implementation. This includes&#xD;
+    programming guidelines and language specific guidelines. See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.design_driven_implementation.base-ibm/workproducts/code_analysis_guidelines_BF97268F.html&quot;&#xD;
+    guid=&quot;_5IU1kKhEEdymmoKrEVbjiw&quot;>Artifact: Code Analysis Guidelines&lt;/a>.&lt;br />&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-0Mt7hSFqBa3A99vHiIJ4FQ" name="code_analysis_guidelines,_rWiBBtevEd-Zq9ImbgqLFQ" guid="-0Mt7hSFqBa3A99vHiIJ4FQ">
+    <keyConsiderations>The most important thing about coding guidelines is to have them. Everyone has their stylistic preferences, but a enforcing&#xD;
+a single style greatly improves readability and maintainability. Avoid ignoring coding guidelines just because it's&#xD;
+difficult to come to agreement. Choose a set of guidelines get coding.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    Code analysis guidelines includes information for the static and runtime evaluation of the implementation (code).&#xD;
+    Static guidelines focus on code that is not currently running. Dynamic guidelines focus on evaluating the behavior of&#xD;
+    the software as the code is executing.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Static analysis includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Coding guidelines that give the implementation a familiar look and feel to everyone on the team, and make it easier&#xD;
+        to find code blocks and commonly used areas of code (methods, case statements, etc). These guidelines makes the&#xD;
+        code more maintainable and more efficient to produce.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Code dependency that evaluates how different implementation modules depend upon each other. This can improve&#xD;
+        coupling and cohesion at the implementation level, for example.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Code complexity that helps developers judge if the code has become too complex to be maintained efficiently.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    See the definition of &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.design_driven_implementation.base-ibm/guidances/termdefinitions/runtime_analysis_E9330E42.html&quot;&#xD;
+     guid=&quot;_iWLT0H9mEd2zS8U3DVRSmQ&quot;>runtime analysis&lt;/a>&amp;nbsp;for more information.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Automated tools and techniques can cover more areas of static and runtime analysis. Use this work product to list all&#xD;
+    the areas that need to be examined in the implementation and the tools used to examine the implementation.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BNh816wgfVpSMPDNKqyX2A" name="implementation,_rWiBB9evEd-Zq9ImbgqLFQ" guid="-BNh816wgfVpSMPDNKqyX2A">
+    <refinedDescription>&lt;p> 
+   This artifact is the collection of one or more of these elements: &lt;/p> &lt;ul>
+&lt;li>         Source code files     &lt;/li>
+&lt;li>         Data files     &lt;/li>
+&lt;li>         Build scripts     &lt;/li>
+&lt;li>         Other files that are transformed into the executable system 
+   &lt;/li>
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Fx0E3qIgbykgk3rjJiSRCA" name="test_log,_rWiBCNevEd-Zq9ImbgqLFQ" guid="-Fx0E3qIgbykgk3rjJiSRCA">
+    <refinedDescription>This
+artifact provides a detailed, typically time-based record that both verifies
+that a set of tests were run, and provides information that relates to the
+success of those tests.  The focus is typically on providing an accurate audit
+trail, which enables you to undertake a post-run diagnosis of failures. This
+raw data is subsequently analyzed to determine the results of an aspect of
+the test effort.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xg3ZRJCHgF8EYwJ4YptQVg" name="developer_test,_rWiBCdevEd-Zq9ImbgqLFQ" guid="-xg3ZRJCHgF8EYwJ4YptQVg">
+    <refinedDescription>&lt;p>
+    This artifact covers all of the steps to validate a specific aspect of an implementation element. For example, a test
+    could ensure that the parameters of a method properly accept the uppermost and lowermost required values. A developer
+    test specifies test entries, execution conditions, and expected results. These details are identified to evaluate a
+    particular aspect of a scenario.
+&lt;/p>
+&lt;p>
+    When you collect developer tests for a specific implementation element, you can validate that the element performs as
+    specified.
+&lt;/p>
+&lt;p>
+    The tests be self-documenting so that it is clear upon completion of the test whether the implementation element has
+    run correctly.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vw2Fe5OE_4-r2rj7hcsLLA" name="implement_unit_tests,_rWiBC9evEd-Zq9ImbgqLFQ" guid="-vw2Fe5OE_4-r2rj7hcsLLA">
+    <refinedDescription>&lt;p>&#xD;
+    Unit testing is a brand of developer testing that performs black-box tests on implementation components after they've&#xD;
+    been implemented and white-box tested. The goal is to assure that a component functions correctly before it's&#xD;
+    integrated into the rest of the system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Developer testing is different from other forms of testing in that it is based on the expected behavior of code units&#xD;
+    rather than being directly based on the system requirements. Use the demands of the design and the existing&#xD;
+    implementation to understand what needs to be tested.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Members of the integration testing team can provide insight and direction during this task so robust and reusable tests&#xD;
+    are written. Testers often have a stake in the quality of unit tests as they're often re-used during integration&#xD;
+    testing.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-z2IKjOt4BcKatfI4iVLgcg" name="implement_unit_tests,_jQykw9e2Ed-Zq9ImbgqLFQ" guid="-z2IKjOt4BcKatfI4iVLgcg">
+    <refinedDescription>&lt;p>&#xD;
+    Unit testing is a brand of developer testing that performs black-box tests on implementation components after they've&#xD;
+    been implemented and white-box tested. The goal is to assure that a component functions correctly before it's&#xD;
+    integrated into the rest of the system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Developer testing is different from other forms of testing in that it is based on the expected behavior of code units&#xD;
+    rather than being directly based on the system requirements. Use the demands of the design and the existing&#xD;
+    implementation to understand what needs to be tested.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Members of the integration testing team can provide insight and direction during this task so robust and reusable tests&#xD;
+    are written. Testers often have a stake in the quality of unit tests as they're often re-used during integration&#xD;
+    testing.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yk-OXj1EolMyjmh-0saaMQ" name="implementation,_jQykxte2Ed-Zq9ImbgqLFQ" guid="-yk-OXj1EolMyjmh-0saaMQ">
+    <refinedDescription>&lt;p> 
+   This artifact is the collection of one or more of these elements: &lt;/p> &lt;ul>
+&lt;li>         Source code files     &lt;/li>
+&lt;li>         Data files     &lt;/li>
+&lt;li>         Build scripts     &lt;/li>
+&lt;li>         Other files that are transformed into the executable system 
+   &lt;/li>
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-FIGCilIvy_X_gfGRBPiV1Q" name="developer_test,_jQykyNe2Ed-Zq9ImbgqLFQ" guid="-FIGCilIvy_X_gfGRBPiV1Q">
+    <refinedDescription>&lt;p>
+    This artifact covers all of the steps to validate a specific aspect of an implementation element. For example, a test
+    could ensure that the parameters of a method properly accept the uppermost and lowermost required values. A developer
+    test specifies test entries, execution conditions, and expected results. These details are identified to evaluate a
+    particular aspect of a scenario.
+&lt;/p>
+&lt;p>
+    When you collect developer tests for a specific implementation element, you can validate that the element performs as
+    specified.
+&lt;/p>
+&lt;p>
+    The tests be self-documenting so that it is clear upon completion of the test whether the implementation element has
+    run correctly.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-GPfUxRPQePnCDUW_b6olfA" name="test_log,_jQykyte2Ed-Zq9ImbgqLFQ" guid="-GPfUxRPQePnCDUW_b6olfA">
+    <refinedDescription>This
+artifact provides a detailed, typically time-based record that both verifies
+that a set of tests were run, and provides information that relates to the
+success of those tests.  The focus is typically on providing an accurate audit
+trail, which enables you to undertake a post-run diagnosis of failures. This
+raw data is subsequently analyzed to determine the results of an aspect of
+the test effort.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-DStwMde1SwvsrYfqo_A2Fg" name="integrate_and_create_build,_jQyky9e2Ed-Zq9ImbgqLFQ" guid="-DStwMde1SwvsrYfqo_A2Fg">
+    <keyConsiderations>&lt;p>
+    In order to be effective at applying the practice of &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.tech.continuous_integration.base/guidances/guidelines/continuous_integration_13C1A8CA.html&quot; guid=&quot;_i8bUEL6cEdqti4GwqTkbsQ&quot;>Continuous Integration&lt;/a>,&amp;nbsp;the time to integrate, build, and test the increment
+    must be short enough that it can be performed several times per day.&amp;nbsp; Changes should be broken down into
+    relatively small &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.mgmt.common.extend_supp/guidances/concepts/change_set_430bf233.html&quot; guid=&quot;_1QU9MAIoEdyLh7vsrHZ4YA&quot;>Change Set&lt;/a>s that can be implemented, integrated and tested quickly.
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5baI3lA0tKS4lLclB_1keg" name="build,_jQykzte2Ed-Zq9ImbgqLFQ" guid="-5baI3lA0tKS4lLclB_1keg">
+    <refinedDescription>&lt;p>
+    This working version of the system or part of the system&amp;nbsp;is the result of putting the implementation through a
+    build process (typically an automated build script) that creates an executable version, or one that runs. This
+    executable version will typically have a number of supporting files that are also considered part of this artifact.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-OFNMkHQgFaiu4IgLNGUxqA" name="build_procedures,_8EXMFte2Ed-Zq9ImbgqLFQ" guid="-OFNMkHQgFaiu4IgLNGUxqA">
+    <keyConsiderations>&lt;p>
+    This is a very straightforward work product.&amp;nbsp; Write the build procedures so any team member can follow them.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    If security is an issue, ensure that the team knows where and how to get the password.&amp;nbsp; One solution is letting
+    the project manager keep passwords in a sealed envelope in a secure location. However, the proper people must be aware
+    of how to gain access to this location, if necessary.
+&lt;/p>
+&lt;p>
+    You can test the Build Procedures by having a team member unfamiliar with the process walk through the
+    procedures.&lt;br />
+&lt;/p></keyConsiderations>
+    <refinedDescription>This artifact&amp;nbsp;may include such items as which files are required, which links must be in place, which libraries are
+accessed, the sequence of steps required to generate the system, or any required passwords.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ye8oDZBoN4mbZsY3sGkhgw" name="build,_Rcu31de3Ed-Zq9ImbgqLFQ" guid="-ye8oDZBoN4mbZsY3sGkhgw">
+    <refinedDescription>&lt;p>
+    This working version of the system or part of the system&amp;nbsp;is the result of putting the implementation through a
+    build process (typically an automated build script) that creates an executable version, or one that runs. This
+    executable version will typically have a number of supporting files that are also considered part of this artifact.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HYYOqtmvIbzMOx2dnQS8zw" name="implementation,_Rcu319e3Ed-Zq9ImbgqLFQ" guid="-HYYOqtmvIbzMOx2dnQS8zw">
+    <refinedDescription>&lt;p> 
+   This artifact is the collection of one or more of these elements: &lt;/p> &lt;ul>
+&lt;li>         Source code files     &lt;/li>
+&lt;li>         Data files     &lt;/li>
+&lt;li>         Build scripts     &lt;/li>
+&lt;li>         Other files that are transformed into the executable system 
+   &lt;/li>
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Ahwx-DImzQ_nxnXP8bMKqg" name="build_procedures,_Rcu32de3Ed-Zq9ImbgqLFQ" guid="-Ahwx-DImzQ_nxnXP8bMKqg">
+    <keyConsiderations>&lt;p>
+    This is a very straightforward work product.&amp;nbsp; Write the build procedures so any team member can follow them.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    If security is an issue, ensure that the team knows where and how to get the password.&amp;nbsp; One solution is letting
+    the project manager keep passwords in a sealed envelope in a secure location. However, the proper people must be aware
+    of how to gain access to this location, if necessary.
+&lt;/p>
+&lt;p>
+    You can test the Build Procedures by having a team member unfamiliar with the process walk through the
+    procedures.&lt;br />
+&lt;/p></keyConsiderations>
+    <refinedDescription>This artifact&amp;nbsp;may include such items as which files are required, which links must be in place, which libraries are
+accessed, the sequence of steps required to generate the system, or any required passwords.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

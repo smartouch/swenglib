@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Yegv8EpMaOG6gXBW_1-dRQ" name=",_FkPCEJS-Ed6XkOqYTiD4_Q" guid="-Yegv8EpMaOG6gXBW_1-dRQ" changeDate="2010-08-24T14:11:11.570-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    IT solutions are conduits to sensitive corporate and customer information.&amp;nbsp; Here, the security architect&#xD;
+    identifies likely threats and documents requirements for mitigating the threats.&amp;nbsp; He identifies high-level&#xD;
+    security patterns appropriate to attach to architectural elements in response to security requirements and policies.&#xD;
+    These patterns are then refined with detailed patterns appropriate to particular technology and platform choices by&#xD;
+    down-stream design and implementation tasks.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_k4S64JS-Ed6XkOqYTiD4_Q" name="Identify security requirements" guid="_k4S64JS-Ed6XkOqYTiD4_Q">
+    <sectionDescription>&lt;p>&#xD;
+    Capture&amp;nbsp;high-level security requirements in&amp;nbsp;the Software Architecture document&amp;nbsp;and in the system-wide&#xD;
+    requirements.&amp;nbsp;&amp;nbsp;The&amp;nbsp;security architect&amp;nbsp;elicits these complex requirements from the stakeholders in&#xD;
+    the project, and captures them in easy to understand statements (intents). Document these in general, as well as for&#xD;
+    specific elements of the service model and the component model that might be of particular focus.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The reason for the emphasis on intent at this stage is that in many cases, when they are asked about security in a requirements&#xD;
+    gathering session, most stakeholders will respond that &quot;&lt;em>of course, everything must be secure&lt;/em>&quot;.&amp;nbsp; Does that&#xD;
+    mean that everything is encrypted, audited, and so on, to which the reply is &quot;&lt;em>oh yes, please&lt;/em>&quot;. At this point&#xD;
+    the security architect explains the implications of such a decision, the cost, the complexity, and the group starts to&#xD;
+    have a meaningful discussion about which patterns are relevant to which elements in the architecture. It is these&#xD;
+    patterns that express the intent of the system with regard to security, whereas the design-level patterns express the&#xD;
+    mechanisms for fulfilling the intent. Finally, implementation patterns express the technology used to fulfill the&#xD;
+    intent.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_sCpowJS-Ed6XkOqYTiD4_Q" name="Identify trust boundaries" guid="_sCpowJS-Ed6XkOqYTiD4_Q">
+    <sectionDescription>Identify the trust&amp;nbsp;zones in the system and the levels of trust between the zones (see &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.tech.soma.service_specification.base-ibm/guidances/concepts/trust_boundaries_53567B6.html&quot; guid=&quot;_yT8rYInAEd6k5atjvRl5MQ&quot;>Trust Boundaries&lt;/a>).&amp;nbsp; Document the decisions in the Software Architecture document.</sectionDescription>
+  </sections>
+  <sections xmi:id="_wRaIMJS-Ed6XkOqYTiD4_Q" name="Identify high-level security patterns" guid="_wRaIMJS-Ed6XkOqYTiD4_Q">
+    <sectionDescription>&lt;p>&#xD;
+    Associate each element of the service and&amp;nbsp;&amp;nbsp;IT systems architectures that are affected by security&#xD;
+    requirements with an appropriate &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../practice.tech.soma.service_specification.base-ibm/guidances/concepts/high_level_security_patterns_360E0D1B.html&quot; guid=&quot;_LvomIInCEd6k5atjvRl5MQ&quot;>high-level security pattern&lt;/a>.&amp;nbsp; Document the decision in the Software&#xD;
+    Architecture document, so that the solution can be refined during component design and realization activities.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    Document the&amp;nbsp;security requirements and&amp;nbsp;high-level service solutions for the specified services.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

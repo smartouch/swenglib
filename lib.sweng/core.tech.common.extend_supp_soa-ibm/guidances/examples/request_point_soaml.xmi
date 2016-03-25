@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-S7fXnxgiKQF3uP3xT5Atcw" name="request_point_soaml,_0u19sFbBEd6MCpkuB85p5g" guid="-S7fXnxgiKQF3uP3xT5Atcw" changeDate="2009-10-29T08:52:24.828-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>Figure 1 illustrates an example of an OrderProcessor &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>Participant&lt;/a> that has a purchasing Service and three Requests -- invoicing,&#xD;
+    scheduling, and shipping --&amp;nbsp;that are required to implement this service. The implementation of the purchasing&#xD;
+    Service uses the capabilities provided through Services that will be connected to these Requests.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 1.&amp;nbsp; A Participant with multiple RequestPoints&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&lt;img height=&quot;364&quot; alt=&quot;&quot; src=&quot;./resources/participant_ex_1a.jpg&quot; width=&quot;599&quot; />&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>The invoicing Request is typed by the InvoicingService &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>ServiceInterface&lt;/a>. The scheduling Request is typed by the Scheduling Interface. This&#xD;
+    is an example of a simple Request that specifies simply a list of needs.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;strong>It is very important to note&lt;/strong> that&amp;nbsp;each RequestPoint is typed with exactly the same&#xD;
+    type that was applied to the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_point_soaml_E250D92A.html&quot; guid=&quot;_9jRdMFbAEd6MCpkuB85p5g&quot;>ServicePoint&lt;/a> to which the RequestPoint is being connected.&amp;nbsp; This is because the&#xD;
+    RequestPoint represents the usage of its type, so what is shown as a provided interface on the RequestPoint actually is&#xD;
+    an interface that is being requested, and what is shown as a required interface on the RequestPoint actually is an&#xD;
+    interface that the RequestPoint is providing.&amp;nbsp; See &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/request_point_soaml_DD83CF2.html&quot; guid=&quot;_5DYKcFbAEd6MCpkuB85p5g&quot;>RequestPoint (SoaML)&lt;/a>&amp;nbsp;for further discussion.&amp;nbsp; The implication is that&#xD;
+    &lt;strong>the past request point typing practice in UML-based service modeling is obsolete with SoaML&lt;/strong>.&amp;nbsp;&#xD;
+    With pure UML, request ports were typed such that their provided and required interfaces explicitly were the inverse&#xD;
+    (the conjugate) of the interfaces on the service port to which a connection was being made.&amp;nbsp; In SoaML-based&#xD;
+    modeling, the connecting RequestPoints and ServicePoints are typed with the same ServiceInterface or simple UML&#xD;
+    Interface.&lt;/font>&amp;nbsp; This is illustrated in Figure 2, where it is seen that types on each of the matched&#xD;
+    RequestPoints/ServicePoints are the same -- conjugates are not used here.&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 2.&amp;nbsp; ServicePoints and RequestPoints are typed using the same ServiceInterfaces&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;323&quot; alt=&quot;&quot; src=&quot;./resources/participant_ex_4.jpg&quot; width=&quot;598&quot; />&amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

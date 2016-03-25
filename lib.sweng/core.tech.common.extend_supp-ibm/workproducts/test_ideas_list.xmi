@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-t2b405ukXRgA1QpTE3z01w" name="test_ideas_list,_7ukFEHE7Edy8Ac588DXPCQ" guid="-t2b405ukXRgA1QpTE3z01w" changeDate="2008-10-08T14:58:30.490-0700" version="7.1.0">
+  <mainDescription>The Test Ideas List provides a layer of abstraction between the conceptual Test Plan and the more detailed Test Case (or the&#xD;
+concrete Test Script). It is used to capture initial ideas for potential tests (often ill-formed or partial ideas) so that the&#xD;
+tests can be reasoned about. This work product is particularly useful earlier in the development cycle, or when supporting&#xD;
+project work products are unavailable or incomplete.</mainDescription>
+  <purpose>To help reason about tests and testing early in the project.</purpose>
+  <impactOfNotHaving>&lt;p>&#xD;
+    If a&amp;nbsp;preliminary list of tests covering a specific test scope is not captured in a standalone artifact, the&#xD;
+    alternative is to provide this information either in a test plan or as part of the test cases description.&#xD;
+&lt;/p></impactOfNotHaving>
+  <reasonsForNotNeeding>In some cases these lists will be informally defined and discarded after the test scripts or test cases have been defined&#xD;
+from them.</reasonsForNotNeeding>
+  <briefOutline>&lt;p>&#xD;
+    Each Test Ideas List should be identified by considering as many different perspectives as possible, including many of&#xD;
+    the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Have all relevant test idea catalogs been reviewed?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are there any quality risks not represented on the list?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are there any relevant fault models not represented on the list?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Have you considered the use of all possible attacks?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Have you considered one or more relevant soap operas?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are there any other ideas that strike you as worth considering?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What is the relative importance of each idea in the list?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+     One you have an initial list of ideas, consider whether there any related ideas on the list that could be combined or&#xD;
+    consolidated. As a general heuristic, most lists should contain seven entries, plus or minus two. For more detail on&#xD;
+    the contents of a Test Ideas List, see the guidelines listed under the More Information section of the header table.&#xD;
+&lt;/p></briefOutline>
+  <representationOptions>&lt;p>&#xD;
+    In certain domains and testing cultures, Test Ideas are either not recognized, or are considered informal work&#xD;
+    products. As such, both the contents and format of Test Ideas Lists may require modification to meet the needs of each&#xD;
+    specific organization and project.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When they are recorded (either formally or informally), two main styles are commonly used:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The first is a standard text document structure using a format similar to that outlined above. Usually multiple Test&#xD;
+    Ideas are to be presented together, whereas a single Test Idea by itself is usually not considered to represent a&#xD;
+    sufficient list.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The second uses some form of table or database. Test Ideas are specified, one per row with columns provided to&#xD;
+    facilitate sorting and filtering by different criteria. Test matrices (or cause and effect tables) can be considered&#xD;
+    alternative forms of the Test Ideas List.&lt;br />&#xD;
+    Some consideration should also be given to ongoing measurement of the Test Ideas for progress, effectiveness, change&#xD;
+    management, and so on. Consider using specification-based test coverage, in which each Test Idea or Test Ideas List&#xD;
+    traces back to at least one specification entry to be tested. For example, trace to the requirements specification&#xD;
+    elements to be tested, which will typically reflect some subset of the total product requirements (see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/concepts/key_measure_test_2CC7496.html&quot; guid=&quot;_AhYiUHHVEdyzS55ez-koKA&quot;>Concept: Key Measures of Test&lt;/a>).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Optionally, the Test Ideas can be retained as part of a Test Case or Test Script. The list may also be referenced&#xD;
+    from (or in smaller test efforts, included in) the Test Plan.&#xD;
+&lt;/p></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

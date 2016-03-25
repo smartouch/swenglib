@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-mlPAuRGcNPNloiaNit0MNA" name=",_0SvvkJ6YEeCZfuSJrcWUIw" guid="-mlPAuRGcNPNloiaNit0MNA" changeDate="2011-06-24T12:33:56.500-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    This tasks creates integration tests to verify that the work done by different engineers works together appropriately.&#xD;
+    Because integration is done incrementally at a highly frequent basis (often daily), the tests must be added in&#xD;
+    conjunction with the addition of the functionality in the software.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Integration tests are &quot;grey box&quot; tests in which the architectural elements being integrated are visible but there more&#xD;
+    primitive constituent elements are typically not.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    The primary purposes of these tests are to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Demonstrate the proper use of interfaces between elements created by different engineers&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test evolving functionality and capability&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Reduce risk with early verification of added features&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Avoid defects rather than identify and fix them late in development&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Tests focus on proper use of interfaces and overall flow of capability. Integration tests are usually not as complete&#xD;
+    as either unit level testing or verification and validation testing.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note: The basic rule of incremental integration is that developers are not allowed to &quot;break the build&quot;.&#xD;
+    Unit/developer-level testing should be done prior to integration. If, in spite of this, a submission by an engineer&#xD;
+    fails to build or fails the tests, the work products must be kicked back to the authoring engineer for immediate&#xD;
+    repair.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_LBjCwJ6ZEeCZfuSJrcWUIw" name="Identify just-about-to-be-added features" guid="_LBjCwJ6ZEeCZfuSJrcWUIw"/>
+  <sections xmi:id="_N6xSoJ6ZEeCZfuSJrcWUIw" name="Identify new interfaces" guid="_N6xSoJ6ZEeCZfuSJrcWUIw"/>
+  <sections xmi:id="_Q746QJ6ZEeCZfuSJrcWUIw" name="Add functional flow tests to verify end-to-end flow correctness" guid="_Q746QJ6ZEeCZfuSJrcWUIw"/>
+  <sections xmi:id="_S33ewJ6ZEeCZfuSJrcWUIw" name="Add interface tests to verify preconditions, post conditions, and class invariants" guid="_S33ewJ6ZEeCZfuSJrcWUIw"/>
+  <sections xmi:id="_UeF1sJ6ZEeCZfuSJrcWUIw" name="Add data range tests" guid="_UeF1sJ6ZEeCZfuSJrcWUIw"/>
+  <sections xmi:id="_WZBRUJ6ZEeCZfuSJrcWUIw" name="Add relevant performance tests, if those are required" guid="_WZBRUJ6ZEeCZfuSJrcWUIw"/>
+  <sections xmi:id="_YS6yMJ6ZEeCZfuSJrcWUIw" name="Add stress, volume and robustness tests" guid="_YS6yMJ6ZEeCZfuSJrcWUIw"/>
+  <sections xmi:id="_Z8tagJ6ZEeCZfuSJrcWUIw" name="Build any test fixtures or scripts needed to execute test cases" guid="_Z8tagJ6ZEeCZfuSJrcWUIw"/>
+  <purpose>The purpose of this task is to test the integration of newly added capabilities as they are added to the evolving build.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

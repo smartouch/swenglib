@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-oJvWEdPI9MlCFiXHDp5PrA" name="refactor_the_candidate_service_model,_o-15kFIPEd6lNtylJFsPIg" guid="-oJvWEdPI9MlCFiXHDp5PrA" changeDate="2009-09-24T20:51:48.828-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Applying multiple candidate service identification techniques most likely will result in&amp;nbsp;identifying some&#xD;
+    candidate services that overlap each other, functionally and structurally.&amp;nbsp; This task is performed&amp;nbsp;so that&#xD;
+    redundant concepts are eliminated and the remaining candidates are structured and related so as to maximize&#xD;
+    comprehension and future maintenance.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The main tool that is used to perform the refactoring is &lt;em>commonality and variability analysis&lt;/em>.&amp;nbsp; This is&#xD;
+    introduced in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/variability_analysis_5DE99340.html&quot; guid=&quot;_Tt8JMEo3Ed6D_7XK49c0nw&quot;>Concept: Variability Analysis&lt;/a>.&amp;nbsp;&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/variability_analysis_AF5936CF.html&quot; guid=&quot;_lP-BoFbREd6MCpkuB85p5g&quot;>Guideline: Variability Analysis&lt;/a>&amp;nbsp;provides additional discussion on this&#xD;
+    technique.&amp;nbsp; &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/variability_analysis_8B6BEC31.html&quot; guid=&quot;_f_0xkEo3Ed6D_7XK49c0nw&quot;>Example: Variability Analysis&lt;/a>&amp;nbsp;presents an example&amp;nbsp;and also illustrates&#xD;
+    some common taxonomic hierarchies that are used to describe variability.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_nV-XMHr0Ed6mlZJ30DTT1Q" name="Identify redundancies and opportunities for refactoring" guid="_nV-XMHr0Ed6mlZJ30DTT1Q">
+    <sectionDescription>&lt;p>&#xD;
+    Examine the names, documented purposes, notional functions, and relationships of the elements of the&amp;nbsp;Service&#xD;
+    Model&amp;nbsp;to identify likely duplicates.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Use variability and commonality analysis techniques to identify commonalities and refactor those out of the current&#xD;
+    abstractions.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_k-HdoIUpEd6z99RupnFzZA" name="Refactor based on service granularity considerations" guid="_k-HdoIUpEd6z99RupnFzZA">
+    <sectionDescription>&lt;p>&#xD;
+    In addition to refactoring based upon considerations of commonality and variability, the candidate services (&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/capability_soaml_56747F9.html&quot; guid=&quot;_A5_hYFbBEd6MCpkuB85p5g&quot;>Capabilities&lt;/a>) also&amp;nbsp;need to&amp;nbsp;be refactored based upon granularity&#xD;
+    considerations.&amp;nbsp; For example:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Ensure that&amp;nbsp;Capabilities&amp;nbsp;are of the correct granularity with respect to the goals that they are&#xD;
+        addressing.&amp;nbsp; If it appears that the&amp;nbsp;operations interface for a Capability&amp;nbsp;is much larger than what&#xD;
+        is needed to address an assigned goal, perhaps the&amp;nbsp;Capability&amp;nbsp;needs to&amp;nbsp;be split.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Consider over-arching non-functional requirements, documented in System-Wide Requirements, such as overall system&#xD;
+        performance and responsiveness.&amp;nbsp; Having too many very-fine-grained services, with fine-grained operations, can&#xD;
+        lead to unacceptable performance.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_9PlHwHr0Ed6mlZJ30DTT1Q" name="Restructure the Service Model" guid="_9PlHwHr0Ed6mlZJ30DTT1Q">
+    <sectionDescription>&lt;p>&#xD;
+    Restructure the&amp;nbsp;contents of the&amp;nbsp;Service Model in consideration of the refactorings performed in the previous&#xD;
+    steps.&amp;nbsp; Perhaps use one of the&amp;nbsp;forms described in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/variability_analysis_8B6BEC31.html&quot; guid=&quot;_f_0xkEo3Ed6D_7XK49c0nw&quot;>Example: Variability Analysis&lt;/a>.&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    Create a candidate service model that is free of redundancies, easier to understand, and easier to maintain.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

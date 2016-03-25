@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_LPYgMa2aEd6tfrxTUPeKPg" guid="_LPYgMa2aEd6tfrxTUPeKPg">
+    <resourceDescriptors xmi:id="_LPYgMq2aEd6tfrxTUPeKPg" id="-DP6DHU8faEpzlyMPc0BzBA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_mjoFwa2gEd6_dJstfLPnzA" id="-xsTUntCw1zRgrNdakgQf1w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_6YWVIKzsEeCJ-7p1IAy8Iw" id="-QqvvNsAFibgN4mb3-iVd9g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_6YWVIazsEeCJ-7p1IAy8Iw" id="-xDYo71ywO-QvYW2ev-PbPA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_6YffEKzsEeCJ-7p1IAy8Iw" id="-0HLndwI5e_Y4HU0aFUfcKQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_LOfIUK2aEd6tfrxTUPeKPg" name="service_identification" guid="_LOfIUK2aEd6tfrxTUPeKPg">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_FTStgK2gEd6_dJstfLPnzA" name="domain_decomposition" guid="_FTStgK2gEd6_dJstfLPnzA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_FTStga2gEd6_dJstfLPnzA" name="domain_decomposition" guid="_FTStga2gEd6_dJstfLPnzA" superActivities="_LOfIUa2aEd6tfrxTUPeKPg" linkToPredecessor="_DLRboa2hEd6_dJstfLPnzA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_oTk6EK2YEd6lBoefKBG5Og#_oTk6Ea2YEd6lBoefKBG5Og"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_DLRboa2hEd6_dJstfLPnzA" guid="_DLRboa2hEd6_dJstfLPnzA" pred="_xdavQa2fEd6_dJstfLPnzA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_GPpBAK2gEd6_dJstfLPnzA" name="existing_asset_analysis" guid="_GPpBAK2gEd6_dJstfLPnzA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_GPpBAa2gEd6_dJstfLPnzA" name="existing_asset_analysis" guid="_GPpBAa2gEd6_dJstfLPnzA" superActivities="_LOfIUa2aEd6tfrxTUPeKPg" linkToPredecessor="_DglkUK2hEd6_dJstfLPnzA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_1beM0JjxEd69jrnQ2K7ppQ#_1beM0ZjxEd69jrnQ2K7ppQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_DglkUK2hEd6_dJstfLPnzA" guid="_DglkUK2hEd6_dJstfLPnzA" pred="_xdavQa2fEd6_dJstfLPnzA"/>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_xdavQa2fEd6_dJstfLPnzA" name="associate_services_to_business_goals" guid="_xdavQa2fEd6_dJstfLPnzA" presentationName="Goal-Service Modeling" briefDescription="Links service to business goals and identify services by analyzing the goals of an enterprise or a business unit." hasMultipleOccurrences="true" superActivities="_LOfIUa2aEd6tfrxTUPeKPg" isSynchronizedWithSource="false" mandatoryInput="_xdavRK2fEd6_dJstfLPnzA _xdavRa2fEd6_dJstfLPnzA" optionalInput="_xdavRq2fEd6_dJstfLPnzA" output="_xdavRq2fEd6_dJstfLPnzA">
+      <methodElementProperty xmi:id="_3_vOwLemEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <methodElementProperty xmi:id="_3_vOxLemEd-oHLor78AFuw" name="descriptor_customization" value="2"/>
+      <presentation xmi:id="-QqvvNsAFibgN4mb3-iVd9g" href="uma://-DP6DHU8faEpzlyMPc0BzBA#-QqvvNsAFibgN4mb3-iVd9g"/>
+      <checklists href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_8mUyAHM2Ed6va-EJWoOsvg"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_R5GZYEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_lepv0EcYEd6GBq2DuQ5crg"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_YDPAYEo1Ed6D_7XK49c0nw"/>
+      <examples href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_p3DoIGTgEd6EKfYvqjfiMA"/>
+      <examples href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_s-G9YHF9Ed6Yfpy4DBGTEg"/>
+      <guidelines href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_s59O0FIQEd6lNtylJFsPIg"/>
+      <Task href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_unALUK-BEd2qXOsgZ_h9PA"/>
+      <selectedSteps href="uma://-1VPzhUF_x1xebCiIQkRbbw#_4TnRgHZpEd6RRau582KGQA"/>
+      <selectedSteps href="uma://-1VPzhUF_x1xebCiIQkRbbw#_G-rXwHZqEd6RRau582KGQA"/>
+      <selectedSteps href="uma://-1VPzhUF_x1xebCiIQkRbbw#_unALUa-BEd2qXOsgZ_h9PA"/>
+      <selectedSteps href="uma://-1VPzhUF_x1xebCiIQkRbbw#_o_DTMHiWEd6ks5VPZ8tZkQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_xdavRK2fEd6_dJstfLPnzA" name="service_model" guid="_xdavRK2fEd6_dJstfLPnzA" presentationName="Service Model" briefDescription="The service model is a model of the core elements of a Service Oriented Architecture (SOA). The service model is used as an essential input to tasks in implementation and testing." isPlanned="false" superActivities="_LOfIUa2aEd6tfrxTUPeKPg">
+      <methodElementProperty xmi:id="_3_vOwbemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_O0Qk0Eo0Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_T-AiUEozEd6D_7XK49c0nw"/>
+      <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_lc5vgGsLEd6dX9uDBR7y4Q"/>
+      <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_qHU5sFIREd6lNtylJFsPIg"/>
+      <templates href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_mJhD0GkcEd6g1IDZLlcC3g"/>
+      <templates href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_xsgiYFIREd6lNtylJFsPIg"/>
+      <templates href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_3yebEFIREd6lNtylJFsPIg"/>
+      <WorkProduct href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_IgcA4Eo1Ed6D_7XK49c0nw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_xdavRa2fEd6_dJstfLPnzA" name="business_requirements_slot" guid="_xdavRa2fEd6_dJstfLPnzA" presentationName="[Business Requirements]" briefDescription="This slot serves as an abstraction of high-level artifacts that capture the overall business vision, business goals, and other high level concerns that are drivers of the business design." isPlanned="false" superActivities="_LOfIUa2aEd6tfrxTUPeKPg">
+      <methodElementProperty xmi:id="_3_vOwremEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_AuAlcDyVEdyz7ZnE62_AvQ#_LQx4cBYREd2eavK0BKAMiA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_xdavRq2fEd6_dJstfLPnzA" name="goal_service_model" guid="_xdavRq2fEd6_dJstfLPnzA" presentationName="Goal-Service Model" briefDescription="This model brings together, in a single work product, the details of the mapping between services and associated business goals." isPlanned="false" superActivities="_LOfIUa2aEd6tfrxTUPeKPg">
+      <methodElementProperty xmi:id="_3_vOw7emEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-xDYo71ywO-QvYW2ev-PbPA" href="uma://-DP6DHU8faEpzlyMPc0BzBA#-xDYo71ywO-QvYW2ev-PbPA"/>
+      <concepts href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_lepv0EcYEd6GBq2DuQ5crg"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_R5GZYEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_N5e2oFbBEd6MCpkuB85p5g"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_A5_hYFbBEd6MCpkuB85p5g"/>
+      <concepts href="uma://_OynuUNDqEdunspUKKm1F4Q#_OMw8cEozEd6D_7XK49c0nw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_T-AiUEozEd6D_7XK49c0nw"/>
+      <WorkProduct href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_K2j0sESYEd6Z05VgUV_Apg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_L_aAMK2gEd6_dJstfLPnzA" name="refactor_the_candidate_service_model" guid="_L_aAMK2gEd6_dJstfLPnzA" presentationName="Refactor the Candidate Service Model" briefDescription="Refactor the candidate service model to remove redundancy and to improve comprehension, consistency, and flexibility." superActivities="_LOfIUa2aEd6tfrxTUPeKPg" linkToPredecessor="_EvHM8K2hEd6_dJstfLPnzA" mandatoryInput="_xdavRK2fEd6_dJstfLPnzA _L_aAMa2gEd6_dJstfLPnzA" output="_xdavRK2fEd6_dJstfLPnzA">
+      <methodElementProperty xmi:id="_3_vOybemEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <presentation xmi:id="-0HLndwI5e_Y4HU0aFUfcKQ" href="uma://-DP6DHU8faEpzlyMPc0BzBA#-0HLndwI5e_Y4HU0aFUfcKQ"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_Tt8JMEo3Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_N5e2oFbBEd6MCpkuB85p5g"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_A5_hYFbBEd6MCpkuB85p5g"/>
+      <examples href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_f_0xkEo3Ed6D_7XK49c0nw"/>
+      <examples href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_5qR_kHr1Ed6mlZJ30DTT1Q"/>
+      <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_lP-BoFbREd6MCpkuB85p5g"/>
+      <Task href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_o-15kFIPEd6lNtylJFsPIg"/>
+      <selectedSteps href="uma://-oJvWEdPI9MlCFiXHDp5PrA#_nV-XMHr0Ed6mlZJ30DTT1Q"/>
+      <selectedSteps href="uma://-oJvWEdPI9MlCFiXHDp5PrA#_k-HdoIUpEd6z99RupnFzZA"/>
+      <selectedSteps href="uma://-oJvWEdPI9MlCFiXHDp5PrA#_9PlHwHr0Ed6mlZJ30DTT1Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_L_aAMa2gEd6_dJstfLPnzA" name="system_wide_requirements" guid="_L_aAMa2gEd6_dJstfLPnzA" presentationName="System-Wide Requirements" isPlanned="false" superActivities="_LOfIUa2aEd6tfrxTUPeKPg">
+      <methodElementProperty xmi:id="_3_vOyLemEd-oHLor78AFuw" name="descriptor_customization" value="2"/>
+      <methodElementProperty xmi:id="_3_vOyremEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_Vael8CGMEdu3VKXZx45D3A"/>
+      <WorkProduct href="uma://_r5JXMLaCEd2n36KPip6Xng#_YZ2TYIkcEd6ilu16R-rAlg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_V7OwIK2gEd6_dJstfLPnzA" name="associate_services_to_business_goals" guid="_V7OwIK2gEd6_dJstfLPnzA" presentationName="Goal-Service Modeling" briefDescription="Links service to business goals and identify services by analyzing the goals of an enterprise or a business unit." superActivities="_LOfIUa2aEd6tfrxTUPeKPg" isSynchronizedWithSource="false" mandatoryInput="_xdavRK2fEd6_dJstfLPnzA _xdavRa2fEd6_dJstfLPnzA" optionalInput="_xdavRq2fEd6_dJstfLPnzA" output="_xdavRq2fEd6_dJstfLPnzA">
+      <methodElementProperty xmi:id="_3_vOxremEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <methodElementProperty xmi:id="_3_vOx7emEd-oHLor78AFuw" name="descriptor_customization" value="2"/>
+      <presentation xmi:id="-xsTUntCw1zRgrNdakgQf1w" href="uma://-DP6DHU8faEpzlyMPc0BzBA#-xsTUntCw1zRgrNdakgQf1w"/>
+      <checklists href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_8mUyAHM2Ed6va-EJWoOsvg"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_R5GZYEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_lepv0EcYEd6GBq2DuQ5crg"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_YDPAYEo1Ed6D_7XK49c0nw"/>
+      <examples href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_p3DoIGTgEd6EKfYvqjfiMA"/>
+      <examples href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_s-G9YHF9Ed6Yfpy4DBGTEg"/>
+      <guidelines href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_s59O0FIQEd6lNtylJFsPIg"/>
+      <Task href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_unALUK-BEd2qXOsgZ_h9PA"/>
+      <selectedSteps href="uma://-1VPzhUF_x1xebCiIQkRbbw#_4TnRgHZpEd6RRau582KGQA"/>
+      <selectedSteps href="uma://-1VPzhUF_x1xebCiIQkRbbw#_G-rXwHZqEd6RRau582KGQA"/>
+      <selectedSteps href="uma://-1VPzhUF_x1xebCiIQkRbbw#_unALUa-BEd2qXOsgZ_h9PA"/>
+      <selectedSteps href="uma://-1VPzhUF_x1xebCiIQkRbbw#_o_DTMHiWEd6ks5VPZ8tZkQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_EvHM8K2hEd6_dJstfLPnzA" guid="_EvHM8K2hEd6_dJstfLPnzA" pred="_xdavQa2fEd6_dJstfLPnzA"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_LOfIUa2aEd6tfrxTUPeKPg" name="service_identification" guid="_LOfIUa2aEd6tfrxTUPeKPg" presentationName="Service Identification" briefDescription="Identify candidate services using both top-down (business-oriented) and bottom-up (existing asset-oriented) approaches." breakdownElements="_xdavQa2fEd6_dJstfLPnzA _xdavRK2fEd6_dJstfLPnzA _xdavRa2fEd6_dJstfLPnzA _xdavRq2fEd6_dJstfLPnzA _FTStga2gEd6_dJstfLPnzA _GPpBAa2gEd6_dJstfLPnzA _L_aAMK2gEd6_dJstfLPnzA _L_aAMa2gEd6_dJstfLPnzA _V7OwIK2gEd6_dJstfLPnzA">
+      <methodElementProperty xmi:id="_3_vOzLemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-DP6DHU8faEpzlyMPc0BzBA" href="uma://-DP6DHU8faEpzlyMPc0BzBA#-DP6DHU8faEpzlyMPc0BzBA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-oGeZ_940wRhk71V-1kVReQ" name="domain_decomposition,_oTk6Ea2YEd6lBoefKBG5Og" guid="-oGeZ_940wRhk71V-1kVReQ" version="7.5.0"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-VBVghVGr6JvpOP0BZ13aHg" name="identify_candidate_services_from_business_rules,_zk1kMa2eEd6_dJstfLPnzA" guid="-VBVghVGr6JvpOP0BZ13aHg">
+    <keyConsiderations>&lt;p>&#xD;
+    Business rules and policies that are subject to change&amp;nbsp;need to&amp;nbsp;be externalized to reduce opportunities for&#xD;
+    error.&amp;nbsp; Service enablement and using business rules engines are two approaches to externalization.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    As&amp;nbsp;is described in&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_identification.base-ibm/guidances/concepts/business_rule_analysis_96BC2841.html&quot; guid=&quot;_Wue0wGTgEd6EKfYvqjfiMA&quot;>Concept: Business Rule Analysis&lt;/a>, larger businesses increasingly use Business Rules&#xD;
+    Management Systems (BRMSes) to author and externalize their business rules.&amp;nbsp; BRMSes can automate the creation of&#xD;
+    access layers, such as Web services or Java&amp;trade;beans, for accessing the business rules programmatically.&amp;nbsp; In such an&#xD;
+    environment, the task related to identifying candidate services largely devolves to the IT staff working with the&#xD;
+    business analysts to document the services that the BRMS automatically generates.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Organizations that have not yet adopted a BRMS will need to use a more conventional approach&amp;nbsp;for identifying&#xD;
+    candidate services from business rules.&amp;nbsp; The steps in this task largely are intended for the use of such&#xD;
+    organizations.&amp;nbsp; The final step -- Update candidate service portfolio and service hierarchy -- is valid for&#xD;
+    organizations using a BRMS, as well.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mnmgcnMsVdY4JlIeGJqWbw" name="business_rules,_zk1kNK2eEd6_dJstfLPnzA" guid="-mnmgcnMsVdY4JlIeGJqWbw">
+    <refinedDescription>&lt;p>&#xD;
+    A business rule defines a specific constraint or invariant that must be satisfied by the business. Business rules may&#xD;
+    apply always (in which case they are called invariants) or only under a specific condition. If the condition occurs,&#xD;
+    the rule becomes valid, and must therefore be complied with.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    Note that a business rule is declarative, not procedural. It describes a desirable, possible state that is suggested,&#xD;
+    required or prohibited. It may be conditional, that is, if something is the case, something else must or must not be&#xD;
+    the case. It does not, however, describe the steps to be taken to achieve the transition from one state to another, or&#xD;
+    the steps to be taken to prohibit a transition. [BRG 2000 - Business Rule Group &quot;Defining Business Rules ~ What Are&#xD;
+    They Really?&quot; Revision 1.3 July 2000]&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    A business rule may provide a set of conditions that govern business behavior or provide the criteria for when an&#xD;
+    action is successfully or unsuccessfully completed. It may stipulate what other actions can or cannot be performed as a&#xD;
+    result of successful or unsuccessful completion. It may specify the response to some external event that impinges on&#xD;
+    the enterprise. It may govern relationships that need to apply among various business entities.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JT-W77JGk99Zy0CYigExjw" name="identify_candidate_services_from_domain_models,_0g48wa2eEd6_dJstfLPnzA" guid="-JT-W77JGk99Zy0CYigExjw">
+    <keyConsiderations>&lt;p>&#xD;
+    Identifying candidate services from domain elements is one of several schemes that complement each other during&#xD;
+    candidate services identification.&amp;nbsp; Omitting any of the methods increases the risk that some candidate services&#xD;
+    will not be discovered.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Significant organizations generally need to provide some mechanism for accessing their information resources in a&#xD;
+    uniform manner.&amp;nbsp; Services are not the only approach for doing so, but they do provide an easily-distributable&#xD;
+    solution for this problem.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This task leverages the best practices described in&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/supportingmaterials/pattern_06_derive_atomic_services_from_domain_model_22D3F391.html&quot; guid=&quot;_ales0HobEd6spLUpguTNDw&quot;>Pattern 06: Derive Atomic Services from the Domain Model&lt;/a>.&amp;nbsp; It uses domain&#xD;
+    models (also known as&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/information_model_7F8FC275.html&quot; guid=&quot;_GjvrcIB_Ed6gDe17473oSQ&quot;>information models&lt;/a>, or&amp;nbsp;conceptual data models)&amp;nbsp;as input and identifies a&#xD;
+    set of candidate services that are included in the project candidate service portfolio. These candidate services might&#xD;
+    yet require additional refinement; however, the steps included here provide an effective manner in which to produce an&#xD;
+    initial set of candidates.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In addition to mapping candidate services on a one-to-one basis to the domain types, some effort&amp;nbsp;needs to&amp;nbsp;be&#xD;
+    made to provide services for accessing larger collections of related domain elements.&amp;nbsp;&amp;nbsp;Some data analysis is&#xD;
+    warranted to determine the affinities between data elements, so that these larger groups of closely-related domain&#xD;
+    elements can be identified.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_identification.base-ibm/guidances/examples/identifying_candidate_services_from_domain_models_D320DF6.html&quot; guid=&quot;_ar_D0HojEd6spLUpguTNDw&quot;>Example: Identifying Candidate Services from Domain Models&lt;/a>&amp;nbsp;give more details&#xD;
+    regarding the steps in this task.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

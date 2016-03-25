@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-qa7oXEzD17EmnO6HPIFnuw" name="considerations_during_service_collaboration_modeling,_IIVfUKVNEd6guMqwN5kA3g" guid="-qa7oXEzD17EmnO6HPIFnuw" changeDate="2009-09-19T11:53:50.593-0700" version="7.5.0">
+  <mainDescription>&lt;p> As you build the behavior model, you will identify roles that must be involved &#xD;
+  to support each behavior. These are represented by Partitions in Activities &#xD;
+  and Lifelines in sequence diagrams. You can&amp;nbsp;assign each&amp;nbsp;role to a &#xD;
+  previously defined &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/capability_soaml_56747F9.html&quot; guid=&quot;_A5_hYFbBEd6MCpkuB85p5g&quot;>Capability&lt;/a> &#xD;
+  or&amp;nbsp;to a previously defined &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>ServiceInterface&lt;/a>, &#xD;
+  or you can leave the role unassigned.&amp;nbsp;If you are using sequence diagrams, &#xD;
+  you also can assign the role to a new element, which you create at the same &#xD;
+  time that you create the Lifeline.&amp;nbsp;This new model element will be owned &#xD;
+  by the parent of the Collaboration, which owns the sequence diagram.&amp;nbsp; &lt;/p>&#xD;
+&lt;h3> &lt;strong>&lt;font size=&quot;3&quot;>If the focus is on conceptual modeling&lt;/font>&lt;/strong> &#xD;
+&lt;/h3>&#xD;
+&lt;p> If you are focusing for the moment on conceptual modeling -- if your&amp;nbsp;main &#xD;
+  goal is simply to identify interaction patterns of &quot;things&quot; that support a given &#xD;
+  behavior -- use unassigned roles. You can assign these roles to more concrete &#xD;
+  model elements later and manually create operations that map to the actions &#xD;
+  and messages you discovered during your conceptual modeling. &lt;/p>&#xD;
+&lt;h3> &lt;strong>&lt;font size=&quot;3&quot;>Activity modeling considerations&lt;/font>&lt;/strong> &lt;/h3>&#xD;
+&lt;p> If you create a Call Operation Action in an Activity diagram by using the &#xD;
+  drawing palette, you can create an operation at the same time. This newly created&amp;nbsp;operation &#xD;
+  is owned by the Activity, and its target pin references the Activity, even if &#xD;
+  the Call Operation is created within a typed Partition. Later, you can relocate &#xD;
+  this operation to an appropriate element (such as the element that types the &#xD;
+  Partition). This relocation will be reflected in the Call Operation Action's &#xD;
+  target pin. &lt;/p>&#xD;
+&lt;p>&#xD;
+    The act of creating a Partition in an Activity diagram does not automatically create another element in the model&#xD;
+    to&amp;nbsp;represent&amp;nbsp;the Partition's role.&amp;nbsp; The&amp;nbsp;Partition is, in essence, its own role.&amp;nbsp; However, the&#xD;
+    Partition cannot be used to populate the Collaboration's structure diagram.&amp;nbsp; It is not a property or a part of the&#xD;
+    Collaboration. You will need to manually create a Collaboration Role to represent the Partition.&#xD;
+&lt;/p>&#xD;
+&lt;p> Activity diagrams that are constructed to support service collaboration modeling &#xD;
+  can be built with less care than is the case with activity diagrams which are &#xD;
+  used to model the realizations of service operations.&amp;nbsp;It is not&amp;nbsp;necessary &#xD;
+  to do things such as create activity parameters, assign the activity to a given &#xD;
+  operation, and so forth.&amp;nbsp; This is because the diagrams created in the service &#xD;
+  collaboration portion of the model template are not source content for subsequent &#xD;
+  transformation into SOA artifacts. &lt;/p>&#xD;
+&lt;h3> &lt;strong>&lt;font size=&quot;3&quot;>Sequence diagramming considerations&lt;/font>&lt;/strong> &#xD;
+&lt;/h3>&#xD;
+&lt;p> Creating a Lifeline in a sequence diagram automatically creates a new Collaboration &#xD;
+  Property model element that represents the role played by the Lifeline.&amp;nbsp;This &#xD;
+  property can be used to populate the collaboration's structure diagram.&amp;nbsp; &#xD;
+&lt;/p>&#xD;
+&lt;p> If you perform conceptual modeling by using untyped roles, subsequently typing &#xD;
+  those roles with a Capability or ServiceInterface will not automatically create &#xD;
+  new operations to match the messages that were created for the role. You will &#xD;
+  need to manually create operations for the new model element and (if desired) &#xD;
+  associate each operation with appropriate messages. &lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

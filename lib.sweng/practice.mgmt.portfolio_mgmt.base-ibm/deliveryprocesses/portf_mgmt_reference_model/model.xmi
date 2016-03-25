@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_8K1qof7cEd2qlKqF0pYYYg" guid="_8K1qof7cEd2qlKqF0pYYYg">
+    <resourceDescriptors xmi:id="_8K1qov7cEd2qlKqF0pYYYg" id="-KSisRMz1K-ewnKF5u8NWVg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_8IT7EP7cEd2qlKqF0pYYYg" name="portf_mgmt_reference_model" guid="_8IT7EP7cEd2qlKqF0pYYYg">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6Dz1EBTHEd6-CtZFHiHFGA" name="define_and_prioritize_portfolio" guid="_6Dz1EBTHEd6-CtZFHiHFGA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_6Dz1ERTHEd6-CtZFHiHFGA" name="define_and_prioritize_portfolio" guid="_6Dz1ERTHEd6-CtZFHiHFGA" presentationName="Define and Prioritize Portfolio" superActivities="_8IT7Ef7cEd2qlKqF0pYYYg" linkToPredecessor="_Dvd4QDA2Ed6dhLmEQKbzPg" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_VXWtgBTCEd6-CtZFHiHFGA#_VXWtgRTCEd6-CtZFHiHFGA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Dvd4QDA2Ed6dhLmEQKbzPg" guid="_Dvd4QDA2Ed6dhLmEQKbzPg" pred="_aQ7IcTA1Ed6dhLmEQKbzPg"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_72MGwBTJEd6-CtZFHiHFGA" name="balance_and_authorize_portfolio" guid="_72MGwBTJEd6-CtZFHiHFGA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_72MGwRTJEd6-CtZFHiHFGA" name="balance_and_authorize_portfolio" guid="_72MGwRTJEd6-CtZFHiHFGA" presentationName="Balance and Authorize Portfolio" superActivities="_8IT7Ef7cEd2qlKqF0pYYYg" linkToPredecessor="_Z_h44RTKEd6-CtZFHiHFGA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_2bmi0BTIEd6-CtZFHiHFGA#_2bmi0RTIEd6-CtZFHiHFGA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Z_h44RTKEd6-CtZFHiHFGA" guid="_Z_h44RTKEd6-CtZFHiHFGA" pred="_6Dz1ERTHEd6-CtZFHiHFGA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_zzJygBTLEd6-CtZFHiHFGA" name="monitor_and_control_portfolio" guid="_zzJygBTLEd6-CtZFHiHFGA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_zzJygRTLEd6-CtZFHiHFGA" name="monitor_and_control_portfolio" guid="_zzJygRTLEd6-CtZFHiHFGA" presentationName="Monitor and Control Portfolio" superActivities="_8IT7Ef7cEd2qlKqF0pYYYg" linkToPredecessor="_LaIq4RTMEd6-CtZFHiHFGA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_hukBIBTKEd6-CtZFHiHFGA#_hukBIRTKEd6-CtZFHiHFGA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_LaIq4RTMEd6-CtZFHiHFGA" guid="_LaIq4RTMEd6-CtZFHiHFGA" pred="_72MGwRTJEd6-CtZFHiHFGA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_aQ7IcDA1Ed6dhLmEQKbzPg" name="define_portfolio_structures_and_metrics" guid="_aQ7IcDA1Ed6dhLmEQKbzPg">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_aQ7IcTA1Ed6dhLmEQKbzPg" name="define_portfolio_structures_and_metrics" guid="_aQ7IcTA1Ed6dhLmEQKbzPg" presentationName="Define Portfolio Structures and Metrics" superActivities="_8IT7Ef7cEd2qlKqF0pYYYg" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_PKdKUDA1Ed6dhLmEQKbzPg#_PKdKUTA1Ed6dhLmEQKbzPg"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_8IT7Ef7cEd2qlKqF0pYYYg" name="portf_mgmt_reference_model" guid="_8IT7Ef7cEd2qlKqF0pYYYg" presentationName="Portfolio Management Reference Model" briefDescription="This process model provides a common structure that consists of standardized definitions, critical objectives, high-level activities, and expected outcomes, as well as process guidance, based on industry-recognized practices as applied to the specific targeted market segments." breakdownElements="_aQ7IcTA1Ed6dhLmEQKbzPg _6Dz1ERTHEd6-CtZFHiHFGA _72MGwRTJEd6-CtZFHiHFGA _zzJygRTLEd6-CtZFHiHFGA">
+      <ownedRules xmi:id="_h4iD4Pv-Ed-N4fofoB8rfQ" guid="_h4iD4Pv-Ed-N4fofoB8rfQ" body="tbs://_8IT7Ef7cEd2qlKqF0pYYYg/_6Dz1ERTHEd6-CtZFHiHFGA/_1dWowDtSEd6EJ5PABot5eA tbs://_8IT7Ef7cEd2qlKqF0pYYYg/_72MGwRTJEd6-CtZFHiHFGA/_qPzHAjtZEd6EJ5PABot5eA tbs://_8IT7Ef7cEd2qlKqF0pYYYg/_72MGwRTJEd6-CtZFHiHFGA/_qPzHADtZEd6EJ5PABot5eA "/>
+      <methodElementProperty xmi:id="_2V8mcbemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-KSisRMz1K-ewnKF5u8NWVg" href="uma://-KSisRMz1K-ewnKF5u8NWVg#-KSisRMz1K-ewnKF5u8NWVg"/>
+      <includesPatterns href="uma://_VXWtgBTCEd6-CtZFHiHFGA#_VXWtgRTCEd6-CtZFHiHFGA"/>
+      <includesPatterns href="uma://_2bmi0BTIEd6-CtZFHiHFGA#_2bmi0RTIEd6-CtZFHiHFGA"/>
+      <includesPatterns href="uma://_hukBIBTKEd6-CtZFHiHFGA#_hukBIRTKEd6-CtZFHiHFGA"/>
+      <includesPatterns href="uma://_PKdKUDA1Ed6dhLmEQKbzPg#_PKdKUTA1Ed6dhLmEQKbzPg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

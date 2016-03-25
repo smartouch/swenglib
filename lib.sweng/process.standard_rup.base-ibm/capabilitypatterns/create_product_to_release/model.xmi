@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_yPoIQSZREd-Hb5ChSoDHIA" guid="_yPoIQSZREd-Hb5ChSoDHIA">
+    <resourceDescriptors xmi:id="_yPoIQiZREd-Hb5ChSoDHIA" id="-N7GOJEKvvfuHU91ol-IwKg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_xfqD4CZREd-Hb5ChSoDHIA" name="create_product_to_release" guid="_xfqD4CZREd-Hb5ChSoDHIA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfqD5SZREd-Hb5ChSoDHIA" name="produce_deployment_unit" guid="_xfqD5SZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfqD5iZREd-Hb5ChSoDHIA" name="produce_deployment_unit" guid="_xfqD5iZREd-Hb5ChSoDHIA" presentationName="Produce Deployment Unit" isOptional="true" superActivities="_xfqD5yZREd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_KjZZyCZIEd-Hb5ChSoDHIA#_KjZZ1iZIEd-Hb5ChSoDHIA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfqD4SZREd-Hb5ChSoDHIA" name="package_product" guid="_xfqD4SZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfqD4iZREd-Hb5ChSoDHIA" name="package_product" guid="_xfqD4iZREd-Hb5ChSoDHIA" presentationName="Package Product" isOptional="true" superActivities="_xfqD5yZREd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_KjZZyCZIEd-Hb5ChSoDHIA#_KjZZ7iZIEd-Hb5ChSoDHIA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfqD4yZREd-Hb5ChSoDHIA" name="provide_access_to_download_site" guid="_xfqD4yZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfqD5CZREd-Hb5ChSoDHIA" name="provide_access_to_download_site" guid="_xfqD5CZREd-Hb5ChSoDHIA" presentationName="Provide Access to Download Site" isOptional="true" superActivities="_xfqD5yZREd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_KjZZyCZIEd-Hb5ChSoDHIA#_KjZaFSZIEd-Hb5ChSoDHIA"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_xfqD5yZREd-Hb5ChSoDHIA" name="create_product_to_release" guid="_xfqD5yZREd-Hb5ChSoDHIA" presentationName="Create Product to Release" briefDescription="This covers activities required to build and package the product for release." breakdownElements="_xfqD5iZREd-Hb5ChSoDHIA _xfqD4iZREd-Hb5ChSoDHIA _xfqD5CZREd-Hb5ChSoDHIA">
+      <methodElementProperty xmi:id="_4Fji5LemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-N7GOJEKvvfuHU91ol-IwKg" href="uma://-N7GOJEKvvfuHU91ol-IwKg#-N7GOJEKvvfuHU91ol-IwKg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

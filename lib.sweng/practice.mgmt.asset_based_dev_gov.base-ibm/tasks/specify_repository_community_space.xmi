@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-2-HAo9q-o7-_Up0zEGtK0A" name="specify_repository_community_space,_y4IQQNyYEdu7aoTbpwypbQ" guid="-2-HAo9q-o7-_Up0zEGtK0A" changeDate="2007-05-24T10:16:44.531-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    The enterprise needs to determine&amp;nbsp;whether there will be one asset repository or many asset repositories.&amp;nbsp;In&#xD;
+    addition,&amp;nbsp;for each asset repository, the organization of the assets, the teams, and the review processes, needs to&#xD;
+    be determined.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In this task the focus is on determining how the teams will access the assets in the repository, what sub-groups of the&#xD;
+    repository will exist, and which assets will go into which sub-group, or rather Community.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    One deterrent to reuse for consumers is being presented with too many assets to evaluate. Decomposing the repository&#xD;
+    into Communities helps&amp;nbsp;you mitigate some of this issue.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Community is an arbitrary collection of users, roles, and their assets. A Community may be defined along several&#xD;
+    boundaries, including:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Organizational unit&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Project&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Users with a common role, such as Business Analyst.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In the following image the Business Analyst Community is organized according to role, the Project XYZ Community is&#xD;
+    organized according to a project, and the Testing Team Community is organized according to organizational unit.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;504&quot; alt=&quot;An example of a Community organization. &quot; src=&quot;./resources/teamspaces_roles.gif&quot; width=&quot;600&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Community becomes the primary element for organizing the repository. An asset lives in one Community. Roles and&#xD;
+    permissions are specified for a Community. Review processes and other workflows are specified for Community.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Using the Reuse Strategy and Reuse Assessment, evaluate the target audience, consumers, and participants in the asset&#xD;
+    program as input to what Communities to create. A user may participate in many Communities.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There are some tradeoffs to consider when creating Communities. If you create too few Communities then the scope may be&#xD;
+    too broad, leaving the user to navigate many assets. If you specify too many Communities then the administration costs&#xD;
+    can become too burdensome for specifying access control rights, review processes, asset types, and so on for each&#xD;
+    Community.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A rule of thumb to follow is to create a Community for each unique set of assets over which you want specific control&#xD;
+    and governance over. That control may be needed by a manager, or by a business unit, or by a customer. So, if your&#xD;
+    enterprise sees value in providing a place for business analyst assets and controlling the access to and the review and&#xD;
+    approval process of those assets, then it may be valuable to the enterprise to manage a Community for business&#xD;
+    analysts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An administrator needs to be determined for each Community. The administrator will specify the roles, permissions,&#xD;
+    review processes, and so forth.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It will take several&amp;nbsp;iterations to create the proper set of Communities. In most cases, the repository will need&#xD;
+    to be configured, and then exercised for some time in order to properly refine it. It is best to start with fewer&#xD;
+    Communities, and then add more as necessary.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    With a repository organized into sub-groups and Communities, and with roles and permissions specified, now the&#xD;
+    administrator maps the users.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A user may participate in many roles. The user information will likely need to come from a directory system such as&#xD;
+    LDAP.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_s-26UNyZEdu7aoTbpwypbQ" name="Specify Communities" guid="_s-26UNyZEdu7aoTbpwypbQ">
+    <sectionDescription>Create one or more Communities considering the guidance above.</sectionDescription>
+  </sections>
+  <sections xmi:id="_uwZwcNyZEdu7aoTbpwypbQ" name="Specify Roles for Communities" guid="_uwZwcNyZEdu7aoTbpwypbQ">
+    <sectionDescription>&lt;p>&#xD;
+    A user may have many roles. A role is typically created for the repository when an identifiable set of artifacts and&#xD;
+    assets for that role can be described. When considering creating a role, evaluate the asset types in the repository and&#xD;
+    any Asset Type Specifications. This can both discover potential asset types as well are refine what assets and&#xD;
+    artifacts the role will be working with.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The role definitions should be coordinated with appropriate stakeholders and governance boards. It is valuable to&#xD;
+    understand other roles that are being proposed for the repository, as you may be able to reduce the number of role&#xD;
+    names when finding similar and common roles in other Communities.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_w20DUNyZEdu7aoTbpwypbQ" name="Specify Permissions for Roles in Each Community" guid="_w20DUNyZEdu7aoTbpwypbQ">
+    <sectionDescription>&lt;p>&#xD;
+    The administrator setting these permissions needs to understand the roles and potential users of a particular set of&#xD;
+    assets. In general, the enterprise should control access to the intellectual property, and the artifacts&amp;nbsp;that&#xD;
+    represent the investment of the enterprise.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The permissions for a specific role may be scoped to assets of a particular asset type, to assets with particular&#xD;
+    classifications, or to a particular asset owner.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For example, the administrator may state that for the Business Analyst role in the Service Analysis Community, they may&#xD;
+    work only with assets of type &quot;Business Process&quot; which are classified for &quot;Financial Services&quot; systems.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <keyConsiderations>&lt;p>&#xD;
+    Impact/Influence on the ABD process:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+        href=&quot;./../../practice.mgmt.asset_based_dev.base-ibm/tasks/configure_repository_CC804EAF.html&quot;&#xD;
+        guid=&quot;_dI8ooKaCEduHC6cE2S3HNg&quot;>Task: Configure Repository&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+        href=&quot;./../../practice.mgmt.asset_based_dev.base-ibm/capabilitypatterns/AandM_B47E985F.html&quot;&#xD;
+        guid=&quot;_nfpIkQVqEdyJlaiJ7G71ig&quot;>Activity: Administration and Monitoring&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+        href=&quot;./../../practice.mgmt.asset_based_dev.base-ibm/capabilitypatterns/cra_1C7EFA61.html&quot;&#xD;
+        guid=&quot;_1lc-UehuEduKxbbfe_QPcg&quot;>Capability Pattern: Consume Reusable Asset&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-ZJf4nMSgmfKufQ7nxAZ4Sw" name=",_oCXZwJaaEeCPtY0LnWkRDw" guid="-ZJf4nMSgmfKufQ7nxAZ4Sw" changeDate="2011-06-14T10:14:00.004-0700" version="7.5.1">
+  <mainDescription>&lt;p dir=&quot;ltr&quot;>&#xD;
+    The diagram below shows how the results of the Hazard analysis and risk assessment are passed down through the safety&#xD;
+    goals with ASIL levels to requirements and subsystems.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;img alt=&quot;&quot;&#xD;
+    src=&quot;./resources/Safety%20requirements%20allocation.png&quot; width=&quot;441&quot; height=&quot;259&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Users are advised to refer to ISO 26262, Volume 3 clause 4.3 for further guidance on the allocation functional safety&#xD;
+    requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>&lt;em>Copyright ISO 2011. All rights reserved. Reproduced with permission of ANSI. This is a draft ISO Standard&#xD;
+    that is subject to change without notice and cannot be referred to or relied upon as a final ISO&#xD;
+    standard.&lt;/em>&lt;/strong>&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br />&#xD;
+&lt;br dir=&quot;ltr&quot; align=&quot;center&quot; />&#xD;
+&lt;br />&#xD;
+&lt;b>&lt;a id=&quot;_Toc191284300&quot; name=&quot;_Toc191284300&quot;>&lt;/a>&lt;/b></mainDescription>
+  <sections xmi:id="_SQaWEJaqEeCPtY0LnWkRDw" name="Develop conceptual safety architecture" guid="_SQaWEJaqEeCPtY0LnWkRDw">
+    <sectionDescription>&lt;p>&#xD;
+    The conceptual safety architecture is developed so that the functional safety requirements can be allocated to&#xD;
+    subsystems.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For detailed guidance on this step refer to ISO 26262, Volume 3 clause 8.4.3.1&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_nVgm4JayEeCPtY0LnWkRDw" name="Optional:- ASIL Decomposition" guid="_nVgm4JayEeCPtY0LnWkRDw">
+    <sectionDescription>&lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+    The method of ASIL tailoring during the design process given in ISO 26262 is called &quot;ASIL decomposition&quot;. During the&#xD;
+    allocation process, benefit can be obtained from architectural decisions and the existence of independent architectural&#xD;
+    elements. This offers the opportunity to do the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        implement safety requirements redundantly by these independent architectural elements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        assign a potentially lower ASIL to these redundant safety requirements.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    If there is no independence between the elements, the ASIL of the safety goal is inherited by each requirement and&#xD;
+    element.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is advised that users refer to ISO 26262, Volume 9, Clause 5 for detailed requirements and guidance on ASIL&#xD;
+    decomposition.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Wx8AgJaqEeCPtY0LnWkRDw" name="Allocate functional safety requirements" guid="_Wx8AgJaqEeCPtY0LnWkRDw">
+    <sectionDescription>&lt;p>&#xD;
+    The task of allocating safety requirements to subsystems of the architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The ASIL of the derived safety goal shall be passed to the subsystem.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For detailed guidance on this step refer to ISO 26262, Volume 3 clause 8.4.3.2&#xD;
+&lt;/p>&lt;br /></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    To show the traceability between safety goals, through the safety requirements to the specific subsystems.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The subsystems coming out of the conceptual safety architecture.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

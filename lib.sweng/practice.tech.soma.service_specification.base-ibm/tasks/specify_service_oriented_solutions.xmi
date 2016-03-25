@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-b0RdnNC_6nsbbkTP-NZshQ" name="specify_service_oriented_solutions,_2diWUGfnEd6Lp4pMdHNm6g" guid="-b0RdnNC_6nsbbkTP-NZshQ" changeDate="2009-12-03T09:20:18.187-0800" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    This is the core task of service specification.&amp;nbsp;Begin this task with:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A&amp;nbsp;defined &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_portfolio_ED261230.html&quot; guid=&quot;_qDmYcFbAEd6MCpkuB85p5g&quot;>portfolio of services&lt;/a> to be specified&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Pertinent &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.bus.common.extend-ibm/guidances/concepts/business_process_6DC80DFA.html&quot; guid=&quot;_zjPQgIqmEd64Ytrb_zySHw&quot;>business processes&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Descriptions of &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/information_model_7F8FC275.html&quot; guid=&quot;_GjvrcIB_Ed6gDe17473oSQ&quot;>information models&lt;/a> and more concrete &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/data_model_E4755C1E.html&quot; guid=&quot;_uYi1gEo1Ed6D_7XK49c0nw&quot;>data models&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Representations of the functional requirements that the solution must realize, and the non-functional requirements&#xD;
+        that constrain it&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Definitions of the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/supportingmaterials/pattern_05_manage_composition_using_service_oriented_solutions_753E5D71.html&quot; guid=&quot;_bydzoHyoEd6buIXZTkenBw&quot;>service-oriented solution&lt;/a> abstractions that you will use to organize some&#xD;
+        larger-scale views of your &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/workproducts/service_model_B9A1BF81.html&quot; guid=&quot;_IgcA4Eo1Ed6D_7XK49c0nw&quot;>Service Model&lt;/a>.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    When you exit the task, you will have accomplished the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Specified the external view of the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/concepts/service_2D3C4FFE.html&quot; guid=&quot;_OMw8cEozEd6D_7XK49c0nw&quot;>services&lt;/a>.&amp;nbsp; Their operations, operation signatures, and interaction&#xD;
+        protocols (&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_contract_soaml_E57B30D4.html&quot; guid=&quot;_IhtgsFbBEd6MCpkuB85p5g&quot;>ServiceContracts&lt;/a>) have been defined&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Discovered and described individual &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>participants&lt;/a>&amp;nbsp;which&amp;nbsp;provide and consume services&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Documented the&amp;nbsp;service &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/message_type_soaml_41C1C53D.html&quot; guid=&quot;_Yy9FYGc6Ed65K8S2sWS35w&quot;>messages&lt;/a> and information objects&amp;nbsp;that compose the service data model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defined service composition and flows&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Described the dependencies between services&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    When you do these things, you have to keep in mind the need to fulfill the required non-functional requirements, as&#xD;
+    well as the functional ones.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The steps of this task are presented as a way to compartmentalize the various activities involved in detailing the&#xD;
+    service model.&amp;nbsp; They do not need to be performed sequentially.&amp;nbsp; Further,&amp;nbsp;each step&amp;nbsp;can be revisited&#xD;
+    as more information is learned.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_OX-_cHt_Ed6TH_N7AhVgiA" name="Model service collaborations" guid="_OX-_cHt_Ed6TH_N7AhVgiA">
+    <sectionDescription>&lt;p>&#xD;
+    Create one or more UML collaborations for each business process and use case that you are addressing.&amp;nbsp; In this&#xD;
+    approach (see&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/soaml_design_model_sample_83612289.html&quot; guid=&quot;_AfQisHNIEd6va-EJWoOsvg&quot;>Example: Sample SoaML Design Model&lt;/a>), you keyword these collaborations as&#xD;
+    &lt;code>Service Collaboration&lt;/code>.&amp;nbsp; Build an activity or interaction model under each collaboration&amp;nbsp;to&#xD;
+    develop an initial understanding of how each business process or use case is to be realized.&amp;nbsp; Information gained&#xD;
+    from this modeling includes the following items:&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The roles that are involved in the realization&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The services (operations) those roles provide or request&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The connection paths that must exist among the roles to support the behavior&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Depending upon the maturity of your understanding of the solution, you can map the roles either to previously-defined&#xD;
+    &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/capability_soaml_56747F9.html&quot; guid=&quot;_A5_hYFbBEd6MCpkuB85p5g&quot;>capabilities&lt;/a>, to previously-defined &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>ServiceInterfaces&lt;/a>, or to a newly-discovered ServiceInterface.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_specification.base-ibm/guidances/examples/model_service_collaborations_A2E5155F.html&quot; guid=&quot;_x4hbYJY8Ed6Ix90EO0mdwQ&quot;>Example: Model Service Collaborations&lt;/a>&amp;nbsp;for further insights regarding this&#xD;
+    step.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_kbBq8HuiEd6TH_N7AhVgiA" name="Create new service interfaces" guid="_kbBq8HuiEd6TH_N7AhVgiA">
+    <sectionDescription>&lt;p>&#xD;
+    It is likely that the previous service collaboration modeling discovered some collaboration roles that could not be&#xD;
+    fulfilled by pre-existing capabilities, ServiceInterfaces, or UML interfaces.&amp;nbsp; Create&amp;nbsp;appropriate model&#xD;
+    elements to fill these roles.&amp;nbsp; Use &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_specification.base-ibm/guidances/guidelines/identify_service_interfaces_from_role_interaction_patterns_A80FD7EE.html&quot; guid=&quot;_cBOmEJaLEd6mO_N3erykYQ&quot;>Guideline: Identify Service Interfaces from Collaboration Role Interaction Patterns&lt;/a>&amp;nbsp;to guide your discovery efforts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If you are early in the overall service design process -- perhaps you are still performing some service identification&#xD;
+    tasks -- you can create capabilities to fulfill the roles.&amp;nbsp; You also might create capabilities if your SOA&#xD;
+    governance process requires that all new services go through &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../practice.tech.soma.service_specification.base-ibm/guidances/concepts/service_litmus_tests_8CE8505D.html&quot; guid=&quot;_dXhFEIkNEd6ilu16R-rAlg&quot;>service litmus testing&lt;/a> before they are approved for exposure and subsequent&#xD;
+    development.&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If the previous assumptions and considerations are not valid,&amp;nbsp; create either new ServiceInterfaces or UML&#xD;
+    interfaces&amp;nbsp; Create an interface only if you are certain that the model element will be involved only in simple&#xD;
+    request-response interaction protocols with service consumers.&amp;nbsp; If there is a possibility that a more complex&#xD;
+    interaction protocol might be involved, such as that which is illustrated in&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/service_interface_soaml_EC252D57.html&quot; guid=&quot;_dmG_MFbPEd6MCpkuB85p5g&quot;>Example: ServiceInterface (SoaML)&lt;/a>,&amp;nbsp; then create a ServiceInterface.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If you are organizing your service model in line with the concepts presented in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/soaml_design_model_sample_83612289.html&quot; guid=&quot;_AfQisHNIEd6va-EJWoOsvg&quot;>Example: Sample SoaML Design Model&lt;/a>, create new interfaces and ServiceInterfaces in&#xD;
+    the Implementation packages portion of the model.&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_b2V-0Ht7Ed6TH_N7AhVgiA" name="Identify service operations" guid="_b2V-0Ht7Ed6TH_N7AhVgiA">
+    <sectionDescription>&lt;p>&#xD;
+    Map each message between two roles in a Service Collaborations Interaction diagram to an operation on an&#xD;
+    interface.&amp;nbsp; This interface could be either of the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A simple UML interface that was discovered during the creation of new service interfaces.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A provided or a required interface that is associated with a ServiceInterface.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Create a new operation if necessary.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If you used activities to describe your service collaborations, ensure that each of the activity actions is supported&#xD;
+    by an operation.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_5vYZYHuiEd6TH_N7AhVgiA" name="Detail the service interfaces" guid="_5vYZYHuiEd6TH_N7AhVgiA">
+    <sectionDescription>&lt;p>&#xD;
+    The full specification of a ServiceInterface can be quite involved -- refer to the table in&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>Concept: ServiceInterface (SoaML)&lt;/a>&amp;nbsp;to better understand the types of information&#xD;
+    that might be called for.&amp;nbsp; As a minimum, the ServiceInterface specification needs to include the following&#xD;
+    information:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Fully-defined provided and required interfaces, including full operation signatures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Fully defined protocols that govern how &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/termdefinitions/service_provider.supp_soa_478061A7.html&quot; guid=&quot;_ewRWAIRSEd6jqtIeWlQI8A&quot;>service providers&lt;/a> and &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend-ibm/guidances/termdefinitions/service_consumer_91384414.html&quot; guid=&quot;_HDs9YIQuEd6VVeXj3w86dA&quot;>service consumers&lt;/a> interact during service delivery.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Do the following to accomplish these things:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Build out the service data model to define the information that will be transferred using service calls.&amp;nbsp;&#xD;
+        These externally-visible data elements can be &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend-ibm/guidances/termdefinitions/message_F04CD4DA.html&quot; guid=&quot;_-1aDcJf7Ed6l6vBsNJSPDA&quot;>messages&lt;/a> or &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend-ibm/guidances/termdefinitions/parameter_type_8B026E69.html&quot; guid=&quot;_vZhEkJf4Ed6l6vBsNJSPDA&quot;>parameter types&lt;/a>.&amp;nbsp; Derive parameter types from either domain types or &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend-ibm/guidances/termdefinitions/information_type_4B464FEE.html&quot; guid=&quot;_eKae0Jf5Ed6l6vBsNJSPDA&quot;>information types&lt;/a>.&amp;nbsp; Derive messages from either domain types, information&#xD;
+        types, parameter types, or other messages.&amp;nbsp; See pages 368 - 375 of &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/whitepapers/building_soa_solutions_redbook_BB469CB2.html&quot; guid=&quot;_e3mR4FIREd6lNtylJFsPIg&quot;>Redbook: Building SOA Solutions Using the Rational SDP&lt;/a>&amp;nbsp;for an extended&#xD;
+        example of doing this.&amp;nbsp; Also see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_specification.base-ibm/guidances/examples/parameter_types_derived_from_domain_types_B6CA3338.html&quot; guid=&quot;_SpwewKWREd6guMqwN5kA3g&quot;>Example: Parameter Types Derived from Domain Types&lt;/a>&amp;nbsp;and &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/message_type_soaml_609910E6.html&quot; guid=&quot;_JCUowGc7Ed65K8S2sWS35w&quot;>Example: MessageType (SoaML)&lt;/a>.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Create elements of the service data model either for shared or private use.&amp;nbsp; Consult &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/supportingmaterials/pattern_10_keep_architectural_elements_decoupled_8CE90429.html&quot; guid=&quot;_X-WbEH8UEd6EC8v3b_fCaQ&quot;>Pattern 10: Keep Architectural Elements Decoupled&lt;/a>&amp;nbsp;and &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/supportingmaterials/pattern_11_use_shared_messages_and_parameter_types_CF59F600.html&quot; guid=&quot;_nfEW8H8UEd6EC8v3b_fCaQ&quot;>Pattern 11: Use Shared Messages and Parameter Types&lt;/a>&amp;nbsp;to help you make this&#xD;
+        decision.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Complete the signatures of the previously-identified operations by adding appropriate parameters and return values,&#xD;
+        typed using elements of the service data model.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Leverage the previous service collaboration work to define the ServiceInterface interaction protocols.&amp;nbsp; These&#xD;
+        are expressed as collaborations that show how providers and consumers interact during the performance of a&#xD;
+        service.&amp;nbsp; If the interactions involve only a single provider and consumer, it normally is sufficient to create&#xD;
+        a simple collaboration that is owned directly by the ServiceInterface, see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/service_interface_soaml_EC252D57.html&quot; guid=&quot;_dmG_MFbPEd6MCpkuB85p5g&quot;>Example: ServiceInterface (SoaML)&lt;/a>.&amp;nbsp; If the interaction involves more than&#xD;
+        two roles, create a formal &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_contract_soaml_E57B30D4.html&quot; guid=&quot;_IhtgsFbBEd6MCpkuB85p5g&quot;>ServiceContract&lt;/a>.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_T1WcsHujEd6TH_N7AhVgiA" name="Create service participants" guid="_T1WcsHujEd6TH_N7AhVgiA">
+    <sectionDescription>&lt;p>&#xD;
+    Create the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>participants&lt;/a> that will provide the previously-specified services.&amp;nbsp; Consider&#xD;
+    pertinent functional and non-functional requirements when making these decisions.&amp;nbsp; Also keep architectural&#xD;
+    constraints in mind.&amp;nbsp; See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_specification.base-ibm/guidances/concepts/considerations_in_service_provider_selection_88883BF0.html&quot; guid=&quot;_Jm4HUJgPEd6l6vBsNJSPDA&quot;>Concept: Considerations in Service Provider Selection&lt;/a>&amp;nbsp;for guidance.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In this step, you are concerned only with services that are being provided.&amp;nbsp; Create a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_point_soaml_E250D92A.html&quot; guid=&quot;_9jRdMFbAEd6MCpkuB85p5g&quot;>ServicePoint&lt;/a> on a participant for each service that it will provide.&amp;nbsp; Type the&#xD;
+    ServicePoint with an appropriate &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>ServiceInterface&lt;/a> or simple UML interface.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If you are using &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/templates/service_solution_design_model_9242B811.html&quot; guid=&quot;_3yebEFIREd6lNtylJFsPIg&quot;>Template: Service Solution Design Model&lt;/a>&amp;nbsp;to build your service model, create the&#xD;
+    participants in the implementation packages portion of the model, as is illustrated in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/soaml_design_model_sample_83612289.html&quot; guid=&quot;_AfQisHNIEd6va-EJWoOsvg&quot;>Example: Sample SoaML Design Model&lt;/a>.&amp;nbsp;&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_g0yMUKWMEd6guMqwN5kA3g" name="Model data control points" guid="_g0yMUKWMEd6guMqwN5kA3g">
+    <sectionDescription>&lt;p>&#xD;
+    For each participant that offers a service that exists to manage access to data, model the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend-ibm/guidances/termdefinitions/information_type_4B464FEE.html&quot; guid=&quot;_eKae0Jf5Ed6l6vBsNJSPDA&quot;>information types&lt;/a> for which the participant is responsible.&amp;nbsp; Refer to &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/supportingmaterials/pattern_08_model_data_control_points_8D5026CE.html&quot; guid=&quot;_mCnegHobEd6spLUpguTNDw&quot;>Pattern 08: Model Data Control Points&lt;/a>&amp;nbsp;and &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/pattern_08_model_data_control_points_7EB2FD6C.html&quot; guid=&quot;_atFesH_DEd6VSIQYwJ9Ebg&quot;>Example: Pattern 08: Model Data Control Points&lt;/a>&amp;nbsp;for guidance.&amp;nbsp; Refer to&#xD;
+    pages 381 - 383 of &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/whitepapers/building_soa_solutions_redbook_BB469CB2.html&quot; guid=&quot;_e3mR4FIREd6lNtylJFsPIg&quot;>Redbook: Building SOA Solutions Using the Rational SDP&lt;/a>&amp;nbsp;for an extended example&#xD;
+    of data control point modeling.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_WuEO4HumEd6TH_N7AhVgiA" name="Identify and describe composite services" guid="_WuEO4HumEd6TH_N7AhVgiA">
+    <sectionDescription>&lt;p>&#xD;
+    Some participants&amp;nbsp;realize &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend-ibm/guidances/termdefinitions/composite_service_2B492DE6.html&quot; guid=&quot;_Hm7qcIQnEd6pOcahJ5wBfA&quot;>composite services&lt;/a>.&amp;nbsp; Leverage the earlier &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend-ibm/guidances/termdefinitions/service_collaboration_35276470.html&quot; guid=&quot;_V4z3YJgtEd6l6vBsNJSPDA&quot;>service collaboration&lt;/a> work to identify these services and to configure the&#xD;
+    participants that realize them.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        For each previously-developed service collaboration, identify the roles that are both providers and&#xD;
+        consumers.&amp;nbsp; For purposes of this discussion, we will refer to these as composite roles.&amp;nbsp; In &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_specification.base-ibm/guidances/examples/service_interfaces_from_a_complex_set_of_role_interactions_EC625647.html&quot; guid=&quot;_4CI2wJd1Ed6K4On4I33bEg&quot;>Example: ServiceInterfaces from a Complex Set of Role Interactions&lt;/a>,&#xD;
+        &lt;code>role2&lt;/code> is a composite role.&amp;nbsp; It is&amp;nbsp;a provider for &lt;code>role1&lt;/code>, and it is a consumer&#xD;
+        for &lt;code>role3&lt;/code> and for &lt;code>role4&lt;/code>.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify each participant that provides the ServiceInterface (or simple UML Interface) that was used previously to&#xD;
+        type&amp;nbsp;each&amp;nbsp;composite role.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        For each such participant, add a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/request_point_soaml_DD83CF2.html&quot; guid=&quot;_5DYKcFbAEd6MCpkuB85p5g&quot;>RequestPoint&lt;/a> for each role that was a provider to the composite role.&amp;nbsp;&#xD;
+        These roles are identified from the Service Collaborations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Type each RequestPoint with the ServiceInterface (or simple UML interface) that was used to type&amp;nbsp;each such&#xD;
+        provider.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The resulting participants will be configured similarly to&amp;nbsp;the OrderProcessor participant in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/participant_soaml_DAFEB6B7.html&quot; guid=&quot;_uO9JIFbBEd6MCpkuB85p5g&quot;>Example: Participant (SoaML)&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_MTROgHunEd6TH_N7AhVgiA" name="Describe run-time services assemblies" guid="_MTROgHunEd6TH_N7AhVgiA">
+    <sectionDescription>&lt;p>&#xD;
+    Model&amp;nbsp;assemblies of participant instances that can realize the solution at run-time.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        For each&amp;nbsp;participant that&amp;nbsp;provides a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend-ibm/guidances/termdefinitions/composite_service_2B492DE6.html&quot; guid=&quot;_Hm7qcIQnEd6pOcahJ5wBfA&quot;>composite service&lt;/a>, create a new participant to assemble an instance of the&#xD;
+        providing participant and instances of the other participants that it uses.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        In a structure diagram for the new assembling participant, connect the participant instances using ServiceChannels.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Provide the assembling participant with ServicePoints that are typed identically to the ServicePoints on the&#xD;
+        composite service provider.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Link each pair of identically-typed ServicePoints with a ServiceChannel that delegates implementation from the&#xD;
+        assembling participant to&amp;nbsp;its internal&amp;nbsp;composite service provider part&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The result will be similar to the Manufacturer participant in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/participant_soaml_DAFEB6B7.html&quot; guid=&quot;_uO9JIFbBEd6MCpkuB85p5g&quot;>Example: Participant (SoaML)&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If desired, create a CollaborationUses for the related ServicesArchitecture, add it into the structure diagram for the&#xD;
+    assembling participant, and bind the roles of the CollaborationUses to the parts in the structure diagram.&amp;nbsp; This&#xD;
+    resulting image concisely shows both the run-time structure of the solution and how the parts of the solution fulfill&#xD;
+    the solution's behavioral contract.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_specification.base-ibm/guidances/examples/manufacturer_with_services_architecture_379002C0.html&quot; guid=&quot;_xOASoJhIEd6l6vBsNJSPDA&quot;>Example: Manufacturer Structure Diagram with Services Architecture&lt;/a>&amp;nbsp;illustrates this latter rendering of the solution.&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_0n-d4HumEd6TH_N7AhVgiA" name="(Optional) Model service operation behaviors" guid="_0n-d4HumEd6TH_N7AhVgiA">
+    <sectionDescription>&lt;p>&#xD;
+    Each provided service operation of each participant eventually will need to be implemented.&amp;nbsp; It can be useful to&#xD;
+    capture in the service model&amp;nbsp;the architect/designer's intention with respect to operation implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For each participant, create an ownedBehavior (such as an activity or interaction) for each provided service&#xD;
+    operation.&amp;nbsp; Use the ownedBehavior to document, to an appropriate level of detail, how the operation is to be&#xD;
+    implemented.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/participant_soaml_DAFEB6B7.html&quot; guid=&quot;_uO9JIFbBEd6MCpkuB85p5g&quot;>Example: Participant (SoaML)&lt;/a>&amp;nbsp;presents a sample owned behavior for the&#xD;
+    OrderProcessor participant.&amp;nbsp; This ownedBehavior illustrates how the processPurchaseOrder provided operation is to&#xD;
+    be realized by three interacting services.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_2s08cHukEd6TH_N7AhVgiA" name="(Optional) Create SoaML service architectures" guid="_2s08cHukEd6TH_N7AhVgiA">
+    <sectionDescription>&lt;p>&#xD;
+    For each business process or use case that was used as input to the service modeling effort, create a&#xD;
+    ServicesArchitecture.&amp;nbsp; This concisely documents the&amp;nbsp;participants that&amp;nbsp;realize each process or use case,&#xD;
+    and the protocols they follow as they do so.&amp;nbsp;&amp;nbsp;See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_specification.base-ibm/guidances/guidelines/building_a_services_architecture_A7E2C6DA.html&quot; guid=&quot;_vR9pQJgzEd6l6vBsNJSPDA&quot;>Guideline: Building a ServicesArchitecture&lt;/a>&amp;nbsp;for a discussion of the detailed&#xD;
+    steps to follow to do this.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As is described in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_architecture_soaml_22F25B9A.html&quot; guid=&quot;_wYQYkEo3Ed6D_7XK49c0nw&quot;>Concept: ServicesArchitecture (SoaML)&lt;/a>, the internal behavior of the participants&#xD;
+    that are involved in a process- or use case level- ServicesArchitecture might themselves be described using&#xD;
+    ServicesArchitectures.&amp;nbsp; This is most likely to occur when a participant realizes a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend-ibm/guidances/termdefinitions/composite_service_2B492DE6.html&quot; guid=&quot;_Hm7qcIQnEd6pOcahJ5wBfA&quot;>composite service&lt;/a>.&amp;nbsp; Create and detail additional ServicesArchitectures for such&#xD;
+    participants.&amp;nbsp; If you are using the described model structure (see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/soaml_design_model_sample_83612289.html&quot; guid=&quot;_AfQisHNIEd6va-EJWoOsvg&quot;>Example: Sample SoaML Design Model&lt;/a>), place each such ServicesArchitecture under the&#xD;
+    same package as the participant whose internal structure it describes.&amp;nbsp;&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_okSpMJioEd69jrnQ2K7ppQ" name="Document service dependencies" guid="_okSpMJioEd69jrnQ2K7ppQ">
+    <sectionDescription>&lt;p>&#xD;
+    A UML or SoaML service model that is built in accordance with the&amp;nbsp;other steps of this task will have substantial&#xD;
+    model-based documentation regarding the dependencies between services.&amp;nbsp; If the service model is being built to a&#xD;
+    lesser degree of rigor, or if alternative representations (such as textual documents) are being used for the service&#xD;
+    model, some supplementary documentation of service dependencies could be called for.&amp;nbsp; Create that documentation to&#xD;
+    capture the concerns discussed in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_specification.base-ibm/guidances/guidelines/documenting_service_dependencies_377F8B79.html&quot; guid=&quot;_nOyZYJipEd69jrnQ2K7ppQ&quot;>Guideline: Documenting Service Dependencies&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/templates/service_model_in_word_C66F2019.html&quot; guid=&quot;_mJhD0GkcEd6g1IDZLlcC3g&quot;>Template: Service Model in Word&lt;/a>&amp;nbsp;can be used to capture the required dependency&#xD;
+    information.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    To create a fully-specified service model that, when realized, will meet the functional and non-functional needs of the&#xD;
+    business.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

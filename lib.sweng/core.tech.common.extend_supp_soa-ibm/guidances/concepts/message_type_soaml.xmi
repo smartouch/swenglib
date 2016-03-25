@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-uYDC0GHC1vjdxah_GfQDvg" name="message_type_soaml,_Yy9FYGc6Ed65K8S2sWS35w" guid="-uYDC0GHC1vjdxah_GfQDvg" changeDate="2009-09-21T20:26:38.406-0700" version="7.5.0">
+  <copyrightStatement href="uma://_4eYbIEcWEd6GBq2DuQ5crg#_6LLxwLNfEd6JDp2szLeSrA"/>
+  <mainDescription>&lt;p>&#xD;
+    Usage:&amp;nbsp; &quot;MessageType&quot; stereotypes UML DataType, Class&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>A MessageType is a kind of value object that represents information exchanged between &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>participant&lt;/a> requests and services. This information consists of data passed into&#xD;
+    and/or returned from the invocation of an operation or event signal defined in a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>service interface&lt;/a>. A MessageType is in the domain or service-specific content and&#xD;
+    does not include header or other implementation or protocol-specific information.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>MessageTypes are used to aggregate inputs, outputs, and exceptions to service operations as in WSDL.&#xD;
+    MessageTypes represent &quot;pure data&quot; that is communicated between parties - it is then up to the parties, based on the&#xD;
+    SOA specification, to interpret this data and act accordingly. As &quot;pure data&quot;, message types&amp;nbsp;can not have&#xD;
+    dependencies on the environment, location, or information system of either party.&amp;nbsp; This restriction rules out many&#xD;
+    common implementation &lt;font size=&quot;2&quot;>techniques such as &quot;memory pointers,&quot; that might be found inside an application.&#xD;
+    Good design practices suggest that the content and structure of messages provide for rich interaction of the parties&#xD;
+    without unnecessarily coupling or restricting their behavior or internal concerns.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>The terms Data Transfer Object (DTO), Service Data Object (SDO), or value objects used in&#xD;
+    some technologies are similar in concept, though they tend to imply certain implementation techniques. A DTO represents&#xD;
+    data that can be freely exchanged between address spaces, and does not rely on specific location information to relate&#xD;
+    parts of the data. An SDO is a standard implementation of a DTO. A Value Object is a Class without identity and where&#xD;
+    equality is defined by value not reference. Also in the business world (or areas of business where EDI is commonplace)&#xD;
+    the term Document is frequently used. All these concepts can be represented by a MessageType.&lt;/font>&lt;/font>&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>MessageType&amp;nbsp;generally should&amp;nbsp;be applied only to DataType,&amp;nbsp;because it is&#xD;
+    intended to have no identity. However, it is recognized that many existing models do not clearly distinguish identity,&#xD;
+    either mixing Class and DataType, or only using Class. Recognizing this, SoaML allows MessageType to be applied to&#xD;
+    Class as well as DataType. In this case, the identity implied by the Class is not considered in the MessageType. The&#xD;
+    Class is treated as if it were a DataType.&lt;/font>&lt;/font>&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;3&quot;>&lt;strong>Semantics&lt;/strong>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>MessageTypes represent service data exchanged between service consumers and &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/termdefinitions/service_provider.supp_soa_478061A7.html&quot; guid=&quot;_ewRWAIRSEd6jqtIeWlQI8A&quot;>providers&lt;/a>. Service data is often a view (projections and selections) on information&#xD;
+    or domain class models representing the (often persistent) entity data used to implement service participants.&#xD;
+    MessageType encapsulates the inputs, outputs, and exceptions of service operations into a type based on direction. A&#xD;
+    MessageType&amp;nbsp;can contain attributes with isID set to true.&amp;nbsp; This&amp;nbsp;indicates the MessageType contains&#xD;
+    information that can be used to distinguish instances of the message payload. This information&amp;nbsp;can be used to&#xD;
+    correlate long running conversations between service consumers and providers.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>A service Operation is any Operation of an Interface provided or required by a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_point_soaml_E250D92A.html&quot; guid=&quot;_9jRdMFbAEd6MCpkuB85p5g&quot;>ServicePoint&lt;/a> or &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/request_point_soaml_DD83CF2.html&quot; guid=&quot;_5DYKcFbAEd6MCpkuB85p5g&quot;>RequestPoint&lt;/a>. Service Operations&amp;nbsp;can use two different parameter styles,&#xD;
+    document centered (or message centered), or RPC (Remote Procedure Call) centered. Document centered parameter style&#xD;
+    uses MessageType for ownedParameter types, and the Operation can have at most one in, one out, and one exception&#xD;
+    parameter (an out parameter with isException set to true). All parameters of such an operation must be typed by a&#xD;
+    MessageType. For RPC style operations, a service Operation&amp;nbsp;can have any number of in, inout, and out parameters&#xD;
+    and&amp;nbsp;can have a return parameter as in UML2. In this case, the parameter types are restricted to PrimitiveType or&#xD;
+    DataType. This ensures no service Operation makes any assumptions about the identity or location of any of its&#xD;
+    parameters. All service Operations use call-by-value semantics in which the ownedParameters are value objects or data&#xD;
+    transfer objects.&lt;/font>&amp;nbsp;&lt;br />&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

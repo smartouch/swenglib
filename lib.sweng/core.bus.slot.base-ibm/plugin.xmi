@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_0F9S74OFEd2Vg67dua6CSg" guid="_0F9S74OFEd2Vg67dua6CSg"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_AuAlcDyVEdyz7ZnE62_AvQ" userChangeable="false" name="core.bus.slot.base-ibm" guid="_AuAlcDyVEdyz7ZnE62_AvQ" presentationName="IBM Business Slot" briefDescription="This plug-in contains slots for a business context." changeDate="2008-10-05T21:50:06.593-0700" supporting="true">
+    <methodElementProperty xmi:id="_02bUcremEd-oHLor78AFuw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_VBVtYBXVEdyM9L6rbYAZaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0F9S4IOFEd2Vg67dua6CSg" name="Content" guid="_0F9S4IOFEd2Vg67dua6CSg">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0F9S4YOFEd2Vg67dua6CSg" name="Categories" guid="_0F9S4YOFEd2Vg67dua6CSg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0F9S4oOFEd2Vg67dua6CSg" name="Domains" guid="_0F9S4oOFEd2Vg67dua6CSg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0F9S44OFEd2Vg67dua6CSg" name="Disciplines" guid="_0F9S44OFEd2Vg67dua6CSg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0F9S5IOFEd2Vg67dua6CSg" name="RoleSets" guid="_0F9S5IOFEd2Vg67dua6CSg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0F9S5YOFEd2Vg67dua6CSg" name="WP Types" guid="_0F9S5YOFEd2Vg67dua6CSg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0F9S5oOFEd2Vg67dua6CSg" name="Tools" guid="_0F9S5oOFEd2Vg67dua6CSg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0F9S54OFEd2Vg67dua6CSg" name="StandardCategories" guid="_0F9S54OFEd2Vg67dua6CSg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0F9S6IOFEd2Vg67dua6CSg" name="CustomCategories" guid="_0F9S6IOFEd2Vg67dua6CSg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0F9S6YOFEd2Vg67dua6CSg" name="Hidden" guid="_0F9S6YOFEd2Vg67dua6CSg">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_0F9S6oOFEd2Vg67dua6CSg" name="Custom Categories" guid="_0F9S6oOFEd2Vg67dua6CSg" presentationName="Custom Categories"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_0F9S64OFEd2Vg67dua6CSg" name="CoreContent" guid="_0F9S64OFEd2Vg67dua6CSg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LcDcgDyVEdyz7ZnE62_AvQ" name="Business Work Product Slots (IBM)" guid="_LcDcgDyVEdyz7ZnE62_AvQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_OIXJkBYREd2eavK0BKAMiA" name="business_design_slot" guid="_OIXJkBYREd2eavK0BKAMiA" presentationName="[Business Design]" briefDescription="This slot serves as an abstraction of high-level artifacts that define the overall structure and processes of the business operates." isAbstract="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_LQx4cBYREd2eavK0BKAMiA" name="business_requirements_slot" guid="_LQx4cBYREd2eavK0BKAMiA" presentationName="[Business Requirements]" briefDescription="This slot serves as an abstraction of high-level artifacts that capture the overall business vision, business goals, and other high level concerns that are drivers of the business design." isAbstract="true"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0F9S7IOFEd2Vg67dua6CSg" name="CapabilityPatterns" guid="_0F9S7IOFEd2Vg67dua6CSg"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0F9S7YOFEd2Vg67dua6CSg" name="DeliveryProcesses" guid="_0F9S7YOFEd2Vg67dua6CSg"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0F9S7oOFEd2Vg67dua6CSg" name="ProcessContributions" guid="_0F9S7oOFEd2Vg67dua6CSg"/>
+    <bases href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_iX6DsBXGEdyM9L6rbYAZaw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

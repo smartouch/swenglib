@@ -1,0 +1,1902 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-fh-i-Spf9gm3yHG7hImTnw" name="beta_test_product,{293A215D-E3D2-47D9-9A2E-89431862EFDA}" guid="-fh-i-Spf9gm3yHG7hImTnw">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    A beta test gives the product a controlled, real-world test, so that feedback from potential users can be used to shape&#xD;
+    the final product.&amp;nbsp; It also provides a preview of the next release to interested customers.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is most appropriate in situations where the product being built is unprecedented or where the product will be&#xD;
+    shrink-wrapped and made available for sale commercially.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Feedback from the Beta Program is treated as Stakeholder Requests and factored into the developing product features in&#xD;
+    subsequent iterations.&#xD;
+&lt;/p></mainDescription>
+    <keyConsiderations>&lt;a id=&quot;Timing&quot; name=&quot;Timing&quot;>&lt;/a>&lt;a id=&quot;Optionality&quot; name=&quot;Optionality&quot;>&lt;/a>&lt;a id=&quot;WorkGuidelines&quot;&#xD;
+name=&quot;WorkGuidelines&quot;>&lt;/a></keyConsiderations>
+    <usageGuidance>&lt;p>&#xD;
+    This work is generally performed in the construction and transition phases, although there may be situations where it&#xD;
+    is useful to perform it as early as the elaboration phase. It is typical for beta testing to be the primary focus for&#xD;
+    iterations in which it is conducted,&amp;nbsp; As such this activity will typically be preceded by integration and build&#xD;
+    activities focused on enabling the beta test work. This activity itself will typically begin part-way into the&#xD;
+    iteration and may continue until the end of the iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This&amp;nbsp;activity can be considered optional. It is most appropriate in situations where the product being built is&#xD;
+    unprecedented or where the product will be shrink-wrapped and made available for sale commercially.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Generally, products will either be beta tested or final acceptance tested&amp;nbsp;(at the installation site), but not&#xD;
+    both.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    A deployment manager needs to be someone who is aware of the operational needs of the end user and capable of pulling&#xD;
+    together all the items that go in to making the product. The deployment manager runs the beta test and, in the case of&#xD;
+    &quot;shrink wrap&quot; products, deals with the manufacturers to ensure that adequate quality is achieved in the product.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The deployment manager gets the product delivered and, as such, needs to be well versed in the required infrastructure&#xD;
+    and user needs to ensure that the product is available for the users.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-Y_XBOJZ206ug9vJSd8MVZw" name="package_product,{B089A6F0-53E7-4A54-9E5F-8BCCCE46E862}" guid="-Y_XBOJZ206ug9vJSd8MVZw">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    This activity packages the deployment unit, installation scripts, and user manuals for mass production, as in a&#xD;
+    consumer product.&#xD;
+&lt;/p></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    This work is performed in iterations in which an executable release will be externally delivered, most typically where&#xD;
+    the chosen deployment method requires the creation of a &quot;shrink-wrapped&quot; product.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Apart from the software logistics people like the deployment manager, this&amp;nbsp;activity calls for the product&#xD;
+    image-makers such as the technical &quot;copy&quot; writers and graphic artists to lend their talents to add to the product's&#xD;
+    visual appeal as it competes for consumer attention. Also required is handing off of the product to manufacturing, who&#xD;
+    will produce the product in massive quantities.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-723DAKgo3eqM0GlH8g2ZBA" name="produce_deployment_unit,{8D0B4C74-F70A-4BDC-B3C9-CA0FD95922B6}" guid="-723DAKgo3eqM0GlH8g2ZBA">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    This activity produces the deployment unit.&amp;nbsp; The deployment unit consists of all the software and necessary&#xD;
+    accompanying work products&amp;nbsp;required to install and use the product.&amp;nbsp; The final product&amp;nbsp;is made up of the&#xD;
+    deployment unit, installation artifacts and product documentation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Deployment units are created for beta tests, as well as for the final product.&amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    This work is primarily performed in the construction and transition phases, although it may start in the elaboration&#xD;
+    phase, especially where aspects of the deployment of the product are determined to involve significant architectural&#xD;
+    risk. This work typically begins mid-way through the iteration and may be repeated several times during the remainder&#xD;
+    of the iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This work is not considered optional, although it will differ in format, style and level of ceremony to suit the&#xD;
+    project context.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a>&#xD;
+&lt;p>&#xD;
+    This activity relies on the skill set of described roles to create the product,&amp;nbsp; installation scripts, and&#xD;
+    associated user support material, in a form that can be effectively delivered to the end users.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-H31W8odgTEGis2SZZDmXuQ" name="provide_access_to_download_site,{E2830C63-8132-4495-967A-93CAD98881D1}" guid="-H31W8odgTEGis2SZZDmXuQ">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The appeal of the Internet as a software distribution channel is obvious. The product is entirely accessible through&#xD;
+    the software environment via browsers and Web sites. The challenge for the provider is to make sure the product is&#xD;
+    reliably available at all times to a global marketplace, even through varying conditions that could choke the host&#xD;
+    hardware and communication bandwidths.&#xD;
+&lt;/p></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    While this work often begins in the construction phase, it isn't typically considered important until the transition&#xD;
+    phase. It will generally be done later in an iteration.&lt;br />&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Setting up the hardware infrastructure to host the corporate Web presence is beyond the scope of a software development&#xD;
+    process. However, the deployment manager needs to know how to add the product offering to the list of products&#xD;
+    available over the Web and ensure that the product is available for purchase and delivery on demand.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-eSsows3nA-gpoCJYnBgxOA" name="plan_deployment,{9B5E6B08-625F-40DF-AA4E-0BD056C0553A}" guid="-eSsows3nA-gpoCJYnBgxOA">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Deployment planning requires a high degree of customer collaboration and preparation. A successful conclusion to a&#xD;
+    software project can be severely impacted by factors &lt;i>outside the scope of software development&lt;/i> such as the&#xD;
+    building, hardware infrastructure not being in place, and the staff being ill-prepared for changing to the new system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To ensure successful deployment and transition to the new system and ways of doing business, the Deployment Plan needs&#xD;
+    to address not only the deliverable software, but also the development of training material and system support material&#xD;
+    to ensure that end users can successfully use the delivered software product.&#xD;
+&lt;/p></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    This work is performed early in each iteration, generally starting late in the construction phase and continuing&#xD;
+    through transition. It can begin as soon as iteration planning is reasonably complete for the iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This task is recommended whenever an executable release will be externally deployed outside the primary development&#xD;
+    team, either for the purposes of delivering the software to the end user, or for testing purposes.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See the &lt;a  href=&quot;#RelatedInformation&quot; >Related Information&lt;/a> section for additional guidance that will help you in&#xD;
+    performing this work.&lt;br />&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    A deployment manager needs to be someone who is aware of the operational needs of the end user and capable of pulling&#xD;
+    together all the items that go into making the product. The deployment manager runs the beta test and, in the case of&#xD;
+    &quot;shrink wrap&quot; products, deals with the manufacturers to ensure that adequate quality is achieved in the product.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The deployment manager &quot;gets the product delivered&quot; and, therefore, needs to be well versed in the required&#xD;
+    infrastructure and user needs to ensure that the product is available for the users.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-7T8ipS7zRY2IKRUfibnv6A" name="develop_support_material,{3124AE63-F6A4-48E9-A517-E484845B9F09}" guid="-7T8ipS7zRY2IKRUfibnv6A">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Support material covers the full range of information that will be required by the end-user to install, operate, use,&#xD;
+    and maintain the delivered system. It also includes training material for all of the various positions that will be&#xD;
+    required to effectively use the new system.&#xD;
+&lt;/p></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    While this work might begin as early as the elaboration phase, it is generally conducted in construction and transition&#xD;
+    iterations. Within an iteration, it can start as soon as the first software build is produced.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Most software requires some level of support material to be provided with it. In exceptional cases, this material might&#xD;
+    be excluded from the deliverables in agreement with the project stakeholders.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Both the technical writer and course developer need to be articulate and adept at creating information, written or&#xD;
+    otherwise, that is relevant from an end-user perspective.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-gi9B-LaSqpzRWHoFbEecGQ" name="manage_acceptance_test_for_custom_install,_64Ee0DK4EdqHc6VRvq68Uw" guid="-gi9B-LaSqpzRWHoFbEecGQ">
+    <mainDescription>&lt;p>&#xD;
+    The Deployment Manager organizes the installation of the product on one or more Test Environment Configurations that&#xD;
+    represents an environment acceptable to the customer as specified in the Product Acceptance Plan. For acceptance&#xD;
+    testing for a custom install, this may actually be the production deployment environment itself.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In some cases, the installation process itself may be subject to an acceptance test, as may any preceding hardware&#xD;
+    upgrades and configurations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Once installed, the Tester typically runs through a preselected set of tests, usually based on a selected subset of the&#xD;
+    existing Test Suites, and determines the Test Results. The Deployment Manager and other stakeholders review the Test&#xD;
+    Results for anomalies. If there are &quot;show stoppers&quot;, the Deployment Manager raises Change Requests that require&#xD;
+    immediate attention and resolution, and may delay or postpone subsequent plans for deployment to a wider user base.&#xD;
+&lt;/p></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    This work is generally performed in Transition, when the product is ready to release to the customer.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note that when acceptance testing is performed, the formality of that testing will differ to suit the project&#xD;
+    context.&lt;br />&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>A Deployment Manager needs to be someone who is aware of the operational needs of the end user and capable of enabling a&#xD;
+valid assessment of the product in a suitable environment. Pulling together all the many items, events and resources&#xD;
+required for a successful acceptance test requires exceptional planning and organizational skills.</howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-cyy-aQ9o0oqN8gSNfCLKDg" name="manage_acceptance_test,_tASIQDK7EdqseP6pgOfC6g" guid="-cyy-aQ9o0oqN8gSNfCLKDg">
+    <mainDescription>&lt;p>&#xD;
+    The Deployment Manager organizes the installation of the product on one or more Test Environment Configurations that&#xD;
+    represents an environment acceptable to the customer as specified in the Product Acceptance Plan.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In some cases, the installation process itself may be subject to an acceptance test, as may any preceding hardware&#xD;
+    upgrades and configurations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Once installed, the Tester typically runs through a preselected set of tests, usually based on a selected subset of the&#xD;
+    existing Test Suites, and determines the Test Results. The Deployment Manager and other stakeholders review the Test&#xD;
+    Results for anomalies. If there are &quot;show stoppers&quot;, the Deployment Manager raises Change Requests that require&#xD;
+    immediate attention and resolution, and may delay or postpone subsequent plans for deployment to a wider user base.&#xD;
+&lt;/p></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    This work is generally performed in Construction and Transition, typically starting later into construction. In some&#xD;
+    exceptional cases, acceptance testing may be useful in Elaboration iterations. Within an iteration, it is typically&#xD;
+    conducted later in the iteration on a more mature software build.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note that when acceptance testing is performed, the formality of that testing will differ to suit the project context.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>A Deployment Manager needs to be someone who is aware of the operational needs of the end user and capable of enabling a&#xD;
+valid assessment of the product in a suitable environment. Pulling together all the many items, events and resources&#xD;
+required for a successful acceptance test requires exceptional planning and organizational skills.</howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-dMXBPvXaTRStHZup4tkT6w" name="deployment,{1A85DC2F-36E6-4D1C-ACF0-6658CE7108A0}" guid="-dMXBPvXaTRStHZup4tkT6w">
+    <mainDescription>&lt;p>&#xD;
+    To explain the work involved in the Deployment discipline, the activities and work products are organized into a&#xD;
+    capability pattern for the discipline.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Deployment is about making the software product available to the end-user and is the culmination of the software&#xD;
+    development effort.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Deployment planning (&lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../process.standard_rup.base-ibm/capabilitypatterns/plan_deployment_887F7C8A.html&quot;&#xD;
+    guid=&quot;_KjZZ0CZIEd-Hb5ChSoDHIA&quot;>Activity: Plan Deployment&lt;/a>) starts early in the project lifecycle and addresses not&#xD;
+    only the production of the deliverable software, but also the development of training material and system support&#xD;
+    material to ensure that the end-user can successfully use the delivered software product.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Support material (&lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../process.standard_rup.base-ibm/capabilitypatterns/develop_support_material_CA7A6DC0.html&quot;&#xD;
+    guid=&quot;_KjZaGiZIEd-Hb5ChSoDHIA&quot;>Activity: Develop Support Material&lt;/a>)&amp;nbsp;covers the full range of information that&#xD;
+    will be required by the end-user to install, operate, use and maintain the delivered system. It also includes training&#xD;
+    material for all the various positions that will be required to effectively use the new system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Deployment Discipline places a great emphasis on ensuring the product is well tested prior to its release to the&#xD;
+    customer base. The&amp;nbsp;activity Manage Acceptance Test&amp;nbsp;covers to two kinds of test environments. Firstly, the&#xD;
+    build needs to be sufficiently tested in the development test environment (&lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../process.standard_rup.base-ibm/capabilitypatterns/manage_acceptance_test_EF097EB8.html&quot;&#xD;
+    guid=&quot;_KjZaOiZIEd-Hb5ChSoDHIA&quot;>Activity: Manage Acceptance Test&lt;/a>), and then re-tested at the target site (&lt;a&#xD;
+    class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../process.standard_rup.base-ibm/capabilitypatterns/manage_acceptance_test_for_custom_install_6AD763C7.html&quot;&#xD;
+    guid=&quot;_KjZZ9iZIEd-Hb5ChSoDHIA&quot;>Activity: Custom Install&lt;/a>). The 'test environment' should be an 'instance' of the&#xD;
+    target environment.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Once the product has been tested at the development site it needs to be prepared for delivery to the customer. The&#xD;
+    release can created for the purposes of beta-testing, a test deployment to the final users, or depending on it level of&#xD;
+    maturity for the final product. &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../process.standard_rup.base-ibm/capabilitypatterns/produce_deployment_unit_464852CF.html&quot;&#xD;
+    guid=&quot;_KjZZ1iZIEd-Hb5ChSoDHIA&quot;>Activity: Produce Deployment Unit&lt;/a> describes the logistics of creating a product&#xD;
+    release that consists of the software, and the necessary accompanying work products required to effectively install and&#xD;
+    use it.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A beta-program refers to the process used by an organization to solicit feedback from a subset of users on products&#xD;
+    that are under development. The feedback is used to augment the product. &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../process.standard_rup.base-ibm/capabilitypatterns/beta_test_product_3BDE8883.html&quot;&#xD;
+    guid=&quot;_KjZaNSZIEd-Hb5ChSoDHIA&quot;>Activity: Beta Test Product&lt;/a>&amp;nbsp;describes the activities to enable iterative&#xD;
+    deployment of a product, and systematic customer engagement in creating the final product.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For 'shrink wrap' software, &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../process.standard_rup.base-ibm/capabilitypatterns/package_product_E1B39F89.html&quot;&#xD;
+    guid=&quot;_KjZZ7iZIEd-Hb5ChSoDHIA&quot;>Activity: Package Product&lt;/a>&amp;nbsp;describes the activities to take the software&#xD;
+    product, installation scripts and user manuals, and package them for mass production like any other consumer product.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You could have your software installed for you by the developing contractor, or you could buy the software over the&#xD;
+    counter, or download it over the internet. &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../process.standard_rup.base-ibm/capabilitypatterns/provide_access_to_download_site_174F778B.html&quot;&#xD;
+    guid=&quot;_KjZaFSZIEd-Hb5ChSoDHIA&quot;>Activity: Provide Access to Download Site&lt;/a>&amp;nbsp;refers to the product being made&#xD;
+    available for purchase and download over the internet as a software distribution channel.&#xD;
+&lt;/p></mainDescription>
+    <usageNotes>&lt;h4>&#xD;
+    Decide How to Perform the Workflow&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The following decisions should be made regarding the Deployment discipline's workflow:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Decide how to perform the workflow by looking at the activities in this workflow. Study the diagram with its guard&#xD;
+        conditions and the guidelines. Decide which activities to perform and in which order.&amp;nbsp;The most significant&#xD;
+        decision you need to make is what kind of deployment you will do: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Custom install&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                'Shrink wrap' product offering&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Access to software over the internet&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Decide what parts of the Deployment activities to perform. The following are some parts that are more or less&#xD;
+        optional and can be introduced relatively independently from the rest.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;div align=&quot;center&quot;>&#xD;
+    &lt;table&#xD;
+    style=&quot;BORDER-RIGHT: rgb(128,128,128) 1px solid; BORDER-TOP: rgb(128,128,128) 1px solid; BORDER-LEFT: rgb(128,128,128) 1px solid; BORDER-BOTTOM: rgb(128,128,128) 1px solid&quot;&#xD;
+     cellspacing=&quot;0&quot; bordercolordark=&quot;#808080&quot; cellpadding=&quot;4&quot; width=&quot;85%&quot; bordercolorlight=&quot;#808080&quot; border=&quot;1&quot;>&#xD;
+        &lt;tbody>&#xD;
+            &lt;tr>&#xD;
+                &lt;th scope=&quot;col&quot; align=&quot;middle&quot; width=&quot;25%&quot;>&#xD;
+                    &lt;p class=&quot;tableheading&quot;>&#xD;
+                        Part of workflow&#xD;
+                    &lt;/p>&#xD;
+                &lt;/th>&#xD;
+                &lt;th align=&quot;middle&quot; width=&quot;75%&quot;>&#xD;
+                    &lt;p class=&quot;tableheading&quot; scope=&quot;col&quot;>&#xD;
+                        Comments&#xD;
+                    &lt;/p>&#xD;
+                &lt;/th>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td width=&quot;25%&quot;>&#xD;
+                    Developing end-user materials&#xD;
+                &lt;/td>&#xD;
+                &lt;td width=&quot;75%&quot;>&#xD;
+                    This includes Role: Technical Writer, &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+                    href=&quot;./../../practice.gen.support_training.base-ibm/tasks/create_ext_user_support_materials_2FC7CAA4.html&quot;&#xD;
+                     guid=&quot;_H5d-o0RAEdy0e9h1zdJ_TA&quot;>Task: Create or Extend User Support Materials&lt;/a>, and &lt;a&#xD;
+                    class=&quot;elementLinkWithType&quot;&#xD;
+                    href=&quot;./../../core.gen.common.extend-ibm/workproducts/user_support_materials_2B6FCB59.html&quot;&#xD;
+                    guid=&quot;mweb9EAE61223314B5A78525688500629DA6&quot;>Artifact: User Support Materials&lt;/a>.&amp;nbsp;&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td width=&quot;25%&quot;>&#xD;
+                    Developing training materials&#xD;
+                &lt;/td>&#xD;
+                &lt;td width=&quot;75%&quot;>&#xD;
+                    This includes Role: Course Developer, &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+                    href=&quot;./../../practice.gen.support_training.base-ibm/tasks/develop_user_training_A7919EE7.html&quot;&#xD;
+                    guid=&quot;_H5w56ERAEdy0e9h1zdJ_TA&quot;>Task: Develop User Training&lt;/a>, and Artifact: Training&#xD;
+                    Materials.&amp;nbsp;&amp;nbsp;&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td width=&quot;25%&quot;>&#xD;
+                    Beta testing&#xD;
+                &lt;/td>&#xD;
+                &lt;td width=&quot;75%&quot;>&#xD;
+                    Only introduce&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot;&#xD;
+                    href=&quot;./../../process.standard_rup.base-ibm/capabilitypatterns/beta_test_product_3BDE8883.html&quot;&#xD;
+                    guid=&quot;_KjZaNSZIEd-Hb5ChSoDHIA&quot;>Activity: Beta Test Product&lt;/a> if you do beta testing.&amp;nbsp;&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+        &lt;/tbody>&#xD;
+    &lt;/table>&lt;br />&#xD;
+&lt;/div>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Decide when, during the project lifecycle, to introduce each part of the workflow.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></usageNotes>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Dv-Ed62kIdwcTO_QuwYcsw" name="assemble_deployment_packages,_RO7QYI-tEd-CJf5elV4f8Q" guid="-Dv-Ed62kIdwcTO_QuwYcsw">
+    <keyConsiderations xsi:nil="true"/>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-YFRMrWNsDOzkpSJFdUS2Mg" name="software_dist_plan,_RO7QZI-tEd-CJf5elV4f8Q" guid="-YFRMrWNsDOzkpSJFdUS2Mg">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>&lt;p>&#xD;
+    A Software Distribution Plan is part of a systems management project or part of an IT system architecture Operational&#xD;
+    Model. The Software Distribution Plan includes the data required to allow the operations department to perform the&#xD;
+    software configuration, installation, and distribution (CID) process.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Generating a Software Distribution Plan is a way to avoid significant adverse impact on end users and IT infrastructure&#xD;
+    due to changes and the overall cost of distributing the solution. The plan, when implemented, will provide end users,&#xD;
+    who are accepting a new application and possibly new hardware, with the ability to restore their systems to a known&#xD;
+    state on short notice. Downtime, due to user error or system disruption, cannot be tolerated in mission critical&#xD;
+    applications, such as a call center for a telephone company or other utility.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Full automation of the software distribution process is not always necessary, but the plan will identify the cost&#xD;
+    benefit of automation. The information collected in the plan will be valuable for any mixture of manual and automated&#xD;
+    processes.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-rTmtUnrUvFf_L02AckJHNQ" name="user_support_materials,_RO7QZY-tEd-CJf5elV4f8Q" guid="-rTmtUnrUvFf_L02AckJHNQ">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Start planning and developing User Support Materials early in the product development cycle.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Involve the technical writing staff (information developers) in the requirements phase of the project.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Involve a technical staff member who has accessibility skills.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Review the User Support Materials outline with the&amp;nbsp;stakeholders at key&amp;nbsp;approval checkpoints.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure that user support materials are created and tested for accessibility compliance.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Analyze who will use this material and in what situation when choosing the delivery medium.&amp;nbsp; For example: a&#xD;
+        vibrant but detailed product brochure could be used for marketing and customer evaluation.&amp;nbsp; A planning tool&#xD;
+        (as opposed to a book) might better help a customer determine how to install and configure the product.&amp;nbsp; A&#xD;
+        hypertext help tool with a CD-ROM might eliminate the need for a hardcopy user manual.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    For a software product, the User Support Materials comprise everything shipped in the box other than the software&#xD;
+    itself. Different User Support Materials may be delivered on different media, for example:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Printed manuals&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        On-line help&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Computer files&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Reference cards&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Hypertext&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Web sites&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Multi-media presentations, including transcripts and captions for the audio&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Videos, including video descriptions&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Glossy brochures, posters, and other user support materials may serve different purposes, for example:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        User Guide: &quot;How-to&quot; or procedural information that provides mainly task-oriented information. If markedly&#xD;
+        different sets of users perform very different tasks, it may be appropriate to produce separate user guides such as&#xD;
+        an accessibility section that includes information on the accessibility features (such as keyboard shortcuts)&#xD;
+        available.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Conceptual or background information (&quot;why&quot;). A separate concepts book may be required, depending on the complexity&#xD;
+        and novelty of the system.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        User Reference: Provides descriptive information (&quot;what&quot;) organized for quick retrieval. For example, a command&#xD;
+        reference is organized alphabetically, or a message manual is organized by message number. A User Reference may not&#xD;
+        be necessary. A well-designed index and glossary in the User's Guide may eliminate the need for a separate User's&#xD;
+        Reference. Well-designed on-line messages, with links to help panels, may eliminate the need for a message manual.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Quick Reference Card.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Manager's Overview.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Tutorial or Introductory Tour.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Samples.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Installation Guide.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Operations Guide.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Administrator's Guide.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Early in a project, consider providing alternate formats of printed material for people who cannot access the printed&#xD;
+    page. Audio cassette, online, or Braille are examples of alternate formats that are available. Thinking of this&#xD;
+    provision early in a project enables you to budget time and resources for the alternate formats.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Some information may appear in more than one deliverable. For example, the content of the quick reference guide will&#xD;
+    most likely come from the user guide, reference guide, or help panels. The index items or glossary terms and&#xD;
+    definitions may be used both in a hardcopy manual and in the on-line help.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bnOYPUBgEiQzZEEHXNhtWA" name="deployment_packaging,_RO7QZ4-tEd-CJf5elV4f8Q" guid="-bnOYPUBgEiQzZEEHXNhtWA">
+    <keyConsiderations>&lt;p>&#xD;
+    Knowing the environment and experience level of the intended audience is essential. Therefore, before producing mass&#xD;
+    quantities, it is best to mock up a single copy and do a test with someone similar to the intended audience. Clarity,&#xD;
+    accuracy, and completeness are key requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Always provide some sort of contact point for people who will receive copies of the package. This could be a telephone&#xD;
+    number staffed by someone who can answer questions about the content of the package and its use.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This work product includes things required to run the system, such as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Executables (for example, .exe files on OS/2)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Load libraries (for example, .dll files on OS/2)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Screen layouts (for example, .res files on OS/2)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Messages (for example, .msg files on OS/2)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Runtime images (for example, .vkg .exe)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        .dll and image files (for example, those that make up a VisualAge application on OS/2)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    It can also include other things, such as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Installation instructions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        User help materials, such as tutorials or reference guides&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Warranty registration cards&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The actual packaging (such as a box or envelope) which contains the items being distributed&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pQAdcfwOrV5ALUUwXsza8A" name="assemble_deployment_packages,_SKwdQCyWEd-rIPCOaPACIg" guid="-pQAdcfwOrV5ALUUwXsza8A">
+    <keyConsiderations xsi:nil="true"/>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Euuwywd80PgArKZpHaUO1Q" name="deployment_packaging,_SKwdQyyWEd-rIPCOaPACIg" guid="-Euuwywd80PgArKZpHaUO1Q">
+    <keyConsiderations>&lt;p>&#xD;
+    Knowing the environment and experience level of the intended audience is essential. Therefore, before producing mass&#xD;
+    quantities, it is best to mock up a single copy and do a test with someone similar to the intended audience. Clarity,&#xD;
+    accuracy, and completeness are key requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Always provide some sort of contact point for people who will receive copies of the package. This could be a telephone&#xD;
+    number staffed by someone who can answer questions about the content of the package and its use.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This work product includes things required to run the system, such as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Executables (for example, .exe files on OS/2)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Load libraries (for example, .dll files on OS/2)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Screen layouts (for example, .res files on OS/2)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Messages (for example, .msg files on OS/2)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Runtime images (for example, .vkg .exe)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        .dll and image files (for example, those that make up a VisualAge application on OS/2)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    It can also include other things, such as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Installation instructions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        User help materials, such as tutorials or reference guides&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Warranty registration cards&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The actual packaging (such as a box or envelope) which contains the items being distributed&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mPDy5PvErzaW_-7-1Elmnw" name="software_dist_plan,_b10pElMREd-b9rMLu3PL1w" guid="-mPDy5PvErzaW_-7-1Elmnw">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>&lt;p>&#xD;
+    A Software Distribution Plan is part of a systems management project or part of an IT system architecture Operational&#xD;
+    Model. The Software Distribution Plan includes the data required to allow the operations department to perform the&#xD;
+    software configuration, installation, and distribution (CID) process.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Generating a Software Distribution Plan is a way to avoid significant adverse impact on end users and IT infrastructure&#xD;
+    due to changes and the overall cost of distributing the solution. The plan, when implemented, will provide end users,&#xD;
+    who are accepting a new application and possibly new hardware, with the ability to restore their systems to a known&#xD;
+    state on short notice. Downtime, due to user error or system disruption, cannot be tolerated in mission critical&#xD;
+    applications, such as a call center for a telephone company or other utility.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Full automation of the software distribution process is not always necessary, but the plan will identify the cost&#xD;
+    benefit of automation. The information collected in the plan will be valuable for any mixture of manual and automated&#xD;
+    processes.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KxvIH5lixyMpnBeYcSqUlA" name="user_support_materials,_b10pE1MREd-b9rMLu3PL1w" guid="-KxvIH5lixyMpnBeYcSqUlA">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Start planning and developing User Support Materials early in the product development cycle.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Involve the technical writing staff (information developers) in the requirements phase of the project.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Involve a technical staff member who has accessibility skills.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Review the User Support Materials outline with the&amp;nbsp;stakeholders at key&amp;nbsp;approval checkpoints.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure that user support materials are created and tested for accessibility compliance.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Analyze who will use this material and in what situation when choosing the delivery medium.&amp;nbsp; For example: a&#xD;
+        vibrant but detailed product brochure could be used for marketing and customer evaluation.&amp;nbsp; A planning tool&#xD;
+        (as opposed to a book) might better help a customer determine how to install and configure the product.&amp;nbsp; A&#xD;
+        hypertext help tool with a CD-ROM might eliminate the need for a hardcopy user manual.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    For a software product, the User Support Materials comprise everything shipped in the box other than the software&#xD;
+    itself. Different User Support Materials may be delivered on different media, for example:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Printed manuals&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        On-line help&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Computer files&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Reference cards&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Hypertext&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Web sites&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Multi-media presentations, including transcripts and captions for the audio&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Videos, including video descriptions&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Glossy brochures, posters, and other user support materials may serve different purposes, for example:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        User Guide: &quot;How-to&quot; or procedural information that provides mainly task-oriented information. If markedly&#xD;
+        different sets of users perform very different tasks, it may be appropriate to produce separate user guides such as&#xD;
+        an accessibility section that includes information on the accessibility features (such as keyboard shortcuts)&#xD;
+        available.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Conceptual or background information (&quot;why&quot;). A separate concepts book may be required, depending on the complexity&#xD;
+        and novelty of the system.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        User Reference: Provides descriptive information (&quot;what&quot;) organized for quick retrieval. For example, a command&#xD;
+        reference is organized alphabetically, or a message manual is organized by message number. A User Reference may not&#xD;
+        be necessary. A well-designed index and glossary in the User's Guide may eliminate the need for a separate User's&#xD;
+        Reference. Well-designed on-line messages, with links to help panels, may eliminate the need for a message manual.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Quick Reference Card.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Manager's Overview.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Tutorial or Introductory Tour.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Samples.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Installation Guide.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Operations Guide.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Administrator's Guide.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Early in a project, consider providing alternate formats of printed material for people who cannot access the printed&#xD;
+    page. Audio cassette, online, or Braille are examples of alternate formats that are available. Thinking of this&#xD;
+    provision early in a project enables you to budget time and resources for the alternate formats.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Some information may appear in more than one deliverable. For example, the content of the quick reference guide will&#xD;
+    most likely come from the user guide, reference guide, or help panels. The index items or glossary terms and&#xD;
+    definitions may be used both in a hardcopy manual and in the on-line help.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-CVoKwZJuVpwJHNpHBePbYA" name="define_deployment_procedures,_hEttdSvNEd-omvc-6km5sw" guid="-CVoKwZJuVpwJHNpHBePbYA">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>The deployment plan specifies what will be deployed, to whom, when, and the roles and responsibilities of those involved in&#xD;
+deployment.&lt;br />&#xD;
+&lt;br />&#xD;
+This task uses this information, and develops detailed procedures for installing hardware and software, initializing data,&#xD;
+distributing support materials, and ensuring that deployment is completed successfully.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-elhCobkt1gV6e6qqQE3-yA" name="sketch_deployment_plan,_z3TCsCvNEd-omvc-6km5sw" guid="-elhCobkt1gV6e6qqQE3-yA">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription xsi:nil="true"/>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4BOSsZ2AvIy6IEXX97jn3Q" name="define_training_user_support_approach,_e7SGUyvOEd-omvc-6km5sw" guid="-4BOSsZ2AvIy6IEXX97jn3Q">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>This task involves an early assessment of the customer's business goals and job/task performance needs in order to identify&#xD;
+the training and user support strategies that can best satisfy customer requirements. Technology-based strategies, such as&#xD;
+Web-Based Training (WBT) or context-sensitive Electronic Performance Support Solutions (EPSS), are among the many&#xD;
+strategies considered in the assessment. This task also involves developing a high level plan for the recommended approach&#xD;
+that outlines the process, major tasks, schedule, skill levels, and estimated resources required to implement the training&#xD;
+and user support strategies identified.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Cs7x6m6PYfXVUejRa5X1PQ" name="create_ext_education_training_plan,_4v8sUCvQEd-omvc-6km5sw" guid="-Cs7x6m6PYfXVUejRa5X1PQ">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription xsi:nil="true"/>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dULfsUUGhzyHUpvIWkn7VA" name="specify_user_support_rqmts,_ZcR_oCvREd-omvc-6km5sw" guid="-dULfsUUGhzyHUpvIWkn7VA">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>Try to reuse as much existing documentation as possible from any reused&amp;nbsp;assets.&lt;br />&#xD;
+&lt;br />&#xD;
+The output is an outline version of the user support materials themselves.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-kwaniwlJV3aC-VzE1gInsQ" name="specify_training_rqmts,_q8JIwCvREd-omvc-6km5sw" guid="-kwaniwlJV3aC-VzE1gInsQ">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>For each type of media to be used for training the user in the application the boundaries must be specified. The&#xD;
+specification identifies the responsibilities of each part from the client and the project team.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8NtPu3WIvygd7n-Ep9Lovg" name="revise_deployment_plan,_ZE3BRCyZEd-rIPCOaPACIg" guid="-8NtPu3WIvygd7n-Ep9Lovg">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>&lt;p>&#xD;
+    Use the chosen form of review process (such as a walkthrough or formal inspection) to review the Deployment Plan to&#xD;
+    ensure that it:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifies and establishes the chronological sequence in which the new system will be installed at each location.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Establishes a training schedule for site personnel.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Creates the site survey plan and checklist.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Creates the installation verification procedures that will be executed prior to the cutover of each site.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identifies the deployment responsibilities of each participating person, organization, subcontractors, and vendor.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>The Deployment Plan should only be reviewed at each increment and will probably require little or no change.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4Mx8IcprDwH9ME_L_zvM1w" name="sketch_system_management_plan,_gjkOgiyZEd-rIPCOaPACIg" guid="-4Mx8IcprDwH9ME_L_zvM1w">
+    <keyConsiderations>Adequate systems management and software distribution are essential to satisfying service level requirements such as&#xD;
+availability, and may be critical to system success, but systems management and software distribution is often not&#xD;
+addressed until late in the development process.</keyConsiderations>
+    <refinedDescription>Detailed definition of systems management and software distribution are deferred until the nodes and deployment units have&#xD;
+been defined in more detail.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-hbF8aiqSP6Wpq9-CMFsnqQ" name="refine_system_management_plan,_jdb-qCyZEd-rIPCOaPACIg" guid="-hbF8aiqSP6Wpq9-CMFsnqQ">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>&lt;p>&#xD;
+    Starting from the outline IT Services Strategy developed earlier, develop the plan into a detailed framework adequate&#xD;
+    to ensure the system management related nonfunctional requirements can be met. Make a list of necessary hardware&#xD;
+    platforms and software environments that are necessary to implement functionality of the systems. Utilize the Systems&#xD;
+    Management Framework Design (SMFD) matrices for collection of all such information.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Also, refine the Software Distribution Plan developed earlier, defining precisely what will be distributed where.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Correlate systems management functions to the Deployment Units, Non-functional Requirements, Operational Model,&#xD;
+        network architecture, and Software Distribution Plan.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Systems management evaluation will typically require a database to catalog all the information, so that it can be&#xD;
+        sorted and reports generated. Manual processing of all the data for a large enterprise with many elements can be&#xD;
+        unmanageable.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-XpxNFIirdwceD1rXsb8hcw" name="deployment_plan,_bwy_JFMREd-b9rMLu3PL1w" guid="-XpxNFIirdwceD1rXsb8hcw">
+    <keyConsiderations>&lt;p>&#xD;
+    The development of the Deployment Plan starts early in the project.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Do not wait until the deployment of the system is imminent to beginning the initial drafts of the document.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Review the Deployment Plan with the client and all users, including anyone in areas such as systems administration,&#xD;
+        database, LAN, and HVAC whose systems or jobs may be involved with the new system.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Obtain client sign-off on all the deployment criteria outlined in the Deployment Plan to help ensure&#xD;
+        formal&amp;nbsp;stakeholder approval of the new system.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        If the system is being deployed in multiple releases, the Deployment Plan should relate back to the Release&#xD;
+        Plan.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Multiple releases imply multiple deployment periods. The issues associated with each period should be considered&#xD;
+        when deciding on the content of a specific release.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Post-Live support procedures should be in place or well under construction by the time the Deployment and cut-over&#xD;
+        plan is actually started.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The Deployment Plan describes the organization, strategy, resources, and methods used to deploy the new application at&#xD;
+    customer sites. The plan identifies the responsibilities of everyone participating in the deployment and is written&#xD;
+    from the user's perspective. The Deployment Plan also serves as the project's master document over the migration&#xD;
+    period. As such, it contains the following elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The plan validates that the proposed solution actually is ready for deployment. It contains the steps needed to&#xD;
+        make sure that the solution hardware, software, and documentation are in place to proceed.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The plan verifies that the people are trained and ready to support the new system. This includes the user, support&#xD;
+        and temporary deployment communities.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The plan verifies that the organization is ready to accept the delivery of the proposed solution.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The plan verifies that the proper level of contingency planning has taken place and that the appropriate risk&#xD;
+        mitigation procedures are ready.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ir7lK5del40QguXLof9flg" name="deployment_packaging,_bwy_JVMREd-b9rMLu3PL1w" guid="-ir7lK5del40QguXLof9flg">
+    <keyConsiderations>&lt;p>&#xD;
+    Knowing the environment and experience level of the intended audience is essential. Therefore, before producing mass&#xD;
+    quantities, it is best to mock up a single copy and do a test with someone similar to the intended audience. Clarity,&#xD;
+    accuracy, and completeness are key requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Always provide some sort of contact point for people who will receive copies of the package. This could be a telephone&#xD;
+    number staffed by someone who can answer questions about the content of the package and its use.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This work product includes things required to run the system, such as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Executables (for example, .exe files on OS/2)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Load libraries (for example, .dll files on OS/2)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Screen layouts (for example, .res files on OS/2)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Messages (for example, .msg files on OS/2)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Runtime images (for example, .vkg .exe)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        .dll and image files (for example, those that make up a VisualAge application on OS/2)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    It can also include other things, such as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Installation instructions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        User help materials, such as tutorials or reference guides&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Warranty registration cards&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The actual packaging (such as a box or envelope) which contains the items being distributed&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-o21vQz8S4PlEvgssF5V1Bg" name="deployment_procedures,_bwy_JlMREd-b9rMLu3PL1w" guid="-o21vQz8S4PlEvgssF5V1Bg">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>&lt;p>&#xD;
+    This include procedures for:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        installing user support materials (e.g documentation)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        setting up user definitions, access rights, passwords&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        initializing data sources&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        including the system release and new users in support and recovery procedures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        confirming that new locations and users are fully operational&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7oN_RC4sG_m7K1yVt2-slw" name="it_services_strategy,_bwy_J1MREd-b9rMLu3PL1w" guid="-7oN_RC4sG_m7K1yVt2-slw">
+    <keyConsiderations>&lt;p>&#xD;
+    The IT Services Strategy could potentially lead to significant changes to the set of IT services provided and the way&#xD;
+    in which they are sourced and delivered. As a consequence it could have far-reaching implications for the IT&#xD;
+    organization, it's skills, processes and tools.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The IT Services Strategy work product describes the desired future strategic set or portfolio of IT services that must&#xD;
+    be provided to satisfy the business' requirements and describes the individual services making up that future service&#xD;
+    portfolio or service model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An IT service is a specific IT function or output, performed on behalf of or in support of a consumer, that provides&#xD;
+    measurable value. Services are a basis for doing business with the consumer of IT services, require an understanding of&#xD;
+    their needs, and are delivered through a series of implemented activities.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An IT service brings together elements of process, organization and technology. The detailed service definitions show:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The activities, from one or more processes, that are executed in delivering the service;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The service roles or participants responsible for executing those activities;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The tools or information technology used to automate the execution of activities and deliver their results.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The IT services strategy describes the set of services that are to be provided and the way in which those services are&#xD;
+    grouped or categorized. The scope and granularity of the service model will depend greatly on the perspective being&#xD;
+    taken and the context within which the service model and service definitions are being created. The level of detail&#xD;
+    necessary in the service definition will vary considerably depending on the audience for that description and the&#xD;
+    purpose for which it is being created. For example, the IT Service model and service definitions used by a CIO or&#xD;
+    business executive to facilitate analysis of outsourcing options will be at a much higher level than the service&#xD;
+    definitions required by the first line IT manager responsible for defining and implementing service workflows.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BW2W5vdrBg71KxSyfDFvTA" name="software_dist_plan,_bwy_KFMREd-b9rMLu3PL1w" guid="-BW2W5vdrBg71KxSyfDFvTA">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>&lt;p>&#xD;
+    A Software Distribution Plan is part of a systems management project or part of an IT system architecture Operational&#xD;
+    Model. The Software Distribution Plan includes the data required to allow the operations department to perform the&#xD;
+    software configuration, installation, and distribution (CID) process.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Generating a Software Distribution Plan is a way to avoid significant adverse impact on end users and IT infrastructure&#xD;
+    due to changes and the overall cost of distributing the solution. The plan, when implemented, will provide end users,&#xD;
+    who are accepting a new application and possibly new hardware, with the ability to restore their systems to a known&#xD;
+    state on short notice. Downtime, due to user error or system disruption, cannot be tolerated in mission critical&#xD;
+    applications, such as a call center for a telephone company or other utility.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Full automation of the software distribution process is not always necessary, but the plan will identify the cost&#xD;
+    benefit of automation. The information collected in the plan will be valuable for any mixture of manual and automated&#xD;
+    processes.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-d6kmhGOMrJbI0Ntrw0K96A" name="education_training_plan,_bwy_KVMREd-b9rMLu3PL1w" guid="-d6kmhGOMrJbI0Ntrw0K96A">
+    <keyConsiderations>&lt;p>&#xD;
+    Right from the start of the project, the participant training should be a focus area. Appoint one person to be&#xD;
+    responsible for all the activities concerning the planning of the rollout:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Select the right strategy and stick to it.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div>&#xD;
+            Give the participant education and training a high priority, and get the best people on board.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div>&#xD;
+            Introduce the instructors gradually to the plan well before the Train-the-Trainer class, so they have time to&#xD;
+            digest all the information.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    If the education and training plan is changed in the middle of rolling out the classes, consider using available&#xD;
+    communication channels, sending out flyers, and updated material explaining what and where the changes are.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    User profiles and authorizations may need to be set up in the training system. Coordinate this work with the team&#xD;
+    assigned for defining and setting up the profiles and authorizations in the production system. (During the training the&#xD;
+    participants may be using special training user IDs, but the user profiles (with authorization/access) should be the&#xD;
+    same as they will use after going live).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If education and training is to be delivered in several languages, consider how translation is to be handled and what&#xD;
+    is the best way of organizing the material. Be realistic about the time needed for the translation of the material (it&#xD;
+    takes longer than you think!)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As the project progresses keep the participants informed about the plans for their training. This will help prepare&#xD;
+    them for the training and cut down on the time needed on the course for extraneous topics.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The planned lengths of the time for the training modules may need to be adjusted as the material is developed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The business benefits of the initiative can only be realized if the user community is educated in the new systems and&#xD;
+    processes and adopts the desired behaviors. Therefore the objectives of the education and training program are to&#xD;
+    provide the users with the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        sufficient skills and knowledge to operate effectively in the new environment&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div>&#xD;
+            support and encouragement to adopt the required behaviors and attitudes&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div>&#xD;
+            well targeted and delivered education and training courses.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Education and training courses will have been successful if participants are able to meet their job performance&#xD;
+    requirements. These requirements will be a subset of the overall business requirements of the initiative. Therefore it&#xD;
+    is important to keep in mind the business reasons for implementing the change at all times when planning the training.&#xD;
+    All the training material should be focused on enabling the participant to contribute to these goals.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;includes all training identified for all communities within the organization - including IT, process&#xD;
+    and organization. Once identified these training activities are sequenced, prioritized, scoped, staffed, and&#xD;
+    resourced.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4DruNy0lSBwIkmPWZiDXww" name="learning_solution_design,_bwy_KlMREd-b9rMLu3PL1w" guid="-4DruNy0lSBwIkmPWZiDXww">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>&lt;p>&#xD;
+    The Learning Solution Design must describe in detail the &quot;look and feel&quot; of the training solution, as well as how the&#xD;
+    content is organized and presented. Once approved, the Learning Solution Design provides information and structure for&#xD;
+    Information developers, who will use the information provided here, as well as information from subject matter experts&#xD;
+    and existing documentation, to produce the course.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    All parties who have a direct interest in this training should review this document. This ensures that a common vision&#xD;
+    is shared as the engagement progresses from the design to production.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_vbZmkz5q2pVaM6SzZEH_g" name="education_training_eval,_bwy_K1MREd-b9rMLu3PL1w" guid="-_vbZmkz5q2pVaM6SzZEH_g">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription xsi:nil="true"/>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mwDywUKhSJ_NLC4bd-SmTQ" name="education_training_strategy,_bwy_LFMREd-b9rMLu3PL1w" guid="-mwDywUKhSJ_NLC4bd-SmTQ">
+    <keyConsiderations>&lt;p>&#xD;
+    Right from the start of the project, the participant training should be a focus area. It is recommended that the client&#xD;
+    appoint one person to work with the consultant and to be responsible for all the activities concerning the development&#xD;
+    of training material and the planning of the roll out.&amp;nbsp; This single point of contact will help the client:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Select the right strategy and stick to it&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div>&#xD;
+            Give the participant training a high priority, and get the best people on board, both for the development and&#xD;
+            the training&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div>&#xD;
+            Have a chance to find the right people who are analytical and have the necessary skills and abilities to&#xD;
+            develop or present training material&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div>&#xD;
+            Introduce the instructors gradually to the system or package well before the Train-the-Trainer class, so they&#xD;
+            have time to digest all the information&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Check what the client's previous experience has been in training situations. Learn about the organization's culture and&#xD;
+    previous reactions, and what works and what does not work in their environment.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The development work must be carefully coordinated with the implementation of the Change Program. Changes in the&#xD;
+    implementation should be reflected in the training material, and strict change request procedures must be put in place&#xD;
+    to ensure coordination.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The key risks should be presented to the client before the specification of the education material is completed. Risk&#xD;
+    areas could include:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;div>&#xD;
+            Tools: Will the participants have the right tools on their desk when they have finished the training? Will&#xD;
+            testing be successfully completed? Participants can quickly become disillusioned if they perceive problems.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div>&#xD;
+            Material: Has the material been targeted at the correct level? Are learning skills sufficient?&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div>&#xD;
+            Time scales: Are the schedules realistic ? Has time been allowed for translating the material into other&#xD;
+            languages ?&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    If the training material is changed as a result of a change in the Change Program, in the middle of rolling out the&#xD;
+    classes, consider using available communication channels, sending out flyers, and updated material explaining what and&#xD;
+    where the changes are.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If training is to be delivered in several languages, consider how translation is to be handled and what is the best way&#xD;
+    of organizing the material. Be realistic about the time needed for the translation of the material (it takes longer&#xD;
+    than you think!)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As the project progresses keep the participants informed about the plans for their training. This will help prepare&#xD;
+    them for the training and cut down on the time needed on the course for extraneous topics.The planned lengths of the&#xD;
+    time for training modules may need to be adjusted as the material is developed.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The Education and Training Strategy consists of the following parts:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        An initial list of critical success factors for training&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        An evaluation of the training needs for staff and the needs identified in other domains&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        An evaluation of alternate methods for delivering the training&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        An approach for the development of the staff training material&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        An initial roll-out plan for the delivery of education and training&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The strategy should address the following three major areas:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        organization: staff must understand and accept new roles, responsibilities and competencies&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        process: staff must understand the business practices and operating principles associated with the business&#xD;
+        processes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        IT: staff must understand and be able to use any new package or system efficiently and effectively to perform their&#xD;
+        work&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Identify all staff affected by the change, training requirements for each, sequence of training, delivery methods, and&#xD;
+    standards for success. The initial rollout plan should include the training of instructors, pilot classes and&#xD;
+    logistical considerations.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-J2H1oDgSd8EO7WCl4Jcgzw" name="user_support_specs,_bwy_LVMREd-b9rMLu3PL1w" guid="-J2H1oDgSd8EO7WCl4Jcgzw">
+    <keyConsiderations>&lt;p>&#xD;
+    Coordinate the User Support Specifications with the end user training material specifications to avoid having to cover&#xD;
+    the same topics twice - unless it is on purpose.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In writing the User Support Specifications, re-use as much as possible of the:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Package Design Documentation&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Package Extension Specifications&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Report Specifications&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interface Specifications&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In selecting the media for the user documentation take into the consideration the ease of maintenance, i.e., how will&#xD;
+    the documentation be updated, is the documentation accessible, and how will it be distributed.&amp;nbsp; Should the&#xD;
+    documentation be on-line on a server, and should some of it be kept in hard copy as a back up in case the server is&#xD;
+    inaccessible?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This must be done in conjunction with the development of user training materials.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The specifications are the work descriptions for the development of the various units of user documentation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The User Support Specifications should cover:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The configuration of the standard package, including accessibility and package extensions that have been developed.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The reports and interfaces that have been developed. &#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How a combination of these will be used to support the client's business processes.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The specifications define the boundaries between the different units of user documentation, as well as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Content&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Audience&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Purpose&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Standards to be used, and the language(s)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dxvtsNBSIsU3exiw6H2ZCg" name="specify_deployment_packaging,_buDhsI-tEd-CJf5elV4f8Q" guid="-dxvtsNBSIsU3exiw6H2ZCg">
+    <refinedDescription>&lt;p>&#xD;
+    In addition to the components comprised by the executable work products, consider other items as installation&#xD;
+    instructions, user help materials, warranty registration cards, and their actual containers (i.e., boxes, envelopes,&#xD;
+    etc.).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Ensure all contractually required items for product acceptance are accounted for. Review any customer acceptance plans&#xD;
+    for descriptions of how the customer will evaluate the deliverables.&amp;nbsp; Make sure that the materials account for&#xD;
+    relevant acceptance criteria.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bg5IRlUX99823KvB7T4cuw" name="develop_user_training,_TMVy-SvOEd-omvc-6km5sw" guid="-bg5IRlUX99823KvB7T4cuw">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>The End User Training Materials are the materials used by students and instructors on a course or training session.&lt;br />&#xD;
+&lt;br />&#xD;
+They contain the following, for each of the training modules: &#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Foils, hand-outs, instructor guides, or just relevant instructor notes.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Exercises.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Exercise data in the training system.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Agenda for the course-module, indicating the topic sequence, where which exercises fit in and the duration of the&#xD;
+        different units.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br />&#xD;
+&lt;p>&#xD;
+    End User Training Materials also include the instruments and the tools to evaluate and measure the training material,&#xD;
+    specifically:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Who will collect the data and how&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How the measurement data will be processed.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Measurement instruments and tools (selected or developed).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Target values for the evaluation levels.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-k8hwJAyIKY3DW8ccQwKUyg" name="conduct_pilot_training,_yaipcCvQEd-omvc-6km5sw" guid="-k8hwJAyIKY3DW8ccQwKUyg">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription xsi:nil="true"/>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-oKS6yVTYfpMtqF-Pd2_fPQ" name="create_ext_user_support_materials,_UMN0MCvREd-omvc-6km5sw" guid="-oKS6yVTYfpMtqF-Pd2_fPQ">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>Identify areas requiring user assistance. User support material is mainly task oriented, but is often supplemented by&#xD;
+conceptual and reference information. Start with the detailed task descriptions and work flows. &#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Using writing style standards and guidelines, develop the text, one topic at a time, documenting the step-by-step&#xD;
+        details for each task. As required, supplement task-oriented information with conceptual or reference information.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Develop realistic examples based on the user-task scenarios.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Incorporate well-designed graphic illustrations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Develop a comprehensive index to enable efficient information retrieval.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Develop a glossary.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Develop appendices&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Develop preface, introduction, and other required front matter (such as copyright and cross-reference information).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Sequence draft, adding transitions between topics.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>To develop online help information, perform the same steps as above, except for adding transitions between topics.&#xD;
+Also: &#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Create links for hypertext.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Create retrieval and navigational aids.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>For a users reference, focus on descriptive information. Develop concise descriptions of each topic, and sequence the&#xD;
+topics to optimize the user's ability to retrieve information. For example, a command reference is probably best arranged&#xD;
+alphabetically, while a message manual is usually sequenced by message number.&lt;br />&#xD;
+&lt;br />&#xD;
+The user's guide and user's reference can be hardcopy, softcopy, or both. Consider that the optimal level of detail and&#xD;
+formatting are different for the printed page and the screen. If both hardcopy and softcopy versions are required, the&#xD;
+level of detail and formatting should be optimized for screen presentation.&lt;br />&#xD;
+&lt;br />&#xD;
+Edit the user documentation drafts, and incorporate editorial changes. Develop user documentation iteratively,&#xD;
+incorporating the results of walkthroughs and usability testing.&lt;br />&#xD;
+&lt;br />&#xD;
+Determine what functional and technical information must be included in the on-line tutorial and determine the format of&#xD;
+the tutorial. Perform the following steps: &#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Determine the depth of the tutorial. Does the tutorial teach usage or concepts behind product functionality? Will&#xD;
+        the tutorial be interactive or non-interactive?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specify the format and the development tool used to generate the tutorial. For example, will the tutorial be an&#xD;
+        on-line movie script, CD-ROM-based, or a hardcopy book with a set of predefined exercises.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Determine organizational units of the tutorial. For example, will the tutorial be organized based on functionality&#xD;
+        (what) or on usage (how).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Develop graphics and exercises to support the intent of the tutorial.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Develop tutorial text. Remember to partition text into small, focused units. Users read at different speeds and at&#xD;
+        different comprehension levels. If an on-line movie is used, check the timing between displays to ensure that any&#xD;
+        user can read and understand the text before the next text set is displayed.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>Develop other user support material, which may include items such as: &#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Executive summaries&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Posters&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Publicity or marketing material&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Samples&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-c_RAnJHnBk6h528WSj-JRw" name="education_training_eval,_bzsiI1MREd-b9rMLu3PL1w" guid="-c_RAnJHnBk6h528WSj-JRw">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription xsi:nil="true"/>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UOHlNsRWd0G4ZEd-S-8Bsw" name="learning_solution_design,_bzsiJFMREd-b9rMLu3PL1w" guid="-UOHlNsRWd0G4ZEd-S-8Bsw">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>&lt;p>&#xD;
+    The Learning Solution Design must describe in detail the &quot;look and feel&quot; of the training solution, as well as how the&#xD;
+    content is organized and presented. Once approved, the Learning Solution Design provides information and structure for&#xD;
+    Information developers, who will use the information provided here, as well as information from subject matter experts&#xD;
+    and existing documentation, to produce the course.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    All parties who have a direct interest in this training should review this document. This ensures that a common vision&#xD;
+    is shared as the engagement progresses from the design to production.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-I_PW7nedzxiknzTZrzFtxw" name="user_support_materials,_bzsiJVMREd-b9rMLu3PL1w" guid="-I_PW7nedzxiknzTZrzFtxw">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Start planning and developing User Support Materials early in the product development cycle.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Involve the technical writing staff (information developers) in the requirements phase of the project.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Involve a technical staff member who has accessibility skills.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Review the User Support Materials outline with the&amp;nbsp;stakeholders at key&amp;nbsp;approval checkpoints.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure that user support materials are created and tested for accessibility compliance.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Analyze who will use this material and in what situation when choosing the delivery medium.&amp;nbsp; For example: a&#xD;
+        vibrant but detailed product brochure could be used for marketing and customer evaluation.&amp;nbsp; A planning tool&#xD;
+        (as opposed to a book) might better help a customer determine how to install and configure the product.&amp;nbsp; A&#xD;
+        hypertext help tool with a CD-ROM might eliminate the need for a hardcopy user manual.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    For a software product, the User Support Materials comprise everything shipped in the box other than the software&#xD;
+    itself. Different User Support Materials may be delivered on different media, for example:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Printed manuals&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        On-line help&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Computer files&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Reference cards&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Hypertext&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Web sites&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Multi-media presentations, including transcripts and captions for the audio&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Videos, including video descriptions&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Glossy brochures, posters, and other user support materials may serve different purposes, for example:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        User Guide: &quot;How-to&quot; or procedural information that provides mainly task-oriented information. If markedly&#xD;
+        different sets of users perform very different tasks, it may be appropriate to produce separate user guides such as&#xD;
+        an accessibility section that includes information on the accessibility features (such as keyboard shortcuts)&#xD;
+        available.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Conceptual or background information (&quot;why&quot;). A separate concepts book may be required, depending on the complexity&#xD;
+        and novelty of the system.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        User Reference: Provides descriptive information (&quot;what&quot;) organized for quick retrieval. For example, a command&#xD;
+        reference is organized alphabetically, or a message manual is organized by message number. A User Reference may not&#xD;
+        be necessary. A well-designed index and glossary in the User's Guide may eliminate the need for a separate User's&#xD;
+        Reference. Well-designed on-line messages, with links to help panels, may eliminate the need for a message manual.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Quick Reference Card.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Manager's Overview.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Tutorial or Introductory Tour.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Samples.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Installation Guide.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Operations Guide.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Administrator's Guide.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Early in a project, consider providing alternate formats of printed material for people who cannot access the printed&#xD;
+    page. Audio cassette, online, or Braille are examples of alternate formats that are available. Thinking of this&#xD;
+    provision early in a project enables you to budget time and resources for the alternate formats.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Some information may appear in more than one deliverable. For example, the content of the quick reference guide will&#xD;
+    most likely come from the user guide, reference guide, or help panels. The index items or glossary terms and&#xD;
+    definitions may be used both in a hardcopy manual and in the on-line help.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-1mOsWcTNbbiBLwreedL9lA" name="learning_solution_materials,_bzsiJlMREd-b9rMLu3PL1w" guid="-1mOsWcTNbbiBLwreedL9lA">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>&lt;p>&#xD;
+    The work product&amp;nbsp;includes the actual training material as well as other information such as a detailed description&#xD;
+    of the course/s that will be offered, the user roles which will be associated with each course, the type of delivery&#xD;
+    method/s to be used, the locations of the classes, quick references, help files, and job aids. These materials may be&#xD;
+    as simple as a presentation, or as complex as an entire classroom or distance learning curriculum.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Learning Solutions Material document also contains:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A mapping of the system transactions to roles followed by a mapping of those roles into courses.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div>&#xD;
+            A description of the delivery method for each course. If a training instance is being used, then indicate the&#xD;
+            plan for setup and maintenance of the instance. If using the web, be sure to indicate any plan for establishing&#xD;
+            the links to existing or new websites.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div>&#xD;
+            A list of locations available for education and training, and their specifications (classroom, size, number of&#xD;
+            PCs, available dates, technical setup, etc.). An identification of the instructors for each training module is&#xD;
+            included as well as the number of participants to attend each training course and how many times each course&#xD;
+            should run.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div>&#xD;
+            Based on the roles that are mapped to courses, a curriculum is published and verified with the sponsor.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UdU6Znm-PgaNMcS-xsd0rQ" name="obtain_management_approval_for_cutover,_6HhmYCyYEd-rIPCOaPACIg" guid="-UdU6Znm-PgaNMcS-xsd0rQ">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>&lt;p>&#xD;
+    Obtain management approval after comprehensively reexamining all important items such as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Completeness and reliability of the new system&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Organization of end-user departments&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Communication structure&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Facilities&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Materials&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Understanding and awareness of the new system&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Readiness of the in-house IS department&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Migration and cut-over procedures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Procedures for restoration to the old system&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Responsibility for cut-over risks&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-1JRomjHFYJeu7YOZG4_4Hw" name="initialize_system_data_sources,_G3fR5SyZEd-rIPCOaPACIg" guid="-1JRomjHFYJeu7YOZG4_4Hw">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>Complete data loading for the cut over of the new system.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-R3Gw4lHOjGw64m2RHhdpog" name="install_system_components,_MwdQaSyZEd-rIPCOaPACIg" guid="-R3Gw4lHOjGw64m2RHhdpog">
+    <keyConsiderations>&lt;p>&#xD;
+    Deployment and cut over of the new system are highly dependent on the contents of the system and the size of the&#xD;
+    end-user departments.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This work can involve many departments and subcontractors/vendors.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription xsi:nil="true"/>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-U2Td850DphSIExGjrNLgAA" name="implement_system_management_procedures,_r5QUYCyZEd-rIPCOaPACIg" guid="-U2Td850DphSIExGjrNLgAA">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>Implement the system management tools and procedures according to the system management plan.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TNEv4L-XSMiTfMyHq3IgwA" name="software_dist_plan,_b39XFVMREd-b9rMLu3PL1w" guid="-TNEv4L-XSMiTfMyHq3IgwA">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>&lt;p>&#xD;
+    A Software Distribution Plan is part of a systems management project or part of an IT system architecture Operational&#xD;
+    Model. The Software Distribution Plan includes the data required to allow the operations department to perform the&#xD;
+    software configuration, installation, and distribution (CID) process.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Generating a Software Distribution Plan is a way to avoid significant adverse impact on end users and IT infrastructure&#xD;
+    due to changes and the overall cost of distributing the solution. The plan, when implemented, will provide end users,&#xD;
+    who are accepting a new application and possibly new hardware, with the ability to restore their systems to a known&#xD;
+    state on short notice. Downtime, due to user error or system disruption, cannot be tolerated in mission critical&#xD;
+    applications, such as a call center for a telephone company or other utility.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Full automation of the software distribution process is not always necessary, but the plan will identify the cost&#xD;
+    benefit of automation. The information collected in the plan will be valuable for any mixture of manual and automated&#xD;
+    processes.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-0uS__jjKDd_0X0c8JscHdQ" name="deployment_plan,_b39XFlMREd-b9rMLu3PL1w" guid="-0uS__jjKDd_0X0c8JscHdQ">
+    <keyConsiderations>&lt;p>&#xD;
+    The development of the Deployment Plan starts early in the project.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Do not wait until the deployment of the system is imminent to beginning the initial drafts of the document.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Review the Deployment Plan with the client and all users, including anyone in areas such as systems administration,&#xD;
+        database, LAN, and HVAC whose systems or jobs may be involved with the new system.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Obtain client sign-off on all the deployment criteria outlined in the Deployment Plan to help ensure&#xD;
+        formal&amp;nbsp;stakeholder approval of the new system.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        If the system is being deployed in multiple releases, the Deployment Plan should relate back to the Release&#xD;
+        Plan.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Multiple releases imply multiple deployment periods. The issues associated with each period should be considered&#xD;
+        when deciding on the content of a specific release.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Post-Live support procedures should be in place or well under construction by the time the Deployment and cut-over&#xD;
+        plan is actually started.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The Deployment Plan describes the organization, strategy, resources, and methods used to deploy the new application at&#xD;
+    customer sites. The plan identifies the responsibilities of everyone participating in the deployment and is written&#xD;
+    from the user's perspective. The Deployment Plan also serves as the project's master document over the migration&#xD;
+    period. As such, it contains the following elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The plan validates that the proposed solution actually is ready for deployment. It contains the steps needed to&#xD;
+        make sure that the solution hardware, software, and documentation are in place to proceed.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The plan verifies that the people are trained and ready to support the new system. This includes the user, support&#xD;
+        and temporary deployment communities.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The plan verifies that the organization is ready to accept the delivery of the proposed solution.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The plan verifies that the proper level of contingency planning has taken place and that the appropriate risk&#xD;
+        mitigation procedures are ready.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Mio5-krWQGcSoA5DmES_Ng" name="deployment_procedures,_b39XF1MREd-b9rMLu3PL1w" guid="-Mio5-krWQGcSoA5DmES_Ng">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>&lt;p>&#xD;
+    This include procedures for:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        installing user support materials (e.g documentation)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        setting up user definitions, access rights, passwords&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        initializing data sources&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        including the system release and new users in support and recovery procedures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        confirming that new locations and users are fully operational&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-igLICv1DMYPUaMxrgsEwyA" name="it_services_strategy,_b39XGFMREd-b9rMLu3PL1w" guid="-igLICv1DMYPUaMxrgsEwyA">
+    <keyConsiderations>&lt;p>&#xD;
+    The IT Services Strategy could potentially lead to significant changes to the set of IT services provided and the way&#xD;
+    in which they are sourced and delivered. As a consequence it could have far-reaching implications for the IT&#xD;
+    organization, it's skills, processes and tools.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The IT Services Strategy work product describes the desired future strategic set or portfolio of IT services that must&#xD;
+    be provided to satisfy the business' requirements and describes the individual services making up that future service&#xD;
+    portfolio or service model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An IT service is a specific IT function or output, performed on behalf of or in support of a consumer, that provides&#xD;
+    measurable value. Services are a basis for doing business with the consumer of IT services, require an understanding of&#xD;
+    their needs, and are delivered through a series of implemented activities.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An IT service brings together elements of process, organization and technology. The detailed service definitions show:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The activities, from one or more processes, that are executed in delivering the service;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The service roles or participants responsible for executing those activities;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The tools or information technology used to automate the execution of activities and deliver their results.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The IT services strategy describes the set of services that are to be provided and the way in which those services are&#xD;
+    grouped or categorized. The scope and granularity of the service model will depend greatly on the perspective being&#xD;
+    taken and the context within which the service model and service definitions are being created. The level of detail&#xD;
+    necessary in the service definition will vary considerably depending on the audience for that description and the&#xD;
+    purpose for which it is being created. For example, the IT Service model and service definitions used by a CIO or&#xD;
+    business executive to facilitate analysis of outsourcing options will be at a much higher level than the service&#xD;
+    definitions required by the first line IT manager responsible for defining and implementing service workflows.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-R7S0eHHs8xMpJ5HOZXe2vQ" name="build,_b39XHFMREd-b9rMLu3PL1w" guid="-R7S0eHHs8xMpJ5HOZXe2vQ">
+    <refinedDescription>&lt;p>&#xD;
+    This working version of the system or part of the system&amp;nbsp;is the result of putting the implementation through a&#xD;
+    build process (typically an automated build script) that creates an executable version, or one that runs. This&#xD;
+    executable version will typically have a number of supporting files that are also considered part of this artifact.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IP7L2I98DbK6VV0IWx3Jlg" name="data_migrated,_b39XHVMREd-b9rMLu3PL1w" guid="-IP7L2I98DbK6VV0IWx3Jlg">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription xsi:nil="true"/>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jqswb8Kkt5KXWR8g0JXilQ" name="system_mgmt_env_est,_b39XHlMREd-b9rMLu3PL1w" guid="-jqswb8Kkt5KXWR8g0JXilQ">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription xsi:nil="true"/>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-SGxWhaZSSK8dxFvRqsZyTg" name="test_plan,_b39XH1MREd-b9rMLu3PL1w" guid="-SGxWhaZSSK8dxFvRqsZyTg">
+    <refinedDescription>&lt;p>&#xD;
+    The Test Plan forms the framework within which the team performing the testing will work for the given schedule. It&#xD;
+    directs, guides, and constrains the test effort, focusing the work on the useful and necessary deliverables. It also&#xD;
+    communicates the intent of the effort to stakeholders. As such, the Test Plan should avoid detail that would not be&#xD;
+    understood, or would be considered irrelevant by the stakeholders in the test effort.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In cultures or domains in which this work product is not recognized as a formal work product, it is still important to&#xD;
+    address the different aspects represented by the Test Plan as part of the planning effort, and make appropriate&#xD;
+    decisions about what testing will be undertaken, and how the test effort will be conducted.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IOj6LPXGwQ2Anunk0STwag" name="test_log,_b39XIFMREd-b9rMLu3PL1w" guid="-IOj6LPXGwQ2Anunk0STwag">
+    <refinedDescription>This artifact provides a detailed, typically time-based record that both verifies that a set of tests were run, and&#xD;
+provides information that relates to the success of those tests. The focus is typically on providing an accurate audit&#xD;
+trail, which enables you to undertake a post-run diagnosis of failures. This raw data is subsequently analyzed to determine&#xD;
+the results of an aspect of the test effort.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-55ti-304MpUZwx6PD5DCog" name="management_approval_cutover,_b39XIVMREd-b9rMLu3PL1w" guid="-55ti-304MpUZwx6PD5DCog">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription xsi:nil="true"/>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-K9K3GIsYwsvTVGumgjN80g" name="prod_environment_established,_4YVQIKvNEd-PwptEK4jPtg" guid="-K9K3GIsYwsvTVGumgjN80g">
+    <refinedDescription>The environment may contain some or all of the following: &#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Network hardware, both WAN and LAN&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        LAN Operating software&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Network management tools&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Server hardware&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Server Operating software&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        System Management Software and monitoring workstations&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Middleware software&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Database software&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Personnel&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Application solution&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aXcS5p_5VgZjlPQ4qszwsA" name="conduct_user_training,_fWyjQCyiEd-rIPCOaPACIg" guid="-aXcS5p_5VgZjlPQ4qszwsA">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription xsi:nil="true"/>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-r2LQe4GQh5Mes2HS71uRWg" name="train_the_trainers,_slxGACyiEd-rIPCOaPACIg" guid="-r2LQe4GQh5Mes2HS71uRWg">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription xsi:nil="true"/>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-SjSXBqzQQ7ooSIRYm_QfYA" name="learning_solution_materials,_b39XEVMREd-b9rMLu3PL1w" guid="-SjSXBqzQQ7ooSIRYm_QfYA">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription>&lt;p>&#xD;
+    The work product&amp;nbsp;includes the actual training material as well as other information such as a detailed description&#xD;
+    of the course/s that will be offered, the user roles which will be associated with each course, the type of delivery&#xD;
+    method/s to be used, the locations of the classes, quick references, help files, and job aids. These materials may be&#xD;
+    as simple as a presentation, or as complex as an entire classroom or distance learning curriculum.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Learning Solutions Material document also contains:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A mapping of the system transactions to roles followed by a mapping of those roles into courses.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div>&#xD;
+            A description of the delivery method for each course. If a training instance is being used, then indicate the&#xD;
+            plan for setup and maintenance of the instance. If using the web, be sure to indicate any plan for establishing&#xD;
+            the links to existing or new websites.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div>&#xD;
+            A list of locations available for education and training, and their specifications (classroom, size, number of&#xD;
+            PCs, available dates, technical setup, etc.). An identification of the instructors for each training module is&#xD;
+            included as well as the number of participants to attend each training course and how many times each course&#xD;
+            should run.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;div>&#xD;
+            Based on the roles that are mapped to courses, a curriculum is published and verified with the sponsor.&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7KffplAg9cR7QCg4Ng2RKg" name="education_training_eval,_b39XE1MREd-b9rMLu3PL1w" guid="-7KffplAg9cR7QCg4Ng2RKg">
+    <keyConsiderations xsi:nil="true"/>
+    <refinedDescription xsi:nil="true"/>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

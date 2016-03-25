@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-7fsNbfa6S6Ff21JNN3sksQ" name="specify_services,_oElwkZnIEd6wYer5xLEQPw" guid="-7fsNbfa6S6Ff21JNN3sksQ" version="7.5.0"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HIPY6GgIsJsphYoy9BZZLA" name="document_service_non_functional_rqmts,_BA0oAK16Ed6QmrtyBMOacw" guid="-HIPY6GgIsJsphYoy9BZZLA">
+    <refinedDescription>&lt;p>&#xD;
+    Utilizing a Service-Oriented Architecture provides the opportunity for a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend-ibm/guidances/termdefinitions/service_consumer_91384414.html&quot; guid=&quot;_HDs9YIQuEd6VVeXj3w86dA&quot;>service consumer&lt;/a> to choose a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/termdefinitions/service_provider.supp_soa_478061A7.html&quot; guid=&quot;_ewRWAIRSEd6jqtIeWlQI8A&quot;>service provider&lt;/a> based not only on the functionality it provides, but also on the&#xD;
+    Qualities of Service (QoS) that it&amp;nbsp;might guarantee.&amp;nbsp; Because of this, it is important to clearly specify the&#xD;
+    expected non-functional requirements required by a consumer.&amp;nbsp; When these requirements are known, the servicing&#xD;
+    organization can commit resources to create and maintain service components that deliver the necessary QoS.&amp;nbsp; Key&#xD;
+    architectural decisions might need to be made to ensure that the QoS can be delivered.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Q6hA57gUBKL7GoFUrdWNPA" name="architectural_decisions,_BEPvcK16Ed6QmrtyBMOacw" guid="-Q6hA57gUBKL7GoFUrdWNPA">
+    <keyConsiderations>&lt;p>&#xD;
+    Some important considerations for making and implementing architectural decisions:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Make sure the process for making decisions has the right level of sponsorship necessary to enforce those decisions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Make architecturally significant decisions early and be sure to validate high risk decisions using an executable&#xD;
+        architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Review and update architectural decisions as development progresses and update this artifact so it reflects any&#xD;
+        changes to your decisions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It is not necessary to document every minute decision you make when developing the architecture; focus on those&#xD;
+        that are controversial or are based on reasoning that is not obvious&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact documents key architectural decisions and the rationale behind those decisions.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TtLWxSv3nzJAWiKCWGO-Pg" name="identify_service_oriented_solutions,_sA_CobFLEd69ivGsO9X4aw" guid="-TtLWxSv3nzJAWiKCWGO-Pg">
+    <refinedDescription>A &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_model_FC39652E.html&quot; guid=&quot;_T-AiUEozEd6D_7XK49c0nw&quot;>service model&lt;/a> that is built without abstractions that are at higher conceptual levels&#xD;
+than&amp;nbsp;ServiceInterfaces and participants will very soon become difficult to understand and maintain.&amp;nbsp; &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/supportingmaterials/pattern_05_manage_composition_using_service_oriented_solutions_753E5D71.html&quot; guid=&quot;_bydzoHyoEd6buIXZTkenBw&quot;>Pattern 05: Manage Composition Using Service-Oriented Solutions&lt;/a>&amp;nbsp;offers the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/termdefinitions/service_oriented_solution.supp_soa_B0376546.html&quot; guid=&quot;_Frp-0IROEd6jqtIeWlQI8A&quot;>service-oriented solution&lt;/a> as such an abstraction.&amp;nbsp; This task introduces these&#xD;
+abstractions into the service model.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HBLw19-ckGbk1yo2ImsuSw" name="functional_area_model,_sEHPILFLEd69ivGsO9X4aw" guid="-HBLw19-ckGbk1yo2ImsuSw">
+    <refinedDescription>The Functional Area Model is a representation of the functional structure of the business, in terms of business domains,&#xD;
+functional areas, and business services.&amp;nbsp; See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.bus.common.extend-ibm/guidances/concepts/functional_area_analysis_9B1F96D5.html&quot; guid=&quot;_fk1woEo1Ed6D_7XK49c0nw&quot;>Concept: Functional Area Analysis&lt;/a>&amp;nbsp;for more details.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Ib_TYzrBFl6ImY9RdgU3sg" name="specify_service_oriented_solutions,_s6NJobFLEd69ivGsO9X4aw" guid="-Ib_TYzrBFl6ImY9RdgU3sg">
+    <refinedDescription>&lt;p>&#xD;
+    This is the core task of service specification.&amp;nbsp;Begin this task with:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A&amp;nbsp;defined &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_portfolio_ED261230.html&quot; guid=&quot;_qDmYcFbAEd6MCpkuB85p5g&quot;>portfolio of services&lt;/a> to be specified&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Pertinent &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.bus.common.extend-ibm/guidances/concepts/business_process_6DC80DFA.html&quot; guid=&quot;_zjPQgIqmEd64Ytrb_zySHw&quot;>business processes&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Descriptions of &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/information_model_7F8FC275.html&quot; guid=&quot;_GjvrcIB_Ed6gDe17473oSQ&quot;>information models&lt;/a> and more concrete &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/data_model_E4755C1E.html&quot; guid=&quot;_uYi1gEo1Ed6D_7XK49c0nw&quot;>data models&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Representations of the functional requirements that the solution must realize, and the non-functional requirements&#xD;
+        that constrain it&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Definitions of the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/supportingmaterials/pattern_05_manage_composition_using_service_oriented_solutions_753E5D71.html&quot; guid=&quot;_bydzoHyoEd6buIXZTkenBw&quot;>service-oriented solution&lt;/a> abstractions that you will use to organize some&#xD;
+        larger-scale views of your &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/workproducts/service_model_B9A1BF81.html&quot; guid=&quot;_IgcA4Eo1Ed6D_7XK49c0nw&quot;>Service Model&lt;/a>.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    When you exit the task, you will have accomplished the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Specified the external view of the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/concepts/service_2D3C4FFE.html&quot; guid=&quot;_OMw8cEozEd6D_7XK49c0nw&quot;>services&lt;/a>.&amp;nbsp; Their operations, operation signatures, and interaction&#xD;
+        protocols (&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_contract_soaml_E57B30D4.html&quot; guid=&quot;_IhtgsFbBEd6MCpkuB85p5g&quot;>ServiceContracts&lt;/a>) have been defined&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Discovered and described individual &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>participants&lt;/a>&amp;nbsp;which&amp;nbsp;provide and consume services&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Documented the&amp;nbsp;service &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/message_type_soaml_41C1C53D.html&quot; guid=&quot;_Yy9FYGc6Ed65K8S2sWS35w&quot;>messages&lt;/a> and information objects&amp;nbsp;that compose the service data model&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defined service composition and flows&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Described the dependencies between services&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    When you do these things, you have to keep in mind the need to fulfill the required non-functional requirements, as&#xD;
+    well as the functional ones.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The steps of this task are presented as a way to compartmentalize the various activities involved in detailing the&#xD;
+    service model.&amp;nbsp; They do not need to be performed sequentially.&amp;nbsp; Further,&amp;nbsp;each step&amp;nbsp;can be revisited&#xD;
+    as more information is learned.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-U34R7Sa-zDG6D3PIDWzghQ" name="refactor_the_service_model,_t9tOALFLEd69ivGsO9X4aw" guid="-U34R7Sa-zDG6D3PIDWzghQ">
+    <refinedDescription>&lt;p>&#xD;
+    Building a significant service model can involve the participation of several SOA architects over an extended period of&#xD;
+    time.&amp;nbsp; It is likely that, in the absence of efforts to periodically examine the model critically,&amp;nbsp;undesired&#xD;
+    redundancies in concepts (&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>ServiceInterfaces&lt;/a>,&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/message_type_soaml_41C1C53D.html&quot; guid=&quot;_Yy9FYGc6Ed65K8S2sWS35w&quot;>MessageTypes&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>Participants&lt;/a>, and so on)&amp;nbsp;will appear, and the quality of the model will&#xD;
+    degrade.&amp;nbsp; To combat this, the SOA architect team needs to be continually seeking&amp;nbsp;refactoring opportunities,&#xD;
+    and needs to periodically perform formal reviews to&amp;nbsp;refactor the service model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The main tool that is used to perform the refactoring is &lt;em>commonality and variability analysis&lt;/em>.&amp;nbsp; This is&#xD;
+    introduced in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/variability_analysis_5DE99340.html&quot; guid=&quot;_Tt8JMEo3Ed6D_7XK49c0nw&quot;>Concept: Variability Analysis&lt;/a>.&amp;nbsp;&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/variability_analysis_AF5936CF.html&quot; guid=&quot;_lP-BoFbREd6MCpkuB85p5g&quot;>Guideline: Variability Analysis&lt;/a>&amp;nbsp;provides additional discussion on this&#xD;
+    technique.&amp;nbsp; &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/variability_analysis_8B6BEC31.html&quot; guid=&quot;_f_0xkEo3Ed6D_7XK49c0nw&quot;>Example: Variability Analysis&lt;/a>&amp;nbsp;presents an example,&amp;nbsp;and also illustrates&#xD;
+    some common taxonomic hierarchies that are used to describe variability.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

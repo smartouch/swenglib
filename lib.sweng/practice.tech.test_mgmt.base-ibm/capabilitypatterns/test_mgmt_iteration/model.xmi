@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_KH524b8UEdyfOezAyKOVXQ" guid="_KH524b8UEdyfOezAyKOVXQ">
+    <resourceDescriptors xmi:id="_KH524r8UEdyfOezAyKOVXQ" id="-a5e1-kMvF5lyphYR_KdUaA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_KDvIkL8UEdyfOezAyKOVXQ" name="test_mgmt_iteration" guid="_KDvIkL8UEdyfOezAyKOVXQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hCx3ML8UEdyfOezAyKOVXQ" name="plan_test_cycle" guid="_hCx3ML8UEdyfOezAyKOVXQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_hGM-oL8UEdyfOezAyKOVXQ" name="plan_test_cycle" guid="_hGM-oL8UEdyfOezAyKOVXQ" superActivities="_KDvIkb8UEdyfOezAyKOVXQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_YnUjQL8TEdyfOezAyKOVXQ#_YnUjQb8TEdyfOezAyKOVXQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_hzgJgL8UEdyfOezAyKOVXQ" name="monitor_control_test" guid="_hzgJgL8UEdyfOezAyKOVXQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_h3FB8L8UEdyfOezAyKOVXQ" name="monitor_control_test" guid="_h3FB8L8UEdyfOezAyKOVXQ" superActivities="_KDvIkb8UEdyfOezAyKOVXQ" linkToPredecessor="_DCpO8b8VEdyfOezAyKOVXQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_z3NcAL8TEdyfOezAyKOVXQ#_z3NcAb8TEdyfOezAyKOVXQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_DCpO8b8VEdyfOezAyKOVXQ" guid="_DCpO8b8VEdyfOezAyKOVXQ" pred="_hGM-oL8UEdyfOezAyKOVXQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_jTBbgL8UEdyfOezAyKOVXQ" name="Test [placeholder]" guid="_jTBbgL8UEdyfOezAyKOVXQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_jTKlcL8UEdyfOezAyKOVXQ" name="Test [placeholder]" guid="_jTKlcL8UEdyfOezAyKOVXQ" presentationName="Test [placeholder]" superActivities="_KDvIkb8UEdyfOezAyKOVXQ"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_KDvIkb8UEdyfOezAyKOVXQ" name="test_mgmt_iteration" guid="_KDvIkb8UEdyfOezAyKOVXQ" presentationName="Test Iteration [Management]" briefDescription="Define the test scope and objectives, plan the test effort, and monitor the test progress within an iteration." breakdownElements="_hGM-oL8UEdyfOezAyKOVXQ _h3FB8L8UEdyfOezAyKOVXQ _jTKlcL8UEdyfOezAyKOVXQ">
+      <methodElementProperty xmi:id="_3i_BUbemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-a5e1-kMvF5lyphYR_KdUaA" href="uma://-a5e1-kMvF5lyphYR_KdUaA#-a5e1-kMvF5lyphYR_KdUaA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

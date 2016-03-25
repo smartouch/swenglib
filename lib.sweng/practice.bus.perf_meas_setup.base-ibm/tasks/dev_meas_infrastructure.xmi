@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-XCiRsEtGEYUOHpQqohQvkA" name=",_Xs-BUP0ZEd20w98rSqT2fg" guid="-XCiRsEtGEYUOHpQqohQvkA" changeDate="2009-04-13T17:06:50.671-0700" version="7.5.0">
+  <mainDescription>Whether a measurement system is automated or manual there is associated hardware and software to create and configure.</mainDescription>
+  <sections xmi:id="_keU-gP0aEd20w98rSqT2fg" name="Create the Measurement Infrastructure" guid="_keU-gP0aEd20w98rSqT2fg">
+    <sectionDescription>&lt;p>&#xD;
+    Identify the mechanisms for capturing the desired data elements from the specified sources. For automated data&#xD;
+    collection and reporting, this involves using a measurement and reporting tool to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Point to a data source containing the attributes for the measure&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Read the&amp;nbsp;attributes from in the source and place into the data warehouse&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Establish calculations as necessary for the derived measure&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify the reporting displays for the&amp;nbsp;derived measure&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify the frequency of the collection and reporting&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Some measurement collection and reporting tools are preloaded to collect many of the software development related&#xD;
+    measures. They will also allow users to configure measure collection and reporting for those not already defined in the&#xD;
+    tool. Using automated routines typically results in less cost associated with the establishment of a measure program&#xD;
+    and much more consistency than establishing manual efforts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For manual data collection and reporting, the steps are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Locate the data sources&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Verify access for all data sources&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify the structure within the data source and the attributes&amp;nbsp;to read&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify the file structure for storing the recorded data&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Establish calculations as necessary for the derived measurements&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Create displays for the recorded data&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify the frequency for recording the data&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Manual data collection and reporting is very labor intensive. Before spending time doing manual collection and&#xD;
+    reporting, the amount of effort needed must be well understood along with the potential inconsistencies and&#xD;
+    inaccuracies from human intervention.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_mvd6sP0aEd20w98rSqT2fg" name="Configure the Measurement Infrastructure" guid="_mvd6sP0aEd20w98rSqT2fg">
+    <sectionDescription>&lt;p>&#xD;
+    Configuring the measurement infrastructure involves:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Sizing the storage areas for collected data&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Establishing accounts to enable data collection&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Setting privileges for the collection and reporting&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Establish accounts for access to the metric information&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Setting privileges for others to view the metric reports&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Establishing the exact time the data collection and metric reporting will occur.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <purpose>To provide the configuration and implementation&amp;nbsp;for collecting and reporting on one or more measures.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

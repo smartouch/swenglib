@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_pyuv8a2pEd6_dJstfLPnzA" guid="_pyuv8a2pEd6_dJstfLPnzA">
+    <resourceDescriptors xmi:id="_pyuv8q2pEd6_dJstfLPnzA" id="-W1ETJrsdg5v_LZqM7ilrLA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_s5lC4KzsEeCJ-7p1IAy8Iw" id="-LI0sqXLFhj8emMX2jb37iA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_s5lC4azsEeCJ-7p1IAy8Iw" id="-BuXNM2_T-z1FA8YkKihVrg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_s5lC4qzsEeCJ-7p1IAy8Iw" id="-mVgw308IbeXi3wV60NW26Q" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_px1_IK2pEd6_dJstfLPnzA" name="business_model_analysis" guid="_px1_IK2pEd6_dJstfLPnzA">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_uSzMYK2qEd6_dJstfLPnzA" name="identify_candidate_services_from_business_functional_models" guid="_uSzMYK2qEd6_dJstfLPnzA" presentationName="Identify Candidate Services from Business Functional Models" briefDescription="This task is performed to identify candidate services by mapping the business functions, business service interfaces, and/or business subsystems identified during functional area analysis into candidate services." superActivities="_px1_Ia2pEd6_dJstfLPnzA" mandatoryInput="_viX94K2qEd6_dJstfLPnzA" optionalInput="_uSzMZK2qEd6_dJstfLPnzA" output="_uSzMZK2qEd6_dJstfLPnzA">
+      <methodElementProperty xmi:id="_4ACwyremEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <presentation xmi:id="-LI0sqXLFhj8emMX2jb37iA" href="uma://-W1ETJrsdg5v_LZqM7ilrLA#-LI0sqXLFhj8emMX2jb37iA"/>
+      <checklists href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_1KBJUEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_fk1woEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_R5GZYEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_YDPAYEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_zfz4kGpmEd6g0_jzBUWUGg"/>
+      <examples href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_zrm1sGpiEd6g0_jzBUWUGg"/>
+      <examples href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_hsZDIGkaEd6g1IDZLlcC3g"/>
+      <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_klEJQEo1Ed6D_7XK49c0nw"/>
+      <Task href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_uYy9sGTPEd6EKfYvqjfiMA"/>
+      <selectedSteps href="uma://-Aq3a5YBlUwrnM0Bwvfsp1Q#_jQ308HiBEd6L1v5Y8xO1jw"/>
+      <selectedSteps href="uma://-Aq3a5YBlUwrnM0Bwvfsp1Q#_ncMl4HiBEd6L1v5Y8xO1jw"/>
+      <selectedSteps href="uma://-Aq3a5YBlUwrnM0Bwvfsp1Q#_JU8R4HiWEd6ks5VPZ8tZkQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_uSzMZK2qEd6_dJstfLPnzA" name="service_model" guid="_uSzMZK2qEd6_dJstfLPnzA" presentationName="Service Model" briefDescription="The service model is a model of the core elements of a Service Oriented Architecture (SOA). The service model is used as an essential input to tasks in implementation and testing." isPlanned="false" superActivities="_px1_Ia2pEd6_dJstfLPnzA">
+      <methodElementProperty xmi:id="_4ACwybemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_O0Qk0Eo0Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_T-AiUEozEd6D_7XK49c0nw"/>
+      <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_lc5vgGsLEd6dX9uDBR7y4Q"/>
+      <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_qHU5sFIREd6lNtylJFsPIg"/>
+      <templates href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_mJhD0GkcEd6g1IDZLlcC3g"/>
+      <templates href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_xsgiYFIREd6lNtylJFsPIg"/>
+      <templates href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_3yebEFIREd6lNtylJFsPIg"/>
+      <WorkProduct href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_IgcA4Eo1Ed6D_7XK49c0nw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_viOz8K2qEd6_dJstfLPnzA" name="identify_candidate_services_from_business_processes" guid="_viOz8K2qEd6_dJstfLPnzA" presentationName="Identify Candidate Services from Business Processes" briefDescription="This task is performed to identify candidate services, using a decomposed process model as input." superActivities="_px1_Ia2pEd6_dJstfLPnzA" mandatoryInput="_viX94K2qEd6_dJstfLPnzA" optionalInput="_uSzMZK2qEd6_dJstfLPnzA" output="_uSzMZK2qEd6_dJstfLPnzA">
+      <methodElementProperty xmi:id="_4ACwzLemEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <presentation xmi:id="-BuXNM2_T-z1FA8YkKihVrg" href="uma://-W1ETJrsdg5v_LZqM7ilrLA#-BuXNM2_T-z1FA8YkKihVrg"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_R5GZYEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_YDPAYEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_0XDGMEozEd6D_7XK49c0nw"/>
+      <guidelines href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_5Mi1gEozEd6D_7XK49c0nw"/>
+      <Task href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_e9TgEGTPEd6EKfYvqjfiMA"/>
+      <selectedSteps href="uma://-QgxWdtZzFZZ5tCus3DUyNQ#_l3Bq8HiZEd6ks5VPZ8tZkQ"/>
+      <selectedSteps href="uma://-QgxWdtZzFZZ5tCus3DUyNQ#_H4rLYHiaEd6ks5VPZ8tZkQ"/>
+      <selectedSteps href="uma://-QgxWdtZzFZZ5tCus3DUyNQ#_RQvuAHiaEd6ks5VPZ8tZkQ"/>
+      <selectedSteps href="uma://-QgxWdtZzFZZ5tCus3DUyNQ#_ioOXMHiaEd6ks5VPZ8tZkQ"/>
+      <selectedSteps href="uma://-QgxWdtZzFZZ5tCus3DUyNQ#_0uMeEHiaEd6ks5VPZ8tZkQ"/>
+      <selectedSteps href="uma://-QgxWdtZzFZZ5tCus3DUyNQ#_YTPq8HibEd6ks5VPZ8tZkQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_viX94K2qEd6_dJstfLPnzA" name="business_design_slot" guid="_viX94K2qEd6_dJstfLPnzA" presentationName="[Business Design]" briefDescription="This slot serves as an abstraction of high-level artifacts that define the overall structure and processes of the business operates." isPlanned="false" superActivities="_px1_Ia2pEd6_dJstfLPnzA">
+      <methodElementProperty xmi:id="_4ACwyLemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_AuAlcDyVEdyz7ZnE62_AvQ#_OIXJkBYREd2eavK0BKAMiA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_xA2HAK2qEd6_dJstfLPnzA" name="identify_candidate_services_from_business_use_cases" guid="_xA2HAK2qEd6_dJstfLPnzA" presentationName="Identify Candidate Services from Business Use Cases" briefDescription="This task is performed to identify candidate services, using business use case realizations as input." superActivities="_px1_Ia2pEd6_dJstfLPnzA" mandatoryInput="_viX94K2qEd6_dJstfLPnzA" optionalInput="_uSzMZK2qEd6_dJstfLPnzA" output="_uSzMZK2qEd6_dJstfLPnzA">
+      <methodElementProperty xmi:id="_4ACwx7emEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <presentation xmi:id="-mVgw308IbeXi3wV60NW26Q" href="uma://-W1ETJrsdg5v_LZqM7ilrLA#-mVgw308IbeXi3wV60NW26Q"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_R5GZYEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_YDPAYEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_NFkXsGDYEd6EnMwJEA4c6A"/>
+      <concepts href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_fk1woEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_A5_hYFbBEd6MCpkuB85p5g"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_N5e2oFbBEd6MCpkuB85p5g"/>
+      <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_klEJQEo1Ed6D_7XK49c0nw"/>
+      <guidelines href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_5Mi1gEozEd6D_7XK49c0nw"/>
+      <Task href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_RsIoEFIPEd6lNtylJFsPIg"/>
+      <selectedSteps href="uma://-K-BpJZheApmnrQdgsk6fqw#_OD4fUHrdEd6mlZJ30DTT1Q"/>
+      <selectedSteps href="uma://-K-BpJZheApmnrQdgsk6fqw#_yKhEYHrfEd6mlZJ30DTT1Q"/>
+      <selectedSteps href="uma://-K-BpJZheApmnrQdgsk6fqw#_8FT5kHrfEd6mlZJ30DTT1Q"/>
+      <selectedSteps href="uma://-K-BpJZheApmnrQdgsk6fqw#_dg9xAHrgEd6mlZJ30DTT1Q"/>
+      <selectedSteps href="uma://-K-BpJZheApmnrQdgsk6fqw#_q5fRUHrgEd6mlZJ30DTT1Q"/>
+      <selectedSteps href="uma://-K-BpJZheApmnrQdgsk6fqw#_5gyYQHroEd6mlZJ30DTT1Q"/>
+      <selectedSteps href="uma://-K-BpJZheApmnrQdgsk6fqw#_VVVzYHrgEd6mlZJ30DTT1Q"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_px1_Ia2pEd6_dJstfLPnzA" name="business_model_analysis" guid="_px1_Ia2pEd6_dJstfLPnzA" presentationName="Business Model Analysis" briefDescription="Identify candidate services from business functional models and from either business processes or business use cases." breakdownElements="_uSzMYK2qEd6_dJstfLPnzA _uSzMZK2qEd6_dJstfLPnzA _viOz8K2qEd6_dJstfLPnzA _viX94K2qEd6_dJstfLPnzA _xA2HAK2qEd6_dJstfLPnzA">
+      <methodElementProperty xmi:id="_4ACwzbemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-W1ETJrsdg5v_LZqM7ilrLA" href="uma://-W1ETJrsdg5v_LZqM7ilrLA#-W1ETJrsdg5v_LZqM7ilrLA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

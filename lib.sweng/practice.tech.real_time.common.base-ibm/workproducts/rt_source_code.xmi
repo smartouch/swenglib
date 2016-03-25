@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-VBY9K0CBc6HSdyh1AEC8LQ" name="rt_source_code,_SULHoMv6Ed-j1uJpwhl9rw" guid="-VBY9K0CBc6HSdyh1AEC8LQ" changeDate="2010-10-26T11:44:44.000-0700" version="7.5.0">
+  <mainDescription>For the most part, the source code can be generated automatically from the UML model of the system or application. In our&#xD;
+experience, it is possible to generate 80% - 95% of the application from the model and retain the efficiency of&#xD;
+hand-developed source code.&amp;nbsp; There are cases where legacy source code may be effectively reused (such as with math&#xD;
+libraries or device drivers).&amp;nbsp; Developers are urged to take advantage of already developed and validated source code&#xD;
+when it is available and meets the needs of the system under development.</mainDescription>
+  <keyConsiderations>The task of developing source code should not be considered complete until the source code is unit tested and (if desired)&#xD;
+peer reviewed. Note however, in a model-based development process or project, the importance of the source code is&#xD;
+de-emphasized, since the design is directly represented in the UML. Thus, source code maintenance and reviews become less&#xD;
+important than they are in code-based development projects.</keyConsiderations>
+  <purpose>The purpose of the source code is to capture the semantics of the software in a language that can easily be compiled into&#xD;
+the different native machine languages of desired target computers.</purpose>
+  <impactOfNotHaving>Source code is less important in a model-driven approach than it is in a code-based approach, but nevertheless, the source&#xD;
+code is required for compilation into the native machine code for most available modeling tools. Additionally, it provides&#xD;
+another point at which changes can be made, when desired; however, it is crucial that the changed source code be brought&#xD;
+back into the model when this is done.</impactOfNotHaving>
+  <reasonsForNotNeeding>A modeling tool might elect to directly produce machine code from the model and source code might not be needed in that&#xD;
+case.</reasonsForNotNeeding>
+  <notation>Source code is represented in textual symbols arranged in specific syntactic structures as required by the language of the&#xD;
+source code.</notation>
+</org.eclipse.epf.uma:ArtifactDescription>

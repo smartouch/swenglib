@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-WUy2A9UhBy1vkJhhC65IEA" name="functional_area_analysis,_fk1woEo1Ed6D_7XK49c0nw" guid="-WUy2A9UhBy1vkJhhC65IEA" changeDate="2009-09-21T17:41:27.546-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    &lt;font size=&quot;4&quot;>&lt;strong>Introduction&lt;/strong>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Functional Area Analysis uses&amp;nbsp;a partitioning of the business, such as a functionally-based organizational model,&#xD;
+    as a starting point or input. Business domains (such as &quot;Marketing and Customer Management&quot;) first are&#xD;
+    identified.&amp;nbsp; These are further decomposed into sub-domains and ultimately into functional areas (such as &quot;Customer&#xD;
+    Service&quot;). Further analysis, such as business use case analysis and/or business process definition, can be used to&#xD;
+    identify (1) the services each functional area offers and requires and (2) the required relationships between the&#xD;
+    functional areas.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To explain the concept of business domain, consider the following simplified example:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        What the Business is selling? -- Products Domain&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To whom the Business is selling and how to improve it? -- Customer Relationship Management and Marketing Domain&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        When and how to sell? -- Sales Management Domain&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How to Manage the Business? -- Business Administration Domain&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Functional Area Analysis begins by creating summary descriptions that identify the major high level functional&#xD;
+    responsibilities of each domain.&amp;nbsp;Next, each domain is decomposed into smaller, more discrete, functional areas.&#xD;
+    Each functional area is described in terms of the specific functions it is responsible for, as well as functions it&#xD;
+    depends on during collaborations with other functional areas.&amp;nbsp; So, the taxonomy of the result of a Functional Area&#xD;
+    Analysis might be as follows:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&#xD;
+    &lt;img alt=&quot;&quot; src=&quot;resources/faa_concept_1.gif&quot; width=&quot;428&quot; height=&quot;319&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As each functional area is being analyzed and described in terms of its functions, it is also analyzed in the larger&#xD;
+    context of its relationships to other functional areas (that is,&amp;nbsp;the interactions and collaborations among&#xD;
+    functional areas are identified).&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A final step is to identify one or more&amp;nbsp;candidate &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.bus.common.extend-ibm/guidances/concepts/business_subsystem_622C6CDE.html&quot; guid=&quot;_zfz4kGpmEd6g0_jzBUWUGg&quot;>subsystems (or business service interfaces)&lt;/a> for each functional area, to aggregate&#xD;
+    business functions with strong affinity.&amp;nbsp; In many cases there will be a&amp;nbsp;one-to-one relationship between a&#xD;
+    functional area and its functional aggregations.&amp;nbsp; If&amp;nbsp;multiple aggregations could be required, this is an&#xD;
+    indication that the functional area might need to be reassessed, split into one or more additional functional areas,&#xD;
+    each taking on a subset of the original functional area's functions.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_ulbT0AahEeKDn6MuflC_BA" guid="_ulbT0AahEeKDn6MuflC_BA">
+    <resourceDescriptors xmi:id="_ulbT0QahEeKDn6MuflC_BA" id="-iPUpWXTgdRGWqIBsKGMN5g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ulflQAahEeKDn6MuflC_BA" id="-a7S3EzxLJU5DBdrwsME6FQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ulgMUAahEeKDn6MuflC_BA" id="-ioS6KlO_E-M0dY5laWGNdQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_-mha4JXkEeCeRuB-coqLuQ" name="8.8 Change Management" guid="_-mha4JXkEeCeRuB-coqLuQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_lo4msJXmEeCeRuB-coqLuQ" name="Create change request" guid="_lo4msJXmEeCeRuB-coqLuQ" presentationName="Create change request" briefDescription="A request detailing the need to change the item or a requirement in some way. The request is given an ID and logged into the change management system." isPlanned="true" superActivities="_-mha4ZXkEeCeRuB-coqLuQ" mandatoryInput="_lpBwopXmEeCeRuB-coqLuQ" optionalInput="_lpBwpJXmEeCeRuB-coqLuQ" output="_lpBwppXmEeCeRuB-coqLuQ" performedPrimarilyBy="_lpBwoJXmEeCeRuB-coqLuQ">
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_ZWccUJESEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_lpBwoJXmEeCeRuB-coqLuQ" name="Project member" guid="_lpBwoJXmEeCeRuB-coqLuQ" presentationName="Project member" briefDescription="Overarching role that covers anyone on the project that has impact on the lifecycle of the element being developed.&#xD;&#xA;The project member role can be used to assign someone a task that requires a skill set that is outside the general roles defined." isPlanned="false" superActivities="_-mha4ZXkEeCeRuB-coqLuQ" modifies="_qapskJXmEeCeRuB-coqLuQ _qapskpXmEeCeRuB-coqLuQ _lpBwppXmEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_uliBgAahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_MKQyEJEWEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_lpBwopXmEeCeRuB-coqLuQ" name="Change Management plan" guid="_lpBwopXmEeCeRuB-coqLuQ" presentationName="Change Management plan" briefDescription="Plan containing a list of approved changes and the schedule when the changes will be implemented." isPlanned="false" superActivities="_-mha4ZXkEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_uliBgQahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_ZGs3gJEPEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_lpBwpJXmEeCeRuB-coqLuQ" name="Configuration management plan" guid="_lpBwpJXmEeCeRuB-coqLuQ" presentationName="Configuration management plan" briefDescription="Plan to detail how to carry out and control the configuration management of the item under development. Part of this plan is the planning for the set up of the environment and tools to support CM." isPlanned="false" superActivities="_-mha4ZXkEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_uliBggahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_vJ9IwJEOEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_lpBwppXmEeCeRuB-coqLuQ" name="Change request" guid="_lpBwppXmEeCeRuB-coqLuQ" presentationName="Change request" briefDescription="Formal document logging a request to change the item in some way or its requirements. The change request should contain a clear and concise description of the issue and rationale behind the change request, including configuration information." isPlanned="false" superActivities="_-mha4ZXkEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_uliBgwahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_QZMNcJESEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_mvXGkJXmEeCeRuB-coqLuQ" name="Carry out impact analysis" guid="_mvXGkJXmEeCeRuB-coqLuQ" presentationName="Carry out impact analysis" briefDescription="Evaluation of the change to determine the impact it would have on the development of the item" isPlanned="true" superActivities="_-mha4ZXkEeCeRuB-coqLuQ" linkToPredecessor="_QdpikJXnEeCeRuB-coqLuQ" additionallyPerformedBy="_mvXGlZXmEeCeRuB-coqLuQ" mandatoryInput="_lpBwppXmEeCeRuB-coqLuQ" output="_mvXGl5XmEeCeRuB-coqLuQ" performedPrimarilyBy="_mvXGkZXmEeCeRuB-coqLuQ _mvXGk5XmEeCeRuB-coqLuQ">
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_dkS80JESEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_mvXGkZXmEeCeRuB-coqLuQ" name="Safety Manager" guid="_mvXGkZXmEeCeRuB-coqLuQ" presentationName="Safety Manager" briefDescription="Plans the safety activities in the development  subphases of the safety lifecycle.&#xD;&#xA;He is responsible for the maintenance of the safety plan, and for monitoring the progress of the safety activities against the safety plan." isPlanned="false" superActivities="_-mha4ZXkEeCeRuB-coqLuQ" modifies="_nuZhsZXmEeCeRuB-coqLuQ _ouxZkZXmEeCeRuB-coqLuQ _rMk4wJXmEeCeRuB-coqLuQ _mvXGl5XmEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_uliBhAahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-iPUpWXTgdRGWqIBsKGMN5g" href="uma://-iPUpWXTgdRGWqIBsKGMN5g#-iPUpWXTgdRGWqIBsKGMN5g"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_jhKyAIedEeCpk9ipETsKDg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_mvXGk5XmEeCeRuB-coqLuQ" name="Quality Manager" guid="_mvXGk5XmEeCeRuB-coqLuQ" presentationName="Quality Manager" briefDescription="Ensures that the quality management system is operating correctly to support ISO 26262." isPlanned="false" superActivities="_-mha4ZXkEeCeRuB-coqLuQ" modifies="_nuZhsZXmEeCeRuB-coqLuQ _mvXGl5XmEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_uliBhQahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_GfaEQIejEeCpk9ipETsKDg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_mvXGlZXmEeCeRuB-coqLuQ" name="Project Manager" guid="_mvXGlZXmEeCeRuB-coqLuQ" presentationName="Project Manager" briefDescription="The project manager is responsible for the overall management of the functional safety aspects of the development project. " isPlanned="false" superActivities="_-mha4ZXkEeCeRuB-coqLuQ" modifies="_nuZhsZXmEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_uliBhgahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-a7S3EzxLJU5DBdrwsME6FQ" href="uma://-iPUpWXTgdRGWqIBsKGMN5g#-a7S3EzxLJU5DBdrwsME6FQ"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_aipNQIecEeCpk9ipETsKDg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_mvXGl5XmEeCeRuB-coqLuQ" name="Impact Analysis" guid="_mvXGl5XmEeCeRuB-coqLuQ" presentationName="Impact Analysis" briefDescription="Report evaluating the effect of carrying out the change request on the development and functional safety of the item." isPlanned="false" superActivities="_-mha4ZXkEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_uliBhwahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_eUyF8JEPEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nuZhsJXmEeCeRuB-coqLuQ" name="Evaluate change request for potential approval" guid="_nuZhsJXmEeCeRuB-coqLuQ" presentationName="Evaluate change request for potential approval" briefDescription="Based upon the impact analysis and other factors such as project progress, stage of lifecycle and complexity of the change etc. a change request approval board approves or rejects the the change request. " isPlanned="true" superActivities="_-mha4ZXkEeCeRuB-coqLuQ" linkToPredecessor="_RLGecZXnEeCeRuB-coqLuQ" mandatoryInput="_lpBwppXmEeCeRuB-coqLuQ _mvXGl5XmEeCeRuB-coqLuQ" output="_nuZhsZXmEeCeRuB-coqLuQ" performedPrimarilyBy="_mvXGlZXmEeCeRuB-coqLuQ _mvXGk5XmEeCeRuB-coqLuQ _mvXGkZXmEeCeRuB-coqLuQ">
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_D9YiIJEUEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_nuZhsZXmEeCeRuB-coqLuQ" name="CR Approval" guid="_nuZhsZXmEeCeRuB-coqLuQ" presentationName="CR Approval" briefDescription="Indication of approval or rejection of the change request." isPlanned="false" superActivities="_-mha4ZXkEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_uliBiAahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_3kvDEJEWEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ouxZkJXmEeCeRuB-coqLuQ" name="Modify change request plan" guid="_ouxZkJXmEeCeRuB-coqLuQ" presentationName="Modify change request plan" briefDescription="The approved change request is added to the change request plan and the plan modified to accommodate the change request." isPlanned="true" superActivities="_-mha4ZXkEeCeRuB-coqLuQ" additionallyPerformedBy="_lpBwoJXmEeCeRuB-coqLuQ" mandatoryInput="_lpBwppXmEeCeRuB-coqLuQ _ouxZkZXmEeCeRuB-coqLuQ _nuZhsZXmEeCeRuB-coqLuQ _mvXGl5XmEeCeRuB-coqLuQ" output="_ouxZkZXmEeCeRuB-coqLuQ" performedPrimarilyBy="_mvXGkZXmEeCeRuB-coqLuQ">
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_v1oJsJETEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ouxZkZXmEeCeRuB-coqLuQ" name="Change request plan" guid="_ouxZkZXmEeCeRuB-coqLuQ" presentationName="Change request plan" briefDescription="Plan of all the change requests that have been raised on the project with their current status, i.e. open, approved, rejected, closed." isPlanned="false" superActivities="_-mha4ZXkEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_uliBiQahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_t4edUJEPEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_qagioJXmEeCeRuB-coqLuQ" name="Carry out and document change" guid="_qagioJXmEeCeRuB-coqLuQ" presentationName="Carry out and document change" briefDescription="When scheduled the change request is acted upon, the change made and documented." isPlanned="true" superActivities="_-mha4ZXkEeCeRuB-coqLuQ" linkToPredecessor="_SyEcQZXnEeCeRuB-coqLuQ" mandatoryInput="_lpBwppXmEeCeRuB-coqLuQ _mvXGl5XmEeCeRuB-coqLuQ" output="_qapskJXmEeCeRuB-coqLuQ _qapskpXmEeCeRuB-coqLuQ" performedPrimarilyBy="_lpBwoJXmEeCeRuB-coqLuQ">
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_7DRG0JETEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_qapskJXmEeCeRuB-coqLuQ" name="Changed element delivered to CM" guid="_qapskJXmEeCeRuB-coqLuQ" presentationName="Changed element delivered to CM" briefDescription="Configuration managed item based upon the change request." isPlanned="false" superActivities="_-mha4ZXkEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_uliBigahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_MPF80JEYEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_qapskpXmEeCeRuB-coqLuQ" name="Change report" guid="_qapskpXmEeCeRuB-coqLuQ" presentationName="Change report" briefDescription="The documentation of the change that was carried out as a result of the change request." isPlanned="false" superActivities="_-mha4ZXkEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_uliBiwahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_yxZ7IJEPEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_rMbHwJXmEeCeRuB-coqLuQ" name="Update functional safety assessment" guid="_rMbHwJXmEeCeRuB-coqLuQ" presentationName="Update functional safety assessment" briefDescription="Depending on the impact of the change request the functional safety assessment is carried out on the documented change and the functional safety assessment updated to reflect the effects of the change." isPlanned="true" superActivities="_-mha4ZXkEeCeRuB-coqLuQ" linkToPredecessor="_TbfzwZXnEeCeRuB-coqLuQ" additionallyPerformedBy="_lpBwoJXmEeCeRuB-coqLuQ" mandatoryInput="_rMk4wJXmEeCeRuB-coqLuQ _qapskpXmEeCeRuB-coqLuQ" output="_rMk4wJXmEeCeRuB-coqLuQ" performedPrimarilyBy="_mvXGkZXmEeCeRuB-coqLuQ">
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_laeO4JESEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_rMk4wJXmEeCeRuB-coqLuQ" name="Functional safety assesment plan" guid="_rMk4wJXmEeCeRuB-coqLuQ" presentationName="Functional safety assessment plan " briefDescription="Plan detailing how the functional safety of the item will be assessed." isPlanned="false" superActivities="_-mha4ZXkEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_uliBjAahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_8yMPoIh0EeCE4bK4CwiExg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_QdpikJXnEeCeRuB-coqLuQ" guid="_QdpikJXnEeCeRuB-coqLuQ" pred="_lo4msJXmEeCeRuB-coqLuQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_RLGecZXnEeCeRuB-coqLuQ" guid="_RLGecZXnEeCeRuB-coqLuQ" pred="_mvXGkJXmEeCeRuB-coqLuQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_SyEcQZXnEeCeRuB-coqLuQ" guid="_SyEcQZXnEeCeRuB-coqLuQ" pred="_ouxZkJXmEeCeRuB-coqLuQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_TbfzwZXnEeCeRuB-coqLuQ" guid="_TbfzwZXnEeCeRuB-coqLuQ" pred="_qagioJXmEeCeRuB-coqLuQ"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_-mha4ZXkEeCeRuB-coqLuQ" name="8.8 Change Management" guid="_-mha4ZXkEeCeRuB-coqLuQ" presentationName="8.8 Change Management" briefDescription="The process of change management details how a change request is generated, evaluated and implemented (if accepted) into the systems development. &#xD;&#xA;This is a generic process that applies across the whole development lifecycle." breakdownElements="_lo4msJXmEeCeRuB-coqLuQ _lpBwoJXmEeCeRuB-coqLuQ _lpBwopXmEeCeRuB-coqLuQ _lpBwpJXmEeCeRuB-coqLuQ _lpBwppXmEeCeRuB-coqLuQ _mvXGkJXmEeCeRuB-coqLuQ _mvXGkZXmEeCeRuB-coqLuQ _mvXGk5XmEeCeRuB-coqLuQ _mvXGlZXmEeCeRuB-coqLuQ _mvXGl5XmEeCeRuB-coqLuQ _nuZhsJXmEeCeRuB-coqLuQ _nuZhsZXmEeCeRuB-coqLuQ _ouxZkJXmEeCeRuB-coqLuQ _ouxZkZXmEeCeRuB-coqLuQ _qagioJXmEeCeRuB-coqLuQ _qapskJXmEeCeRuB-coqLuQ _qapskpXmEeCeRuB-coqLuQ _rMbHwJXmEeCeRuB-coqLuQ _rMk4wJXmEeCeRuB-coqLuQ">
+      <presentation xmi:id="-ioS6KlO_E-M0dY5laWGNdQ" href="uma://-iPUpWXTgdRGWqIBsKGMN5g#-ioS6KlO_E-M0dY5laWGNdQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

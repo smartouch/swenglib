@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-nwXZ9YJB3WLjAzZLN8b0nQ" name=",_hRkFAL2gEd6N54g5903uPw" guid="-nwXZ9YJB3WLjAzZLN8b0nQ" changeDate="2009-11-27T11:45:17.625-0800" version="7.5.0">
+  <mainDescription>&lt;h4>&#xD;
+    Functional Decomposition&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    Repeat the decomposition until you feel the leaf functions&amp;nbsp;can be performed by a single system component.&amp;nbsp; It&#xD;
+    is better to stop decomposing too soon, and perform further decomposition later during architecture design as&#xD;
+    required.&amp;nbsp; Rule of thumb is to decompose to no more than three levels.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    Use of swim-lanes&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    There is always a discussion whether actor swim lanes should be shown in an activity diagram. In many cases this may&#xD;
+    lead to &quot;messy&quot; diagrams. Focus of the activity diagram should be on the system's internal functional flow. Actor swim&#xD;
+    lanes and associated activities should be considered only when they support the understanding of system requirements&#xD;
+    and readability can be maintained.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A recommended alternative is shown in the activity diagram below. The interactions with the environment are documented&#xD;
+    in the description of the relevant action (e.g. readSecurityCard).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note: If an activity diagram contains too much detail, some actions may be placed in a Reference Activity Diagram. Do&#xD;
+    not use SubActivity Diagrams because these can contain actions only for a single swim lane. In the later white-box&#xD;
+    activity diagrams the actions may span a number of swim lanes.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;439&quot; alt=&quot;&quot; src=&quot;resources/def_of_functional_flow.jpg&quot; width=&quot;583&quot; />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

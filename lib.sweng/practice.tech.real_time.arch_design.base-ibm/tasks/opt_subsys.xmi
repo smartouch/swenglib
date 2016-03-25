@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-8RsEa2qy4UHWXlz8iDivfA" name="opt_subsys,_z0irwLB2Ed-_-u_W99sqSA" guid="-8RsEa2qy4UHWXlz8iDivfA" changeDate="2010-10-20T10:55:29.203-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    A subsystem is a microcosm within the system, normally focused on a separate line-replaceable unit (LRU) or component&#xD;
+    within the larger system. A subsystem normally focuses primarily within one or a small number of disciplines (e.g. a&#xD;
+    communication subsystem, a navigation subsystem, or a tracking subsystem). It is usually identified to ease&#xD;
+    construction of the overall system and as a way to manage the staff developing the system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In the model organization, it is common to decompose system-level use cases into &quot;part&quot; use cases (via the «include»&#xD;
+    relation), each of which maps to a single subsystem. The subsystem specification package then contains the&#xD;
+    subsystem-level use cases and defining details that specify that specific subsystem.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_ggfnMNxzEd-iT-dJmEtOOg" name="Create system-flow scenarios for the system-level use cases" guid="_ggfnMNxzEd-iT-dJmEtOOg">
+    <sectionDescription>To ensure that the identified subsystems can meet the system demands, elaborate the system use case scenarios to show how&#xD;
+the subsystems collaborate to realize each.</sectionDescription>
+  </sections>
+  <sections xmi:id="_lJxfcNxzEd-iT-dJmEtOOg" name="Review interfaces with stakeholders" guid="_lJxfcNxzEd-iT-dJmEtOOg">
+    <sectionDescription>Review the interfaces with the subsystem that will either offer or require those services and the architect.</sectionDescription>
+  </sections>
+  <sections xmi:id="_mr-SANxzEd-iT-dJmEtOOg" name="Put subsystem interfaces under configuration management" guid="_mr-SANxzEd-iT-dJmEtOOg">
+    <sectionDescription>Putting the interfaces under CM ensures all stakeholders use a common definition. If it is found to be invalid, incorrect,&#xD;
+or suboptimal later, it can be thawed, renegotiated by the stakeholders, and refrozen.</sectionDescription>
+  </sections>
+  <sections xmi:id="_pguRkNxzEd-iT-dJmEtOOg" name="Decompose system use cases into subsystem-level use cases (top-down approach)" guid="_pguRkNxzEd-iT-dJmEtOOg"/>
+  <sections xmi:id="_v8lhwNxzEd-iT-dJmEtOOg" name="Allocate services to subsystems and build up subsystem-level use cases (bottom-up approach)" guid="_v8lhwNxzEd-iT-dJmEtOOg"/>
+  <sections xmi:id="_AdYakNx0Ed-iT-dJmEtOOg" name="Put subsystem interfaces in the shared model" guid="_AdYakNx0Ed-iT-dJmEtOOg">
+    <sectionDescription>Since multiple subsystems will use the same interface definition (at least one offering and one requiring), it is important&#xD;
+that the very &lt;em>same&lt;/em> interface is used by all stakeholders. Putting the interfaces into a common shared repository&#xD;
+ensures that.</sectionDescription>
+  </sections>
+  <sections xmi:id="_1eymENxzEd-iT-dJmEtOOg" name="Cluster services into interfaces" guid="_1eymENxzEd-iT-dJmEtOOg"/>
+  <purpose>The purpose of this task is to identify the large-scale architectural pieces of the system.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

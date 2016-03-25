@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_2ewaQCw5Ed2K3Yip7M1QZA" guid="_2ewaQCw5Ed2K3Yip7M1QZA">
+    <resourceDescriptors xmi:id="__TlQYSw6Ed2K3Yip7M1QZA" id="-sRg84k4fqdDUFPndy_t8iQ" uri="guidances/practices/continuous_integration.ibm.xmi"/>
+    <resourceDescriptors xmi:id="_2QDzEWmTEd2wW88Ut0zE5w" id="-JCQuTZs3V6aEIuoJrdbsNw" uri="guidances/supportingmaterials/release_info_continuous_integration.ibm.xmi"/>
+    <resourceDescriptors xmi:id="_1UMBkV0cEd-Kuv9Cj7anBg" id="-Rqjyw2sYO7zsHp_Vi5xt1A" uri="guidances/toolmentors/integrate_and_create_build_using_rad.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_2ewaMCw5Ed2K3Yip7M1QZA" userChangeable="false" name="practice.tech.continuous_integration.extend-ibm" guid="_2ewaMCw5Ed2K3Yip7M1QZA" presentationName="Continuous Integration (Extend-IBM)" changeDate="2011-08-11T12:01:53.359-0700">
+    <methodElementProperty xmi:id="_2zcawremEd-oHLor78AFuw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_VBVtYBXVEdyM9L6rbYAZaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2ewaMSw5Ed2K3Yip7M1QZA" name="Content" guid="_2ewaMSw5Ed2K3Yip7M1QZA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2ewaMiw5Ed2K3Yip7M1QZA" name="Categories" guid="_2ewaMiw5Ed2K3Yip7M1QZA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2ewaMyw5Ed2K3Yip7M1QZA" name="Domains" guid="_2ewaMyw5Ed2K3Yip7M1QZA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2ewaNCw5Ed2K3Yip7M1QZA" name="Disciplines" guid="_2ewaNCw5Ed2K3Yip7M1QZA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2ewaNSw5Ed2K3Yip7M1QZA" name="RoleSets" guid="_2ewaNSw5Ed2K3Yip7M1QZA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2ewaNiw5Ed2K3Yip7M1QZA" name="WP Types" guid="_2ewaNiw5Ed2K3Yip7M1QZA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2ewaNyw5Ed2K3Yip7M1QZA" name="Tools" guid="_2ewaNyw5Ed2K3Yip7M1QZA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_SNnvMHpiEd-lOq2Oa3QeDQ" name="rad.ci" guid="_SNnvMHpiEd-lOq2Oa3QeDQ" variabilityType="contributes" toolMentors="_e8oJsF0cEd-Kuv9Cj7anBg">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_3mXbsMYhEdyXeo04os5BOw#_-7ifMILgEd-1weEJENVG7w"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2ewaOCw5Ed2K3Yip7M1QZA" name="StandardCategories" guid="_2ewaOCw5Ed2K3Yip7M1QZA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2ewaOSw5Ed2K3Yip7M1QZA" name="CustomCategories" guid="_2ewaOSw5Ed2K3Yip7M1QZA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2ewaOiw5Ed2K3Yip7M1QZA" name="Hidden" guid="_2ewaOiw5Ed2K3Yip7M1QZA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_2ewaOyw5Ed2K3Yip7M1QZA" name="Custom Categories" guid="_2ewaOyw5Ed2K3Yip7M1QZA"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2ewaPCw5Ed2K3Yip7M1QZA" name="CoreContent" guid="_2ewaPCw5Ed2K3Yip7M1QZA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2MVYACw6Ed2K3Yip7M1QZA" name="continuous integration" guid="_2MVYACw6Ed2K3Yip7M1QZA" presentationName="Continuous Integration">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_7H4sACw6Ed2K3Yip7M1QZA" name="continuous_integration.ibm" guid="_7H4sACw6Ed2K3Yip7M1QZA" variabilityType="contributes">
+            <presentation xmi:id="-sRg84k4fqdDUFPndy_t8iQ" href="uma://-sRg84k4fqdDUFPndy_t8iQ#-sRg84k4fqdDUFPndy_t8iQ"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Practice" href="uma://_D-ExQMktEdygFZkm1d5NtQ#_rJNiMB4rEd2bS8fFOQ7WWA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2M7mkGmTEd2wW88Ut0zE5w" name="release_info" guid="_2M7mkGmTEd2wW88Ut0zE5w" presentationName="Release Info">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_2M7mkWmTEd2wW88Ut0zE5w" name="release_info_continuous_integration.ibm" guid="_2M7mkWmTEd2wW88Ut0zE5w" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif" variabilityType="contributes">
+            <presentation xmi:id="-JCQuTZs3V6aEIuoJrdbsNw" href="uma://-JCQuTZs3V6aEIuoJrdbsNw#-JCQuTZs3V6aEIuoJrdbsNw"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_D-ExQMktEdygFZkm1d5NtQ#_NWZp0M3TEdyKkus0T68H3Q"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_MzFxcF0cEd-Kuv9Cj7anBg" name="Tool Mentors" guid="_MzFxcF0cEd-Kuv9Cj7anBg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_PzwtIF0cEd-Kuv9Cj7anBg" name="integrate_and_create_build.rad" guid="_PzwtIF0cEd-Kuv9Cj7anBg" variabilityType="contributes" toolMentors="_e8oJsF0cEd-Kuv9Cj7anBg">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_D-ExQMktEdygFZkm1d5NtQ#_kkZBgJOKEdyaRbFYa4AN4A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_e8oJsF0cEd-Kuv9Cj7anBg" name="integrate_and_create_build_using_rad" guid="_e8oJsF0cEd-Kuv9Cj7anBg" presentationName="Integrate and Create Build using Rational Application Developer" briefDescription="This toolmentor describes the use of Rational Application Developer to integrate and create build.">
+            <presentation xmi:id="-Rqjyw2sYO7zsHp_Vi5xt1A" href="uma://-Rqjyw2sYO7zsHp_Vi5xt1A#-Rqjyw2sYO7zsHp_Vi5xt1A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_TRppUMRMEeCvXflP40nnuA" name="integrate_and_create_build.rtc" guid="_TRppUMRMEeCvXflP40nnuA" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_D-ExQMktEdygFZkm1d5NtQ#_kkZBgJOKEdyaRbFYa4AN4A"/>
+            <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_1QU9MAIoEdyLh7vsrHZ4YA"/>
+            <toolMentors href="uma://_3mXbsMYhEdyXeo04os5BOw#_bvhk8DodEeCpzolR6oKRqQ"/>
+            <toolMentors href="uma://_3mXbsMYhEdyXeo04os5BOw#_yDgkYDodEeCpzolR6oKRqQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_2ewaPSw5Ed2K3Yip7M1QZA" name="CapabilityPatterns" guid="_2ewaPSw5Ed2K3Yip7M1QZA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_2ewaPiw5Ed2K3Yip7M1QZA" name="DeliveryProcesses" guid="_2ewaPiw5Ed2K3Yip7M1QZA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_2ewaPyw5Ed2K3Yip7M1QZA" name="ProcessContributions" guid="_2ewaPyw5Ed2K3Yip7M1QZA"/>
+    <bases href="uma://_rhS8wCB1Ed2BC837SW9yQQ#_rhS8wCB1Ed2BC837SW9yQQ"/>
+    <bases href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_iX6DsBXGEdyM9L6rbYAZaw"/>
+    <bases href="uma://_3mXbsMYhEdyXeo04os5BOw#_3mXbsMYhEdyXeo04os5BOw"/>
+    <bases href="uma://_OOB2AAouEdyhlpBPrduOMw#_OOB2AAouEdyhlpBPrduOMw"/>
+    <bases href="uma://_D-ExQMktEdygFZkm1d5NtQ#_D-ExQMktEdygFZkm1d5NtQ"/>
+    <bases href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0TmecJ-VEdy3Nc4rvuj7bA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

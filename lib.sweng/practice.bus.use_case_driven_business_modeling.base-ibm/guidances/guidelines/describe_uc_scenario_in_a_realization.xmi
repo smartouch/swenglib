@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-nerquSLYaNyT2xzJfCfGVQ" name="new_guideline,_6-fXgHL0Ed6bjOEjgEchEQ" guid="-nerquSLYaNyT2xzJfCfGVQ" changeDate="2009-07-22T15:45:26.078-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Create a UML sequence diagram within the appropriate use-case realization. Identify the element (often a business actor&#xD;
+    or business worker) that starts the scenario. Place that element on the sequence diagram.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Ask what happens first in the scenario. Who or what does the first element need to communicate with in order to perform&#xD;
+    the first step of the use case? What needs to get done? There can be multiple operations that need to be performed to&#xD;
+    realize a single step in the use case.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Place the business element that the initiating element must interact with into the sequence diagram. That element might&#xD;
+    already have operations associated with it. If so, see if one of those operations will accomplish what needs to be&#xD;
+    done. If not, add a new operation to the element just placed in the diagram that will accomplish what needs to get&#xD;
+    done. This is how you identify and document the behavior that the business elements must perform.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Before creating a new operation, check other elements to see if they provide the necessary operation. If so, use them&#xD;
+    instead of your first choice. It might be possible that the operation you're looking for is actually accomplished by&#xD;
+    multiple operations across a number of business elements. Place those elements on the sequence diagram and call their&#xD;
+    operations in the appropriate order. This might be a pattern the business repeats in many areas. Leverage these&#xD;
+    patterns whenever possible. Business patterns can often be found in the business architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When it's clear that the sequence diagram shows sufficient behavior to perform the first step of the use-case scenario,&#xD;
+    move to the second step and repeat the procedure. Who's involved next? What needs to happen in order to make the step&#xD;
+    in the use-case scenario happen?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The scenario has been realized when there are sufficient operations and interactions, in the proper order, for all&#xD;
+    steps of the use-case scenario to be performed by the business.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/examples/sequence_diagram_realizing_a_use-case_scenario_DEFFC1F0.html&quot; guid=&quot;_yyzpkFoIEd6Gvq_dRUXeQw&quot;>Example: Sequence Diagram Realizing a Use-Case Scenario&lt;/a>&amp;nbsp;to see an example of&#xD;
+    how a sequence diagram realizes a business use-case scenario.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

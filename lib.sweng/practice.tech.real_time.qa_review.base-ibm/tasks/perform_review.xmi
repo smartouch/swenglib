@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-KZ9YYmxzDhFQDl6eKTrXjA" name=",_RA6QwJiREeCHuaDqfjetaA" guid="-KZ9YYmxzDhFQDl6eKTrXjA" changeDate="2011-06-17T11:56:16.687-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    There are a number of work products created in a modern software-centric development project. Any of them may be&#xD;
+    subject to a review meeting, depending on the delivery process in which they are created. Some of these include:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Requirements specification&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Systems engineering models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Architectural Specifications&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Project schedules&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Software or hardware design models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Software source code&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test cases, procedures, and results&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Plans: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Software Development Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Quality Assurance Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Software Verification Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Verification and Validation Test Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Configuration Management Plan&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The best way to inject quality into work products is through careful engineering and demonstration and test via&#xD;
+    execution or simulation. For many of these work products, execution isn't feasible, so reviews are a way of assessing&#xD;
+    the quality of the work product. In addition, many work products must conform to guidelines, standards or templates and&#xD;
+    this is most easily demonstrated through a review process. Lastly, reviews also serve to disseminate information to&#xD;
+    different stakeholders about the structure, content, and quality of a work product.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    Reviews are &lt;em>very&lt;/em> expensive to perform but, when performed well,&amp;nbsp;are highly valuable. It is crucial that&#xD;
+    they be performed effectively. Identified issues should be solved outside of the meeting. Subsequent reviews need only&#xD;
+    go over the lists of actions from the meeting to ensure each issue has been appropriately addressed. This means that&#xD;
+    the list of actions is an essential artifact for effective reviews.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is crucial to understand that reviews are not a replacement for good modeling in the first place. One of the basic&#xD;
+    requirements prior to reviewing is that the model &lt;em>executes properly&lt;/em>. In a PIM review process, this means that&#xD;
+    it is debugged and can replicate (via execution) the use case scenarios. In a PSM review process, this means that the&#xD;
+    model has passed formal unit testing. You should NEVER find a compilation problem in a review meeting; it is far&#xD;
+    cheaper to have the product owner find that on their own &lt;em>prior to planning the review&lt;/em> rather than find it in a&#xD;
+    room full of people. The intent of the review should be to evaluate an set of already high-quality artifacts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is also very important to &lt;em>stay focused&lt;/em> during the review. The meeting leader needs to rule with a (silk&#xD;
+    covered) iron fist. Reviews are very expensive so the object is to perform the intent of the review as efficiently as&#xD;
+    possible.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note: subsequent reviews of an already-reviewed work product should focus exclusively on the list of actions from the&#xD;
+    previous review.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_YVosEJkUEeC4zvtKrl-GoQ" name="Determine the purpose of the review" guid="_YVosEJkUEeC4zvtKrl-GoQ">
+    <sectionDescription>&lt;p>&#xD;
+    Real models are too large to be reviewed in their entirety in a single review. Each review must have a specific purpose&#xD;
+    or intent, and subsequently examine only the subset of the model relevant to that purpose. Some common review intents&#xD;
+    are to perform the following actions:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        evaluate and understand systems engineering handoff models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        evaluate the use cases and their details&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        evaluate object analysis (platform-independent) models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        evaluate design (platform-specific) models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        evaluate the adequacy and coverage of a test plan and its details&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        evaluate the result of the actions taken after a previous review&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_a7CoEJkUEeC4zvtKrl-GoQ" name="Prepare material for review" guid="_a7CoEJkUEeC4zvtKrl-GoQ">
+    <sectionDescription>&lt;p>&#xD;
+    In this step, the material is gathered together for a review. There are almost always multiple artifacts that are&#xD;
+    reviewed together. For example, a review of a use case model usually includes the following artifacts:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Relevant use case diagrams&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Corresponding requirement text&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use case sequence diagrams&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use case state machines&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        QoS constraints&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use case descriptions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        List of actions from previous reviews (if applicable)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    For the review of an object analysis model, common artifacts include:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        For each use case in the object analysis model&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Class diagram(s) showing the collaboration of elements realizing the use case&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Original use case sequence diagrams&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Elaborated sequence diagrams showing the interaction&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                State machine diagrams for stateful classes&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Activity diagrams for complex algorithms&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                List of actions from previous reviews (if applicable)&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_dA_n8JkUEeC4zvtKrl-GoQ" name="Disseminate materials to reviewers" guid="_dA_n8JkUEeC4zvtKrl-GoQ">
+    <sectionDescription>The materials should be in the hands of the reviewers no less than 2 nor more than 14 days prior to the review.</sectionDescription>
+  </sections>
+  <sections xmi:id="_eqy3UJkUEeC4zvtKrl-GoQ" name="Schedule review" guid="_eqy3UJkUEeC4zvtKrl-GoQ">
+    <sectionDescription>&lt;p>&#xD;
+    The room for the review - along with any special equipment required (e.g. projector, white boards, internet connection,&#xD;
+    computer, modeling tool availability, etc) - is scheduled and invitations issued to the reviewers.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_fvo_gJkUEeC4zvtKrl-GoQ" name="Reviewers inspect material individually" guid="_fvo_gJkUEeC4zvtKrl-GoQ">
+    <sectionDescription>The time to read the materials is &lt;em>not&lt;/em> within the review meeting itself! The reviewers should come to the meeting&#xD;
+with comments and issues they want to address.</sectionDescription>
+  </sections>
+  <sections xmi:id="_hp00QJkUEeC4zvtKrl-GoQ" name="Collectively discuss review comments" guid="_hp00QJkUEeC4zvtKrl-GoQ">
+    <sectionDescription>Each issue or comment from a review should be heard and addressed by the product owner. If it is determined to be an issue,&#xD;
+the issue is specified on the list of actions to be resolved.</sectionDescription>
+  </sections>
+  <sections xmi:id="_jlqO0JkUEeC4zvtKrl-GoQ" name="Perform actions" guid="_jlqO0JkUEeC4zvtKrl-GoQ">
+    <sectionDescription>As a result of the list of actions identified in the review, the product owner must modify the model or in some way address&#xD;
+each of the issues.&amp;nbsp; Then, if the changes are not trivial, a following meeting is planned (start back with the first&#xD;
+step).</sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    The purpose of this task is to assess the quality, content, and/or compliance of a coherent set of work products with a&#xD;
+    focus on:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Improve the content or organization of the work product&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Disseminate information amongst a set of stakeholders&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure adherence to QA standards and guidelines&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure adherence to relevant industry guidelines and practices&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensure adherence to standards&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

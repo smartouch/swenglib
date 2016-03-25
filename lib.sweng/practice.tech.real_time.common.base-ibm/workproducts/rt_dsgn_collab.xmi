@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-pkhQXyJ9e2htuKgKegn_jg" name="rt_dsgn_collab,_XoTcoNYfEd-ILILBAvkcFg" guid="-pkhQXyJ9e2htuKgKegn_jg" changeDate="2010-10-26T11:37:16.875-0700" version="7.5.0">
+  <mainDescription>A collaboration is a set of object roles (typed by classes) that are interrelated by relations (e.g. association,&#xD;
+aggregation, composition, generalization, and dependencies) so that they work together to achieve a larger-scale behavior.&#xD;
+In an object analysis model (PIM), the collaboration captures the essential object roles, attributes, operations, states,&#xD;
+events, and relations that must be present for the collaboration to properly semantically model the problem. In a design&#xD;
+model (PSM), the collaboration is optimized against the various design constraints.</mainDescription>
+  <keyConsiderations>The design collaboration (part of the PSM) starts life as the analysis collaboration but is optimized by applying selected&#xD;
+design patterns to it. Thus, the design collaboration executes and can replicate the use case scenario functionality but&#xD;
+also meets the QoS and other design constraints required of the system.</keyConsiderations>
+  <purpose>The purpose of a collaboration is to specify how internal elements of a system work together to realize a larger-scale&#xD;
+functionality, most commonly a use case. A design collaboration not only realizes the functional behavior of the user case&#xD;
+(and of its associated analysis collaboration) but is also optimized against the QoS requirements and other design&#xD;
+constraints.</purpose>
+  <impactOfNotHaving>The design collaboration explicitly represents the PSM version of the analysis collaboration. Not representing the design&#xD;
+collaboration means that it is difficult to understand, view, or modify the design patterns representing the PSM decisions.</impactOfNotHaving>
+  <reasonsForNotNeeding>If the production of the design model is done entirely via a&amp;nbsp;translative approach, then the design collaboration may&#xD;
+only be implicitly represented if the translator produces the PSI (Platform Specific Implementation) directly.</reasonsForNotNeeding>
+</org.eclipse.epf.uma:ArtifactDescription>

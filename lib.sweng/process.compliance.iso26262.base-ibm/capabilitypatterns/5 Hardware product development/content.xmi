@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zgJlnu-mDz6prYL2TBSn0w" name="Refine project plan,_TRvtEJ5GEeCk2aQcgmZB_w" guid="-zgJlnu-mDz6prYL2TBSn0w">
+    <refinedDescription>&lt;p>&#xD;
+    Update the project plan with details of the hardware development phase, according to the tasks detailed in the&#xD;
+    reference phase model for the HW development phase, as detailed in ISO 26262, clause 5.2&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4WHXM7mM_SBQVe00pBFdNg" name="Refine safety plan,_TRvtEZ5GEeCk2aQcgmZB_w" guid="-4WHXM7mM_SBQVe00pBFdNg">
+    <refinedDescription>&lt;p>&#xD;
+    Update the safety plan with details of the hardware development phase. Specifically regarding activities to determine&#xD;
+    the correct methods and measures that are&amp;nbsp; to be used to ensure functional safety of the hardware elements of the&#xD;
+    design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The safety plan is based upon the activities for the HW product development described in ISO 26262, Vol 5, clauses&#xD;
+    6-10, and it references the reference phase model for the HW development phase, as detailed in ISO 26262, clause 5.2.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-OJdGnM8FE3t-ocoHIG75WQ" name="Safety Manager,_TRvtEp5GEeCk2aQcgmZB_w" guid="-OJdGnM8FE3t-ocoHIG75WQ">
+    <refinedDescription>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-PpOPW8dZUYXYngZBACfPaA" name="Project_Manager,_TRvtFJ5GEeCk2aQcgmZB_w" guid="-PpOPW8dZUYXYngZBACfPaA">
+    <refinedDescription>&lt;div style=&quot;MARGIN-LEFT: 2em&quot;>&#xD;
+    &lt;p dir=&quot;ltr&quot;>&#xD;
+        Assigns the safety manager&lt;br />&#xD;
+        Ensures that the safety activities are performed and compliance with ISO26262 is achieved&lt;br />&#xD;
+        Verifies that the organisation has provided the required resources to carry out the functional safety activities&#xD;
+    &lt;/p>&#xD;
+&lt;/div></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KSm8SXZVTjA3F6DYO8Oaxg" name="Item integration and testing plan,_TRvtGJ5GEeCk2aQcgmZB_w" guid="-KSm8SXZVTjA3F6DYO8Oaxg">
+    <refinedDescription>&lt;p>&#xD;
+    The integration and test plan is scoped to the system and vehicle level and considers information such as the&#xD;
+    specification of the integration test (so that issues arising from the HW and SW verifications are included), the&#xD;
+    interfaces between subsystems and the environment and all the relevant configuration and calibration data for all&#xD;
+    variants of the item that are intended for production.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The user is referred to ISO 26262 Vol 4, clause 7.4.11 for further details.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-l8gY6CPu-C21sdJSQU58Xw" name="Determine hardware architectural metrics requirements,_O70tUJ5UEeCHFd5_MqJHKQ" guid="-l8gY6CPu-C21sdJSQU58Xw">
+    <refinedDescription>&lt;p>&#xD;
+    This task is applicable to elements with&amp;nbsp;a safety goal that has an&amp;nbsp;ASIL of (B), C and D.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The single point and latent fault metric values specified in the system specification shall be considered when showing&#xD;
+    compliance to this item.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is recommended that users refer to ISO 26262, vol 5 annexes C, E and F&amp;nbsp;for information regarding HW&#xD;
+    architectural metrics.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JQH_6mL-d0dG94ZYK6DLcw" name="Determine random hardware failure requirements,_O70tUZ5UEeCHFd5_MqJHKQ" guid="-JQH_6mL-d0dG94ZYK6DLcw">
+    <refinedDescription>&lt;p>&#xD;
+    This task applies to safety goals with an ASIL (B), C and D. the capture of the safety metrics is derived from the&#xD;
+    systems specification and provides the basis for the verification of the HW requirements.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-S7OobVEpQ0YDA2VsTJLX3Q" name="Develop HW Safety requirements specification,_O70tUp5UEeCHFd5_MqJHKQ" guid="-S7OobVEpQ0YDA2VsTJLX3Q">
+    <refinedDescription>&lt;p>&#xD;
+    The hardware safety requirements specification is derived from the the technical safety requirements allocated to the&#xD;
+    particular piece of HW and&amp;nbsp;shall contain each HW requirement that relates to safety.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This includes hardware safety requirements of safety mechanisms:-&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To control internal failures of the HW and their attributes.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To make the element under consideration fault tolerant to external failures that might affect the element, with their&#xD;
+    attributes.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To comply with the safety requirements of other elements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To detect and signal internal and external failures.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The criteria for qualification and testing of the hardware item or elements is specified in ISO 26262 vol 8, clause 13&#xD;
+    and should comply with ISO 26262, vol 5 clause 10.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For further details of example of the types of requirements that the above covers, the user is directed to ISO 26262&#xD;
+    vol 5, clause 6.4.2.&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UE69IdMQMf63x72sxs3NrA" name="Refine HSI report,_O70tU55UEeCHFd5_MqJHKQ" guid="-UE69IdMQMf63x72sxs3NrA">
+    <refinedDescription>&lt;p>&#xD;
+    The HW and SW engineers responsible for the development of these items are jointly responsible for verifying the&#xD;
+    adequacy of the refined HSI specification.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-fU7H-Q6-iPeKABunzEJJug" name="Verify HW safety requirements,_O70tVJ5UEeCHFd5_MqJHKQ" guid="-fU7H-Q6-iPeKABunzEJJug">
+    <refinedDescription>&lt;p>&#xD;
+    Depending upon the ASIL level of the safety goals to be realised by the hardware element, the element is verified that&#xD;
+    it is consistent with the technical safety concept, the system design specification and the hardware specification.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The hardware safety requirements should also be complete, consistent and accurate with respect to the technical safety&#xD;
+    requirements that have been allocated to the hardware element.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The recommended means of checking this is shown in the table below&#xD;
+&lt;/p>&#xD;
+&lt;table dir=&quot;ltr&quot; border=&quot;1&quot; cellspacing=&quot;1&quot; cellpadding=&quot;4&quot; width=&quot;659&quot;>&#xD;
+    &lt;tbody>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;center&quot; rowspan=&quot;2&quot; width=&quot;68%&quot; colspan=&quot;2&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>&lt;i>Methods&lt;/i>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;center&quot; width=&quot;32%&quot; colspan=&quot;4&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>&lt;i>ASIL&lt;/i>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;9%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>&lt;i>A&lt;/i>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>&lt;i>B&lt;/i>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>&lt;i>C&lt;/i>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;7%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>&lt;i>D&lt;/i>&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;17%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                    &lt;i>1a&lt;/i>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;51%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                    &lt;i>Walkthrough of hardware safety requirements&lt;/i>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;i>++&lt;/i>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;center&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;i>+&lt;/i>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;center&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;i>o&lt;/i>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;i>o&lt;/i>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;17%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                    &lt;i>1b&lt;/i>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;51%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                    &lt;i>Inspection of hardware safety requirements&lt;/i>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;center&quot; width=&quot;9%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;i>+&lt;/i>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;center&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;i>++&lt;/i>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;center&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;i>++&lt;/i>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;i>++&lt;/i>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+    &lt;/tbody>&#xD;
+&lt;/table>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KeKZpFXIiXIby84UZYyAIA" name="Requirements Engineer,_87gRx55vEeCHFd5_MqJHKQ" guid="-KeKZpFXIiXIby84UZYyAIA">
+    <refinedDescription>&lt;p>&#xD;
+    Identifies, analyses and structures requirements so that they are captured in an understandable and logical manner.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Aids with creating traceability links and baselines for requirements management.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zt2ZUoXz-7F-ntcM95EvbQ" name="Carry out HW safety analysis,_CkG5AJ5wEeCHFd5_MqJHKQ" guid="-zt2ZUoXz-7F-ntcM95EvbQ">
+    <refinedDescription>&lt;p>&#xD;
+    ISO 2626 Vol 9, clause 8 should be referred to for the means of applying safety analysis to the HW architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For details on the requirements for safety analysis (as the form of the analysis is very dependent upon the ASIL level&#xD;
+    being analysed) it is recommended that the user refer to ISO 26262, vol 5, clause 7.4.3. This covers information&#xD;
+    regarding single, double, and multi point failures.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For details of analysis regarding dependent failures, which is the basis for compliance of HW design to independent&#xD;
+    failures, the user should refer to ISO 26262, vol 9, clause 7.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In the case of of hazards introduced by the intended design,&amp;nbsp; the change management strategy outlined in ISO&#xD;
+    26262, vol 8, clause 8 should be applied.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is recommended that users refer to ISO 26262, vol 5 annex B for information regarding failure mode classification of&#xD;
+    an element.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    FMEA and FTA can be used as a means to aid the HW safety analysis, this can be carried out using model based approaches&#xD;
+    detailed in &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.real_time.safe_rel_analysis.base-ibm/guidances/practices/safe_rel_an_966E315A.html&quot;&#xD;
+    guid=&quot;_2BtTQLePEd-05egMquN4Dg&quot;>Safety and Reliability Analysis&lt;/a>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-PJMrzxaKhNwUTdka-np-5A" name="Develop HW design,_CkG5AZ5wEeCHFd5_MqJHKQ" guid="-PJMrzxaKhNwUTdka-np-5A">
+    <refinedDescription>&lt;p>&#xD;
+    The HW design shall implement the HW safety requirements, with each element inheriting the highest ASIL from the&#xD;
+    hardware safety requirements that are allocated to it. It is possible to lower the ASIL of a particular element based&#xD;
+    upon the ASIL decomposition rules outline in ISO 26262, vol 9, clause 5. If sub-elements with different ASIL exist&#xD;
+    within the main element then the highest ASIL is applied, unless the rules for coexistence, outlined in ISO 26262, vol&#xD;
+    9, clause 6 are met.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The safety requirements shall be traced down to the level of the HW component, it is not necessary to trace safety&#xD;
+    requirements and assign ASIL to hardware parts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Well trusted&amp;nbsp;hardware components and&amp;nbsp;robust design principles should be considered for implementing the&#xD;
+    system (according to ISO 26262, vol 4, clause 7.4.4.6).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Non-functional causes of failure for HW components and parts should be considered during architectural design, such as&#xD;
+    temperature , vibration, water, dust, EMI, cross talk interference etc.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A number of guiding principles regarding the level of granularity, to avoid failures resulting from high complexity are&#xD;
+    given in ISO 26262, vol 5, clause 7.4.1.6.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aYoPkd0P-OBoLs1OcyCjew" name="Develop requirements for production and operation of HW,_CkG5Ap5wEeCHFd5_MqJHKQ" guid="-aYoPkd0P-OBoLs1OcyCjew">
+    <refinedDescription>&lt;p>&#xD;
+    This task is based upon the safety analysis of the HW element and the&amp;nbsp;impact of actions such as assembly,&#xD;
+    dissassembly, decomissioning operations and maintenance on the safety concept.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If such safety-related special characteristics are identified verification measures for production and operation should&#xD;
+    be specified along with acceptance criteria for those measures.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Full traceability to the safety-related hardware element shall also be maintained.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For a detailed understanding of the requirements for production and operation it is advised that the user refer to ISO&#xD;
+    26262, vol 5, clause 7.5.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Lc2A--253yl28dlWXJvykg" name="Verify HW design,_CkG5A55wEeCHFd5_MqJHKQ" guid="-Lc2A--253yl28dlWXJvykg">
+    <refinedDescription>&lt;p>&#xD;
+    The means to achieve the HW verification is detailed in the table below.&#xD;
+&lt;/p>&lt;br align=&quot;center&quot; />&#xD;
+&lt;br />&#xD;
+&lt;center>&#xD;
+    &lt;table dir=&quot;ltr&quot; border=&quot;1&quot; cellspacing=&quot;1&quot; cellpadding=&quot;2&quot; width=&quot;568&quot;>&#xD;
+        &lt;tbody>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;center&quot; rowspan=&quot;2&quot; width=&quot;73%&quot; colspan=&quot;2&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        &lt;b>Methods&lt;/b>&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;27%&quot; colspan=&quot;4&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        &lt;b>ASIL&lt;/b>&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        &lt;b>A&lt;/b>&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        &lt;b>B&lt;/b>&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        &lt;b>C&lt;/b>&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        &lt;b>D&lt;/b>&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;22%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        1a&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;52%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        Hardware design inspectiona&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        +&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        +&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        ++&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        ++&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;22%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        1b&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;52%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        Hardware design walkthrougha&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        ++&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        ++&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        o&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        o&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;22%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        2&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;52%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        Safety analyses&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;27%&quot; colspan=&quot;4&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        See 7.4.3&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;22%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        3a&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;52%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        Emulation by simulationb&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        o&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        +&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        +&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        +&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;22%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        3b&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;52%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        Development by prototype HW&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        o&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        +&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        +&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td valign=&quot;center&quot; width=&quot;7%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        +&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td valign=&quot;top&quot; colspan=&quot;6&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        aMethod 1 serves as a check of the complete and correct implementation of the technical safety&#xD;
+                        requirements in the hardware design&#xD;
+                    &lt;/p>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                        bMethod 3 serves as a check of particular points of hardware design for which analytical methods 1&#xD;
+                        and 2 are not considered sufficient. It can be used among other as a fault injection technique.&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+        &lt;/tbody>&#xD;
+    &lt;/table>&#xD;
+&lt;/center>&#xD;
+&lt;p>&#xD;
+    If hazard is identified as a result of the verification process then&amp;nbsp;a change request is raised and&#xD;
+    the&amp;nbsp;change management process initiated.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-p98F8PuKPGXRAL3QsFXEBA" name="Assess effectiveness of the system architecture to cope with random hardware failures,_QUuwcJ6VEeCHFd5_MqJHKQ" guid="-p98F8PuKPGXRAL3QsFXEBA">
+    <refinedDescription>&lt;p>&#xD;
+    The architecture metrics to be analysed are the single point and the latent fault metrics that were specified in the HW&#xD;
+    specification.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The scope of this analysis is limited to the electrical and electronic parts, only electrical failure modes and failure&#xD;
+    rates are considered for electromechanical parts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Compliance with the HW architectural metrics specified shall be achieved for each safety goal the item is involved in.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If combining applicable safety goals then the target metric of the safety goal with the highest metric shall be&#xD;
+    considered.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is advised that the user refers to ISO 26262 Vol 5, clause 8 for details of the objectives, requirements and&#xD;
+    methods&amp;nbsp;relating to architecture metrics.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is recommended that users refer to ISO 26262, vol 5 annex&amp;nbsp;C for further information regarding HW architectural&#xD;
+    metrics and annex D for evaluation of the diagnostic coverage (this annex has a large number of tables that help with&#xD;
+    identification of possible random HW failures). Appendix E and F are also very informative regarding the use of&#xD;
+    architectural metrics.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-OuJx1t1Qv91vcPTcF03y5g" name="Author review report,_QUuwcZ6VEeCHFd5_MqJHKQ" guid="-OuJx1t1Qv91vcPTcF03y5g">
+    <refinedDescription>It is advised that the user refers to ISO 26262, vol 5, clause 8.4.8 and 9 for the approach to analysing Single point and&#xD;
+latent faults, respectively.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--xM1AKOj77CqXDO1BehDpg" name="Author review report,_LCsK4J6cEeCHFd5_MqJHKQ" guid="--xM1AKOj77CqXDO1BehDpg">
+    <refinedDescription>The review report provides information relating to the safety analysis carried out by the safety team.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IKehXWj-coPegi4MILZYHQ" name="Evaluate random HW failures,_LCsK4Z6cEeCHFd5_MqJHKQ" guid="-IKehXWj-coPegi4MILZYHQ">
+    <refinedDescription>&lt;p>&#xD;
+    Two methods are available to analyse the risk of random HW failures, the first using probabilistic metrics (i.e.&#xD;
+    quantified FTA) and the second being the individual evaluation of every residual, single and dual point failure that&#xD;
+    can lead to a violation of a safety goal.This second form of analysis is can also be considered to be a cut set&#xD;
+    analysis.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For details of the first method refer ISO 26262, vol 5, clause 9.4.3 and for the second clause 9.4.4&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is required that item only needs to comply with the results of one of these assessments&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is highly recommended that the user refers to ISO 26262, vol 5, clause 9.4 for the detailed advice and guidance&#xD;
+    required to achieve this goal.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is recommended that users refer to ISO 26262, vol 5 annex&amp;nbsp;D for evaluation of the diagnostic coverage.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Quantified FTA can be used in both methods see, &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.real_time.safe_rel_analysis.base-ibm/guidances/practices/safe_rel_an_966E315A.html&quot;&#xD;
+    guid=&quot;_2BtTQLePEd-05egMquN4Dg&quot;>Safety and Reliability Analysis&lt;/a>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-0EXtud29ET9YOy_MhEKqBA" name="Specify dedicated measures,_LCsK4p6cEeCHFd5_MqJHKQ" guid="-0EXtud29ET9YOy_MhEKqBA">
+    <refinedDescription>&lt;p>&#xD;
+    When using probabilistic metrics the user is advised to refer to ISO 26262, Vol 5, clause 9.4.3.5-5 for guidance on&#xD;
+    applying special/dedicated measures.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When evaluating each residual, single and double point failure the user is advised to refer to ISO 26262, Vol 5, clause&#xD;
+    9.4.4.5-5 for guidance on applying special/dedicated measures.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wjBvPVhlXuUTiD5fEp_Icg" name="Safety Manager,_LCsK556cEeCHFd5_MqJHKQ" guid="-wjBvPVhlXuUTiD5fEp_Icg">
+    <refinedDescription>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-41gAdIindY5FU7jhTYemqg" name="Integrate HW and Test,_ZgLLUJ6gEeCHFd5_MqJHKQ" guid="-41gAdIindY5FU7jhTYemqg">
+    <refinedDescription>&lt;p>&#xD;
+    Hardware integration and testing activities are based upon the safety plan and shall be executed in accordance with the&#xD;
+    item integration and testing plan.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Test equipment is to be calibrated in accordance with international standards (e.g. ISO 17025) or company standards.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In case of change an impact analysis on test strategy will be carried out in accordance with ISO 26262, vol 8 clause 8.&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JDEVAfeDkZZiwyyi3NW6fA" name="Safety Manager,_ZgLLV56gEeCHFd5_MqJHKQ" guid="-JDEVAfeDkZZiwyyi3NW6fA">
+    <refinedDescription>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-e93ZGSvh09FZnqfhKf12xA" name="Item integration and testing plan,_ZgLLXZ6gEeCHFd5_MqJHKQ" guid="-e93ZGSvh09FZnqfhKf12xA">
+    <refinedDescription>&lt;p>&#xD;
+    The integration and test plan is scoped to the system and vehicle level and considers information such as the&#xD;
+    specification of the integration test (so that issues arising from the HW and SW verifications are included), the&#xD;
+    interfaces between subsystems and the environment and all the relevant configuration and calibration data for all&#xD;
+    variants of the item that are intended for production.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The user is referred to ISO 26262 Vol 4, clause 7.4.11 for further details.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-YtzgqtFjI18RrMwUJoorxQ" name="4.7 System design,_S3tNsZ5MEeCk2aQcgmZB_w" guid="-YtzgqtFjI18RrMwUJoorxQ">
+    <usageGuidance>If using model based techniques then it is advised that the following guidance is employed, use either &lt;a&#xD;
+class=&quot;elementLink&quot; href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/Architectural%20Design%20-%20uc_E8CAF5DD.html&quot;&#xD;
+guid=&quot;_H1zdAa3hEd63sNXoX4A_sA&quot;>Architectural Design - Use-Case based&lt;/a>&amp;nbsp;or &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/Architectural%20Design%20-%20op_54664526.html&quot;&#xD;
+guid=&quot;_E9oWAa3hEd63sNXoX4A_sA&quot;>Architectural Design - Operation based&lt;/a>. These methods also provide the basis for&#xD;
+deriving the HW-SW interface specification and the systems design specification.</usageGuidance>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-0lyyG-prwZCivkEym_L7FQ" name="5 Hardware product development,_V6rioZ2gEeCk2aQcgmZB_w" guid="-0lyyG-prwZCivkEym_L7FQ">
+    <purpose>To develop, verify and validate the HW aspects of the item and to ensure they meet the safety goals to which they have been&#xD;
+assigned.</purpose>
+  </org.eclipse.epf.uma:ProcessDescription>
+</xmi:XMI>

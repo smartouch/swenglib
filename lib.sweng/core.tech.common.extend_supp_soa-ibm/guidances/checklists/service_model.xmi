@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-gWTAOexo8hvN2IeH5qSEFg" name="service_model,_O0Qk0Eo0Ed6D_7XK49c0nw" guid="-gWTAOexo8hvN2IeH5qSEFg" version="7.5.0">
+  <sections xmi:id="_Gq6V4G_VEd6wAYZigc-Hvg" name="The Service Model has a (Candidate) Service Portfolio" guid="_Gq6V4G_VEd6wAYZigc-Hvg">
+    <sectionDescription>The Service Model has a portfolio view -- either via&amp;nbsp;organization-wide or&amp;nbsp;more localized resources -- to the&#xD;
+services that are to be considered for development or reuse during the current project.</sectionDescription>
+  </sections>
+  <sections xmi:id="_1rTksG_VEd6wAYZigc-Hvg" name="The Service Portfolio is categorized appropriately" guid="_1rTksG_VEd6wAYZigc-Hvg">
+    <sectionDescription>The candidate services need to be placed appropriately within the approved organizational taxonomy.&amp;nbsp; See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/solution_partitioning_B6A1C6D8.html&quot; guid=&quot;_Ezt5QFIREd6lNtylJFsPIg&quot;>Concept: Solution Partitioning&lt;/a>&amp;nbsp;for guidance.</sectionDescription>
+  </sections>
+  <sections xmi:id="_OxNtoG_gEd6wAYZigc-Hvg" name="Service exposure decisions are documented" guid="_OxNtoG_gEd6wAYZigc-Hvg">
+    <sectionDescription>Each candidate service that is to be exposed during the current project&amp;nbsp;must be documented as such.&amp;nbsp; In terms of&#xD;
+the UML representation of the service model, SoaML ServiceInterfaces are created from the&amp;nbsp;Capabilities that are&#xD;
+selected&amp;nbsp;for exposure.&amp;nbsp; The exposure decision can be marked by&amp;nbsp;creating an &amp;lt;&amp;lt;Expose&amp;gt;&amp;gt; dependency&#xD;
+from the ServiceInterface to the appropriate Capability.&amp;nbsp;</sectionDescription>
+  </sections>
+  <sections xmi:id="_b3xCQG_iEd6wAYZigc-Hvg" name="Any protocols that must be followed by consumers and providers of a specific service have been documented." guid="_b3xCQG_iEd6wAYZigc-Hvg">
+    <sectionDescription>See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>Concept: ServiceInterface (SoaML)&lt;/a>, &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/examples/service_interface_soaml_EC252D57.html&quot; guid=&quot;_dmG_MFbPEd6MCpkuB85p5g&quot;>Example: ServiceInterface (SoaML)&lt;/a>,&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_contract_soaml_E57B30D4.html&quot; guid=&quot;_IhtgsFbBEd6MCpkuB85p5g&quot;>Concept: ServiceContract (SoaML)&lt;/a>, and &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/examples/service_contract_soaml_A448B6E2.html&quot; guid=&quot;_RucNoFbPEd6MCpkuB85p5g&quot;>Example: ServiceContract (SoaML)&lt;/a>&amp;nbsp;for further discussion.&amp;nbsp; If two roles are&#xD;
+involved in a protocol, the protocol can be effectively documented using a simple behavior that is directly owned by the&#xD;
+ServiceInterface.&amp;nbsp; ServiceContracts are more effective if the protocol involves the interaction of three or more&#xD;
+roles.</sectionDescription>
+  </sections>
+  <sections xmi:id="_wFH-UG_gEd6wAYZigc-Hvg" name="Service dependencies are documented." guid="_wFH-UG_gEd6wAYZigc-Hvg">
+    <sectionDescription>&lt;p>&#xD;
+    Inter-service dependencies are discovered during &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/termdefinitions/service_collaboration_35276470.html&quot; guid=&quot;_V4z3YJgtEd6l6vBsNJSPDA&quot;>Service Collaboration&lt;/a> modeling.&amp;nbsp; In the context of UML models, they are&#xD;
+    documented by creating service RequestPoints on each Participant that realizes a given service.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If a service depends upon a non-exposed capability, this can be documented (in UML) by incorporating the capability into the UML behaviors that describe the implementations (methods) of the service operations.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_TKu2IG_hEd6wAYZigc-Hvg" name="Composite services and associated flows are identified and described." guid="_TKu2IG_hEd6wAYZigc-Hvg">
+    <sectionDescription>A composite service is simply one that depends upon other services for its implementation.&amp;nbsp; So, this item is related&#xD;
+to the previous checklist item.&amp;nbsp; Make certain that the UML behaviors (Activities, Interactions, etc) for the service&#xD;
+operation implementations are documented.&amp;nbsp; These behaviors document the service flows that implement each operation of&#xD;
+the composite service.</sectionDescription>
+  </sections>
+  <sections xmi:id="_gf4ncG_jEd6wAYZigc-Hvg" name="Non-functional requirements have been identified and have been assigned to appropriate services." guid="_gf4ncG_jEd6wAYZigc-Hvg"/>
+  <sections xmi:id="_l4sfMG_jEd6wAYZigc-Hvg" name="The required Messages have been defined." guid="_l4sfMG_jEd6wAYZigc-Hvg"/>
+  <sections xmi:id="_vY97kG_jEd6wAYZigc-Hvg" name="Services operation signatures have been fully specified." guid="_vY97kG_jEd6wAYZigc-Hvg"/>
+  <sections xmi:id="_zJK2wG_jEd6wAYZigc-Hvg" name="State-management decisions have been documented." guid="_zJK2wG_jEd6wAYZigc-Hvg"/>
+</org.eclipse.epf.uma:ContentDescription>

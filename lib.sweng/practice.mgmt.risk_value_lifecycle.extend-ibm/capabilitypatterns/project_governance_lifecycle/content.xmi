@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-k6uAkWvPdCdsqxq5SrRGEA" name="Inception Phase,_-UFkUVThEd2ZeY-22kx0mw" guid="-k6uAkWvPdCdsqxq5SrRGEA">
+    <mainDescription>For more on this phase, see &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/inception_phase_C4456871.html&quot; guid=&quot;_0hmKgBOMEduCNqgZdt_OaA&quot;>Inception Phase&lt;/a>.</mainDescription>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-jDq4rQI0m-YNv14kzwjefQ" name="Elaboration Phase,_2_nRIVThEd2ZeY-22kx0mw" guid="-jDq4rQI0m-YNv14kzwjefQ">
+    <mainDescription>For more on this phase, see &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/elaboration_phase_BE880435.html&quot; guid=&quot;_2plxwBOMEduCNqgZdt_OaA&quot;>Elaboration Phase&lt;/a>.</mainDescription>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-i-e6CZMSWBdWIFd7pc8gXw" name="Construction Phase,__r658VThEd2ZeY-22kx0mw" guid="-i-e6CZMSWBdWIFd7pc8gXw">
+    <mainDescription>For more on this phase, see &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/construction_phase_873B6559.html&quot; guid=&quot;_48EKsBOMEduCNqgZdt_OaA&quot;>Construction Phase&lt;/a>.</mainDescription>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-pE8TU4eszqynWjePKCGf5Q" name="Transition Phase,_BBN48VTiEd2ZeY-22kx0mw" guid="-pE8TU4eszqynWjePKCGf5Q">
+    <mainDescription>For more on this phase, see &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.base/guidances/concepts/transition_phase_DD5986E5.html&quot; guid=&quot;__ca5UBOMEduCNqgZdt_OaA&quot;>Transition Phase&lt;/a>.</mainDescription>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-McCGGUlz9MWh4rqZ7fgBvQ" name="project_governance,_KAuHgSDDEd-7WZAXtc9q4A" guid="-McCGGUlz9MWh4rqZ7fgBvQ">
+    <mainDescription>This capability pattern includes activities and tasks pertaining to executing project governance. Activities and tasks such&#xD;
+as initiating and closing the project, as well as the project status meetings and lifecycle milestone reviews are the&#xD;
+touching points of the project with the enterprise governing authority.</mainDescription>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-a-opsaDPE9_446XPyy_cIg" name="monitor_control_project,{F40E3BFA-9909-4D3D-8AEB-E08E3C0DC8F0}" guid="-a-opsaDPE9_446XPyy_cIg">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    This&amp;nbsp;activity captures the daily, continuing, work of the Project Manager, covering:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        dealing with change requests that have been approved, and scheduling these for the current or future iterations;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        continuously monitoring the project in terms of active risks and objective measurements of progress and quality;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        regular reporting of project status, in the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/workproducts/status_assessment_A990B5EF.html&quot; guid=&quot;{F6D674A6-D71A-4D36-A195-4C888C1D0E70}&quot;>Status Assessment&lt;/a>, to the Project Review Authority (PRA), which&#xD;
+        is the organizational entity to which the Project Manager is accountable;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        dealing with issues and problems through the &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/tasks/monitor_and_report_project_status_1A73CCB1.html&quot; guid=&quot;{A7E3EAB8-8E5A-408C-B1EF-3CD3D3B0DEDD}&quot;>Task: Monitor and Report Project Status&lt;/a> and driving these to&#xD;
+        closure according to processes you have identified for problem resolution.&amp;nbsp; This may require that Change&#xD;
+        Requests be issued for work that cannot be authorized by the Project Manager alone.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    This activity occurs in every iteration of every phase. Issues can come up at any time. The timing of other activities&#xD;
+    is tailored to suit the project. For example, the project manager could decide to produce weekly metrics reports, and&#xD;
+    report to the PRA monthly.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Project Manager should put in place mechanisms to automate, as far as possible, the collection and reduction of&#xD;
+    information (metrics, for example) about the project. Time should be spent in analyzing trends, not in collection and&#xD;
+    calculation. The responsibility for solution of problems that arise on a project obviously ultimately rests with the&#xD;
+    Project Manager. However, there is a class of technical problems that should be delegated to the Software Architect,&#xD;
+    for example, for solution. The Project Manager's role is then to implement the suggested solution - which may give rise&#xD;
+    to a secondary problem, say, lack of resources, which does have to be solved by the Project Manager. This demonstrates&#xD;
+    the kind of trust that must exist between the Project Manager and the technical staff - the Project Manager expects the&#xD;
+    Software Architect to devise sound technical solutions, and the Software Architect expects the Project Manager to put&#xD;
+    in place the infrastructure and resources to implement them, contractual and financial constraints permitting.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The Project Manager needs a mix of organizational, planning, communication, time management, triage, and analytic&#xD;
+    skills for this part of the discipline. The Management Reviewer will need a strong background in project management,&#xD;
+    will have a deep understanding of the organization's business policies and practices, and be able to make judgments&#xD;
+    about the project's financial performance and performance against contractual obligations.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-1xLeaajZUL91iaTajvCiOw" name="monitor_control_project,{F40E3BFA-9909-4D3D-8AEB-E08E3C0DC8F0}" guid="-1xLeaajZUL91iaTajvCiOw">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    This&amp;nbsp;activity captures the daily, continuing, work of the Project Manager, covering:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        dealing with change requests that have been approved, and scheduling these for the current or future iterations;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        continuously monitoring the project in terms of active risks and objective measurements of progress and quality;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        regular reporting of project status, in the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/workproducts/status_assessment_A990B5EF.html&quot; guid=&quot;{F6D674A6-D71A-4D36-A195-4C888C1D0E70}&quot;>Status Assessment&lt;/a>, to the Project Review Authority (PRA), which&#xD;
+        is the organizational entity to which the Project Manager is accountable;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        dealing with issues and problems through the &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/tasks/monitor_and_report_project_status_1A73CCB1.html&quot; guid=&quot;{A7E3EAB8-8E5A-408C-B1EF-3CD3D3B0DEDD}&quot;>Task: Monitor and Report Project Status&lt;/a> and driving these to&#xD;
+        closure according to processes you have identified for problem resolution.&amp;nbsp; This may require that Change&#xD;
+        Requests be issued for work that cannot be authorized by the Project Manager alone.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    This activity occurs in every iteration of every phase. Issues can come up at any time. The timing of other activities&#xD;
+    is tailored to suit the project. For example, the project manager could decide to produce weekly metrics reports, and&#xD;
+    report to the PRA monthly.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Project Manager should put in place mechanisms to automate, as far as possible, the collection and reduction of&#xD;
+    information (metrics, for example) about the project. Time should be spent in analyzing trends, not in collection and&#xD;
+    calculation. The responsibility for solution of problems that arise on a project obviously ultimately rests with the&#xD;
+    Project Manager. However, there is a class of technical problems that should be delegated to the Software Architect,&#xD;
+    for example, for solution. The Project Manager's role is then to implement the suggested solution - which may give rise&#xD;
+    to a secondary problem, say, lack of resources, which does have to be solved by the Project Manager. This demonstrates&#xD;
+    the kind of trust that must exist between the Project Manager and the technical staff - the Project Manager expects the&#xD;
+    Software Architect to devise sound technical solutions, and the Software Architect expects the Project Manager to put&#xD;
+    in place the infrastructure and resources to implement them, contractual and financial constraints permitting.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The Project Manager needs a mix of organizational, planning, communication, time management, triage, and analytic&#xD;
+    skills for this part of the discipline. The Management Reviewer will need a strong background in project management,&#xD;
+    will have a deep understanding of the organization's business policies and practices, and be able to make judgments&#xD;
+    about the project's financial performance and performance against contractual obligations.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-MSYPUqcGMO9S4dLZjXmz4Q" name="monitor_control_project,{F40E3BFA-9909-4D3D-8AEB-E08E3C0DC8F0}" guid="-MSYPUqcGMO9S4dLZjXmz4Q">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    This&amp;nbsp;activity captures the daily, continuing, work of the Project Manager, covering:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        dealing with change requests that have been approved, and scheduling these for the current or future iterations;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        continuously monitoring the project in terms of active risks and objective measurements of progress and quality;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        regular reporting of project status, in the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/workproducts/status_assessment_A990B5EF.html&quot; guid=&quot;{F6D674A6-D71A-4D36-A195-4C888C1D0E70}&quot;>Status Assessment&lt;/a>, to the Project Review Authority (PRA), which&#xD;
+        is the organizational entity to which the Project Manager is accountable;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        dealing with issues and problems through the &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/tasks/monitor_and_report_project_status_1A73CCB1.html&quot; guid=&quot;{A7E3EAB8-8E5A-408C-B1EF-3CD3D3B0DEDD}&quot;>Task: Monitor and Report Project Status&lt;/a> and driving these to&#xD;
+        closure according to processes you have identified for problem resolution.&amp;nbsp; This may require that Change&#xD;
+        Requests be issued for work that cannot be authorized by the Project Manager alone.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    This activity occurs in every iteration of every phase. Issues can come up at any time. The timing of other activities&#xD;
+    is tailored to suit the project. For example, the project manager could decide to produce weekly metrics reports, and&#xD;
+    report to the PRA monthly.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Project Manager should put in place mechanisms to automate, as far as possible, the collection and reduction of&#xD;
+    information (metrics, for example) about the project. Time should be spent in analyzing trends, not in collection and&#xD;
+    calculation. The responsibility for solution of problems that arise on a project obviously ultimately rests with the&#xD;
+    Project Manager. However, there is a class of technical problems that should be delegated to the Software Architect,&#xD;
+    for example, for solution. The Project Manager's role is then to implement the suggested solution - which may give rise&#xD;
+    to a secondary problem, say, lack of resources, which does have to be solved by the Project Manager. This demonstrates&#xD;
+    the kind of trust that must exist between the Project Manager and the technical staff - the Project Manager expects the&#xD;
+    Software Architect to devise sound technical solutions, and the Software Architect expects the Project Manager to put&#xD;
+    in place the infrastructure and resources to implement them, contractual and financial constraints permitting.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The Project Manager needs a mix of organizational, planning, communication, time management, triage, and analytic&#xD;
+    skills for this part of the discipline. The Management Reviewer will need a strong background in project management,&#xD;
+    will have a deep understanding of the organization's business policies and practices, and be able to make judgments&#xD;
+    about the project's financial performance and performance against contractual obligations.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-Wp97JIEVZ8Tn0rRlsmR9kQ" name="close-out_phase,{99181197-20DC-42DB-B9C4-7B95E015AFA1}" guid="-Wp97JIEVZ8Tn0rRlsmR9kQ">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    In this activity, the Project Manager brings the phase to closure by ensuring that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        all major issues from the previous iteration are resolved&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the state of all artifacts is known (through configuration audit)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        required artifacts have been distributed to stakeholders&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        any deployment (for example, installation, transition, training), problems are addressed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the project's finances are settled, if the current contract is ending (with the intent to recontract for the next&#xD;
+        phase)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    A final phase Status Assessment is prepared for the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/tasks/lifecycle_milestone_review_B4D90641.html&quot; guid=&quot;{E611CCFD-E4C5-408E-9B0E-46B2A3D01290}&quot;>Lifecycle Milestone Review&lt;/a>, at which point the phase artifacts are&#xD;
+    reviewed and, if the project state is satisfactory, sanction is given to proceed to the next phase.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Required Artifacts&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/guidances/concepts/lifecycle_objectives_9E53DCF8.html&quot; guid=&quot;_piIfsCVwEdqSZ9OimJ-AzA&quot;>Lifecycle Objectives Milestone&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/guidances/concepts/lifecycle_architecture_E8A06546.html&quot; guid=&quot;_sr-hsLUYEd-6xMHu5p2RVA&quot;>Lifecycle Architecture Milestone&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/guidances/concepts/initial_operational_capability_8DF28633.html&quot; guid=&quot;_DEwlYCVxEdqSZ9OimJ-AzA&quot;>Initial Operational Capability Milestone&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/guidances/concepts/product_release_8BCA935E.html&quot; guid=&quot;_Pwn0ACVxEdqSZ9OimJ-AzA&quot;>Product Release Milestone&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    This&amp;nbsp;activity is strongly recommended, as it ensures that the project is on track, by verifying that the stated&#xD;
+    phase objectives have been achieved.&#xD;
+&lt;/p></usageGuidance>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WGVFiMeLNdTjP08HoQEODg" name="stakeholder_request,_-H034eg5Ed-xk_4F6g-ucw" guid="-WGVFiMeLNdTjP08HoQEODg">
+    <keyConsiderations>Stakeholder requests can come from many different sources. Examples of sources for the Stakeholder Requests are: &#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Results of stakeholder interviews&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Results from requirements elicitation sessions and workshops&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Statement of work&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Request for proposal&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Mission statement&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Problem statement&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Business rules&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Laws and regulations&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Legacy systems&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Business models&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-wkCZDVLDXtZed2YZ0Y6iJQ" name="close-out_phase,{99181197-20DC-42DB-B9C4-7B95E015AFA1}" guid="-wkCZDVLDXtZed2YZ0Y6iJQ">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    In this activity, the Project Manager brings the phase to closure by ensuring that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        all major issues from the previous iteration are resolved&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the state of all artifacts is known (through configuration audit)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        required artifacts have been distributed to stakeholders&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        any deployment (for example, installation, transition, training), problems are addressed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the project's finances are settled, if the current contract is ending (with the intent to recontract for the next&#xD;
+        phase)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    A final phase Status Assessment is prepared for the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/tasks/lifecycle_milestone_review_B4D90641.html&quot; guid=&quot;{E611CCFD-E4C5-408E-9B0E-46B2A3D01290}&quot;>Lifecycle Milestone Review&lt;/a>, at which point the phase artifacts are&#xD;
+    reviewed and, if the project state is satisfactory, sanction is given to proceed to the next phase.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Required Artifacts&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/guidances/concepts/lifecycle_objectives_9E53DCF8.html&quot; guid=&quot;_piIfsCVwEdqSZ9OimJ-AzA&quot;>Lifecycle Objectives Milestone&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/guidances/concepts/lifecycle_architecture_E8A06546.html&quot; guid=&quot;_sr-hsLUYEd-6xMHu5p2RVA&quot;>Lifecycle Architecture Milestone&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/guidances/concepts/initial_operational_capability_8DF28633.html&quot; guid=&quot;_DEwlYCVxEdqSZ9OimJ-AzA&quot;>Initial Operational Capability Milestone&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/guidances/concepts/product_release_8BCA935E.html&quot; guid=&quot;_Pwn0ACVxEdqSZ9OimJ-AzA&quot;>Product Release Milestone&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    This&amp;nbsp;activity is strongly recommended, as it ensures that the project is on track, by verifying that the stated&#xD;
+    phase objectives have been achieved.&#xD;
+&lt;/p></usageGuidance>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mB_-T1B3pVoZb149TNTGmQ" name="status_assessment,_73i7NCZFEd-Hb5ChSoDHIA" guid="-mB_-T1B3pVoZb149TNTGmQ">
+    <refinedDescription>&lt;p>&#xD;
+    One of the objectives of the process is to ensure that the expectations of all parties are synchronized and consistent.&#xD;
+    The periodic Status Assessment provides a mechanism for managing everyone's expectations throughout the project&#xD;
+    lifecycle.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Continuous open communication with objective data derived directly from ongoing activities and the evolving product&#xD;
+    configurations are mandatory in any project. These project snapshots provide the basis for management's attention.&#xD;
+    While the period may vary, the forcing function needs to capture the project history.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note that Status Assessments are different from milestone reviews.&#xD;
+&lt;/p>&lt;!--EndFragment--></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-VMEbtna3MpQAHuGr_i9dug" name="business_case,_73i7NiZFEd-Hb5ChSoDHIA" guid="-VMEbtna3MpQAHuGr_i9dug">
+    <refinedDescription>For a commercial software product, the Business Case should include a set of assumptions about the project and the order of&#xD;
+magnitude return on investment (ROI) if those assumptions are true. For example, the ROI will be a magnitude of five if&#xD;
+completed in one year, two if completed in two years, and a negative number after that. These assumptions are checked again&#xD;
+at the end of the Elaboration phase, when the scope and plan are defined with more accuracy.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-an-R4DpqjizGkw4dKpBmyg" name="review_record,_obiMYFMREd-b9rMLu3PL1w" guid="-an-R4DpqjizGkw4dKpBmyg">
+    <refinedDescription>&lt;p>&#xD;
+    &lt;!--StartFragment-->A review record is an assessment work product specialized for capturing the results of review&#xD;
+    activities.&lt;!--EndFragment-->&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qtwwqqItlUg6UbLq5HFvTg" name="stakeholder_request,_-H034eg5Ed-xk_4F6g-ucw" guid="-qtwwqqItlUg6UbLq5HFvTg">
+    <keyConsiderations>Stakeholder requests can come from many different sources. Examples of sources for the Stakeholder Requests are: &#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Results of stakeholder interviews&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Results from requirements elicitation sessions and workshops&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Statement of work&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Request for proposal&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Mission statement&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Problem statement&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Business rules&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Laws and regulations&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Legacy systems&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Business models&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-Yuk-od0H9fCOysEQThP12A" name="close-out_phase,{99181197-20DC-42DB-B9C4-7B95E015AFA1}" guid="-Yuk-od0H9fCOysEQThP12A">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    In this activity, the Project Manager brings the phase to closure by ensuring that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        all major issues from the previous iteration are resolved&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the state of all artifacts is known (through configuration audit)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        required artifacts have been distributed to stakeholders&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        any deployment (for example, installation, transition, training), problems are addressed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the project's finances are settled, if the current contract is ending (with the intent to recontract for the next&#xD;
+        phase)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    A final phase Status Assessment is prepared for the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/tasks/lifecycle_milestone_review_B4D90641.html&quot; guid=&quot;{E611CCFD-E4C5-408E-9B0E-46B2A3D01290}&quot;>Lifecycle Milestone Review&lt;/a>, at which point the phase artifacts are&#xD;
+    reviewed and, if the project state is satisfactory, sanction is given to proceed to the next phase.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Required Artifacts&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/guidances/concepts/lifecycle_objectives_9E53DCF8.html&quot; guid=&quot;_piIfsCVwEdqSZ9OimJ-AzA&quot;>Lifecycle Objectives Milestone&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/guidances/concepts/lifecycle_architecture_E8A06546.html&quot; guid=&quot;_sr-hsLUYEd-6xMHu5p2RVA&quot;>Lifecycle Architecture Milestone&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/guidances/concepts/initial_operational_capability_8DF28633.html&quot; guid=&quot;_DEwlYCVxEdqSZ9OimJ-AzA&quot;>Initial Operational Capability Milestone&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/guidances/concepts/product_release_8BCA935E.html&quot; guid=&quot;_Pwn0ACVxEdqSZ9OimJ-AzA&quot;>Product Release Milestone&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    This&amp;nbsp;activity is strongly recommended, as it ensures that the project is on track, by verifying that the stated&#xD;
+    phase objectives have been achieved.&#xD;
+&lt;/p></usageGuidance>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-kAH-QBQlXzSkwvRtPswy_Q" name="stakeholder_request,_-H034eg5Ed-xk_4F6g-ucw" guid="-kAH-QBQlXzSkwvRtPswy_Q">
+    <keyConsiderations>Stakeholder requests can come from many different sources. Examples of sources for the Stakeholder Requests are: &#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Results of stakeholder interviews&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Results from requirements elicitation sessions and workshops&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Statement of work&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Request for proposal&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Mission statement&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Problem statement&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Business rules&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Laws and regulations&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Legacy systems&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Business models&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-hfjt_vchRCC3iRv4ukrq5g" name="close-out_phase,{99181197-20DC-42DB-B9C4-7B95E015AFA1}" guid="-hfjt_vchRCC3iRv4ukrq5g">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    In this activity, the Project Manager brings the phase to closure by ensuring that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        all major issues from the previous iteration are resolved&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the state of all artifacts is known (through configuration audit)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        required artifacts have been distributed to stakeholders&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        any deployment (for example, installation, transition, training), problems are addressed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the project's finances are settled, if the current contract is ending (with the intent to recontract for the next&#xD;
+        phase)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    A final phase Status Assessment is prepared for the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/tasks/lifecycle_milestone_review_B4D90641.html&quot; guid=&quot;{E611CCFD-E4C5-408E-9B0E-46B2A3D01290}&quot;>Lifecycle Milestone Review&lt;/a>, at which point the phase artifacts are&#xD;
+    reviewed and, if the project state is satisfactory, sanction is given to proceed to the next phase.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Required Artifacts&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/guidances/concepts/lifecycle_objectives_9E53DCF8.html&quot; guid=&quot;_piIfsCVwEdqSZ9OimJ-AzA&quot;>Lifecycle Objectives Milestone&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/guidances/concepts/lifecycle_architecture_E8A06546.html&quot; guid=&quot;_sr-hsLUYEd-6xMHu5p2RVA&quot;>Lifecycle Architecture Milestone&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/guidances/concepts/initial_operational_capability_8DF28633.html&quot; guid=&quot;_DEwlYCVxEdqSZ9OimJ-AzA&quot;>Initial Operational Capability Milestone&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/guidances/concepts/product_release_8BCA935E.html&quot; guid=&quot;_Pwn0ACVxEdqSZ9OimJ-AzA&quot;>Product Release Milestone&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    This&amp;nbsp;activity is strongly recommended, as it ensures that the project is on track, by verifying that the stated&#xD;
+    phase objectives have been achieved.&#xD;
+&lt;/p></usageGuidance>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-ukk77D41Ze7-JLUMuN7evw" name="Conceive New Project,_y9VAM0fZEd-7-IrXgNSYwA" guid="-ukk77D41Ze7-JLUMuN7evw">
+    <mainDescription>On the basis of the initial vision, risks are assessed and an economic analysis, the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/workproducts/business_case_56F408EB.html&quot; guid=&quot;{9B13F235-E8E9-4CDC-9ACE-216124C8C5EC}&quot;>Business Case&lt;/a>&amp;nbsp;is produced. If the&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/tasks/project_approval_review_E465DDFD.html&quot; guid=&quot;{6B921AB1-23B3-4922-80EB-7C3C5F68C403}&quot;>Project Approval Review&lt;/a> finds these satisfactory, the project is formally&#xD;
+set up (in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/tasks/initiate_project_987939A6.html&quot; guid=&quot;{7E33D69A-6388-4782-998B-30A01E665531}&quot;>Task: Initiate Project&lt;/a>), and given limited sanction (and budget) to begin&#xD;
+a complete planning effort. Note that, by definition, this initial vision is created outside the project (perhaps by a&#xD;
+separate business modeling or systems engineering activity), not by the subsequent task to develop the vision within the&#xD;
+project. This latter activity adds substance to the initial vision, validates and refines it. The project begins with this&#xD;
+activity, so any artifacts that are input must already exist - in other words, the project must have some organizational&#xD;
+and business context.</mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    This activity should be performed, since it is important to know whether or not to invest in the project.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/workproducts/business_case_56F408EB.html&quot; guid=&quot;{9B13F235-E8E9-4CDC-9ACE-216124C8C5EC}&quot;>Business Case&lt;/a>, the project manager should describe at least two&#xD;
+    approaches to realizing the vision, and analyze these in terms of risk impact, and economic outcomes. During the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/tasks/project_approval_review_E465DDFD.html&quot; guid=&quot;{6B921AB1-23B3-4922-80EB-7C3C5F68C403}&quot;>Project Approval Review&lt;/a>, one of the offered choices will be selected,&#xD;
+    if the project is to continue. There is a considerable body of management knowledge and theory to assist the project&#xD;
+    manager and the project reviewer in risk and decision analysis, and it is valuable to have a few of the project&#xD;
+    management and review staff well versed in these techniques - especially if the project is large, unprecedented,&#xD;
+    complex or otherwise risky. See, for example, [&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.mgmt.common.extend_supp-ibm/guidances/supportingmaterials/reference_mgmt.add_rup_D5C634A1.html&quot; guid=&quot;__TlZAB2ZEd--YPaIW7QkIg&quot;>CLE96&lt;/a>], [&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.mgmt.common.extend_supp-ibm/guidances/supportingmaterials/reference_mgmt.add_rup_D5C634A1.html&quot; guid=&quot;__TlZAB2ZEd--YPaIW7QkIg&quot;>EVA98&lt;/a>] and [&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.mgmt.common.extend_supp-ibm/guidances/supportingmaterials/reference_mgmt.add_rup_D5C634A1.html&quot; guid=&quot;__TlZAB2ZEd--YPaIW7QkIg&quot;>VOS96&lt;/a>].&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>The person(s) acting as project manager for these early activities may not be the one(s) to carry the project forward,&#xD;
+because the emphasis at this stage is on risk discovery and establishing the potential return-on-investment. The project&#xD;
+manager's ability to make sound business and technical risk judgments is valuable, the ability to manage teams of people&#xD;
+less so, in these early activities. Equally, the management reviewer should have extensive business and domain experience.</howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-Zpe5u_H0UJubQG_2fEVTcg" name="Close-out Project,_vti6YUftEd-7-IrXgNSYwA" guid="-Zpe5u_H0UJubQG_2fEVTcg">
+    <mainDescription>A final status assessment is prepared for the &lt;a class=&quot;elementLink&quot; href=&quot;./../../practice.mgmt.risk_value_lifecycle.extend-ibm/tasks/project_acceptance_review_6DB7AB7C.html&quot; guid=&quot;{9BA5BD55-B134-4623-BAE1-542121869849}&quot;>Project Acceptance Review&lt;/a>, which, if successful, marks the point at which&#xD;
+the customer formally accepts ownership of the software product. The project manager then completes the close-out of the&#xD;
+project by disposing of the remaining assets and reassigning the remaining staff.</mainDescription>
+    <usageGuidance>This activity should occur on projects that require formal project acceptance.</usageGuidance>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7GbSbd2Pq15qDqiL0FxDHQ" name="stakeholder_request,_j-vVgehBEd-vV_HcdzhczA" guid="-7GbSbd2Pq15qDqiL0FxDHQ">
+    <keyConsiderations>Stakeholder requests can come from many different sources. Examples of sources for the Stakeholder Requests are: &#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Results of stakeholder interviews&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Results from requirements elicitation sessions and workshops&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Statement of work&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Request for proposal&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Mission statement&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Problem statement&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Business rules&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Laws and regulations&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Legacy systems&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Business models&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-239DsZUGTdp1Df_DHmM01w" name="iteration_plan,_j-4fcehBEd-vV_HcdzhczA" guid="-239DsZUGTdp1Df_DHmM01w">
+    <keyConsiderations>&lt;p>&#xD;
+    Work items assigned to an iteration do not necessarily have the same priority. When selecting work items from the Work Items List, the iteration plan may end up having work items with different priorities (for example, you assign the remaining high priority work items, plus a few mid-priority ones from the Work Items List). When work items are assigned to an iteration, no matter what their previous priorities, the team has to make sure that they are able to develop what has been assigned to the iteration. Deciding what to develop first (or even to develop things in parallel) on an iteration will vary from project to project, from iteration to iteration.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact captures the key milestones of an iteration, showing start and end dates, intermediate milestones,&#xD;
+    synchronization points with other teams, demos, and so on. This artifact is also used to capture issues that need to be&#xD;
+    solved during the iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You should list a few objectives for the iteration, which will help guide you throughout the iteration. Also, assess&#xD;
+    at the end if those objectives have been achieved.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The task assignments for an iteration are a subset of all tasks on the &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html&quot; guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;>Artifact: Work Items List&lt;/a>. Therefore, the iteration plan ideally references&#xD;
+    those work items.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The evaluation criteria and iteration assessment information are captured in this artifact, so that you can communicate results and actions from&#xD;
+    assessments.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HHlgUCfEKcnw3a3TW5q_zg" name="risk_list,_j-4fdOhBEd-vV_HcdzhczA" guid="-HHlgUCfEKcnw3a3TW5q_zg">
+    <keyConsiderations>&lt;p>&#xD;
+    This list should capture the critical and serious risks. If you find this list extending beyond 20 items, carefully consider&#xD;
+    whether they are really serious risks. Tracking more than 20 risks is an onerous task.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This list identifies, in decreasing order of priority, all the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.mgmt.common.base/guidances/termdefinitions/risk_33255339.html&quot; guid=&quot;_ii2LUEvGEdunZcj9T5hrMQ&quot;>risks&lt;/a> associated to a project.&amp;nbsp;It serves as a focal point for project&#xD;
+    activities, and is the basis around which iterations are organized.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.mgmt.common.extend_supp/guidances/concepts/risk_AF5840DA.html&quot; guid=&quot;_0bsLgMlgEdmt3adZL5Dmdw&quot;>Concept: Risk&lt;/a>&amp;nbsp;for more details.&lt;!--EndFragment-->&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-hIQsvwEv95fGmyWDuG6f2Q" name="work_items_list,_j_CQcehBEd-vV_HcdzhczA" guid="-hIQsvwEv95fGmyWDuG6f2Q">
+    <keyConsiderations>&lt;p>&#xD;
+    Work Items should contain estimates. See guidelines on managing work items and agile estimation.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact provides a focal point for the entire team:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        It provides one list containing all requests for additional capabilities or enhancement for that application. Note&#xD;
+        that some of these requests may never be implemented, or be implemented in later projects.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one list of all the work to be prioritized, estimated, and assigned within the project. The risk list&#xD;
+        is prioritized separately.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one place to go to for the development team to understand what&amp;nbsp;micro-increments&amp;nbsp;need to be&#xD;
+        delivered, get references to material required to carry out the work, and report progress made.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    These are the typical work items that go on this list:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Use cases (and references to use-case specifications)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        System-wide requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Changes and enhancement requests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defects&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Development tasks&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Work items can be very large in scope, especially when capturing requests for enhancements, such as &quot;Support Financial&#xD;
+    Planning&quot; for a personal finance application. To allow the application to be developed in micro-increments, work items&#xD;
+    are analyzed and broken down into smaller work items so that they can be assigned to an iteration, such as a use-case&#xD;
+    scenario for&amp;nbsp;&quot;Calculate Net Worth&quot;. Further breakdown may be required to identify suitable tasks to be assigned to&#xD;
+    developers, such as &quot;Develop UI for Calculate Net Worth&quot;. This means that work items often have parent/child&#xD;
+    relationships, where the lowest level is a specification and tracking device for micro-increments.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-LQlOVjTvfQTVUo7Mk9jOUQ" name="project_plan,_j_CQdOhBEd-vV_HcdzhczA" guid="-LQlOVjTvfQTVUo7Mk9jOUQ">
+    <keyConsiderations>Create and update the project plan in planning sessions that involve the whole team and appropriate project stakeholders in&#xD;
+order to make sure that everybody agrees with it.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact describes how the project is organized, and identifies what practices will be followed. Additionally, it&#xD;
+    defines the parameters for tracking project progress, and specifies the high-level objectives of the iterations and&#xD;
+    their milestones.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The project plan allows stakeholders and other team members to understand the big picture and, roughly, when to expect&#xD;
+    a certain level of functionality be available.&amp;nbsp;Update the plan&amp;nbsp;as often as necessary, usually at the end of&#xD;
+    each iteration, in order to reflect changing priorities and needs, as well as record the lessons learned from the&#xD;
+    project.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zTfRAFi6mHiXY81BwBr9EA" name="issues_list,_j_CQd-hBEd-vV_HcdzhczA" guid="-zTfRAFi6mHiXY81BwBr9EA">
+    <refinedDescription>In general, issues are items that are not being tracked through Change Management or as tasks in the Project or Iteration&#xD;
+Plans, although they may derive from these.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ck2fP32kgQCKTWZ7G5zTYw" name="project_measurements,_j_CQeuhBEd-vV_HcdzhczA" guid="-ck2fP32kgQCKTWZ7G5zTYw">
+    <refinedDescription>&lt;p>&#xD;
+    The format and contents of the Project Measurements&amp;nbsp;depends on the metrics selected and the technology used for&#xD;
+    collection and storage. It is essentially a database of metric-value associations and allied information for their&#xD;
+    collection and calculation. Its form could be as simple as a set of files manually maintained by the Project&#xD;
+    Manager.&amp;nbsp; However, we recommend that the collection and storage be automated and, as far as possible, be made&#xD;
+    non-intrusive.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-QxjtgW5m4A20GMzsZZUzPQ" name="Joint Realization,_KmS7sZi5Ed6JmoH2XFiafA" guid="-QxjtgW5m4A20GMzsZZUzPQ" version="7.5.0"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UHnEOw4lF5AuqEda6FjkSQ" name="sys_struc_diag,_If4RSqMLEd6XGaN9G5GQxw" guid="-UHnEOw4lF5AuqEda6FjkSQ">
+    <refinedDescription>&lt;p>&#xD;
+    The main type of elements used to describe the internal structure are system blocks.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A System Block is an element of the structural description of the system under development. It is an encapsulated&#xD;
+    entity, i.e. its communication with the environment is performed through ports and&amp;nbsp;associated interfaces. A System&#xD;
+    Block may be decomposed into sub-System Blocks. At the lowest level of decomposition, the behavior of a System Block is&#xD;
+    described by means of a statechart diagram.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A System Block must have a defined boundary. Communication with the environment is performed via ports and associated&#xD;
+    interfaces.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AzP1_6s0UWF28x1L1YEd6g" name="sys_operation,_If4RQaMLEd6XGaN9G5GQxw" guid="-AzP1_6s0UWF28x1L1YEd6g">
+    <refinedDescription>&lt;p>&#xD;
+    An operation specification has the following outline:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Description&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Input/Output Parameters&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Non-functional requirements: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                These are derived from the non-functional requirements associated with the steps in the various Use Cases&#xD;
+                that this operation supports.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                The context in which the operation is used (i.e. a particular Use Case) may or may not be captured (e.g. it&#xD;
+                may be specified in terms of supporting the minimum performance requirement when all Use Cases are&#xD;
+                considered)&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Pre-conditions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Post-conditions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Superordinate system traceability&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: use-case (steps) traceability&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In most of the cases, the Operations are defined for the top-level system and the main subsystems, going with the&#xD;
+    decomposition as deep as needed, in a recursive fashion. The Operations are grouped around interfaces along the main&#xD;
+    responsibilities of the (sub)system under consideration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible&amp;nbsp;for the integrity of the operation set,&amp;nbsp;should ensure&amp;nbsp;that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the operations are unique and there is no overlap between them&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the related operations are logically grouped around interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        each operation is properly documented&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the traceability relationships to other operations and/or use-case steps have been established&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        proper coverage of the use cases or system's operations, based on the scope of the current iteration&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4Iv_bDDx2SYibFr5tmiT1A" name="viewpoints_list,_If4RQqMLEd6XGaN9G5GQxw" guid="-4Iv_bDDx2SYibFr5tmiT1A">
+    <refinedDescription>&lt;p>&#xD;
+    A viewpoint (on a system) is &quot;a form of abstraction achieved using a selected set of architectural concepts and&#xD;
+    structuring rules, in order to focus on particular concerns within a system&quot; [ISO/IEC 10746-2: Information Technology -&#xD;
+    Open Distributed Processing - Reference Model: Foundations]. The table lists some of the viewpoints chosen to capture&#xD;
+    the various concerns. These viewpoints are aligned with those found in ISO/IEC 10746-1: Information technology - Open&#xD;
+    Distributed Processing - Reference Model: Overview.&#xD;
+&lt;/p>&#xD;
+&lt;div align=&quot;center&quot;>&#xD;
+    &lt;center>&#xD;
+        &lt;table width=&quot;90%&quot; border=&quot;1&quot;>&#xD;
+            &lt;tbody>&#xD;
+                &lt;tr>&#xD;
+                    &lt;td align=&quot;middle&quot; width=&quot;19%&quot;>&#xD;
+                        &lt;font face=&quot;Arial&quot;>&lt;b>Viewpoint&lt;/b>&lt;/font>&#xD;
+                    &lt;/td>&#xD;
+                    &lt;td align=&quot;middle&quot; width=&quot;40%&quot;>&#xD;
+                        &lt;font face=&quot;Arial&quot;>&lt;b>Concern&lt;/b>&lt;/font>&#xD;
+                    &lt;/td>&#xD;
+                    &lt;td align=&quot;middle&quot; width=&quot;41%&quot;>&#xD;
+                        &lt;font face=&quot;Arial&quot;>&lt;b>Impact&lt;/b>&lt;/font>&#xD;
+                    &lt;/td>&#xD;
+                &lt;/tr>&#xD;
+                &lt;tr>&#xD;
+                    &lt;td align=&quot;middle&quot; width=&quot;19%&quot;>&#xD;
+                        Worker&#xD;
+                    &lt;/td>&#xD;
+                    &lt;td width=&quot;40%&quot;>&#xD;
+                        Concerned with the roles and responsibilities of the organization and system workers (and the&#xD;
+                        policies affecting these).&#xD;
+                    &lt;/td>&#xD;
+                    &lt;td width=&quot;41%&quot;>&#xD;
+                        Worker activities, human/system interaction. Human performance specification and human factors.&#xD;
+                    &lt;/td>&#xD;
+                &lt;/tr>&#xD;
+                &lt;tr>&#xD;
+                    &lt;td align=&quot;middle&quot; width=&quot;19%&quot;>&#xD;
+                        Information&#xD;
+                    &lt;/td>&#xD;
+                    &lt;td width=&quot;40%&quot;>&#xD;
+                        The kinds of information handled by the system and constraints on the use and interpretation of&#xD;
+                        that information.&#xD;
+                    &lt;/td>&#xD;
+                    &lt;td width=&quot;41%&quot;>&#xD;
+                        Information integrity, capacity limitations.&lt;br />&#xD;
+                        Information accessibility, timeliness.&#xD;
+                    &lt;/td>&#xD;
+                &lt;/tr>&#xD;
+                &lt;tr>&#xD;
+                    &lt;td align=&quot;middle&quot; width=&quot;19%&quot;>&#xD;
+                        Logical&#xD;
+                    &lt;/td>&#xD;
+                    &lt;td width=&quot;40%&quot;>&#xD;
+                        The decomposition of the system into a set of subsystems that interact at interfaces, collaborating&#xD;
+                        to provide the system services.&#xD;
+                    &lt;/td>&#xD;
+                    &lt;td width=&quot;41%&quot;>&#xD;
+                        System exhibits desired behavior.&lt;br />&#xD;
+                        System is extendible, adaptable, maintainable.&lt;br />&#xD;
+                        Assets are reusable.&#xD;
+                    &lt;/td>&#xD;
+                &lt;/tr>&#xD;
+                &lt;tr>&#xD;
+                    &lt;td align=&quot;middle&quot; width=&quot;19%&quot;>&#xD;
+                        Distribution/Physical&#xD;
+                    &lt;/td>&#xD;
+                    &lt;td width=&quot;40%&quot;>&#xD;
+                        The infrastructure required to support system functionality and distribution.&#xD;
+                    &lt;/td>&#xD;
+                    &lt;td width=&quot;41%&quot;>&#xD;
+                        Adequacy of physical characteristics of system to host functionality and meet non-functional&#xD;
+                        requirements.&#xD;
+                    &lt;/td>&#xD;
+                &lt;/tr>&#xD;
+                &lt;tr>&#xD;
+                    &lt;td align=&quot;middle&quot; width=&quot;19%&quot;>&#xD;
+                        Process&#xD;
+                    &lt;/td>&#xD;
+                    &lt;td width=&quot;40%&quot;>&#xD;
+                        Concurrency, scalability, performance, throughput, reliability.&#xD;
+                    &lt;/td>&#xD;
+                    &lt;td width=&quot;41%&quot;>&#xD;
+                        Adequacy of system responsiveness, throughput, fault-tolerance.&#xD;
+                    &lt;/td>&#xD;
+                &lt;/tr>&#xD;
+            &lt;/tbody>&#xD;
+        &lt;/table>&#xD;
+    &lt;/center>&#xD;
+&lt;/div>&#xD;
+&lt;p align=&quot;center&quot;>&#xD;
+    Common System Viewpoints.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    These viewpoints are some of the most common for software-intensive systems. Many system architectures also require&#xD;
+    additional, domain-specific viewpoints. Examples include safety, security, and mechanical viewpoints. Viewpoints&#xD;
+    represent different areas of concern that must be addressed in the system architecture and design. If there are system&#xD;
+    stakeholders or experts whose concerns are important to the overall architecture, there is likely to be a need for a&#xD;
+    set of viewpoint work products to capture their design decisions.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is important to build a system architecture team with staff who are competent to look after the various viewpoints.&#xD;
+    The team might consist of business analysts and users who take primary responsibility for the worker viewpoint,&#xD;
+    software architects who attend to the logical viewpoint, and engineers who concern themselves with the physical&#xD;
+    viewpoint, as well as experts on domain-specific viewpoints.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IDm6nheZyi8jg8oyFIoZUQ" name="sys_op_seq_diag,_If4RRKMLEd6XGaN9G5GQxw" guid="-IDm6nheZyi8jg8oyFIoZUQ">
+    <refinedDescription>&lt;p>&#xD;
+    The number of viewpoints considered will drive the number of sequence diagrams needed, as for the most complex case,&#xD;
+    for each viewpoint, there will be at least one&amp;nbsp;sequence diagram, showing how specific view elements are realizing&#xD;
+    the main operation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible for the integrity of the operation realization should&amp;nbsp;ensure that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The operation realization correctly realizes the behavior of its corresponding operation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All the chosen viewpoints are addressed and there is at least one realization per viewpoint.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The associated non-functional requirements are correctly budgeted across the subsystems operations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The operation realization is properly documented and the correspondent diagrams suit their purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The realization associations are correct.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-VSCNwp5oC4OHc3sSh3y1VA" name="sys_operation_seq_diagram,_If4RTKMLEd6XGaN9G5GQxw" guid="-VSCNwp5oC4OHc3sSh3y1VA">
+    <refinedDescription>&lt;p>&#xD;
+    The number of viewpoints considered will drive the number of sequence diagrams needed, as for the most complex case,&#xD;
+    for each viewpoint, there will be at least one&amp;nbsp;sequence diagram, showing how specific view elements are realizing&#xD;
+    the main operation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible for the integrity of the operation realization should&amp;nbsp;ensure that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The operation realization correctly realizes the behavior of its corresponding operation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All the chosen viewpoints are addressed and there is at least one realization per viewpoint.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The associated non-functional requirements are correctly budgeted across the subsystems operations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The operation realization is properly documented and the correspondent diagrams suit their purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The realization associations are correct.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pOOYiGlotdulaCvKgd9jag" name="sys_op_act_diag,_If4RRqMLEd6XGaN9G5GQxw" guid="-pOOYiGlotdulaCvKgd9jag">
+    <refinedDescription>&lt;p>&#xD;
+    The number of viewpoints considered will drive the number of activity diagrams needed, as for the most complex case,&#xD;
+    for each viewpoint, there will be an activity&amp;nbsp;diagram, showing how specific view elements are realizing the main&#xD;
+    operation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible for the integrity of the operation realization should&amp;nbsp;ensure that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The operation realization correctly realizes the behavior of its corresponding operation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All the chosen viewpoints are addressed and there is at least one realization per viewpoint.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The associated non-functional requirements are correctly budgeted across the subsystems operations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The operation realization is properly documented and the correspondent diagrams suit their purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The realization associations are correct.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-k-rVk1rhE6nS1W6-qPl1pA" name="sys_uc_act_diag,_EhQDEKMMEd6XGaN9G5GQxw" guid="-k-rVk1rhE6nS1W6-qPl1pA">
+    <refinedDescription>&lt;p>&#xD;
+    An Activity Diagram is similar to the classic flow chart. It describes a workflow, business process, or algorithm by&#xD;
+    decomposing the flow of execution into a set of actions and sub activities joined by transitions and various&#xD;
+    connectors. These actions and sub activities are called activity nodes. An activity can be a simple linear sequence of&#xD;
+    activity nodes or it can be a complex series of parallel activity nodes with conditional branching and concurrency.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There will be multiple instances of this artifact.&amp;nbsp;During requirements analysis, &quot;black-box&quot; activity diagrams are&#xD;
+    created describing the functional flows for the system as a whole.&amp;nbsp;During architectural design,&#xD;
+    &quot;white-box&quot;&amp;nbsp;activity diagrams are created that show the allocation of actions to specific system elements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Activities may be grouped and assigned to objects - e.g. subsystems. In this case, the activity diagram is split into&#xD;
+    swim lanes that depict the respective responsibilities.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-edPxXELeh7uMTK8QrDE-Kw" name="sys_uc_seq_diag,_z8n9sKMMEd6XGaN9G5GQxw" guid="-edPxXELeh7uMTK8QrDE-Kw">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact describes the time-ordered sequence of interactions between a system use case and its associated actors.&#xD;
+    In addition to the sent and received messages (service requests), the use-case lifeline shows the requested operations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There will be multiple instances of this artifact.&amp;nbsp;Initially, &quot;black-box&quot;&amp;nbsp;sequence diagrams are created which&#xD;
+    evolve into &quot;white-box&quot;&amp;nbsp;sequence diagrams that show the&amp;nbsp;responsibilities of&amp;nbsp;specific system elements.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-cBjnMPzEZ7vvhCQP70S4LQ" name="sys_arch_model,_FZNPyvM7Ed-Fw-MeaQjkmw" guid="-cBjnMPzEZ7vvhCQP70S4LQ">
+    <refinedDescription>The System Architectural Model&amp;nbsp;is&amp;nbsp;a hierarchical structure of System Blocks, behavior and delegation ports for&#xD;
+each block, interfaces&amp;nbsp;definitions for each port, and state-chart diagrams specifying the state-based behavior for&#xD;
+each leaf system block.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

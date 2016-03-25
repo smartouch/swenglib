@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-FDA8RAtucE7uio-kkxN-DA" name="rt_prototype,_U9yhIMvtEd-j1uJpwhl9rw" guid="-FDA8RAtucE7uio-kkxN-DA" changeDate="2010-10-26T11:39:09.109-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    A prototype is a version of the system that is produced by an incremental (spiral) development cycle. One of the&#xD;
+    prototypes will be released as the final system, but even early prototypes are executed and validated against the&#xD;
+    requirements they implement. A prototype is generated to meet a mission that identifies its purpose and scope and is&#xD;
+    validated against that mission. Subsequent prototypes contain the elements of earlier prototypes augmented by elements&#xD;
+    to realize new requirements and reduce further risks. During the validation of a prototype, not only is the new&#xD;
+    functionality tested, but a subset of the functionality from previous prototypes is also ensured through regression&#xD;
+    testing.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A prototype may be thought of as a &quot;vertical slice&quot; through the layers of design of the system. It may not be complete&#xD;
+    - in the sense that all the final functionality is present - but what it can be validated against what the requirements&#xD;
+    it implements. Subsequent prototypes must often reorganize some set of the previous prototypes elements to fit in the&#xD;
+    new functionality, a process known as Refactoring. Refactoring is common, but is very rarely an issue, as it is mostly&#xD;
+    an organic set of minor changes to evolve the system to its final, fully functional state.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The prototype can exist in a number of different conditions, or states. These are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Pre-integrated: the prototype content is being updated in the analysis, design, or implementation phases&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Partially Integrated: during integration, the architectural components are being added, but the integration is not&#xD;
+        yet complete&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Integrated: the integration of the components to form the prototype is complete, and some sanity checks have been&#xD;
+        performed to ensure the prototype is properly integrated, but it has not yet been validated&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Validated: the prototype has passed the validation test suite&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Baselined: the validated prototype has been baselined in the underlying configuration management system.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <keyConsiderations>The prototype must be created with all the care of the final system, be executable, and must be validated against the&#xD;
+requirements it represents. Each prototype should have a carefully considered mission, or purpose.</keyConsiderations>
+  <purpose>The prototype &lt;em>is&lt;/em> the system, but may be in an earlier stage of development. Early prototypes allow early risk&#xD;
+reduction, improve final product quality, and allow complex systems to be constructed incrementally.</purpose>
+  <impactOfNotHaving>Early risk reduction requires the effective evaluation of progress and semantic content of the work done so far. Periodic&#xD;
+prototypes allow for validation testing of functionality to provide early real feedback as to the quality and correctness&#xD;
+of the work.</impactOfNotHaving>
+</org.eclipse.epf.uma:ArtifactDescription>

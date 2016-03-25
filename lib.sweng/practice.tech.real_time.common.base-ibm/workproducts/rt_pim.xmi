@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-fyjXoao4YzdZg5MHCIi80g" name="rt_pim,_LqyEsMvtEd-j1uJpwhl9rw" guid="-fyjXoao4YzdZg5MHCIi80g" changeDate="2010-10-26T10:55:54.640-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    The PIM contains the structural elements required for correctness of the application, their essential behaviors, and&#xD;
+    fundamental relations (e.g. associations, aggregations, compositions, and generalizations). The PIM should be&#xD;
+    semantically correct and complete enough to execute the functionality of the system, although it may not meet its&#xD;
+    Quality of Service (QoS) because performance depends heavily of platform- and design-specific considerations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The PIM is one of the primary work artifacts produced during Object Analysis. It is (relatively) devoid of design but&#xD;
+    contains the essential elements required in any correct solution to the problem. In the Harmony Design Phases, specific&#xD;
+    technological solutions are added to the PIM transforming it into a Platform Specific Model (PSM). This transformation&#xD;
+    generally occurs either by translation or elaboration; Harmony recommends a combination of both approaches to&#xD;
+    efficiently arrive at an optimal design (PSM).&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>The PIM should contain the structural elements (e.g. classes, objects, functions, variables), their behavior (e.g.,&#xD;
+specified in state machines, activity diagrams, and/or an action language), and the relations among these elements (e.g.&#xD;
+association, aggregation, composition, generalization) that are essential for correctness. This model should execute and&#xD;
+replication the expected functionality requirement of the system. It typically will not meet its QoS but should meet all of&#xD;
+the functional requirements.</keyConsiderations>
+  <purpose>The purpose of the Platform Independent Model (PIM) is inherent in the goal of Model-Driven Architecture (MDA). The PIM&#xD;
+exists to provide a coherent reusable application with correct structural and behavioral semantics to enable its effective&#xD;
+reuse on different platforms and/or to provide the ability to easily host multiple applications on the same platform.</purpose>
+  <impactOfNotHaving>Not having a separately maintained PIM means that it will be more difficult to target the software to a new computing&#xD;
+platform, hardware environment, or software environment. When there is a single anticipated target environment, a separate&#xD;
+PIM probably isn't desired.</impactOfNotHaving>
+  <reasonsForNotNeeding>Having a separately maintained PIM means that should a problem be identified in a derived PSM that affects the PIM, either&#xD;
+the PIM must be modified and the PSM transformations reapplied to regenerate the PSM or the changes must be applied&#xD;
+independently to both the PIM and PSM. When there are anticipated to be multiple target platforms, or a single target&#xD;
+platform that is expected to change throughout its lifecycle, maintaining a separate PIM is probably worth the extra cost.</reasonsForNotNeeding>
+  <representation>The most important diagrams from the UML are: class, state, and sequence diagrams. Other diagrams add value but virtually&#xD;
+all systems can be specified and created from only these three basic types.</representation>
+  <notation>The PIM is usually represented as one or more related UML models with enough fidelity to support automatic code generation&#xD;
+and execution.</notation>
+</org.eclipse.epf.uma:ArtifactDescription>

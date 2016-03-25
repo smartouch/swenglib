@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-DvGd5-o_OajXdJVgRZG7cA" name="base_service_component_pattern,_n7JDEGWmEd6Zd-lbA790BQ" guid="-DvGd5-o_OajXdJVgRZG7cA" changeDate="2009-10-29T08:41:05.109-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    In defining the initial structure of a service, the following pattern is provided as a starting point for customization&#xD;
+    and completion.&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 1.&amp;nbsp; The base service component pattern&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&lt;img src=&quot;./resources/basesrvccomp_ptrn1.2.gif&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The elements of the pattern are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Facade Component&lt;/b>; the facade realizes the same interface as the service component itself and provides basic&#xD;
+        capabilities for message validation before passing the request on to the per-operation components for execution. In&#xD;
+        this case we stereotype the component as &amp;lt;&amp;lt;facade&amp;gt;&amp;gt; for clarification.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Per-Operation Component&lt;/b>; given the granularity of services, it is useful in most cases to have a separate&#xD;
+        component/class for the implementation of each operation provided by the service.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The following demonstrates the composite structure view of this pattern. In this case, the facade is delegated to by&#xD;
+    the service component itself. As such, consumers calling operations on the service component are actually serviced by&#xD;
+    the facade component.&amp;nbsp;It would be possible to use UML 2.0 ports as well to expose the interfaces and make this&#xD;
+    delegation explicit using connectors.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 2.&amp;nbsp; Base service component pattern rendered using a composite structure diagram&lt;br />&#xD;
+    &lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&lt;img src=&quot;./resources/basesrvccomp_ptrn2.3.gif&quot; />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

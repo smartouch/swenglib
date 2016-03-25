@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_N3HUcMRmEeCwsb3v57J9Xw" guid="_N3HUcMRmEeCwsb3v57J9Xw">
+    <resourceDescriptors xmi:id="_s1t4oCNaEeCOWdM_goLzAA" id="-0sCY_srmFOWy5qCTwqBz_w" uri="guidances/toolmentors/inst_setup_clm_server.xmi"/>
+    <resourceDescriptors xmi:id="_eoeIkD9uEeC1XKLdKbTzUA" id="-syrlW9CmiXPlsHbmcqDW9A" uri="guidances/toolmentors/configuring_process_with_process_builder.xmi"/>
+    <resourceDescriptors xmi:id="_JKYDADoCEeCpzolR6oKRqQ" id="-6X9GCuT3uQhrC4sHy0uMxQ" uri="guidances/toolmentors/creating_sample_lifecycle_project_verify_tool_configuration.xmi"/>
+    <resourceDescriptors xmi:id="_6ZOJ0cSQEeCwsb3v57J9Xw" id="-hcHAmB3m_1h7sfUkSHi9tA" uri="guidances/toolmentors/creating_components_streams_with_rtc.xmi"/>
+    <resourceDescriptors xmi:id="_QXTYcMSWEeCRGL8zR9ss6A" id="-z-4POnsHheem5tIPSrGPDw" uri="guidances/toolmentors/creating_projects_and_processes_in_rtc.xmi"/>
+    <resourceDescriptors xmi:id="_8cp70CNbEeCOWdM_goLzAA" id="-Q5j-yV1UqI_RFo4a9S3Lkg" uri="guidances/toolmentors/importing_wi_templates_into_rtc.xmi"/>
+    <resourceDescriptors xmi:id="_XnP6USNbEeCOWdM_goLzAA" id="-AzM1pT8yUUd9-ERseLuSOA" uri="guidances/toolmentors/exporting_wi_templates_from_rmc.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_N29jcMRmEeCwsb3v57J9Xw" userChangeable="false" name="practice.mgmt.project_process_tailoring.extend-ibm" guid="_N29jcMRmEeCwsb3v57J9Xw" briefDescription="Extend Plugin to the open source project_process_tailoring plugin" authors="Tom Tan">
+    <methodElementProperty xmi:id="_N3HUcsRmEeCwsb3v57J9Xw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_VBVtYBXVEdyM9L6rbYAZaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_N29jccRmEeCwsb3v57J9Xw" name="Content" guid="_N29jccRmEeCwsb3v57J9Xw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_N29jcsRmEeCwsb3v57J9Xw" name="Categories" guid="_N29jcsRmEeCwsb3v57J9Xw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_N29jc8RmEeCwsb3v57J9Xw" name="Domains" guid="_N29jc8RmEeCwsb3v57J9Xw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_N29jdMRmEeCwsb3v57J9Xw" name="Disciplines" guid="_N29jdMRmEeCwsb3v57J9Xw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_N29jdcRmEeCwsb3v57J9Xw" name="RoleSets" guid="_N29jdcRmEeCwsb3v57J9Xw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_N29jdsRmEeCwsb3v57J9Xw" name="WP Types" guid="_N29jdsRmEeCwsb3v57J9Xw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_N29jd8RmEeCwsb3v57J9Xw" name="Tools" guid="_N29jd8RmEeCwsb3v57J9Xw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_vMEG8MRmEeCwsb3v57J9Xw" name="rtc.clmit_acc" guid="_vMEG8MRmEeCwsb3v57J9Xw" variabilityType="contributes" toolMentors="_zQzVoMSQEeCwsb3v57J9Xw _pqlQAMSVEeCRGL8zR9ss6A _3-ixwCNbEeCOWdM_goLzAA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_3mXbsMYhEdyXeo04os5BOw#_58RjIMYhEdyXeo04os5BOw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_8JDFUMRnEeCwsb3v57J9Xw" name="rmc.clmit_acc" guid="_8JDFUMRnEeCwsb3v57J9Xw" variabilityType="contributes" toolMentors="_uj0HoC1qEeC4EpcylkdmHQ _UAkukCNbEeCOWdM_goLzAA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_fRdVEMYbEdyXeo04os5BOw#_mHQIMMYbEdyXeo04os5BOw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_CmDwwMSDEeCwsb3v57J9Xw" name="lpa.clmit_acc" guid="_CmDwwMSDEeCwsb3v57J9Xw" variabilityType="contributes" toolMentors="_4t-HIC1tEeC4EpcylkdmHQ _mU7sMCNaEeCOWdM_goLzAA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_3mXbsMYhEdyXeo04os5BOw#_1tRgcMSCEeCwsb3v57J9Xw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_N29jeMRmEeCwsb3v57J9Xw" name="StandardCategories" guid="_N29jeMRmEeCwsb3v57J9Xw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_N29jecRmEeCwsb3v57J9Xw" name="CustomCategories" guid="_N29jecRmEeCwsb3v57J9Xw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_N29jesRmEeCwsb3v57J9Xw" name="Hidden" guid="_N29jesRmEeCwsb3v57J9Xw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_N29je8RmEeCwsb3v57J9Xw" name="Custom Categories" guid="_N29je8RmEeCwsb3v57J9Xw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_N29jfMRmEeCwsb3v57J9Xw" name="CoreContent" guid="_N29jfMRmEeCwsb3v57J9Xw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cHzy4MRmEeCwsb3v57J9Xw" name="tool_mentors" guid="_cHzy4MRmEeCwsb3v57J9Xw" presentationName="Tool Mentor">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_gu2PcMRmEeCwsb3v57J9Xw" name="setup_tools.tm" guid="_gu2PcMRmEeCwsb3v57J9Xw" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_NOBspSZLEd-QuZFPf_YdqQ#_okIOcEmfEd-UYMQAaXd4fQ"/>
+            <toolMentors href="uma://_3mXbsMYhEdyXeo04os5BOw#_9XW3sHWPEd-P3eiLBcUmDw"/>
+            <toolMentors href="#_mU7sMCNaEeCOWdM_goLzAA"/>
+            <toolMentors href="#_zQzVoMSQEeCwsb3v57J9Xw"/>
+            <toolMentors href="#_pqlQAMSVEeCRGL8zR9ss6A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_mU7sMCNaEeCOWdM_goLzAA" name="inst_setup_clm_server" guid="_mU7sMCNaEeCOWdM_goLzAA" presentationName="Installing and Setting Up Collaborative Lifecycle Management Server" briefDescription="This tool mentor describes how to install and set up the Collaborative Lifecycle Management server.">
+            <methodElementProperty xmi:id="_3-6PoNtHEeGb8tVO8i-bGQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-0sCY_srmFOWy5qCTwqBz_w" href="uma://-0sCY_srmFOWy5qCTwqBz_w#-0sCY_srmFOWy5qCTwqBz_w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_uj0HoC1qEeC4EpcylkdmHQ" name="configuring_process_with_process_builder" guid="_uj0HoC1qEeC4EpcylkdmHQ" presentationName="Configuring a Process with Rational Method Composer Process Builder" briefDescription="This tool mentor provides guidance on how to use the Process Builder capability of Rational Method Composer to configure and publish a process.">
+            <methodElementProperty xmi:id="_VSp2gNtIEeGb8tVO8i-bGQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-syrlW9CmiXPlsHbmcqDW9A" href="uma://-syrlW9CmiXPlsHbmcqDW9A#-syrlW9CmiXPlsHbmcqDW9A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_vc9-0MRoEeCwsb3v57J9Xw" name="tailor_the_process.tm" guid="_vc9-0MRoEeCwsb3v57J9Xw" variabilityType="contributes" toolMentors="_uj0HoC1qEeC4EpcylkdmHQ _UAkukCNbEeCOWdM_goLzAA _3-ixwCNbEeCOWdM_goLzAA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_NOBspSZLEd-QuZFPf_YdqQ#_NOBsuCZLEd-QuZFPf_YdqQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="__G6vMMRoEeCwsb3v57J9Xw" name="verify_tool_config_installation.tm" guid="__G6vMMRoEeCwsb3v57J9Xw" variabilityType="contributes" toolMentors="_4t-HIC1tEeC4EpcylkdmHQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_NOBspSZLEd-QuZFPf_YdqQ#_jcjbMEmgEd-UYMQAaXd4fQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_4t-HIC1tEeC4EpcylkdmHQ" name="creating_sample_lifecycle_project_verify_tool_configuration" guid="_4t-HIC1tEeC4EpcylkdmHQ" presentationName="Creating a Sample Lifecycle Project to Verify Tool Configuration" briefDescription="This tool mentor describes how to set up tools to run a sample application.">
+            <presentation xmi:id="-6X9GCuT3uQhrC4sHy0uMxQ" href="uma://-6X9GCuT3uQhrC4sHy0uMxQ#-6X9GCuT3uQhrC4sHy0uMxQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_zQzVoMSQEeCwsb3v57J9Xw" name="creating_components_streams_with_rtc" guid="_zQzVoMSQEeCwsb3v57J9Xw" presentationName="Creating Components and Streams with IBM Rational Team Concert" briefDescription="Use IBM® Rational Team Concert™ to create components and streams to manage your source code.">
+            <methodElementProperty xmi:id="_J3dX0NtDEeGb8tVO8i-bGQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-hcHAmB3m_1h7sfUkSHi9tA" href="uma://-hcHAmB3m_1h7sfUkSHi9tA#-hcHAmB3m_1h7sfUkSHi9tA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_pqlQAMSVEeCRGL8zR9ss6A" name="creating_projects_and_processes_in_rtc" guid="_pqlQAMSVEeCRGL8zR9ss6A" presentationName="Creating Projects and Process Items in IBM Rational Team Concert" briefDescription="Use IBM® Rational Team Concert™ to create project areas, team areas, and other process items required to manage projects in Rational Team Concert.">
+            <methodElementProperty xmi:id="_J4LwkNtDEeGb8tVO8i-bGQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-z-4POnsHheem5tIPSrGPDw" href="uma://-z-4POnsHheem5tIPSrGPDw#-z-4POnsHheem5tIPSrGPDw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_UAkukCNbEeCOWdM_goLzAA" name="exporting_wi_templates_from_rmc" guid="_UAkukCNbEeCOWdM_goLzAA" presentationName="Exporting Work Item Templates from RMC" briefDescription="This tool mentor provides guidance on how to use Rational Method Composer to export work item templates.">
+            <methodElementProperty xmi:id="_VTs_YNtIEeGb8tVO8i-bGQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-AzM1pT8yUUd9-ERseLuSOA" href="uma://-AzM1pT8yUUd9-ERseLuSOA#-AzM1pT8yUUd9-ERseLuSOA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_3-ixwCNbEeCOWdM_goLzAA" name="importing_wi_templates_into_rtc" guid="_3-ixwCNbEeCOWdM_goLzAA" presentationName="Importing Work Item Templates into RTC" briefDescription="Use IBM® Rational Team Concert™ to import work item templates.">
+            <methodElementProperty xmi:id="_AKat8NtHEeGb8tVO8i-bGQ" name="me_edited" value="true"/>
+            <presentation xmi:id="-Q5j-yV1UqI_RFo4a9S3Lkg" href="uma://-Q5j-yV1UqI_RFo4a9S3Lkg#-Q5j-yV1UqI_RFo4a9S3Lkg"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_N29jfcRmEeCwsb3v57J9Xw" name="CapabilityPatterns" guid="_N29jfcRmEeCwsb3v57J9Xw"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_N29jfsRmEeCwsb3v57J9Xw" name="DeliveryProcesses" guid="_N29jfsRmEeCwsb3v57J9Xw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_N29jf8RmEeCwsb3v57J9Xw" name="ProcessContributions" guid="_N29jf8RmEeCwsb3v57J9Xw"/>
+    <bases href="uma://_3mXbsMYhEdyXeo04os5BOw#_3mXbsMYhEdyXeo04os5BOw"/>
+    <bases href="uma://_NOBspSZLEd-QuZFPf_YdqQ#_NOBspSZLEd-QuZFPf_YdqQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

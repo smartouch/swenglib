@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-xdc0FTmlrn-MTyZttpfW7w" name="test_findings,_DwNAQHE8Edy8Ac588DXPCQ" guid="-xdc0FTmlrn-MTyZttpfW7w" changeDate="2008-10-08T14:21:17.647-0700" version="7.1.0">
+  <mainDescription>Test Findings are sometimes a large set of many Test Findings.</mainDescription>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To record the detailed findings of the test effort&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To subsequently calculate the different key measures of testing&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  <impactOfNotHaving>&lt;p>&#xD;
+    Without this or similar documentation, there is no record of which tests were executed successfully, what variances&#xD;
+    were discovered, and what action was taken. If this information is not available:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        There will be no way to know which tests passed and which failed.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        There will be no way to assess the status of testing and the quality of the product at that level of testing.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It will be difficult to know how many tests remain outstanding.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></impactOfNotHaving>
+  <reasonsForNotNeeding>If the testing being done is relatively simple then a separate formal set of findings may not be necessary as the&#xD;
+information captured as part of the overall testing summary may be sufficient.</reasonsForNotNeeding>
+  <briefOutline>&lt;p>&#xD;
+    The information (as opposed to raw data) contained by the Test Findings may vary depending on the technology and&#xD;
+    tools used both during test execution to capture the test log, and after the fact to conduct analysis of the raw Test&#xD;
+    Log data. Here are some ideas for data that can be determined, and then made available for review and evaluation:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Test Findings identifier (ID for identifying these Test Findings from others)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Time, date, name of tester, and environment information (such as O/S, machine characteristics, and so on)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Specific identification of the Target Test Items (such as version, objects, and files)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test Cases intended to be executed (and traced to the requirements for test) &#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test Cases executed (and traced to the requirements for test)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Size measurement of Target Test Items to be executed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Size measurement of Target Test Items executed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Response time for specified sequences of events&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Trace data containing the details of the conversations between actors and the Target Test Items, or between&#xD;
+        objects in the Target Test Items&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Actual result of each Test Case executed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Differences between expected result and actual result&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        An indication of pass or fail for each Test Case executed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Actual level of completeness and positive results from each Test Suite executed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Any unexpected or abnormal results or behaviors&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></briefOutline>
+  <representationOptions>&lt;p>&#xD;
+    If you are using automated test tools, a lot of the determination of the above information can be simplified by the&#xD;
+    analysis capabilities of the tools. The tools also offer saved and customizable views of the information for reporting&#xD;
+    purposes.&lt;br />&#xD;
+    &lt;br />&#xD;
+&lt;/p></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

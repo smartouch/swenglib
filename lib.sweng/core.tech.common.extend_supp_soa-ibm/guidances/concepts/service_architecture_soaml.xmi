@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-bJC8ad3Hm11oGCY1S1gKbw" name="service_architecture_soaml,_wYQYkEo3Ed6D_7XK49c0nw" guid="-bJC8ad3Hm11oGCY1S1gKbw" changeDate="2009-09-21T21:02:07.171-0700" version="7.5.0">
+  <copyrightStatement href="uma://_4eYbIEcWEd6GBq2DuQ5crg#_6LLxwLNfEd6JDp2szLeSrA"/>
+  <mainDescription>&lt;p>&#xD;
+    Usage:&amp;nbsp; &quot;ServicesArchitecture&quot; stereotypes UML&amp;nbsp;Collaboration&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>A ServicesArchitecture (a SOA) describes how &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>Participants&lt;/a> work together for a purpose by providing and using &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp-ibm/guidances/concepts/service_2D3C4FFE.html&quot; guid=&quot;_OMw8cEozEd6D_7XK49c0nw&quot;>services&lt;/a> expressed as &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_contract_soaml_E57B30D4.html&quot; guid=&quot;_IhtgsFbBEd6MCpkuB85p5g&quot;>service contracts&lt;/a>. By expressing the use of services, the ServicesArchitecture&#xD;
+    implies some degree of knowledge of the dependencies between the Participants in some context. Each use of a service in&#xD;
+    a ServicesArchitecture is represented by the use of a ServiceContract bound to the roles of Participants in that&#xD;
+    architecture.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>Use of a ServicesArchitecture is optional but is recommended to show a high level view of how a set of&#xD;
+    Participants work together for some purpose. Whereas simple services might not have any dependencies or links to a&#xD;
+    business process, enterprise services can often only be understood in context. The services architecture provides that&#xD;
+    context, and it might also contain a behavior, which is the business process. The Participants' roles in a services&#xD;
+    architecture correspond to the swim lanes or pools in a business process.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>A Participant&amp;nbsp;can play a role in any number of services architectures.&lt;/font> Each role that it&#xD;
+    plays can impose additional requirements upon the Participant.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The internal behavior of each Participant that is involved in a ServicesArchitecture might itself be described using a&#xD;
+    ServicesArchitecture.&amp;nbsp; This situation arises, for example, when a Participant that is involved in a&#xD;
+    ServicesArchitecture is, itself, a provider of a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/termdefinitions/composite_service_2B492DE6.html&quot; guid=&quot;_Hm7qcIQnEd6pOcahJ5wBfA&quot;>composite service&lt;/a>.&amp;nbsp; In this case the run-time relationships between, and the&#xD;
+    behavior of, the Participant instances that drive the composite can be described using a ServicesArchitecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;3&quot;>&lt;strong>Semantics&lt;/strong>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Standard UML2 Collaboration semantics are augmented with the requirement that each&#xD;
+    Participant used in a services architecture must have a port compliant with the ServiceContracts the Participant&#xD;
+    provides or uses.&amp;nbsp; Model the compliance by binding one of the roles of the ServiceContract&amp;nbsp;usage (a&#xD;
+    CollaborationUse)&amp;nbsp;to the port.&lt;/font>&lt;/font>&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

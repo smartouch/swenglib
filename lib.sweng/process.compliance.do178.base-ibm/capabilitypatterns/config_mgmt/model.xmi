@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_rN9owAahEeKDn6MuflC_BA" guid="_rN9owAahEeKDn6MuflC_BA">
+    <resourceDescriptors xmi:id="_rN9owQahEeKDn6MuflC_BA" id="-VQYEu8GLfDSB1OOJSAqSvQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_rOAFAAahEeKDn6MuflC_BA" id="-p6biZLk34QsAlgzAQG6fNw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_rOBTIAahEeKDn6MuflC_BA" id="-6fWI6DG6iWdB3YB77ApmUw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_rOChQAahEeKDn6MuflC_BA" id="-RjEvPuXb3GmnvHC2zArqyQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_rODIUAahEeKDn6MuflC_BA" id="-NXHvewQp8ypC-heC_c5EfA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_rOEWcAahEeKDn6MuflC_BA" id="-Y1aIxgaH7FmgFxLH9Mo-fg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_N_aZcLohEeCzv5ow6iUjcw" name="config_mgmt" guid="_N_aZcLohEeCzv5ow6iUjcw">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Rcs_sLohEeCzv5ow6iUjcw" name="change_and_deliver_configuration_items" guid="_Rcs_sLohEeCzv5ow6iUjcw" presentationName="Change and Deliver Configuration Items" briefDescription="Manage project artifacts and the work involved from their initial creation as private artifacts through to their delivery and general availability to the project team and other stakeholders." superActivities="_N_aZcbohEeCzv5ow6iUjcw" mandatoryInput="_Rc2JoLohEeCzv5ow6iUjcw" output="_Rc2JoLohEeCzv5ow6iUjcw _Rc2JorohEeCzv5ow6iUjcw" performedPrimarilyBy="_Rcs_sbohEeCzv5ow6iUjcw">
+      <Task href="uma://_7hAQt1E9EeCyeMmiESq_Sw#_fW5MYFPIEeC0QeFAXej8ZA"/>
+      <selectedSteps href="uma://-4kprbvE2fVbJW691Qoijyg#_GGG1wFo4EeCS1-YLSl6T3g"/>
+      <selectedSteps href="uma://-4kprbvE2fVbJW691Qoijyg#_iTeTMFbyEeC0QeFAXej8ZA"/>
+      <selectedSteps href="uma://-4kprbvE2fVbJW691Qoijyg#_P3LhkFbzEeC0QeFAXej8ZA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_Rcs_sbohEeCzv5ow6iUjcw" name="any_role" guid="_Rcs_sbohEeCzv5ow6iUjcw" presentationName="Any Role" briefDescription="Anyone on a team can fill this role of performing general tasks." isPlanned="false" superActivities="_N_aZcbohEeCzv5ow6iUjcw" modifies="_Rc2JoLohEeCzv5ow6iUjcw _Rc2JorohEeCzv5ow6iUjcw">
+      <methodElementProperty xmi:id="_rOFkkAahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-VQYEu8GLfDSB1OOJSAqSvQ" href="uma://-VQYEu8GLfDSB1OOJSAqSvQ#-VQYEu8GLfDSB1OOJSAqSvQ"/>
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0dsWoMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Rc2JoLohEeCzv5ow6iUjcw" name="project_repository" guid="_Rc2JoLohEeCzv5ow6iUjcw" presentationName="Project Repository " briefDescription="This work product stores all versions of project files and directories. It also stores all the derived data and meta data associated with the files and directories." isPlanned="false" superActivities="_N_aZcbohEeCzv5ow6iUjcw">
+      <methodElementProperty xmi:id="_rOFkkQahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-p6biZLk34QsAlgzAQG6fNw" href="uma://-VQYEu8GLfDSB1OOJSAqSvQ#-p6biZLk34QsAlgzAQG6fNw"/>
+      <WorkProduct href="uma://_7hAQt1E9EeCyeMmiESq_Sw#_gPi2MFPJEeC0QeFAXej8ZA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Rc2JorohEeCzv5ow6iUjcw" name="workspace" guid="_Rc2JorohEeCzv5ow6iUjcw" presentationName="Workspace" briefDescription="A workspace enables controlled access to the artifacts and other resources required to develop the consumable product. Workspaces provide secure and exclusive access to versioned project artifacts from the project repository." isPlanned="false" superActivities="_N_aZcbohEeCzv5ow6iUjcw">
+      <methodElementProperty xmi:id="_rOFkkgahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-6fWI6DG6iWdB3YB77ApmUw" href="uma://-VQYEu8GLfDSB1OOJSAqSvQ#-6fWI6DG6iWdB3YB77ApmUw"/>
+      <WorkProduct href="uma://_7hAQt1E9EeCyeMmiESq_Sw#_SPQ8oFlLEeCS1-YLSl6T3g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_SmTsELohEeCzv5ow6iUjcw" name="perform_configuration_audit" guid="_SmTsELohEeCzv5ow6iUjcw" presentationName="Perform Configuration Audit " briefDescription="Defines how to perform a Configuration Audit." superActivities="_N_aZcbohEeCzv5ow6iUjcw" mandatoryInput="_Rc2JoLohEeCzv5ow6iUjcw" output="_SmnOErohEeCzv5ow6iUjcw" performedPrimarilyBy="_SmnOELohEeCzv5ow6iUjcw">
+      <Task href="uma://_7hAQt1E9EeCyeMmiESq_Sw#_010zIFPIEeC0QeFAXej8ZA"/>
+      <selectedSteps href="uma://-JzmRt478akI29kvzVNFRQg#_wk-l0FY1EeC0QeFAXej8ZA"/>
+      <selectedSteps href="uma://-JzmRt478akI29kvzVNFRQg#_XVbXsFY2EeC0QeFAXej8ZA"/>
+      <selectedSteps href="uma://-JzmRt478akI29kvzVNFRQg#_ipBy4FY2EeC0QeFAXej8ZA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_SmnOELohEeCzv5ow6iUjcw" name="configuration_manager" guid="_SmnOELohEeCzv5ow6iUjcw" presentationName="Configuration Manager" briefDescription="This role manages the overall Configuration Management (CM) infrastructure and environment for the product development team." isPlanned="false" superActivities="_N_aZcbohEeCzv5ow6iUjcw" modifies="_SmnOErohEeCzv5ow6iUjcw">
+      <methodElementProperty xmi:id="_rOFkkwahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-RjEvPuXb3GmnvHC2zArqyQ" href="uma://-VQYEu8GLfDSB1OOJSAqSvQ#-RjEvPuXb3GmnvHC2zArqyQ"/>
+      <Role href="uma://_yjPyAMYfEdyXeo04os5BOw#_noy4AFI5Ed-gBcXwne8JxA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_SmnOErohEeCzv5ow6iUjcw" name="configuration_audit_findings" guid="_SmnOErohEeCzv5ow6iUjcw" presentationName="Configuration Audit Findings" briefDescription="This artifact identifies a baseline, any missing required artifacts, and incompletely tested or failed requirements. " isPlanned="false" superActivities="_N_aZcbohEeCzv5ow6iUjcw">
+      <methodElementProperty xmi:id="_rOFklAahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-NXHvewQp8ypC-heC_c5EfA" href="uma://-VQYEu8GLfDSB1OOJSAqSvQ#-NXHvewQp8ypC-heC_c5EfA"/>
+      <WorkProduct href="uma://_7hAQt1E9EeCyeMmiESq_Sw#_-bURAFlKEeCS1-YLSl6T3g"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_N_aZcbohEeCzv5ow6iUjcw" name="config_mgmt" guid="_N_aZcbohEeCzv5ow6iUjcw" presentationName="Configuration Management" breakdownElements="_Rcs_sLohEeCzv5ow6iUjcw _Rcs_sbohEeCzv5ow6iUjcw _Rc2JoLohEeCzv5ow6iUjcw _Rc2JorohEeCzv5ow6iUjcw _SmTsELohEeCzv5ow6iUjcw _SmnOELohEeCzv5ow6iUjcw _SmnOErohEeCzv5ow6iUjcw">
+      <presentation xmi:id="-Y1aIxgaH7FmgFxLH9Mo-fg" href="uma://-VQYEu8GLfDSB1OOJSAqSvQ#-Y1aIxgaH7FmgFxLH9Mo-fg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-0icjiNc6meg-PsKnmmt1HQ" name="derive_uc_scenarios,_d-YicGKaEd6Ih4GzU1_Daw" guid="-0icjiNc6meg-PsKnmmt1HQ" version="7.5.0">
+  <sections xmi:id="_WVrGwL3CEd6N54g5903uPw" name="Identify independent paths through the use case black-box activity diagram" guid="_WVrGwL3CEd6N54g5903uPw">
+    <sectionDescription>Review the use-case black-box activity diagram to identify sequences of activities that will define separate&#xD;
+scenarios.&amp;nbsp; Make sure that every activity is included in at least one scenario.</sectionDescription>
+  </sections>
+  <sections xmi:id="_X1yOoL3CEd6N54g5903uPw" name="Expand / Create use-case black box sequence diagrams" guid="_X1yOoL3CEd6N54g5903uPw">
+    <sectionDescription>For each scenario identified, create a separate use-case sequence diagram.&amp;nbsp; For each sequence diagram add lifelines&#xD;
+for each of the actors associated with the use case and a lifeline representing the use case under consideration.</sectionDescription>
+  </sections>
+  <sections xmi:id="_ZaXm0L3CEd6N54g5903uPw" name="Allocate activities to the use case lifeline" guid="_ZaXm0L3CEd6N54g5903uPw">
+    <sectionDescription>For each scenario identified, create reflexive messages on the use-case lifeline, in the order of occurrence,&amp;nbsp;for each&#xD;
+activity in the relevant scenario.</sectionDescription>
+  </sections>
+  <sections xmi:id="_bWf8UL3CEd6N54g5903uPw" name="Create messages to/from the environment" guid="_bWf8UL3CEd6N54g5903uPw">
+    <sectionDescription>Add messages to/from the actor lifelines to represent external communications.</sectionDescription>
+  </sections>
+  <sections xmi:id="_eY9AsL3CEd6N54g5903uPw" name="Add operations to the use-case block" guid="_eY9AsL3CEd6N54g5903uPw">
+    <sectionDescription>For each reflexive message on the use case lifeline, create the corresponding operation on the use-case block.</sectionDescription>
+  </sections>
+  <sections xmi:id="_f-bwwL3CEd6N54g5903uPw" name="Add receptions" guid="_f-bwwL3CEd6N54g5903uPw">
+    <sectionDescription>Create receptions on the use-case block for each message from the actors.</sectionDescription>
+  </sections>
+  <purpose>To detail the interactions between a use case block and its actor(s).</purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="--beoy9dCEpChaBq4PqvYzA" name="new_toolmentor,_mhPCsHjxEdyhRNciHt44hg" guid="--beoy9dCEpChaBq4PqvYzA" changeDate="2007-10-12T11:34:11.078-0700" version="7.1.0">
+  <mainDescription>&lt;h3>&#xD;
+    Overview&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Rational Functional Tester Extension for Terminal-based Applications (FTE) is used to automate the testing of MVS, VM,&#xD;
+    OS/400 and Unix host applications.&amp;nbsp; This tool mentor assumes you have installed the Rational Functional Tester&#xD;
+    Extension and have some familiarity with Rational Functional Tester (RFT).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You may want to create a host test script that does not login to the host; for example, for&amp;nbsp;security&#xD;
+    reasons.&amp;nbsp;This tool mentor describes how to create a script from a non-login screen; that is, a script that is&#xD;
+    intended to run after the connection to the host has been established.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    Tool Steps&#xD;
+&lt;/h4>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Begin the script creation by&amp;nbsp;launching&amp;nbsp;FTE from a Rational Functional Tester project outside of recording&#xD;
+        a test script.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Enter&amp;nbsp;your host connection parameters and connect to the host system.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Once the connection is successful, login to&amp;nbsp;your host system.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Navigate to&amp;nbsp;the first screen&amp;nbsp;you want to test.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        With the FTE window still open, start recording a script within Rational Functional Tester by pressing the &quot;Record&#xD;
+        a Functional Test Script&quot; button.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Next, place the&amp;nbsp;focus on the FTE&amp;nbsp;window and perform the host actions you want to test.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Logoff from the host and close the FTE window.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        You may now stop recording of the script.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To run the script, launch FTE again.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Start a connection to the same host, log into your host system, and navigate to the screen where the script starts.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        You may now&amp;nbsp;run the script.&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

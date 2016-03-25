@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-GtDbMmGYEx0GZfEd2XU56g" name="document_service_non-functional_rqmts,_Bm20IGfoEd6Lp4pMdHNm6g" guid="-GtDbMmGYEx0GZfEd2XU56g" changeDate="2009-09-25T14:25:29.140-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Utilizing a Service-Oriented Architecture provides the opportunity for a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend-ibm/guidances/termdefinitions/service_consumer_91384414.html&quot; guid=&quot;_HDs9YIQuEd6VVeXj3w86dA&quot;>service consumer&lt;/a> to choose a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/termdefinitions/service_provider.supp_soa_478061A7.html&quot; guid=&quot;_ewRWAIRSEd6jqtIeWlQI8A&quot;>service provider&lt;/a> based not only on the functionality it provides, but also on the&#xD;
+    Qualities of Service (QoS) that it&amp;nbsp;might guarantee.&amp;nbsp; Because of this, it is important to clearly specify the&#xD;
+    expected non-functional requirements required by a consumer.&amp;nbsp; When these requirements are known, the servicing&#xD;
+    organization can commit resources to create and maintain service components that deliver the necessary QoS.&amp;nbsp; Key&#xD;
+    architectural decisions might need to be made to ensure that the QoS can be delivered.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_L0hpgHxWEd6gJ5T9e4Vlag" name="Document non-functional requirements" guid="_L0hpgHxWEd6gJ5T9e4Vlag">
+    <sectionDescription>&lt;p>&#xD;
+    Identify from the system-wide requirements the non-functional requirements that consumers are likely to impose upon&#xD;
+    each service in the service model.&amp;nbsp; Such requirements could include, but are not limited to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Availability. (Mean time between failure)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Operational window. (Is there ever a time when the service is not expected to be used?)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Response time. (How quickly does the service need to respond to a request?)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Peak throughput. (How many requests for the service can arrive per unit of time? Such as per second, per minute,&#xD;
+        per hour.)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Document any key architectural decisions that are needed to meet these requirements. These decisions also&amp;nbsp;need&#xD;
+    to&amp;nbsp;be reflected appropriately within the software architecture document.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The manner in which non-functional requirements are attached to the &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot;&#xD;
+    guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>ServiceInterface&lt;/a>&amp;nbsp;is not defined by this guidance. Neither are there bounds set&#xD;
+    on what constitutes such a requirement.&amp;nbsp;&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    Document the Quality-of-Service requirements for the specified services.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

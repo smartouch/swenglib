@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-zM-LTXOR9MV1mOvinvKkxA" name="new_guideline,_fREWsKmFEd6aY6j-UvaWFw" guid="-zM-LTXOR9MV1mOvinvKkxA" changeDate="2009-09-24T20:45:27.125-0700" version="7.5.0">
+  <mainDescription>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Exception Handling&lt;/b> - Work to understand how exception handling works today. In batch processing, when&#xD;
+        exception occurs, the program abnormally terminates and produces a core dump. The programmer is required to look at&#xD;
+        the core dump and&amp;nbsp;determine what needs to be done. This might not be acceptable. One would need to figure out&#xD;
+        what needs to be done, for instance, and how to integrate with exception handling framework.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Process and Data Distribution&lt;/strong> -&amp;nbsp;Examine where the data and process are executed. A CICS&#xD;
+        application&amp;nbsp;running on one machine might send a request to another machine (also known as function shipping in&#xD;
+        CICS) or it might &quot;remote call&quot; data on another machine. We might&amp;nbsp;consider going directly (JDBC to DB) to the&#xD;
+        remote machine where the process or data is running, instead of using the connector which goes through the JDBC to&#xD;
+        DB.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Data Availability&lt;/strong> - If these is a VSAM&amp;nbsp;customer file which requires, say, a 4 hour&#xD;
+        maintenance window, then we can't support 24/7 customer service. We would need to consider a new storage solution.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Authorization/Authentication&lt;/strong> - Many legacy applications have authorization and authentication&#xD;
+        mechanisms in the application code. This would require migrating user access management to federated managed&#xD;
+        environment supported by best practices.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Staging Delays&lt;/strong> - Typically batch programs run once a day in the night. If requirements are to run&#xD;
+        the program more often, then&amp;nbsp;the schedule program must be modified to change the frequency.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

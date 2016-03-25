@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-hqMcNO77oTgh3XqD3aNFzg" name="mc_faq,_9oQJUK9HEd2eAKjlRdmHyw" guid="-hqMcNO77oTgh3XqD3aNFzg" changeDate="2010-05-18T10:39:42.437-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    &lt;strong>Question&lt;/strong>: Content that I am expecting isn't showing up when I publish the configuration.&lt;br />&#xD;
+    &lt;strong>Answer:&lt;/strong> Check that the content is checked in the configuration. Whenever plug-ins, folders, or&#xD;
+    processes are added, you need to update configurations to make sure they are included.&lt;br />&#xD;
+    &lt;br />&#xD;
+    &lt;strong>Question&lt;/strong>:&amp;nbsp;Content is not showing up in&amp;nbsp;navigation views, as expected.&lt;br />&#xD;
+    &lt;strong>Answer&lt;/strong>: Confirm that the element has been added to the custom category that represents the navigation&#xD;
+    view. If the custom category is populated using a query, make sure that the element you want added has the necessary&#xD;
+    values to be included. For example, if custom category includes everything with a specific tag, make sure the element&#xD;
+    that would like to see added has been tagged with the necessary tag.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Question&lt;/strong>:&amp;nbsp;I added glossary terms to a plug-in, but they are not showing up.&lt;br />&#xD;
+    &lt;strong>Answer&lt;/strong>: If the plug-in is a &quot;supporting plug-in&quot; then glossary terms will not show up. You may have to&#xD;
+    create both supporting and non-supporting plug-ins to separate content that publishes only when used from content that&#xD;
+    you always want published. For more information on supporting plug-ins, see the Method Composer online help topic:&#xD;
+    &lt;strong>Product overview&lt;/strong> &amp;gt; &lt;strong>Introduction to Rational Method Composer&lt;/strong> &amp;gt; &lt;strong>Key&#xD;
+    concepts&lt;/strong> &amp;gt; &lt;strong>Method plug-in&lt;/strong>. The latest information on this topic is also available from the&#xD;
+    &lt;a href=&quot;http://pic.dhe.ibm.com/infocenter/rmchelp/v7r5m1/index.jsp&quot; target=&quot;_blank&quot;>RMC Information Center&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Question&lt;/strong>: I added some roles and work products in a &quot;common&quot; plug-in, and they are showing up in&#xD;
+    configurations where they are not applicable.&lt;br />&#xD;
+    &lt;strong>Answer&lt;/strong>: If the roles and work products are in a non-supporting plug-in, then they will show up even&#xD;
+    when not referenced by a specific practice. You may have to create both supporting and non-supporting plug-ins to&#xD;
+    separate content that publishes only when used from content that you always want published. For more information on&#xD;
+    supporting plug-ins, see the Method Composer online help topic: &lt;strong>Product overview&lt;/strong> &amp;gt;&#xD;
+    &lt;strong>Introduction to Rational Method Composer&lt;/strong> &amp;gt; &lt;strong>Key concepts&lt;/strong> &amp;gt; &lt;strong>Method&#xD;
+    plug-in&lt;/strong>. The latest information on this topic is also available from the &lt;a&#xD;
+    href=&quot;http://pic.dhe.ibm.com/infocenter/rmchelp/v7r5m1/index.jsp&quot; target=&quot;_blank&quot;>RMC Information Center&lt;/a>.&lt;br />&#xD;
+    &lt;br />&#xD;
+    &lt;strong>Question&lt;/strong>: My configuration contains lots of resource errors - what did I do wrong?&lt;br />&#xD;
+    &lt;strong>Answer:&lt;/strong> When elements are moved and renamed in the library, configurations are not automatically&#xD;
+    updated. Thus, over time, references in configurations can become invalid. If you are sure your library contains&#xD;
+    everything relevant to the configuration, you can apply the &quot;quick fix&quot; to all such errors.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Question&lt;/strong>: A field on one of my method elements (such as &lt;strong>Purpose&lt;/strong>) is empty, but it&#xD;
+    still appears. I would like for it to be suppressed - what do I do?&lt;br />&#xD;
+    &lt;strong>Answer&lt;/strong>: It should be automatically suppressed if empty. Check the HTML tab - there is probably some&#xD;
+    invisible HTML in the field.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Question&lt;/strong>: I am trying to drag a task from the library view into my process, but it doesn't work.&lt;br />&#xD;
+    &lt;strong>Answer&lt;/strong>: You must drag from the configuration view, not the library view.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Question&lt;/strong>: I created a task, but I can't find it to add to my process. Where is it?&lt;br />&#xD;
+    &lt;strong>Answer&lt;/strong>: Make sure the default configuration for the process includes the plug-in and package where the&#xD;
+    task is defined.&amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

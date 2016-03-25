@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-FneVkstfYPueUicOrZ3Zzw" name="implement_test,_fajSUHE6Edy8Ac588DXPCQ" guid="-FneVkstfYPueUicOrZ3Zzw" changeDate="2007-12-20T13:25:07.750-0800" version="7.2.0">
+  <sections xmi:id="_HjkjsHdcEdyqd9oUl_5ulw" name="Select Appropriate Implementation Technique " guid="_HjkjsHdcEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Select the most appropriate technique to implement the test. For each test that you want to conduct, consider&#xD;
+    implementing at least one Test Script. In some instances, the implementation for a given test will span multiple Test&#xD;
+    Scripts. In others, a single Test Script will provide the implementation for multiple tests.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Typical methods for implementing tests include writing a textual description in the form of a script to be followed&#xD;
+    (for manual testing), and the programming (captured-recording or generation) of a script-based programming language&#xD;
+    (for automated testing). Each method is discussed in the following sections.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As with most approaches, you will get more useful results if you use a mixture of the following techniques. While you&#xD;
+    do not need to use them all, you should not confine yourself to using a single technique either.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more details, see the Select Appropriate Implementation Technique section from &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.independent_testing.base-ibm/guidances/guidelines/impl_tests_7C614EF3.html&quot;&#xD;
+    guid=&quot;_l80e0LJcEdyHw6xErAkVmw&quot;>Guideline: Implementing Tests&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_JNOCEHdcEdyqd9oUl_5ulw" name="Set Up Test Environment Preconditions " guid="_JNOCEHdcEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Set up the test environment, including all hardware, software, tools, and data. Ensure that all components are&#xD;
+    functioning properly. Typically, this will involve some form of basic environment reset, restoration of underlying&#xD;
+    databases to known state, and so on, in addition to tasks such as loading paper into printers. While some tasks can be&#xD;
+    performed automatically, some aspects typically require human attention.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more details, see the Set Up Test Environment Preconditions section from &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.independent_testing.base-ibm/guidances/guidelines/impl_tests_7C614EF3.html&quot;&#xD;
+    guid=&quot;_l80e0LJcEdyHw6xErAkVmw&quot;>Guideline: Implementing Tests&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_K3w4UHdcEdyqd9oUl_5ulw" name="Implement the Test " guid="_K3w4UHdcEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Using the Test-Ideas List, or one or more selected Test Case artifacts, begin to implement the test. Start by giving&#xD;
+    the test a uniquely identifiable name (if it does not already have one) and prepare the IDE, capture tool, spreadsheet,&#xD;
+    or document to begin recording the specific steps of the test. Work through the following subsections as many times as&#xD;
+    are required to implement the test.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For some specific tests or types of tests, there may be little value in documenting the explicit steps required to&#xD;
+    conduct the test. In certain styles of &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend-ibm/guidances/termdefinitions/exploratory_testing_BC95E6A6.html&quot;&#xD;
+    guid=&quot;_TlPPUK9CEdyqIcGe5CQhlg&quot;>exploratory testing&lt;/a> repetition of the test is not an expected deliverable. For very&#xD;
+    simple tests, a brief description of the purpose of the tests will be sufficient in many cases to allow it to be&#xD;
+    reproduced.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more details, see the Implement the Test section from &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.independent_testing.base-ibm/guidances/guidelines/impl_tests_7C614EF3.html&quot;&#xD;
+    guid=&quot;_l80e0LJcEdyHw6xErAkVmw&quot;>Guideline: Implementing Tests&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_MWYycHdcEdyqd9oUl_5ulw" name="Establish External Data Sets " guid="_MWYycHdcEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    In many cases, it is more appropriate to maintain your Test Data external to the Test Script. This provides&#xD;
+    flexibility, simplicity, and security in Test Script and Test Data maintenance.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more details, see the Establish External Data Sets section from &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.independent_testing.base-ibm/guidances/guidelines/impl_tests_7C614EF3.html&quot;&#xD;
+    guid=&quot;_l80e0LJcEdyHw6xErAkVmw&quot;>Guideline: Implementing Tests&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_OAe8wHdcEdyqd9oUl_5ulw" name="Verify the Test Implementation " guid="_OAe8wHdcEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Especially in the case of test automation, you will probably need to spend some time stabilizing the workings of the&#xD;
+    test when it is being executed. When you have completed the basic implementation of the Test Script, it should be&#xD;
+    tested to ensure that it implements the individual tests appropriately, and that they execute properly.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more details, see the Verify the Test Implementation section from &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.independent_testing.base-ibm/guidances/guidelines/impl_tests_7C614EF3.html&quot;&#xD;
+    guid=&quot;_l80e0LJcEdyHw6xErAkVmw&quot;>Guideline: Implementing Tests&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_PoMhcHdcEdyqd9oUl_5ulw" name="Restore Test Environment to Known State " guid="_PoMhcHdcEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    While this step might seem trivial, it is an important good habit to form to work effectively with the other testers on&#xD;
+    the team, especially where the implementation environment is shared. It is also important to establish a routine that&#xD;
+    makes thinking of the system state second nature.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When you are in a primarily manual testing effort, it is often simple to identify and fix environment restore problems:&#xD;
+    remember that automated testing has much less ability to tolerate unanticipated problems with environment state.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_RN9lYHdcEdyqd9oUl_5ulw" name="Maintain Traceability Relationships " guid="_RN9lYHdcEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Using the Traceability requirements for the project, update the traceability relationships as required.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_S1iAIHdcEdyqd9oUl_5ulw" name="Evaluate and Verify Your Results " guid="_S1iAIHdcEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    You should evaluate whether your work is of appropriate quality, and that it is complete enough to be useful to those&#xD;
+    team members who will make subsequent use of it as input to their work. Where possible, use checklists to verify that&#xD;
+    quality and completeness are good enough.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Have the people who perform the downstream tasks that rely on your work as input review your interim work. Do this&#xD;
+    while you still have time available to take action to address their concerns. You should also evaluate your work&#xD;
+    against the key input work products to make sure that you have represented them accurately and sufficiently. It may be&#xD;
+    useful to have the author of the input work product review your work on this basis.&#xD;
+&lt;/p>&lt;br /></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    The purpose of this task is to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Implement one or more test work products that enable the validation of the software product through physical&#xD;
+        execution&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Develop tests that can be executed in conjunction with other tests as part of a larger test infrastructure&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

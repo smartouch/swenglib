@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-vxYb2fYm2j8VdwoeXH1USw" name="actor,_rMr-YNDuEdunspUKKm1F4Q" guid="-vxYb2fYm2j8VdwoeXH1USw" changeDate="2009-02-22T17:37:25.515-0800" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    Actors represent different types of users. An actor is anyone or anything that exchanges data with the system. An actor&#xD;
+    can be a user, external hardware, or another system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The difference between an actor and an individual system user is that an actor represents a particular class of users,&#xD;
+    rather than an actual user.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Several different individual users can play the same role, which means that they can be represented by the same, single&#xD;
+    actor. In that case, each individual user constitutes an instance of the actor.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span     style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>However,&#xD;
+    in some situations, only one person plays the role modeled by an actor. For example, there may be only one individual&#xD;
+    in the role of system administrator for a rather small system.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0pt&quot;>&#xD;
+    &lt;span     style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>The&#xD;
+    same user can also act as several actors (that is, the same person can take on different roles).&lt;/span>&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br /></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    This&amp;nbsp;artifact concentrates on the classes of person and other systems that interact with the system under&#xD;
+    consideration. Not every role in an organization becomes an actor.&amp;nbsp;However, work products that describe&#xD;
+    organizational roles may be useful sources for coming up with actors.&#xD;
+&lt;/p></keyConsiderations>
+  <purpose>This artifact captures details of the actors which are important to understanding the relationship and interaction between&#xD;
+a use-case and the system boundary.</purpose>
+  <impactOfNotHaving>If you do not use this artifact, you will not develop a comprehensive view of whom and what can interact with the&#xD;
+system.&amp;nbsp;Important&amp;nbsp;stakeholder perspectives and interactions of the roles and systems may not be taken into&#xD;
+account. This will result in a system where some classes of person who need to interact with it have not been identified or&#xD;
+a solution that does not meet all users' interaction needs. It can be very difficult, if not impossible, to assess the&#xD;
+completeness of the set of use cases without the context provided by the associated actors.&amp;nbsp;</impactOfNotHaving>
+  <reasonsForNotNeeding>If you have chosen a non-use case approach, or you have captured the information elsewhere, or there is no human&#xD;
+interaction with the system, or&amp;nbsp;it is possible to capture the interaction with other systems solely through&#xD;
+architectural artifacts, then you may not need this&amp;nbsp;artifact on your project.</reasonsForNotNeeding>
+  <briefOutline>For each actor identified, document the name and a brief description.</briefOutline>
+  <notation>UML Representation: Actor &#xD;
+&lt;p>&#xD;
+    &lt;a id=&quot;Tailoring&quot; name=&quot;Tailoring&quot;>&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The &lt;strong>actor&lt;/strong> may have the following &lt;strong>properties&lt;/strong>:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Name:&lt;/strong> The name of the actor.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Brief Description:&lt;/strong> A brief description of the actor's sphere of responsibility and what the actor&#xD;
+        needs the system for.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Characteristics:&lt;/strong> For human actors: The physical environment of the actor, the number of users the&#xD;
+        actor represents, the actor's level of domain knowledge, the actor's level of computer experience, other&#xD;
+        applications the actor is using, and other general characteristics such as gender, age, cultural background, and so&#xD;
+        on.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Relationships:&lt;/strong> The relationships, such as actor-generalizations, and communicates-associations in&#xD;
+        which the actor participates.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Diagrams:&lt;/strong> Any diagrams local to the actor, such as use-case diagrams depicting the actor's&#xD;
+        communicates-associations with use cases.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Decide which properties to use and how to use them. In particular, you need to decide at which level of detail the&#xD;
+    &quot;Characteristics&quot; property needs to be described.&#xD;
+&lt;/p></notation>
+</org.eclipse.epf.uma:ArtifactDescription>

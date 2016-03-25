@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_VZWwYPQ9Ed-T3OWIkMbjNw" guid="_VZWwYPQ9Ed-T3OWIkMbjNw">
+    <resourceDescriptors xmi:id="_VZWwYfQ9Ed-T3OWIkMbjNw" id="-qXko3yoq7Cv_8Am32QDjRg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_VZWwYvQ9Ed-T3OWIkMbjNw" id="-4iDSzCKtWmPmNTCn-TUSqw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_VZghYPQ9Ed-T3OWIkMbjNw" id="-KdM8-N6XGmfDirYJYJVAXA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_UaU8UPQ9Ed-T3OWIkMbjNw" name="Managing Performance Measurement" guid="_UaU8UPQ9Ed-T3OWIkMbjNw">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_UaU8W_Q9Ed-T3OWIkMbjNw" name="Define Vision" guid="_UaU8W_Q9Ed-T3OWIkMbjNw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_UaU8XPQ9Ed-T3OWIkMbjNw" name="Define Vision" guid="_UaU8XPQ9Ed-T3OWIkMbjNw" presentationName="Define Vision" superActivities="_UaU8WvQ9Ed-T3OWIkMbjNw">
+        <presentation xmi:id="-qXko3yoq7Cv_8Am32QDjRg" href="uma://-qXko3yoq7Cv_8Am32QDjRg#-qXko3yoq7Cv_8Am32QDjRg"/>
+        <guidelines href="uma://_80HrwN2sEd2QNLjJtauhTA#_V6lBYPhdEd2eD9_rTy05yw"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_UaU8V_Q9Ed-T3OWIkMbjNw" name="Project Planning and Monitoring" guid="_UaU8V_Q9Ed-T3OWIkMbjNw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_UaU8WfQ9Ed-T3OWIkMbjNw" name="Project Planning and Monitoring" guid="_UaU8WfQ9Ed-T3OWIkMbjNw" presentationName="Project Planning and Monitoring" superActivities="_UaU8WvQ9Ed-T3OWIkMbjNw" linkToPredecessor="_UaU8WPQ9Ed-T3OWIkMbjNw">
+        <presentation xmi:id="-4iDSzCKtWmPmNTCn-TUSqw" href="uma://-qXko3yoq7Cv_8Am32QDjRg#-4iDSzCKtWmPmNTCn-TUSqw"/>
+        <guidelines href="uma://_80HrwN2sEd2QNLjJtauhTA#_cjtRgPhdEd2eD9_rTy05yw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_UaU8WPQ9Ed-T3OWIkMbjNw" guid="_UaU8WPQ9Ed-T3OWIkMbjNw" pred="_UaU8XPQ9Ed-T3OWIkMbjNw"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_UaU8VPQ9Ed-T3OWIkMbjNw" name="Define the Measurement System" guid="_UaU8VPQ9Ed-T3OWIkMbjNw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_UaU8VvQ9Ed-T3OWIkMbjNw" name="Define the Measurement System" guid="_UaU8VvQ9Ed-T3OWIkMbjNw" superActivities="_UaU8WvQ9Ed-T3OWIkMbjNw" linkToPredecessor="_UaU8VfQ9Ed-T3OWIkMbjNw" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_uH-DMP0jEd20w98rSqT2fg#_uH-DMf0jEd20w98rSqT2fg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_UaU8VfQ9Ed-T3OWIkMbjNw" guid="_UaU8VfQ9Ed-T3OWIkMbjNw" pred="_UaU8XPQ9Ed-T3OWIkMbjNw"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_UaU8UfQ9Ed-T3OWIkMbjNw" name="Deploy the Measurement System" guid="_UaU8UfQ9Ed-T3OWIkMbjNw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_UaU8UvQ9Ed-T3OWIkMbjNw" name="Deploy the Measurement System" guid="_UaU8UvQ9Ed-T3OWIkMbjNw" superActivities="_UaU8WvQ9Ed-T3OWIkMbjNw" linkToPredecessor="_UaU8U_Q9Ed-T3OWIkMbjNw" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_1DAtQP0kEd20w98rSqT2fg#_1DAtQf0kEd20w98rSqT2fg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_UaU8U_Q9Ed-T3OWIkMbjNw" guid="_UaU8U_Q9Ed-T3OWIkMbjNw" pred="_UaU8VvQ9Ed-T3OWIkMbjNw"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_UaU8WvQ9Ed-T3OWIkMbjNw" name="Managing Performance Measurement" guid="_UaU8WvQ9Ed-T3OWIkMbjNw" presentationName="Performance Measurement System Overview" briefDescription="This workflow describes how to set up a Performance Measurement System and how to manage it, by focusing on the main tasks performed, the artifacts produced and consumed, and the roles involved. The Define Vision and Project Planning and Monitoring activities are just placeholders being outside of the scope covered by the main activities, their main role being to provide some general usage context." breakdownElements="_UaU8XPQ9Ed-T3OWIkMbjNw _UaU8WfQ9Ed-T3OWIkMbjNw _UaU8VvQ9Ed-T3OWIkMbjNw _UaU8UvQ9Ed-T3OWIkMbjNw">
+      <methodElementProperty xmi:id="_VP-K4PQ9Ed-T3OWIkMbjNw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-KdM8-N6XGmfDirYJYJVAXA" href="uma://-qXko3yoq7Cv_8Am32QDjRg#-KdM8-N6XGmfDirYJYJVAXA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

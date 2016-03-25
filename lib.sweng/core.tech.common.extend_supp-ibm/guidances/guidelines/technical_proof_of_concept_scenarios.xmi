@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-YqXukkN44mMB-2_kPLZyJQ" name="new_guideline,_luzL0DeYEdyFMtjeREc5MQ" guid="-YqXukkN44mMB-2_kPLZyJQ" changeDate="2011-07-14T13:22:13.658-0700" version=".1">
+  <mainDescription>&lt;p>&#xD;
+    Since a Technical Proof of Concept actually validates a component design and produces executable code, it is difficult&#xD;
+    to document a running example.&amp;nbsp; This document will simply highlight scenarios which may warrant the development of&#xD;
+    a Technical Proof of Concept.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    1.&amp;nbsp;In order to fit a particular customer's existing IT platform, a project was implemented using Smalltalk and&#xD;
+    COBOL with C++ infrastructure code.&amp;nbsp; This particular combination of technologies was at that time totally unknown&#xD;
+    in the relevant development shop, so a small subsection of the product was developed as a Technical Proof of&#xD;
+    Concept.&amp;nbsp; It included the bare minimum to demonstrate the compatibility of the components and measure the&#xD;
+    end-to-end performance characteristics of a simple transaction.&amp;nbsp; The transaction was measured using a desktop&#xD;
+    object on the client, the messaging service between the client and the host, and a simple server component.&amp;nbsp; The&#xD;
+    following results were produced:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Metrics for the performance and capacity characteristics of the technology, such as message size information and&#xD;
+        turnaround time.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Outline requirements for tools to monitor and verify the cost of the technology, in this case the incorporation of&#xD;
+        trace points in the application logic to support performance analysis and debugging.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Recommendations that some of the technology should not be used.&amp;nbsp; In this case, the proposed version of&#xD;
+        Smalltalk was replaced with one from another supplier because of the inefficiency of the garbage collection&#xD;
+        process.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Developer guidance on the most effective way to use the technology, for example on how to reduce total time&#xD;
+        perceived by the end-user by overlapping client and server processing.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    2.&amp;nbsp;Another project development team performed some initial work to learn exactly how MQSeries worked.&amp;nbsp; The&#xD;
+    output from this was in the form of flow diagrams that identified the areas within the product that could become&#xD;
+    performance concerns.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    3.&amp;nbsp;A third project required an interface to an existing system.&amp;nbsp; The new interface had aggressive performance&#xD;
+    requirements.&amp;nbsp; A Technical Proof of Concept was created to validate the design options for maximizing the&#xD;
+    throughput of the interface.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    On a fourth project, the designers were unsure which batch architecture would yield the shortest overnight run&#xD;
+    time.&amp;nbsp; The cost of actually developing more than one option was prohibitive, so a detailed simulation of the&#xD;
+    various options was carried out using a tool to determine which was the most effective.&amp;nbsp; Note that this approach&#xD;
+    should only be used with great care, as any simulation is only as good as the data that goes into it (refer to the&#xD;
+    Performance Model WPD).&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

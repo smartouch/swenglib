@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_3q-jgbw3Ed-eitZNR_0_Rg" guid="_3q-jgbw3Ed-eitZNR_0_Rg">
+    <resourceDescriptors xmi:id="_3q-jgrw3Ed-eitZNR_0_Rg" id="-3-gsd9p1pch1IBAaBHpoRg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_3qYtoLw3Ed-eitZNR_0_Rg" name="det_dsgn_rt" guid="_3qYtoLw3Ed-eitZNR_0_Rg">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9Wt-ULw3Ed-eitZNR_0_Rg" name="select_classes" guid="_9Wt-ULw3Ed-eitZNR_0_Rg" presentationName="Select Special Needs Classes" briefDescription="This task identifies classes that require special optimization." superActivities="_3qYtobw3Ed-eitZNR_0_Rg" additionallyPerformedBy="_BDJjQeOJEd-vEMv_8KBZSw" mandatoryInput="_BDJjROOJEd-vEMv_8KBZSw _BDJjReOJEd-vEMv_8KBZSw" optionalInput="_BDJjRuOJEd-vEMv_8KBZSw" output="_BDJjR-OJEd-vEMv_8KBZSw" performedPrimarilyBy="_BDJjQOOJEd-vEMv_8KBZSw">
+      <methodElementProperty xmi:id="_sD8lN-kJEd-I1fnAy2RxGw" name="descriptor_localUsingInfo" value="_BDJjQOOJEd-vEMv_8KBZSw/performedPrimarilyBy/_BDJjQeOJEd-vEMv_8KBZSw/additionallyPerformedBy"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_wRikIOLAEd-G2pDngtqTxA"/>
+      <Task href="uma://_bY6R0LXxEd-2qrSRq-Velw#_WcRQgLFCEd-mOKCs6c0xZQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_9xiSELw3Ed-eitZNR_0_Rg" name="optimize_class" guid="_9xiSELw3Ed-eitZNR_0_Rg" presentationName="Optimize Class" briefDescription="This task focuses on the optimization of specific classes in your model. You will turn the &quot;analysis class&quot; into an optimal &quot;design class.&quot;" superActivities="_3qYtobw3Ed-eitZNR_0_Rg" linkToPredecessor="_0a1zAbw4Ed-eitZNR_0_Rg" mandatoryInput="_BDJjROOJEd-vEMv_8KBZSw _BDJjR-OJEd-vEMv_8KBZSw _BDJjSOOJEd-vEMv_8KBZSw _BDJjReOJEd-vEMv_8KBZSw" optionalInput="_BDJjRuOJEd-vEMv_8KBZSw" output="_BDJjR-OJEd-vEMv_8KBZSw" performedPrimarilyBy="_BDJjQOOJEd-vEMv_8KBZSw">
+      <methodElementProperty xmi:id="_sD8lPukJEd-I1fnAy2RxGw" name="descriptor_localUsingInfo" value="_BDJjQOOJEd-vEMv_8KBZSw/performedPrimarilyBy"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_QFRtcOK_Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_ESto4OLAEd-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_9rjSMOLAEd-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_iD0hMOLAEd-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_S5PD0OK0Ed-G2pDngtqTxA"/>
+      <Task href="uma://_bY6R0LXxEd-2qrSRq-Velw#_cs9ygLFCEd-mOKCs6c0xZQ"/>
+      <selectedSteps href="uma://-sRfCSGUgBCLAQBHuSrNFgw#_zLyyIN4HEd-8BsDLkQrDSQ"/>
+      <selectedSteps href="uma://-sRfCSGUgBCLAQBHuSrNFgw#_0xHxMN4HEd-8BsDLkQrDSQ"/>
+      <selectedSteps href="uma://-sRfCSGUgBCLAQBHuSrNFgw#_2IvrcN4HEd-8BsDLkQrDSQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="__yI34Lw3Ed-eitZNR_0_Rg" name="dev_unit_test_plan" guid="__yI34Lw3Ed-eitZNR_0_Rg" presentationName="Develop Unit Test Plan" briefDescription="This task focuses on the creation of a unit test plan. " superActivities="_3qYtobw3Ed-eitZNR_0_Rg" mandatoryInput="_BDJjROOJEd-vEMv_8KBZSw _BDJjSeOJEd-vEMv_8KBZSw" optionalInput="_BDJjSuOJEd-vEMv_8KBZSw _BDJjS-OJEd-vEMv_8KBZSw" output="_BDJjSuOJEd-vEMv_8KBZSw _BDJjS-OJEd-vEMv_8KBZSw _BDJjTOOJEd-vEMv_8KBZSw" performedPrimarilyBy="_BDJjQOOJEd-vEMv_8KBZSw">
+      <methodElementProperty xmi:id="_sD8lMekJEd-I1fnAy2RxGw" name="descriptor_localUsingInfo" value="_BDJjQOOJEd-vEMv_8KBZSw/performedPrimarilyBy"/>
+      <Task href="uma://_r4gqELXsEd-FofslSzycTA#_Q2pocLX7Ed-2qrSRq-Velw"/>
+      <selectedSteps href="uma://-1wyd7MwZYBH4n9MJ2sNIJA#_8jl0sOCIEd-aE9U0mRj03A"/>
+      <selectedSteps href="uma://-1wyd7MwZYBH4n9MJ2sNIJA#__DovkOCIEd-aE9U0mRj03A"/>
+      <selectedSteps href="uma://-1wyd7MwZYBH4n9MJ2sNIJA#_AT8g4OCJEd-aE9U0mRj03A"/>
+      <selectedSteps href="uma://-1wyd7MwZYBH4n9MJ2sNIJA#_CxTUIOCJEd-aE9U0mRj03A"/>
+      <selectedSteps href="uma://-1wyd7MwZYBH4n9MJ2sNIJA#_FbLgcOCJEd-aE9U0mRj03A"/>
+      <selectedSteps href="uma://-1wyd7MwZYBH4n9MJ2sNIJA#_INP_cOCJEd-aE9U0mRj03A"/>
+      <selectedSteps href="uma://-1wyd7MwZYBH4n9MJ2sNIJA#_KoONEOCJEd-aE9U0mRj03A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_AaOLkLw4Ed-eitZNR_0_Rg" name="translate" guid="_AaOLkLw4Ed-eitZNR_0_Rg" presentationName="Translate" briefDescription="This task generates shippable-quality code from the design model. The development process has been mostly about analysis and design up until this point. " superActivities="_3qYtobw3Ed-eitZNR_0_Rg" linkToPredecessor="_07Lf8Lw4Ed-eitZNR_0_Rg" additionallyPerformedBy="_BDJjQuOJEd-vEMv_8KBZSw" mandatoryInput="_BDJjR-OJEd-vEMv_8KBZSw" output="_BDJjTeOJEd-vEMv_8KBZSw _BDJjTuOJEd-vEMv_8KBZSw" performedPrimarilyBy="_BDJjQOOJEd-vEMv_8KBZSw">
+      <methodElementProperty xmi:id="_sD8lO-kJEd-I1fnAy2RxGw" name="descriptor_localUsingInfo" value="_BDJjQOOJEd-vEMv_8KBZSw/performedPrimarilyBy/_BDJjQuOJEd-vEMv_8KBZSw/additionallyPerformedBy"/>
+      <Task href="uma://_r4gqELXsEd-FofslSzycTA#_bYfX4LXtEd-FofslSzycTA"/>
+      <selectedSteps href="uma://-O1M6KvB2Cvu7-p1Zxho5Sw#_h49lIOCIEd-aE9U0mRj03A"/>
+      <selectedSteps href="uma://-O1M6KvB2Cvu7-p1Zxho5Sw#_jb5-kOCIEd-aE9U0mRj03A"/>
+      <selectedSteps href="uma://-O1M6KvB2Cvu7-p1Zxho5Sw#_mck6QOCIEd-aE9U0mRj03A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_A7wLULw4Ed-eitZNR_0_Rg" name="val_class" guid="_A7wLULw4Ed-eitZNR_0_Rg" presentationName="Validate Class" briefDescription="This task ensures that the optimization of the class did not break existing functionality of the collaboration(s) to which the class contributes. " superActivities="_3qYtobw3Ed-eitZNR_0_Rg" linkToPredecessor="_372bobw4Ed-eitZNR_0_Rg" additionallyPerformedBy="_BDJjQ-OJEd-vEMv_8KBZSw" mandatoryInput="_BDJjT-OJEd-vEMv_8KBZSw _BDJjROOJEd-vEMv_8KBZSw _BDJjR-OJEd-vEMv_8KBZSw _BDJjReOJEd-vEMv_8KBZSw _BDJjS-OJEd-vEMv_8KBZSw _BDJjSuOJEd-vEMv_8KBZSw" output="_BDJjUOOJEd-vEMv_8KBZSw _BDJjROOJEd-vEMv_8KBZSw _BDJjUeOJEd-vEMv_8KBZSw _BDJjR-OJEd-vEMv_8KBZSw" performedPrimarilyBy="_BDJjQOOJEd-vEMv_8KBZSw">
+      <methodElementProperty xmi:id="_sD8lQOkJEd-I1fnAy2RxGw" name="descriptor_localUsingInfo" value="_BDJjQOOJEd-vEMv_8KBZSw/performedPrimarilyBy/_BDJjQ-OJEd-vEMv_8KBZSw/additionallyPerformedBy"/>
+      <Task href="uma://_r4gqELXsEd-FofslSzycTA#_JkIwALXuEd-FofslSzycTA"/>
+      <selectedSteps href="uma://-MTDa9hDhwuOA_IWtKEJfJA#_P-cjgOCMEd-aE9U0mRj03A"/>
+      <selectedSteps href="uma://-MTDa9hDhwuOA_IWtKEJfJA#_QyvuQOCMEd-aE9U0mRj03A"/>
+      <selectedSteps href="uma://-MTDa9hDhwuOA_IWtKEJfJA#_R2PyoOCMEd-aE9U0mRj03A"/>
+      <selectedSteps href="uma://-MTDa9hDhwuOA_IWtKEJfJA#_TTOuAOCMEd-aE9U0mRj03A"/>
+      <selectedSteps href="uma://-MTDa9hDhwuOA_IWtKEJfJA#_U9B9YOCMEd-aE9U0mRj03A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_0a1zAbw4Ed-eitZNR_0_Rg" guid="_0a1zAbw4Ed-eitZNR_0_Rg" pred="_9Wt-ULw3Ed-eitZNR_0_Rg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_07Lf8Lw4Ed-eitZNR_0_Rg" guid="_07Lf8Lw4Ed-eitZNR_0_Rg" pred="_9xiSELw3Ed-eitZNR_0_Rg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_372bobw4Ed-eitZNR_0_Rg" guid="_372bobw4Ed-eitZNR_0_Rg" pred="_AaOLkLw4Ed-eitZNR_0_Rg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_BDJjQOOJEd-vEMv_8KBZSw" name="rt_modeler" guid="_BDJjQOOJEd-vEMv_8KBZSw" presentationName="Software Modeler" briefDescription="The Software Modeler uses modeling techniques to represent abstractions of the system under development for a specific purpose. " isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg" modifies="_BDJjR-OJEd-vEMv_8KBZSw _BDJjSuOJEd-vEMv_8KBZSw _BDJjS-OJEd-vEMv_8KBZSw _BDJjTOOJEd-vEMv_8KBZSw _BDJjTeOJEd-vEMv_8KBZSw _BDJjTuOJEd-vEMv_8KBZSw _BDJjUOOJEd-vEMv_8KBZSw _BDJjROOJEd-vEMv_8KBZSw _BDJjUeOJEd-vEMv_8KBZSw">
+      <Role href="uma://_NWTdQMvrEd-j1uJpwhl9rw#_RhfEQMvrEd-j1uJpwhl9rw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_BDJjQeOJEd-vEMv_8KBZSw" name="architect" guid="_BDJjQeOJEd-vEMv_8KBZSw" presentationName="Architect" briefDescription="The Architect is responsible for defining the software architecture, which includes making the key technical decisions that constrain the overall design and implementation &#xD;&#xA;of the system." isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_BDJjQuOJEd-vEMv_8KBZSw" name="developer" guid="_BDJjQuOJEd-vEMv_8KBZSw" presentationName="Developer" briefDescription="The Developer is responsible for developing a part of the system, including designing &#xD;&#xA;it to fit into the architecture, possibly prototyping the user interface, and &#xD;&#xA;then implementing, unit-testing, and integrating the components that are part &#xD;&#xA;of the solution." isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0YDosMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_BDJjQ-OJEd-vEMv_8KBZSw" name="tester" guid="_BDJjQ-OJEd-vEMv_8KBZSw" presentationName="Tester" briefDescription="The Tester is responsible for the core activities of the test effort. Those activities &#xD;&#xA;include identifying, defining, implementing, and conducting the necessary tests, &#xD;&#xA;as well as logging the outcomes of the testing and analyzing the results." isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <Role href="uma://_A118oMYaEdyXeo04os5BOw#_0ZM4MclgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BDJjROOJEd-vEMv_8KBZSw" name="rt_model" guid="_BDJjROOJEd-vEMv_8KBZSw" presentationName="Model" briefDescription="The model represents a deployed or deployable system at a high degree of semantic correctness, consistency and completeness." isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <methodElementProperty xmi:id="_sD8lMukJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <concepts href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_G-10wOK8Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_o6JxwOK-Ed-G2pDngtqTxA"/>
+      <WorkProduct href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_5dqM8MvsEd-j1uJpwhl9rw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BDJjReOJEd-vEMv_8KBZSw" name="rt_mc_mission" guid="_BDJjReOJEd-vEMv_8KBZSw" presentationName="Microcycle Mission" briefDescription="The mission of a prototype is a high level overview of the goals, techniques, functionality, and target platforms for an incremental executable build of the system under development. " isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <methodElementProperty xmi:id="_sD8lOOkJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_RCq-gOIqEd-aTvH4QbT1dw"/>
+      <WorkProduct href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_eL0PkMvwEd-j1uJpwhl9rw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BDJjRuOJEd-vEMv_8KBZSw" name="rt_pim" guid="_BDJjRuOJEd-vEMv_8KBZSw" presentationName="Platform Independent Model" briefDescription="The Platform Independent Model is a representation of the semantically essential elements of a model that does not contain technology or design-specific detail. " isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <methodElementProperty xmi:id="_sD8lOekJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_qfoWgOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_uGmdMOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_yZE_AOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_7oNoEOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_0kaOIOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_kY628OIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_wfx7EOIpEd-aTvH4QbT1dw"/>
+      <concepts href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_G-10wOK8Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_o6JxwOK-Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_S5PD0OK0Ed-G2pDngtqTxA"/>
+      <WorkProduct href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_LqyEsMvtEd-j1uJpwhl9rw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BDJjR-OJEd-vEMv_8KBZSw" name="rt_psm" guid="_BDJjR-OJEd-vEMv_8KBZSw" presentationName="Platform Specific Model" briefDescription="The Platform Specific Model is an adaptation of a Platform Independent Model (PIM) for execution on a specific target through the selection of technologies, design solutions, or design patterns. " isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <methodElementProperty xmi:id="_sD8lOukJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_qfoWgOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_uGmdMOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_7oNoEOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_3SwDsOIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_kY628OIpEd-aTvH4QbT1dw"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_wfx7EOIpEd-aTvH4QbT1dw"/>
+      <concepts href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_G-10wOK8Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_o6JxwOK-Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_7uBgcOK-Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_S5PD0OK0Ed-G2pDngtqTxA"/>
+      <WorkProduct href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_Os81MMvtEd-j1uJpwhl9rw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BDJjSOOJEd-vEMv_8KBZSw" name="rt_scenario" guid="_BDJjSOOJEd-vEMv_8KBZSw" presentationName="Scenario" briefDescription="A scenario represents, at some level of abstraction, an interaction among elements of interest." isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <methodElementProperty xmi:id="_sD8lP-kJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_kY628OIpEd-aTvH4QbT1dw"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_S5PD0OK0Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_o6JxwOK-Ed-G2pDngtqTxA"/>
+      <WorkProduct href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_N3ugkMvxEd-j1uJpwhl9rw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BDJjSeOJEd-vEMv_8KBZSw" name="test_case" guid="_BDJjSeOJEd-vEMv_8KBZSw" presentationName="Test Case" briefDescription="This artifact is the specification of a set of test inputs, execution conditions, and expected results that you identify to evaluate a particular aspect of a scenario." isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <methodElementProperty xmi:id="_sD8lM-kJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_0Zxf8MlgEdmt3adZL5Dmdw"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_0aJ6cMlgEdmt3adZL5Dmdw"/>
+      <templates href="uma://_OOB2AAouEdyhlpBPrduOMw#_yWaKEI5fEdyO5aWob1UGDA"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZS-0MlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BDJjSuOJEd-vEMv_8KBZSw" name="test_plan" guid="_BDJjSuOJEd-vEMv_8KBZSw" presentationName="Test Plan" briefDescription="This artifact defines the goals and objectives of testing within the scope of the test cycle, the items being targeted, the approach to be taken, the resources required, and the deliverables to be produced." isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <methodElementProperty xmi:id="_sD8lNOkJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_OynuUNDqEdunspUKKm1F4Q#_WkszEHHWEdyzS55ez-koKA"/>
+      <guidelines href="uma://_OynuUNDqEdunspUKKm1F4Q#_ZXg48HHWEdyzS55ez-koKA"/>
+      <guidelines href="uma://_OynuUNDqEdunspUKKm1F4Q#_f9OBoHHWEdyzS55ez-koKA"/>
+      <WorkProduct href="uma://_OynuUNDqEdunspUKKm1F4Q#_yiMRwHFfEdy8Ac588DXPCQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BDJjS-OJEd-vEMv_8KBZSw" name="test_suite" guid="_BDJjS-OJEd-vEMv_8KBZSw" presentationName="Test Suite" briefDescription="This artifact defines a collection of related tests." isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <methodElementProperty xmi:id="_sD8lNekJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_0aJ6cMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_OynuUNDqEdunspUKKm1F4Q#_IdB_sHHUEdyzS55ez-koKA"/>
+      <reports href="uma://_OynuUNDqEdunspUKKm1F4Q#_tOYmwHLIEdysIudqZmA_EA"/>
+      <WorkProduct href="uma://_OynuUNDqEdunspUKKm1F4Q#_roUk0HE8Edy8Ac588DXPCQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BDJjTOOJEd-vEMv_8KBZSw" name="trace_record" guid="_BDJjTOOJEd-vEMv_8KBZSw" presentationName="Traceability Record" briefDescription="This artifact records the trace information in the development. It is often a logical rather than a physical construct." isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <methodElementProperty xmi:id="_sD8lNukJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <guidelines href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_0LQm8LNwEd6ufunCNQt1zA"/>
+      <WorkProduct href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_cFPJgEWQEd6Js4kKfkp_5Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BDJjTeOJEd-vEMv_8KBZSw" name="rt_prototype" guid="_BDJjTeOJEd-vEMv_8KBZSw" presentationName="Incremental Prototype" briefDescription="A prototype is a working version of a system that executes and is validated, but may not meet all requirements. " isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <methodElementProperty xmi:id="_sD8lPOkJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_U9yhIMvtEd-j1uJpwhl9rw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BDJjTuOJEd-vEMv_8KBZSw" name="rt_source_code" guid="_BDJjTuOJEd-vEMv_8KBZSw" presentationName="Source Code" briefDescription="Source code is the representation of the software of a system in a (usually 3G) language. " isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <methodElementProperty xmi:id="_sD8lPekJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_o6JxwOK-Ed-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_TrKrgOK-Ed-G2pDngtqTxA"/>
+      <WorkProduct href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_SULHoMv6Ed-j1uJpwhl9rw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BDJjT-OJEd-vEMv_8KBZSw" name="rt_architectural_model" guid="_BDJjT-OJEd-vEMv_8KBZSw" presentationName="Architectural Model" briefDescription="The system architecture identifies the key strategies for the large-scale organization of the system under development." isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <methodElementProperty xmi:id="_sD8lQekJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_ESto4OLAEd-G2pDngtqTxA"/>
+      <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_fiNAYOK9Ed-G2pDngtqTxA"/>
+      <WorkProduct href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_mycD8MvsEd-j1uJpwhl9rw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BDJjUOOJEd-vEMv_8KBZSw" name="test_log" guid="_BDJjUOOJEd-vEMv_8KBZSw" presentationName="Test Log" briefDescription="This artifact collects the raw output that is captured during a unique run of one or more tests for a single test cycle run." isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <methodElementProperty xmi:id="_sD8lQukJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZlSsMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BDJjUeOJEd-vEMv_8KBZSw" name="test_findings" guid="_BDJjUeOJEd-vEMv_8KBZSw" presentationName="Test Findings" briefDescription="This artifact summarizes the analysis of one or more Test Logs and Change Requests, providing a relatively detailed assessment of the quality of the Target Test Items and the status of the test effort." isPlanned="false" superActivities="_3qYtobw3Ed-eitZNR_0_Rg">
+      <methodElementProperty xmi:id="_sD8lQ-kJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_0aJ6cMlgEdmt3adZL5Dmdw"/>
+      <WorkProduct href="uma://_OynuUNDqEdunspUKKm1F4Q#_DwNAQHE8Edy8Ac588DXPCQ"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_3qYtobw3Ed-eitZNR_0_Rg" name="det_dsgn_rt" guid="_3qYtobw3Ed-eitZNR_0_Rg" presentationName="Detailed Design - RT" breakdownElements="_9Wt-ULw3Ed-eitZNR_0_Rg _9xiSELw3Ed-eitZNR_0_Rg __yI34Lw3Ed-eitZNR_0_Rg _AaOLkLw4Ed-eitZNR_0_Rg _A7wLULw4Ed-eitZNR_0_Rg _BDJjQOOJEd-vEMv_8KBZSw _BDJjQeOJEd-vEMv_8KBZSw _BDJjQuOJEd-vEMv_8KBZSw _BDJjQ-OJEd-vEMv_8KBZSw _BDJjROOJEd-vEMv_8KBZSw _BDJjReOJEd-vEMv_8KBZSw _BDJjRuOJEd-vEMv_8KBZSw _BDJjR-OJEd-vEMv_8KBZSw _BDJjSOOJEd-vEMv_8KBZSw _BDJjSeOJEd-vEMv_8KBZSw _BDJjSuOJEd-vEMv_8KBZSw _BDJjS-OJEd-vEMv_8KBZSw _BDJjTOOJEd-vEMv_8KBZSw _BDJjTeOJEd-vEMv_8KBZSw _BDJjTuOJEd-vEMv_8KBZSw _BDJjT-OJEd-vEMv_8KBZSw _BDJjUOOJEd-vEMv_8KBZSw _BDJjUeOJEd-vEMv_8KBZSw">
+      <methodElementProperty xmi:id="_sD8lROkJEd-I1fnAy2RxGw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-3-gsd9p1pch1IBAaBHpoRg" href="uma://-3-gsd9p1pch1IBAaBHpoRg#-3-gsd9p1pch1IBAaBHpoRg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

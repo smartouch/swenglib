@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_yR3j8CZREd-Hb5ChSoDHIA" guid="_yR3j8CZREd-Hb5ChSoDHIA">
+    <resourceDescriptors xmi:id="_yR3j8SZREd-Hb5ChSoDHIA" id="-DzYU-NDpFqcctFwF1VEUog" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_xfz1CyZREd-Hb5ChSoDHIA" name="plan_entire_project" guid="_xfz1CyZREd-Hb5ChSoDHIA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz1EiZREd-Hb5ChSoDHIA" name="plan_the_project" guid="_xfz1EiZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz1EyZREd-Hb5ChSoDHIA" name="plan_the_project" guid="_xfz1EyZREd-Hb5ChSoDHIA" presentationName="Plan the Project" superActivities="_xfz1DyZREd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_hhtj0CYtEd-Oda441NMnHQ#_hh3U7iYtEd-Oda441NMnHQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz1ECZREd-Hb5ChSoDHIA" name="plan_project_configuration_change_control" guid="_xfz1ECZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz1ESZREd-Hb5ChSoDHIA" name="plan_project_configuration_change_control" guid="_xfz1ESZREd-Hb5ChSoDHIA" presentationName="Plan Project Configuration &amp; Change Control" superActivities="_xfz1DyZREd-Hb5ChSoDHIA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz1DCZREd-Hb5ChSoDHIA" name="plan_the_integration" guid="_xfz1DCZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz1DSZREd-Hb5ChSoDHIA" name="plan_the_integration" guid="_xfz1DSZREd-Hb5ChSoDHIA" presentationName="Plan the Integration" superActivities="_xfz1DyZREd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_0uUD8CsBEd-5jezL08ZExg#_8EXMEde2Ed-Zq9ImbgqLFQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz1FCZREd-Hb5ChSoDHIA" name="plan_deployment" guid="_xfz1FCZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz1FSZREd-Hb5ChSoDHIA" name="plan_deployment" guid="_xfz1FSZREd-Hb5ChSoDHIA" presentationName="Plan Deployment" superActivities="_xfz1DyZREd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_KjZZyCZIEd-Hb5ChSoDHIA#_KjZZ0CZIEd-Hb5ChSoDHIA"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_xfz1DyZREd-Hb5ChSoDHIA" name="plan_entire_project" guid="_xfz1DyZREd-Hb5ChSoDHIA" presentationName="Define Project Plans" briefDescription="This covers general planning for the release.  It does not include detailed planning for product testing (the evaluation mission)." breakdownElements="_xfz1EyZREd-Hb5ChSoDHIA _xfz1ESZREd-Hb5ChSoDHIA _xfz1DSZREd-Hb5ChSoDHIA _xfz1FSZREd-Hb5ChSoDHIA">
+      <methodElementProperty xmi:id="_4EDuM7emEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-DzYU-NDpFqcctFwF1VEUog" href="uma://-DzYU-NDpFqcctFwF1VEUog#-DzYU-NDpFqcctFwF1VEUog"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

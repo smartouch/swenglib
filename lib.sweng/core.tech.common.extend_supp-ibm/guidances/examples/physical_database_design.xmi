@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-xxxwCjgNtOALC2a9DkydFA" name="new_example,_9BvGsPn_EdyweOgcDsH_HA" guid="-xxxwCjgNtOALC2a9DkydFA" changeDate="2008-03-24T08:12:09.000-0700" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    The Physical Database Design includes an entity relationship diagram of the physical design:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;434&quot; alt=&quot;Physical Database Design Example&quot;  src=&quot;resources/physical_database_design_example.gif&quot;     width=&quot;576&quot; />&#xD;
+&lt;/p>&lt;p>&#xD;
+    &lt;br />&#xD;
+     The physical Database Design also includes the appropriate DDL:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+	&lt;!-- START NON-TRANSLATABLE -->&#xD;
+    CREATE TABLE Gift_Registrant_Address___4&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&#xD;
+    (Address_ID&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; char(18) NOT&#xD;
+    NULL,&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Registrant_Name&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&#xD;
+    char(18) NULL&lt;br />&#xD;
+     &amp;nbsp;)&lt;br />&#xD;
+     go&lt;br />&#xD;
+     CREATE UNIQUE CLUSTERED INDEX XPKGift_Registrant_Address___4&lt;br />&#xD;
+     ON Gift_Registrant_Address___4&lt;br />&#xD;
+     &amp;nbsp;(&lt;br />&#xD;
+     Address_ID&lt;br />&#xD;
+     &amp;nbsp;)&lt;br />&#xD;
+     go&lt;br />&#xD;
+     exec sp_primarykey Gift_Registrant_Address___4,&lt;br />&#xD;
+     Address_ID&lt;br />&#xD;
+     go&lt;br />&#xD;
+	 &lt;!-- END NON-TRANSLATABLE -->&#xD;
+&lt;/p></mainDescription>
+  <externalId xsi:nil="true"/>
+  <keyConsiderations xsi:nil="true"/>
+  <attachments xsi:nil="true"/>
+</org.eclipse.epf.uma:GuidanceDescription>

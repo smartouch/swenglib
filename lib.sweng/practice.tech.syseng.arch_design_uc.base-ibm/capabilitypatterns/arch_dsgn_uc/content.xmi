@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-49gX6s9puDJuWeBwVXXbXQ" name="Architectural Design - UC based,_ZaJxkZi5Ed6JmoH2XFiafA" guid="-49gX6s9puDJuWeBwVXXbXQ" version="7.5.0"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Nfj_TZeCULaDQLQu2JMauA" name="sys_uc_act_diag,_uj0TsaMREd6XGaN9G5GQxw" guid="-Nfj_TZeCULaDQLQu2JMauA">
+    <refinedDescription>&lt;p>&#xD;
+    An Activity Diagram is similar to the classic flow chart. It describes a workflow, business process, or algorithm by&#xD;
+    decomposing the flow of execution into a set of actions and sub activities joined by transitions and various&#xD;
+    connectors. These actions and sub activities are called activity nodes. An activity can be a simple linear sequence of&#xD;
+    activity nodes or it can be a complex series of parallel activity nodes with conditional branching and concurrency.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There will be multiple instances of this artifact.&amp;nbsp;During requirements analysis, &quot;black-box&quot; activity diagrams are&#xD;
+    created describing the functional flows for the system as a whole.&amp;nbsp;During architectural design,&#xD;
+    &quot;white-box&quot;&amp;nbsp;activity diagrams are created that show the allocation of actions to specific system elements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Activities may be grouped and assigned to objects - e.g. subsystems. In this case, the activity diagram is split into&#xD;
+    swim lanes that depict the respective responsibilities.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-1GHiwA3NJeLoBE4ZhdnZZA" name="sys_uc_seq_diag,_vtR2IaMREd6XGaN9G5GQxw" guid="-1GHiwA3NJeLoBE4ZhdnZZA">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact describes the time-ordered sequence of interactions between a system use case and its associated actors.&#xD;
+    In addition to the sent and received messages (service requests), the use-case lifeline shows the requested operations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There will be multiple instances of this artifact.&amp;nbsp;Initially, &quot;black-box&quot;&amp;nbsp;sequence diagrams are created which&#xD;
+    evolve into &quot;white-box&quot;&amp;nbsp;sequence diagrams that show the&amp;nbsp;responsibilities of&amp;nbsp;specific system elements.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vjvVCW10YzE8tUVuS0LCMg" name="sys_struc_diag,_vtR2IqMREd6XGaN9G5GQxw" guid="-vjvVCW10YzE8tUVuS0LCMg">
+    <refinedDescription>&lt;p>&#xD;
+    The main type of elements used to describe the internal structure are system blocks.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A System Block is an element of the structural description of the system under development. It is an encapsulated&#xD;
+    entity, i.e. its communication with the environment is performed through ports and&amp;nbsp;associated interfaces. A System&#xD;
+    Block may be decomposed into sub-System Blocks. At the lowest level of decomposition, the behavior of a System Block is&#xD;
+    described by means of a statechart diagram.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A System Block must have a defined boundary. Communication with the environment is performed via ports and associated&#xD;
+    interfaces.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-D-7limLoQeJxs7Al5IAmdw" name="sys_statechart_diag,_vtkxEKMREd6XGaN9G5GQxw" guid="-D-7limLoQeJxs7Al5IAmdw">
+    <refinedDescription>&lt;p>&#xD;
+    A Statechart Diagram describes the state-based behavior of a block. It is one of&amp;nbsp;the most important behavior&#xD;
+    diagrams because&amp;nbsp;it aggregates the information from both the activity diagram (functional flow) and the sequence&#xD;
+    diagrams (interactions with the environment), and adds the event-driven block behavior to the diagram. As the&#xD;
+    &quot;language&quot; of statecharts is formally defined, the correctness and completeness of the resulting behavior can be&#xD;
+    verified/validated through model execution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Statechart diagrams are finite state machines that are extended by the notation of &lt;strong>&lt;em>Hierarchy&lt;/em>&lt;/strong>&#xD;
+    and &lt;strong>&lt;em>Concurrency&lt;/em>&lt;/strong>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Basically, a statechart diagram is comprised of a set of states joined by transitions and various connectors. An event&#xD;
+    may trigger a transition from one state to another. Actions can be performed on transitions and on state entry/exit.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In most of the cases a&amp;nbsp;System Block Statechart Diagram&amp;nbsp;is defined for each leaf system block.&amp;nbsp; The&#xD;
+    emergent behavior that results form the collaboration of each leaf block statechart diagram&amp;nbsp;must reflect the&#xD;
+    functional flow captured in the white-box activity diagram&amp;nbsp;as well as the associated&amp;nbsp;white-box sequence&#xD;
+    diagrams.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-D7Vse6RykT1M5mEWgvGntw" name="sys_srs,_w-e_UKMREd6XGaN9G5GQxw" guid="-D7Vse6RykT1M5mEWgvGntw">
+    <refinedDescription>&lt;p>&#xD;
+    A&amp;nbsp;System Requirements Specification is strictly the set of all relevant System Requirements for a project. This&#xD;
+    set provides a complete and consistent abstract description of the solution to the problem represented by a stakeholder&#xD;
+    specification or a similar artifact, and its context, at an appropriate level of abstraction.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In practice, there&amp;nbsp;may be several levels of&amp;nbsp;System Requirements Specification - for example, in some cases&#xD;
+    the a single level might be enough, in others, the system must be broken-down into subsystems at various levels.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If more than one level of System Requirement Specification is used, then remember the following points:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Each specification must be a complete and consistent description of the solution, at an appropriate level of&#xD;
+        abstraction&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Traceability must be maintained throughout the levels&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All specifications must be maintained in parallel&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Frequently, it&amp;nbsp;is sufficient to evolve a single specification.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The system requirements specification captures all of the system functional and non-functional requirements in one&#xD;
+    place so that they may be analyzed for consistency, completeness and correctness.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Requirements must be clear, unambiguous, testable and complete. They must include all required properties of the&#xD;
+    system. Care must be taken not to over-specify (a common problem) by including design measures in the requirements.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-cEhAzMpPdCg-PeJgJd3zqw" name="tr_rec_nfr_comp,_w-e_UaMREd6XGaN9G5GQxw" guid="-cEhAzMpPdCg-PeJgJd3zqw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Lmh5a1PLTM6jVSnKqvpNOA" name="sys_architect,_tlE1UNOqEd6vXdkWWDj_vQ" guid="-Lmh5a1PLTM6jVSnKqvpNOA">
+    <refinedDescription>&lt;p>&#xD;
+    This role defines a system architecture that will satisfy the system requirements and meet the project objectives to&#xD;
+    minimize cost and risk.&amp;nbsp; The role analyzes possible solution architectures to determine&amp;nbsp;the preferred&#xD;
+    high-level design for the system.&amp;nbsp; Models of the architecture are created to verify that&amp;nbsp;the design will meet&#xD;
+    the requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;focus is on&amp;nbsp;establishing and refinement of the system's structural aspects&amp;nbsp;and is concerned with the&#xD;
+    optimization of these structures in terms of major system elements and their interfaces, and making trade-offs in&#xD;
+    competing factors and constraints (for example, performance, cost, environmental impact), in evaluating potential&#xD;
+    solutions that produce the required behavior.&amp;nbsp;Its view spans the entire system and all factors, external and&#xD;
+    internal, that might affect its development. Given the need to maintain this broad view, this role&amp;nbsp;rarely engages&#xD;
+    in depth in the detailed engineering of a system, preferring to leave that to other practitioners in the various&#xD;
+    engineering specialties.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ct2erTss-UZ7HI2SGQLGvg" name="system_wide_requirements,_tlE1UdOqEd6vXdkWWDj_vQ" guid="-ct2erTss-UZ7HI2SGQLGvg">
+    <keyConsiderations>&lt;ul>
+&lt;li>         When you document system-wide requirements, ensure that the needs
+of all of the stakeholders are represented. In         particular, include
+the needs of those who are responsible for maintaining or supporting the system
+after it is delivered.     &lt;/li>
+&lt;li>         Typically, there are some overlaps and gray areas between system-wide
+requirements and other requirements work         products. For example, the
+authorization behavior of a system can be specified as use cases or as statements
+within system-wide requirements. The overall driving need is that no important
+requirements are missed or duplicated, and that there is an agreed upon approach
+for capturing and processing every type of requirement.     &lt;/li>
+&lt;li>         System-wide requirements originate from many places. Documenting
+the source of the requirement is particularly         important when you separate
+externally mandated requirements.     &lt;/li>
+&lt;li>         Requirements are often thought of as &quot;Qualitative&quot; (specifying
+a quality or desirable characteristic) versus         &quot;Quantitative&quot; (specifying
+a quantity). Qualitative requirements can sometimes be elaborated into quantitative
+requirements.     &lt;/li>
+&lt;li>         A good quality requirement is one that you can verify, either
+through testing or some other objective evaluation.     &lt;/li>
+&lt;li>         You must evaluate system-wide requirements for cost, schedule
+impact, and level of contribution to business goals.         Based on your
+evaluation, the system-wide requirements should be iteratively challenged,
+defended, and amended.     &lt;/li>
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QIaMeTTripDgb4WoMJDwfQ" name="sys_arch_model,_FZzFqvM7Ed-Fw-MeaQjkmw" guid="-QIaMeTTripDgb4WoMJDwfQ">
+    <refinedDescription>The System Architectural Model&amp;nbsp;is&amp;nbsp;a hierarchical structure of System Blocks, behavior and delegation ports for&#xD;
+each block, interfaces&amp;nbsp;definitions for each port, and state-chart diagrams specifying the state-based behavior for&#xD;
+each leaf system block.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-K-9xrSBwNtqMqhB69C8BUw" name="sys_context_diag,_ZVy9Qfw_Ed-qAoLsh2B3Kg" guid="-K-9xrSBwNtqMqhB69C8BUw">
+    <refinedDescription>&lt;p>&#xD;
+    The system context diagram describes the&amp;nbsp;top-level collaboration showing the system (modeled as a top-level&#xD;
+    subsystem), its interfaces and its relationships with its actors, including the external I/O entities that flow between&#xD;
+    actor and system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Main information captured in the system context diagram:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The interfaces to be &lt;i>realized&lt;/i> by the system (in terms of the &lt;i>operations&lt;/i> the systems provides, and the&#xD;
+        associated protocols supported, the &lt;i>state variables&lt;/i> and &lt;i>stores&lt;/i> that the system realizes, and&#xD;
+        attributes).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The &lt;i>I/O entities&lt;/i> that flow between the system and its actors.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The interfaces &lt;i>required&lt;/i> by the system (to be realized by the actors which interact with the system) for&#xD;
+        correct performance. Often, if the actor represents an existing system with which the system must communicate,&#xD;
+        these required interfaces simply reflect constraints imposed by that other system.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pL4VVoEzweWhzYzf2GaKdQ" name="sys_operation,_ZVy9RPw_Ed-qAoLsh2B3Kg" guid="-pL4VVoEzweWhzYzf2GaKdQ">
+    <refinedDescription>&lt;p>&#xD;
+    An operation specification has the following outline:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Description&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Input/Output Parameters&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Non-functional requirements: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                These are derived from the non-functional requirements associated with the steps in the various Use Cases&#xD;
+                that this operation supports.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                The context in which the operation is used (i.e. a particular Use Case) may or may not be captured (e.g. it may&#xD;
+                be specified in terms of supporting the minimum performance requirement when all Use Cases are considered)&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Pre-conditions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Post-conditions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Superordinate system traceability&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: use-case (steps) traceability&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In most of the cases, the Operations are defined for the top-level system and the main subsystems, going with the&#xD;
+    decomposition as deep as needed, in a recursive fashion. The Operations are grouped around interfaces along the main&#xD;
+    responsibilities of the (sub)system under consideration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible&amp;nbsp;for the integrity of the operation set,&amp;nbsp;should ensure&amp;nbsp;that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the operations are unique and there is no overlap between them&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the related operations are logically grouped around interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        each operation is properly documented&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the traceability relationships to other operations and/or use-case steps have been established&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        proper coverage of the use cases or system's operations, based on the scope of the current iteration&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ceskd3OVemM57apKr735KQ" name="sys_op_seq_diag,_ZVy9R_w_Ed-qAoLsh2B3Kg" guid="-ceskd3OVemM57apKr735KQ">
+    <refinedDescription>&lt;p>&#xD;
+    The number of viewpoints considered will drive the number of sequence diagrams needed, as for the most complex case,&#xD;
+    for each viewpoint, there will be at least one&amp;nbsp;sequence diagram, showing how specific view elements are realizing&#xD;
+    the main operation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible for the integrity of the operation realization should&amp;nbsp;ensure that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The operation realization correctly realizes the behavior of its corresponding operation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All the chosen viewpoints are addressed and there is at least one realization per viewpoint.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The associated non-functional requirements are correctly budgeted across the subsystems operations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The operation realization is properly documented and the correspondent diagrams suit their purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The realization associations are correct.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4fzxWpNYAZyw7zSSp76UOA" name="sys_op_act_diag,_ZVy9Svw_Ed-qAoLsh2B3Kg" guid="-4fzxWpNYAZyw7zSSp76UOA">
+    <refinedDescription>&lt;p>&#xD;
+    The number of viewpoints considered will drive the number of activity diagrams needed, as for the most complex case,&#xD;
+    for each viewpoint, there will be an activity&amp;nbsp;diagram, showing how specific view elements are realizing the main&#xD;
+    operation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible for the integrity of the operation realization should&amp;nbsp;ensure that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The operation realization correctly realizes the behavior of its corresponding operation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All the chosen viewpoints are addressed and there is at least one realization per viewpoint.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The associated non-functional requirements are correctly budgeted across the subsystems operations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The operation realization is properly documented and the correspondent diagrams suit their purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The realization associations are correct.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-s7Nhj1oHLW0fDEC9JrClfQ" name="sys_uc_ib_diag,_ZVy9Tfw_Ed-qAoLsh2B3Kg" guid="-s7Nhj1oHLW0fDEC9JrClfQ">
+    <refinedDescription>&lt;p>&#xD;
+    Elements of this diagram are instances of SysML blocks that represent the use case and its associated actor(s).&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Use-Case Block is the structural representation of a use case defined in the use-case diagram. It is used to&#xD;
+    represent the formal specification of the system behavior for the use case and acts as a location for the&#xD;
+    operations/functions that the use case employs. The Use-Case Block communicates with relevant Actor Blocks via&#xD;
+    ports&amp;nbsp;and associated provided and required interfaces.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An Actor Block is the realization of an actor that was previously identified in a system&amp;nbsp;use case diagram. An&#xD;
+    actor block represents a person, or system that is external to the system under development, that interacts&#xD;
+    with&amp;nbsp;the system under development&amp;nbsp;by providing the inputs to, and receiving&amp;nbsp;outputs&amp;nbsp;from&amp;nbsp;the&#xD;
+    system under development.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ncjRgkntJHuT1q5liN7A0A" name="sys_uc_st_chart_diag,_ZVy9UPw_Ed-qAoLsh2B3Kg" guid="-ncjRgkntJHuT1q5liN7A0A">
+    <refinedDescription>&lt;p>&#xD;
+    A Statechart Diagram describes the state-based behavior of a block. It aggregates the information from both the&#xD;
+    activity diagram (functional flow) and the sequence diagrams (interactions with the environment), and adds the&#xD;
+    event-driven block behavior to the diagram. As the &quot;language&quot; of statecharts is formally defined, the correctness and&#xD;
+    completeness of the resulting behavior can be verified/validated through model execution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Statechart diagrams are finite state machines that are extended by the notation of Hierarchy and Concurrency.&#xD;
+    Basically, a statechart diagram is comprised of a set of states joined by transitions and various connectors. An event&#xD;
+    may trigger a transition from one state to another. Actions can be performed on transitions and on state entry/exit.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Use-Case&amp;nbsp;Block Statechart Diagram must reflect the functional flow captured in the use-case black-box activity&#xD;
+    diagram as well as the associated use-case black-box sequence diagrams.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-cwE1nobLM5MRTgQoFaYxig" name="mediated_operation_service_component_pattern,_yzieEGWoEd6Zd-lbA790BQ" guid="-cwE1nobLM5MRTgQoFaYxig" changeDate="2009-10-29T08:44:51.828-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Where there is the possibility that a service consumer's request might be routed to one of a selection of operation&#xD;
+    components for execution, it is possible to extend the pattern with a mediator to route these messages, as shown below.&#xD;
+    We stereotype the component/class as &amp;lt;&amp;lt;mediator&amp;gt;&amp;gt; for clarification. The exact mechanism used for mediation&#xD;
+    is undefined. A static set of implementations could be known ahead of time, a registry of some sort could also be used&#xD;
+    to map to the particular implementation based on the consumer, content of the request message, and so forth. This&#xD;
+    pattern is not intended for use with the single-operation pattern.&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 1.&amp;nbsp; Outline of the Mediated Service Component pattern&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img src=&quot;./resources/medsrvccomp_ptrn1.2.gif&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This also affects the composite structure view of the service component; as shown below, the mediator connection is&#xD;
+    shown from the facade which uses it to direct calls to the operation components.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 2.&amp;nbsp; Composite structure rendering of the Mediated Operation Service pattern&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img src=&quot;./resources/medsrvccomp_ptrn2.3.gif&quot; />&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If a registry, external to the mediator itself, is used, it is not necessarily possible to show static usage&#xD;
+    dependencies from the mediator to the operation components or connectors between parts in the composite structure&#xD;
+    diagram. So, how can we model a dependency from the mediator to the mediated operation components? In the following&#xD;
+    diagram, we have introduced an interface to be implemented by each operation component. We can then model the usage&#xD;
+    from the mediator to the interface, as shown&amp;nbsp;in Figure 3.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 3.&amp;nbsp; Modeling the pattern when the implementing components are accessed using a registry&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img src=&quot;./resources/medsrvccomp_ptrn3.2.gif&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    We also change the relationship in the composite structure diagram, including a new part typed by the interface, and&#xD;
+    denote the multiplicity between the mediator and operation components on the connector.&amp;nbsp; These revisions are&#xD;
+    illustrated in Figure 4.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 4.&amp;nbsp; Composite structure rendering of the revised pattern&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img src=&quot;./resources/medsrvccomp_ptrn4.3.gif&quot; />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

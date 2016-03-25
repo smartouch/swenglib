@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-WaEHHHB9lIF3AL15BrFgWA" name=",_O7aXoIA_Ed2wUZeNbIIc3w" guid="-WaEHHHB9lIF3AL15BrFgWA" changeDate="2008-09-14T18:41:39.595-0600" version="7.5.0">
+  <mainDescription>In this task, you define architectural goals and identify inputs to the architecture, including requirements, constraints,&#xD;
+and reusable assets. You make and document key decisions about the structure of the architecture. You sketch a high level&#xD;
+overview of the architecture.</mainDescription>
+  <sections xmi:id="_e1ZIEIA_Ed2wUZeNbIIc3w" name="Define architectural goals" guid="_e1ZIEIA_Ed2wUZeNbIIc3w">
+    <sectionDescription>Understand the project's goals and requirements. Elicit and build consensus on architectural goals. These goals help&#xD;
+prioritize and guide important technical decisions. &lt;br />&#xD;
+&lt;br />&#xD;
+Describe the architectural goals in the Architecture Overview. &lt;br />&#xD;
+&lt;br />&#xD;
+See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_goals_CB41D8AE.html&quot; guid=&quot;_HlRqANpbEdyP58ppo1Ieaw&quot;>Concept: Architectural Goals&lt;/a> for more information.&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_0TVQUIA_Ed2wUZeNbIIc3w" name="Identify architecturally significant requirements" guid="_0TVQUIA_Ed2wUZeNbIIc3w">
+    <sectionDescription>Identify which of the requirements play an important role in determining the architecture of the system. Explore those that&#xD;
+you much implement in order to realize the Architectural Goals. See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_significant_requirements_1EE5D757.html&quot; guid=&quot;_HrZGIA4MEduibvKwrGxWxA&quot;>Concept: Architecturally Significant Requirements&lt;/a>.&lt;br />&#xD;
+&lt;br />&#xD;
+Prioritize clarifying and stabilizing architecturally significant requirements that are unclear or likely to change.&#xD;
+Communicate these needs and priorities back to those responsible for defining them. In some cases, this means that they&#xD;
+must do further requirements analysis before you can complete the architecture. &lt;br />&#xD;
+&lt;br />&#xD;
+Mark the requirements that are architecturally significant using an attribute of the requirements. You may reference this&#xD;
+list in the Architectural Decisions. Document the rationale for any key decisions that you make based about the&#xD;
+requirements.&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_23ZvkIA_Ed2wUZeNbIIc3w" name="Identify constraints on the architecture" guid="_23ZvkIA_Ed2wUZeNbIIc3w">
+    <sectionDescription>Gather information about the existing environment and identify any &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_constraints_AE56B662.html&quot; guid=&quot;_jdKSsNpiEdyP58ppo1Ieaw&quot;>constraints&lt;/a> on the solution. List the constraints and any ideas that you have on how the&#xD;
+architecture will meet them in the Architectural Decisions. Document the rationale for any key decisions that you make&#xD;
+based on the constraints.</sectionDescription>
+  </sections>
+  <sections xmi:id="_771SwIA_Ed2wUZeNbIIc3w" name="Survey available assets" guid="_771SwIA_Ed2wUZeNbIIc3w">
+    <sectionDescription>&lt;p>&#xD;
+    Search within your organization for similar projects and note any &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/concepts/reusable_asset_43D27168.html&quot;&#xD;
+    guid=&quot;_S8L70ID3Ed2z9IawWqZSFw&quot;>reusable assets&lt;/a> from those projects that have potential to be applied to your&#xD;
+    architecture.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Review industry literature to identify any commercial or open source &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/concepts/reference_architecture_4159505E.html&quot;&#xD;
+    guid=&quot;_CriTYESUEd2eKeXZgLpnkQ&quot;>reference architectures&lt;/a>, technologies,&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/concepts/architectural_pattern_7308BF1.html&quot;&#xD;
+    guid=&quot;_rmX1gIBmEd2z9IawWqZSFw&quot;>architectural patterns&lt;/a>, or other reusable assets applicable to your project.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Assess whether each asset contributes to meeting the project's requirements and architectural goals, and whether it is&#xD;
+    compatible with the project's constraints. Examine the tradeoffs in cost, risk, and functionality from adopting the&#xD;
+    asset. For each asset, note whether you plan to use it as-is, extend or enhance it, or whether you choose not to use it&#xD;
+    at all, and why. Capture these decisions, and any supporting rationale, in the Architectural Decisions.&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Consider whether negotiate modifications for any of the requirements to enable use of an available asset. If so,&#xD;
+    propose requirements changes to those responsible for them.&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html&quot;&#xD;
+    guid=&quot;_vO2uoO0OEduUpsu85bVhiQ&quot;>Guideline: Software Reuse&lt;/a> for more information.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_CXjZAIBAEd2wUZeNbIIc3w" name="Identify architectural mechanisms" guid="_CXjZAIBAEd2wUZeNbIIc3w">
+    <sectionDescription>&lt;p>&#xD;
+    Use your experience to recognize architectural problems that exist in your system that have been solved before. Propose&#xD;
+    a consistent means, or &quot;mechanism&quot;, of solving those problems throughout your system. Document your ideas by listing&#xD;
+    required &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/analysis_mechanism_8369C159.html&quot; guid=&quot;_0gvqoMlgEdmt3adZL5Dmdw&quot;>Analysis Mechanisms&lt;/a> in the Architectural Decisions.&lt;br />&#xD;
+    &lt;br />&#xD;
+    For each mechanism, specify its name and basic attributes. The set of attributes varies among mechanisms. Prioritize&#xD;
+    the design and development of any mechanisms that are key to achieving the Architectural Goals. Communicate these&#xD;
+    priorities to developers.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/arch_mechanism_2932DFB6.html&quot; guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Concept: Architectural Mechanism&lt;/a> for more information and examples.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_M1hMsIBAEd2wUZeNbIIc3w" name="Sketch architecture overview" guid="_M1hMsIBAEd2wUZeNbIIc3w">
+    <sectionDescription>&lt;p>&#xD;
+    Sketch the major building blocks of the architecture in the Architecture Overview. Keep any diagrams simple, brief, and&#xD;
+    informal.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If you are still exploring alternative architectural solutions, produce diagrams for each option to enable stakeholders&#xD;
+    to evaluate the tradeoffs between options.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_QPv34IBAEd2wUZeNbIIc3w" name="Validate the architecture" guid="_QPv34IBAEd2wUZeNbIIc3w">
+    <sectionDescription>&lt;p>&#xD;
+    Review the Architectural Decisions to ensure that you have captured the rationale for any significant decisions that&#xD;
+    you have made, especially those that are controversial or are based on reasoning that is not obvious.&#xD;
+&lt;/p>Review your requirements and update based on any new information you have discovered, updating requirements&#xD;
+traceability&amp;nbsp;as required.&lt;br />&#xD;
+&lt;p>&#xD;
+    Communicate and validate your architecture overview and decisions with project sponsors, stakeholders, and developers.&#xD;
+    Make sure that your developers understand the plan and can deliver it. Repeat the steps of this task as needed to&#xD;
+    incorporate their feedback.&lt;br />&#xD;
+    &lt;br />&#xD;
+    For checklists to assess the results of this task, refer to the output work products.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to understand project goals, define and validate architectural goals, and gather together all&#xD;
+sources of input to the architecture. This task helps you ensure that your architecture meets the needs of your&#xD;
+stakeholders, leverages existing resources, and is understood by developers.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

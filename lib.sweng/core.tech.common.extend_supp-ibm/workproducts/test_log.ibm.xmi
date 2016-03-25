@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-96NHF771VI9gEiD3NTKVjQ" name="test_log,_5KYboHE8Edy8Ac588DXPCQ" guid="-96NHF771VI9gEiD3NTKVjQ" changeDate="2012-09-25T14:29:26.450-0700" version="7.1.0">
+  <briefOutline>&lt;p>&#xD;
+    Each Test Log should be made up of a series of entries that present an audit trail for various aspects of the test&#xD;
+    execution, including but not limited to the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The date and time stamp of when the event occurred&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A description (usually brief) of the event logged&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Some indication of the observed status&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Additional contextual information where relevant&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Additional details relating to any anomalous or erroneous condition detected&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></briefOutline>
+  <representationOptions>&lt;p>&#xD;
+    Automation tools often provide their own Test Log facilities, which can be extended or supplemented with additional&#xD;
+    logging provided both through custom user-routines and the use of additional tools.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The output may take one single, or many different, forms. Typically, Test Logs have a tabular or spreadsheet-like&#xD;
+    appearance, with each entry comprising some form of date and time stamp, a description of the event logged, some&#xD;
+    indication of the observed status, and possibly some additional contextual information.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If you are using automated test tools, such as those found in the IBM&amp;reg; Rational Suite&amp;reg; family of products, much of the&#xD;
+    above functionality is provided by default with the tool. These Test Log facilities typically provide the ability for&#xD;
+    the capture, filtering, and sorting (and the analysis of) the information contained in the log. This allows the Test&#xD;
+    Log to be expanded in detail, or collapsed to a summary view, as required. The tools also offer the ability to&#xD;
+    customize and retain views of the Test Log for reporting purposes.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Where the logic that produces an automated Test Log simply appends new information to an existing log file, it will be&#xD;
+    necessary to provide sufficient storage to retain the Test Log file. An alternative solution to this approach is to use&#xD;
+    a &lt;i>ring buffer&lt;/i>. A good explanation of &lt;a href=&quot;http://hillside.net/plop/plop2k/proceedings/Marick/Marick.pdf&quot;&#xD;
+    target=&quot;_blank&quot;>Using Ring Buffer Logging to help find bugs&lt;/a> is presented in a pattern catalog by Brian Marick. (Get&#xD;
+    &lt;a href=&quot;http://www.adobe.com/products/acrobat/alternate.html&quot; target=&quot;_blank&quot;>Adobe reader&lt;/a>.) This catalog provides&#xD;
+    an overview of other classic problems with using automated Test Logs.&#xD;
+&lt;/p></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

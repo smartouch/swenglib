@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Kimnaf-MbGWp34vnjANPWg" name="document_information_service_realization_decisions,_5q5TQGWvEd6Zd-lbA790BQ" guid="-Kimnaf-MbGWp34vnjANPWg" changeDate="2009-08-03T18:01:54.437-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    As is noted in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_realization.base-ibm/guidances/guidelines/information_service_considerations_and_realization_patterns_ED451616.html&quot; guid=&quot;_v-BTYICMEd6gDe17473oSQ&quot;>Guideline: Information Service Considerations and Realization Patterns&lt;/a>, numerous&#xD;
+    special issues revolve around corporate information.&amp;nbsp; These include:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Spatial distribution of the data needed to define an information entity;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Unclear data definition;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Multiple, sometimes conflicting, sources for the same information;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Lack of standard mechanisms for accessing information.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Special techniques, often requiring use of custom run-time components, can be involved in addressing these&#xD;
+    issues.&amp;nbsp; This task describes a general approach for handling information services issues. More information can be&#xD;
+    found in the above-referenced Guideline.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_CMvM8ICVEd6gDe17473oSQ" name="Identify the information-related issues to be addressed" guid="_CMvM8ICVEd6gDe17473oSQ">
+    <sectionDescription>&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_realization.base-ibm/guidances/guidelines/information_service_considerations_and_realization_patterns_ED451616.html&quot; guid=&quot;_v-BTYICMEd6gDe17473oSQ&quot;>Guideline: Information Service Considerations and Realization Patterns&lt;/a>, for&#xD;
+    a&amp;nbsp;description of eight common information-related issues that either impact or motivate service-based&#xD;
+    solutions.&amp;nbsp;Identify which of these impact your situation.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Use the Data Model to help understand data-specific issues, such as underlying structure, duplication, etc., that&#xD;
+        need to be addressed.&amp;nbsp; Work closely with the Data Architect for expert insights into these issues;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Leverage the Service Model to better understand how the information needs to flow through the service layer of your&#xD;
+        solution, and which service providers have been assigned the responsibility for controlling data (see &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/supportingmaterials/pattern_08_model_data_control_points_8D5026CE.html&quot; guid=&quot;_mCnegHobEd6spLUpguTNDw&quot;>Pattern 08: Model Data Control Points&lt;/a>); and&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Refer to the&amp;nbsp;Component Model to comprehend how the underlying &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_component_54F50804.html&quot; guid=&quot;_Gcmp8GZaEd65K8S2sWS35w&quot;>Service&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/functional_component_595EAFE6.html&quot; guid=&quot;_Ocmr0GWpEd6Zd-lbA790BQ&quot;>Functional&lt;/a>, and &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/technical_component_D89DA554.html&quot; guid=&quot;_RjrxgGWpEd6Zd-lbA790BQ&quot;>Technical&lt;/a> components deal with data.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_ojsgwICVEd6gDe17473oSQ" name="Select appropriate solution pattern(s)" guid="_ojsgwICVEd6gDe17473oSQ">
+    <sectionDescription>Each of the major data-related issues has general-purpose solutions, expressed in the form of one or more patterns (see the&#xD;
+previously-referenced Guideline).&amp;nbsp; Select the pattern(s) which are most appropriate for the given problem context, to&#xD;
+help define possible solution approaches</sectionDescription>
+  </sections>
+  <sections xmi:id="_BVoJUICWEd6gDe17473oSQ" name="Make sourcing decisions for the information service solution" guid="_BVoJUICWEd6gDe17473oSQ">
+    <sectionDescription>&lt;p>&#xD;
+    Decide on, and document in Architectural Decisions, your solution(s) for information service realization.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The same options as were presented in the more general-purpose task, &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_realization.base-ibm/tasks/document_service_realization_decisions_FBBF29EC.html&quot; guid=&quot;_3ad-MGWuEd6Zd-lbA790BQ&quot;>Task: Document Service Realization Decisions&lt;/a>, are at play here.&amp;nbsp; Some of the&#xD;
+    smaller-scale issues, such as lack of basic service-based access to information, sometimes can be addressed using a&#xD;
+    &quot;build&quot; solution.&amp;nbsp; Larger-scale issues, such as data federation, data consolidation, data cleansing, and master&#xD;
+    data management, often require a &quot;buy&quot; solution.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>To determine how to realize information services.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

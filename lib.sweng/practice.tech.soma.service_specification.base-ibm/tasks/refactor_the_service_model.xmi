@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-jn8oCeH-5FtUkQsHKcBBdQ" name="perform_variation_oriented_analysis,_U3qhAGfpEd6Lp4pMdHNm6g" guid="-jn8oCeH-5FtUkQsHKcBBdQ" changeDate="2009-09-25T14:33:53.859-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Building a significant service model can involve the participation of several SOA architects over an extended period of&#xD;
+    time.&amp;nbsp; It is likely that, in the absence of efforts to periodically examine the model critically,&amp;nbsp;undesired&#xD;
+    redundancies in concepts (&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>ServiceInterfaces&lt;/a>,&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/message_type_soaml_41C1C53D.html&quot; guid=&quot;_Yy9FYGc6Ed65K8S2sWS35w&quot;>MessageTypes&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>Participants&lt;/a>, and so on)&amp;nbsp;will appear, and the quality of the model will&#xD;
+    degrade.&amp;nbsp; To combat this, the SOA architect team needs to be continually seeking&amp;nbsp;refactoring opportunities,&#xD;
+    and needs to periodically perform formal reviews to&amp;nbsp;refactor the service model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The main tool that is used to perform the refactoring is &lt;em>commonality and variability analysis&lt;/em>.&amp;nbsp; This is&#xD;
+    introduced in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/variability_analysis_5DE99340.html&quot; guid=&quot;_Tt8JMEo3Ed6D_7XK49c0nw&quot;>Concept: Variability Analysis&lt;/a>.&amp;nbsp;&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/variability_analysis_AF5936CF.html&quot; guid=&quot;_lP-BoFbREd6MCpkuB85p5g&quot;>Guideline: Variability Analysis&lt;/a>&amp;nbsp;provides additional discussion on this&#xD;
+    technique.&amp;nbsp; &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/variability_analysis_8B6BEC31.html&quot; guid=&quot;_f_0xkEo3Ed6D_7XK49c0nw&quot;>Example: Variability Analysis&lt;/a>&amp;nbsp;presents an example,&amp;nbsp;and also illustrates&#xD;
+    some common taxonomic hierarchies that are used to describe variability.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_WcW2AHu1Ed6TH_N7AhVgiA" name="Identify common and variable elements" guid="_WcW2AHu1Ed6TH_N7AhVgiA">
+    <sectionDescription>&lt;p>&#xD;
+    Identifying the elements of a design that do not change when used in different situations is&amp;nbsp;best done&#xD;
+    iteratively. Create instance diagrams for a set of scenarios&amp;nbsp;and note&amp;nbsp;which elements are common in all cases.&#xD;
+    The more scenarios available, obviously the more data points there are available to you and therefore you are able to&#xD;
+    validate early results and assumptions.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Provide some form of encapsulating element to separate the changing&amp;nbsp;elements from the rest of the design. The&#xD;
+    choice of encapsulation technique depends on the context, but consider the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Introduce a package to own the elements.&lt;/strong>&amp;nbsp; This only changes the ownership of the elements, but not the&#xD;
+        relationship between the elements or with elements outside the package.&amp;nbsp; This is most commonly applied to analysis&#xD;
+        models.&#xD;
+&lt;/li>&#xD;
+    &lt;li>&lt;strong>&#xD;
+      Introduce a component to own the elements.&amp;nbsp;&lt;/strong> This not only changes the ownership, but it also introduces a&#xD;
+        formal encapsulation so you&amp;nbsp;might choose to define an interface exposing the relevant elements to the outside.&#xD;
+&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Introduce a UML 2.0 collaboration.&lt;/strong>&amp;nbsp; This&amp;nbsp;allows the common elements to be defined as part of the&#xD;
+        composite structure of the collaboration as well as defining the variable elements as roles.&amp;nbsp;&amp;nbsp; Later on,&#xD;
+        a binding&amp;nbsp;can be made from the variable element roles to concrete elements. This is a common approach to&#xD;
+        defining design patterns in UML.&amp;nbsp;A collaboration does not own the elements themselves, only roles&#xD;
+        corresponding to the elements.&#xD;
+&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Introduce a templated class&lt;/strong> where the template corresponds to the type of the variable element(s).&amp;nbsp; This is a&#xD;
+        common approach in languages such as Ada, C++, Eiffel, and now Java, which support generic programming.&#xD;
+&lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>You might simply choose to use a visual cue.&lt;/strong> It is common, for example, to use a single diagram and to color the&#xD;
+    common and variable elements differently.&lt;br />&#xD;
+        &amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_3ICCAHu1Ed6TH_N7AhVgiA" name="Document variability forms" guid="_3ICCAHu1Ed6TH_N7AhVgiA">
+    <sectionDescription>&lt;p>&#xD;
+    Variability itself takes a number of different forms, any of which might be appropriate.&amp;nbsp;&amp;nbsp;In some cases, more&#xD;
+    than one form is present in a given situation. Common kinds of variability are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Variability by Type&lt;/strong> -- for example, in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/variability_analysis_8B6BEC31.html&quot; guid=&quot;_f_0xkEo3Ed6D_7XK49c0nw&quot;>Example: Variability Analysis&lt;/a>, the variability of the legal contract is based on&#xD;
+        the type hierarchy used to represent the concept &quot;Party:&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Variability by Role&lt;/strong> -- in this case, the type of the element is generally immaterial (or at least of&#xD;
+        secondary importance). It is the&amp;nbsp;role it plays that is of value. This type of variability is often found in&#xD;
+        pattern development.&amp;nbsp; A pattern is defined so that it can be&amp;nbsp;applied to the broadest set of&#xD;
+        possibilities.&amp;nbsp;&amp;nbsp;To achieve this,&amp;nbsp;the parameters to the pattern are defined in terms of the roles the&#xD;
+        provided elements play.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Variability&amp;nbsp;of&amp;nbsp;Implementation&lt;/strong> -- In this case the element provided is required to perform&#xD;
+        some behavior, and so needs to implement a given interface (or more formally a protocol) to be applicable. In such a&#xD;
+        case, it is usual&amp;nbsp;that the container of the common elements&amp;nbsp;describes the interface. It also has either a template&#xD;
+        parameter of the interface type, or it requires the interface.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/examples/variability_forms_1AFD9B25.html&quot; guid=&quot;_5qR_kHr1Ed6mlZJ30DTT1Q&quot;>Example: Variability Forms&lt;/a>&amp;nbsp;provides illustrations of each of the above forms of&#xD;
+    variability.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    Create a &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/workproducts/service_model_B9A1BF81.html&quot; guid=&quot;_IgcA4Eo1Ed6D_7XK49c0nw&quot;>Service Model&lt;/a>&amp;nbsp;that is free of redundancies, easier to understand, and easier to&#xD;
+    maintain.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

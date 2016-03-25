@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-wHUPMMHjug8vDT5x4CLqIQ" name=",_dKsiwMgTEd67koQUdRbVsg" guid="-wHUPMMHjug8vDT5x4CLqIQ" changeDate="2009-11-02T16:55:54.890-0800" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    In model-based systems engineering an essential part of the model verification/validation process concerns the dynamic,&#xD;
+    closed-loop interactions between the actors and the model (i.e. the executable use-case model or system architecture&#xD;
+    model). This interaction is performed via port(s) and associated (logical) interface(s).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    With regard to the behavioral description there is an essential difference between the two types of participant:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The system behavior is captured through statecharts, depicting the different states of the system and the events&#xD;
+        and actions associated with the relevant transitions.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The actor behavior is generally captured by means of a protocol state machine.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    A protocol state machine does not show system states. It focuses on the communication protocol only. Typically, it&#xD;
+    consists of one state, the reactive behavior of which is described via MOORE syntax (i.e. entering state or in state&#xD;
+    -&amp;gt; Event[Condition(s)]/Action).&amp;nbsp; &lt;u>Exception:&lt;/u> Timeout events. In this case a timeout wait state has to be&#xD;
+    added to the actor state machine.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Actor behavior may be active (i.e. the actor initiates system behavior) or reactive (i.e. the actor reacts to&amp;nbsp;a&#xD;
+    stimulus from the system).&amp;nbsp; Model each of these as follows. In either case, a pre-condition is that the Actor&#xD;
+    ports and interfaces have been defined.&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    Modeling active Actor behavior&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    If the actor initiates a trigger, create an external triggering event following the naming convention&#xD;
+    A_&amp;lt;MessageName&amp;gt; and add an action representing the&amp;nbsp;message to be sent to the system and the relevant&#xD;
+    port.&amp;nbsp; The exact syntax will depend upon the tool in use.&amp;nbsp; For example, a message to the system block&#xD;
+    syntax&amp;nbsp;may be:&#xD;
+&lt;/p>&#xD;
+&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>&#xD;
+    &lt;p>&#xD;
+        A_reqOperation1() / OPORT(pUseCase1) -&amp;gt; GEN(reqOperation1());&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote>&#xD;
+&lt;h4>&#xD;
+    Modeling reactive Actor behavior&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    If the actor has to react to an incoming message with a guard condition, return the response via the relevant port&#xD;
+    using MOORE syntax.&amp;nbsp; The exact syntax will depend upon the tool in use.&amp;nbsp; For example, a reactive message to&#xD;
+    the system block using the Telelogic Rhapsody syntax may be:&#xD;
+&lt;/p>&#xD;
+&lt;blockquote dir=&quot;ltr&quot; style=&quot;MARGIN-RIGHT: 0px&quot;>&#xD;
+    &lt;p>&#xD;
+        reqGetDataX()[ConditionX==true] / Oport(pUseCase)-&amp;gt; GEN(retDataX();&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

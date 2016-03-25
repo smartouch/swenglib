@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-eoweQHHeDN9xgKFmsEVNxg" name="implement_unit_tests,_BpwvEAqFEd281qfHUnTumw" guid="-eoweQHHeDN9xgKFmsEVNxg" changeDate="2008-09-11T15:07:39.594-0700" version="7.1.0">
+  <mainDescription>&lt;p>&#xD;
+    Unit testing is a brand of developer testing that performs black-box tests on implementation components after they've&#xD;
+    been implemented and white-box tested. The goal is to assure that a component functions correctly before it's&#xD;
+    integrated into the rest of the system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Developer testing is different from other forms of testing in that it is based on the expected behavior of code units&#xD;
+    rather than being directly based on the system requirements. Use the demands of the design and the existing&#xD;
+    implementation to understand what needs to be tested.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Members of the integration testing team can provide insight and direction during this task so robust and reusable tests&#xD;
+    are written. Testers often have a stake in the quality of unit tests as they're often re-used during integration&#xD;
+    testing.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_BpwvEgqFEd281qfHUnTumw" name="Refine the scope and identify the tests" guid="_BpwvEgqFEd281qfHUnTumw">
+    <sectionDescription>&lt;div align=&quot;left&quot;>&#xD;
+    Select a single implementation component and identify appropriate tests that will verify all aspects of the externally&#xD;
+    observable behavior of the component.&#xD;
+&lt;/div>&#xD;
+&lt;p>&#xD;
+    Define the following in each developer test:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Goal: subsystem/component interface validation, implementation validation, reproduce a defect.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Scope: subsystem, component, group of components (a single test should focus on a group of components only if they&#xD;
+        provide the same function).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test details: pre-conditions, post-conditions, set-up requirements (environment), invariants, input/output and&#xD;
+        execution conditions, observation/control points, clean-up actions.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_BpwvFQqFEd281qfHUnTumw" name="Select the appropriate testing approach" guid="_BpwvFQqFEd281qfHUnTumw">
+    <sectionDescription>&lt;a id=&quot;Refine_the_Scope_and_Identify_the_Tests&quot; name=&quot;Refine_the_Scope_and_Identify_the_Tests&quot;>&lt;/a> &#xD;
+&lt;div align=&quot;left&quot;>&#xD;
+    &lt;p>&#xD;
+        Choose an automated testing approach whenever possible. In some cases, for example, usability testing, it may be&#xD;
+        necessary to test manually by&amp;nbsp;following a sequence of instructions that have been documented in the developer&#xD;
+        test.&#xD;
+    &lt;/p>&#xD;
+    &lt;p>&#xD;
+        Define what kind of test will be implemented and document it in the developer test. Possible options are:&#xD;
+    &lt;/p>&#xD;
+    &lt;ul>&#xD;
+        &lt;li>&#xD;
+            Programmed tests, using either the same software programming techniques and environment as the component under&#xD;
+            test, or less complex programming languages and tools (&amp;nbsp;for example,&amp;nbsp;scripting languages, tcl, shell&#xD;
+            based, etc).&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            Recorded or captured tests, built by using test automation tools which capture the interactions between the&#xD;
+            component under test and the rest of the system, and produce the basic tests&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            Generated tests: some aspects of the test, either procedural or the test data, could be automatically generated&#xD;
+            using more complex test automation tools&#xD;
+        &lt;/li>&#xD;
+    &lt;/ul>&#xD;
+&lt;/div></sectionDescription>
+  </sections>
+  <sections xmi:id="_BpwvEwqFEd281qfHUnTumw" name="Implement the test" guid="_BpwvEwqFEd281qfHUnTumw">
+    <sectionDescription>&lt;p>&#xD;
+    Implement all the elements defined previously. Describe each developer test fully, whether it's automated or manual, so&#xD;
+    someone else can execute the test without supervision. Assure any manual tests include all the steps necessary to&#xD;
+    complete the test.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Detail the test environment pre-conditions and what are the steps to get the component under test to the state where&#xD;
+    the tests can be executed successfully. Identify the clean-up steps to be followed in order to restore the environment&#xD;
+    to the original state. Pay special attention to the implementation of the observation/control points, as these might&#xD;
+    need special support that has to be implemented in the component under test.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Leverage the design and the existing implementation to understand what's expected of the component from a black-box&#xD;
+    perspective.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_BpwvFgqFEd281qfHUnTumw" name="Establish external data sets" guid="_BpwvFgqFEd281qfHUnTumw">
+    <sectionDescription>&lt;a id=&quot;Establish_External_Data_Sets&quot; name=&quot;Establish_External_Data_Sets&quot;>&lt;/a> &#xD;
+&lt;div align=&quot;left&quot;>&#xD;
+    In most of the cases, decoupling the test data from the developer test leads to a more maintainable solution. If the&#xD;
+    test's life span is short, hardcoding the data within the test might be more efficient. If many test execution cycles&#xD;
+    will be needed using different data sets, it's more efficient to store them externally.&#xD;
+&lt;/div>&#xD;
+&lt;p>&#xD;
+    The advantages of decouple the test data from the developer test are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        More than one test could use the same data set.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Easy to modify and reuse the test data.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test data could be used to control the conditional branching logic within the test.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_BpwvEQqFEd281qfHUnTumw" name="Verify the test implementation" guid="_BpwvEQqFEd281qfHUnTumw">
+    <sectionDescription>&lt;a id=&quot;Verify_the_Test_Implementation&quot; name=&quot;Verify_the_Test_Implementation&quot;>&lt;/a> &#xD;
+&lt;div align=&quot;left&quot;>&#xD;
+    Test the developer test. Check the environment setup and clean-up instructions. Run the test, observe its behavior and&#xD;
+    fix the test's defects. If the test will be long-lived, ask a person with less inside knowledge to run it and check if&#xD;
+    there is enough support information. Review it with other people within the development team and other interested&#xD;
+    parties.&#xD;
+&lt;/div></sectionDescription>
+  </sections>
+  <sections xmi:id="_BpwvFAqFEd281qfHUnTumw" name="Maintain traceability relationships as needed" guid="_BpwvFAqFEd281qfHUnTumw">
+    <sectionDescription>&lt;div align=&quot;left&quot;>&#xD;
+    Depending on the level of formality, you may need to maintain traceability relationships between the tests and the&#xD;
+    components. Document traces in the developer test or an automated tool.&#xD;
+&lt;/div>&lt;br /></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To implement one or more tests that validate a component&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To develop tests that can be executed in conjunction with other tests as part of a larger test infrastructure&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

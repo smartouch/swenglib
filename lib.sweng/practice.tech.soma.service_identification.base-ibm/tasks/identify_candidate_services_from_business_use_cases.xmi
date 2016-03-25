@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-K-BpJZheApmnrQdgsk6fqw" name="identify_candidate_services_from_business_use_cases,_RsIoEFIPEd6lNtylJFsPIg" guid="-K-BpJZheApmnrQdgsk6fqw" changeDate="2009-09-26T07:29:18.453-0700" version="7.5.0">
+  <mainDescription>&lt;table class=&quot;sectionTable&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;>&#xD;
+    &lt;tbody>&#xD;
+        &lt;tr valign=&quot;top&quot;>&#xD;
+            &lt;td class=&quot;sectionTableSingleCell&quot;>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+    &lt;/tbody>&#xD;
+&lt;/table>&#xD;
+&lt;p>&#xD;
+    This task uses &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/concepts/business_uc_realization_B9B77CA3.html&quot; guid=&quot;_NFkXsGDYEd6EnMwJEA4c6A&quot;>business use-case realizations&lt;/a> as input and identifies a set of candidate services&#xD;
+    that are included in the project candidate service portfolio. These candidate services might yet require additional&#xD;
+    refinement, however the steps included here provide an effective manner in which to produce an initial set of service&#xD;
+    candidates.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A business use case realization describes interactions between actors and business-relevant elements, to deliver&#xD;
+    something of measurable value to one or more of the actors.&amp;nbsp; As is true with business processes, business use&#xD;
+    cases -- and their associated realizations -- can be defined at various levels of detail within the business (see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.bus.common.extend-ibm/guidances/guidelines/decomposing_business_processes_4B6C7EDB.html&quot; guid=&quot;_5Mi1gEozEd6D_7XK49c0nw&quot;>Guideline: Decomposing Business Processes&lt;/a>).&amp;nbsp; At the highest level, the business&#xD;
+    elements involved in the realization might be business domains.&amp;nbsp; The next level of detail might involve&#xD;
+    interacting functional areas.&amp;nbsp; Going yet another level down, the interacting elements might be business subsystems&#xD;
+    or business workers within a functional area (see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.bus.common.extend-ibm/guidances/concepts/functional_area_analysis_9B1F96D5.html&quot; guid=&quot;_fk1woEo1Ed6D_7XK49c0nw&quot;>Concept: Functional Area Analysis&lt;/a>).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Analysis performed at each of these levels of&amp;nbsp;detail can be valuable,&amp;nbsp;because they will result in operations&#xD;
+    that represent different levels of entry into the overall business behavior.&amp;nbsp; For example:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Operations&amp;nbsp;discovered at the level of interacting business domains might represent initiation of large-scale&#xD;
+        business processes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Operations discovered at the level of interacting functional areas might represent initiation of significant&#xD;
+        sub-processes that are wholly owned by a functional area&#xD;
+  &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Operations discovered at the level of interacting business subsystems might represent entry points into leaf-level&#xD;
+        sub-processes, which are the gateways to IT system use cases&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In this task, the work product slot of [Business Design] is filled by Business Model, which includes business use case&#xD;
+    descriptions.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    Identifying candidate services from business use case realizations is one of several schemes that complement each&#xD;
+    other during candidate services identification. Omitting any of the methods increases the risk that some candidate&#xD;
+    services will not be discovered.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_OD4fUHrdEd6mlZJ30DTT1Q" name="Decompose the business use-case realizations (optional)" guid="_OD4fUHrdEd6mlZJ30DTT1Q">
+    <sectionDescription>&lt;p>&#xD;
+    For maximum benefit, this task&amp;nbsp;needs to&amp;nbsp;be performed using a business use case realization model [Business&#xD;
+    Design]&amp;nbsp;that is decomposed such that the operations involved in the lowest level of realizations can themselves be&#xD;
+    mapped, either singularly or collectively,&amp;nbsp;to system use cases.&amp;nbsp; If this degree of decomposition has not been&#xD;
+    achieved, then&amp;nbsp;perform business use case realization modeling techniques to achieve it.&amp;nbsp; Such techniques are&#xD;
+    beyond the scope of this practice.&amp;nbsp; They are addressed, for example, in the IBM Practice Library's Use-Case-Driven&#xD;
+    Business Modeling practice.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_yKhEYHrfEd6mlZJ30DTT1Q" name="Identify relevant business use-case realizations." guid="_yKhEYHrfEd6mlZJ30DTT1Q">
+    <sectionDescription>All of the business&amp;nbsp;use-case realizations&amp;nbsp;in a corporate business&amp;nbsp;use case&amp;nbsp;model might not be relevant&#xD;
+to a current project.</sectionDescription>
+  </sections>
+  <sections xmi:id="_8FT5kHrfEd6mlZJ30DTT1Q" name="Eliminate fine-grained operations that interact with a user interface" guid="_8FT5kHrfEd6mlZJ30DTT1Q">
+    <sectionDescription>If such operations are discovered in a business use case realization model, the model has been overly decomposed.&amp;nbsp;&#xD;
+Make the business analyst team aware of this issue.</sectionDescription>
+  </sections>
+  <sections xmi:id="_dg9xAHrgEd6mlZJ30DTT1Q" name="Eliminate highly-abstract business use-case realizations" guid="_dg9xAHrgEd6mlZJ30DTT1Q">
+    <sectionDescription>This is the opposite case from the previous task -- the realization has not been decomposed.&amp;nbsp; If this&amp;nbsp;realization&#xD;
+is relevant to the current project, the business analyst team&amp;nbsp;needs to&amp;nbsp;re-visit the&amp;nbsp;realization and&#xD;
+decompose it.</sectionDescription>
+  </sections>
+  <sections xmi:id="_q5fRUHrgEd6mlZJ30DTT1Q" name="Identify candidate services from business use-case realizations." guid="_q5fRUHrgEd6mlZJ30DTT1Q">
+    <sectionDescription>&lt;p>&#xD;
+    In general, create a candidate service for each operation defined on each business&amp;nbsp;element that is involved in the&#xD;
+    realization. There exists a distinct&amp;nbsp;parallel here to the&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_identification.base-ibm/tasks/identify_candidate_services_from_business_processes_54D9E0FA.html&quot; guid=&quot;_e9TgEGTPEd6EKfYvqjfiMA&quot;>Task: Identify Candidate Services from Business Processes&lt;/a>&amp;nbsp;where individual&#xD;
+    tasks in a process model are identified as candidate services.&#xD;
+&lt;/p>&#xD;
+&lt;p>&lt;strong>Figure 1. Candidate service identified in a business use-case realization&lt;/strong>&lt;/p>&#xD;
+&lt;p align=&quot;center&quot;>&#xD;
+    &lt;img height=&quot;386&quot; alt=&quot;&quot; src=&quot;resources/buc_rel_1.gif&quot; width=&quot;481&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This fairly direct connection between the business model and the service model allows for not only services that can be&#xD;
+    seen to support the business needs, but by having less transformations between the expression of business needs and the&#xD;
+    solution, you can more effectively respond to change in the Business Use Case or&amp;nbsp;Business Models. Another important&#xD;
+    aspect is that because the Business Use Case model also includes the Business Goals that are driving the business, it is now&#xD;
+    much easier to actually identify the alignment between Services and Goals. For example, it is now possible to list, for&#xD;
+    any Capability, all the Business Goals to which it contributes. For any Business Goal we can list the Services actually&#xD;
+    deployed in our IT organization that contribute to the goal, by following the connection from Capability to&#xD;
+    ServiceInterface.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_5gyYQHroEd6mlZJ30DTT1Q" name="Refine candidate service specifications" guid="_5gyYQHroEd6mlZJ30DTT1Q">
+    <sectionDescription>&lt;p>&#xD;
+    In some cases the set of operations defined in the business use case realization might more correctly reflect a&#xD;
+    &lt;em>conversation&lt;/em> between parties related to a single service than it does to a set of distinct services. In such a&#xD;
+    case, the operations might be aggregated onto a single service specification (as shown in Figure 2). The drawback to this&#xD;
+    approach is that it requires more detailed analysis and understanding of the use case realization, and the role of&#xD;
+    the&amp;nbsp;business elements&amp;nbsp;within it, to identify this as a requirement.&#xD;
+&lt;/p>&#xD;
+&lt;p>&lt;strong>Figure 2. Aggregate the operations onto a single service&lt;/strong>&lt;/p>&#xD;
+&lt;p align=&quot;center&quot;>&#xD;
+    &amp;nbsp;&lt;img height=&quot;285&quot; alt=&quot;&quot; src=&quot;resources/buc_rel_2.gif&quot; width=&quot;481&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;em>Conversation&lt;/em> means that often the actual completion of a service requires multiple interactions between&#xD;
+    parties.&amp;nbsp; For example, if you&amp;nbsp;examine the &lt;code>Place Order&lt;/code> service, you might actually find that this is a complex&#xD;
+set of interactions including acknowledgments, shipping notices, negations (for example if items are unavailable), and so on. &lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_VVVzYHrgEd6mlZJ30DTT1Q" name="Update candidate service portfolio and service hierarchy" guid="_VVVzYHrgEd6mlZJ30DTT1Q">
+    <sectionDescription>Add the new candidate services to the candidate service portfolio.&amp;nbsp;&amp;nbsp; Position them within the candidate service&#xD;
+hierarchy, in alignment with your chose taxonomic approach.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to identify candidate services from business use case realizations.</purpose>
+  <alternatives>&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_identification.base-ibm/tasks/identify_candidate_services_from_business_processes_54D9E0FA.html&quot; guid=&quot;_e9TgEGTPEd6EKfYvqjfiMA&quot;>Task: Identify Candidate Services from Business Processes&lt;/a>&amp;nbsp;is an alternative, in&#xD;
+cases where business behavior is described using conventional business process notations, rather than using business use&#xD;
+case realizations.</alternatives>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_M6p4gLXxEd-2qrSRq-Velw" guid="_M6p4gLXxEd-2qrSRq-Velw">
+    <subManagers xmi:id="_O9ljULFAEd-mOKCs6c0xZQ" href="uma://_O6mgwLFAEd-mOKCs6c0xZQ#_O9ljULFAEd-mOKCs6c0xZQ"/>
+    <resourceDescriptors xmi:id="_O6wRwbFAEd-mOKCs6c0xZQ" id="_O6mgwLFAEd-mOKCs6c0xZQ" uri="capabilitypatterns/arch_dsgn_opt_rt/model.xmi"/>
+    <resourceDescriptors xmi:id="_JoDagdh7Ed-EMKK-AkuNVQ" id="-elLovokgWr5AP1lv8Ew5Qg" uri="guidances/practices/rt_arch_dsgn.xmi"/>
+    <resourceDescriptors xmi:id="_5BGd8NxtEd-iT-dJmEtOOg" id="-5wsN2cbvOKzfZA3hWv5S9Q" uri="tasks/opt_concurrency.xmi"/>
+    <resourceDescriptors xmi:id="_lWUDcdxvEd-iT-dJmEtOOg" id="-rpVNRaD_IH18rjsKkKeFBQ" uri="tasks/opt_deployment.xmi"/>
+    <resourceDescriptors xmi:id="_nwRH8dxwEd-iT-dJmEtOOg" id="-AH0Y7SXHJsCJ9GEm1mg65Q" uri="tasks/opt_distribution.xmi"/>
+    <resourceDescriptors xmi:id="_Xxe6kdxxEd-iT-dJmEtOOg" id="-r7zHdX2OIWk5QxBd4E-0Pw" uri="tasks/opt_safety_reliability.xmi"/>
+    <resourceDescriptors xmi:id="_2HtSIdxxEd-iT-dJmEtOOg" id="-zpsTWv-0l3Qdqn9R5cEQ0g" uri="tasks/opt_secondary.xmi"/>
+    <resourceDescriptors xmi:id="_Zx2k8NxzEd-iT-dJmEtOOg" id="-8RsEa2qy4UHWXlz8iDivfA" uri="tasks/opt_subsys.xmi"/>
+    <resourceDescriptors xmi:id="_M87FILcVEeC8hpaku3c2uA" id="-qpfUs4OM33PXsASLzBg52Q" uri="guidances/supportingmaterials/release_info_arch_design.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_M6gukLXxEd-2qrSRq-Velw" userChangeable="false" name="practice.tech.real_time.arch_design.base-ibm" guid="_M6gukLXxEd-2qrSRq-Velw" changeDate="2010-09-29T10:43:00.359-0700">
+    <methodElementProperty xmi:id="_q5I-8ukJEd-I1fnAy2RxGw" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M6gukbXxEd-2qrSRq-Velw" name="Content" guid="_M6gukbXxEd-2qrSRq-Velw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M6gukrXxEd-2qrSRq-Velw" name="Categories" guid="_M6gukrXxEd-2qrSRq-Velw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M6guk7XxEd-2qrSRq-Velw" name="Domains" guid="_M6guk7XxEd-2qrSRq-Velw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M6gulLXxEd-2qrSRq-Velw" name="Disciplines" guid="_M6gulLXxEd-2qrSRq-Velw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M6gulbXxEd-2qrSRq-Velw" name="RoleSets" guid="_M6gulbXxEd-2qrSRq-Velw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M6gulrXxEd-2qrSRq-Velw" name="WP Types" guid="_M6gulrXxEd-2qrSRq-Velw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M6gul7XxEd-2qrSRq-Velw" name="Tools" guid="_M6gul7XxEd-2qrSRq-Velw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M6gumLXxEd-2qrSRq-Velw" name="StandardCategories" guid="_M6gumLXxEd-2qrSRq-Velw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M6gumbXxEd-2qrSRq-Velw" name="CustomCategories" guid="_M6gumbXxEd-2qrSRq-Velw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M6gumrXxEd-2qrSRq-Velw" name="Hidden" guid="_M6gumrXxEd-2qrSRq-Velw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_M6gum7XxEd-2qrSRq-Velw" name="Custom Categories" guid="_M6gum7XxEd-2qrSRq-Velw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_M6gunLXxEd-2qrSRq-Velw" name="CoreContent" guid="_M6gunLXxEd-2qrSRq-Velw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_QlhyULXyEd-2qrSRq-Velw" name="RT Architectural Design" guid="_QlhyULXyEd-2qrSRq-Velw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_iUIJALB2Ed-_-u_W99sqSA" name="opt_concurrency" guid="_iUIJALB2Ed-_-u_W99sqSA" presentationName="Optimize Concurrency Architecture" briefDescription="This task focuses on the specification of the concurrency architecture.">
+            <presentation xmi:id="-5wsN2cbvOKzfZA3hWv5S9Q" href="uma://-5wsN2cbvOKzfZA3hWv5S9Q#-5wsN2cbvOKzfZA3hWv5S9Q"/>
+            <conceptsAndPapers href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_c_02IOKwEd-G2pDngtqTxA"/>
+            <conceptsAndPapers href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_H5t3sOKzEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_QFRtcOK_Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_ESto4OLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_1MOK4OK_Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_X7xFYOK7Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_aNgsQOLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_iD0hMOLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_S5PD0OK0Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_fiNAYOK9Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_9UV_AOKzEd-G2pDngtqTxA"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_5dqM8MvsEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_eL0PkMvwEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_mycD8MvsEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_Os81MMvtEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_N3ugkMvxEd-j1uJpwhl9rw"/>
+            <optionalInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_LqyEsMvtEd-j1uJpwhl9rw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_5b9nQLB2Ed-_-u_W99sqSA" name="opt_deployment" guid="_5b9nQLB2Ed-_-u_W99sqSA" presentationName="Optimize Deployment Architecture" briefDescription="This task optimizes the interaction between different engineering disciplines within the system architecture.">
+            <presentation xmi:id="-rpVNRaD_IH18rjsKkKeFBQ" href="uma://-rpVNRaD_IH18rjsKkKeFBQ#-rpVNRaD_IH18rjsKkKeFBQ"/>
+            <conceptsAndPapers href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_sgZBAOKwEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_QFRtcOK_Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_ESto4OLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_1MOK4OK_Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_aNgsQOLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_iD0hMOLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_S5PD0OK0Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_fiNAYOK9Ed-G2pDngtqTxA"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_mycD8MvsEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_5dqM8MvsEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_eL0PkMvwEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_Os81MMvtEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_mycD8MvsEd-j1uJpwhl9rw"/>
+            <optionalInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_LqyEsMvtEd-j1uJpwhl9rw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_u2HC4LB2Ed-_-u_W99sqSA" name="opt_distribution" guid="_u2HC4LB2Ed-_-u_W99sqSA" presentationName="Optimize Distribution Architecture" briefDescription="This task selects and optimizes the communications between non-colocated objects in the system. This includes the communication links, buses, networks, and middleware.">
+            <presentation xmi:id="-AH0Y7SXHJsCJ9GEm1mg65Q" href="uma://-AH0Y7SXHJsCJ9GEm1mg65Q#-AH0Y7SXHJsCJ9GEm1mg65Q"/>
+            <conceptsAndPapers href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_8yR7IOKwEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_QFRtcOK_Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_ESto4OLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_1MOK4OK_Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_aNgsQOLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_iD0hMOLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_S5PD0OK0Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_fiNAYOK9Ed-G2pDngtqTxA"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_mycD8MvsEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_5dqM8MvsEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_eL0PkMvwEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_mycD8MvsEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_Os81MMvtEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_N3ugkMvxEd-j1uJpwhl9rw"/>
+            <optionalInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_LqyEsMvtEd-j1uJpwhl9rw"/>
+            <optionalInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_N3ugkMvxEd-j1uJpwhl9rw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_AzjVULB2Ed-_-u_W99sqSA" name="opt_safety_reliability" guid="_AzjVULB2Ed-_-u_W99sqSA" presentationName="Optimize Safety and Reliability Architecture" briefDescription="This task is about run-time risk management through the identification and specification of control measures.">
+            <presentation xmi:id="-r7zHdX2OIWk5QxBd4E-0Pw" href="uma://-r7zHdX2OIWk5QxBd4E-0Pw#-r7zHdX2OIWk5QxBd4E-0Pw"/>
+            <conceptsAndPapers href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_dfxPkOKyEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_QFRtcOK_Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_ESto4OLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_1MOK4OK_Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_aNgsQOLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_iD0hMOLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_S5PD0OK0Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_fiNAYOK9Ed-G2pDngtqTxA"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_mycD8MvsEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_eL0PkMvwEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_5dqM8MvsEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_mycD8MvsEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_Os81MMvtEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_N3ugkMvxEd-j1uJpwhl9rw"/>
+            <optionalInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_LqyEsMvtEd-j1uJpwhl9rw"/>
+            <optionalInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_N3ugkMvxEd-j1uJpwhl9rw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_oUuZgLB2Ed-_-u_W99sqSA" name="opt_secondary" guid="_oUuZgLB2Ed-_-u_W99sqSA" presentationName="Optimize Secondary Architectural Views" briefDescription="This task focuses on strategic design decisions that are usually of secondary importance, such as data management, quality of service management, exception handling, etc.">
+            <presentation xmi:id="-zpsTWv-0l3Qdqn9R5cEQ0g" href="uma://-zpsTWv-0l3Qdqn9R5cEQ0g#-zpsTWv-0l3Qdqn9R5cEQ0g"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_QFRtcOK_Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_ESto4OLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_1MOK4OK_Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_aNgsQOLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_iD0hMOLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_S5PD0OK0Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_fiNAYOK9Ed-G2pDngtqTxA"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_mycD8MvsEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_5dqM8MvsEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_eL0PkMvwEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_mycD8MvsEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_Os81MMvtEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_N3ugkMvxEd-j1uJpwhl9rw"/>
+            <optionalInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_LqyEsMvtEd-j1uJpwhl9rw"/>
+            <optionalInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_N3ugkMvxEd-j1uJpwhl9rw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_z0irwLB2Ed-_-u_W99sqSA" name="opt_subsys" guid="_z0irwLB2Ed-_-u_W99sqSA" presentationName="Optimize Subsystems and Component Architecture" briefDescription="This task focuses on &quot;chunking&quot; the software into architectural units, and defining their responsibilities and their interfaces.">
+            <presentation xmi:id="-8RsEa2qy4UHWXlz8iDivfA" href="uma://-8RsEa2qy4UHWXlz8iDivfA#-8RsEa2qy4UHWXlz8iDivfA"/>
+            <conceptsAndPapers href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_WZ4yAOKyEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_QFRtcOK_Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_ESto4OLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_1MOK4OK_Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_aNgsQOLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_iD0hMOLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_S5PD0OK0Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_fiNAYOK9Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_Biq1EOK-Ed-G2pDngtqTxA"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_mycD8MvsEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_5dqM8MvsEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_eL0PkMvwEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_W2SgEDR5EdutE_HNDTJk5Q"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_mycD8MvsEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_Os81MMvtEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_N3ugkMvxEd-j1uJpwhl9rw"/>
+            <optionalInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_LqyEsMvtEd-j1uJpwhl9rw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_dLJpYLePEd-05egMquN4Dg" name="rt_arch_dsgn" guid="_dLJpYLePEd-05egMquN4Dg" presentationName="Real-Time Architectural Design">
+            <presentation xmi:id="-elLovokgWr5AP1lv8Ew5Qg" href="uma://-elLovokgWr5AP1lv8Ew5Qg#-elLovokgWr5AP1lv8Ew5Qg"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_iUIJALB2Ed-_-u_W99sqSA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_5b9nQLB2Ed-_-u_W99sqSA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_u2HC4LB2Ed-_-u_W99sqSA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_AzjVULB2Ed-_-u_W99sqSA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_oUuZgLB2Ed-_-u_W99sqSA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_z0irwLB2Ed-_-u_W99sqSA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="uma://_fXBQ8LBxEd-_-u_W99sqSA#_S6mToLXvEd-FofslSzycTA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="uma://_fXBQ8LBxEd-_-u_W99sqSA#_YZo10LB2Ed-_-u_W99sqSA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="uma://_fXBQ8LBxEd-_-u_W99sqSA#_t5CPsLw0Ed-eitZNR_0_Rg"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_mycD8MvsEd-j1uJpwhl9rw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_eL0PkMvwEd-j1uJpwhl9rw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_LqyEsMvtEd-j1uJpwhl9rw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_Os81MMvtEd-j1uJpwhl9rw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_c_02IOKwEd-G2pDngtqTxA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_sgZBAOKwEd-G2pDngtqTxA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_8yR7IOKwEd-G2pDngtqTxA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_G-10wOK8Ed-G2pDngtqTxA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_dfxPkOKyEd-G2pDngtqTxA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_WZ4yAOKyEd-G2pDngtqTxA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_BHyqMLcVEeC8hpaku3c2uA" name="release_info_arch_design" guid="_BHyqMLcVEeC8hpaku3c2uA" presentationName="Practice: Real Time - Architectural Design" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-qpfUs4OM33PXsASLzBg52Q" href="uma://-qpfUs4OM33PXsASLzBg52Q#-qpfUs4OM33PXsASLzBg52Q"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_M6gunbXxEd-2qrSRq-Velw" name="CapabilityPatterns" guid="_M6gunbXxEd-2qrSRq-Velw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_O6mgwLFAEd-mOKCs6c0xZQ" href="uma://_O6mgwLFAEd-mOKCs6c0xZQ#_O6mgwLFAEd-mOKCs6c0xZQ"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_M6gunrXxEd-2qrSRq-Velw" name="DeliveryProcesses" guid="_M6gunrXxEd-2qrSRq-Velw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_M6gun7XxEd-2qrSRq-Velw" name="ProcessContributions" guid="_M6gun7XxEd-2qrSRq-Velw"/>
+    <bases href="uma://_fXBQ8LBxEd-_-u_W99sqSA#_fXBQ8LBxEd-_-u_W99sqSA"/>
+    <bases href="uma://_r4gqELXsEd-FofslSzycTA#_r4gqELXsEd-FofslSzycTA"/>
+    <bases href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_DiOUEMvrEd-j1uJpwhl9rw"/>
+    <bases href="uma://_A118oMYaEdyXeo04os5BOw#_A118oMYaEdyXeo04os5BOw"/>
+    <bases href="uma://_LTqnQLeLEd-05egMquN4Dg#_LTqnQLeLEd-05egMquN4Dg"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-4JJMbF78xtxxhUSVAfP2Ow" name="new_checklist,_qfoWgOIpEd-aTvH4QbT1dw" guid="-4JJMbF78xtxxhUSVAfP2Ow" version="7.5.0">
+  <mainDescription>Activity diagrams are usually used to specify the behaviors of operations, use cases and other classifiers.</mainDescription>
+  <sections xmi:id="_fAGCAOIyEd-aTvH4QbT1dw" name="Is the activity diagram used appropriately?" guid="_fAGCAOIyEd-aTvH4QbT1dw">
+    <sectionDescription>Activity diagrams should be used for code generation or algorithmically-complex methods and functions or as non-code&#xD;
+generation documentation of algorithmically complex methods or functions.</sectionDescription>
+  </sections>
+  <sections xmi:id="_hmif0OIyEd-aTvH4QbT1dw" name="Does the activity diagram represent flow of control?" guid="_hmif0OIyEd-aTvH4QbT1dw">
+    <sectionDescription>Activity diagrams are best at representing algorithms not state-based behavior; that is they should not use incoming events&#xD;
+extensively.</sectionDescription>
+  </sections>
+  <sections xmi:id="_k2QkIOIyEd-aTvH4QbT1dw" name="Does the Activity diagram represent the behavior of appropriate elements?" guid="_k2QkIOIyEd-aTvH4QbT1dw">
+    <sectionDescription>Activity diagrams usually represent the behavior of a function or class method but may also depict the behavior of an&#xD;
+algorithmically-complex use case.</sectionDescription>
+  </sections>
+  <sections xmi:id="_n6gYQOIyEd-aTvH4QbT1dw" name="Are the activities indicated with an initial pseudostate?" guid="_n6gYQOIyEd-aTvH4QbT1dw"/>
+  <sections xmi:id="_pcaP4OIyEd-aTvH4QbT1dw" name="Are the terminal activities indicated with a terminal pseudostate?" guid="_pcaP4OIyEd-aTvH4QbT1dw"/>
+  <sections xmi:id="_rD05oOIyEd-aTvH4QbT1dw" name="Do forks and joins show independence of execution?" guid="_rD05oOIyEd-aTvH4QbT1dw">
+    <sectionDescription>Forks and joins do not necessarily indicate OS thread but rather they indicate the independence between two or more&#xD;
+sequences of actions.</sectionDescription>
+  </sections>
+  <sections xmi:id="_uc7jcOIyEd-aTvH4QbT1dw" name="Are guards only used at conditional pseudostates?" guid="_uc7jcOIyEd-aTvH4QbT1dw"/>
+  <sections xmi:id="_vsXLAOIyEd-aTvH4QbT1dw" name="Are guard conditions orthogonal?" guid="_vsXLAOIyEd-aTvH4QbT1dw">
+    <sectionDescription>Guard conditions should be non-overlapping, so that it is clear which path is taken; for example [x&amp;gt;0] and &amp;lt;x &amp;lt;=)]&#xD;
+are orthogonal, but [x&amp;gt;0] and [x&amp;gt;10] are not.</sectionDescription>
+  </sections>
+  <sections xmi:id="_yWOwQOIyEd-aTvH4QbT1dw" name="Is the extent of the guards complete?" guid="_yWOwQOIyEd-aTvH4QbT1dw">
+    <sectionDescription>There should be &lt;em>some&lt;/em> path taken from a conditional pseudostate. It may be necessary to add an [else] guard on a&#xD;
+branch is the extent is not completely covered by existing guards. For example, the extent of x is not covered by the&#xD;
+guards [x&amp;lt;0] and [x&amp;gt;0} since the case of x ==0 is not covered.</sectionDescription>
+  </sections>
+  <sections xmi:id="_0u-JQOIyEd-aTvH4QbT1dw" name="Is the overall flow primarily top-down and left-right?" guid="_0u-JQOIyEd-aTvH4QbT1dw">
+    <sectionDescription>This is not always achievable but when possible it simplifies reading the diagram.</sectionDescription>
+  </sections>
+  <sections xmi:id="_4M_vUOIyEd-aTvH4QbT1dw" name="Are all activities reachable?" guid="_4M_vUOIyEd-aTvH4QbT1dw"/>
+  <sections xmi:id="_5mQBQOIyEd-aTvH4QbT1dw" name="Is there proper termination of the diagrams?" guid="_5mQBQOIyEd-aTvH4QbT1dw">
+    <sectionDescription>Most algorithms complete and this should be shown with a terminal pseudostate. Avoid black hold activities that have&#xD;
+incoming transitions but not exits.</sectionDescription>
+  </sections>
+  <sections xmi:id="_8too8OIyEd-aTvH4QbT1dw" name="Do the diagrams use swimlanes to group and allocate activities to structural elements?" guid="_8too8OIyEd-aTvH4QbT1dw">
+    <sectionDescription>Swimlanes are an clear means by which the allocation of activities to classes, objects, and actors can be shown.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

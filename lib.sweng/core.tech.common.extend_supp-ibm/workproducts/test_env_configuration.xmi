@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-1iX1WgddLcgS8wnZP7W4lw" name="test_env_configuration,_WfS8oHE8Edy8Ac588DXPCQ" guid="-1iX1WgddLcgS8wnZP7W4lw" changeDate="2008-10-08T14:30:00.100-0700" version="7.1.0">
+  <mainDescription>&lt;p>&#xD;
+    Each Test Environment Configuration specifies an appropriate, controlled setting in which to conduct the required test&#xD;
+    and evaluation activities. Providing a controlled environment, built from a known configuration in which to conduct&#xD;
+    these activities, helps to ensure that the results of these efforts are accurate, valid, and have a higher likelihood&#xD;
+    of being systematically reproduced. A well-controlled Test Environment is an important aspect of efficient failure&#xD;
+    analysis and fault resolution.&#xD;
+&lt;/p>&lt;!--EndFragment--></mainDescription>
+  <purpose>&lt;p>&#xD;
+    The purpose of the test environment configuration is to help ensure that:&#xD;
+&lt;/p>&#xD;
+&lt;div style=&quot;MARGIN-LEFT: 2em&quot;>&#xD;
+    &lt;ul>&#xD;
+        &lt;li>&#xD;
+            The results of testing activities are accurate and valid&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            Testing activities have a higher likelihood of being systematically reproduced&#xD;
+        &lt;/li>&#xD;
+    &lt;/ul>&#xD;
+&lt;/div></purpose>
+  <impactOfNotHaving>&lt;p>&#xD;
+    Without this artifact, results may be inconsistent or not repeatable because:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        There is no record of the environment at the time of test.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The same components are not used, or are not used consistently, especially test tools.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The architects and implementers of the environment have failed to transfer the knowledge of it to the operators and&#xD;
+        testers.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Test environment issues may force testing to be executed in other environments, in competition with other teams and&#xD;
+    projects. For instance, in the development environment, test results can be unpredictable for inexplicable reasons due&#xD;
+    to the instability of this environment. In the worst case, testing is executed in the production environment where the&#xD;
+    risk to the business can be significant. Additionally, the test resources expended and the duration will likely extend&#xD;
+    because:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The required components will not be available when needed; they may be absent, insufficient or the wrong ones.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        There is a lack of documentation to support efficient on-going support and operation of the test environment.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></impactOfNotHaving>
+  <reasonsForNotNeeding>&lt;p>&#xD;
+    If a fully configured and robust test environment, known to provide all required resources, already exists and supports&#xD;
+    the testing requirements, the full version of this work product may not be necessary. However, even if it does exist,&#xD;
+    the process of reviewing its documentation may serve to identify missing components for this particular project or&#xD;
+    other omitted aspects of this work product, such as schedule, data management processes, and processes for the&#xD;
+    preservation of the test results. Small projects would only need to produce a subset of the information.&#xD;
+&lt;/p></reasonsForNotNeeding>
+  <briefOutline>&lt;p>&#xD;
+    Each Test Environment Configuration should consider various aspects of testing, including the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The basic computer hardware requirements (for example, processors, memory storage, hard-disk storage, input/output&#xD;
+        interface devices&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The basic underlying software environment (for example, operating system and the basic productivity tools, such as&#xD;
+        e-mail, calendar, and so on)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Additional specialized input/output peripheral hardware (for example, bar-code scanners, receipt printers, cash&#xD;
+        draws, sensor devices, and so on)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The required software for the specialized input/output peripheral hardware (for example, drivers, and interface and&#xD;
+        gateway software)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The minimal set of software tools necessary to facilitate test, evaluation, and diagnostic activities (for example,&#xD;
+        memory diagnostics, automated test execution, and so on)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The required configuration settings of both hardware and software options (for example, video-display resolution,&#xD;
+        resource allocation, environment variables, and so on)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The required pre-existing consumables (for example, populated data sets, receipt printer dockets, and so on)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></briefOutline>
+  <representationOptions>&lt;p>&#xD;
+    Where possible, attempt to keep the total number of unique Test Environment Configurations to a minimum, and to a&#xD;
+    manageable level. This can be achieved by consolidating similar environments, typically where similar base hardware and&#xD;
+    software profiles are used, with only minor differences existing in the configuration settings. However, be careful not&#xD;
+    to consolidate Test Environment Configurations to the point of invalidating the integrity and purpose of each&#xD;
+    configuration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    We recommend the use of hard-disk imaging tools that allow Test Environment Configurations to be backed up and easily&#xD;
+    restored. Also consider using removable or swappable hard drives to further improve accuracy and efficiency.&#xD;
+&lt;/p></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-VQYEu8GLfDSB1OOJSAqSvQ" name="any_role,_Rcs_sbohEeCzv5ow6iUjcw" guid="-VQYEu8GLfDSB1OOJSAqSvQ">
+    <refinedDescription>&lt;p>&#xD;
+    This role allows anyone on a team to perform general tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Access artifacts in the configuration control system for development and maintenance&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Submit change requests for the project&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Participate in assessments and reviews&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Volunteer to work on a particular iteration&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-p6biZLk34QsAlgzAQG6fNw" name="project_repository,_Rc2JoLohEeCzv5ow6iUjcw" guid="-p6biZLk34QsAlgzAQG6fNw">
+    <keyConsiderations>&lt;p>&#xD;
+    The key hardware considerations (in order of priority) for the project repository are the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Memory Requirements&lt;/strong>: Memory is one of the cheapest ways to improve the performance of a CM Tool. A&#xD;
+        rule of thumb for how much main memory is required in the server machine is to add all the database space used by&#xD;
+        the project repository, and divide by two.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Disk Input / Output Requirements&lt;/strong>: The second most likely performance bottleneck in the CM&#xD;
+        environment is the speed at which the data can be written to disk. Read/write intensive operations are check-in,&#xD;
+        check-out and baseline creation. It is a good idea to have a dedicated controller and channel per disk.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Network Bandwidth&lt;/strong>: Since the CM tool is usually a distributed application, adequate network&#xD;
+        capacity and reliability are required for good performance. The recommendation is to put machines hosting the&#xD;
+        project repository and views on the same subnet. And if the local area network (LAN) is too saturated as indicated&#xD;
+        by time outs and poor response, the idea is to increase network capacity or add a subnet for the CM tool hosing&#xD;
+        machine.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Project Repository Disk Space&lt;/strong>: Depending on the size of a project there could be multiple project&#xD;
+        repositories, and each project repository could contain tens of thousands of files and directories. The number of&#xD;
+        files in any given project repository will depend on the size of the machine on which the repository server is&#xD;
+        running, and the number of users expected to concurrently access data.A good rule of thumb is to allow disk space&#xD;
+        for growth, and have about 50% free space by allocating 2 giga-bytes of storage per project repository.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The project repository provides project participants a&amp;nbsp;control access&amp;nbsp;to project data. The common work&#xD;
+    products stored in project repository are :&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Configuration Items&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Baselines&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Configuration Audit Records&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6fWI6DG6iWdB3YB77ApmUw" name="workspace,_Rc2JorohEeCzv5ow6iUjcw" guid="-6fWI6DG6iWdB3YB77ApmUw">
+    <refinedDescription>&lt;p>&#xD;
+    Development workspaces refer to private areas where developers can implement and test code in relative isolation from&#xD;
+    other developers. Integration workspaces refer to public areas where individual work is delivered for incorporation&#xD;
+    into the overall product build and baselines.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Two kinds of workspace can be identified:&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The &lt;i>development workspace&lt;/i> is a private development area within which a team member can make changes to&#xD;
+        artifacts without the changes becoming immediately visible to others.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The &lt;i>integration workspace&lt;/i> is shared workspace and accessible to all members of the project team. The overall&#xD;
+        product is built and baselined in the integration workspace.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-RjEvPuXb3GmnvHC2zArqyQ" name="configuration_manager,_SmnOELohEeCzv5ow6iUjcw" guid="-RjEvPuXb3GmnvHC2zArqyQ">
+    <refinedDescription>&lt;a id=&quot;Top&quot; name=&quot;Top&quot;>&lt;/a>&lt;a id=&quot;XE_configuration_manager_(role)__description_of&quot;&#xD;
+name=&quot;XE_configuration_manager_(role)__description_of&quot;>&lt;/a>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The CM function supports the product development activity so that developers and integrators have appropriate&#xD;
+    workspaces to build and test their work, and so that all work products are available for inclusion in the deployment&#xD;
+    unit as required. The &lt;a class=&quot;PresentationName&quot; guid=&quot;_noy4AFI5Ed-gBcXwne8JxA&quot;>Configuration Manager&lt;/a> role also&#xD;
+    has to ensure that the CM environment facilitates product review, and change and defect tracking tasks. The role is&#xD;
+    also responsible for writing the CM Plan and reporting progress statistics based on change requests.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-NXHvewQp8ypC-heC_c5EfA" name="configuration_audit_findings,_SmnOErohEeCzv5ow6iUjcw" guid="-NXHvewQp8ypC-heC_c5EfA">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact typically contains the project's structure and methods for the following actions:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Assessing consistency of the baselines&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Reviewing configuration management system&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Confirming&amp;nbsp;completeness and correctness of configuration management records and configuration items&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Confirming if configuration management is compliant with established standards and procedures&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-Y1aIxgaH7FmgFxLH9Mo-fg" name="config_mgmt,_N_aZcbohEeCzv5ow6iUjcw" guid="-Y1aIxgaH7FmgFxLH9Mo-fg"/>
+</xmi:XMI>

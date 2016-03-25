@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_wyKEkBryEd2SbM3K8mYpXA" guid="_wyKEkBryEd2SbM3K8mYpXA"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_wyA6oBryEd2SbM3K8mYpXA" userChangeable="false" name="practice.tech.independent_testing.extend_rmt-ibm" guid="_wyA6oBryEd2SbM3K8mYpXA" presentationName="Independent Testing (Extend-IBM RMT)" changeDate="2008-05-14T10:10:42.640-0700">
+    <methodElementProperty xmi:id="_2_Eb9LemEd-oHLor78AFuw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_VBVtYBXVEdyM9L6rbYAZaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wyA6oRryEd2SbM3K8mYpXA" name="Content" guid="_wyA6oRryEd2SbM3K8mYpXA">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wyA6ohryEd2SbM3K8mYpXA" name="Categories" guid="_wyA6ohryEd2SbM3K8mYpXA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wyA6oxryEd2SbM3K8mYpXA" name="Domains" guid="_wyA6oxryEd2SbM3K8mYpXA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wyA6pBryEd2SbM3K8mYpXA" name="Disciplines" guid="_wyA6pBryEd2SbM3K8mYpXA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wyA6pRryEd2SbM3K8mYpXA" name="RoleSets" guid="_wyA6pRryEd2SbM3K8mYpXA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wyA6phryEd2SbM3K8mYpXA" name="WP Types" guid="_wyA6phryEd2SbM3K8mYpXA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wyA6pxryEd2SbM3K8mYpXA" name="Tools" guid="_wyA6pxryEd2SbM3K8mYpXA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wyA6qBryEd2SbM3K8mYpXA" name="StandardCategories" guid="_wyA6qBryEd2SbM3K8mYpXA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wyA6qRryEd2SbM3K8mYpXA" name="CustomCategories" guid="_wyA6qRryEd2SbM3K8mYpXA">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wyA6qhryEd2SbM3K8mYpXA" name="Hidden" guid="_wyA6qhryEd2SbM3K8mYpXA">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_wyA6qxryEd2SbM3K8mYpXA" name="Custom Categories" guid="_wyA6qxryEd2SbM3K8mYpXA"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wyA6rBryEd2SbM3K8mYpXA" name="CoreContent" guid="_wyA6rBryEd2SbM3K8mYpXA">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_CVkesBr4Ed2s0sc5Pu94hA" name="contributors_to_independent_testing" guid="_CVkesBr4Ed2s0sc5Pu94hA" presentationName="Contributors to Independent Testing">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_w35iQHj2EdyhRNciHt44hg" name="analyze_test_failure_rmt" guid="_w35iQHj2EdyhRNciHt44hg" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_RsYosG5GEdyAHIxjZ9kpqw#_k98CYHE6Edy8Ac588DXPCQ"/>
+            <toolMentors href="uma://_JdDmAHjqEdyhRNciHt44hg#_eyM9oHj1EdyhRNciHt44hg"/>
+            <toolMentors href="uma://_JdDmAHjqEdyhRNciHt44hg#_PP4CwHj2EdyhRNciHt44hg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_7FxEcHj2EdyhRNciHt44hg" name="determine_test_results_rmt" guid="_7FxEcHj2EdyhRNciHt44hg" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_RsYosG5GEdyAHIxjZ9kpqw#_PyxXEHE4Edy8Ac588DXPCQ"/>
+            <toolMentors href="uma://_JdDmAHjqEdyhRNciHt44hg#_eyM9oHj1EdyhRNciHt44hg"/>
+            <toolMentors href="uma://_JdDmAHjqEdyhRNciHt44hg#_PP4CwHj2EdyhRNciHt44hg"/>
+            <toolMentors href="uma://_JdDmAHjqEdyhRNciHt44hg#_ZkS44Hj2EdyhRNciHt44hg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_FO20UHj3EdyhRNciHt44hg" name="implement_test_rmt" guid="_FO20UHj3EdyhRNciHt44hg" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_RsYosG5GEdyAHIxjZ9kpqw#_fajSUHE6Edy8Ac588DXPCQ"/>
+            <toolMentors href="uma://_JdDmAHjqEdyhRNciHt44hg#_dAngsHj0EdyhRNciHt44hg"/>
+            <toolMentors href="uma://_JdDmAHjqEdyhRNciHt44hg#_eyM9oHj1EdyhRNciHt44hg"/>
+            <toolMentors href="uma://_JdDmAHjqEdyhRNciHt44hg#_tsLCkHj1EdyhRNciHt44hg"/>
+            <toolMentors href="uma://_JdDmAHjqEdyhRNciHt44hg#_4VACcHj1EdyhRNciHt44hg"/>
+            <toolMentors href="uma://_JdDmAHjqEdyhRNciHt44hg#_PP4CwHj2EdyhRNciHt44hg"/>
+            <toolMentors href="uma://_JdDmAHjqEdyhRNciHt44hg#_ZkS44Hj2EdyhRNciHt44hg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_J-_igHj3EdyhRNciHt44hg" name="structure_test_implementation_rmt" guid="_J-_igHj3EdyhRNciHt44hg" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_RsYosG5GEdyAHIxjZ9kpqw#_PSykkHE6Edy8Ac588DXPCQ"/>
+            <toolMentors href="uma://_JdDmAHjqEdyhRNciHt44hg#_dAngsHj0EdyhRNciHt44hg"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_wyA6rRryEd2SbM3K8mYpXA" name="CapabilityPatterns" guid="_wyA6rRryEd2SbM3K8mYpXA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_wyA6rhryEd2SbM3K8mYpXA" name="DeliveryProcesses" guid="_wyA6rhryEd2SbM3K8mYpXA"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_wyA6rxryEd2SbM3K8mYpXA" name="ProcessContributions" guid="_wyA6rxryEd2SbM3K8mYpXA"/>
+    <bases href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_iX6DsBXGEdyM9L6rbYAZaw"/>
+    <bases href="uma://_JdDmAHjqEdyhRNciHt44hg#_JdDmAHjqEdyhRNciHt44hg"/>
+    <bases href="uma://_RsYosG5GEdyAHIxjZ9kpqw#_RsYosG5GEdyAHIxjZ9kpqw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-oiHui4ba-0yEocQYAs9gDw" name="new_concept,_WZ4yAOKyEd-G2pDngtqTxA" guid="-oiHui4ba-0yEocQYAs9gDw" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    The subsystem and component view identifies the large-scale pieces of the system and how they fit together. This is&#xD;
+    usually created during the systems engineering phase. A subsystem is a really big object that provides well-defined&#xD;
+    interfaces and delegates service requests to internally hidden parts. It is common that a different team &quot;owns&quot; each&#xD;
+    subsystem or component and develops it more-or-less independently from the other teams. This view can be used in a&#xD;
+    couple of different ways:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Subsystems and components can be used to reason about systems before they are broken down into hardware and&#xD;
+        software parts. By breaking down the system into components, you remove a layer of complexity, of the entire system&#xD;
+        by focusing on specific functionality.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Subsystems and components may also be used as a software-only concept. A class, function, object, etc. can&#xD;
+        represent a system component. When designing a software system, it is much easier to talk about component&#xD;
+        functionality than actual code.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    A system component should represent system functionality that is closely related. For example, a display component&#xD;
+    might include screen size, screen refresh rate, communication protocol, etc. A processor component might include&#xD;
+    read/write speed, storage capacity, bus connections, etc. Designing individual components at a time is much easier than&#xD;
+    trying to design the entire system at once.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The subsystems or components must have well defined encapsulation boundaries and interfaces. Elements within the&#xD;
+    subsystems or components are more tightly coupled with each other than elements across subsystem or component&#xD;
+    boundaries. Each subsystem should have a well-defined functional purpose and can be expressed as a set of use cases at&#xD;
+    the subsystem or component level. It is also common that each subsystem or component be developed in its own model.&#xD;
+    Ports are commonly used between subsystems or components, but significantly less so within a subsystem or component,&#xD;
+    since ports have memory and time overhead.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The subsystems and component architecture is best shown on either a class or structure diagram, with parts of the&#xD;
+    system representing these architectural elements. A component diagram is an alternative representation.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

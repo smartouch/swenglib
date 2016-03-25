@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_8W39kJEwEeCnTdC8bcBfaw" guid="_8W39kJEwEeCnTdC8bcBfaw">
+    <resourceDescriptors xmi:id="_uJYqAJw6EeCDS-BeLZC6tw" id="-XBRhgvS0Gr_fBwbeue9Pjw" uri="tasks/increment_review.xmi"/>
+    <resourceDescriptors xmi:id="_J5sJcZkgEeC4zvtKrl-GoQ" id="-84A3Lx6cT1sStA-o9P6-Nw" uri="tasks/create_sw_dev_plan.xmi"/>
+    <resourceDescriptors xmi:id="_jOn88ZkWEeC4zvtKrl-GoQ" id="-xIARXFo9V3_ELXE6aDfoIQ" uri="tasks/create_qa_plan.xmi"/>
+    <resourceDescriptors xmi:id="_pVC9EZkgEeC4zvtKrl-GoQ" id="-jxSbUWLpb9xbsLlwMDD_XQ" uri="tasks/create_ver_plan.xmi"/>
+    <resourceDescriptors xmi:id="_FsXfUZkeEeC4zvtKrl-GoQ" id="-ns-pVTRp2WC20TZ4lkSeFQ" uri="tasks/create_cert_plan.xmi"/>
+    <resourceDescriptors xmi:id="_Z-k2cVdCEeCRC4Xhd5Xhhw" id="-r1JY1wX6y6E_SjfnUuONsQ" uri="workproducts/sw_ver_plan.xmi"/>
+    <resourceDescriptors xmi:id="_z8FYwJkWEeC4zvtKrl-GoQ" id="-jLm-32TlpA-54Pn_sYn8RA" uri="roles/qa_engineer.xmi"/>
+    <resourceDescriptors xmi:id="_aSKXQZkhEeC4zvtKrl-GoQ" id="-NhhmZ3QPagp0RukF-OzOFA" uri="workproducts/cert_plan.xmi"/>
+    <resourceDescriptors xmi:id="_-mkZ8ZkgEeC4zvtKrl-GoQ" id="-Ypv2YJaGdlZUrrXiC-WSrg" uri="workproducts/qa_plan.xmi"/>
+    <resourceDescriptors xmi:id="_rS2REJkhEeC4zvtKrl-GoQ" id="-efW6vNTvyG6Lla2-cHltHg" uri="workproducts/sw_dev_plan.xmi"/>
+    <resourceDescriptors xmi:id="_43X38ZkfEeC4zvtKrl-GoQ" id="-lLp-guhL565RRkw31RcwQw" uri="guidances/templates/psac.xmi"/>
+    <resourceDescriptors xmi:id="_BpB0MJ6ZEeCZfuSJrcWUIw" id="-mlPAuRGcNPNloiaNit0MNA" uri="tasks/update_integration_tests.xmi"/>
+    <resourceDescriptors xmi:id="_N45YcZ6bEeCZfuSJrcWUIw" id="-V3P6KafrVym4aTc34AOoIQ" uri="tasks/integrate_creat_build_contr.xmi"/>
+    <resourceDescriptors xmi:id="_kuUYMKDkEeC3BtbOsE9k9Q" id="-Y0sHH6sqIEiFxC9fQgM00Q" uri="tasks/create_schedule.xmi"/>
+    <resourceDescriptors xmi:id="_jUC9IaDlEeC3BtbOsE9k9Q" id="-m8J-KvTSwwRaNqG0SI0Yhg" uri="tasks/create_team_structure.xmi"/>
+    <resourceDescriptors xmi:id="_QqytkaDmEeC3BtbOsE9k9Q" id="-u820twklv_vBVAqGr_8UGQ" uri="tasks/plan_for_reuse.xmi"/>
+    <resourceDescriptors xmi:id="_9xAHoaDmEeC3BtbOsE9k9Q" id="-OKTeeSNqeT44xeZuunHOMQ" uri="tasks/plan_for_risk_red.xmi"/>
+    <resourceDescriptors xmi:id="_lwkYAaDnEeC3BtbOsE9k9Q" id="-9MCLdMOzBY_3iRmYIEoWJw" uri="tasks/spec_logical_arch.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_8WlCoJEwEeCnTdC8bcBfaw" userChangeable="false" name="practice.tech.real_time.prespiral_planning.base-ibm" guid="_8WlCoJEwEeCnTdC8bcBfaw" changeDate="2012-09-25T11:54:58.263-0700">
+    <methodElementProperty xmi:id="_8W39kpEwEeCnTdC8bcBfaw" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8WlCoZEwEeCnTdC8bcBfaw" name="Content" guid="_8WlCoZEwEeCnTdC8bcBfaw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8WlCopEwEeCnTdC8bcBfaw" name="Categories" guid="_8WlCopEwEeCnTdC8bcBfaw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8WlCo5EwEeCnTdC8bcBfaw" name="Domains" guid="_8WlCo5EwEeCnTdC8bcBfaw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_-bP5IM82EeCwwvBDO7bmcA" name="project_management_domain.assign" guid="_-bP5IM82EeCwwvBDO7bmcA" variabilityType="contributes" workProducts="_mM1N8FdAEeCRC4Xhd5Xhhw _3ZIh4FdAEeCRC4Xhd5Xhhw _wS8iUFdAEeCRC4Xhd5Xhhw _7vVGEFdAEeCRC4Xhd5Xhhw _ADTcsFdBEeCRC4Xhd5Xhhw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Domain" href="uma://_MRPloEFXEdy9ENCpSugIjA#_8M6J4K80Edy9cPK11VzBuQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8WlCpJEwEeCnTdC8bcBfaw" name="Disciplines" guid="_8WlCpJEwEeCnTdC8bcBfaw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_faceEM83EeCwwvBDO7bmcA" name="project_management_discipline.assign" guid="_faceEM83EeCwwvBDO7bmcA" variabilityType="contributes" tasks="__nJNgJkdEeC4zvtKrl-GoQ _VVxWwJkWEeC4zvtKrl-GoQ _L2ZmoJExEeCnTdC8bcBfaw _CHsMwJkgEeC4zvtKrl-GoQ _gKiVUJkgEeC4zvtKrl-GoQ _TuNQYJExEeCnTdC8bcBfaw _P0UNsJExEeCnTdC8bcBfaw _XVBmEJExEeCnTdC8bcBfaw _dGQLEJw4EeCDS-BeLZC6tw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_MRPloEFXEdy9ENCpSugIjA#_iGSHtFZ-EdyIUdvDLLUdeg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_wa-m4M83EeCwwvBDO7bmcA" name="architecture_discipline.assign" guid="_wa-m4M83EeCwwvBDO7bmcA" variabilityType="contributes" tasks="_TGxyEJEzEeCnTdC8bcBfaw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_MRPloEFXEdy9ENCpSugIjA#_iGSHsFZ-EdyIUdvDLLUdeg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_bveywM84EeCwwvBDO7bmcA" name="test_discipline.assign" guid="_bveywM84EeCwwvBDO7bmcA" variabilityType="contributes" tasks="_0SvvkJ6YEeCZfuSJrcWUIw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_MRPloEFXEdy9ENCpSugIjA#_iGSHtlZ-EdyIUdvDLLUdeg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_6cWvwM84EeCwwvBDO7bmcA" name="environment_discipline.assign" guid="_6cWvwM84EeCwwvBDO7bmcA" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_MRPloEFXEdy9ENCpSugIjA#_qtv_gLtwEd-0rKmWr1vEGQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8WlCpZEwEeCnTdC8bcBfaw" name="RoleSets" guid="_8WlCpZEwEeCnTdC8bcBfaw">
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_8srxoM9OEeCuXZr3L3yxVw" name="environment_role_set.assign" guid="_8srxoM9OEeCuXZr3L3yxVw" variabilityType="contributes" roles="_qAstsJkWEeC4zvtKrl-GoQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:RoleSet" href="uma://_A118oMYaEdyXeo04os5BOw#_Wi8j4L9yEd-AG_DXKKgAXg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8WlCppEwEeCnTdC8bcBfaw" name="WP Types" guid="_8WlCppEwEeCnTdC8bcBfaw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8WlCp5EwEeCnTdC8bcBfaw" name="Tools" guid="_8WlCp5EwEeCnTdC8bcBfaw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8WlCqJEwEeCnTdC8bcBfaw" name="StandardCategories" guid="_8WlCqJEwEeCnTdC8bcBfaw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8WlCqZEwEeCnTdC8bcBfaw" name="CustomCategories" guid="_8WlCqZEwEeCnTdC8bcBfaw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8WlCqpEwEeCnTdC8bcBfaw" name="Hidden" guid="_8WlCqpEwEeCnTdC8bcBfaw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_8WlCq5EwEeCnTdC8bcBfaw" name="Custom Categories" guid="_8WlCq5EwEeCnTdC8bcBfaw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8WlCrJEwEeCnTdC8bcBfaw" name="CoreContent" guid="_8WlCrJEwEeCnTdC8bcBfaw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_FgWDgJExEeCnTdC8bcBfaw" name="Prespiral Planning" guid="_FgWDgJExEeCnTdC8bcBfaw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_L2ZmoJExEeCnTdC8bcBfaw" name="create_schedule" guid="_L2ZmoJExEeCnTdC8bcBfaw" presentationName="Create Schedule" briefDescription="This task creates the project schedule.">
+            <presentation xmi:id="-Y0sHH6sqIEiFxC9fQgM00Q" href="uma://-Y0sHH6sqIEiFxC9fQgM00Q#-Y0sHH6sqIEiFxC9fQgM00Q"/>
+            <performedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0a0o0MlgEdmt3adZL5Dmdw"/>
+            <mandatoryInput href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_0a6vcMlgEdmt3adZL5Dmdw"/>
+            <output href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_0a6vcMlgEdmt3adZL5Dmdw"/>
+            <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
+            <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_2CEzsLrREd-0rKmWr1vEGQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_P0UNsJExEeCnTdC8bcBfaw" name="plan_for_reuse" guid="_P0UNsJExEeCnTdC8bcBfaw" presentationName="Plan for Reuse" briefDescription="This task plans for the identification of reusable elements and specifies how they will be reused.">
+            <presentation xmi:id="-u820twklv_vBVAqGr_8UGQ" href="uma://-u820twklv_vBVAqGr_8UGQ#-u820twklv_vBVAqGr_8UGQ"/>
+            <performedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0a0o0MlgEdmt3adZL5Dmdw"/>
+            <mandatoryInput href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_0a6vcMlgEdmt3adZL5Dmdw"/>
+            <output href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_0a6vcMlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_TuNQYJExEeCnTdC8bcBfaw" name="create_team_structure" guid="_TuNQYJExEeCnTdC8bcBfaw" presentationName="Create Team Structure" briefDescription="This task defines project roles and allocates team members to those roles.">
+            <presentation xmi:id="-m8J-KvTSwwRaNqG0SI0Yhg" href="uma://-m8J-KvTSwwRaNqG0SI0Yhg#-m8J-KvTSwwRaNqG0SI0Yhg"/>
+            <performedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0a0o0MlgEdmt3adZL5Dmdw"/>
+            <mandatoryInput href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_2CEzsLrREd-0rKmWr1vEGQ"/>
+            <output href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_0a6vcMlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_XVBmEJExEeCnTdC8bcBfaw" name="plan_for_risk_red" guid="_XVBmEJExEeCnTdC8bcBfaw" presentationName="Plan for Risk Reduction" briefDescription="This task plans for the management of risks during the project.">
+            <presentation xmi:id="-OKTeeSNqeT44xeZuunHOMQ" href="uma://-OKTeeSNqeT44xeZuunHOMQ#-OKTeeSNqeT44xeZuunHOMQ"/>
+            <performedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0a0o0MlgEdmt3adZL5Dmdw"/>
+            <mandatoryInput href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_0a6vcMlgEdmt3adZL5Dmdw"/>
+            <mandatoryInput href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
+            <output href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_0a6vcMlgEdmt3adZL5Dmdw"/>
+            <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_TGxyEJEzEeCnTdC8bcBfaw" name="spec_logical_arch" guid="_TGxyEJEzEeCnTdC8bcBfaw" presentationName="Specify Logical Architecture" briefDescription="Specify the organization of things that exist at design-time.">
+            <presentation xmi:id="-9MCLdMOzBY_3iRmYIEoWJw" href="uma://-9MCLdMOzBY_3iRmYIEoWJw#-9MCLdMOzBY_3iRmYIEoWJw"/>
+            <performedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_Iy0doEWQEd6Js4kKfkp_5Q"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_mycD8MvsEd-j1uJpwhl9rw"/>
+            <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0a0o0MlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="__nJNgJkdEeC4zvtKrl-GoQ" name="create_cert_plan" guid="__nJNgJkdEeC4zvtKrl-GoQ" presentationName="Create Certification Plan" briefDescription="This task creates the Plan for Software Aspects of Certification (PSAC), a plan required by the DO-178B standard." output="_mM1N8FdAEeCRC4Xhd5Xhhw" optionalInput="_3ZIh4FdAEeCRC4Xhd5Xhhw _wS8iUFdAEeCRC4Xhd5Xhhw _ADTcsFdBEeCRC4Xhd5Xhhw _7vVGEFdAEeCRC4Xhd5Xhhw">
+            <presentation xmi:id="-ns-pVTRp2WC20TZ4lkSeFQ" href="uma://-ns-pVTRp2WC20TZ4lkSeFQ#-ns-pVTRp2WC20TZ4lkSeFQ"/>
+            <performedBy href="uma://_LTqnQLeLEd-05egMquN4Dg#_hKsN0MsnEd-f7_TOobgnDw"/>
+            <mandatoryInput href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_0a6vcMlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_VVxWwJkWEeC4zvtKrl-GoQ" name="create_qa_plan" guid="_VVxWwJkWEeC4zvtKrl-GoQ" presentationName="Create QA Plan" briefDescription="This task creates the project-specific Software Quality Assurance Plan (SQAP)." performedBy="_qAstsJkWEeC4zvtKrl-GoQ" output="_wS8iUFdAEeCRC4Xhd5Xhhw">
+            <presentation xmi:id="-xIARXFo9V3_ELXE6aDfoIQ" href="uma://-xIARXFo9V3_ELXE6aDfoIQ#-xIARXFo9V3_ELXE6aDfoIQ"/>
+            <mandatoryInput href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_0a6vcMlgEdmt3adZL5Dmdw"/>
+            <additionallyPerformedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0a0o0MlgEdmt3adZL5Dmdw"/>
+            <additionallyPerformedBy href="uma://_LTqnQLeLEd-05egMquN4Dg#_taMQkMsnEd-f7_TOobgnDw"/>
+            <additionallyPerformedBy href="uma://_LTqnQLeLEd-05egMquN4Dg#_hKsN0MsnEd-f7_TOobgnDw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_CHsMwJkgEeC4zvtKrl-GoQ" name="create_sw_dev_plan" guid="_CHsMwJkgEeC4zvtKrl-GoQ" presentationName="Create Software Development Plan" briefDescription="This task creates the project Software Development Plan (SDP)." output="_7vVGEFdAEeCRC4Xhd5Xhhw">
+            <presentation xmi:id="-84A3Lx6cT1sStA-o9P6-Nw" href="uma://-84A3Lx6cT1sStA-o9P6-Nw#-84A3Lx6cT1sStA-o9P6-Nw"/>
+            <performedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0a0o0MlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_gKiVUJkgEeC4zvtKrl-GoQ" name="create_ver_plan" guid="_gKiVUJkgEeC4zvtKrl-GoQ" presentationName="Create Software Verification Plan" briefDescription="This task creates the Software Verification Plan (SVP)." mandatoryInput="_7vVGEFdAEeCRC4Xhd5Xhhw" output="_ADTcsFdBEeCRC4Xhd5Xhhw">
+            <presentation xmi:id="-jxSbUWLpb9xbsLlwMDD_XQ" href="uma://-jxSbUWLpb9xbsLlwMDD_XQ#-jxSbUWLpb9xbsLlwMDD_XQ"/>
+            <performedBy href="uma://_yjPyAMYfEdyXeo04os5BOw#_0E16ACFYEd2Tx_sxlQMK3Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_ADTcsFdBEeCRC4Xhd5Xhhw" name="sw_ver_plan" guid="_ADTcsFdBEeCRC4Xhd5Xhhw" presentationName="Software Verification Plan" briefDescription="This work product specifies how the product will be verified against the design and requirements.">
+            <presentation xmi:id="-r1JY1wX6y6E_SjfnUuONsQ" href="uma://-r1JY1wX6y6E_SjfnUuONsQ#-r1JY1wX6y6E_SjfnUuONsQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_3ZIh4FdAEeCRC4Xhd5Xhhw" name="cm_plan" guid="_3ZIh4FdAEeCRC4Xhd5Xhhw" presentationName="Software Configuration Management Plan"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_qAstsJkWEeC4zvtKrl-GoQ" name="qa_engineer" guid="_qAstsJkWEeC4zvtKrl-GoQ" presentationName="Quality Assurance Engineer" briefDescription="This role ensures adherence to company and industry standards, guidelines, and checklists.">
+            <presentation xmi:id="-jLm-32TlpA-54Pn_sYn8RA" href="uma://-jLm-32TlpA-54Pn_sYn8RA#-jLm-32TlpA-54Pn_sYn8RA"/>
+            <responsibleFor href="#_wS8iUFdAEeCRC4Xhd5Xhhw"/>
+            <responsibleFor href="uma://_u3cjAJiOEeCHuaDqfjetaA#_Eh8ZMJiSEeCHuaDqfjetaA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_7NyDwJkhEeC4zvtKrl-GoQ" name="project_manager_prespiral" guid="_7NyDwJkhEeC4zvtKrl-GoQ" variabilityType="contributes" responsibleFor="_7vVGEFdAEeCRC4Xhd5Xhhw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_0a0o0MlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_b38CQJkhEeC4zvtKrl-GoQ" name="safety_czar_prespiral" guid="_b38CQJkhEeC4zvtKrl-GoQ" variabilityType="contributes" responsibleFor="_mM1N8FdAEeCRC4Xhd5Xhhw">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_LTqnQLeLEd-05egMquN4Dg#_hKsN0MsnEd-f7_TOobgnDw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_uJ3FAJkiEeC4zvtKrl-GoQ" name="test_manager_prespiral" guid="_uJ3FAJkiEeC4zvtKrl-GoQ" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_yjPyAMYfEdyXeo04os5BOw#_0E16ACFYEd2Tx_sxlQMK3Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_mM1N8FdAEeCRC4Xhd5Xhhw" name="cert_plan" guid="_mM1N8FdAEeCRC4Xhd5Xhhw" presentationName="Plan for Software Aspects of Certification" briefDescription="This work product provides an outline of the system, and its characteristics relevant to certification under relevant standards." templates="_nEUtEJkfEeC4zvtKrl-GoQ">
+            <presentation xmi:id="-NhhmZ3QPagp0RukF-OzOFA" href="uma://-NhhmZ3QPagp0RukF-OzOFA#-NhhmZ3QPagp0RukF-OzOFA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_wS8iUFdAEeCRC4Xhd5Xhhw" name="qa_plan" guid="_wS8iUFdAEeCRC4Xhd5Xhhw" presentationName="Software Quality Assurance Plan" briefDescription="This work product defines how software quality assurance activities will be done.">
+            <presentation xmi:id="-Ypv2YJaGdlZUrrXiC-WSrg" href="uma://-Ypv2YJaGdlZUrrXiC-WSrg#-Ypv2YJaGdlZUrrXiC-WSrg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_7vVGEFdAEeCRC4Xhd5Xhhw" name="sw_dev_plan" guid="_7vVGEFdAEeCRC4Xhd5Xhhw" presentationName="Software Development Plan" briefDescription="This work product identifies how the product will be developed in terms of time, milestones, deliverable work products, tools, and processes.">
+            <presentation xmi:id="-efW6vNTvyG6Lla2-cHltHg" href="uma://-efW6vNTvyG6Lla2-cHltHg#-efW6vNTvyG6Lla2-cHltHg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Template" xmi:id="_nEUtEJkfEeC4zvtKrl-GoQ" name="psac" guid="_nEUtEJkfEeC4zvtKrl-GoQ" presentationName="Plan for Software Aspects of Certification">
+            <presentation xmi:id="-lLp-guhL565RRkw31RcwQw" href="uma://-lLp-guhL565RRkw31RcwQw#-lLp-guhL565RRkw31RcwQw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bVKA4Jw4EeCDS-BeLZC6tw" name="Reviews" guid="_bVKA4Jw4EeCDS-BeLZC6tw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_dGQLEJw4EeCDS-BeLZC6tw" name="increment_review" guid="_dGQLEJw4EeCDS-BeLZC6tw" presentationName="Increment Review" briefDescription="Each microcycle ends with an increment review. Informally, this is known as the &quot;Party Phase&quot; and consists of not only a celebration of ongoing success but also of a review of how the project is progressing." additionallyPerformedBy="_qAstsJkWEeC4zvtKrl-GoQ">
+            <presentation xmi:id="-XBRhgvS0Gr_fBwbeue9Pjw" href="uma://-XBRhgvS0Gr_fBwbeue9Pjw#-XBRhgvS0Gr_fBwbeue9Pjw"/>
+            <performedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0a0o0MlgEdmt3adZL5Dmdw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_mycD8MvsEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_eL0PkMvwEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_0aQBEslgEdmt3adZL5Dmdw"/>
+            <mandatoryInput href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_0a6vcMlgEdmt3adZL5Dmdw"/>
+            <mandatoryInput href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
+            <output href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_zn8dECEgEd2x1eZC--0C1g"/>
+            <output href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_xBFxkJ6YEeCZfuSJrcWUIw" name="Continuous Integration" guid="_xBFxkJ6YEeCZfuSJrcWUIw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_0SvvkJ6YEeCZfuSJrcWUIw" name="update_integration_tests" guid="_0SvvkJ6YEeCZfuSJrcWUIw" presentationName="Update Integration Tests" briefDescription="This task incrementally adds integration tests as (in parallel) new capabilities are added to the evolving build.">
+            <presentation xmi:id="-mlPAuRGcNPNloiaNit0MNA" href="uma://-mlPAuRGcNPNloiaNit0MNA#-mlPAuRGcNPNloiaNit0MNA"/>
+            <performedBy href="uma://_A118oMYaEdyXeo04os5BOw#_0ZM4MclgEdmt3adZL5Dmdw"/>
+            <mandatoryInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZS-0MlgEdmt3adZL5Dmdw"/>
+            <mandatoryInput href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZfMEMlgEdmt3adZL5Dmdw"/>
+            <mandatoryInput href="uma://_OynuUNDqEdunspUKKm1F4Q#_3pyoEHE7Edy8Ac588DXPCQ"/>
+            <mandatoryInput href="uma://_OynuUNDqEdunspUKKm1F4Q#_roUk0HE8Edy8Ac588DXPCQ"/>
+            <output href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZS-0MlgEdmt3adZL5Dmdw"/>
+            <output href="uma://_OOB2AAouEdyhlpBPrduOMw#_0ZfMEMlgEdmt3adZL5Dmdw"/>
+            <output href="uma://_OynuUNDqEdunspUKKm1F4Q#_3pyoEHE7Edy8Ac588DXPCQ"/>
+            <output href="uma://_OynuUNDqEdunspUKKm1F4Q#_roUk0HE8Edy8Ac588DXPCQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_zITq0J6aEeCZfuSJrcWUIw" name="integrate_creat_build_contr" guid="_zITq0J6aEeCZfuSJrcWUIw" orderingGuide="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?>&#xD;&#xA;&lt;org.eclipse.epf.uma.edit.tng.util.model:OrderInfoCollection xmi:version=&quot;2.0&quot; xmlns:xmi=&quot;http://www.omg.org/XMI&quot; xmlns:org.eclipse.epf.uma.edit.tng.util.model=&quot;http:///com/ibm/uma/edit/tng/util/model.ecore&quot;>&#xD;&#xA;  &lt;orderInfos name=&quot;sections&quot; timestamp=&quot;1308945221546&quot;>&#xD;&#xA;    &lt;gUIDs>_kkZBhZOKEdyaRbFYa4AN4A&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_kkZBgpOKEdyaRbFYa4AN4A&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_kkZBhJOKEdyaRbFYa4AN4A&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_kkZBg5OKEdyaRbFYa4AN4A&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_AjNJsJ6bEeCZfuSJrcWUIw&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_kkZBgZOKEdyaRbFYa4AN4A&lt;/gUIDs>&#xD;&#xA;  &lt;/orderInfos>&#xD;&#xA;&lt;/org.eclipse.epf.uma.edit.tng.util.model:OrderInfoCollection>&#xD;&#xA;" variabilityType="contributes">
+            <presentation xmi:id="-V3P6KafrVym4aTc34AOoIQ" href="uma://-V3P6KafrVym4aTc34AOoIQ#-V3P6KafrVym4aTc34AOoIQ"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_D-ExQMktEdygFZkm1d5NtQ#_kkZBgJOKEdyaRbFYa4AN4A"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2EaDQMKvEeCAzYvbCIenYA" name="Contributors" guid="_2EaDQMKvEeCAzYvbCIenYA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3osggMKvEeCAzYvbCIenYA" name="perform_review" guid="_3osggMKvEeCAzYvbCIenYA" variabilityType="contributes" additionallyPerformedBy="_qAstsJkWEeC4zvtKrl-GoQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_u3cjAJiOEeCHuaDqfjetaA#_RA6QwJiREeCHuaDqfjetaA"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_8WlCrZEwEeCnTdC8bcBfaw" name="CapabilityPatterns" guid="_8WlCrZEwEeCnTdC8bcBfaw"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_8WlCrpEwEeCnTdC8bcBfaw" name="DeliveryProcesses" guid="_8WlCrpEwEeCnTdC8bcBfaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_8WlCr5EwEeCnTdC8bcBfaw" name="ProcessContributions" guid="_8WlCr5EwEeCnTdC8bcBfaw"/>
+    <bases href="uma://_KaSboJNgEd2DQNEoeBgrlQ#_KaSboJNgEd2DQNEoeBgrlQ"/>
+    <bases href="uma://_CIyDwEMLEdyP_Jn83ylwUQ#_CIyDwEMLEdyP_Jn83ylwUQ"/>
+    <bases href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_fwiWcEcYEd6GBq2DuQ5crg"/>
+    <bases href="uma://_AuAlcDyVEdyz7ZnE62_AvQ#_AuAlcDyVEdyz7ZnE62_AvQ"/>
+    <bases href="uma://_MRPloEFXEdy9ENCpSugIjA#_MRPloEFXEdy9ENCpSugIjA"/>
+    <bases href="uma://_xCV7YK_jEdyRnp6Y1hLYVQ#_xCV7YK_jEdyRnp6Y1hLYVQ"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+    <bases href="uma://_rhS8wCB1Ed2BC837SW9yQQ#_rhS8wCB1Ed2BC837SW9yQQ"/>
+    <bases href="uma://_iVydgENdEdy245g62lfWcA#_iVydgENdEdy245g62lfWcA"/>
+    <bases href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_iX6DsBXGEdyM9L6rbYAZaw"/>
+    <bases href="uma://_4eYbIEcWEd6GBq2DuQ5crg#_4eYbIEcWEd6GBq2DuQ5crg"/>
+    <bases href="uma://_A118oMYaEdyXeo04os5BOw#_A118oMYaEdyXeo04os5BOw"/>
+    <bases href="uma://_yjPyAMYfEdyXeo04os5BOw#_yjPyAMYfEdyXeo04os5BOw"/>
+    <bases href="uma://_fRdVEMYbEdyXeo04os5BOw#_fRdVEMYbEdyXeo04os5BOw"/>
+    <bases href="uma://_3mXbsMYhEdyXeo04os5BOw#_3mXbsMYhEdyXeo04os5BOw"/>
+    <bases href="uma://_WCUhAO8KEdmKSqa_gSYthg#_WCUhAO8KEdmKSqa_gSYthg"/>
+    <bases href="uma://_14Ft0M3pEdyuBO4ZIzcyig#_14Ft0M3pEdyuBO4ZIzcyig"/>
+    <bases href="uma://_ZHr9YEZkEd-WdMHcVzKx3Q#_ZHr9YEZkEd-WdMHcVzKx3Q"/>
+    <bases href="uma://_ji3-gEMXEdyP_Jn83ylwUQ#_ji3-gEMXEdyP_Jn83ylwUQ"/>
+    <bases href="uma://_3LCXQCFKEd271ouXnKy9Cg#_3LCXQCFKEd271ouXnKy9Cg"/>
+    <bases href="uma://_CX-9AM3qEdyuBO4ZIzcyig#_CX-9AM3qEdyuBO4ZIzcyig"/>
+    <bases href="uma://_Q_mBoGphEd24CboUCnKL3A#_Q_mBoGphEd24CboUCnKL3A"/>
+    <bases href="uma://_N2O_dpbUEd2aUZzdCa7Vuw#_N2O_dpbUEd2aUZzdCa7Vuw"/>
+    <bases href="uma://_VCNzoBV1Ed6nGok44QVaLg#_VCNzoBV1Ed6nGok44QVaLg"/>
+    <bases href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0TmecJ-VEdy3Nc4rvuj7bA"/>
+    <bases href="uma://_MmDsoHimEd2SK8pfsqPbIQ#_MmDsoHimEd2SK8pfsqPbIQ"/>
+    <bases href="uma://_vJYucEfUEdyiPI8btkmvmw#_vJYucEfUEdyiPI8btkmvmw"/>
+    <bases href="uma://_LdRtkM3qEdyuBO4ZIzcyig#_LdRtkM3qEdyuBO4ZIzcyig"/>
+    <bases href="uma://_pqk5QCLGEd2LEb_53JUMVA#_pqk5QCLGEd2LEb_53JUMVA"/>
+    <bases href="uma://_Qyp8YGpiEd24CboUCnKL3A#_Qyp8YGpiEd24CboUCnKL3A"/>
+    <bases href="uma://_hfmV0JGpEd2_q4BPpX1v7g#_hfmV0JGpEd2_q4BPpX1v7g"/>
+    <bases href="uma://_SAhb4HjqEdyhRNciHt44hg#_SAhb4HjqEdyhRNciHt44hg"/>
+    <bases href="uma://_FGtQ0HjqEdyhRNciHt44hg#_FGtQ0HjqEdyhRNciHt44hg"/>
+    <bases href="uma://_BDIGoHjqEdyhRNciHt44hg#_BDIGoHjqEdyhRNciHt44hg"/>
+    <bases href="uma://_JdDmAHjqEdyhRNciHt44hg#_JdDmAHjqEdyhRNciHt44hg"/>
+    <bases href="uma://_OlxzUHjqEdyhRNciHt44hg#_OlxzUHjqEdyhRNciHt44hg"/>
+    <bases href="uma://_31DkwEbSEd2H4axSXHkZBg#_31DkwEbSEd2H4axSXHkZBg"/>
+    <bases href="uma://_OOB2AAouEdyhlpBPrduOMw#_OOB2AAouEdyhlpBPrduOMw"/>
+    <bases href="uma://_OynuUNDqEdunspUKKm1F4Q#_OynuUNDqEdunspUKKm1F4Q"/>
+    <bases href="uma://_BCq0AJbZEd2-6qYo3ZvECw#_BCq0AJbZEd2-6qYo3ZvECw"/>
+    <bases href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_6Bi1YLAYEd2oW_uTVb0U4w"/>
+    <bases href="uma://_-bv0ELXuEduGP_98XMd0fg#_-bv0ELXuEduGP_98XMd0fg"/>
+    <bases href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_DiOUEMvrEd-j1uJpwhl9rw"/>
+    <bases href="uma://_NWTdQMvrEd-j1uJpwhl9rw#_NWTdQMvrEd-j1uJpwhl9rw"/>
+    <bases href="uma://_u3cjAJiOEeCHuaDqfjetaA#_u3cjAJiOEeCHuaDqfjetaA"/>
+    <bases href="uma://_RjQbcOLMEd-G2pDngtqTxA#_RjQbcOLMEd-G2pDngtqTxA"/>
+    <bases href="uma://_LTqnQLeLEd-05egMquN4Dg#_LTqnQLeLEd-05egMquN4Dg"/>
+    <bases href="uma://_nKS10J6YEdyQN-zRFaRrCQ#_nKS10J6YEdyQN-zRFaRrCQ"/>
+    <bases href="uma://_-bytoNXTEdygmZzuc48mPw#_-bytoNXTEdygmZzuc48mPw"/>
+    <bases href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_qqyzAJ6WEdyQN-zRFaRrCQ"/>
+    <bases href="uma://_H1R3gNUOEdyajsUEn5Aomw#_H1R3gNUOEdyajsUEn5Aomw"/>
+    <bases href="uma://_D-ExQMktEdygFZkm1d5NtQ#_D-ExQMktEdygFZkm1d5NtQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

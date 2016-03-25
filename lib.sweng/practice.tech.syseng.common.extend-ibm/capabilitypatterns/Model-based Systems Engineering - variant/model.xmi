@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_VWneUHUGEeCwX7mOdAgHBA" guid="_VWneUHUGEeCwX7mOdAgHBA">
+    <resourceDescriptors xmi:id="_VWneUXUGEeCwX7mOdAgHBA" id="-9jftVYz7UeeMMxpm_38p5g" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_T-2aIHUGEeCwX7mOdAgHBA" name="Model-based Systems Engineering - variant" guid="_T-2aIHUGEeCwX7mOdAgHBA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_T-2aKHUGEeCwX7mOdAgHBA" name="Build Executable Use Case Black Box" guid="_T-2aKHUGEeCwX7mOdAgHBA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_T-2aKnUGEeCwX7mOdAgHBA" name="Build Executable Use Case Black Box" guid="_T-2aKnUGEeCwX7mOdAgHBA" superActivities="_T-2aIXUGEeCwX7mOdAgHBA" linkToPredecessor="_T-2aKXUGEeCwX7mOdAgHBA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_k_dfoHT_EeCwX7mOdAgHBA#_k_dfoXT_EeCwX7mOdAgHBA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_T-2aKXUGEeCwX7mOdAgHBA" guid="_T-2aKXUGEeCwX7mOdAgHBA" pred="_T-2aLHUGEeCwX7mOdAgHBA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_T-2aK3UGEeCwX7mOdAgHBA" name="Define and Rank System-Level Use Cases" guid="_T-2aK3UGEeCwX7mOdAgHBA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_T-2aLHUGEeCwX7mOdAgHBA" name="Define and Rank System-Level Use Cases" guid="_T-2aLHUGEeCwX7mOdAgHBA" superActivities="_T-2aIXUGEeCwX7mOdAgHBA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_hgF1wHT_EeCwX7mOdAgHBA#_hgF1wXT_EeCwX7mOdAgHBA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0_YhMHUZEeCf0Pe1anR2ZQ" name="Realize Use-Case Model - Lvl1" guid="_0_YhMHUZEeCf0Pe1anR2ZQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_0_YhMXUZEeCf0Pe1anR2ZQ" name="Realize Use-Case Model - Lvl1" guid="_0_YhMXUZEeCf0Pe1anR2ZQ" presentationName="Realize Use-Case Model - Lvl1" superActivities="_T-2aIXUGEeCwX7mOdAgHBA" linkToPredecessor="_xmAVIHUaEeCf0Pe1anR2ZQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_xmAVIHUaEeCf0Pe1anR2ZQ" guid="_xmAVIHUaEeCf0Pe1anR2ZQ" pred="_T-2aKnUGEeCwX7mOdAgHBA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_4VzqcHUZEeCf0Pe1anR2ZQ" name="Create or Update System Architecture - Lvl1" guid="_4VzqcHUZEeCf0Pe1anR2ZQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_4VzqcXUZEeCf0Pe1anR2ZQ" name="Create or Update System Architecture - Lvl1" guid="_4VzqcXUZEeCf0Pe1anR2ZQ" presentationName="Create or Update System Architecture Model - Lvl1" superActivities="_T-2aIXUGEeCwX7mOdAgHBA" linkToPredecessor="_7fKLkXUaEeCf0Pe1anR2ZQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_7fKLkXUaEeCf0Pe1anR2ZQ" guid="_7fKLkXUaEeCf0Pe1anR2ZQ" pred="_0_YhMXUZEeCf0Pe1anR2ZQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_7WVcMHUZEeCf0Pe1anR2ZQ" name="Realize Use-Case Model - Eqlvl" guid="_7WVcMHUZEeCf0Pe1anR2ZQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_7WVcMXUZEeCf0Pe1anR2ZQ" name="Realize Use-Case Model - Eqlvl" guid="_7WVcMXUZEeCf0Pe1anR2ZQ" presentationName="Realize Use-Case Model - EqLvl" superActivities="_T-2aIXUGEeCwX7mOdAgHBA" linkToPredecessor="_8A1VQXUaEeCf0Pe1anR2ZQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_8A1VQXUaEeCf0Pe1anR2ZQ" guid="_8A1VQXUaEeCf0Pe1anR2ZQ" pred="_0_YhMXUZEeCf0Pe1anR2ZQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ADyCwHUaEeCf0Pe1anR2ZQ" name="Create or Update System Achitecture Model - EqLvl" guid="_ADyCwHUaEeCf0Pe1anR2ZQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_AD7zwHUaEeCf0Pe1anR2ZQ" name="Create or Update System Achitecture Model - EqLvl" guid="_AD7zwHUaEeCf0Pe1anR2ZQ" presentationName="Create or Update System Architecture Model - EqLvl" superActivities="_T-2aIXUGEeCwX7mOdAgHBA" linkToPredecessor="_8lyccXUaEeCf0Pe1anR2ZQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_8lyccXUaEeCf0Pe1anR2ZQ" guid="_8lyccXUaEeCf0Pe1anR2ZQ" pred="_7WVcMXUZEeCf0Pe1anR2ZQ"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_T-2aIXUGEeCwX7mOdAgHBA" name="Model-based Systems Engineering - variant" guid="_T-2aIXUGEeCwX7mOdAgHBA" presentationName="Model-based Systems Engineering - XYZ" briefDescription="Provides an overview of the Organization XYZ MbSE workflow. It shows for each of the SE phases the generated models together with the associated Rhapsody projects." breakdownElements="_T-2aKnUGEeCwX7mOdAgHBA _T-2aLHUGEeCwX7mOdAgHBA _0_YhMXUZEeCf0Pe1anR2ZQ _4VzqcXUZEeCf0Pe1anR2ZQ _7WVcMXUZEeCf0Pe1anR2ZQ _AD7zwHUaEeCf0Pe1anR2ZQ">
+      <presentation xmi:id="-9jftVYz7UeeMMxpm_38p5g" href="uma://-9jftVYz7UeeMMxpm_38p5g#-9jftVYz7UeeMMxpm_38p5g"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

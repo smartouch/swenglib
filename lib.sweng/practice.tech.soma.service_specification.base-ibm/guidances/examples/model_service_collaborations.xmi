@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-tA506WuyGVJM2KVyBZ1wKw" name="new_example,_x4hbYJY8Ed6Ix90EO0mdwQ" guid="-tA506WuyGVJM2KVyBZ1wKw" changeDate="2009-10-27T00:37:08.515-0700" version="7.5.0">
+  <mainDescription>&lt;p> As seen in the &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/examples/soaml_design_model_sample_83612289.html&quot; guid=&quot;_AfQisHNIEd6va-EJWoOsvg&quot;>Sample SoaML Design Model&lt;/a>, we&amp;nbsp;have created a Purchase Order Process&lt;font face=&quot;Courier New, Courier, mono&quot;> &#xD;
+  &amp;lt;&amp;lt;soSolutionPackage&amp;gt;&amp;gt;&lt;/font>&amp;nbsp;under the OrderManagement functional &#xD;
+  area package to think through what is required to implement the Purchase Order &#xD;
+  Process. Further, we have created a single Process Purchase Order &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/termdefinitions/service_collaboration_35276470.html&quot; guid=&quot;_V4z3YJgtEd6l6vBsNJSPDA&quot;>service &#xD;
+  collaboration&lt;/a> under this service-oriented solution package.&amp;nbsp;We decided &#xD;
+  to model the collaboration by using an activity, as Figure 1 shows.&lt;/p>&#xD;
+&lt;p>&lt;font size=&quot;2&quot;>&lt;strong>Figure 1. Sample design model of the collaboration, &#xD;
+  using an activity&lt;/strong>&lt;/font>&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;img height=&quot;252&quot; alt=&quot;&quot; src=&quot;resources/srvc_collab_in_proj_exp.jpg&quot; width=&quot;599&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p> The activity diagram for the collaboration reveals that four roles -- invoicer, &#xD;
+  orderProcessor, productions, and shipper -- are involved in realizing the Purchase &#xD;
+  Order Process, and that the orderProcessor role uses the other three roles. &#xD;
+  The structure diagram in Figure 2 reflects this information for the collaboration &#xD;
+  and its activity diagram. &lt;/p>&#xD;
+&lt;p>&lt;font size=&quot;2&quot;>&lt;strong>Figure 2. Structure diagram of the four roles in the &#xD;
+  collaboration&lt;/strong>&lt;/font>&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; &lt;img height=&quot;552&quot; alt=&quot;&quot; src=&quot;resources/pop_srvc_collab_overview.jpg&quot; width=&quot;592&quot; />&amp;nbsp; &amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p> &lt;strong>&lt;font size=&quot;3&quot;>Creating the package hierarchy&amp;nbsp;for functional &#xD;
+  areas, service-oriented solutions, and service collaborations&lt;/font>&lt;/strong> &#xD;
+&lt;/p>&#xD;
+&lt;p> This was a small, simple problem. Here, we decided to name the service-oriented &#xD;
+  solution after the process that was being addressed. By doing this, less expansion &#xD;
+  of the overall package structure was required before we were able to&amp;nbsp;see &#xD;
+  where in the model a particular business process or use case&amp;nbsp;was being &#xD;
+  addressed.&amp;nbsp; &lt;/p>&#xD;
+&lt;p> If this had been a large design effort, we probably would have taken a different &#xD;
+  approach. In this case, we would have created a service-oriented solution package &#xD;
+  to manage each group of related business processes or use cases that a functional &#xD;
+  area either owns or supports. Then each solution package could own multiple &#xD;
+  service collaborations, each of which was mapped to a given business process &#xD;
+  or use case. &lt;/p>&#xD;
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

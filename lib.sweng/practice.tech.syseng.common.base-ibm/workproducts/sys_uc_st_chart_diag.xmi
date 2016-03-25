@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-bt82ySZSgvJ6p_8BTqOayg" name="sys_uc_st_chart_diag,_kv43AJNkEd6TXvoh_VAeug" guid="-bt82ySZSgvJ6p_8BTqOayg" changeDate="2009-11-18T15:58:46.203-0800" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    A Statechart Diagram describes the state-based behavior of a block. It aggregates the information from both the&#xD;
+    activity diagram (functional flow) and the sequence diagrams (interactions with the environment), and adds the&#xD;
+    event-driven block behavior to the diagram. As the &quot;language&quot; of statecharts is formally defined, the correctness and&#xD;
+    completeness of the resulting behavior can be verified/validated through model execution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Statechart diagrams are finite state machines that are extended by the notation of Hierarchy and Concurrency.&#xD;
+    Basically, a statechart diagram is comprised of a set of states joined by transitions and various connectors. An event&#xD;
+    may trigger a transition from one state to another. Actions can be performed on transitions and on state entry/exit.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Use-Case&amp;nbsp;Block Statechart Diagram must reflect the functional flow captured in the use-case black-box activity&#xD;
+    diagram as well as the associated use-case black-box sequence diagrams.&#xD;
+&lt;/p></mainDescription>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        To capture a formal representation of the use-case block behavior.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To provide the means to verify and validate a use-case through model execution.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  <impactOfNotHaving>If the use case behavior is not captured through the Black-Box Statechart Diagram, it is not possible to verify/validate&#xD;
+the completeness and correctness of the functional system requirements that are allocated to the use case.</impactOfNotHaving>
+  <representationOptions>This diagram is usually represented as a UML/SysML state machine&amp;nbsp;diagram.</representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

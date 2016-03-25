@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-b2jCX_8-zQQ65PpX4Up34Q" name="normalizing_data,_u14esAo-Edygr55FhBZqVw" guid="-b2jCX_8-zQQ65PpX4Up34Q" changeDate="2007-08-14T04:57:42.000-0700" version="1.0.0">
+  <mainDescription>&lt;h3>&#xD;
+    &lt;a id=&quot;Introduction&quot; name=&quot;Introduction&quot;>Introduction&lt;/a>&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    This concept document provides a brief discussion of the topic of data normalization as it applies to the development&#xD;
+    of the&amp;nbsp;data model.&amp;nbsp;It does not provide a full treatment of normalization, because the subject is quite broad&#xD;
+    and has been documented in many texts on database design.&amp;nbsp;Normalization is defined as &quot;an analytic technique used&#xD;
+    to produce a correct relational database design.&quot; In practice, normalization is a procedure for eliminating redundancy&#xD;
+    in the data model by means of applying restrictive rules. Elimination of data redundancy in the tables of the Data&#xD;
+    Model helps enforce referential integrity of the data in the database.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Normalization is usually performed on the Data Model after an initial version of the tables and their relationships has&#xD;
+    been developed in the model.&amp;nbsp;The exact timing of when to apply normalization depends on the specific project&#xD;
+    situation and is up to the database designer.&amp;nbsp;The normalization process is applied to the tables in the Data Model&#xD;
+    in series of steps in which each step applies rules that are stricter than the last.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    &lt;a id=&quot;Levels of Normalization&quot; name=&quot;Levels of Normalization&quot;>&lt;/a>Levels of Normalization&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Normalization is hierarchically classified into numeric forms, with the most common being first, second, and third&#xD;
+    normal form. Each level of normalization is more restrictive than the previous. The first three hierarchical levels of&#xD;
+    normalization are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>First Normal Form&lt;/b>-Repeating groups of data columns in tables have been eliminated such that data is&#xD;
+        organized into atomic units.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Second Normal Form&lt;/b>-Data is in first normal form, and redundancy on primary key fields has been eliminated&#xD;
+        such that column values are wholly dependent on the primary key field.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>Third Normal Form&lt;/b>-Data is in second normal form, and each column is not dependent on any other non-key&#xD;
+        column.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Other levels of normalization are possible but are not covered in this discussion.&amp;nbsp;The exact level of&#xD;
+    normalization to apply to the Data Model is a decision that the database designer must make based on the specifics of&#xD;
+    the project situation.&#xD;
+&lt;/p>&lt;br align=&quot;left&quot; />&#xD;
+&lt;br /></mainDescription>
+  <externalId xsi:nil="true"/>
+  <keyConsiderations xsi:nil="true"/>
+</org.eclipse.epf.uma:ContentDescription>

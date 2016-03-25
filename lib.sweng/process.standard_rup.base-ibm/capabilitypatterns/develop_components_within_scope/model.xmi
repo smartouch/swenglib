@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_yQE0MCZREd-Hb5ChSoDHIA" guid="_yQE0MCZREd-Hb5ChSoDHIA">
+    <resourceDescriptors xmi:id="_yQE0MSZREd-Hb5ChSoDHIA" id="-PA5NYpzgoHsInx-y6HbOpg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_4g3w0deuEd-Zq9ImbgqLFQ" id="--0lnffiYzdKe7_AynexTLQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_xfqD6CZREd-Hb5ChSoDHIA" name="develop_components_within_scope" guid="_xfqD6CZREd-Hb5ChSoDHIA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfqD-SZREd-Hb5ChSoDHIA" name="analyze_behavior" guid="_xfqD-SZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfqD-iZREd-Hb5ChSoDHIA" name="analyze_behavior" guid="_xfqD-iZREd-Hb5ChSoDHIA" presentationName="Analyze Behavior" superActivities="_xfqD6yZREd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_PDHikCsEEd-5jezL08ZExg#_cUuWEdesEd-Zq9ImbgqLFQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfqD9SZREd-Hb5ChSoDHIA" name="design_components" guid="_xfqD9SZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfqD-CZREd-Hb5ChSoDHIA" name="design_components" guid="_xfqD-CZREd-Hb5ChSoDHIA" presentationName="Design Components" hasMultipleOccurrences="true" superActivities="_xfqD6yZREd-Hb5ChSoDHIA" linkToPredecessor="_sNMIgKASEd-PbpEIb098hg" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_0uUD8CsBEd-5jezL08ZExg#_HAdm4devEd-Zq9ImbgqLFQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_sNMIgKASEd-PbpEIb098hg" guid="_sNMIgKASEd-PbpEIb098hg" pred="_xfqD-iZREd-Hb5ChSoDHIA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfqD8SZREd-Hb5ChSoDHIA" name="design_the_database" guid="_xfqD8SZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfqD8iZREd-Hb5ChSoDHIA" name="design_the_database" guid="_xfqD8iZREd-Hb5ChSoDHIA" presentationName="Design the Database" superActivities="_xfqD6yZREd-Hb5ChSoDHIA" linkToPredecessor="_tS7BgKASEd-PbpEIb098hg" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_0uUD8CsBEd-5jezL08ZExg#_QF2I8detEd-Zq9ImbgqLFQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_tS7BgKASEd-PbpEIb098hg" guid="_tS7BgKASEd-PbpEIb098hg" pred="_xfqD-iZREd-Hb5ChSoDHIA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfqD7CZREd-Hb5ChSoDHIA" name="implement_components" guid="_xfqD7CZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfqD8CZREd-Hb5ChSoDHIA" name="implement_components" guid="_xfqD8CZREd-Hb5ChSoDHIA" presentationName="Implement Components" hasMultipleOccurrences="true" superActivities="_xfqD6yZREd-Hb5ChSoDHIA" linkToPredecessor="_uxZxsKASEd-PbpEIb098hg" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_0uUD8CsBEd-5jezL08ZExg#_rWiBAdevEd-Zq9ImbgqLFQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_uxZxsKASEd-PbpEIb098hg" guid="_uxZxsKASEd-PbpEIb098hg" pred="_xfqD-iZREd-Hb5ChSoDHIA"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_xfqD6yZREd-Hb5ChSoDHIA" name="develop_components_within_scope" guid="_xfqD6yZREd-Hb5ChSoDHIA" presentationName="Develop Components [within Scope]" briefDescription="This covers activities required to develop components within the scope identified in the iteration plan.  " hasMultipleOccurrences="true" breakdownElements="_xfqD-iZREd-Hb5ChSoDHIA _xfqD-CZREd-Hb5ChSoDHIA _xfqD8iZREd-Hb5ChSoDHIA _xfqD8CZREd-Hb5ChSoDHIA">
+      <methodElementProperty xmi:id="_4FG28remEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-PA5NYpzgoHsInx-y6HbOpg" href="uma://-PA5NYpzgoHsInx-y6HbOpg#-PA5NYpzgoHsInx-y6HbOpg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

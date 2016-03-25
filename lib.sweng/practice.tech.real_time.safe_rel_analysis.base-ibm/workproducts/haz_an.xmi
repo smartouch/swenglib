@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-SeubWr_JGNP2kXpIU62vow" name="haz_an,_aYBnMMsnEd-f7_TOobgnDw" guid="-SeubWr_JGNP2kXpIU62vow" changeDate="2010-10-29T11:00:29.515-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    The hazard analysis is a key document for safety critical systems (see Term Definition: Safe) as it combines the&#xD;
+    description of the hazards, the level of risk, system faults that can lead to the hazard, and the control measures all&#xD;
+    together in a single view. The Fault is a non-compliance of the system that can lead to the identified hazard. The&#xD;
+    severity is a measure of how bad the hazard is (an arbitrary scale of 1-10 is used often used). The Risk is a value&#xD;
+    computed by the likelihood multiplied by the severity of the occurrence.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    All safety critical systems are real-time systems as well, since each fault has a period of time that it can be&#xD;
+    tolerated (called its Fault Tolerance Time). To be considered safe against a specific fault, the sum of the fault&#xD;
+    detection time and the control time (the time required for the control measure to handle the fault) must be less than&#xD;
+    or equal to the fault tolerance time.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The hazard analysis is usually coupled with one or more Fault Tree Analysis (FTA) to show how faults and other&#xD;
+    conditions can combine to lead to hazards.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The hazard analysis is created during the requirements analysis phase but not all aspects (such as the control&#xD;
+    measures) may be identified early on. The hazard analysis should be maintained throughout the development cycle - as&#xD;
+    new hazards or faults are identified, they must be added to the table. As control measures are specified, the analysis&#xD;
+    must be updated as well.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>All the relevant hazards of the system and the faults that can lead to those hazards must be identified in the hazard&#xD;
+analysis.</keyConsiderations>
+  <purpose>The purpose of the hazard analysis is to list the hazards of a system the severity of each, and correlate them with the&#xD;
+faults that can lead to them, the probability of each such fault, the length of time the fault can be tolerated, and the&#xD;
+control measure to obviate or handle the fault.</purpose>
+  <reasonsForNotNeeding>The hazard analysis is only needed for safety critical systems but should be present for all such systems.</reasonsForNotNeeding>
+  <representationOptions>Most often, the hazard analysis is represented within a spreadsheet, but other textual representations are used as well.</representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

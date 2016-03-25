@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_maM64LzLEeG8bpwvoltpmg" guid="_maM64LzLEeG8bpwvoltpmg">
+    <resourceDescriptors xmi:id="_maNh8LzLEeG8bpwvoltpmg" id="-tp9CinQA8kb23dpMRVFbMQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_FVzoAMU-EeGvoMYeYF8yvg" id="-WWqe1xDXwt4whX7l-RHQrQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_FV35cMU-EeGvoMYeYF8yvg" id="-GJ35n3Z_yVKSjmUR__-qqw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_FV7j0MU-EeGvoMYeYF8yvg" id="-f5p64el7hYVZF0cBX25o0g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_FWAcUMU-EeGvoMYeYF8yvg" id="-vgxtf1DmkWftGGKYbrS6Yw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_FWFU0MU-EeGvoMYeYF8yvg" id="-3RXFXL3_1zrlklWX9onkEA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_FWLbcMU-EeGvoMYeYF8yvg" id="-mKi1PmWY2FJNdk87XCfkqQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_FWPs4MU-EeGvoMYeYF8yvg" id="-4uoXmGV_yOsepYwvb2oBpw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_mZSU4LzLEeG8bpwvoltpmg" name="plan_manage_work" guid="_mZSU4LzLEeG8bpwvoltpmg">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-pL_AMU9EeGvoMYeYF8yvg" name="initiate_iteration" guid="_-pL_AMU9EeGvoMYeYF8yvg" presentationName="Initiate Iteration" briefDescription="This task describes how to allocate staff and other resources to the activities identified for the current iteration." superActivities="_mZSU4bzLEeG8bpwvoltpmg" mandatoryInput="_-p-pMMU9EeGvoMYeYF8yvg _-p-pMsU9EeGvoMYeYF8yvg" output="_-p-pMsU9EeGvoMYeYF8yvg _-p-pMMU9EeGvoMYeYF8yvg">
+      <presentation xmi:id="-WWqe1xDXwt4whX7l-RHQrQ" href="uma://-tp9CinQA8kb23dpMRVFbMQ#-WWqe1xDXwt4whX7l-RHQrQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_-p-pMMU9EeGvoMYeYF8yvg" name="work_items_list" guid="_-p-pMMU9EeGvoMYeYF8yvg" presentationName="Work Items List" briefDescription="This artifact contains a list of all of the scheduled work to be done within the project, as well as proposed work that may affect the product in this or future projects. Each work item may contain references to information relevant to carry out the work described within the work item." isPlanned="false" superActivities="_mZSU4bzLEeG8bpwvoltpmg">
+      <methodElementProperty xmi:id="_-p-pMcU9EeGvoMYeYF8yvg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-GJ35n3Z_yVKSjmUR__-qqw" href="uma://-tp9CinQA8kb23dpMRVFbMQ#-GJ35n3Z_yVKSjmUR__-qqw"/>
+      <checklists href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_xlrdEAVtEdy3F_fZDaPZVA"/>
+      <examples href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_nHomIDgzEdu4E8ZdmlYjtA"/>
+      <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_CGHskBEdEdqY7JB6N6CW2w"/>
+      <templates href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_QwUJYDg0Edu4E8ZdmlYjtA"/>
+      <WorkProduct href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_rGNWsCbSEdqh1LYUOGRh2A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_-p-pMsU9EeGvoMYeYF8yvg" name="iteration_plan" guid="_-p-pMsU9EeGvoMYeYF8yvg" presentationName="Iteration Plan" briefDescription="A fine-grained plan describing the objectives, work assignments, and evaluation criteria for the iteration." isPlanned="false" superActivities="_mZSU4bzLEeG8bpwvoltpmg">
+      <methodElementProperty xmi:id="_-p-pM8U9EeGvoMYeYF8yvg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-f5p64el7hYVZF0cBX25o0g" href="uma://-tp9CinQA8kb23dpMRVFbMQ#-f5p64el7hYVZF0cBX25o0g"/>
+      <concepts href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_lam4ADkBEduxovfWMDsntw"/>
+      <examples href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_GtGisDcGEdyTZ9G7ByfQTw"/>
+      <examples href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_TuNhIEE4EdulKujnGUuxbg"/>
+      <templates href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_0dBoQMlgEdmt3adZL5Dmdw"/>
+      <reports href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_uAzgkDg3Edu4E8ZdmlYjtA"/>
+      <WorkProduct href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_0aQBEslgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="__bQVIMU9EeGvoMYeYF8yvg" name="plan_iteration" guid="__bQVIMU9EeGvoMYeYF8yvg" presentationName="Plan Iteration" briefDescription="Plan the scope and responsibilities for a single iteration." superActivities="_mZSU4bzLEeG8bpwvoltpmg" linkToPredecessor="_tLpUoMU-EeGvoMYeYF8yvg" mandatoryInput="_-p-pMMU9EeGvoMYeYF8yvg" optionalInput="__b-G0MU9EeGvoMYeYF8yvg __b-G0sU9EeGvoMYeYF8yvg __b-G1MU9EeGvoMYeYF8yvg _-p-pMsU9EeGvoMYeYF8yvg" output="__b-G1MU9EeGvoMYeYF8yvg _-p-pMsU9EeGvoMYeYF8yvg _-p-pMMU9EeGvoMYeYF8yvg">
+      <presentation xmi:id="-vgxtf1DmkWftGGKYbrS6Yw" href="uma://-tp9CinQA8kb23dpMRVFbMQ#-vgxtf1DmkWftGGKYbrS6Yw"/>
+      <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_CGHskBEdEdqY7JB6N6CW2w"/>
+      <guidelines href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_0auiMMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_VNxL4ACsEdu8m4dIntu6jA"/>
+      <guidelines href="uma://_vJYucEfUEdyiPI8btkmvmw#_sLQ6AN8-Edyhmsbt0Xyl8A"/>
+      <guidelines href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_oVMZADSoEdy07ZJqOGUGaQ"/>
+      <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#__yQQ4L6REdqti4GwqTkbsQ"/>
+      <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_yYlQoC3xEdycYKq0PulnEQ"/>
+      <Task href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_0keUEMlgEdmt3adZL5Dmdw"/>
+      <selectedSteps href="uma://_Wk7noKe1EdmGSrcKGOYDGg#_7bz7AIyAEdyhZb-MhCJrlA"/>
+      <selectedSteps href="uma://_Wk7noKe1EdmGSrcKGOYDGg#_CtKCMMBHEdqSgKaj2SZBmg"/>
+      <selectedSteps href="uma://_Wk7noKe1EdmGSrcKGOYDGg#_HzNVgIyBEdyhZb-MhCJrlA"/>
+      <selectedSteps href="uma://_Wk7noKe1EdmGSrcKGOYDGg#_307v0MMsEdmdo9HxCRR_Gw"/>
+      <selectedSteps href="uma://_Wk7noKe1EdmGSrcKGOYDGg#_7Hqr4MMsEdmdo9HxCRR_Gw"/>
+      <selectedSteps href="uma://_Wk7noKe1EdmGSrcKGOYDGg#_-tp18FHjEd2IaYFd32DrjQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="__b-G0MU9EeGvoMYeYF8yvg" name="technical_architecture_slot" guid="__b-G0MU9EeGvoMYeYF8yvg" presentationName="[Technical Architecture]" briefDescription="This slot serves as an abstraction of high level artifacts that represent the documentation of the architecture." isPlanned="false" superActivities="_mZSU4bzLEeG8bpwvoltpmg">
+      <methodElementProperty xmi:id="__b-G0cU9EeGvoMYeYF8yvg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_8OD-cLPTEduocbW-TPTq7A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="__b-G0sU9EeGvoMYeYF8yvg" name="technical_specification_slot" guid="__b-G0sU9EeGvoMYeYF8yvg" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isPlanned="false" superActivities="_mZSU4bzLEeG8bpwvoltpmg">
+      <methodElementProperty xmi:id="__b-G08U9EeGvoMYeYF8yvg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="__b-G1MU9EeGvoMYeYF8yvg" name="risk_list" guid="__b-G1MU9EeGvoMYeYF8yvg" presentationName="Risk List" briefDescription="This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions." isPlanned="false" superActivities="_mZSU4bzLEeG8bpwvoltpmg">
+      <methodElementProperty xmi:id="__b-G1cU9EeGvoMYeYF8yvg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-3RXFXL3_1zrlklWX9onkEA" href="uma://-tp9CinQA8kb23dpMRVFbMQ#-3RXFXL3_1zrlklWX9onkEA"/>
+      <checklists href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_7BZa0DIdEduDTv4Y1akVTA"/>
+      <concepts href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0bsLgMlgEdmt3adZL5Dmdw"/>
+      <templates href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_MIUO0C8FEduzydamRseoUw"/>
+      <WorkProduct href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_BhgP8MU-EeGvoMYeYF8yvg" name="manage_iteration" guid="_BhgP8MU-EeGvoMYeYF8yvg" presentationName="Manage Iteration" briefDescription="Assess project status and identify any blocking issues and opportunities. Identify and manage exceptions, problems, and risks. Communicate project status." superActivities="_mZSU4bzLEeG8bpwvoltpmg" linkToPredecessor="_tsSjkMU-EeGvoMYeYF8yvg" mandatoryInput="_-p-pMsU9EeGvoMYeYF8yvg __b-G1MU9EeGvoMYeYF8yvg _-p-pMMU9EeGvoMYeYF8yvg _BiOosMU-EeGvoMYeYF8yvg" output="_-p-pMsU9EeGvoMYeYF8yvg __b-G1MU9EeGvoMYeYF8yvg _-p-pMMU9EeGvoMYeYF8yvg">
+      <presentation xmi:id="-mKi1PmWY2FJNdk87XCfkqQ" href="uma://-tp9CinQA8kb23dpMRVFbMQ#-mKi1PmWY2FJNdk87XCfkqQ"/>
+      <concepts href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0bsLgMlgEdmt3adZL5Dmdw"/>
+      <concepts href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0mYYkMlgEdmt3adZL5Dmdw"/>
+      <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#__yQQ4L6REdqti4GwqTkbsQ"/>
+      <guidelines href="uma://_vJYucEfUEdyiPI8btkmvmw#_68JUYN8-Edyhmsbt0Xyl8A"/>
+      <Task href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_8S2aICbYEdqh1LYUOGRh2A"/>
+      <selectedSteps href="uma://-PbfqVxB_j9KN-Jx39_pEUA#_OE65ICuxEdqTIKp3l5PtzQ"/>
+      <selectedSteps href="uma://-PbfqVxB_j9KN-Jx39_pEUA#_urvQkGSyEd2DNqLAFatITA"/>
+      <selectedSteps href="uma://-PbfqVxB_j9KN-Jx39_pEUA#_oIZdkCbZEdqh1LYUOGRh2A"/>
+      <selectedSteps href="uma://-PbfqVxB_j9KN-Jx39_pEUA#_xiFJwCbZEdqh1LYUOGRh2A"/>
+      <selectedSteps href="uma://-PbfqVxB_j9KN-Jx39_pEUA#_Br6VECuxEdqTIKp3l5PtzQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BiOosMU-EeGvoMYeYF8yvg" name="project_definition_and_scope_slot" guid="_BiOosMU-EeGvoMYeYF8yvg" presentationName="[Project Definition and Scope]" briefDescription="This slot serves as an abstraction of high-level artifacts that define the project and its scope. Typical examples of such artifacts could be a project definition, and a high-level project schedule identifying major milestones and major deliverables." isPlanned="false" superActivities="_mZSU4bzLEeG8bpwvoltpmg">
+      <methodElementProperty xmi:id="_BiOoscU-EeGvoMYeYF8yvg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_vJYucEfUEdyiPI8btkmvmw#_RJMUcNpUEdyzZqGyZ7hwdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_B3GFcMU-EeGvoMYeYF8yvg" name="assess_results" guid="_B3GFcMU-EeGvoMYeYF8yvg" presentationName="Assess Results" briefDescription="Determine success or failure of the iteration. Apply the lessons learned to modify the project or improve the process." superActivities="_mZSU4bzLEeG8bpwvoltpmg" linkToPredecessor="_uTwMMMU-EeGvoMYeYF8yvg" mandatoryInput="_-p-pMsU9EeGvoMYeYF8yvg _-p-pMMU9EeGvoMYeYF8yvg" optionalInput="__b-G0sU9EeGvoMYeYF8yvg _B30eMMU-EeGvoMYeYF8yvg _BiOosMU-EeGvoMYeYF8yvg" output="_-p-pMsU9EeGvoMYeYF8yvg _-p-pMMU9EeGvoMYeYF8yvg">
+      <presentation xmi:id="-4uoXmGV_yOsepYwvb2oBpw" href="uma://-tp9CinQA8kb23dpMRVFbMQ#-4uoXmGV_yOsepYwvb2oBpw"/>
+      <concepts href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_2PfbIA4QEdy2q5zsU8WDnA"/>
+      <guidelines href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_277QEA4gEdy63f1yVoPyfA"/>
+      <guidelines href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_FekBAC4IEdyhZrtGEIITGQ"/>
+      <guidelines href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_yYlQoC3xEdycYKq0PulnEQ"/>
+      <toolmentor href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_pJJuIOFSEdyhmsbt0Xyl8A"/>
+      <Task href="uma://_qqyzAJ6WEdyQN-zRFaRrCQ#_0l53cMlgEdmt3adZL5Dmdw"/>
+      <selectedSteps href="uma://_a3uz4LBYEdm7Eph_l9Cn9w#_o28GgMMsEdmdo9HxCRR_Gw"/>
+      <selectedSteps href="uma://_a3uz4LBYEdm7Eph_l9Cn9w#_iSiDEIx4Edyzd4h-mxj9YA"/>
+      <selectedSteps href="uma://_a3uz4LBYEdm7Eph_l9Cn9w#_iL7cQEpqEdup0IY9DKDPkg"/>
+      <selectedSteps href="uma://_a3uz4LBYEdm7Eph_l9Cn9w#_1YHH8DLqEdueZPye-FaNgA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_B30eMMU-EeGvoMYeYF8yvg" name="technical_test_results_slot" guid="_B30eMMU-EeGvoMYeYF8yvg" presentationName="[Technical Test Results]" briefDescription="This slot serves as an abstraction of high level artifacts that define the results of testing the hardware and software for the system being developed." isPlanned="false" superActivities="_mZSU4bzLEeG8bpwvoltpmg">
+      <methodElementProperty xmi:id="_B30eMcU-EeGvoMYeYF8yvg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_fahB0EfUEdyiPI8btkmvmw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_tLpUoMU-EeGvoMYeYF8yvg" guid="_tLpUoMU-EeGvoMYeYF8yvg" pred="_-pL_AMU9EeGvoMYeYF8yvg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_tsSjkMU-EeGvoMYeYF8yvg" guid="_tsSjkMU-EeGvoMYeYF8yvg" pred="__bQVIMU9EeGvoMYeYF8yvg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_uTwMMMU-EeGvoMYeYF8yvg" guid="_uTwMMMU-EeGvoMYeYF8yvg" pred="_BhgP8MU-EeGvoMYeYF8yvg"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_mZSU4bzLEeG8bpwvoltpmg" name="plan_manage_work" guid="_mZSU4bzLEeG8bpwvoltpmg" presentationName="Plan and Manage Work" breakdownElements="_-pL_AMU9EeGvoMYeYF8yvg _-p-pMMU9EeGvoMYeYF8yvg _-p-pMsU9EeGvoMYeYF8yvg __bQVIMU9EeGvoMYeYF8yvg __b-G0MU9EeGvoMYeYF8yvg __b-G0sU9EeGvoMYeYF8yvg __b-G1MU9EeGvoMYeYF8yvg _BhgP8MU-EeGvoMYeYF8yvg _BiOosMU-EeGvoMYeYF8yvg _B3GFcMU-EeGvoMYeYF8yvg _B30eMMU-EeGvoMYeYF8yvg">
+      <presentation xmi:id="-tp9CinQA8kb23dpMRVFbMQ" href="uma://-tp9CinQA8kb23dpMRVFbMQ#-tp9CinQA8kb23dpMRVFbMQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

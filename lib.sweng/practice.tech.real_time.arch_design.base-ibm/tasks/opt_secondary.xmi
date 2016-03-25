@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-zpsTWv-0l3Qdqn9R5cEQ0g" name="opt_secondary,_oUuZgLB2Ed-_-u_W99sqSA" guid="-zpsTWv-0l3Qdqn9R5cEQ0g" changeDate="2010-10-20T10:45:55.406-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    While not as fundamentally crucial to the majority of real-time and embedded systems as the key architectural view, the&#xD;
+    secondary architectural views, they do nevertheless define strategic supporting design decisions:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Security&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data management&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Quality of Service management&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Error and exceptional handling policies&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Service Oriented Architecture (SOA)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Business Process Management (BPM)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    It should be noted that some or all of these secondary views may be irrelevant for a given system and may be ignored in&#xD;
+    those cases.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_B9IoANxyEd-iT-dJmEtOOg" name="Specify quality of service management architecture" guid="_B9IoANxyEd-iT-dJmEtOOg">
+    <sectionDescription>Quality of Service (QoS) are constraints or limitations of some aspect of a system, usually - but not universally - related&#xD;
+to performance. In many complex systems, generalize strategies must be put into place to ensure limit the propagation of&#xD;
+errors due to violation of QoS properties of data to ensure adequate QoS on the data and services delivered. These QoS&#xD;
+errors can compound in complex ways, both in terms of lag and delays, but also in terms of data accuracy. Quality of&#xD;
+Service Management (QoSM) is the set of strategic policies for managing QoS across a complex system, system of systems, or&#xD;
+enterprise. It is useful to note that QoS is primarily represented as metadata (&quot;data about data&quot;).</sectionDescription>
+  </sections>
+  <sections xmi:id="_EcuP4NxyEd-iT-dJmEtOOg" name="Specify data management architecture" guid="_EcuP4NxyEd-iT-dJmEtOOg">
+    <sectionDescription>Data Management is defined to be the set of strategic policies and rules for storing, manipulating, validating, and&#xD;
+managing data. Many real-time systems must manage huge volumes of high-rate data from a variety of sensors, perform data&#xD;
+validation, fusion, storage, recall, and display.</sectionDescription>
+  </sections>
+  <sections xmi:id="_GQzcoNxyEd-iT-dJmEtOOg" name="Specify security architecture" guid="_GQzcoNxyEd-iT-dJmEtOOg">
+    <sectionDescription>Security is defined to be &quot;freedom from intrusion or compromise of data privacy or integrity.&quot; The Security Architecture is&#xD;
+the set of strategic technological and design decisions that provide protection against such intrusion or compromise.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IIwcwNxyEd-iT-dJmEtOOg" name="Specify error and exception handling architectural policies" guid="_IIwcwNxyEd-iT-dJmEtOOg">
+    <sectionDescription>Many real-time and embedded systems are high-reliability or safety-critical. As such, as a part of the Safety and&#xD;
+Reliability Architecture alerts and exception handling policies must be identified and clarified.</sectionDescription>
+  </sections>
+  <sections xmi:id="_Kgmd4NxyEd-iT-dJmEtOOg" name="Specify business process model" guid="_Kgmd4NxyEd-iT-dJmEtOOg">
+    <sectionDescription>BPM is the set of business rules that the technical architecture must support.</sectionDescription>
+  </sections>
+  <sections xmi:id="_MMoh4NxyEd-iT-dJmEtOOg" name="Specify service-oriented architecture" guid="_MMoh4NxyEd-iT-dJmEtOOg">
+    <sectionDescription>&lt;p>&#xD;
+    SOA is an architectural approach to enterprise architecture through the identification and allocation of services to&#xD;
+    architectural entities. While this is primarily in use today in IT enterprise architectures, the DoDAF 1.5 standard has&#xD;
+    defined a number of views specifically to support SOA for military systems, such as C4ISR (Command, Control,&#xD;
+    Communication, Computers, Intelligence, Surveillance, and Reconnaissance) systems. SOA is normally defined as the&#xD;
+    interaction of:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Servers - architectural elements that provide externally accessible services&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Service Repositories - databases of services and their servers&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Service Brokers - elements that can connect clients with desired services by looking them up in a Service&#xD;
+        Repository&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to add in the secondary architectural views when they are important for the system design.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

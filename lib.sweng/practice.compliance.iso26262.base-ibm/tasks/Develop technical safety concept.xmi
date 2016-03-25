@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-tHeMNWF6KrnQ0R7ynUw-Ow" name=",_1NTrcJwIEeCHd41ThlqoSg" guid="-tHeMNWF6KrnQ0R7ynUw-Ow" changeDate="2011-06-21T09:46:45.207-0700" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    This task is used to define the architecture of the item according to the ASIL designation of the requirements that&#xD;
+    have been allocated to it and its respective subsystems.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The primary inputs to this phase are the functional concept, the technical safety requirements and the preliminary&#xD;
+    architectural assumptions. The consistency across these products with the technical safety concept shall be ensured.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The verifiability of the system design, the effectiveness of the HW and SW development and the systems testability&#xD;
+    through system integration should all be considered during the systems design and development.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is recommended that developers examine ISO 26262 Volume 4, clause 7.4.1 through 7.4.4&amp;nbsp;and 7.4.6 in detail to&#xD;
+    fully appreciate the&amp;nbsp;guidance on developing the technical safety concept.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The steps indicated in this section are summaries of&amp;nbsp;considerations that need to be made and again it is advised&#xD;
+    that developers follow the guidelines indicated.&amp;nbsp;&#xD;
+&lt;/p>&lt;br /></mainDescription>
+  <sections xmi:id="_QJ0i8JwOEeCHd41ThlqoSg" name="Apply architectural requirements corresponding the to assigned ASIL" guid="_QJ0i8JwOEeCHd41ThlqoSg">
+    <sectionDescription>&lt;p>&#xD;
+    The architecture of a particular system or subsystem must comply to the technical safety requirements at the their&#xD;
+    respective ASILs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For ASIL C and D any architectural element shall be treated as a safety related unless the element is independent from&#xD;
+    the safety related elements of the item or the implementation meets the criteria for coexistence.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For ASIL B the above statement is recommended.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For the separation and independence of&amp;nbsp; elements between non-safety and safety items ASIL decomposition according&#xD;
+    to ISO 26262 Volume 9 clause 5 needs to be applied&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For the guidelines on the coexistence of SW and HW at different ASIL levels the user should refer to ISO 26262 Volume 9&#xD;
+    clause 6&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_lwfisJwJEeCHd41ThlqoSg" name="Apply measures for the avoidance of systematic failures" guid="_lwfisJwJEeCHd41ThlqoSg">
+    <sectionDescription>&lt;p>&#xD;
+    Carry out&amp;nbsp;deductive and inductive analysis&amp;nbsp;methods as detailed in ISO 26262 Volume 9, Clause 8, to identify&#xD;
+    the causes and effects of systematic failures for these specific ASIL ratings.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The applicability of Inductive methods such as FMEA, ETA and Markov modeling&amp;nbsp;are highly recommended for all ASIL&#xD;
+    levels.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Deductive methods such as FTA and reliability block diagrams are highly recommended for items with an ASIL of C or D,&#xD;
+    while these methods are recommended for items with an ASIL of B. There is no recommendation for against or the usage of&#xD;
+    these techniques for items with an ASIL of A.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The table detailing these requirements,&amp;nbsp;&quot;Table&amp;nbsp;2, System design verification&quot; can&#xD;
+    be&amp;nbsp;located&amp;nbsp;in&amp;nbsp;&amp;nbsp;ISO 26262, volume 4 clause 7.4.3.1. It can also be found using this link &lt;a&#xD;
+    class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.compliance.iso26262.base-ibm/tasks/Verify%20system%20and%20HW%20SW%20design_2EDC3047.html&quot;&#xD;
+    guid=&quot;_tXIJkJzdEeCBU9GxbrSLZw&quot;>Verify system design&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The systemic failure analysis should cover sources of potential failures that exist internal and external to the system&#xD;
+    and the consequences of these failures shall be mitigated.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is expected that well trusted design principles, components and interfaces should be applied and re-used to reduce&#xD;
+    the likelihood of failure associated with new designs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Depending upon the ASIL level, if decomposed or not, certain modular design requirements are applied to the system,&#xD;
+    these are detailed in ISO 26262 volume 4, clause 7.4.3.5&lt;br />&#xD;
+    &lt;br />&#xD;
+    &lt;br />&#xD;
+    &lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_VVnLAJwREeCHd41ThlqoSg" name="Apply measures for the control of random HW failures during operation" guid="_VVnLAJwREeCHd41ThlqoSg">
+    <sectionDescription>&lt;p>&#xD;
+    The guidelines for the measures of control of random hardware failures during operation are highly dependent upon ASIL&#xD;
+    rating for the specific safety requirement.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This guidance is complex and cannot be easily summarized so the user is recommended to read ISO 26262, volume 4, clause&#xD;
+    7.4.4.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Other clauses of ISO 26262 that are referenced by this section are ISO 26262 volume 5:-&#xD;
+&lt;/p>&#xD;
+&lt;blockquote style=&quot;MARGIN-RIGHT: 0px&quot; dir=&quot;ltr&quot;>&#xD;
+    &lt;p>&#xD;
+        clause 8 Hardware architectural metrics&#xD;
+    &lt;/p>&#xD;
+    &lt;p>&#xD;
+        Clause 9 Evaluation of violation of the safety goal due to random HW failures.&#xD;
+    &lt;/p>&#xD;
+&lt;/blockquote></sectionDescription>
+  </sections>
+  <sections xmi:id="_ZSsJ4JzoEeCk2aQcgmZB_w" name="Allocate technical safety requirements to system" guid="_ZSsJ4JzoEeCk2aQcgmZB_w">
+    <sectionDescription>Show that the system covers all the technical safety requirements based upon the technical safety concept</sectionDescription>
+  </sections>
+  <purpose>To develop concepts that enable the system to achieve the ASIL level that its allocated technical safety requirements has&#xD;
+inherited from the safety goals.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

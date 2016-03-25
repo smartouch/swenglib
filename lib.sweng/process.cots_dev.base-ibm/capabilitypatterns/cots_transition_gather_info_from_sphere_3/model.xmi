@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_uH--oOwsEd-sjp03to1LnQ" guid="_uH--oOwsEd-sjp03to1LnQ">
+    <resourceDescriptors xmi:id="_uH--oewsEd-sjp03to1LnQ" id="-K3Iu_WJgDavrNFESNSButg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_TbbdwRawEeCjx5QJHD1iHA" id="-oMULJiPsVAoIOO-0D3tKsQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_cXw90B6LEeCLp5muur8Asw" id="-Irt3lyDhBeT-OCo4fi9nsA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_s-9houwsEd-sjp03to1LnQ" name="cots_transition_gather_info_from_sphere_3" guid="_s-9houwsEd-sjp03to1LnQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_s-9hpewsEd-sjp03to1LnQ" name="cots_monitor_packages_vendors" guid="_s-9hpewsEd-sjp03to1LnQ" presentationName="Monitor COTS Packages and Vendors" briefDescription="This task focuses on monitoring COTS Packages and Vendors." superActivities="_s-9hqOwsEd-sjp03to1LnQ" optionalInput="_s-9ho-wsEd-sjp03to1LnQ _s-9hpOwsEd-sjp03to1LnQ _s-9hpuwsEd-sjp03to1LnQ" output="_s-9ho-wsEd-sjp03to1LnQ _s-9hpOwsEd-sjp03to1LnQ _s-9hpuwsEd-sjp03to1LnQ" performedPrimarilyBy="_s-9hp-wsEd-sjp03to1LnQ">
+      <Task href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHMuwiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-t9Xk5w6nFuJWY5gOJ8Ir2g#_yycHM-wiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-t9Xk5w6nFuJWY5gOJ8Ir2g#_yycHNOwiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_s-9hp-wsEd-sjp03to1LnQ" name="cots_acquirer" guid="_s-9hp-wsEd-sjp03to1LnQ" presentationName="Acquirer" briefDescription="This role is responsible for the identification, implementation, and deployment of complex information technology solutions where COTS packages are an integral part of the solution." superActivities="_s-9hqOwsEd-sjp03to1LnQ" modifies="_s-9ho-wsEd-sjp03to1LnQ _s-9hpOwsEd-sjp03to1LnQ _s-9hpuwsEd-sjp03to1LnQ" responsibleFor="_s-9ho-wsEd-sjp03to1LnQ _s-9hpOwsEd-sjp03to1LnQ _s-9hpuwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t9_9QewsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-Irt3lyDhBeT-OCo4fi9nsA" href="uma://-K3Iu_WJgDavrNFESNSButg#-Irt3lyDhBeT-OCo4fi9nsA"/>
+      <Role href="uma://_2w5PcOvPEd-wYsWv40Tm0w#_K0eOsOwhEd-sjp03to1LnQ"/>
+      <responsibleForExclude href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHSuwiEd-sjp03to1LnQ"/>
+      <responsibleForExclude href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHIuwiEd-sjp03to1LnQ"/>
+      <responsibleForExclude href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHMewiEd-sjp03to1LnQ"/>
+      <responsibleForExclude href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHO-wiEd-sjp03to1LnQ"/>
+      <responsibleForExclude href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHS-wiEd-sjp03to1LnQ"/>
+      <responsibleForExclude href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHI-wiEd-sjp03to1LnQ"/>
+      <responsibleForExclude href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHXuwiEd-sjp03to1LnQ"/>
+      <responsibleForExclude href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHJewiEd-sjp03to1LnQ"/>
+      <responsibleForExclude href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHMOwiEd-sjp03to1LnQ"/>
+      <responsibleForExclude href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHIewiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s-9ho-wsEd-sjp03to1LnQ" name="cots_market_segment_information" guid="_s-9ho-wsEd-sjp03to1LnQ" presentationName="Market Segment Information" briefDescription="This captures the broad characteristics of the market represented by a set of competing COTS packages that are under consideration for use in the solution." superActivities="_s-9hqOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t9_9QuwsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHWewiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s-9hpOwsEd-sjp03to1LnQ" name="cots_package_dossier" guid="_s-9hpOwsEd-sjp03to1LnQ" presentationName="COTS Package Dossier" briefDescription="This captures all of the information regarding a single COTS package." superActivities="_s-9hqOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t9_9Q-wsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHKOwiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s-9hpuwsEd-sjp03to1LnQ" name="cots_vendor_dossier" guid="_s-9hpuwsEd-sjp03to1LnQ" presentationName="Vendor Dossier" briefDescription="This records and ties all of the vendor data that represents a single instance of vendor information into a logical unit. " superActivities="_s-9hqOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t9_9ROwsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHJOwiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_TGkBARawEeCjx5QJHD1iHA" name="cots_acquirer" guid="_TGkBARawEeCjx5QJHD1iHA" presentationName="Acquirer" briefDescription="This role is responsible for the identification, implementation, and deployment of complex information technology solutions where COTS packages are an integral part of the solution." isPlanned="false" superActivities="_s-9hqOwsEd-sjp03to1LnQ" responsibleFor="_TGkBBxawEeCjx5QJHD1iHA _TGkBBRawEeCjx5QJHD1iHA _TGkBAxawEeCjx5QJHD1iHA _TGtyARawEeCjx5QJHD1iHA _TGtyBBawEeCjx5QJHD1iHA _TGtyBxawEeCjx5QJHD1iHA _TGtyChawEeCjx5QJHD1iHA _TGtyDRawEeCjx5QJHD1iHA _TGtyEBawEeCjx5QJHD1iHA _TGtyExawEeCjx5QJHD1iHA _TGtyFhawEeCjx5QJHD1iHA _TGtyGRawEeCjx5QJHD1iHA _TGtyHBawEeCjx5QJHD1iHA">
+      <methodElementProperty xmi:id="_TGkBAhawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-oMULJiPsVAoIOO-0D3tKsQ" href="uma://-K3Iu_WJgDavrNFESNSButg#-oMULJiPsVAoIOO-0D3tKsQ"/>
+      <Role href="uma://_2w5PcOvPEd-wYsWv40Tm0w#_K0eOsOwhEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TGkBAxawEeCjx5QJHD1iHA" name="cots_market_segment_information" guid="_TGkBAxawEeCjx5QJHD1iHA" presentationName="Market Segment Information" briefDescription="This captures the broad characteristics of the market represented by a set of competing COTS packages that are under consideration for use in the solution." isPlanned="false" superActivities="_s-9hqOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_TGkBBBawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHWewiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TGkBBRawEeCjx5QJHD1iHA" name="cots_package_dossier" guid="_TGkBBRawEeCjx5QJHD1iHA" presentationName="COTS Package Dossier" briefDescription="This captures all of the information regarding a single COTS package." isPlanned="false" superActivities="_s-9hqOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_TGkBBhawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHKOwiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TGkBBxawEeCjx5QJHD1iHA" name="cots_vendor_dossier" guid="_TGkBBxawEeCjx5QJHD1iHA" presentationName="Vendor Dossier" briefDescription="This records and ties all of the vendor data that represents a single instance of vendor information into a logical unit. " isPlanned="false" superActivities="_s-9hqOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_TGkBCBawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHJOwiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TGtyARawEeCjx5QJHD1iHA" name="cots_cumulative_solution_eval_summary" guid="_TGtyARawEeCjx5QJHD1iHA" presentationName="Cumulative Candidate Solution Evaluation Summary" briefDescription="This organizes and presents a cumulative summary of the results and key measures that were applied during the review and assessment of each COTS package." isPlanned="false" superActivities="_s-9hqOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_TGtyAhawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHSuwiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TGtyBBawEeCjx5QJHD1iHA" name="cots_eval_score_sheet" guid="_TGtyBBawEeCjx5QJHD1iHA" presentationName="Evaluation Score Sheet" briefDescription="This provides a scoring mechanism that will be used by an evaluator while a vendor's COTS package is being demonstrated to the evaluator." isPlanned="false" superActivities="_s-9hqOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_TGtyBRawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHIuwiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TGtyBxawEeCjx5QJHD1iHA" name="cots_eval_workshop_description" guid="_TGtyBxawEeCjx5QJHD1iHA" presentationName="Vendor and Package Evaluation Workshop Description" briefDescription="This establishes the scope, priorities, and topic flow for the evaluation workshop criteria." isPlanned="false" superActivities="_s-9hqOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_TGtyCBawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHMewiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TGtyChawEeCjx5QJHD1iHA" name="cots_package_acceptance_document" guid="_TGtyChawEeCjx5QJHD1iHA" presentationName="Package Acceptance Document" briefDescription="This is the formal recording and authorized sign-off of the completed predefined set of acceptance criteria as described in the &quot;Product Acceptance Criteria&quot; section of the Product Acceptance Plan artifact. " isPlanned="false" superActivities="_s-9hqOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_TGtyCxawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHO-wiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TGtyDRawEeCjx5QJHD1iHA" name="cots_package_screning_criteria" guid="_TGtyDRawEeCjx5QJHD1iHA" presentationName="COTS Package Screening Criteria and Rationale" briefDescription="This accumulates and organizes the set of measurable criteria against which vendor offerings are initially evaluated and, ultimately, accepted or rejected for consideration as part of a solution." isPlanned="false" superActivities="_s-9hqOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_TGtyDhawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHS-wiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TGtyEBawEeCjx5QJHD1iHA" name="cots_rfi" guid="_TGtyEBawEeCjx5QJHD1iHA" presentationName="Request for Information" briefDescription="This is used for gathering general information about a vendor and a vendor's offerings. This artifact is a brief, expedient document designed to seek information about a vendor and vendor offerings for potential &quot;fit&quot; with the preliminary high-level stakeholder's business requirements and candidate solution(s)." isPlanned="false" superActivities="_s-9hqOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_TGtyERawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHI-wiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TGtyExawEeCjx5QJHD1iHA" name="cots_rfp" guid="_TGtyExawEeCjx5QJHD1iHA" presentationName="Request for Proposal" briefDescription="This is a formal Contracting Vehicle that solicits responses from vendors to detail their offerings. It presents a clear and concise description of the acquiring organization's business goals and objectives, functional and nonfunctional requirements and often includes legal terms and conditions the vendors must accept before they go forward in the selection process. " isPlanned="false" superActivities="_s-9hqOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_TGtyFBawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHXuwiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TGtyFhawEeCjx5QJHD1iHA" name="cots_solution_recommendation" guid="_TGtyFhawEeCjx5QJHD1iHA" presentationName="Solution Recommendation" briefDescription="This presents the findings from the selection process to identify a final vendor(s) and vendor COTS package(s) for acquirer consideration. This artifact provides the rationale for the selection and includes the details for the exclusion of the other short list vendors and products and then summarizes the results, findings and conclusions for the acquirer executives." isPlanned="false" superActivities="_s-9hqOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_TGtyFxawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHJewiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TGtyGRawEeCjx5QJHD1iHA" name="cots_vendor_deployment_unit" guid="_TGtyGRawEeCjx5QJHD1iHA" presentationName="Vendor Deployment Unit" briefDescription="This is a composite artifact, supplied by the COTS package vendor, containing a build (an executable collection of components), documents (user support material and release notes) and installation artifacts." isPlanned="false" superActivities="_s-9hqOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_TGtyGhawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHMOwiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TGtyHBawEeCjx5QJHD1iHA" name="cots_vendor_response" guid="_TGtyHBawEeCjx5QJHD1iHA" presentationName="Vendor Response" briefDescription="This represents the response from the vendor to a Request For Information (RFI) or Request For Proposal (RFP) ." isPlanned="false" superActivities="_s-9hqOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_TGtyHRawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHIewiEd-sjp03to1LnQ"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_s-9hqOwsEd-sjp03to1LnQ" name="cots_transition_gather_info_from_sphere_3" guid="_s-9hqOwsEd-sjp03to1LnQ" presentationName="Gather Info from Sphere 3" briefDescription="This covers essential tasks aiming at gathering information from the Marketplace sphere in the transition phase." breakdownElements="_s-9hpewsEd-sjp03to1LnQ _s-9hp-wsEd-sjp03to1LnQ _s-9ho-wsEd-sjp03to1LnQ _s-9hpOwsEd-sjp03to1LnQ _s-9hpuwsEd-sjp03to1LnQ _TGkBARawEeCjx5QJHD1iHA _TGkBAxawEeCjx5QJHD1iHA _TGkBBRawEeCjx5QJHD1iHA _TGkBBxawEeCjx5QJHD1iHA _TGtyARawEeCjx5QJHD1iHA _TGtyBBawEeCjx5QJHD1iHA _TGtyBxawEeCjx5QJHD1iHA _TGtyChawEeCjx5QJHD1iHA _TGtyDRawEeCjx5QJHD1iHA _TGtyEBawEeCjx5QJHD1iHA _TGtyExawEeCjx5QJHD1iHA _TGtyFhawEeCjx5QJHD1iHA _TGtyGRawEeCjx5QJHD1iHA _TGtyHBawEeCjx5QJHD1iHA">
+      <methodElementProperty xmi:id="_t9_9RewsEd-sjp03to1LnQ" name="process_synFree" value="true"/>
+      <presentation xmi:id="-K3Iu_WJgDavrNFESNSButg" href="uma://-K3Iu_WJgDavrNFESNSButg#-K3Iu_WJgDavrNFESNSButg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

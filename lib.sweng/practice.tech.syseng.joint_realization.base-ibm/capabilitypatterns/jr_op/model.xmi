@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_KnCikZi5Ed6JmoH2XFiafA" guid="_KnCikZi5Ed6JmoH2XFiafA">
+    <resourceDescriptors xmi:id="_KnCikpi5Ed6JmoH2XFiafA" id="-aBR2x73qcQWe1NipDYbVDA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_P9D6IPNpEd-Fw-MeaQjkmw" id="-zh5oJ9oCX6ChPCf-sr502g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_P9NrIPNpEd-Fw-MeaQjkmw" id="-Nj7Xm3AO9_atrksNYiXm3g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_P9NrIfNpEd-Fw-MeaQjkmw" id="-XQ8q7KPcFOAr7n08Idj_Dg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_P9XcIPNpEd-Fw-MeaQjkmw" id="-i2hrwLiRlfYlQzen4X7Qbw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_P9XcIfNpEd-Fw-MeaQjkmw" id="-HWjAKkJcEJP6ODejS4GaDw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_P9XcIvNpEd-Fw-MeaQjkmw" id="-IBtgfLsoTWt8IDmvKLqRaQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_P9gmEPNpEd-Fw-MeaQjkmw" id="-u50O1xlu1kAaAtbSDr-gSQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_KmS7sJi5Ed6JmoH2XFiafA" name="jr_op" guid="_KmS7sJi5Ed6JmoH2XFiafA">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_VPC18KIjEd6eYbGGXte97g" name="create_ports_and_intfcs" guid="_VPC18KIjEd6eYbGGXte97g" presentationName="Create Ports and Interfaces per Subsystem" briefDescription="This task describes the steps involved in creating the ports and interfaces." isPlanned="true" superActivities="_KmS7sZi5Ed6JmoH2XFiafA" linkToPredecessor="_xc1Nsc2OEd6B76SWBPcAnw" isSynchronizedWithSource="false" mandatoryInput="_Q8zdUKImEd6eYbGGXte97g _Q8zdU6ImEd6eYbGGXte97g _WZcQ4KJBEd6eYbGGXte97g" output="_Q8zdUKImEd6eYbGGXte97g">
+      <guidelines href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_g2qrYOT1Ed6-EtmJBf6mkQ"/>
+      <Task href="uma://_mXU1ICSmEd6BKv8Pr8i7Eg#_3yyzUKIiEd6eYbGGXte97g"/>
+      <mandatoryInputExclude href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_F8whAJNkEd6TXvoh_VAeug"/>
+      <selectedStepsExclude href="uma://--6hV0--c_Hsx8Si0jT-uiQ#_94VVsOTzEd6-EtmJBf6mkQ"/>
+      <selectedStepsExclude href="uma://--6hV0--c_Hsx8Si0jT-uiQ#_KM7EMM2EEd6r0fGOs-z5sw"/>
+      <selectedStepsExclude href="uma://--6hV0--c_Hsx8Si0jT-uiQ#_TUTfcM2EEd6r0fGOs-z5sw"/>
+      <selectedStepsExclude href="uma://--6hV0--c_Hsx8Si0jT-uiQ#_ZOpW8M2EEd6r0fGOs-z5sw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_V4BhgKIjEd6eYbGGXte97g" name="derive_alloc_ops" guid="_V4BhgKIjEd6eYbGGXte97g" presentationName="Derive and/or Allocate Operations" briefDescription="This task describes how to derive and allocate the defined operations." isPlanned="true" superActivities="_KmS7sZi5Ed6JmoH2XFiafA" isSynchronizedWithSource="false" mandatoryInput="_Q8zdUKImEd6eYbGGXte97g _Q8zdUaImEd6eYbGGXte97g _Q8zdU6ImEd6eYbGGXte97g _pqXH8KJBEd6eYbGGXte97g" output="_Q8zdUKImEd6eYbGGXte97g _pqXH8KJBEd6eYbGGXte97g">
+      <Task href="uma://_mXU1ICSmEd6BKv8Pr8i7Eg#_YWF74KIiEd6eYbGGXte97g"/>
+      <mandatoryInputExclude href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_CSXS4JNkEd6TXvoh_VAeug"/>
+      <outputExclude href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_CSXS4JNkEd6TXvoh_VAeug"/>
+      <selectedStepsExclude href="uma://-hUFe5vxnx0IDd49h85aE0w#_upsVgM1_Ed6r0fGOs-z5sw"/>
+      <selectedStepsExclude href="uma://-hUFe5vxnx0IDd49h85aE0w#_3Y79kM1_Ed6r0fGOs-z5sw"/>
+      <selectedStepsExclude href="uma://-hUFe5vxnx0IDd49h85aE0w#_PNCE4M2AEd6r0fGOs-z5sw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Whvz8KIjEd6eYbGGXte97g" name="gen_seq_diags" guid="_Whvz8KIjEd6eYbGGXte97g" presentationName="Generate Sequence Diagrams for each Subsystem" briefDescription="This task describes the steps involved in generating the sequence diagrams for each subsystem." isPlanned="true" superActivities="_KmS7sZi5Ed6JmoH2XFiafA" linkToPredecessor="_w-lLcc2OEd6B76SWBPcAnw" isSynchronizedWithSource="false" mandatoryInput="_Q8zdUKImEd6eYbGGXte97g _Q8zdU6ImEd6eYbGGXte97g _pqXH8KJBEd6eYbGGXte97g" output="_WZcQ4KJBEd6eYbGGXte97g">
+      <Task href="uma://_mXU1ICSmEd6BKv8Pr8i7Eg#_xbPbYKIiEd6eYbGGXte97g"/>
+      <mandatoryInputExclude href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_CSXS4JNkEd6TXvoh_VAeug"/>
+      <outputExclude href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_F8whAJNkEd6TXvoh_VAeug"/>
+      <selectedStepsExclude href="uma://-zuOScV8bLoON1ws9zw5Xrw#_2GTZQOTyEd6-EtmJBf6mkQ"/>
+      <selectedStepsExclude href="uma://-zuOScV8bLoON1ws9zw5Xrw#_7may4OTyEd6-EtmJBf6mkQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Q8zdUKImEd6eYbGGXte97g" name="sys_struc_diag" guid="_Q8zdUKImEd6eYbGGXte97g" presentationName="System Architecture Structure Diagram" briefDescription="This artifact describes the internal structure of a system or part of a system." isPlanned="false" superActivities="_KmS7sZi5Ed6JmoH2XFiafA">
+      <methodElementProperty xmi:id="_3d6UELemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-zh5oJ9oCX6ChPCf-sr502g" href="uma://-aBR2x73qcQWe1NipDYbVDA#-zh5oJ9oCX6ChPCf-sr502g"/>
+      <WorkProduct href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_dTfs0JgYEd6u7McLcbxIEQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Q8zdUaImEd6eYbGGXte97g" name="sys_operation" guid="_Q8zdUaImEd6eYbGGXte97g" presentationName="System Operation" briefDescription="A service that can be requested from an system/subsystem to effect behavior. An operation specifies the name, type, parameters, and constraints for invoking an associated behavior." isPlanned="false" superActivities="_KmS7sZi5Ed6JmoH2XFiafA">
+      <methodElementProperty xmi:id="_3d6UEbemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-Nj7Xm3AO9_atrksNYiXm3g" href="uma://-aBR2x73qcQWe1NipDYbVDA#-Nj7Xm3AO9_atrksNYiXm3g"/>
+      <WorkProduct href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_VY4MkGKXEd6Ih4GzU1_Daw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Q8zdU6ImEd6eYbGGXte97g" name="viewpoints_list" guid="_Q8zdU6ImEd6eYbGGXte97g" presentationName="Viewpoints List" briefDescription="A list of all the relevant viewpoints reflecting the concerns of the main stakeholders." isPlanned="false" superActivities="_KmS7sZi5Ed6JmoH2XFiafA">
+      <methodElementProperty xmi:id="_3d6UEremEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-XQ8q7KPcFOAr7n08Idj_Dg" href="uma://-aBR2x73qcQWe1NipDYbVDA#-XQ8q7KPcFOAr7n08Idj_Dg"/>
+      <WorkProduct href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_nTJCoKIlEd6eYbGGXte97g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_WZcQ4KJBEd6eYbGGXte97g" name="sys_op_seq_diag" guid="_WZcQ4KJBEd6eYbGGXte97g" presentationName="System Operation Sequence Diagram" briefDescription="This artifact shows the time order of message exchanges between the collaborating elements realizing an operation." isPlanned="false" superActivities="_KmS7sZi5Ed6JmoH2XFiafA">
+      <methodElementProperty xmi:id="_3d6UFLemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-i2hrwLiRlfYlQzen4X7Qbw" href="uma://-aBR2x73qcQWe1NipDYbVDA#-i2hrwLiRlfYlQzen4X7Qbw"/>
+      <WorkProduct href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_UVUkYKI-Ed6eYbGGXte97g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_WZ480KJBEd6eYbGGXte97g" name="sys_operation_seq_diagram" guid="_WZ480KJBEd6eYbGGXte97g" presentationName="System Operation Sequence Diagram" briefDescription="This artifact shows the time order of message exchanges between the collaborating elements realizing an operation." isPlanned="false" superActivities="_KmS7sZi5Ed6JmoH2XFiafA">
+      <methodElementProperty xmi:id="_3d6UFbemEd-oHLor78AFuw" name="descriptor_customization" value="1"/>
+      <presentation xmi:id="-HWjAKkJcEJP6ODejS4GaDw" href="uma://-aBR2x73qcQWe1NipDYbVDA#-HWjAKkJcEJP6ODejS4GaDw"/>
+      <WorkProduct href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_UVUkYKI-Ed6eYbGGXte97g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_pqXH8KJBEd6eYbGGXte97g" name="sys_op_act_diag" guid="_pqXH8KJBEd6eYbGGXte97g" presentationName="System Operation Activity Diagram" briefDescription="This artifact captures a specification of the functional flows for the collaborating elements realizing an operation." isPlanned="false" superActivities="_KmS7sZi5Ed6JmoH2XFiafA">
+      <methodElementProperty xmi:id="_3d6UE7emEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-IBtgfLsoTWt8IDmvKLqRaQ" href="uma://-aBR2x73qcQWe1NipDYbVDA#-IBtgfLsoTWt8IDmvKLqRaQ"/>
+      <WorkProduct href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_zd0bgKJAEd6eYbGGXte97g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_w-lLcc2OEd6B76SWBPcAnw" guid="_w-lLcc2OEd6B76SWBPcAnw" pred="_V4BhgKIjEd6eYbGGXte97g"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_xc1Nsc2OEd6B76SWBPcAnw" guid="_xc1Nsc2OEd6B76SWBPcAnw" pred="_Whvz8KIjEd6eYbGGXte97g"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Faisk_M7Ed-Fw-MeaQjkmw" name="sys_arch_model" guid="_Faisk_M7Ed-Fw-MeaQjkmw" presentationName="System Architecture Model" briefDescription="A system model is a model of the system, or a part of the system, that defines the main elements, their structure, relationships and behavior. The system model is typically maintained in a modeling tool." isPlanned="false" superActivities="_KmS7sZi5Ed6JmoH2XFiafA">
+      <methodElementProperty xmi:id="_FaislPM7Ed-Fw-MeaQjkmw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-u50O1xlu1kAaAtbSDr-gSQ" href="uma://-aBR2x73qcQWe1NipDYbVDA#-u50O1xlu1kAaAtbSDr-gSQ"/>
+      <WorkProduct href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_vi0-gNU2Ed6aqbXSUcHDpA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_KmS7sZi5Ed6JmoH2XFiafA" name="jr_op" guid="_KmS7sZi5Ed6JmoH2XFiafA" presentationName="Joint Realization - Operation based" breakdownElements="_V4BhgKIjEd6eYbGGXte97g _VPC18KIjEd6eYbGGXte97g _Whvz8KIjEd6eYbGGXte97g _Q8zdUKImEd6eYbGGXte97g _Q8zdUaImEd6eYbGGXte97g _Q8zdU6ImEd6eYbGGXte97g _WZcQ4KJBEd6eYbGGXte97g _WZ480KJBEd6eYbGGXte97g _pqXH8KJBEd6eYbGGXte97g _Faisk_M7Ed-Fw-MeaQjkmw">
+      <methodElementProperty xmi:id="_3d6UFremEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-aBR2x73qcQWe1NipDYbVDA" href="uma://-aBR2x73qcQWe1NipDYbVDA#-aBR2x73qcQWe1NipDYbVDA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

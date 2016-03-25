@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-8H5Tw0pWdAT0U3Kb3lBVNg" name=",_B-gycIUYEd27AYIlqvCTLg" guid="-8H5Tw0pWdAT0U3Kb3lBVNg" changeDate="2009-03-17T22:03:56.906-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    If a use case contains a segment of behavior of which only the result, not the method for getting the result, is of any&#xD;
+    importance to the rest of the use case, this behavior can be factored out to a new &lt;b>inclusion use case&lt;/b>. The&#xD;
+    original use case then becomes the &lt;b>base use case&lt;/b> in an include-relationship with the inclusion use case.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An include-relationship between two use cases means that a use-case instance following the description of the base use&#xD;
+    case also needs to follow the description of the inclusion use case in order to be complete.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The include-relationship can help clarify a use case by:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Isolating and encapsulating complex details so they do not obscure the real meaning of the use case.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Improving consistency by including behavior which are included in several base use cases.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Generally, more than one use case must include an inclusion use case to make it worth it to maintain an extra use case&#xD;
+    and the include-relationship.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Only the base use case knows of the relationship between the two use cases; no inclusion use case knows what other use&#xD;
+    cases includes it.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Describe the include-relationship by briefly stating the purpose of the inclusion, as well as the location in the base&#xD;
+    use case at which the inclusion is to be inserted.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When describing the flow of events of the base use case, you&amp;nbsp;must refer to the inclusion at the location in which&#xD;
+    the inclusion is inserted.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;For more information, see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../practice.tech.use_case_driven_dev.extend-ibm/guidances/guidelines/defining_include_relationships_AC1665F7.html&quot; guid=&quot;_9HuNEEk-Edyi3_jfs__bIQ&quot;>Guideline: Defining Include Relationships&lt;/a>.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

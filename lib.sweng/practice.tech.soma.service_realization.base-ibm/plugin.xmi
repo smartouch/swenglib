@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_AJPzYLaDEd2n36KPip6Xng" guid="_AJPzYLaDEd2n36KPip6Xng">
+    <resourceDescriptors xmi:id="_pNJcgGWxEd6Zd-lbA790BQ" id="-uIPx5T96iQrYkkSgyAWUsQ" uri="tasks/document_service_realization_decisions.xmi"/>
+    <resourceDescriptors xmi:id="_h6-vEWW0Ed6Zd-lbA790BQ" id="-fRltfWQ4gc9lElRJ_sNAAw" uri="guidances/practices/service_realization.xmi"/>
+    <resourceDescriptors xmi:id="_bwuc8GZcEd65K8S2sWS35w" id="-7j2ZHaa6ERJaE6k29jgdEw" uri="guidances/roadmaps/how_to_adopt_service_realization.xmi"/>
+    <resourceDescriptors xmi:id="_GUW74H4fEd6FKq1zmoXhew" id="-dK8y1BGfGyl4_rKNObpyIQ" uri="guidances/whitepapers/layering_strategies.xmi"/>
+    <resourceDescriptors xmi:id="_Er0gcX7SEd6nY4Qy-8feHA" id="-0SWXoNlKS9CaD6RMw2FkCg" uri="guidances/guidelines/making_realization_decisions.xmi"/>
+    <resourceDescriptors xmi:id="_0HL0AX7SEd6nY4Qy-8feHA" id="-sJj9SlVWNDRZiaPAB450dA" uri="guidances/examples/rent_a_car_realization_matrix.xmi"/>
+    <resourceDescriptors xmi:id="_mDBQMIBHEd6gDe17473oSQ" id="-7Fv7vFdP1Zv70SChJxWw6Q" uri="tasks/detail_the_service_components_layer.xmi"/>
+    <resourceDescriptors xmi:id="_-VVm8IB7Ed6gDe17473oSQ" id="-OUTXMCjgKXtwfyiEZMyqyA" uri="tasks/perform_detailed_technical_feasibility_exploration.xmi"/>
+    <resourceDescriptors xmi:id="_RkO4MYCREd6gDe17473oSQ" id="-zmfZ0DxGBz71K7kTeDfRmA" uri="guidances/guidelines/information_service_considerations_and_realization_patterns.xmi"/>
+    <resourceDescriptors xmi:id="_dRYXoYCYEd6gDe17473oSQ" id="-Kimnaf-MbGWp34vnjANPWg" uri="tasks/document_information_service_realization_decisions.xmi"/>
+    <resourceDescriptors xmi:id="_8LV_EZJXEd6z1IoNAP0Lvw" id="-Ru8tzchotSR5y7T1s_Atzw" uri="guidances/supportingmaterials/references.sr.xmi"/>
+    <resourceDescriptors xmi:id="_8rnBwbguEd63AKI_74QaXw" id="-JJSLwhS5PQz7CS9pRRHNSQ" uri="guidances/supportingmaterials/release_info_service_realization.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_AJPzULaDEd2n36KPip6Xng" userChangeable="false" name="practice.tech.soma.service_realization.base-ibm" guid="_AJPzULaDEd2n36KPip6Xng" presentationName="SOMA - Service Realization" briefDescription="This practice focuses on ensuring that the service component implementations and overall architecture satisfy the specified functional and nonfunctional requirements." changeDate="2010-03-05T11:50:36.750-0700">
+    <methodElementProperty xmi:id="_3IKGgbemEd-oHLor78AFuw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_VBVtYBXVEdyM9L6rbYAZaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_AJPzUbaDEd2n36KPip6Xng" name="Content" guid="_AJPzUbaDEd2n36KPip6Xng">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_AJPzUraDEd2n36KPip6Xng" name="Categories" guid="_AJPzUraDEd2n36KPip6Xng">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_AJPzU7aDEd2n36KPip6Xng" name="Domains" guid="_AJPzU7aDEd2n36KPip6Xng"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_AJPzVLaDEd2n36KPip6Xng" name="Disciplines" guid="_AJPzVLaDEd2n36KPip6Xng"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_AJPzVbaDEd2n36KPip6Xng" name="RoleSets" guid="_AJPzVbaDEd2n36KPip6Xng"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_AJPzVraDEd2n36KPip6Xng" name="WP Types" guid="_AJPzVraDEd2n36KPip6Xng"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_AJPzV7aDEd2n36KPip6Xng" name="Tools" guid="_AJPzV7aDEd2n36KPip6Xng"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_AJPzWLaDEd2n36KPip6Xng" name="StandardCategories" guid="_AJPzWLaDEd2n36KPip6Xng"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_AJPzWbaDEd2n36KPip6Xng" name="CustomCategories" guid="_AJPzWbaDEd2n36KPip6Xng">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_AJPzWraDEd2n36KPip6Xng" name="Hidden" guid="_AJPzWraDEd2n36KPip6Xng">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_AJPzW7aDEd2n36KPip6Xng" name="Custom Categories" guid="_AJPzW7aDEd2n36KPip6Xng"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_AJPzXLaDEd2n36KPip6Xng" name="CoreContent" guid="_AJPzXLaDEd2n36KPip6Xng">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_LOsdwLaDEd2n36KPip6Xng" name="service_realization" guid="_LOsdwLaDEd2n36KPip6Xng" presentationName="Service Realization">
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_N9VOQLaDEd2n36KPip6Xng" name="service_realization" guid="_N9VOQLaDEd2n36KPip6Xng" presentationName="Service Realization" briefDescription="This practice focuses on ensuring that the service component implementations and overall architecture satisfy the specified functional and nonfunctional requirements.">
+            <presentation xmi:id="-fRltfWQ4gc9lElRJ_sNAAw" href="uma://-fRltfWQ4gc9lElRJ_sNAAw#-fRltfWQ4gc9lElRJ_sNAAw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_Lzx2IGWuEd6Zd-lbA790BQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_PlxhEGWuEd6Zd-lbA790BQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="uma://_OOB2AAouEdyhlpBPrduOMw#__O7tAMVvEduLYZUGfgZrkQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_v-BTYICMEd6gDe17473oSQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="#_fdSzYGWuEd6Zd-lbA790BQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_OynuUNDqEdunspUKKm1F4Q#_31uc8M5FEdu7c6SGcTVf1A"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_OynuUNDqEdunspUKKm1F4Q#_YLmNgM5FEdu7c6SGcTVf1A"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_IgcA4Eo1Ed6D_7XK49c0nw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Whitepaper" href="#_l4HhwGWuEd6Zd-lbA790BQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_zandcGWuEd6Zd-lbA790BQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_5q5TQGWvEd6Zd-lbA790BQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_3ad-MGWuEd6Zd-lbA790BQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_ysJ_gGWvEd6Zd-lbA790BQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_D1tzYGWuEd6Zd-lbA790BQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_OynuUNDqEdunspUKKm1F4Q#_C5b_8DDIEdyz_pzDMsV8FQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_OynuUNDqEdunspUKKm1F4Q#_a0vYAM5bEdu7c6SGcTVf1A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_D1tzYGWuEd6Zd-lbA790BQ" name="how_to_adopt_service_realization" guid="_D1tzYGWuEd6Zd-lbA790BQ" presentationName="How to Adopt the Service Realization Practice" briefDescription="This roadmap describes how to adopt the Service Realization practice.">
+            <presentation xmi:id="-7j2ZHaa6ERJaE6k29jgdEw" href="uma://-7j2ZHaa6ERJaE6k29jgdEw#-7j2ZHaa6ERJaE6k29jgdEw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Example" xmi:id="_a4LpcGWuEd6Zd-lbA790BQ" name="rent_a_car_realization_matrix" guid="_a4LpcGWuEd6Zd-lbA790BQ" presentationName="Rent-a-Car Realization Matrix" briefDescription="This example presents a simple tabular format that can be used to document realization decisions." guidelines="_fdSzYGWuEd6Zd-lbA790BQ">
+            <presentation xmi:id="-sJj9SlVWNDRZiaPAB450dA" href="uma://-sJj9SlVWNDRZiaPAB450dA#-sJj9SlVWNDRZiaPAB450dA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_fdSzYGWuEd6Zd-lbA790BQ" name="making_realization_decisions" guid="_fdSzYGWuEd6Zd-lbA790BQ" presentationName="Making Realization Decisions" briefDescription="This guideline provides advice and commentary to help in deciding how to realize &#xD;&#xA;service components." examples="_a4LpcGWuEd6Zd-lbA790BQ">
+            <presentation xmi:id="-0SWXoNlKS9CaD6RMw2FkCg" href="uma://-0SWXoNlKS9CaD6RMw2FkCg#-0SWXoNlKS9CaD6RMw2FkCg"/>
+            <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_e3mR4FIREd6lNtylJFsPIg"/>
+            <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_Gcmp8GZaEd65K8S2sWS35w"/>
+            <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_Ocmr0GWpEd6Zd-lbA790BQ"/>
+            <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_RjrxgGWpEd6Zd-lbA790BQ"/>
+            <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_iQvsEGWmEd6Zd-lbA790BQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Whitepaper" xmi:id="_l4HhwGWuEd6Zd-lbA790BQ" name="layering_strategies" guid="_l4HhwGWuEd6Zd-lbA790BQ" presentationName="Layering Strategies" briefDescription="This paper clarifies the concept of layering and presents different layering strategies.">
+            <presentation xmi:id="-dK8y1BGfGyl4_rKNObpyIQ" href="uma://-dK8y1BGfGyl4_rKNObpyIQ#-dK8y1BGfGyl4_rKNObpyIQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_zandcGWuEd6Zd-lbA790BQ" name="detail_the_service_components_layer" guid="_zandcGWuEd6Zd-lbA790BQ" presentationName="Detail the Service Components Layer" briefDescription="This task specifies the details of the components that realize services.">
+            <presentation xmi:id="-7Fv7vFdP1Zv70SChJxWw6Q" href="uma://-7Fv7vFdP1Zv70SChJxWw6Q#-7Fv7vFdP1Zv70SChJxWw6Q"/>
+            <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_Gcmp8GZaEd65K8S2sWS35w"/>
+            <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_RjrxgGWpEd6Zd-lbA790BQ"/>
+            <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_Ocmr0GWpEd6Zd-lbA790BQ"/>
+            <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_PlxhEGWuEd6Zd-lbA790BQ"/>
+            <examples href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_mOf5sFbBEd6MCpkuB85p5g"/>
+            <mandatoryInput href="uma://_OynuUNDqEdunspUKKm1F4Q#_a0vYAM5bEdu7c6SGcTVf1A"/>
+            <mandatoryInput href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_IgcA4Eo1Ed6D_7XK49c0nw"/>
+            <mandatoryInput href="uma://_OynuUNDqEdunspUKKm1F4Q#_YLmNgM5FEdu7c6SGcTVf1A"/>
+            <output href="uma://_OynuUNDqEdunspUKKm1F4Q#_31uc8M5FEdu7c6SGcTVf1A"/>
+            <optionalInput href="uma://_OynuUNDqEdunspUKKm1F4Q#_31uc8M5FEdu7c6SGcTVf1A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3ad-MGWuEd6Zd-lbA790BQ" name="document_service_realization_decisions" guid="_3ad-MGWuEd6Zd-lbA790BQ" presentationName="Document Service Realization Decisions" briefDescription="Decide how each service component is to be realized, to satisfy the service specification's functional and non-functional requirements." guidelines="_fdSzYGWuEd6Zd-lbA790BQ" examples="_a4LpcGWuEd6Zd-lbA790BQ">
+            <presentation xmi:id="-uIPx5T96iQrYkkSgyAWUsQ" href="uma://-uIPx5T96iQrYkkSgyAWUsQ#-uIPx5T96iQrYkkSgyAWUsQ"/>
+            <mandatoryInput href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_IgcA4Eo1Ed6D_7XK49c0nw"/>
+            <mandatoryInput href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_t8NJEFa9Ed6MCpkuB85p5g"/>
+            <mandatoryInput href="uma://_OynuUNDqEdunspUKKm1F4Q#_YLmNgM5FEdu7c6SGcTVf1A"/>
+            <mandatoryInput href="uma://_OynuUNDqEdunspUKKm1F4Q#_a0vYAM5bEdu7c6SGcTVf1A"/>
+            <mandatoryInput href="uma://_OynuUNDqEdunspUKKm1F4Q#_Gio7QDDIEdyz_pzDMsV8FQ"/>
+            <output href="uma://_OynuUNDqEdunspUKKm1F4Q#_a0vYAM5bEdu7c6SGcTVf1A"/>
+            <output href="uma://_OynuUNDqEdunspUKKm1F4Q#_YLmNgM5FEdu7c6SGcTVf1A"/>
+            <optionalInput href="uma://_OynuUNDqEdunspUKKm1F4Q#_nZEA4DDXEdyz_pzDMsV8FQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ysJ_gGWvEd6Zd-lbA790BQ" name="perform_detailed_technical_feasibility_exploration" guid="_ysJ_gGWvEd6Zd-lbA790BQ" presentationName="Perform Detailed Technical Feasibility Exploration" briefDescription="This task defines how to develop and assess a technical proof-of-concept, for a SOA solution, based on existing architectural requirements and risk profile.">
+            <presentation xmi:id="-OUTXMCjgKXtwfyiEZMyqyA" href="uma://-OUTXMCjgKXtwfyiEZMyqyA#-OUTXMCjgKXtwfyiEZMyqyA"/>
+            <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_fREWsKmFEd6aY6j-UvaWFw"/>
+            <examples href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_Pn9RcHruEd6mlZJ30DTT1Q"/>
+            <mandatoryInput href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_IgcA4Eo1Ed6D_7XK49c0nw"/>
+            <mandatoryInput href="uma://_OynuUNDqEdunspUKKm1F4Q#_YLmNgM5FEdu7c6SGcTVf1A"/>
+            <mandatoryInput href="uma://_OynuUNDqEdunspUKKm1F4Q#_a0vYAM5bEdu7c6SGcTVf1A"/>
+            <mandatoryInput href="uma://_OynuUNDqEdunspUKKm1F4Q#_Gio7QDDIEdyz_pzDMsV8FQ"/>
+            <output href="uma://_OynuUNDqEdunspUKKm1F4Q#_C5b_8DDIEdyz_pzDMsV8FQ"/>
+            <optionalInput href="uma://_OynuUNDqEdunspUKKm1F4Q#_nZEA4DDXEdyz_pzDMsV8FQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_5q5TQGWvEd6Zd-lbA790BQ" name="document_information_service_realization_decisions" guid="_5q5TQGWvEd6Zd-lbA790BQ" presentationName="Document Information Service Realization Decisions" briefDescription="This task defines an approach for deciding how to realize the specialized services that address information access and management issues." guidelines="_v-BTYICMEd6gDe17473oSQ">
+            <presentation xmi:id="-Kimnaf-MbGWp34vnjANPWg" href="uma://-Kimnaf-MbGWp34vnjANPWg#-Kimnaf-MbGWp34vnjANPWg"/>
+            <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_GjvrcIB_Ed6gDe17473oSQ"/>
+            <mandatoryInput href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_IgcA4Eo1Ed6D_7XK49c0nw"/>
+            <mandatoryInput href="uma://_OynuUNDqEdunspUKKm1F4Q#_YLmNgM5FEdu7c6SGcTVf1A"/>
+            <mandatoryInput href="uma://_OynuUNDqEdunspUKKm1F4Q#_pEaKYDDBEdyz_pzDMsV8FQ"/>
+            <output href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_IgcA4Eo1Ed6D_7XK49c0nw"/>
+            <output href="uma://_OynuUNDqEdunspUKKm1F4Q#_a0vYAM5bEdu7c6SGcTVf1A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_v-BTYICMEd6gDe17473oSQ" name="information_service_considerations_and_realization_patterns" guid="_v-BTYICMEd6gDe17473oSQ" presentationName="Information Service Considerations and Realization Patterns" briefDescription="This guideline briefly discusses some of the issues to be considered during the detailed design and realization of information services.  Pattern-based solutions to the issues are presented.">
+            <presentation xmi:id="-zmfZ0DxGBz71K7kTeDfRmA" href="uma://-zmfZ0DxGBz71K7kTeDfRmA#-zmfZ0DxGBz71K7kTeDfRmA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="__3WMMJJWEd6z1IoNAP0Lvw" name="references.sr" guid="__3WMMJJWEd6z1IoNAP0Lvw" variabilityType="contributes">
+            <presentation xmi:id="-Ru8tzchotSR5y7T1s_Atzw" href="uma://-Ru8tzchotSR5y7T1s_Atzw#-Ru8tzchotSR5y7T1s_Atzw"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_hfmV0JGpEd2_q4BPpX1v7g#_OKj94D8iEd2AxfTL63EayA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_8pFSMLguEd63AKI_74QaXw" name="release_info" guid="_8pFSMLguEd63AKI_74QaXw" presentationName="Release Info">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_8pFSMbguEd63AKI_74QaXw" name="release_info_service_realization" guid="_8pFSMbguEd63AKI_74QaXw" presentationName="Practice: Service Realization" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-JJSLwhS5PQz7CS9pRRHNSQ" href="uma://-JJSLwhS5PQz7CS9pRRHNSQ#-JJSLwhS5PQz7CS9pRRHNSQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_AJPzXbaDEd2n36KPip6Xng" name="CapabilityPatterns" guid="_AJPzXbaDEd2n36KPip6Xng"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_AJPzXraDEd2n36KPip6Xng" name="DeliveryProcesses" guid="_AJPzXraDEd2n36KPip6Xng"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_AJPzX7aDEd2n36KPip6Xng" name="ProcessContributions" guid="_AJPzX7aDEd2n36KPip6Xng"/>
+    <bases href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_iX6DsBXGEdyM9L6rbYAZaw"/>
+    <bases href="uma://_Qyp8YGpiEd24CboUCnKL3A#_Qyp8YGpiEd24CboUCnKL3A"/>
+    <bases href="uma://_OOB2AAouEdyhlpBPrduOMw#_OOB2AAouEdyhlpBPrduOMw"/>
+    <bases href="uma://_OynuUNDqEdunspUKKm1F4Q#_OynuUNDqEdunspUKKm1F4Q"/>
+    <bases href="uma://_hfmV0JGpEd2_q4BPpX1v7g#_hfmV0JGpEd2_q4BPpX1v7g"/>
+    <bases href="uma://_-bv0ELXuEduGP_98XMd0fg#_-bv0ELXuEduGP_98XMd0fg"/>
+    <bases href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_6Bi1YLAYEd2oW_uTVb0U4w"/>
+    <bases href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_6yJIwK9QEd2qXOsgZ_h9PA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

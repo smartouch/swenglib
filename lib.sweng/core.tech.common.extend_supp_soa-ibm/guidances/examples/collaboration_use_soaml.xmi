@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-1-Ge9N-foBEtX4-XKK_45w" name="new_example,_CBQgYGakEd65K8S2sWS35w" guid="-1-Ge9N-foBEtX4-XKK_45w" changeDate="2009-09-23T19:02:09.234-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    SoaML includes two stereotyped Collaborations, those being ServicesArchitecture and ServiceContract.&amp;nbsp; The SoaML&#xD;
+    CollaborationUse &lt;font size=&quot;2&quot;>is a statement about the ability of a containing Classifier to provide or use&#xD;
+    capabilities, have structure, or behave in a manner consistent with that expressed in&amp;nbsp;the&#xD;
+    CollaborationUse's&amp;nbsp;Collaboration type. It is an assertion about the structure and behavior of the containing&#xD;
+    classifier and the suitability of its parts to play roles for a specific purpose.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>The following figure&amp;nbsp;shows a ShippingService ServiceInterface that fulfills&amp;nbsp;a ShippingContract&#xD;
+    collaboration. The ShippingService contains a CollaborationUse that binds the parts representing the consumers and&#xD;
+    providers of the ServiceInterface to the roles they play in the ServiceContract Collaboration. The shipping part is&#xD;
+    bound to the shipping role and the orderer part is bound to the orderer role. These parts must be compatible with the&#xD;
+    roles they play. In this case they clearly are, because the parts and roles have the same type. In general, these&#xD;
+    types&amp;nbsp;can be different, as the parts will often play roles in more than one contract.&amp;nbsp; They also might have&#xD;
+    capabilities beyond what the roles call for. This allows ServiceInterfaces to be defined that account for anticipated&#xD;
+    variability, in order to be more reusable. It also allows ServiceInterfaces to evolve to support more capabilities&#xD;
+    while fulfilling the same ServiceContracts.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>The ShippingService ServiceInterface does not have to have exactly the same behavior as the&#xD;
+    ServiceContract collaboration it is fulfilling, the behaviors only need to be compatible.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&#xD;
+    &lt;img height=&quot;394&quot; alt=&quot;&quot; src=&quot;resources/collaboration_use_example.gif&quot; width=&quot;577&quot; />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

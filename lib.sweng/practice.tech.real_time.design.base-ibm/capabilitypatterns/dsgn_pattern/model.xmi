@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_iHMcQbCiEd-_-u_W99sqSA" guid="_iHMcQbCiEd-_-u_W99sqSA">
+    <resourceDescriptors xmi:id="_iHMcQrCiEd-_-u_W99sqSA" id="-xOvDFy9oDEvL9E10-i2gnQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_iGc1YLCiEd-_-u_W99sqSA" name="dsgn_pattern" guid="_iGc1YLCiEd-_-u_W99sqSA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_jXN5sLCiEd-_-u_W99sqSA" name="Define Criteria and Scope" guid="_jXN5sLCiEd-_-u_W99sqSA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_jXN5sbCiEd-_-u_W99sqSA" name="Define Criteria and Scope" guid="_jXN5sbCiEd-_-u_W99sqSA" presentationName="Define Criteria and Scope" superActivities="_iGc1YbCiEd-_-u_W99sqSA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_nDQGkLCiEd-_-u_W99sqSA" name="Design and Optimize" guid="_nDQGkLCiEd-_-u_W99sqSA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_nDQGkbCiEd-_-u_W99sqSA" name="Design and Optimize" guid="_nDQGkbCiEd-_-u_W99sqSA" presentationName="Design and Optimize" superActivities="_iGc1YbCiEd-_-u_W99sqSA" linkToPredecessor="_2mpjAbCiEd-_-u_W99sqSA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_2mpjAbCiEd-_-u_W99sqSA" guid="_2mpjAbCiEd-_-u_W99sqSA" pred="_jXN5sbCiEd-_-u_W99sqSA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_qDxRQLCiEd-_-u_W99sqSA" name="Translate and Validate" guid="_qDxRQLCiEd-_-u_W99sqSA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_qDxRQbCiEd-_-u_W99sqSA" name="Translate and Validate" guid="_qDxRQbCiEd-_-u_W99sqSA" presentationName="Translate and Validate" superActivities="_iGc1YbCiEd-_-u_W99sqSA" linkToPredecessor="_5RQvIbCiEd-_-u_W99sqSA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_5RQvIbCiEd-_-u_W99sqSA" guid="_5RQvIbCiEd-_-u_W99sqSA" pred="_nDQGkbCiEd-_-u_W99sqSA"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_iGc1YbCiEd-_-u_W99sqSA" name="dsgn_pattern" guid="_iGc1YbCiEd-_-u_W99sqSA" presentationName="Design Pattern" breakdownElements="_jXN5sbCiEd-_-u_W99sqSA _nDQGkbCiEd-_-u_W99sqSA _qDxRQbCiEd-_-u_W99sqSA">
+      <methodElementProperty xmi:id="_q_GdAukJEd-I1fnAy2RxGw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-xOvDFy9oDEvL9E10-i2gnQ" href="uma://-xOvDFy9oDEvL9E10-i2gnQ#-xOvDFy9oDEvL9E10-i2gnQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

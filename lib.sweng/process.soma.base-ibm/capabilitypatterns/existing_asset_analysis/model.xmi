@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_1cguoZjxEd69jrnQ2K7ppQ" guid="_1cguoZjxEd69jrnQ2K7ppQ">
+    <resourceDescriptors xmi:id="_1cguopjxEd69jrnQ2K7ppQ" id="-ROYxDCxFYTU9tdcuQkXOaQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_3w2ucKzsEeCJ-7p1IAy8Iw" id="-R0bspZrol2Lln6ZwcSJJ0Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_3w2ucazsEeCJ-7p1IAy8Iw" id="-yV4Dww0AkhnA0apVAbA3yQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_3w2ucqzsEeCJ-7p1IAy8Iw" id="-aDcD2o3S8XrNHei0brusbQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_3xAfcKzsEeCJ-7p1IAy8Iw" id="-Bpr9UXh-lt9bMmkE793HoQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_3xAfcazsEeCJ-7p1IAy8Iw" id="-7LjmLlnT38ZQlHMBF5qf8g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_3xAfc6zsEeCJ-7p1IAy8Iw" id="-FQ3HYtAK0Js8kPNY52tYjQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_1beM0JjxEd69jrnQ2K7ppQ" name="existing_asset_analysis" guid="_1beM0JjxEd69jrnQ2K7ppQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_WCabEJj4Ed69jrnQ2K7ppQ" name="identify_candidate_services_from_existing_assets" guid="_WCabEJj4Ed69jrnQ2K7ppQ" presentationName="Identify Candidate Services from Existing Assets" briefDescription="Effectively reusing existing functionality can significantly reduce the lifecycle cost of an SOA.  This task facilitates such reuse, by identifying candidate services that can be harvested from existing IT software assets." superActivities="_1beM0ZjxEd69jrnQ2K7ppQ" mandatoryInput="_WCabE5j4Ed69jrnQ2K7ppQ _fACB0a06Ed6PI4QTZDl88Q" output="_WCabE5j4Ed69jrnQ2K7ppQ _WCabFZj4Ed69jrnQ2K7ppQ">
+      <methodElementProperty xmi:id="_4ACw1remEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <presentation xmi:id="-R0bspZrol2Lln6ZwcSJJ0Q" href="uma://-ROYxDCxFYTU9tdcuQkXOaQ#-R0bspZrol2Lln6ZwcSJJ0Q"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_A5_hYFbBEd6MCpkuB85p5g"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_R5GZYEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_YDPAYEo1Ed6D_7XK49c0nw"/>
+      <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_ksjf0GWpEd6Zd-lbA790BQ"/>
+      <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_fREWsKmFEd6aY6j-UvaWFw"/>
+      <Task href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_ZuYAMFIPEd6lNtylJFsPIg"/>
+      <selectedSteps href="uma://-zX2g74wrSjohoEHOmIsOjw#_uj7mYHpqEd6gprFfWHBp7w"/>
+      <selectedSteps href="uma://-zX2g74wrSjohoEHOmIsOjw#_afB4MHprEd6gprFfWHBp7w"/>
+      <selectedSteps href="uma://-zX2g74wrSjohoEHOmIsOjw#_tGrIwHprEd6gprFfWHBp7w"/>
+      <selectedSteps href="uma://-zX2g74wrSjohoEHOmIsOjw#_5PeGkHprEd6gprFfWHBp7w"/>
+      <selectedSteps href="uma://-zX2g74wrSjohoEHOmIsOjw#_XW-QMHptEd6gprFfWHBp7w"/>
+      <selectedSteps href="uma://-zX2g74wrSjohoEHOmIsOjw#_tVWMAHptEd6gprFfWHBp7w"/>
+      <selectedSteps href="uma://-zX2g74wrSjohoEHOmIsOjw#_V-qukHpvEd6gprFfWHBp7w"/>
+      <selectedSteps href="uma://-zX2g74wrSjohoEHOmIsOjw#_NW86cHvmEd6tIvNJ0OpmMQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_WCabE5j4Ed69jrnQ2K7ppQ" name="service_model" guid="_WCabE5j4Ed69jrnQ2K7ppQ" presentationName="Service Model" briefDescription="The service model is a model of the core elements of a Service Oriented Architecture (SOA). The service model is used as an essential input to tasks in implementation and testing." isPlanned="false" superActivities="_1beM0ZjxEd69jrnQ2K7ppQ">
+      <methodElementProperty xmi:id="_4ACw0LemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_O0Qk0Eo0Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_T-AiUEozEd6D_7XK49c0nw"/>
+      <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_lc5vgGsLEd6dX9uDBR7y4Q"/>
+      <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_qHU5sFIREd6lNtylJFsPIg"/>
+      <templates href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_mJhD0GkcEd6g1IDZLlcC3g"/>
+      <templates href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_xsgiYFIREd6lNtylJFsPIg"/>
+      <templates href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_3yebEFIREd6lNtylJFsPIg"/>
+      <WorkProduct href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_IgcA4Eo1Ed6D_7XK49c0nw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_WCabFZj4Ed69jrnQ2K7ppQ" name="asset_fit_gap_analysis" guid="_WCabFZj4Ed69jrnQ2K7ppQ" presentationName="Asset Fit Gap Analysis" briefDescription="A document that describes the degree to which a specific asset is fit for a specific purpose." isPlanned="false" superActivities="_1beM0ZjxEd69jrnQ2K7ppQ">
+      <methodElementProperty xmi:id="_4ACw2LemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-yV4Dww0AkhnA0apVAbA3yQ" href="uma://-ROYxDCxFYTU9tdcuQkXOaQ#-yV4Dww0AkhnA0apVAbA3yQ"/>
+      <WorkProduct href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_t8NJEFa9Ed6MCpkuB85p5g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_WtL2YJj4Ed69jrnQ2K7ppQ" name="perform_technical_feasibility_exploration" guid="_WtL2YJj4Ed69jrnQ2K7ppQ" presentationName="Perform Technical Feasibility Exploration" briefDescription="Develop and assess a technical proof-of-concept for an SOA solution, based on existing architectural requirements and risk profile." isOptional="true" superActivities="_1beM0ZjxEd69jrnQ2K7ppQ" isOngoing="true" isSynchronizedWithSource="false" mandatoryInput="_WCabE5j4Ed69jrnQ2K7ppQ _KXqboKDaEd-4f4gQStxgSw _KXqboaDaEd-4f4gQStxgSw" optionalInput="_KXqbo6DaEd-4f4gQStxgSw">
+      <methodElementProperty xmi:id="_4ACwz7emEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <presentation xmi:id="-aDcD2o3S8XrNHei0brusbQ" href="uma://-ROYxDCxFYTU9tdcuQkXOaQ#-aDcD2o3S8XrNHei0brusbQ"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_R5GZYEo1Ed6D_7XK49c0nw"/>
+      <examples href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_Pn9RcHruEd6mlZJ30DTT1Q"/>
+      <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_fREWsKmFEd6aY6j-UvaWFw"/>
+      <Task href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_g9y0QFIPEd6lNtylJFsPIg"/>
+      <selectedSteps href="uma://-wXPhs841c1_fp_eADhGSIw#_UGFUoH5GEd6plMaA9hADUA"/>
+      <selectedSteps href="uma://-wXPhs841c1_fp_eADhGSIw#_gwxsMHrxEd6mlZJ30DTT1Q"/>
+      <selectedSteps href="uma://-wXPhs841c1_fp_eADhGSIw#_-JvxUHrxEd6mlZJ30DTT1Q"/>
+      <selectedSteps href="uma://-wXPhs841c1_fp_eADhGSIw#_HjwNoHryEd6mlZJ30DTT1Q"/>
+      <selectedSteps href="uma://-wXPhs841c1_fp_eADhGSIw#_aPBo0H5GEd6plMaA9hADUA"/>
+      <selectedSteps href="uma://-wXPhs841c1_fp_eADhGSIw#_fFawAH5GEd6plMaA9hADUA"/>
+      <mandatoryInputExclude href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_t8NJEFa9Ed6MCpkuB85p5g"/>
+      <optionalInputExclude href="uma://_OynuUNDqEdunspUKKm1F4Q#_YLmNgM5FEdu7c6SGcTVf1A"/>
+      <outputExclude href="uma://_OynuUNDqEdunspUKKm1F4Q#_C5b_8DDIEdyz_pzDMsV8FQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_fACB0a06Ed6PI4QTZDl88Q" name="business_design_slot" guid="_fACB0a06Ed6PI4QTZDl88Q" presentationName="[Business Design]" briefDescription="This slot serves as an abstraction of high-level artifacts that define the overall structure and processes of the business operates." isPlanned="false" superActivities="_1beM0ZjxEd69jrnQ2K7ppQ">
+      <methodElementProperty xmi:id="_4ACw17emEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_AuAlcDyVEdyz7ZnE62_AvQ#_OIXJkBYREd2eavK0BKAMiA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_KXqboKDaEd-4f4gQStxgSw" name="architectural_decisions" guid="_KXqboKDaEd-4f4gQStxgSw" presentationName="Architectural Decisions" briefDescription="Documents key decisions about the architecture and the rationale behind those decisions." superActivities="_1beM0ZjxEd69jrnQ2K7ppQ">
+      <methodElementProperty xmi:id="_4ACw0bemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-Bpr9UXh-lt9bMmkE793HoQ" href="uma://-ROYxDCxFYTU9tdcuQkXOaQ#-Bpr9UXh-lt9bMmkE793HoQ"/>
+      <checklists href="uma://_OynuUNDqEdunspUKKm1F4Q#_Dj7t4DesEdyrF6K2SkiByg"/>
+      <examples href="uma://_OynuUNDqEdunspUKKm1F4Q#_5pNfQDetEdyrF6K2SkiByg"/>
+      <templates href="uma://_OynuUNDqEdunspUKKm1F4Q#_JMIQADetEdyrF6K2SkiByg"/>
+      <estimationconsiderations href="uma://_OynuUNDqEdunspUKKm1F4Q#_qMfIADesEdyrF6K2SkiByg"/>
+      <WorkProduct href="uma://_OynuUNDqEdunspUKKm1F4Q#_a0vYAM5bEdu7c6SGcTVf1A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_KXqboaDaEd-4f4gQStxgSw" name="architecture_overview" guid="_KXqboaDaEd-4f4gQStxgSw" presentationName="Architecture Overview" briefDescription="An informal rich picture or storyboard that illustrates the essential nature of the proposed architecture. It conveys the governing ideas and major building blocks of the architecture." superActivities="_1beM0ZjxEd69jrnQ2K7ppQ">
+      <methodElementProperty xmi:id="_4ACw0remEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-7LjmLlnT38ZQlHMBF5qf8g" href="uma://-ROYxDCxFYTU9tdcuQkXOaQ#-7LjmLlnT38ZQlHMBF5qf8g"/>
+      <checklists href="uma://_OynuUNDqEdunspUKKm1F4Q#_ahJW4De0EdyjZfPoe205xw"/>
+      <examples href="uma://_OynuUNDqEdunspUKKm1F4Q#_kCqegDe2EdyjZfPoe205xw"/>
+      <templates href="uma://_OynuUNDqEdunspUKKm1F4Q#_BjUx8De1EdyjZfPoe205xw"/>
+      <estimationconsiderations href="uma://_OynuUNDqEdunspUKKm1F4Q#_t55z8De3EdyjZfPoe205xw"/>
+      <WorkProduct href="uma://_OynuUNDqEdunspUKKm1F4Q#_Gio7QDDIEdyz_pzDMsV8FQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_KXqbo6DaEd-4f4gQStxgSw" name="operational_model" guid="_KXqbo6DaEd-4f4gQStxgSw" presentationName="Operational Model" briefDescription="This artifact describes the &quot;operational&quot; aspect of an IT system's architecture.  It describes the required operational characteristics and capabilities of the IT system architecture  and represents, at an architectural level,  the network of computer systems and their associated peripherals, together with the systems software, middleware, and application software that they run in order to support the users of the system." superActivities="_1beM0ZjxEd69jrnQ2K7ppQ">
+      <methodElementProperty xmi:id="_4ACw07emEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-FQ3HYtAK0Js8kPNY52tYjQ" href="uma://-ROYxDCxFYTU9tdcuQkXOaQ#-FQ3HYtAK0Js8kPNY52tYjQ"/>
+      <guidelines href="uma://_OynuUNDqEdunspUKKm1F4Q#_zFJ90EXOEdySN4ARbXZqvw"/>
+      <guidelines href="uma://_OynuUNDqEdunspUKKm1F4Q#_phCt0EXPEdySN4ARbXZqvw"/>
+      <guidelines href="uma://_OynuUNDqEdunspUKKm1F4Q#_Dh8q8EXQEdySN4ARbXZqvw"/>
+      <WorkProduct href="uma://_OynuUNDqEdunspUKKm1F4Q#_nZEA4DDXEdyz_pzDMsV8FQ"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_1beM0ZjxEd69jrnQ2K7ppQ" name="existing_asset_analysis" guid="_1beM0ZjxEd69jrnQ2K7ppQ" presentationName="Existing Asset Analysis" breakdownElements="_WCabEJj4Ed69jrnQ2K7ppQ _WCabE5j4Ed69jrnQ2K7ppQ _WCabFZj4Ed69jrnQ2K7ppQ _WtL2YJj4Ed69jrnQ2K7ppQ _fACB0a06Ed6PI4QTZDl88Q _KXqboKDaEd-4f4gQStxgSw _KXqboaDaEd-4f4gQStxgSw _KXqbo6DaEd-4f4gQStxgSw">
+      <methodElementProperty xmi:id="_naA1cJm7Ed6wYer5xLEQPw" name="publish_ad" value="true"/>
+      <methodElementProperty xmi:id="_naA1cZm7Ed6wYer5xLEQPw" name="publish_add" value="true"/>
+      <methodElementProperty xmi:id="_4ACw2bemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-ROYxDCxFYTU9tdcuQkXOaQ" href="uma://-ROYxDCxFYTU9tdcuQkXOaQ#-ROYxDCxFYTU9tdcuQkXOaQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

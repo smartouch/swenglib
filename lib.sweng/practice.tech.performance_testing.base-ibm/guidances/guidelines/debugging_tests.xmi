@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-rqwuei_tj2nREF-cpOZ0rA" name="new_guideline,_h44xgODOEdy_TKG9JydNsA" guid="-rqwuei_tj2nREF-cpOZ0rA" changeDate="2008-02-21T14:45:48.281-0800" version="7.2.0">
+  <mainDescription>&lt;p>&#xD;
+    For each user scenario, a test recorder is used to capture the user session and generate a test. The first step in&#xD;
+    debugging the user session is to play this session back as it was recorded to make sure the server accepts the test as&#xD;
+    generated. In the event that this does not provide the intended result, it can be caused by four main reasons: an&#xD;
+    unsupported authentication mechanism is used by the server, the data correlation required by the server application is&#xD;
+    not automatically handled, a data dependency exists in the user scenario that requires data variation, or some Java&#xD;
+    applet operations must be programmed to permit the session to run properly. An experienced user of the performance&#xD;
+    testing tool should be able to handle any of these four cases and tell them apart.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There are four further steps in debugging your test:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Add input data variation, verification points, and any flow of control constructs needed for your test when it is&#xD;
+        run in multi-user mode. Run the test straight through with these changes and make sure it executes properly and all&#xD;
+        verification points pass.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Create a test schedule and run the same test in a loop of three iterations. Make sure that no test start/end&#xD;
+        boundary conditions cause failures. Contents of the cookie cache are often a source of trouble here.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Create a test schedule and run 3-5 virtual users running the same test in a loop of three iterations. This permits&#xD;
+        data collisions, table locks, and other simultaneous user errors to be uncovered. Problems here are typically&#xD;
+        solved by fixing single-threaded application modules and adding data variation where it is required.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Create a test schedule and run 20-30% of expected system capacity. With this test, server time-outs and basic&#xD;
+        load-triggered timing dependencies can be uncovered. In general, these problems are due to application design and&#xD;
+        tuning deficiencies. The important thing is to uncover these problems early and get application development help in&#xD;
+        solving them before serious load testing begins.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

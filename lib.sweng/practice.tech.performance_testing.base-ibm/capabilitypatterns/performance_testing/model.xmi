@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_-DTvMMVLEdy2a8x38u2GrA" guid="_-DTvMMVLEdy2a8x38u2GrA">
+    <resourceDescriptors xmi:id="_-DTvMcVLEdy2a8x38u2GrA" id="-MNELRrII2P685hdJ7U23ag" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_98J-UMVLEdy2a8x38u2GrA" name="Performance Testing" guid="_98J-UMVLEdy2a8x38u2GrA">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_DuAoMMVMEdy2a8x38u2GrA" name="establish_perf_test_goals" guid="_DuAoMMVMEdy2a8x38u2GrA" presentationName="Establish Performance Test Goals" briefDescription="This task describes how to plan performance tests." superActivities="_98J-UcVLEdy2a8x38u2GrA" mandatoryInput="_i1uPsByDEd25IrCLT8F6ZA _i1uPsRyDEd25IrCLT8F6ZA" optionalInput="_i1uPshyDEd25IrCLT8F6ZA _i1uPsxyDEd25IrCLT8F6ZA _i1uPtByDEd25IrCLT8F6ZA" output="_i1uPshyDEd25IrCLT8F6ZA _i1uPsxyDEd25IrCLT8F6ZA">
+      <methodElementProperty xmi:id="_3AafzLemEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <guidelines href="uma://_OynuUNDqEdunspUKKm1F4Q#_wF1rEHODEdyur-UVVhx-aQ"/>
+      <guidelines href="uma://_8rSYAG5GEdyAHIxjZ9kpqw#_abNFgOCuEdy_TKG9JydNsA"/>
+      <toolmentor href="uma://_OlxzUHjqEdyhRNciHt44hg#_YFlNQHj4EdyhRNciHt44hg"/>
+      <toolmentor href="uma://_OlxzUHjqEdyhRNciHt44hg#_yeokoHj4EdyhRNciHt44hg"/>
+      <Task href="uma://_8rSYAG5GEdyAHIxjZ9kpqw#_YcVDIHODEdyur-UVVhx-aQ"/>
+      <selectedSteps href="uma://-vmF0ynO_RWh4xg7dZBzlhw#_vVAmwHeDEdyqd9oUl_5ulw"/>
+      <selectedSteps href="uma://-vmF0ynO_RWh4xg7dZBzlhw#_wvKQkHeDEdyqd9oUl_5ulw"/>
+      <selectedSteps href="uma://-vmF0ynO_RWh4xg7dZBzlhw#_yQdrQHeDEdyqd9oUl_5ulw"/>
+      <selectedSteps href="uma://-vmF0ynO_RWh4xg7dZBzlhw#_z2ZHQHeDEdyqd9oUl_5ulw"/>
+      <mandatoryInputExclude href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_EuOvEMVMEdy2a8x38u2GrA" name="design_performance_test" guid="_EuOvEMVMEdy2a8x38u2GrA" presentationName="Design Performance Test" briefDescription="This task focuses on implementing performance tests through design of workloads." superActivities="_98J-UcVLEdy2a8x38u2GrA" linkToPredecessor="_nZUOEcVMEdy2a8x38u2GrA" mandatoryInput="_i1uPtRyDEd25IrCLT8F6ZA _i1uPsByDEd25IrCLT8F6ZA _i1uPsRyDEd25IrCLT8F6ZA" optionalInput="_i1uPshyDEd25IrCLT8F6ZA _i1uPtByDEd25IrCLT8F6ZA" output="_i1uPshyDEd25IrCLT8F6ZA _i1uPthyDEd25IrCLT8F6ZA">
+      <methodElementProperty xmi:id="_3AafxLemEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <guidelines href="uma://_8rSYAG5GEdyAHIxjZ9kpqw#_-1uREODKEdy_TKG9JydNsA"/>
+      <guidelines href="uma://_8rSYAG5GEdyAHIxjZ9kpqw#_YYAUUODSEdy_TKG9JydNsA"/>
+      <toolmentor href="uma://_OlxzUHjqEdyhRNciHt44hg#_Fy8jYHj4EdyhRNciHt44hg"/>
+      <toolmentor href="uma://_OlxzUHjqEdyhRNciHt44hg#_OL_R8Hj4EdyhRNciHt44hg"/>
+      <toolmentor href="uma://_OlxzUHjqEdyhRNciHt44hg#_YFlNQHj4EdyhRNciHt44hg"/>
+      <toolmentor href="uma://_OlxzUHjqEdyhRNciHt44hg#_f0v4YHj4EdyhRNciHt44hg"/>
+      <toolmentor href="uma://_OlxzUHjqEdyhRNciHt44hg#_qT5X0Hj4EdyhRNciHt44hg"/>
+      <Task href="uma://_8rSYAG5GEdyAHIxjZ9kpqw#_Tbp-kHODEdyur-UVVhx-aQ"/>
+      <selectedSteps href="uma://-iwu5v4eb6RMMBNImA8FNLA#_SC4wgHeDEdyqd9oUl_5ulw"/>
+      <selectedSteps href="uma://-iwu5v4eb6RMMBNImA8FNLA#_TXrZMHeDEdyqd9oUl_5ulw"/>
+      <selectedSteps href="uma://-iwu5v4eb6RMMBNImA8FNLA#_UuZ7kHeDEdyqd9oUl_5ulw"/>
+      <selectedSteps href="uma://-iwu5v4eb6RMMBNImA8FNLA#_WFH24HeDEdyqd9oUl_5ulw"/>
+      <mandatoryInputExclude href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_FgmAIMVMEdy2a8x38u2GrA" name="run_performance_test" guid="_FgmAIMVMEdy2a8x38u2GrA" presentationName="Run Performance Test" briefDescription="This task describes how to run performance tests." superActivities="_98J-UcVLEdy2a8x38u2GrA" mandatoryInput="_i1uPshyDEd25IrCLT8F6ZA _i1uPtxyDEd25IrCLT8F6ZA" optionalInput="_i1uPthyDEd25IrCLT8F6ZA" output="_i1uPuByDEd25IrCLT8F6ZA">
+      <guidelines href="uma://_8rSYAG5GEdyAHIxjZ9kpqw#_h44xgODOEdy_TKG9JydNsA"/>
+      <guidelines href="uma://_8rSYAG5GEdyAHIxjZ9kpqw#_YYAUUODSEdy_TKG9JydNsA"/>
+      <guidelines href="uma://_8rSYAG5GEdyAHIxjZ9kpqw#_ODwn4ODTEdy_TKG9JydNsA"/>
+      <toolmentor href="uma://_OlxzUHjqEdyhRNciHt44hg#_yeokoHj4EdyhRNciHt44hg"/>
+      <toolmentor href="uma://_OlxzUHjqEdyhRNciHt44hg#_6XohMHj4EdyhRNciHt44hg"/>
+      <Task href="uma://_8rSYAG5GEdyAHIxjZ9kpqw#_gwl_YHODEdyur-UVVhx-aQ"/>
+      <selectedSteps href="uma://-lkmunUcjAhV2ZQnTh6YCJA#_YBlHEHeEEdyqd9oUl_5ulw"/>
+      <selectedSteps href="uma://-lkmunUcjAhV2ZQnTh6YCJA#_b5-8AHeEEdyqd9oUl_5ulw"/>
+      <selectedSteps href="uma://-lkmunUcjAhV2ZQnTh6YCJA#_fRdOIHeEEdyqd9oUl_5ulw"/>
+      <selectedSteps href="uma://-lkmunUcjAhV2ZQnTh6YCJA#_jSgBsHeEEdyqd9oUl_5ulw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_GCkr0MVMEdy2a8x38u2GrA" name="evaluate_performance_test" guid="_GCkr0MVMEdy2a8x38u2GrA" presentationName="Evaluate Performance Test" briefDescription="This task describes how to evaluate the results of a performance test." superActivities="_98J-UcVLEdy2a8x38u2GrA" linkToPredecessor="_uGw9gcVMEdy2a8x38u2GrA" mandatoryInput="_i1uPshyDEd25IrCLT8F6ZA _i1uPuByDEd25IrCLT8F6ZA" optionalInput="_i1uPsxyDEd25IrCLT8F6ZA" output="_i1uPtByDEd25IrCLT8F6ZA">
+      <guidelines href="uma://_8rSYAG5GEdyAHIxjZ9kpqw#_ODwn4ODTEdy_TKG9JydNsA"/>
+      <guidelines href="uma://_8rSYAG5GEdyAHIxjZ9kpqw#_33HxIODTEdy_TKG9JydNsA"/>
+      <toolmentor href="uma://_OlxzUHjqEdyhRNciHt44hg#_yeokoHj4EdyhRNciHt44hg"/>
+      <Task href="uma://_8rSYAG5GEdyAHIxjZ9kpqw#_dTdxMHODEdyur-UVVhx-aQ"/>
+      <selectedSteps href="uma://-0uPb5sRkC_QhE5mybUbq3A#_AuRYoHeEEdyqd9oUl_5ulw"/>
+      <selectedSteps href="uma://-0uPb5sRkC_QhE5mybUbq3A#_DZMGwHeEEdyqd9oUl_5ulw"/>
+      <selectedSteps href="uma://-0uPb5sRkC_QhE5mybUbq3A#_Pa_EsHeEEdyqd9oUl_5ulw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_nZUOEcVMEdy2a8x38u2GrA" guid="_nZUOEcVMEdy2a8x38u2GrA" pred="_DuAoMMVMEdy2a8x38u2GrA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_uGw9gcVMEdy2a8x38u2GrA" guid="_uGw9gcVMEdy2a8x38u2GrA" pred="_FgmAIMVMEdy2a8x38u2GrA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_i1uPsByDEd25IrCLT8F6ZA" name="technical_architecture_slot" guid="_i1uPsByDEd25IrCLT8F6ZA" presentationName="[Technical Architecture]" briefDescription="This slot serves as an abstraction of high level artifacts that represent the documentation of the architecture." isPlanned="false" superActivities="_98J-UcVLEdy2a8x38u2GrA">
+      <methodElementProperty xmi:id="_3Aafw7emEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_8OD-cLPTEduocbW-TPTq7A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_i1uPsRyDEd25IrCLT8F6ZA" name="requirements_slot" guid="_i1uPsRyDEd25IrCLT8F6ZA" presentationName="[Requirements]" isPlanned="false" superActivities="_98J-UcVLEdy2a8x38u2GrA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_i1uPshyDEd25IrCLT8F6ZA" name="workload_def_spec" guid="_i1uPshyDEd25IrCLT8F6ZA" presentationName="Workload Specification" briefDescription="This specification contains the testing goals and the workload details (including user types, user scenarios, rates of work, measurements to be made, and performance objectives) necessary to be successful." isPlanned="false" superActivities="_98J-UcVLEdy2a8x38u2GrA">
+      <methodElementProperty xmi:id="_3AafxbemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_OynuUNDqEdunspUKKm1F4Q#_sB9l8HODEdyur-UVVhx-aQ"/>
+      <concepts href="uma://_OynuUNDqEdunspUKKm1F4Q#_ovaQEHODEdyur-UVVhx-aQ"/>
+      <guidelines href="uma://_OynuUNDqEdunspUKKm1F4Q#_XyqTAMUwEdyJCceLNDhCjA"/>
+      <WorkProduct href="uma://_OynuUNDqEdunspUKKm1F4Q#_Ls0OIHOEEdyur-UVVhx-aQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_i1uPsxyDEd25IrCLT8F6ZA" name="test_plan" guid="_i1uPsxyDEd25IrCLT8F6ZA" presentationName="Test Plan" briefDescription="This artifact defines the goals and objectives of testing within the scope of the test cycle, the items being targeted, the approach to be taken, the resources required, and the deliverables to be produced." isPlanned="false" superActivities="_98J-UcVLEdy2a8x38u2GrA">
+      <methodElementProperty xmi:id="_3AafzbemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_OynuUNDqEdunspUKKm1F4Q#_WkszEHHWEdyzS55ez-koKA"/>
+      <guidelines href="uma://_OynuUNDqEdunspUKKm1F4Q#_ZXg48HHWEdyzS55ez-koKA"/>
+      <guidelines href="uma://_OynuUNDqEdunspUKKm1F4Q#_f9OBoHHWEdyzS55ez-koKA"/>
+      <WorkProduct href="uma://_OynuUNDqEdunspUKKm1F4Q#_yiMRwHFfEdy8Ac588DXPCQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_i1uPtByDEd25IrCLT8F6ZA" name="test_evaluation_summary" guid="_i1uPtByDEd25IrCLT8F6ZA" presentationName="Test Evaluation Summary" briefDescription="The Test Evaluation Summary organizes and presents a summary analysis of the Test Results and key measures of test for review and assessment, typically by key quality stakeholders. In addition, the Test Evaluation Summary may contain a general statement of relative quality, and provide recommendations for future test effort." isPlanned="false" superActivities="_98J-UcVLEdy2a8x38u2GrA">
+      <methodElementProperty xmi:id="_3AafxremEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <concepts href="uma://_OynuUNDqEdunspUKKm1F4Q#_AhYiUHHVEdyzS55ez-koKA"/>
+      <templates href="uma://_OynuUNDqEdunspUKKm1F4Q#_DDH0YHHXEdyzS55ez-koKA"/>
+      <templates href="uma://_OynuUNDqEdunspUKKm1F4Q#_F8o_MHHXEdyzS55ez-koKA"/>
+      <WorkProduct href="uma://_OynuUNDqEdunspUKKm1F4Q#_iD7vkHFfEdy8Ac588DXPCQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_i1uPtRyDEd25IrCLT8F6ZA" name="software_design_slot" guid="_i1uPtRyDEd25IrCLT8F6ZA" presentationName="[Software Design]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe the realization of required system functionality, and serves as an abstraction of the solution." isPlanned="false" superActivities="_98J-UcVLEdy2a8x38u2GrA">
+      <methodElementProperty xmi:id="_3AafwremEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_3Aafy7emEd-oHLor78AFuw" name="descriptor_customization" value="3"/>
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_IcQOUEqdEdyi3_jfs__bIQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_i1uPthyDEd25IrCLT8F6ZA" name="test_architecture" guid="_i1uPthyDEd25IrCLT8F6ZA" presentationName="Test Architecture" briefDescription="The Test Architecture provides a comprehensive aggregation of architectural concerns, such as test automation architecture and the test environment configuration." isPlanned="false" superActivities="_98J-UcVLEdy2a8x38u2GrA">
+      <methodElementProperty xmi:id="_3Aafx7emEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <concepts href="uma://_OynuUNDqEdunspUKKm1F4Q#_fGQhQHHSEdyzS55ez-koKA"/>
+      <WorkProduct href="uma://_OynuUNDqEdunspUKKm1F4Q#_QGQ-AHE8Edy8Ac588DXPCQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_i1uPtxyDEd25IrCLT8F6ZA" name="software_implementation_slot" guid="_i1uPtxyDEd25IrCLT8F6ZA" presentationName="[Software Implementation]" briefDescription="This slot holds the artifacts that represent a technical implementation.  This can include source code, executable code, data, and software/hardware configurations." isPlanned="false" superActivities="_98J-UcVLEdy2a8x38u2GrA">
+      <methodElementProperty xmi:id="_3AafyLemEd-oHLor78AFuw" name="descriptor_customization" value="3"/>
+      <methodElementProperty xmi:id="_3AafybemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_Vux8UEfUEdyiPI8btkmvmw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_i1uPuByDEd25IrCLT8F6ZA" name="test_findings" guid="_i1uPuByDEd25IrCLT8F6ZA" presentationName="Test Findings" briefDescription="This artifact summarizes the analysis of one or more Test Logs and Change Requests, providing a relatively detailed assessment of the quality of the Target Test Items and the status of the test effort." isPlanned="false" superActivities="_98J-UcVLEdy2a8x38u2GrA">
+      <methodElementProperty xmi:id="_3AafyremEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <concepts href="uma://_OOB2AAouEdyhlpBPrduOMw#_0aJ6cMlgEdmt3adZL5Dmdw"/>
+      <WorkProduct href="uma://_OynuUNDqEdunspUKKm1F4Q#_DwNAQHE8Edy8Ac588DXPCQ"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_98J-UcVLEdy2a8x38u2GrA" name="Performance Testing" guid="_98J-UcVLEdy2a8x38u2GrA" presentationName="Performance Testing" breakdownElements="_DuAoMMVMEdy2a8x38u2GrA _EuOvEMVMEdy2a8x38u2GrA _FgmAIMVMEdy2a8x38u2GrA _GCkr0MVMEdy2a8x38u2GrA _i1uPsByDEd25IrCLT8F6ZA _i1uPsRyDEd25IrCLT8F6ZA _i1uPshyDEd25IrCLT8F6ZA _i1uPsxyDEd25IrCLT8F6ZA _i1uPtByDEd25IrCLT8F6ZA _i1uPtRyDEd25IrCLT8F6ZA _i1uPthyDEd25IrCLT8F6ZA _i1uPtxyDEd25IrCLT8F6ZA _i1uPuByDEd25IrCLT8F6ZA">
+      <methodElementProperty xmi:id="_3AjpsLemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-MNELRrII2P685hdJ7U23ag" href="uma://-MNELRrII2P685hdJ7U23ag#-MNELRrII2P685hdJ7U23ag"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-dPZiNBfi7LEcMGwrwxdnxw" name="new_example,_UVo4wHvDEd6RkdzRysixwQ" guid="-dPZiNBfi7LEcMGwrwxdnxw" changeDate="2009-08-09T07:07:04.437-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    In this example, we see the following types of &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>Participants&lt;/a> illustrated:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        An instance of Manufacturer assembles the other instances into a unit that can be deployed and executed at&#xD;
+        run-time;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        An instance of OrderProcessor&amp;nbsp;realizes the Purchasing service.&amp;nbsp; Purchasing is a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/termdefinitions/composite_service_2B492DE6.html&quot; guid=&quot;_Hm7qcIQnEd6pOcahJ5wBfA&quot;>composite service&lt;/a>, because its operations are realized using functionality&#xD;
+        provided by InvoicingService, Scheduling, and Shipping Service.&amp;nbsp; The implementation of Purchasing realizes the&#xD;
+        Purchase Order Processing business process.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Instances of the Invoicer, Productions, and Shipper Participants also appear.&amp;nbsp; In this case, they realize&#xD;
+        InvoicingService, Scheduling, and ShippingService without recourse to invoking other exposed services, thus those&#xD;
+        services are &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/termdefinitions/atomic_service_1B031A6D.html&quot; guid=&quot;_RmMI4IQnEd6pOcahJ5wBfA&quot;>atomic services&lt;/a>.&amp;nbsp;&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Here, the intention is to reuse InvoiceService, Scheduling, and ShippingService in other contexts.&amp;nbsp; Those services&#xD;
+    and their realizing components would be examined for logic that is specific to a given process, such as Purchase Order&#xD;
+    Processing.&amp;nbsp; Any such context-dependent logic will be refactored into the Participants which use the reusable&#xD;
+    services, such as OrderProcessor.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&lt;img height=&quot;197&quot; alt=&quot;&quot; src=&quot;./resources/participant_example_3a.gif&quot; width=&quot;576&quot; />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

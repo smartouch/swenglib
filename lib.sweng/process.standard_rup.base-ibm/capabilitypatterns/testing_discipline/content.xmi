@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-rL-Ex38s6g48moo8kXiruA" name="validate_build_stability,{0AE0042B-034C-4296-9FA0-D9DCC61FC7B4}" guid="-rL-Ex38s6g48moo8kXiruA">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    For each Build this work is focused on the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Making as assessment of the stability and testability of the Build&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Gaining an initial understanding-or confirming the expectation-of the development work delivered in the Build&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Making a decision to accept the Build as suitable for use-guided by the evaluation mission-in further testing, or&#xD;
+        to conduct further testing against a previous Build.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    This work is also referred to as a smoke test, build verification test, build regression test, sanity check or&#xD;
+    acceptance into testing. This work helps to prevent the test resources from being wasted on a futile and fruitless&#xD;
+    testing effort.&#xD;
+&lt;/p></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    This work is potentially conducted once per Build-note however that it's typical not to test every Build. Once the&#xD;
+    Build is determined suitably stable, focus turns to &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../process.standard_rup.base-ibm/capabilitypatterns/test_and_evaluate_582DE31A.html&quot;&#xD;
+    guid=&quot;_Kj2F4CZIEd-Hb5ChSoDHIA&quot;>Activity: Test and Evaluate&lt;/a>. Where it is determined that the Build is sufficiently&#xD;
+    unsuitable to conduct further testing against, Test and Evaluation work typically recommences against a previous&#xD;
+    suitable Build.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Although somewhat dependent on the size of the development effort, we recommend that you should plan to automate&#xD;
+    appropriate aspects of this work. For automated elements of these &quot;smoke&quot; tests, it is typical to have them run&#xD;
+    unattended in otherwise &quot;dead-time&quot;, such as during lunch or over night.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note that in addition to executing automated &quot;smoke&quot; tests, you should also plan to conduct a minimal set of manual&#xD;
+    tests on new or significantly changed software items.&lt;br />&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The work is primarily centered around the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.default.role_def.base/roles/tester_9859B590.html&quot; guid=&quot;_0ZM4MclgEdmt3adZL5Dmdw&quot;>Tester&lt;/a> and &lt;a&#xD;
+    class=&quot;elementLink&quot; href=&quot;./../../core.default.role_def.extend-ibm/roles/test_analyst_71E6D588.html&quot;&#xD;
+    guid=&quot;_odRZ8CFYEd2Tx_sxlQMK3Q&quot;>Test Analyst&lt;/a> roles. The most important skills required for this work include&#xD;
+    providing timely results, thoroughness and applying reasonable judgment to assessing the usefulness of the Build for&#xD;
+    further testing.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is appropriate to allocate a subset of the test team to perform this work; the other team members ignore the new&#xD;
+    build until it is validated as stable, devoting their efforts instead to either additional tests against the build from&#xD;
+    the previous test cycle, or improving test assets as appropriate.&amp;nbsp; See: &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../process.standard_rup.base-ibm/capabilitypatterns/improve_test_assets_1B365745.html&quot;&#xD;
+    guid=&quot;_Kj_28SZIEd-Hb5ChSoDHIA&quot;>Activity: Improve Test Assets&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As a heuristic for relative resource allocation by phase, typical percentages of test resource use for this activity&#xD;
+    are: Inception - 00%, Elaboration - 05%, Construction - 10% and Transition - 10%. Notice that it is typical for there&#xD;
+    to be no formal Build in the Inception phase.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The sophistication and availability of test automation tools and the necessary prerequisite skills to use them will&#xD;
+    have an impact on the resourcing of this work. Where automation tools are used, much of this work can be performed fast&#xD;
+    and efficiently: without automation significantly more effort is required.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-Qe-FH7rEKLP0gludSHCteg" name="verify_test_approach,{7BD514AF-19F9-408F-8279-309BD153C157}" guid="-Qe-FH7rEKLP0gludSHCteg">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The objective is to gain an understanding of the constraints and limitations of each technique as it will be applied in&#xD;
+    the given project context, and to either:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        find an appropriate implementation solution for each technique&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        find alternative techniques that can be used.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    This helps to mitigate the risk of discovering too late in the project lifecycle that the test approach is&#xD;
+    unworkable.&lt;br />&#xD;
+    For each iteration, this work is focused mainly on:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Early verification that the intended test strategy will work and produces results of value&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Establishing the basic infrastructure to enable and support the test strategy&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Obtaining commitment from the development team to develop the software to meet testability requirements necessary&#xD;
+        to achieve the test strategy, and to provide continued support for those testability requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identifying the scope, boundaries, limitations and constraints of each technique&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    This activity starts early in each iteration, as soon as sufficient agreement is reached on the mission for the&#xD;
+    iteration, and continues as needed throughout the iteration. More frequently addressed in the earlier phases of&#xD;
+    Inception, Elaboration and early Construction, typically tapering off in late Construction and Transition.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This activity is considered optional when the test approach is well known, and its applicability in the current context&#xD;
+    is well established.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This work is somewhat independent of the test cycles, often involving the verification of techniques that will not be&#xD;
+    used until subsequent Iterations. This work normally begins after the evaluation mission has been defined for the&#xD;
+    current Iteration, although it can begin earlier. In some cases, finding the best implementation approach to a&#xD;
+    technique may take multiple Iterations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The test implementation and execution activities that form a part of this work are performed for the purpose of&#xD;
+    obtaining demonstrable proof that the techniques being verified can actually work. As such, you should limit your&#xD;
+    selection of tests to a small, representative subset; typically focusing on areas with substantial quality risk. You&#xD;
+    should try to include a selection of tests that you expect to fail to confirm that the technique will successfully&#xD;
+    detect these failures.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While failures with the target test items will be identified and these incidents logged accordingly, this focus of this&#xD;
+    work is not directly on attempting to identify failures in the target test items as it's main objective. Again, the&#xD;
+    objective is to verify that the approach is appropriate (it produces results that complement the Iteration objectives),&#xD;
+    is achievable (it can be implemented with given resource constraints), and that it will work.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For this work to produce timely results, it is often necessary to make use of incomplete, &quot;unofficial&quot; Builds, or to&#xD;
+    perform this work outside of a recognized Test Environment Configuration. Although these are appropriate compromises,&#xD;
+    be aware of the constraints, assumptions and risks involved in verifying your approach in under these conditions.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As the lifecycle progresses through its Phases, the focus of the test effort typically changes. Potentially this&#xD;
+    requires new or additional approaches, often requiring the introduction of new types of tests or new techniques to&#xD;
+    support the test effort.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In situations where the combination of domain, the test environment and other critical aspects of the strategy are&#xD;
+    unprecedented, you should allow more time and effort to complete this work. In some cases-especially where automation&#xD;
+    is a requirement-it may be more economic to obtain the use of resources with specialized skills that have proven&#xD;
+    experience in the unprecedented aspects of the strategy for a limited period of time (such as on contract) to define&#xD;
+    and verify the key technical needs of the test strategy.&lt;br />&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Although most of the roles involved in the Test discipline play a part in performing this work, the effort is primarily&#xD;
+    centered around the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.default.role_def.extend-ibm/roles/test_designer_76121436.html&quot; guid=&quot;_vqUPcCFYEd2Tx_sxlQMK3Q&quot;>Test&#xD;
+    Designer&lt;/a> and &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.default.role_def.base/roles/tester_9859B590.html&quot;&#xD;
+    guid=&quot;_0ZM4MclgEdmt3adZL5Dmdw&quot;>Tester&lt;/a> roles. The most important skill areas required for this work include software&#xD;
+    architecture, software design and problem solving.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is typical for this work to require more resource in iterations from the late Inception to early Construction&#xD;
+    phases, often requiring minimal resource late in the Construction and in the Transition phases. However, be aware that&#xD;
+    as the project progresses, new objectives or deliverables may be identified that require new test strategies to be&#xD;
+    defined and verified.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As a heuristic for relative resource allocation by phase, typical percentages of test resource use for&#xD;
+    this&amp;nbsp;activity are: Inception - 30%, Elaboration - 20%, Construction - 10% and Transition - 05%.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-HZllSMPgRYDQVaNesOaQAA" name="improve_test_assets,{CD77CBDA-CC13-4593-BB81-41AF3FF7A84C}" guid="-HZllSMPgRYDQVaNesOaQAA">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    For each test cycle, this work is focused mainly on:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Adding the minimal set of additional tests to validate the stability of subsequent Builds&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Removing test assets that no longer serve a useful purpose or have become uneconomic to maintain&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Conducting general maintenance of and making improvements to the maintainability of test automation assets&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Assembling Test Scripts into additional appropriate Test Suites&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Exploring opportunities for reuse and productivity improvements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Maintaining Test Environment Configurations and Test Data sets&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Documenting lessons learned-both good and bad practices discovered during the test cycle.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <keyConsiderations>This activity is especially important if the intention is to reuse the assets developed in the current test cycle in&#xD;
+subsequent test cycles.</keyConsiderations>
+    <usageGuidance>&lt;p>&#xD;
+    This activity should be performed in each test cycle that produces assets that will be reused in subsequent work.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This work typically occurs at the end of each test cycle, however some teams perform aspects of this work only once per&#xD;
+    Iteration. A common practice is to focus the work in each test cycle on adding and maintaining only those tests&#xD;
+    necessary to assess the stability of the build in the subsequent test cycle(s). After the final Build for the Iteration&#xD;
+    has been tested, other aspects of test asset improvement may also be explored.&amp;nbsp; See: &lt;a&#xD;
+    class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../process.standard_rup.base-ibm/capabilitypatterns/validate_build_stability_82238E6F.html&quot;&#xD;
+    guid=&quot;_KkJAsSZIEd-Hb5ChSoDHIA&quot;>Activity: Validate Build Stability&lt;/a>.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Although most of the roles in the Test discipline play a part in performing this work, the effort is primarily centered&#xD;
+    around the &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.default.role_def.extend-ibm/roles/test_designer_76121436.html&quot;&#xD;
+    guid=&quot;_vqUPcCFYEd2Tx_sxlQMK3Q&quot;>Test Designer&lt;/a> and &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.default.role_def.base/roles/tester_9859B590.html&quot; guid=&quot;_0ZM4MclgEdmt3adZL5Dmdw&quot;>Tester&lt;/a> roles.&#xD;
+    The most important skills required for this work include focus on test asset coverage, an eye for potential reuse,&#xD;
+    consistency of test assets and an appreciation of architectural issues.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As a heuristic for relative resource allocation by phase, typical percentages of test resource use for this workflow&#xD;
+    detail are: Inception - 05%, Elaboration - 20%, Construction - 10% and Transition - 10%.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Where the requirement for test automation is particularly important, this work may take more effort and, therefore,&#xD;
+    more time or more resource. In some cases it may be useful to assign the creation and maintenance of automation assets&#xD;
+    to a separate sub-team, allowing them to specialize on automation concerns. This allows the other team members to focus&#xD;
+    on the improvement of non-automation test assets.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-48fXUyb-Tf7RBi7TAJK-_Q" name="define_evaluation_mission,{10C2C34C-BF5E-4825-A7DC-5E106EFAA4C5}" guid="-48fXUyb-Tf7RBi7TAJK-_Q">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    For each iteration, this work is focused mainly on:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying the objectives for the testing effort and deliverables resulting of it.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identifying a good resource utilization strategy&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defining the appropriate scope and boundary for the test effort&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Outlining the approach that will be used&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defining how progress will be monitored and assessed.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    Typically addressed toward the beginning of each iteration before other test-related work commences.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note that this work is performed in each iteration. We recommend that you don't spend a lot of time on the detailed&#xD;
+    planning of testing tasks too far in advance of the iteration in which they are performed-as a general rule, don't plan&#xD;
+    detailed testing work further than one iteration ahead.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The main value in performing this work is to think through the various concerns and issues that will impact testing&#xD;
+    over the course of the iteration, and consider the appropriate actions you should take. As a general rule, don't spend&#xD;
+    excessive amounts of time on the presentation of the documentation for these aspects of the test effort.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Although most of the roles involved in the Test discipline play a part in performing this work, the effort is primarily&#xD;
+    centered around the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.default.role_def.extend-ibm/roles/test_manager_F1C6BF7C.html&quot; guid=&quot;_0E16ACFYEd2Tx_sxlQMK3Q&quot;>Test&#xD;
+    Manager&lt;/a> and &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.default.role_def.extend-ibm/roles/test_analyst_71E6D588.html&quot;&#xD;
+    guid=&quot;_odRZ8CFYEd2Tx_sxlQMK3Q&quot;>Test Analyst&lt;/a> roles. The most important skills required for this work include&#xD;
+    negotiation, elicitation, strategy and planning.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While most of the resource for this work will be expended in Construction, significant resources will need to be&#xD;
+    allocated to this work from Inception to Transition.&amp;nbsp; As a relative indication of test resource use for this&#xD;
+    activity by phase, typical percentages are: Inception - 50%, Elaboration - 25%, Construction - 10% and Transition -&#xD;
+    10%.&lt;br />&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="--9Vai-nqCQr33w1o5oiHxQ" name="test_and_evaluate,{93B7D625-C83A-4EFB-9772-B88F2EB02CE2}" guid="--9Vai-nqCQr33w1o5oiHxQ">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Typically performed once per test cycle, this work involves performing the core tactical work of the test and&#xD;
+    evaluation effort: namely the implementation, execution and evaluation of specific tests and the corresponding&#xD;
+    reporting of incidents that are encountered.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For each test cycle, this work is focused mainly on:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Providing ongoing evaluation and assessment of the Target Test Items&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Recording the appropriate information necessary to diagnose and resolve any identified Issues&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Achieving suitable breadth and depth in the test and evaluation work&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Providing feedback on the most likely areas of potential quality risk&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    Starting typically in Elaboration, this work is generally performed multiple times during an iteration, once per test&#xD;
+    cycle based on the availability of a series of Builds that warrant independent testing.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As noted, this work is typically performed multiple times during an iteration; the actual number of times often&#xD;
+    equating to once per Build. Note however that it's typical not to test every Build. Note also that the Build schedule&#xD;
+    will often result in this work increasing in frequency during the course of the iteration. The need for additional&#xD;
+    cycles is governed by assessing when appropriate breadth and depth of testing is achieved within a test cycle, which is&#xD;
+    the focus of the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../process.standard_rup.base-ibm/capabilitypatterns/achieve_acceptable_mission_1148ABBA.html&quot;&#xD;
+    guid=&quot;_Kj2FziZIEd-Hb5ChSoDHIA&quot;>Activity: Achieve Acceptable Mission&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For iterations prior to and including those early in the Construction phase, additional effort is usually required to&#xD;
+    address tactical problems encountered for the first time during test implementation and execution. These issues often&#xD;
+    detract from the number of actual tests successfully implemented and executed and limit either the breadth or depth of&#xD;
+    the testing.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The sophistication and availability of test automation tools and the necessary prerequisite skills to use them&#xD;
+    effectively will have an impact on the resourcing of this work. It may be appropriate to strategically deploy&#xD;
+    specialized contract resource for some part of this work to improve the likelihood of success. It may also be more&#xD;
+    economical to lease the automation tools and contract appropriately skilled people to use the tools, especially to help&#xD;
+    mitigate the risks in getting started. You need to balance the benefits of this approach with the necessity to develop&#xD;
+    in-house skills to maintain automation assets into the future.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The work is primarily centered around the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.default.role_def.base/roles/tester_9859B590.html&quot; guid=&quot;_0ZM4MclgEdmt3adZL5Dmdw&quot;>Tester&lt;/a> and &lt;a&#xD;
+    class=&quot;elementLink&quot; href=&quot;./../../core.default.role_def.extend-ibm/roles/test_analyst_71E6D588.html&quot;&#xD;
+    guid=&quot;_odRZ8CFYEd2Tx_sxlQMK3Q&quot;>Test Analyst&lt;/a> roles. The most important skills required for this work include&#xD;
+    investigative and analytical skills, tenacity, thoroughness, good technical knowledge and good verbal and written&#xD;
+    communication skills (documentation of incidents, change requests and so on).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As a heuristic for relative resource allocation by phase, typical percentages of test resource use for&#xD;
+    this&amp;nbsp;activity are: Inception - 05%, Elaboration - 25%, Construction - 40% and Transition - 35%.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Where the requirement for test automation is particularly important, it may be useful to assign the creation and&#xD;
+    maintenance of automation assets to a separate sub-team, allowing them to specialize on automation concerns. This&#xD;
+    allows the other team members to focus on the improvement of non-automation test assets.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-K2mPF4CDjjW3rJCE-KjOWw" name="achieve_acceptable_mission,{5DA9C9E9-1538-4433-8B57-B28667D67514}" guid="-K2mPF4CDjjW3rJCE-KjOWw">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    For each test cycle, this work is focused mainly on:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Actively prioritizing the minimal set of necessary tests for the Evaluation Mission&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Advocating the resolution of important issues that have a significant negative impact on the Evaluation Mission&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Advocating appropriate quality&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identifying regressions in quality introduced between test cycles&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Where appropriate, revising the Evaluation Mission in light of the evaluation findings so as to provide useful&#xD;
+        evaluation information to the project team&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <keyConsiderations>In order to achieve a useful evaluation result, it may mean you need to focus your efforts on helping the project team&#xD;
+achieve the Iteration Plan objectives that apply to the current test cycle.</keyConsiderations>
+    <usageGuidance>&lt;p>&#xD;
+    Given that providing focused evaluation feedback and achieving test-cycle closure are the objectives of this work,&#xD;
+    ongoing prioritization of the work and strategic management of the test resources is required. Focus continually on&#xD;
+    identifying and executing the minimum set of specific tasks to achieve the evaluation mission. Ongoing involvement by&#xD;
+    the stakeholders in the test and evaluation effort is critical to ensure the appropriate focus is maintained and,&#xD;
+    ultimately, that the work is successful.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Notice that for some iterations it may not be possible to achieve the Evaluation Mission as originally defined. Rather&#xD;
+    than simply abandoning the test and evaluation effort, it is important to find an appropriate and agreeable revision of&#xD;
+    the original Evaluation Mission based on the current situation, and attempt to provide useful evaluation information to&#xD;
+    the stakeholders of the test effort.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This work typically starts toward the end of each test cycle as suitable breadth and depth is achieved in the testing&#xD;
+    effort. For test cycles earlier in the project lifecycle, there is typically less work to be managed, therefore less&#xD;
+    effort is required to address this activity. In later iterations-especially those toward the end of the Elaboration&#xD;
+    phase and throughout the Construction phase-this work becomes more important and typically requires more focused&#xD;
+    effort. See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../process.standard_rup.base-ibm/capabilitypatterns/test_and_evaluate_582DE31A.html&quot;&#xD;
+    guid=&quot;_Kj2F4CZIEd-Hb5ChSoDHIA&quot;>Activity: Test and Evaluate&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The availability of analysis tools that provide accurate and timely results has an impact on resourcing this work.&#xD;
+    Without the use of appropriate tools, this task quickly becomes unmanageable as the test effort progresses and&#xD;
+    increasingly more detail needs to be analyzed and assessed manually.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    This work is primarily centered around the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.default.role_def.extend-ibm/roles/test_manager_F1C6BF7C.html&quot; guid=&quot;_0E16ACFYEd2Tx_sxlQMK3Q&quot;>Test&#xD;
+    Manager&lt;/a> and &lt;a class=&quot;elementLink&quot; href=&quot;./../../core.default.role_def.extend-ibm/roles/test_analyst_71E6D588.html&quot;&#xD;
+    guid=&quot;_odRZ8CFYEd2Tx_sxlQMK3Q&quot;>Test Analyst&lt;/a> roles, although success relies heavily on the work of the &lt;a&#xD;
+    class=&quot;elementLink&quot; href=&quot;./../../core.default.role_def.base/roles/tester_9859B590.html&quot;&#xD;
+    guid=&quot;_0ZM4MclgEdmt3adZL5Dmdw&quot;>Tester&lt;/a>. The most important skills required for this work include problem and results&#xD;
+    analysis, communication and negotiation, as well as the ability to identify and focus on the most important items (and&#xD;
+    avoid being sidetracked by unimportant details).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As a heuristic for relative resource allocation by phase, typical percentages of test resource use for this activity&#xD;
+    are: Inception - 10%, Elaboration - 00%, Construction - 20% and Transition - 30%.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-LqpZew8royJo7IMZ45chog" name="test,{35359DDF-6361-43E5-8B1B-18D204DA8CFF}" guid="-LqpZew8royJo7IMZ45chog">
+    <mainDescription>&lt;p>&#xD;
+    To explain the work involved in the Test discipline, the activities and work products are organized into a capability&#xD;
+    pattern for the discipline.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Each activity represents a high-level goal that needs to be achieved to perform effective testing of the product.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This capability pattern may require variations based on the specific needs of each iteration and project.&#xD;
+&lt;/p></mainDescription>
+    <usageNotes>&lt;h4>&#xD;
+    Decide How to Perform the Workflow&#xD;
+&lt;/h4>The following decisions should be made regarding the Test discipline's workflow: &lt;br />&#xD;
+&lt;br />&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Decide how to perform the workflow by looking at the activities in this workflow. Study the diagram with its guard&#xD;
+        condition&lt;a href=&quot;#guard_condition&quot; target=&quot;glossary_doc&quot;>s&lt;/a> and the guidelines below.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Decide what parts of the Test activities to perform. One key issue for the Test workflow is to decide what quality&#xD;
+        dimensions are interesting for the project in general, and most importantly, for each iteration. Decide what&#xD;
+        appropriate combinations of types of tests you should focus on for the current iteration.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></usageNotes>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7eEsQgz6cjtkw9G3OGDTdg" name="test_case,_2MZbJSx4Ed-rIPCOaPACIg" guid="-7eEsQgz6cjtkw9G3OGDTdg">
+    <refinedDescription>&lt;p>&#xD;
+    A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
+    test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
+    formal environments, you can create test cases by identifying a unique ID, name, associated test data, and expected&#xD;
+    results.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Test cases can be derived from many sources, and typically include a subset of the requirements (such as use cases,&#xD;
+    performance characteristics, and reliability concerns) and other types of quality attributes. For more information on&#xD;
+    types of tests and their relationships to quality test attributes, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Concept: Testing Qualitative Requirements&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7__oFWq8y4QDgqgj3PUrIw" name="test_log,_3kQl8Sx4Ed-rIPCOaPACIg" guid="-7__oFWq8y4QDgqgj3PUrIw">
+    <refinedDescription>This artifact provides a detailed, typically time-based record that both verifies that a set of tests were run, and&#xD;
+provides information that relates to the success of those tests. The focus is typically on providing an accurate audit&#xD;
+trail, which enables you to undertake a post-run diagnosis of failures. This raw data is subsequently analyzed to determine&#xD;
+the results of an aspect of the test effort.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wWYNLYsQkc1fpYtQ6M1wvQ" name="test_suite,_54boASx4Ed-rIPCOaPACIg" guid="-wWYNLYsQkc1fpYtQ6M1wvQ">
+    <refinedDescription>&lt;p>&#xD;
+    The Test Suite provides a means of managing the complexity of the test implementation. Many system test efforts fail&#xD;
+    because the team gets lost in the minutia of all of the detailed tests, and subsequently loses control of the test&#xD;
+    effort. Similar to UML packages, Test Suites provide a hierarchy of encapsulating containers to help manage the test&#xD;
+    implementation. They provide a means of managing the strategic aspects of the test effort by collecting tests together&#xD;
+    in related groups that can be planned, managed, and assessed in a meaningful way.&#xD;
+&lt;/p>&lt;!--EndFragment--></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-w1wNQ8KuUnEBCXmbrarrAA" name="test_data,_54boAix4Ed-rIPCOaPACIg" guid="-w1wNQ8KuUnEBCXmbrarrAA">
+    <keyConsiderations>When managed separately from the procedural aspects of the test, Test Data enables the unique characteristics of the test&#xD;
+to be modified independently.</keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5UyhGWFQ1IpMHi1jUPJAcg" name="test_strategy,_54boAyx4Ed-rIPCOaPACIg" guid="-5UyhGWFQ1IpMHi1jUPJAcg">
+    <refinedDescription>&lt;p>&#xD;
+    The Test Strategy is used to identify testing principles and practices that will be applied in order to mitigate the&#xD;
+    project risks, manage the testing risks, and identify any exposures. This artifact provides a common approach and&#xD;
+    terminology for the testing effort. It also gives a general direction of where the testing is headed. It emphasizes the&#xD;
+    importance of a team approach to testing.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-P-bQ2lLKoQrmZ5CMg2M6ow" name="test_findings,_54boBCx4Ed-rIPCOaPACIg" guid="-P-bQ2lLKoQrmZ5CMg2M6ow">
+    <refinedDescription>Test Findings are sometimes a large set of many Test Findings.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xMUXb7izAyUnjZNAM0wRaA" name="identify_test_motivators,_kchS0CZTEd-Hb5ChSoDHIA" guid="-xMUXb7izAyUnjZNAM0wRaA">
+    <keyConsiderations>&lt;p>&#xD;
+    Good sources for test motivators include requirements, change requests, risk lists, use cases, and so on.&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-REqrT0Gy_Yjmf11gPaDTeA" name="test_motivator,_kchS0yZTEd-Hb5ChSoDHIA" guid="-REqrT0Gy_Yjmf11gPaDTeA">
+    <refinedDescription>&lt;p>&#xD;
+    A test motivator is usually an external file that provides details about a test plan or test case. For example, a test&#xD;
+    motivator file could be a document or spreadsheet containing detailed information about a specific test plan or test&#xD;
+    case. It is convenient to be able to reference a test motivator file from a test plan and test case record. Test&#xD;
+    motivators are useful in linking test requirements with test plans and test cases.&#xD;
+&lt;/p>&#xD;
+&lt;div class=&quot;p&quot;>&#xD;
+    You can use associations between test plan and test case records with a test motivator to determine: &#xD;
+    &lt;ul>&#xD;
+        &lt;li>&#xD;
+            If there is test coverage for the motivator&#xD;
+        &lt;/li>&#xD;
+        &lt;li>&#xD;
+            If a test plan associated with a motivator has an associated external file&#xD;
+        &lt;/li>&#xD;
+    &lt;/ul>&#xD;
+&lt;/div></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-RaVViJL0d6rGeOO9QDCUMQ" name="test_plan,_kchS1CZTEd-Hb5ChSoDHIA" guid="-RaVViJL0d6rGeOO9QDCUMQ">
+    <refinedDescription>&lt;p>&#xD;
+    The Test Plan forms the framework within which the team performing the testing will work for the given schedule. It&#xD;
+    directs, guides, and constrains the test effort, focusing the work on the useful and necessary deliverables. It also&#xD;
+    communicates the intent of the effort to stakeholders. As such, the Test Plan should avoid detail that would not be&#xD;
+    understood, or would be considered irrelevant by the stakeholders in the test effort.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In cultures or domains in which this work product is not recognized as a formal work product, it is still important to&#xD;
+    address the different aspects represented by the Test Plan as part of the planning effort, and make appropriate&#xD;
+    decisions about what testing will be undertaken, and how the test effort will be conducted.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UjbJBp1HHcXxcNnWZyy0qw" name="test_strategy,_nWJLVCZTEd-Hb5ChSoDHIA" guid="-UjbJBp1HHcXxcNnWZyy0qw">
+    <refinedDescription>&lt;p>&#xD;
+    The Test Strategy is used to identify testing principles and practices that will be applied in order to mitigate the&#xD;
+    project risks, manage the testing risks, and identify any exposures. This artifact provides a common approach and&#xD;
+    terminology for the testing effort. It also gives a general direction of where the testing is headed. It emphasizes the&#xD;
+    importance of a team approach to testing.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BHtYTIe44-evmuHWwaYlUQ" name="test_ideas_list,_oC_DMCZTEd-Hb5ChSoDHIA" guid="-BHtYTIe44-evmuHWwaYlUQ">
+    <refinedDescription>The Test Ideas List provides a layer of abstraction between the conceptual Test Plan and the more detailed Test Case (or&#xD;
+the concrete Test Script). It is used to capture initial ideas for potential tests (often ill-formed or partial ideas) so&#xD;
+that the tests can be reasoned about. This work product is particularly useful earlier in the development cycle, or when&#xD;
+supporting project work products are unavailable or incomplete.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-uX8fbEbbblC0IzxNGn1hkg" name="test_env_configuration,_ojnEAiZTEd-Hb5ChSoDHIA" guid="-uX8fbEbbblC0IzxNGn1hkg">
+    <refinedDescription>&lt;p>&#xD;
+    Each Test Environment Configuration specifies an appropriate, controlled setting in which to conduct the required test&#xD;
+    and evaluation activities. Providing a controlled environment, built from a known configuration in which to conduct&#xD;
+    these activities, helps to ensure that the results of these efforts are accurate, valid, and have a higher likelihood&#xD;
+    of being systematically reproduced. A well-controlled Test Environment is an important aspect of efficient failure&#xD;
+    analysis and fault resolution.&#xD;
+&lt;/p>&lt;!--EndFragment--></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5eFzfAlpo_rfdb1JdjLR2g" name="test_automation_arch,_ojnEAyZTEd-Hb5ChSoDHIA" guid="-5eFzfAlpo_rfdb1JdjLR2g">
+    <refinedDescription>&lt;p>&#xD;
+    The Test Automation Architecture provides a comprehensive architectural overview of the test-automation system, using a&#xD;
+    number of different architectural views to depict different aspects of the system. It serves as a means of reasoning&#xD;
+    about, managing, and communicating the fundamental characteristics and features of the test-automation software system.&#xD;
+    It provides a governing focus for the test-automation software that enables the required system to be realized in&#xD;
+    respect to key aspects such as: maintainability, extensibility, reliability, concurrency, distribution, security, and&#xD;
+    recovery.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Xh-bbceSwla3_6MIonzU3w" name="test_strategy,_U_FFMyx5Ed-rIPCOaPACIg" guid="-Xh-bbceSwla3_6MIonzU3w">
+    <refinedDescription>&lt;p>&#xD;
+    The Test Strategy is used to identify testing principles and practices that will be applied in order to mitigate the&#xD;
+    project risks, manage the testing risks, and identify any exposures. This artifact provides a common approach and&#xD;
+    terminology for the testing effort. It also gives a general direction of where the testing is headed. It emphasizes the&#xD;
+    importance of a team approach to testing.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Y5n8SSmYOAWya52i0bO1qw" name="test_ideas_list,_U_FFNCx5Ed-rIPCOaPACIg" guid="-Y5n8SSmYOAWya52i0bO1qw">
+    <refinedDescription>The Test Ideas List provides a layer of abstraction between the conceptual Test Plan and the more detailed Test Case (or&#xD;
+the concrete Test Script). It is used to capture initial ideas for potential tests (often ill-formed or partial ideas) so&#xD;
+that the tests can be reasoned about. This work product is particularly useful earlier in the development cycle, or when&#xD;
+supporting project work products are unavailable or incomplete.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Ja7nrLs6eAaQ1qXWhu8LOQ" name="test_log,_U_FFNSx5Ed-rIPCOaPACIg" guid="-Ja7nrLs6eAaQ1qXWhu8LOQ">
+    <refinedDescription>This artifact provides a detailed, typically time-based record that both verifies that a set of tests were run, and&#xD;
+provides information that relates to the success of those tests. The focus is typically on providing an accurate audit&#xD;
+trail, which enables you to undertake a post-run diagnosis of failures. This raw data is subsequently analyzed to determine&#xD;
+the results of an aspect of the test effort.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Jtk4Z1CLu7CnEj4PGK4gbw" name="test_case,_U_FFNix5Ed-rIPCOaPACIg" guid="-Jtk4Z1CLu7CnEj4PGK4gbw">
+    <refinedDescription>&lt;p>&#xD;
+    A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
+    test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
+    formal environments, you can create test cases by identifying a unique ID, name, associated test data, and expected&#xD;
+    results.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Test cases can be derived from many sources, and typically include a subset of the requirements (such as use cases,&#xD;
+    performance characteristics, and reliability concerns) and other types of quality attributes. For more information on&#xD;
+    types of tests and their relationships to quality test attributes, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Concept: Testing Qualitative Requirements&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vGpmST7EUjNdxcyQug2n4w" name="test_findings,_U_FFNyx5Ed-rIPCOaPACIg" guid="-vGpmST7EUjNdxcyQug2n4w">
+    <refinedDescription>Test Findings are sometimes a large set of many Test Findings.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

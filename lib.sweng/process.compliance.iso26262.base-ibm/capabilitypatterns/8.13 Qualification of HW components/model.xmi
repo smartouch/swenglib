@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_ulvc4AahEeKDn6MuflC_BA" guid="_ulvc4AahEeKDn6MuflC_BA">
+    <resourceDescriptors xmi:id="_ulvc4QahEeKDn6MuflC_BA" id="-TxI5YY8nIhPHOs-5rihkgw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ulzHQAahEeKDn6MuflC_BA" id="-SLqXyTP57uPhvSqHTcNN_g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ul0VYAahEeKDn6MuflC_BA" id="-Fm3ZaQHf6ozI7vTV3egRTQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ul1jgAahEeKDn6MuflC_BA" id="-BmPW5GcjwMPGaPKZUB0CAg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ul2xoAahEeKDn6MuflC_BA" id="-sclQT99rVOGifSrQTJwMrg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_CMBwQJ2sEeCk2aQcgmZB_w" name="8.13 Qualification of HW components" guid="_CMBwQJ2sEeCk2aQcgmZB_w">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_MbYgMJ2sEeCk2aQcgmZB_w" name="Author HW qualification report" guid="_MbYgMJ2sEeCk2aQcgmZB_w" presentationName="Author HW qualification report" briefDescription="Compilation of the HW analysis and test reports, stating whether the hardware component has passed or failed the qualification WRT the operating envelope." isPlanned="true" superActivities="_CMBwQZ2sEeCk2aQcgmZB_w" optionalInput="_A14PtamHEeCC2aJoFcjzgA _A14Pr6mHEeCC2aJoFcjzgA" output="_A14Pu6mHEeCC2aJoFcjzgA" performedPrimarilyBy="_A14PuKmHEeCC2aJoFcjzgA _A14PkamHEeCC2aJoFcjzgA">
+      <methodElementProperty xmi:id="_ul4m0AahEeKDn6MuflC_BA" name="wbe_GlobalPresentedAfter" value="_MbYgM52sEeCk2aQcgmZB_w"/>
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_fgMqYJ2rEeCk2aQcgmZB_w"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_MbYgMZ2sEeCk2aQcgmZB_w" name="Develop HW qualification plan" guid="_MbYgMZ2sEeCk2aQcgmZB_w" presentationName="Develop HW qualification plan" briefDescription="Determine the means of qualification for the HW component, this can be done through analysis or test, although it is more likely to be combination of both" isPlanned="true" superActivities="_CMBwQZ2sEeCk2aQcgmZB_w" additionallyPerformedBy="_A14PoKmHEeCC2aJoFcjzgA" mandatoryInput="_A14Pl6mHEeCC2aJoFcjzgA _A14PmqmHEeCC2aJoFcjzgA _A14PnamHEeCC2aJoFcjzgA" optionalInput="_A14Po6mHEeCC2aJoFcjzgA" output="_A14PpqmHEeCC2aJoFcjzgA" performedPrimarilyBy="_A14PkamHEeCC2aJoFcjzgA _A14PlKmHEeCC2aJoFcjzgA">
+      <methodElementProperty xmi:id="_ul4m0QahEeKDn6MuflC_BA" name="wbe_GlobalPresentedAfter" value="_CMBwQZ2sEeCk2aQcgmZB_w"/>
+      <presentation xmi:id="-TxI5YY8nIhPHOs-5rihkgw" href="uma://-TxI5YY8nIhPHOs-5rihkgw#-TxI5YY8nIhPHOs-5rihkgw"/>
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_3YUWEJ2rEeCk2aQcgmZB_w"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_MbYgMp2sEeCk2aQcgmZB_w" name="Develop HW test plan" guid="_MbYgMp2sEeCk2aQcgmZB_w" presentationName="Develop HW test plan" briefDescription="The plan used to test the HW for qualification" isPlanned="true" superActivities="_CMBwQZ2sEeCk2aQcgmZB_w" linkToPredecessor="_8a5iUJ2vEeCk2aQcgmZB_w" mandatoryInput="_A14PpqmHEeCC2aJoFcjzgA _A14PnamHEeCC2aJoFcjzgA _A14Po6mHEeCC2aJoFcjzgA" output="_A14PqamHEeCC2aJoFcjzgA" performedPrimarilyBy="_A14PkamHEeCC2aJoFcjzgA _A14PlKmHEeCC2aJoFcjzgA">
+      <methodElementProperty xmi:id="_ul4m0gahEeKDn6MuflC_BA" name="wbe_GlobalPresentedAfter" value="_MbYgMZ2sEeCk2aQcgmZB_w"/>
+      <presentation xmi:id="-SLqXyTP57uPhvSqHTcNN_g" href="uma://-TxI5YY8nIhPHOs-5rihkgw#-SLqXyTP57uPhvSqHTcNN_g"/>
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_TWg7wJ2rEeCk2aQcgmZB_w"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_MbYgM52sEeCk2aQcgmZB_w" name="Qualify HW component using analysis" guid="_MbYgM52sEeCk2aQcgmZB_w" presentationName="Qualify HW component using analysis" briefDescription="Analysis of the HW component based upon analytical methods, data from operational experience and existing test results." isPlanned="true" superActivities="_CMBwQZ2sEeCk2aQcgmZB_w" linkToPredecessor="_70AhcZ2vEeCk2aQcgmZB_w _BF0ZUZ2wEeCk2aQcgmZB_w" additionallyPerformedBy="_A14PsqmHEeCC2aJoFcjzgA" mandatoryInput="_A14PpqmHEeCC2aJoFcjzgA _A14PmqmHEeCC2aJoFcjzgA" optionalInput="_A14Pr6mHEeCC2aJoFcjzgA" output="_A14PtamHEeCC2aJoFcjzgA" performedPrimarilyBy="_A14PkamHEeCC2aJoFcjzgA">
+      <methodElementProperty xmi:id="_ul4m0wahEeKDn6MuflC_BA" name="wbe_GlobalPresentedAfter" value="_MbYgNJ2sEeCk2aQcgmZB_w"/>
+      <presentation xmi:id="-Fm3ZaQHf6ozI7vTV3egRTQ" href="uma://-TxI5YY8nIhPHOs-5rihkgw#-Fm3ZaQHf6ozI7vTV3egRTQ"/>
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_JupCkJ2rEeCk2aQcgmZB_w"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_MbYgNJ2sEeCk2aQcgmZB_w" name="Qualify HW component using test" guid="_MbYgNJ2sEeCk2aQcgmZB_w" presentationName="Qualify HW component using test" briefDescription="Tests carried out to stress the HW components functionality according to the expected environmental conditions" isPlanned="true" superActivities="_CMBwQZ2sEeCk2aQcgmZB_w" linkToPredecessor="_NHOdEZ2tEeCk2aQcgmZB_w" mandatoryInput="_A14PqamHEeCC2aJoFcjzgA _A14Po6mHEeCC2aJoFcjzgA _A14PmqmHEeCC2aJoFcjzgA _A14PrKmHEeCC2aJoFcjzgA" output="_A14Pr6mHEeCC2aJoFcjzgA" performedPrimarilyBy="_A14PkamHEeCC2aJoFcjzgA _A14PlKmHEeCC2aJoFcjzgA">
+      <methodElementProperty xmi:id="_ul4m1AahEeKDn6MuflC_BA" name="wbe_GlobalPresentedAfter" value="_MbYgMp2sEeCk2aQcgmZB_w"/>
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_OaTgcJ2rEeCk2aQcgmZB_w"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_MbYgNZ2sEeCk2aQcgmZB_w" name="Verify Qualification report" guid="_MbYgNZ2sEeCk2aQcgmZB_w" presentationName="Verify Qualification report" briefDescription="To confirm that the HW has been properly qualified." isPlanned="true" superActivities="_CMBwQZ2sEeCk2aQcgmZB_w" linkToPredecessor="_R9m9MZ2tEeCk2aQcgmZB_w" mandatoryInput="_A14Pu6mHEeCC2aJoFcjzgA" performedPrimarilyBy="_A14PkamHEeCC2aJoFcjzgA _A14PoKmHEeCC2aJoFcjzgA">
+      <methodElementProperty xmi:id="_ul4m1QahEeKDn6MuflC_BA" name="wbe_GlobalPresentedAfter" value="_MbYgMJ2sEeCk2aQcgmZB_w"/>
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_bUuvgJ2rEeCk2aQcgmZB_w"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_NHOdEZ2tEeCk2aQcgmZB_w" guid="_NHOdEZ2tEeCk2aQcgmZB_w" pred="_MbYgMp2sEeCk2aQcgmZB_w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_R9m9MZ2tEeCk2aQcgmZB_w" guid="_R9m9MZ2tEeCk2aQcgmZB_w" pred="_MbYgMJ2sEeCk2aQcgmZB_w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_70AhcZ2vEeCk2aQcgmZB_w" guid="_70AhcZ2vEeCk2aQcgmZB_w" pred="_MbYgMZ2sEeCk2aQcgmZB_w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_8a5iUJ2vEeCk2aQcgmZB_w" guid="_8a5iUJ2vEeCk2aQcgmZB_w" pred="_MbYgMZ2sEeCk2aQcgmZB_w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_BF0ZUZ2wEeCk2aQcgmZB_w" guid="_BF0ZUZ2wEeCk2aQcgmZB_w" pred="_MbYgNJ2sEeCk2aQcgmZB_w"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_A14PkamHEeCC2aJoFcjzgA" name="HW Engineer" guid="_A14PkamHEeCC2aJoFcjzgA" presentationName="Hardware Engineer" briefDescription="An engineer whose primary role is the design and development of electrical and electronic hardware." superActivities="_CMBwQZ2sEeCk2aQcgmZB_w" modifies="_A14Pu6mHEeCC2aJoFcjzgA _A14PpqmHEeCC2aJoFcjzgA _A14PqamHEeCC2aJoFcjzgA _A14PtamHEeCC2aJoFcjzgA _A14Pr6mHEeCC2aJoFcjzgA">
+      <methodElementProperty xmi:id="_ul4m1gahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_imFtcJXNEeCbdJb0WnOTDQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_A14PlKmHEeCC2aJoFcjzgA" name="Test Engineer" guid="_A14PlKmHEeCC2aJoFcjzgA" presentationName="Test Engineer" briefDescription="An engineer whose primary role is the definition of test cases, test plans and organising and arranging tests." superActivities="_CMBwQZ2sEeCk2aQcgmZB_w" modifies="_A14PpqmHEeCC2aJoFcjzgA _A14PqamHEeCC2aJoFcjzgA _A14Pr6mHEeCC2aJoFcjzgA">
+      <methodElementProperty xmi:id="_ul4m1wahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_axmQ0JkXEeCHd41ThlqoSg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_A14Pl6mHEeCC2aJoFcjzgA" name="Technical safety requirements specification" guid="_A14Pl6mHEeCC2aJoFcjzgA" presentationName="Technical safety requirements specification" briefDescription="Captures the technical safety requirements that shall be implemented in the item under development. The technical safety requirements can be obtained from the requirements database or if using a model based approach, documentation derived from the model." superActivities="_CMBwQZ2sEeCk2aQcgmZB_w">
+      <methodElementProperty xmi:id="_ul4m2AahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_fZFUwJjUEeCHd41ThlqoSg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_A14PmqmHEeCC2aJoFcjzgA" name="HW qualification criteria" guid="_A14PmqmHEeCC2aJoFcjzgA" presentationName="HW qualification criteria" briefDescription="This is an interim document describing the pass fail criteria determines whether the items HW can be qualified or not. contributes to the hardware safety specification. " superActivities="_CMBwQZ2sEeCk2aQcgmZB_w">
+      <methodElementProperty xmi:id="_ul4m2QahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_nFGM8J2wEeCk2aQcgmZB_w"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_A14PnamHEeCC2aJoFcjzgA" name="Manufacturers HW component specification" guid="_A14PnamHEeCC2aJoFcjzgA" presentationName="Manufacturers HW component specification" superActivities="_CMBwQZ2sEeCk2aQcgmZB_w">
+      <methodElementProperty xmi:id="_ul4m2gahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_ySSeIJ2wEeCk2aQcgmZB_w"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_A14PoKmHEeCC2aJoFcjzgA" name="Safety Engineer" guid="_A14PoKmHEeCC2aJoFcjzgA" presentationName="Safety Engineer" briefDescription="An engineer whose primary role is the analysis of safety related behaviours and process." superActivities="_CMBwQZ2sEeCk2aQcgmZB_w">
+      <methodElementProperty xmi:id="_ul4m2wahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_R4oRoJXNEeCbdJb0WnOTDQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_A14Po6mHEeCC2aJoFcjzgA" name="HW test criteria" guid="_A14Po6mHEeCC2aJoFcjzgA" presentationName="HW test criteria" briefDescription="This is an interim document describing the pass fail criteria for the testing of the HW it contributes to the hardware safety specification. " superActivities="_CMBwQZ2sEeCk2aQcgmZB_w">
+      <methodElementProperty xmi:id="_ul4m3AahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_csFVQJ2xEeCk2aQcgmZB_w"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_A14PpqmHEeCC2aJoFcjzgA" name="HW Qualification plan" guid="_A14PpqmHEeCC2aJoFcjzgA" presentationName="HW Qualification plan" briefDescription="Plan describing the activities required to qualify the component." superActivities="_CMBwQZ2sEeCk2aQcgmZB_w">
+      <methodElementProperty xmi:id="_ul4m3QahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_TSArsJ2qEeCk2aQcgmZB_w"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_A14PqamHEeCC2aJoFcjzgA" name="HW component testing plan" guid="_A14PqamHEeCC2aJoFcjzgA" presentationName="HW component testing plan" briefDescription="The testing plan against which the component is to provide evidence for qualification." superActivities="_CMBwQZ2sEeCk2aQcgmZB_w">
+      <methodElementProperty xmi:id="_ul4m3gahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_YqE8kJ2qEeCk2aQcgmZB_w"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_A14PrKmHEeCC2aJoFcjzgA" name="Hardware component" guid="_A14PrKmHEeCC2aJoFcjzgA" presentationName="Hardware component" briefDescription="The qualified hardware component" superActivities="_CMBwQZ2sEeCk2aQcgmZB_w">
+      <methodElementProperty xmi:id="_ul4m3wahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_Am77EKZaEeCmzNtTCfivQw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_A14Pr6mHEeCC2aJoFcjzgA" name="HW Test report" guid="_A14Pr6mHEeCC2aJoFcjzgA" presentationName="HW Test report" briefDescription="The test report detailing the result of the tests that the component was subject to based upon the test plan. This provides evidence for qualification." superActivities="_CMBwQZ2sEeCk2aQcgmZB_w">
+      <methodElementProperty xmi:id="_ul4m4AahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_3UkvcJ20EeCk2aQcgmZB_w"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_A14PsqmHEeCC2aJoFcjzgA" name="Project member" guid="_A14PsqmHEeCC2aJoFcjzgA" presentationName="Project member" briefDescription="Overarching role that covers anyone on the project that has impact on the lifecycle of the element being developed.&#xD;&#xA;The project member role can be used to assign someone a task that requires a skill set that is outside the general roles defined." superActivities="_CMBwQZ2sEeCk2aQcgmZB_w">
+      <methodElementProperty xmi:id="_ul4m4QahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_MKQyEJEWEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_A14PtamHEeCC2aJoFcjzgA" name="HW Analysis report" guid="_A14PtamHEeCC2aJoFcjzgA" presentationName="HW Analysis report" briefDescription="The report describing the analysis carried out to qualify HW component based upon the analysis route." superActivities="_CMBwQZ2sEeCk2aQcgmZB_w">
+      <methodElementProperty xmi:id="_ul4m4gahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_-0sR8J20EeCk2aQcgmZB_w"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_A14PuKmHEeCC2aJoFcjzgA" name="Safety Manager" guid="_A14PuKmHEeCC2aJoFcjzgA" presentationName="Safety Manager" briefDescription="Plans the safety activities in the development  subphases of the safety lifecycle.&#xD;&#xA;He is responsible for the maintenance of the safety plan, and for monitoring the progress of the safety activities against the safety plan." superActivities="_CMBwQZ2sEeCk2aQcgmZB_w" modifies="_A14Pu6mHEeCC2aJoFcjzgA">
+      <methodElementProperty xmi:id="_ul4m4wahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-BmPW5GcjwMPGaPKZUB0CAg" href="uma://-TxI5YY8nIhPHOs-5rihkgw#-BmPW5GcjwMPGaPKZUB0CAg"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_jhKyAIedEeCpk9ipETsKDg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_A14Pu6mHEeCC2aJoFcjzgA" name="HW Verification report" guid="_A14Pu6mHEeCC2aJoFcjzgA" presentationName="HW Verification report" briefDescription="Report detailing the result of the verification process of the hw safety requirements." superActivities="_CMBwQZ2sEeCk2aQcgmZB_w">
+      <methodElementProperty xmi:id="_ul4m5AahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_NRLoIJ2eEeCk2aQcgmZB_w"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_CMBwQZ2sEeCk2aQcgmZB_w" name="8.13 Qualification of HW components" guid="_CMBwQZ2sEeCk2aQcgmZB_w" presentationName="8.13 Qualification of HW components" briefDescription="Every component and part used within the scope of ISO 26262 has to be qualified to address general functional performance, conformity of production, environmental endurance and robustness.  &#xD;&#xA;This practice details how HW qualification is carried out. &#xD;&#xA;The user is advised to refer to  ISO 26262-, vol 8, clause 13 to clarify any details that are not clear and for further information &#xD;&#xA;Every component and part used within the scope of ISO 26262 has to be qualified to address general functional performance, conformity of production, environmental endurance and robustness." breakdownElements="_MbYgMZ2sEeCk2aQcgmZB_w _MbYgMp2sEeCk2aQcgmZB_w _MbYgNJ2sEeCk2aQcgmZB_w _MbYgM52sEeCk2aQcgmZB_w _MbYgMJ2sEeCk2aQcgmZB_w _MbYgNZ2sEeCk2aQcgmZB_w _A14PkamHEeCC2aJoFcjzgA _A14PlKmHEeCC2aJoFcjzgA _A14Pl6mHEeCC2aJoFcjzgA _A14PmqmHEeCC2aJoFcjzgA _A14PnamHEeCC2aJoFcjzgA _A14PoKmHEeCC2aJoFcjzgA _A14Po6mHEeCC2aJoFcjzgA _A14PpqmHEeCC2aJoFcjzgA _A14PqamHEeCC2aJoFcjzgA _A14PrKmHEeCC2aJoFcjzgA _A14Pr6mHEeCC2aJoFcjzgA _A14PsqmHEeCC2aJoFcjzgA _A14PtamHEeCC2aJoFcjzgA _A14PuKmHEeCC2aJoFcjzgA _A14Pu6mHEeCC2aJoFcjzgA">
+      <presentation xmi:id="-sclQT99rVOGifSrQTJwMrg" href="uma://-TxI5YY8nIhPHOs-5rihkgw#-sclQT99rVOGifSrQTJwMrg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

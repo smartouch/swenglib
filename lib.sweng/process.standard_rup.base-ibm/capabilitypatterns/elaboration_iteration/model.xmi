@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_uogwQCZUEd-Hb5ChSoDHIA" guid="_uogwQCZUEd-Hb5ChSoDHIA">
+    <resourceDescriptors xmi:id="_uogwQSZUEd-Hb5ChSoDHIA" id="-AbA6r1c60GGh5TuIIvql0g" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_t8RVaiZUEd-Hb5ChSoDHIA" name="elaboration_iteration" guid="_t8RVaiZUEd-Hb5ChSoDHIA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_t8RVeiZUEd-Hb5ChSoDHIA" name="prepare_environment_for_an_iteration" guid="_t8RVeiZUEd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_t8RVeyZUEd-Hb5ChSoDHIA" name="prepare_environment_for_an_iteration" guid="_t8RVeyZUEd-Hb5ChSoDHIA" presentationName="Prepare Environment for an Iteration" superActivities="_t8RVfCZUEd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_KjjKySZIEd-Hb5ChSoDHIA#_KjjK0yZIEd-Hb5ChSoDHIA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_t8RVcSZUEd-Hb5ChSoDHIA" name="plan_entire_project" guid="_t8RVcSZUEd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_t8RVciZUEd-Hb5ChSoDHIA" name="plan_entire_project" guid="_t8RVciZUEd-Hb5ChSoDHIA" presentationName="Revise and Complete Project Plans" superActivities="_t8RVfCZUEd-Hb5ChSoDHIA" linkToPredecessor="_t8RVcyZUEd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_hhtj0CYtEd-Oda441NMnHQ#_hh3U7iYtEd-Oda441NMnHQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RVcyZUEd-Hb5ChSoDHIA" guid="_t8RVcyZUEd-Hb5ChSoDHIA" pred="_t8RVeyZUEd-Hb5ChSoDHIA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_t8RViSZUEd-Hb5ChSoDHIA" name="refine_the_system_definition" guid="_t8RViSZUEd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_t8RViiZUEd-Hb5ChSoDHIA" name="refine_the_system_definition" guid="_t8RViiZUEd-Hb5ChSoDHIA" presentationName="Refine the System Definition" superActivities="_t8RVfCZUEd-Hb5ChSoDHIA" linkToPredecessor="_t8RViyZUEd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_KjsUsyZIEd-Hb5ChSoDHIA#_Kj2FvyZIEd-Hb5ChSoDHIA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RViyZUEd-Hb5ChSoDHIA" guid="_t8RViyZUEd-Hb5ChSoDHIA" pred="_t8RVeyZUEd-Hb5ChSoDHIA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_t8RVjyZUEd-Hb5ChSoDHIA" name="define_a_candidate_architecture" guid="_t8RVjyZUEd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_t8RVkSZUEd-Hb5ChSoDHIA" name="define_a_candidate_architecture" guid="_t8RVkSZUEd-Hb5ChSoDHIA" presentationName="Define a Candidate Architecture" superActivities="_t8RVfCZUEd-Hb5ChSoDHIA" linkToPredecessor="_t8RVkCZUEd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_PDHikCsEEd-5jezL08ZExg#_8lPskNerEd-Zq9ImbgqLFQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RVkCZUEd-Hb5ChSoDHIA" guid="_t8RVkCZUEd-Hb5ChSoDHIA" pred="_t8RVeyZUEd-Hb5ChSoDHIA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_t8RVbiZUEd-Hb5ChSoDHIA" name="refine_the_architecture" guid="_t8RVbiZUEd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_t8RVcCZUEd-Hb5ChSoDHIA" name="refine_the_architecture" guid="_t8RVcCZUEd-Hb5ChSoDHIA" presentationName="Refine the Architecture" superActivities="_t8RVfCZUEd-Hb5ChSoDHIA" linkToPredecessor="_t8RVbyZUEd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_PDHikCsEEd-5jezL08ZExg#_ZY7v0NerEd-Zq9ImbgqLFQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RVbyZUEd-Hb5ChSoDHIA" guid="_t8RVbyZUEd-Hb5ChSoDHIA" pred="_t8RVkSZUEd-Hb5ChSoDHIA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_t8RVdCZUEd-Hb5ChSoDHIA" name="develop_components_within_scope" guid="_t8RVdCZUEd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_t8RVdSZUEd-Hb5ChSoDHIA" name="develop_components_within_scope" guid="_t8RVdSZUEd-Hb5ChSoDHIA" presentationName="Develop Components [within Scope]" hasMultipleOccurrences="true" superActivities="_t8RVfCZUEd-Hb5ChSoDHIA" linkToPredecessor="_t8RVdiZUEd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_xfqD6CZREd-Hb5ChSoDHIA#_xfqD6yZREd-Hb5ChSoDHIA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RVdiZUEd-Hb5ChSoDHIA" guid="_t8RVdiZUEd-Hb5ChSoDHIA" pred="_t8RVeyZUEd-Hb5ChSoDHIA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_t8RVfSZUEd-Hb5ChSoDHIA" name="plan_for_next_iteration" guid="_t8RVfSZUEd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_t8RVhiZUEd-Hb5ChSoDHIA" name="plan_for_next_iteration" guid="_t8RVhiZUEd-Hb5ChSoDHIA" presentationName="Plan for Next Iteration" superActivities="_t8RVfCZUEd-Hb5ChSoDHIA" linkToPredecessor="_t8RVhSZUEd-Hb5ChSoDHIA _t8RVhCZUEd-Hb5ChSoDHIA _t8RVfiZUEd-Hb5ChSoDHIA _t8RVgyZUEd-Hb5ChSoDHIA _t8RVfyZUEd-Hb5ChSoDHIA _t8RVhyZUEd-Hb5ChSoDHIA _t8RVgiZUEd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_hhtj0CYtEd-Oda441NMnHQ#_hh3U-SYtEd-Oda441NMnHQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RViCZUEd-Hb5ChSoDHIA" guid="_t8RViCZUEd-Hb5ChSoDHIA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RVgSZUEd-Hb5ChSoDHIA" guid="_t8RVgSZUEd-Hb5ChSoDHIA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RVgCZUEd-Hb5ChSoDHIA" guid="_t8RVgCZUEd-Hb5ChSoDHIA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RVhSZUEd-Hb5ChSoDHIA" guid="_t8RVhSZUEd-Hb5ChSoDHIA" pred="_t8RVciZUEd-Hb5ChSoDHIA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RVhCZUEd-Hb5ChSoDHIA" guid="_t8RVhCZUEd-Hb5ChSoDHIA" pred="_t8RVjiZUEd-Hb5ChSoDHIA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RVfiZUEd-Hb5ChSoDHIA" guid="_t8RVfiZUEd-Hb5ChSoDHIA" pred="_t8RViiZUEd-Hb5ChSoDHIA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RVgyZUEd-Hb5ChSoDHIA" guid="_t8RVgyZUEd-Hb5ChSoDHIA" pred="_t8RVcCZUEd-Hb5ChSoDHIA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RVfyZUEd-Hb5ChSoDHIA" guid="_t8RVfyZUEd-Hb5ChSoDHIA" pred="_t8RVdSZUEd-Hb5ChSoDHIA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RVhyZUEd-Hb5ChSoDHIA" guid="_t8RVhyZUEd-Hb5ChSoDHIA" pred="_t8RVeSZUEd-Hb5ChSoDHIA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RVgiZUEd-Hb5ChSoDHIA" guid="_t8RVgiZUEd-Hb5ChSoDHIA" pred="_t8RVbCZUEd-Hb5ChSoDHIA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_t8RVjCZUEd-Hb5ChSoDHIA" name="ongoing_management_and_support" guid="_t8RVjCZUEd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_t8RVjiZUEd-Hb5ChSoDHIA" name="ongoing_management_and_support" guid="_t8RVjiZUEd-Hb5ChSoDHIA" presentationName="Ongoing Management and Support" superActivities="_t8RVfCZUEd-Hb5ChSoDHIA" isOngoing="true" linkToPredecessor="_t8RVjSZUEd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_xfz09iZREd-Hb5ChSoDHIA#_xfz09yZREd-Hb5ChSoDHIA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RVjSZUEd-Hb5ChSoDHIA" guid="_t8RVjSZUEd-Hb5ChSoDHIA" pred="_t8RVeyZUEd-Hb5ChSoDHIA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_t8RVdyZUEd-Hb5ChSoDHIA" name="develop_support_material_within_scope" guid="_t8RVdyZUEd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_t8RVeSZUEd-Hb5ChSoDHIA" name="develop_support_material_within_scope" guid="_t8RVeSZUEd-Hb5ChSoDHIA" presentationName="Develop Support Material [within Scope]" hasMultipleOccurrences="true" superActivities="_t8RVfCZUEd-Hb5ChSoDHIA" linkToPredecessor="_t8RVeCZUEd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_KjZZyCZIEd-Hb5ChSoDHIA#_KjZaGiZIEd-Hb5ChSoDHIA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RVeCZUEd-Hb5ChSoDHIA" guid="_t8RVeCZUEd-Hb5ChSoDHIA" pred="_t8RVeyZUEd-Hb5ChSoDHIA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_t8RVayZUEd-Hb5ChSoDHIA" name="integrate_and_test" guid="_t8RVayZUEd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_t8RVbCZUEd-Hb5ChSoDHIA" name="integrate_and_test" guid="_t8RVbCZUEd-Hb5ChSoDHIA" presentationName="Integrate and Test" superActivities="_t8RVfCZUEd-Hb5ChSoDHIA" isOngoing="true" linkToPredecessor="_t8RVbSZUEd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_xfz05SZREd-Hb5ChSoDHIA#_xfz07CZREd-Hb5ChSoDHIA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_t8RVbSZUEd-Hb5ChSoDHIA" guid="_t8RVbSZUEd-Hb5ChSoDHIA" pred="_t8RVeyZUEd-Hb5ChSoDHIA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_GGIAwEgAEd-7-IrXgNSYwA" name="Close-out Phase" guid="_GGIAwEgAEd-7-IrXgNSYwA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_GGIAwUgAEd-7-IrXgNSYwA" name="Close-out Phase" guid="_GGIAwUgAEd-7-IrXgNSYwA" presentationName="Close-out Phase" superActivities="_t8RVfCZUEd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_hhtj0CYtEd-Oda441NMnHQ#_hiAe-SYtEd-Oda441NMnHQ"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_t8RVfCZUEd-Hb5ChSoDHIA" name="elaboration_iteration" guid="_t8RVfCZUEd-Hb5ChSoDHIA" presentationName="Elaboration Iteration" briefDescription="This is an example Elaboration Phase iteration. It includes the activities typically performed during a single iteration in the elaboration phase. The goal of the elaboration phase is to baseline the architecture of the system to provide a stable basis for the bulk of the design and implementation effort in the construction phase. The architecture evolves out of a consideration of the most significant requirements (those that have a great impact on the architecture of the system) and an assessment of risk. The stability of the architecture is evaluated through one or more architectural prototypes. " isRepeatable="true" breakdownElements="_t8RVeyZUEd-Hb5ChSoDHIA _t8RVciZUEd-Hb5ChSoDHIA _t8RVjiZUEd-Hb5ChSoDHIA _t8RViiZUEd-Hb5ChSoDHIA _t8RVkSZUEd-Hb5ChSoDHIA _t8RVcCZUEd-Hb5ChSoDHIA _t8RVdSZUEd-Hb5ChSoDHIA _t8RVbCZUEd-Hb5ChSoDHIA _t8RVeSZUEd-Hb5ChSoDHIA _t8RVhiZUEd-Hb5ChSoDHIA _GGIAwUgAEd-7-IrXgNSYwA">
+      <methodElementProperty xmi:id="_4DUHMLemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-AbA6r1c60GGh5TuIIvql0g" href="uma://-AbA6r1c60GGh5TuIIvql0g#-AbA6r1c60GGh5TuIIvql0g"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

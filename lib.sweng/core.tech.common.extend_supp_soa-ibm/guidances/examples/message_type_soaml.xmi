@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-tJj9unfbXWTC20JTVbk8qA" name="new_example,_JCUowGc7Ed65K8S2sWS35w" guid="-tJj9unfbXWTC20JTVbk8qA" changeDate="2012-10-03T09:46:05.042-0700" version="7.5.0">
+  <copyrightStatement href="uma://_4eYbIEcWEd6GBq2DuQ5crg#_cg5P8Lg9Ed6PrITAH4wF_w"/>
+  <mainDescription>&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>Figure 1 shows&amp;nbsp;two MessageTypes that&amp;nbsp;can be used to define the information exchanged between&#xD;
+    service consumers and providers. These MessageTypes&amp;nbsp;can be used as types for operation parameters.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 1.&amp;nbsp; Sample MessageType diagram&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;./resources/messagetype_example_1.jpg&quot; width=&quot;599&quot; height=&quot;233&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>MessageTypes can have associations with other message and data types as shown by the&#xD;
+    relationship between POMessage and Customer.&amp;nbsp; Such associations must be aggregations.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Figure 2 shows two examples of the Purchasing Interface&amp;nbsp;and its&#xD;
+    processPurchaseOrder Operation. The first example uses document or message style parameters where the types of the&#xD;
+    parameters are the MessageTypes shown above. The second version uses more &quot;Object Oriented&quot; Remote Procedure Call (RPC)&#xD;
+    style that supports multiple inputs, outputs, and a return value. The choice to use depends on modeler preference and&#xD;
+    possibly the target platform. Some platforms such as Web Services and WSDL require message style parameters, which can&#xD;
+    be created from either modeling style. It is possible to translate RPC style to message parameters in the transform,&#xD;
+    and that's what WSDL wrapped doc-literal message style is for. But this can result in many WSDL messages containing the&#xD;
+    same information that could cause interoperability problems in the runtime platform.&lt;/font>&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 2.&amp;nbsp; Document-style (top)&amp;nbsp;vs. RPC-style (bottom) messages&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&lt;img alt=&quot;Class diagram showing types of messages: document-style (on top) vs. RPC-style (on bottom)&quot;&#xD;
+    src=&quot;./resources/messagetype_example_2.jpg&quot; />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_ndqfEMM_Ed6m9OL8Xjaqqg" guid="_ndqfEMM_Ed6m9OL8Xjaqqg">
+    <resourceDescriptors xmi:id="_O6ngUM5eEd61E8FrAucbNA" id="-HU1rvlsICFePXVL8IGRHIg" uri="roles/req_engineer.xmi"/>
+    <resourceDescriptors xmi:id="_VRJvIc5fEd61E8FrAucbNA" id="-4WNhzameOCYqNXgqvaZd_g" uri="roles/sys_architect.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_ndqfAMM_Ed6m9OL8Xjaqqg" userChangeable="false" name="practice.tech.syseng.common.extend_roles-ibm" guid="_ndqfAMM_Ed6m9OL8Xjaqqg" changeDate="2010-10-28T11:13:59.662-0700">
+    <methodElementProperty xmi:id="_3YQYBLemEd-oHLor78AFuw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_VBVtYBXVEdyM9L6rbYAZaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ndqfAcM_Ed6m9OL8Xjaqqg" name="Content" guid="_ndqfAcM_Ed6m9OL8Xjaqqg">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ndqfAsM_Ed6m9OL8Xjaqqg" name="Categories" guid="_ndqfAsM_Ed6m9OL8Xjaqqg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ndqfA8M_Ed6m9OL8Xjaqqg" name="Domains" guid="_ndqfA8M_Ed6m9OL8Xjaqqg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ndqfBMM_Ed6m9OL8Xjaqqg" name="Disciplines" guid="_ndqfBMM_Ed6m9OL8Xjaqqg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ndqfBcM_Ed6m9OL8Xjaqqg" name="RoleSets" guid="_ndqfBcM_Ed6m9OL8Xjaqqg">
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_LN5HwOK_Ed-ER8vIPI9iwg" name="systems_requirements_roles_list" guid="_LN5HwOK_Ed-ER8vIPI9iwg" variabilityType="contributes" roles="_F8Dj4L_6Ed6vAIgZHbAJvg">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:RoleSet" href="uma://_yjPyAMYfEdyXeo04os5BOw#_1i2MUGgXEd-Iq9J-mVPu8w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_TIiqIOK_Ed-ER8vIPI9iwg" name="sw_architecture_roles_list" guid="_TIiqIOK_Ed-ER8vIPI9iwg" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:RoleSet" href="uma://_yjPyAMYfEdyXeo04os5BOw#_cv5aoGgYEd-Iq9J-mVPu8w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_XMkgQOK_Ed-ER8vIPI9iwg" name="architecture_roles_list" guid="_XMkgQOK_Ed-ER8vIPI9iwg" variabilityType="contributes" roles="_4GCPQL_5Ed6vAIgZHbAJvg">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:RoleSet" href="uma://_yjPyAMYfEdyXeo04os5BOw#_sTQ3UGgXEd-Iq9J-mVPu8w"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ndqfBsM_Ed6m9OL8Xjaqqg" name="WP Types" guid="_ndqfBsM_Ed6m9OL8Xjaqqg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ndqfB8M_Ed6m9OL8Xjaqqg" name="Tools" guid="_ndqfB8M_Ed6m9OL8Xjaqqg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ndqfCMM_Ed6m9OL8Xjaqqg" name="StandardCategories" guid="_ndqfCMM_Ed6m9OL8Xjaqqg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ndqfCcM_Ed6m9OL8Xjaqqg" name="CustomCategories" guid="_ndqfCcM_Ed6m9OL8Xjaqqg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ndqfCsM_Ed6m9OL8Xjaqqg" name="Hidden" guid="_ndqfCsM_Ed6m9OL8Xjaqqg">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_ndqfC8M_Ed6m9OL8Xjaqqg" name="Custom Categories" guid="_ndqfC8M_Ed6m9OL8Xjaqqg"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ndqfDMM_Ed6m9OL8Xjaqqg" name="CoreContent" guid="_ndqfDMM_Ed6m9OL8Xjaqqg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_g3fsEL_5Ed6vAIgZHbAJvg" name="Common Roles" guid="_g3fsEL_5Ed6vAIgZHbAJvg">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_4GCPQL_5Ed6vAIgZHbAJvg" name="sys_architect" guid="_4GCPQL_5Ed6vAIgZHbAJvg" presentationName="System Architect" briefDescription="This role is responsible for specifying a system architecture that will satisfy the system requirements and meet project objectives by providing technical leadership and acting as a source of creative vision for system development">
+            <presentation xmi:id="-4WNhzameOCYqNXgqvaZd_g" href="uma://-4WNhzameOCYqNXgqvaZd_g#-4WNhzameOCYqNXgqvaZd_g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_F8Dj4L_6Ed6vAIgZHbAJvg" name="req_engineer" guid="_F8Dj4L_6Ed6vAIgZHbAJvg" presentationName="Requirements Engineer" briefDescription="This role leads and coordinates requirements elicitation and documents and maintains the different levels of stakeholder and system requirements.">
+            <presentation xmi:id="-HU1rvlsICFePXVL8IGRHIg" href="uma://-HU1rvlsICFePXVL8IGRHIg#-HU1rvlsICFePXVL8IGRHIg"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ndqfDcM_Ed6m9OL8Xjaqqg" name="CapabilityPatterns" guid="_ndqfDcM_Ed6m9OL8Xjaqqg"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ndqfDsM_Ed6m9OL8Xjaqqg" name="DeliveryProcesses" guid="_ndqfDsM_Ed6m9OL8Xjaqqg"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ndqfD8M_Ed6m9OL8Xjaqqg" name="ProcessContributions" guid="_ndqfD8M_Ed6m9OL8Xjaqqg"/>
+    <bases href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_iX6DsBXGEdyM9L6rbYAZaw"/>
+    <bases href="uma://_yjPyAMYfEdyXeo04os5BOw#_yjPyAMYfEdyXeo04os5BOw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

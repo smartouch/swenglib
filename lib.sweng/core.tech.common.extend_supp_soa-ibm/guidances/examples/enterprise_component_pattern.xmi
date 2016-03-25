@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-BFoP2wyHLBA1mV1HUxSa-g" name="enterprise_component_pattern,_DS_TEGWpEd6Zd-lbA790BQ" guid="-BFoP2wyHLBA1mV1HUxSa-g" changeDate="2009-10-29T08:43:30.515-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    The Enterprise Component Pattern below shows the service component acting as a facade for the underlying functional and&#xD;
+    technical components. Services are exposed on the edge of the service component at the component facade. Requests for&#xD;
+    services on the facade are forwarded to a mediator which then routes the message to the appropriate functional or&#xD;
+    technical component.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 1.&amp;nbsp; Sample rendering of the Enterprise Component pattern&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p align=&quot;center&quot;>&#xD;
+    &lt;img src=&quot;./resources/entcompptrn.3.gif&quot; />&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The dependencies and needs of the functional components to the technical components, for the Rent-a-car example, are&#xD;
+    depicted in Figure 2.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 2.&amp;nbsp; Rent-a-car reservation service using the enterprise component pattern&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img src=&quot;./resources/carrentalex.3.gif&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The collection of subsystem component models is gathered into the functional component model which shows the reliance&#xD;
+    of the functional components on the technical components, and the inter-relationships between the functional components&#xD;
+    themselves. Leaf-level sub-processes that are assigned to the subsystem facade need to be specified as services the&#xD;
+    subsystem will provide. These sub-processes are supported and implemented through a finer grained set of system use&#xD;
+    cases encapsulated within the structure of the subsystem. The functional components are relied upon for the realization&#xD;
+    of the use cases. In turn the functional components depend on the technical components and utilities for their&#xD;
+    infrastructure needs.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

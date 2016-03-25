@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-hH1bZNBnsuZOy-ZC4pUXcA" name="define_ports_intfcs,_H01RYGKaEd6Ih4GzU1_Daw" guid="-hH1bZNBnsuZOy-ZC4pUXcA" changeDate="2009-11-27T11:16:27.265-0800" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    This task&amp;nbsp;refines&amp;nbsp;the executable use-case model by adding ports, interfaces and connectors to support the&#xD;
+    communication between the use-case block and its associated actors.&amp;nbsp; The ports, interfaces and connectors&amp;nbsp;are&#xD;
+    derived from the previously defined black-box sequence diagrams.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_zmvTQL2lEd6N54g5903uPw" name="Create behavior ports" guid="_zmvTQL2lEd6N54g5903uPw">
+    <sectionDescription>Review the black-box sequence diagram for the use case and identify messages exchanged between lifelines.&amp;nbsp; Define&#xD;
+behavioral ports on each structural block for incoming/outgoing messages.&amp;nbsp;See&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.tech._system.build_validate_uc.base-ibm/guidances/guidelines/svc_req_modeling_610A5BF6.html&quot;&#xD;
+guid=&quot;_ElxnQL2mEd6N54g5903uPw&quot;>Service Request Driven Modeling Approach&lt;/a> for guidance on defining ports.</sectionDescription>
+  </sections>
+  <sections xmi:id="_1f4mML2lEd6N54g5903uPw" name="Create interfaces" guid="_1f4mML2lEd6N54g5903uPw">
+    <sectionDescription>Logically group messages in Interfaces. See&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.tech._system.build_validate_uc.base-ibm/guidances/guidelines/svc_req_modeling_610A5BF6.html&quot;&#xD;
+guid=&quot;_ElxnQL2mEd6N54g5903uPw&quot;>Service Request Driven Modeling Approach&lt;/a> for guidance in defining interfaces.</sectionDescription>
+  </sections>
+  <sections xmi:id="_3NQuAL2lEd6N54g5903uPw" name="Associate interfaces with ports" guid="_3NQuAL2lEd6N54g5903uPw">
+    <sectionDescription>Associate interfaces with ports.&amp;nbsp;See&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.tech._system.build_validate_uc.base-ibm/guidances/guidelines/svc_req_modeling_610A5BF6.html&quot;&#xD;
+guid=&quot;_ElxnQL2mEd6N54g5903uPw&quot;>Service Request Driven Modeling Approach&lt;/a> for guidance on associating interfaces with&#xD;
+ports.</sectionDescription>
+  </sections>
+  <sections xmi:id="_4py9cL2lEd6N54g5903uPw" name="Connect ports" guid="_4py9cL2lEd6N54g5903uPw">
+    <sectionDescription>Create connectors between the actor blocks&amp;nbsp;and the relevant use-case block ports to support communications defined by&#xD;
+the interfaces.</sectionDescription>
+  </sections>
+  <purpose>To implement the interactions between actor(s) and a use-case block in the executable use case model.&amp;nbsp;The defined&#xD;
+ports and interfaces are&amp;nbsp;derived through&amp;nbsp;analysis of the use case black-box&amp;nbsp;sequence diagram(s).</purpose>
+</org.eclipse.epf.uma:TaskDescription>

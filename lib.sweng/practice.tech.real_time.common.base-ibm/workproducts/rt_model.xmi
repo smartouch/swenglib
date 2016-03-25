@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-pS9gRtzb8d5cFSOLbJpwdg" name="rt_model,_5dqM8MvsEd-j1uJpwhl9rw" guid="-pS9gRtzb8d5cFSOLbJpwdg" changeDate="2010-10-26T10:50:38.984-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    The model can be thought of as a repository of semantic concepts and their interrelations, visualized by a set of&#xD;
+    views. These views can be:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Structural (e.g. class diagram, structure diagram, package diagram, source code)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Behavioral (e.g. state machine diagram, activity diagram)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interaction (e.g. sequence diagram, timing diagram)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Functional (e.g. information flow diagram, use case diagram)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Performance (e.g. constraints modifying elements present in the other views)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    A model the is composed of a great many contained artifacts or work products. In addition, a model can contain a nested&#xD;
+    model, such as a Platform-Independent Model (PIM) or Platform-Specific Model (PSM), which are themselves models within&#xD;
+    the over all model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A &quot;logical&quot; model can be split across multiple physical realization models for developer convenience; indeed this is&#xD;
+    almost always the case for large models. A typical large-scale logical model consists of the following separate&#xD;
+    physical models:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        System engineering model (specifies the overall system requirements as use cases and the overall system&#xD;
+        architecture)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Software Requirements model (specifies the use cases specific to the software development)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        (Several) subsystem model (specifies the realization of each architectural unit)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Shared model (contains interfaces, classes and types shared among subsystem models)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <keyConsiderations>Models need to have enough formality and precision to serve their purpose. This normally means that they not only&#xD;
+&lt;em>execute&lt;/em> properly but can be used as the basis for &lt;em>automatic code generation&lt;/em> for the target platform.&#xD;
+System engineering models typically are not used for code generation but should usually still execute so that their quality&#xD;
+can be assessed. Software models should normally be represented with a higher degree of precision because they represent&#xD;
+the analysis or design of the actual system to be deployed.</keyConsiderations>
+  <purpose>The purpose of this work product is to represent the functionality, structure, behavior, and performance of the delivered&#xD;
+system in a more usable, comprehensible, and reusable form, from which the actual system can be generated in a more-or-less&#xD;
+automated fashion.</purpose>
+  <impactOfNotHaving>A well-formed model provides visualization and communication of the system's structure, behavior, functionality, and&#xD;
+performance. Not having a model means that these concepts must be gleaned from examination of the source code, which is at&#xD;
+best difficult and in some cases, not feasible.</impactOfNotHaving>
+  <representation>The most important diagrams from the UML are: class, state, and sequence diagrams. Other diagrams add value but virtually&#xD;
+all systems can be specified and created from only these three basic types.</representation>
+  <notation>The Unified Modeling Language (UML) is the primary language for the representation of models although other domain-specific&#xD;
+representations (such as&amp;nbsp;Fault Tree Analysis)&amp;nbsp;are often used in conjunction with the UML.&amp;nbsp;&amp;nbsp;</notation>
+</org.eclipse.epf.uma:ArtifactDescription>

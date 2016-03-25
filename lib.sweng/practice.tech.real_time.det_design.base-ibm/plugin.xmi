@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_bY6R4LXxEd-2qrSRq-Velw" guid="_bY6R4LXxEd-2qrSRq-Velw">
+    <subManagers xmi:id="_38ZgYLa1Ed-qJK6AskeP4g" href="uma://_37zDcLa1Ed-qJK6AskeP4g#_38ZgYLa1Ed-qJK6AskeP4g"/>
+    <resourceDescriptors xmi:id="_37zDc7a1Ed-qJK6AskeP4g" id="_37zDcLa1Ed-qJK6AskeP4g" uri="capabilitypatterns/det_dsgn_opt_rt/model.xmi"/>
+    <resourceDescriptors xmi:id="_ihIz8dh7Ed-EMKK-AkuNVQ" id="-0uAhG9DxLQH9HsLKcii3IA" uri="guidances/practices/rt_det_dsgn.xmi"/>
+    <resourceDescriptors xmi:id="_vRdDgd4HEd-8BsDLkQrDSQ" id="-sRfCSGUgBCLAQBHuSrNFgw" uri="tasks/optimize_class.xmi"/>
+    <resourceDescriptors xmi:id="_EofSgd4IEd-8BsDLkQrDSQ" id="-KQN0NvMIVFWNgy34bLUVAA" uri="tasks/select_classes.xmi"/>
+    <resourceDescriptors xmi:id="_ufbygbcVEeC8hpaku3c2uA" id="-RS3KzdrnvuMik2gNm5MeVg" uri="guidances/supportingmaterials/release_info_det_design.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_bY6R0LXxEd-2qrSRq-Velw" userChangeable="false" name="practice.tech.real_time.det_design.base-ibm" guid="_bY6R0LXxEd-2qrSRq-Velw" changeDate="2010-09-29T10:59:37.234-0700">
+    <methodElementProperty xmi:id="_q_ZX-OkJEd-I1fnAy2RxGw" name="plugin_synFree" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bY6R0bXxEd-2qrSRq-Velw" name="Content" guid="_bY6R0bXxEd-2qrSRq-Velw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bY6R0rXxEd-2qrSRq-Velw" name="Categories" guid="_bY6R0rXxEd-2qrSRq-Velw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bY6R07XxEd-2qrSRq-Velw" name="Domains" guid="_bY6R07XxEd-2qrSRq-Velw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bY6R1LXxEd-2qrSRq-Velw" name="Disciplines" guid="_bY6R1LXxEd-2qrSRq-Velw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bY6R1bXxEd-2qrSRq-Velw" name="RoleSets" guid="_bY6R1bXxEd-2qrSRq-Velw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bY6R1rXxEd-2qrSRq-Velw" name="WP Types" guid="_bY6R1rXxEd-2qrSRq-Velw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bY6R17XxEd-2qrSRq-Velw" name="Tools" guid="_bY6R17XxEd-2qrSRq-Velw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bY6R2LXxEd-2qrSRq-Velw" name="StandardCategories" guid="_bY6R2LXxEd-2qrSRq-Velw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bY6R2bXxEd-2qrSRq-Velw" name="CustomCategories" guid="_bY6R2bXxEd-2qrSRq-Velw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bY6R2rXxEd-2qrSRq-Velw" name="Hidden" guid="_bY6R2rXxEd-2qrSRq-Velw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_bY6R27XxEd-2qrSRq-Velw" name="Custom Categories" guid="_bY6R27XxEd-2qrSRq-Velw"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_bY6R3LXxEd-2qrSRq-Velw" name="CoreContent" guid="_bY6R3LXxEd-2qrSRq-Velw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_WmRz0LXyEd-2qrSRq-Velw" name="RT Detailed Design" guid="_WmRz0LXyEd-2qrSRq-Velw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_cs9ygLFCEd-mOKCs6c0xZQ" name="optimize_class" guid="_cs9ygLFCEd-mOKCs6c0xZQ" presentationName="Optimize Class" briefDescription="This task focuses on the optimization of specific classes in your model. You will turn the &quot;analysis class&quot; into an optimal &quot;design class.&quot;">
+            <presentation xmi:id="-sRfCSGUgBCLAQBHuSrNFgw" href="uma://-sRfCSGUgBCLAQBHuSrNFgw#-sRfCSGUgBCLAQBHuSrNFgw"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_QFRtcOK_Ed-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_ESto4OLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_9rjSMOLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_iD0hMOLAEd-G2pDngtqTxA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_S5PD0OK0Ed-G2pDngtqTxA"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_5dqM8MvsEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_Os81MMvtEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_N3ugkMvxEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_eL0PkMvwEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_Os81MMvtEd-j1uJpwhl9rw"/>
+            <optionalInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_LqyEsMvtEd-j1uJpwhl9rw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_WcRQgLFCEd-mOKCs6c0xZQ" name="select_classes" guid="_WcRQgLFCEd-mOKCs6c0xZQ" presentationName="Select Special Needs Classes" briefDescription="This task identifies classes that require special optimization.">
+            <presentation xmi:id="-KQN0NvMIVFWNgy34bLUVAA" href="uma://-KQN0NvMIVFWNgy34bLUVAA#-KQN0NvMIVFWNgy34bLUVAA"/>
+            <guidelines href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_wRikIOLAEd-G2pDngtqTxA"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_5dqM8MvsEd-j1uJpwhl9rw"/>
+            <mandatoryInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_eL0PkMvwEd-j1uJpwhl9rw"/>
+            <output href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_Os81MMvtEd-j1uJpwhl9rw"/>
+            <optionalInput href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_LqyEsMvtEd-j1uJpwhl9rw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_jTzCoLePEd-05egMquN4Dg" name="rt_det_dsgn" guid="_jTzCoLePEd-05egMquN4Dg" presentationName="Real-Time Detailed Design">
+            <presentation xmi:id="-0uAhG9DxLQH9HsLKcii3IA" href="uma://-0uAhG9DxLQH9HsLKcii3IA#-0uAhG9DxLQH9HsLKcii3IA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_cs9ygLFCEd-mOKCs6c0xZQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_WcRQgLFCEd-mOKCs6c0xZQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_eL0PkMvwEd-j1uJpwhl9rw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_LqyEsMvtEd-j1uJpwhl9rw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_Os81MMvtEd-j1uJpwhl9rw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_N3ugkMvxEd-j1uJpwhl9rw"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_wRikIOLAEd-G2pDngtqTxA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_9rjSMOLAEd-G2pDngtqTxA"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_iD0hMOLAEd-G2pDngtqTxA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_qeFc8LcVEeC8hpaku3c2uA" name="release_info_det_design" guid="_qeFc8LcVEeC8hpaku3c2uA" presentationName="Practice: Real Time - Detailed Design" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-RS3KzdrnvuMik2gNm5MeVg" href="uma://-RS3KzdrnvuMik2gNm5MeVg#-RS3KzdrnvuMik2gNm5MeVg"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_bY6R3bXxEd-2qrSRq-Velw" name="CapabilityPatterns" guid="_bY6R3bXxEd-2qrSRq-Velw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_37zDcLa1Ed-qJK6AskeP4g" href="uma://_37zDcLa1Ed-qJK6AskeP4g#_37zDcLa1Ed-qJK6AskeP4g"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_bY6R3rXxEd-2qrSRq-Velw" name="DeliveryProcesses" guid="_bY6R3rXxEd-2qrSRq-Velw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_bY6R37XxEd-2qrSRq-Velw" name="ProcessContributions" guid="_bY6R37XxEd-2qrSRq-Velw"/>
+    <bases href="uma://_fXBQ8LBxEd-_-u_W99sqSA#_fXBQ8LBxEd-_-u_W99sqSA"/>
+    <bases href="uma://_r4gqELXsEd-FofslSzycTA#_r4gqELXsEd-FofslSzycTA"/>
+    <bases href="uma://_DiOUEMvrEd-j1uJpwhl9rw#_DiOUEMvrEd-j1uJpwhl9rw"/>
+    <bases href="uma://_A118oMYaEdyXeo04os5BOw#_A118oMYaEdyXeo04os5BOw"/>
+    <bases href="uma://_NWTdQMvrEd-j1uJpwhl9rw#_NWTdQMvrEd-j1uJpwhl9rw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

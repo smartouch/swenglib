@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_uB3vkewsEd-sjp03to1LnQ" guid="_uB3vkewsEd-sjp03to1LnQ">
+    <resourceDescriptors xmi:id="_uB3vkuwsEd-sjp03to1LnQ" id="-PiwN1tMubbosR9Y8Yl3vZQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_s_RDL-wsEd-sjp03to1LnQ" name="cots_inception_phase" guid="_s_RDL-wsEd-sjp03to1LnQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_s_RDNuwsEd-sjp03to1LnQ" name="cots_inception_recommend_candidate_solutions" guid="_s_RDNuwsEd-sjp03to1LnQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_s_RDN-wsEd-sjp03to1LnQ" name="cots_inception_recommend_candidate_solutions" guid="_s_RDN-wsEd-sjp03to1LnQ" superActivities="_s_RDOOwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_s_HSZ-wsEd-sjp03to1LnQ#_s_HSbOwsEd-sjp03to1LnQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_s_RDNOwsEd-sjp03to1LnQ" name="cots_inception_support_iteration" guid="_s_RDNOwsEd-sjp03to1LnQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_s_RDNewsEd-sjp03to1LnQ" name="cots_inception_support_iteration" guid="_s_RDNewsEd-sjp03to1LnQ" superActivities="_s_RDOOwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_s_HSKewsEd-sjp03to1LnQ#_s_HSM-wsEd-sjp03to1LnQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_s_RDMOwsEd-sjp03to1LnQ" name="cots_inception_gather_info_from_spheres" guid="_s_RDMOwsEd-sjp03to1LnQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_s_RDMewsEd-sjp03to1LnQ" name="cots_inception_gather_info_from_spheres" guid="_s_RDMewsEd-sjp03to1LnQ" superActivities="_s_RDOOwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_s-9hquwsEd-sjp03to1LnQ#_s-9hr-wsEd-sjp03to1LnQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_s_RDMuwsEd-sjp03to1LnQ" name="cots_inception_define_candidate_solutions" guid="_s_RDMuwsEd-sjp03to1LnQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_s_RDM-wsEd-sjp03to1LnQ" name="cots_inception_define_candidate_solutions" guid="_s_RDM-wsEd-sjp03to1LnQ" hasMultipleOccurrences="true" superActivities="_s_RDOOwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_s_HSOuwsEd-sjp03to1LnQ#_s_HSO-wsEd-sjp03to1LnQ"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_s_RDOOwsEd-sjp03to1LnQ" name="cots_inception_phase" guid="_s_RDOOwsEd-sjp03to1LnQ" presentationName="Inception Iteration" briefDescription="This is an example of inception phase iteration. It includes the activities typically performed during a single iteration in the inception phase." isRepeatable="true" breakdownElements="_s_RDMewsEd-sjp03to1LnQ _s_RDM-wsEd-sjp03to1LnQ _s_RDN-wsEd-sjp03to1LnQ _s_RDNewsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t92LMuwsEd-sjp03to1LnQ" name="process_synFree" value="true"/>
+      <presentation xmi:id="-PiwN1tMubbosR9Y8Yl3vZQ" href="uma://-PiwN1tMubbosR9Y8Yl3vZQ#-PiwN1tMubbosR9Y8Yl3vZQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

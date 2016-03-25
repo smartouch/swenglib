@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_uIIIkOwsEd-sjp03to1LnQ" guid="_uIIIkOwsEd-sjp03to1LnQ">
+    <resourceDescriptors xmi:id="_uIIIkewsEd-sjp03to1LnQ" id="-mLU12zdiggJeCDfy6R5tbg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_Nt5TMBawEeCjx5QJHD1iHA" id="-4k6Kh9hzImbNyiDLbsRMaQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_Nt5TMRawEeCjx5QJHD1iHA" id="-8SEZgLPr14hL50I_iklRpg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_NuDEMBawEeCjx5QJHD1iHA" id="-XnLc_2iYq7mQpFeoGBGGeA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_NuDEMRawEeCjx5QJHD1iHA" id="-DdkHiYnKAGYoiBsAnAcJKg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_NuDEMhawEeCjx5QJHD1iHA" id="-S0ubhjmnrH_Zh0vw0IgwIw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_NuM1MBawEeCjx5QJHD1iHA" id="-MBhcjnmJysgWiCBGgC8A5g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_NuM1MRawEeCjx5QJHD1iHA" id="-zjSdSQLtJ4w0SbGr4jRn4g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_NuM1MhawEeCjx5QJHD1iHA" id="-7PBiLfVZwhhSD2uavJxAog" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_NuM1MxawEeCjx5QJHD1iHA" id="-RCSJsghanyQIXMy-glnhlw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_NuV_IBawEeCjx5QJHD1iHA" id="-zP_QNmJZL4fh2uLUyo6m2g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_NuV_IRawEeCjx5QJHD1iHA" id="-HXr9btvqhWfSf1nqk6amSw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_NuV_IhawEeCjx5QJHD1iHA" id="-FCNaag0a07xxMRJkoym2Sg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_AYvYQh65EeCFtI1FQSVGsA" id="-UsFJITCL_Z04gS9YIXGE3Q" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_s-qmaOwsEd-sjp03to1LnQ" name="cots_transition_gather_info_from_sphere_4" guid="_s-qmaOwsEd-sjp03to1LnQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__ifswB64EeCFtI1FQSVGsA" name="plan_the_project" guid="__ifswB64EeCFtI1FQSVGsA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="__ifswR64EeCFtI1FQSVGsA" name="plan_the_project" guid="__ifswR64EeCFtI1FQSVGsA" superActivities="_s-qmdOwsEd-sjp03to1LnQ" linkToPredecessor="_AYvYQB65EeCFtI1FQSVGsA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_M0S53QibEeCt4-FxrVeQpQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_AYvYQB65EeCFtI1FQSVGsA" guid="_AYvYQB65EeCFtI1FQSVGsA">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_M0Jv6QibEeCt4-FxrVeQpQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_YMAxsHOTEeCIg8bfzEsl9Q" name="Assess Target Organization [placeholder]" guid="_YMAxsHOTEeCIg8bfzEsl9Q">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_YMAxsXOTEeCIg8bfzEsl9Q" name="Assess Target Organization [placeholder]" guid="_YMAxsXOTEeCIg8bfzEsl9Q" presentationName="Assess Target Organization [placeholder]" superActivities="_s-qmdOwsEd-sjp03to1LnQ"/>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_s-qmauwsEd-sjp03to1LnQ" name="develop_business_case" guid="_s-qmauwsEd-sjp03to1LnQ" presentationName="Develop Business Case" briefDescription="This task defines how to develop a Business Case by identifying the fundamental Product, Business, and Financial aspects of developing a new product, as well as the major constraints and options to consider." superActivities="_s-qmdOwsEd-sjp03to1LnQ" optionalInput="_I_tFwRawEeCjx5QJHD1iHA" output="_s-qmeewsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_dnbmohJGEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-4k6Kh9hzImbNyiDLbsRMaQ" href="uma://-mLU12zdiggJeCDfy6R5tbg#-4k6Kh9hzImbNyiDLbsRMaQ"/>
+      <Task href="uma://_NQtMkCx9Ed2K3Yip7M1QZA#{F7A5D34A-A8B1-466D-BE41-FFCD41B4430D}"/>
+      <selectedSteps href="uma://_359hE9nmEdmO6L4XMImrsA#_a0tzwNnnEdmO6L4XMImrsA"/>
+      <selectedSteps href="uma://_359hE9nmEdmO6L4XMImrsA#_a03kwNnnEdmO6L4XMImrsA"/>
+      <selectedSteps href="uma://_359hE9nmEdmO6L4XMImrsA#_a03kwdnnEdmO6L4XMImrsA"/>
+      <selectedSteps href="uma://_359hE9nmEdmO6L4XMImrsA#_a03kwtnnEdmO6L4XMImrsA"/>
+      <selectedSteps href="uma://_359hE9nmEdmO6L4XMImrsA#_a03kw9nnEdmO6L4XMImrsA"/>
+      <selectedSteps href="uma://_359hE9nmEdmO6L4XMImrsA#_a03kxNnnEdmO6L4XMImrsA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s-qmeewsEd-sjp03to1LnQ" name="business_case" guid="_s-qmeewsEd-sjp03to1LnQ" presentationName="Business Case" briefDescription="This artifact provides the necessary information from a business standpoint to determine whether or not this project is worth investing in. For a commercial software product, the Business Case should include a set of assumptions about the project and the order of magnitude return on investment (ROI) if those assumptions are true. For example, the ROI will be a magnitude of five if completed in one year, two if completed in two years, and a negative number after that. These assumptions are checked again at the end of the Elaboration phase, when the scope and plan are defined with more accuracy." superActivities="_s-qmdOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t9_9SewsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_dnbmoxJGEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-8SEZgLPr14hL50I_iklRpg" href="uma://-mLU12zdiggJeCDfy6R5tbg#-8SEZgLPr14hL50I_iklRpg"/>
+      <WorkProduct href="uma://_NQtMkCx9Ed2K3Yip7M1QZA#{9B13F235-E8E9-4CDC-9ACE-216124C8C5EC}"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s-qmduwsEd-sjp03to1LnQ" name="cots_business_process_cm_plan" guid="_s-qmduwsEd-sjp03to1LnQ" presentationName="Business Process Change Management Plan" briefDescription="This is a comprehensive, composite artifact detailing the process, tools and techniques to effectively manage people and the associated human resource issues that surface when implementing business changes. " superActivities="_s-qmdOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t9_9S-wsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_dnbmpBJGEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yylROewiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_s-qmdewsEd-sjp03to1LnQ" name="cots_manage_contracting_vehicules" guid="_s-qmdewsEd-sjp03to1LnQ" presentationName="Manage Contracting Vehicle" briefDescription="This task focuses on managing contracting vehicle." superActivities="_s-qmdOwsEd-sjp03to1LnQ" optionalInput="_s-qmaewsEd-sjp03to1LnQ" output="_s-qmaewsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_dn4SkBJGEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yylRMewiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-7iQ0d5KL-O3mjaW9VnScFw#_yylRNewiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-7iQ0d5KL-O3mjaW9VnScFw#_yylRMuwiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-7iQ0d5KL-O3mjaW9VnScFw#_yylRNOwiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-7iQ0d5KL-O3mjaW9VnScFw#_yylRM-wiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s-qmaewsEd-sjp03to1LnQ" name="cots_contracting_vehicules" guid="_s-qmaewsEd-sjp03to1LnQ" presentationName="Contracting Vehicle" briefDescription="This is a mutually binding agreement between the Acquirer and the Vendor defining the obligations of each." superActivities="_s-qmdOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t9_9TuwsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_dnlXoBJGEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yylRNuwiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_s-qmeuwsEd-sjp03to1LnQ" name="cots_develop_business_process_change_management_plan" guid="_s-qmeuwsEd-sjp03to1LnQ" presentationName="Develop Business Process Change Management Plan" briefDescription="This task focuses on developing the business process change management plan." superActivities="_s-qmdOwsEd-sjp03to1LnQ" optionalInput="_dn4SkxJGEeG_dc9n0A1YZA _dn4SlhJGEeG_dc9n0A1YZA _I_tFxBawEeCjx5QJHD1iHA" output="_s-qmduwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_dn4SkRJGEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-UsFJITCL_Z04gS9YIXGE3Q" href="uma://-mLU12zdiggJeCDfy6R5tbg#-UsFJITCL_Z04gS9YIXGE3Q"/>
+      <Task href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yylRO-wiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-XkXp1h9Tcy_7Wwiub1Bw_g#_yylRP-wiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-XkXp1h9Tcy_7Wwiub1Bw_g#_yylRPewiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-XkXp1h9Tcy_7Wwiub1Bw_g#_yylRPuwiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_I_tFwRawEeCjx5QJHD1iHA" name="vision" guid="_I_tFwRawEeCjx5QJHD1iHA" presentationName="Vision" briefDescription="This artifact defines the view of the stakeholders of the technical solution to be developed. This definition is specified in terms of the key needs and features of the stakeholders. The vision contains an outline of the envisioned core requirements for the system." isPlanned="false" superActivities="_s-qmdOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_I_tFwhawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_dnR1ohJGEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-S0ubhjmnrH_Zh0vw0IgwIw" href="uma://-mLU12zdiggJeCDfy6R5tbg#-S0ubhjmnrH_Zh0vw0IgwIw"/>
+      <checklists href="uma://_OOB2AAouEdyhlpBPrduOMw#_0WoFUMlgEdmt3adZL5Dmdw"/>
+      <templates href="uma://_OOB2AAouEdyhlpBPrduOMw#_DtlRQI5gEdyO5aWob1UGDA"/>
+      <WorkProduct href="uma://_OOB2AAouEdyhlpBPrduOMw#_0WVxcMlgEdmt3adZL5Dmdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_I_tFxBawEeCjx5QJHD1iHA" name="project_definition_and_scope_slot" guid="_I_tFxBawEeCjx5QJHD1iHA" presentationName="[Project Definition and Scope]" briefDescription="This slot serves as an abstraction of high-level artifacts that define the project and its scope. Typical examples of such artifacts could be a project definition, and a high-level project schedule identifying major milestones and major deliverables." isPlanned="false" superActivities="_s-qmdOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_I_tFxRawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_dnbmoRJGEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_vJYucEfUEdyiPI8btkmvmw#_RJMUcNpUEdyzZqGyZ7hwdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_I_tFxxawEeCjx5QJHD1iHA" name="project_work_slot" guid="_I_tFxxawEeCjx5QJHD1iHA" presentationName="[Project Work]" briefDescription="This slot serves as an abstraction for any type of work being done on the project. It could be represented as a work items list, an operational schedule, a work breakdown structure, and so on." isPlanned="false" superActivities="_s-qmdOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_I_tFyBawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_dnbmoBJGEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_vJYucEfUEdyiPI8btkmvmw#_1QZI8EfUEdyiPI8btkmvmw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_I_tFyhawEeCjx5QJHD1iHA" name="risk_list" guid="_I_tFyhawEeCjx5QJHD1iHA" presentationName="Risk List" briefDescription="This artifact is a sorted list of known and open risks to the project, sorted in order of importance and associated with specific mitigation or contingency actions." isPlanned="false" superActivities="_s-qmdOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_I_tFyxawEeCjx5QJHD1iHA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_dnR1oRJGEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-MBhcjnmJysgWiCBGgC8A5g" href="uma://-mLU12zdiggJeCDfy6R5tbg#-MBhcjnmJysgWiCBGgC8A5g"/>
+      <checklists href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_7BZa0DIdEduDTv4Y1akVTA"/>
+      <concepts href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0bsLgMlgEdmt3adZL5Dmdw"/>
+      <templates href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_MIUO0C8FEduzydamRseoUw"/>
+      <WorkProduct href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_Ckay8Cc_EduIsqH1Q6ZuqA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_e_rNAGtzEeCtOJPnA1eaOA" name="manage_risks" guid="_e_rNAGtzEeCtOJPnA1eaOA" presentationName="Manage Risks" briefDescription="This task describes how to identify, analyze and prioritize risks to the project, determine appropriate risk management strategies, and reflect these in the risk list for the project." superActivities="_s-qmdOwsEd-sjp03to1LnQ" optionalInput="_I_tFwRawEeCjx5QJHD1iHA _I_tFxBawEeCjx5QJHD1iHA _I_tFxxawEeCjx5QJHD1iHA" output="_I_tFyhawEeCjx5QJHD1iHA">
+      <methodElementProperty xmi:id="_dnR1oBJGEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_xV8g9RphEd-GkZbfIeZNmg#{1E6B4943-6C77-4AD7-A248-AFACD79A322E}"/>
+      <selectedSteps href="uma://_36GrAtnmEdmO6L4XMImrsA#_a44iENnnEdmO6L4XMImrsA"/>
+      <selectedSteps href="uma://_36GrAtnmEdmO6L4XMImrsA#_a44iEdnnEdmO6L4XMImrsA"/>
+      <selectedSteps href="uma://_36GrAtnmEdmO6L4XMImrsA#_a44iE9nnEdmO6L4XMImrsA"/>
+      <selectedSteps href="uma://_36GrAtnmEdmO6L4XMImrsA#_a44iFdnnEdmO6L4XMImrsA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_dn4SkxJGEeG_dc9n0A1YZA" name="business_requirements_slot" guid="_dn4SkxJGEeG_dc9n0A1YZA" presentationName="[Business Requirements]" briefDescription="This slot serves as an abstraction of high-level artifacts that capture the overall business vision, business goals, and other high level concerns that are drivers of the business design." isPlanned="false" superActivities="_s-qmdOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_dn4SlBJGEeG_dc9n0A1YZA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_dn4SmBJGEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_AuAlcDyVEdyz7ZnE62_AvQ#_LQx4cBYREd2eavK0BKAMiA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_dn4SlhJGEeG_dc9n0A1YZA" name="technical_specification_slot" guid="_dn4SlhJGEeG_dc9n0A1YZA" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isPlanned="false" superActivities="_s-qmdOwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_dn4SlxJGEeG_dc9n0A1YZA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_dn4SmRJGEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_s-qmdOwsEd-sjp03to1LnQ" name="cots_transition_gather_info_from_sphere_4" guid="_s-qmdOwsEd-sjp03to1LnQ" presentationName="Gather Info from Sphere 4" briefDescription="This covers essential tasks aiming at gathering information from the Programmatics and Risks sphere in the transition phase." breakdownElements="_e_rNAGtzEeCtOJPnA1eaOA _s-qmauwsEd-sjp03to1LnQ _s-qmeewsEd-sjp03to1LnQ __ifswR64EeCFtI1FQSVGsA _s-qmduwsEd-sjp03to1LnQ _YMAxsXOTEeCIg8bfzEsl9Q _s-qmdewsEd-sjp03to1LnQ _s-qmaewsEd-sjp03to1LnQ _s-qmeuwsEd-sjp03to1LnQ _I_tFwRawEeCjx5QJHD1iHA _I_tFxBawEeCjx5QJHD1iHA _I_tFxxawEeCjx5QJHD1iHA _I_tFyhawEeCjx5QJHD1iHA _dn4SkxJGEeG_dc9n0A1YZA _dn4SlhJGEeG_dc9n0A1YZA">
+      <methodElementProperty xmi:id="_t9_9UuwsEd-sjp03to1LnQ" name="process_synFree" value="true"/>
+      <presentation xmi:id="-mLU12zdiggJeCDfy6R5tbg" href="uma://-mLU12zdiggJeCDfy6R5tbg#-mLU12zdiggJeCDfy6R5tbg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

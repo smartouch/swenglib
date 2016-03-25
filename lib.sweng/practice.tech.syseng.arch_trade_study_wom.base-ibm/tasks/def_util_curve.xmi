@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-gm0XOuWn4_ngah5qVY0XHQ" name="def_util_curve,_y29H0JjUEd6JmoH2XFiafA" guid="-gm0XOuWn4_ngah5qVY0XHQ" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    A normalization curve, also known as a utility curve or value function, is used to compute the measure of effectiveness&#xD;
+    of a candidate solution for a particular assessment criterion. This curve yields a normalized value typically between 0&#xD;
+    and 10. The input value to the curve is typically based upon equipment specifications or derived from calculations&#xD;
+    based upon possible solutions. In this case it is considered as being objective. A utility curve may also be created by&#xD;
+    knowledgeable project members. In this case the curve reflects the consensus among the group but should be considered&#xD;
+    as subjective.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_bFtRcMJbEd6Ame-XMnb0Gg" name="Select an assessment criterion" guid="_bFtRcMJbEd6Ame-XMnb0Gg">
+    <sectionDescription>There will be a utility curve associated with each assessment criterion. Select an assessment criterion and perform the&#xD;
+following steps.</sectionDescription>
+  </sections>
+  <sections xmi:id="_f-V0UMJbEd6Ame-XMnb0Gg" name="Define utility curve" guid="_f-V0UMJbEd6Ame-XMnb0Gg">
+    <sectionDescription>&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Define optimum value of assessment criterion.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Set tolerances around target value.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Define the utility values between the upper / lower tolerances and the optimum. The utility values are normalized&#xD;
+        between 0 and 10 (i.e. the higher the score, the more favorable the evaluation).&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></sectionDescription>
+  </sections>
+  <sections xmi:id="_neTl0MJbEd6Ame-XMnb0Gg" name="Repeat analysis for each assessment criterion" guid="_neTl0MJbEd6Ame-XMnb0Gg">
+    <sectionDescription>Capture the information defining the utility curve for the subject criterion in the Trade Study report and repeat the&#xD;
+previous steps for each criterion.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to define a set of normalization curves, one for each assessment criterion that will be used to&#xD;
+produce a dimensionless Measure of Effectiveness for each solution candidate.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

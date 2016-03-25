@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-fck4AwN0jKs4FIfOn0EFhQ" name="create_project_configuration_management_cm_environments,{C241B2F9-AA48-45E6-89F0-F0A3DC2496DA}" guid="-fck4AwN0jKs4FIfOn0EFhQ">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    This work is done by making sure the essential artifacts are available to developers and integrators in the various&#xD;
+    private and public workspaces as they need them, and then are adequately baselined and stored for subsequent use.&#xD;
+    Setting up the CM environment involves creating the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.base_rup/guidances/concepts/product_directory_structure_293B0B00.html&quot; guid=&quot;3.654568680407835E-305&quot;>Product&#xD;
+    Directory Structure&lt;/a>, repositories, &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.base_rup/guidances/concepts/workspaces_3B55A225.html&quot; guid=&quot;3.4400958589714374E-305&quot;>Workspaces&lt;/a> (developer&#xD;
+    and integration) and allocating machine resources (servers and disk space).&#xD;
+&lt;/p></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    Typically this work starts in Inception and continues throughout the lifecycle. Generally this work is most prevalent&#xD;
+    in iterations at the very beginning of each phase (or at the end of each preceding phase) to prepare a suitable CM&#xD;
+    environment for the forthcoming phase. Note that the requirements for a CM environment often change from phase-to-phase&#xD;
+    as the team size expands and contracts: a smaller development team in early phases normally requires a less formal&#xD;
+    environment than is required in later phases.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This work is not considered optional, although project culture will mean this work will vary from being a small&#xD;
+    consideration to a large endeavor. Note that where an existing CM environment is in place, this work may be more&#xD;
+    focused on tailoring that environment to suit the project or lifecycle phase.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> 
+&lt;p>
+    To set up an appropriate environment, a person playing the Configuration Manager role needs to have a good
+    understanding of the component structures of the overall product, and will need to work closely with the &lt;a
+    class=&quot;elementLink&quot; href=&quot;resources/rup_software_architect,{4AC346F0-E6FC-4D2C-8410-2EDF8DDDC91D}.html&quot;
+    guid=&quot;{4AC346F0-E6FC-4D2C-8410-2EDF8DDDC91D}&quot;>Software Architect&lt;/a> to ensure that adequate &quot;place holder&quot; CM items
+    are established.
+&lt;/p>
+&lt;p>
+    A person playing the Integrator role in this work needs to ensure that artifacts delivered from the developer
+    workspaces are sufficiently tested such that they can be incorporated into a testable build. The Integrator role needs
+    to be familiar with Project CM Policies, Build and Test Practices.
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-3iVulTeKBUEvU83AuqQbMQ" name="plan_project_configuration_change_control,{043594BF-28ED-41EF-8C55-FBD65551D0CA}" guid="-3iVulTeKBUEvU83AuqQbMQ">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The activity focuses on:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Establishing project configuration management policies&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Establishing policies and processes for controlling product change&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Documenting this information&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    CM policies refer to the ability to identify, safeguard and report on the artifacts that have been approved for use in&#xD;
+    a project. Identification is simplified and enabled through the use of proper tools to control project artifacts, and&#xD;
+    the systematic labeling of those artifacts over time to identify their relative maturity and their relationships with&#xD;
+    each other at given points in time. Systematic identification practices are a key enabler for the safeguarding of&#xD;
+    project artifacts through archiving and baselining techniques.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Standard, documented change control processes help to ensure that changes are made within a project in a consistent&#xD;
+    manner, and the appropriate stakeholders are informed of the current state of the product, requested changes to it and&#xD;
+    the impact of these changes on cost, schedule and so forth.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The CM Plan documents how product related CM activities are to be planned, implemented controlled and organized.&#xD;
+&lt;/p></mainDescription>
+    <keyConsiderations>&lt;a id=&quot;Timing&quot; name=&quot;Timing&quot;>&lt;/a>&lt;a id=&quot;Optionality&quot; name=&quot;Optionality&quot;>&lt;/a>&lt;a id=&quot;WorkGuidelines&quot;&#xD;
+name=&quot;WorkGuidelines&quot;>&lt;/a></keyConsiderations>
+    <usageGuidance>&lt;p>&#xD;
+    This work is primarily performed in the first iterations in each phase. While most important in the Construction and&#xD;
+    Transition phases, this work may be important in the Elaboration and even Inception phase, depending on project&#xD;
+    culture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This work is not considered optional, although it will differ in format, style and level of ceremony to suit the&#xD;
+    project context. Note also that the rigidity and formality of the change process tend to change increase over the life&#xD;
+    of the project, typically becoming most formal and rigid in the Transition phase.&lt;br />&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> 
+&lt;p>
+    A person playing the Configuration Manager role needs to be organized by nature, yet flexible enough to plan
+    configuration and change control to suit the needs of the project team. The Configuration Manager role supports the
+    team by ensuring that the project change policies are reflected within the projects change management tools, enabling
+    software developers to easily transition artifacts through state changes in accordance with the defined development and
+    approval practices. The Configuration Manager role is required to put measures in place to monitor that the CM Plan is
+    being followed as intended, that audit reporting is occurring on a regular basis, and to work with the System
+    Administrator role to ensure that backups of CM assets are in safekeeping (e.g. fireproof safe for backup sets on-site,
+    weekly backup sets stored off-site).
+&lt;/p>
+&lt;p>
+    The Change Control Manager is a key arbitration role. In this capacity, the decision for the inclusion of any given
+    change in a software build is ultimately made by the Change Control Manager on a project. In practice, only those
+    changes of significant potential impact typically warrant monitoring, and any potential impact on the inclusion-or
+    exclusion-of changes to the product should be carefully considered with regard to project factors such as the political
+    climate, the need to establish trust between developer and customer and so forth.
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-E9tn74fVAu-TVK2Ro6_SkQ" name="manage_baselines_releases,{22B90B6F-6F9F-41CF-9A05-8F64BF39CD36}" guid="-E9tn74fVAu-TVK2Ro6_SkQ">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The frequency and formality in which baselines are created are described in the CM Plan. The degree of formality is&#xD;
+    clearly much higher for a product being released to a customer than for executable releases within the internal project&#xD;
+    team. When the combined set of artifacts reach certain stages or levels of maturity, baselines are created to assist&#xD;
+    managing availability for release, reuse and so forth.&#xD;
+&lt;/p></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    Typically this work starts in Elaboration, though it is most prevalent in the Construction and Transition phases. In&#xD;
+    some cases there may be value in baselining Inception artifacts, but this is not the general case. Multiple baselines&#xD;
+    may be created and managed within a single iteration and may happen at any stage during the iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As a general rule, this work is optional if an executable release does not need to be externally delivered outside the&#xD;
+    core development team.&lt;br />&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> 
+&lt;p>
+    This work is primarily driven by the Configuration Manager role, where the typical need is to be able to assemble a
+    product for release. The released product requires a Bill of Materials (BOM) that serves as a complete checklist of
+    what is to be delivered to the customer. The released product will inevitably require release notes and training
+    material as described in the Deployment activities.
+&lt;/p>
+&lt;p>
+    The Integrator role contributes to this work by ensuring that artifacts delivered from the developer workspaces are
+    integrated such that they can be incorporated into a independently testable build. The person playing the Integrator
+    role needs to be familiar with Project CM Policies and Test Practices.
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-6GgRm7ckifUg2JPUg2Mg8A" name="change_and_deliver_configuration_items,{FD5B58EB-7B18-4B5E-AF3A-B8F49E3915BE}" guid="-6GgRm7ckifUg2JPUg2Mg8A">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    This activity is focused on:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The creation of workspaces, accessing project artifacts, making changes to those artifacts, delivering the changes&#xD;
+        for inclusion in the overall product, by any role in the project team.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The building of the product, creation of baselines and promotion of the baselines for availability to the rest of&#xD;
+        the development team.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    Typically this work starts in Inception and continues throughout the lifecycle. This work is not considered optional.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> 
+&lt;p>
+    &quot;Any Role&quot; is used to represent any one of the roles defined in this configuration of the Rational Unified Process
+    (RUP), where someone playing the role may want to make changes to a RUP Artifact (Configuration Item).
+&lt;/p>
+&lt;p>
+    The Integrator (as described in other Activities) needs to be sure that artifacts delivered from the developer
+    workspaces are sufficiently tested such that they can be incorporated into a testable build. The Integrator needs to be
+    familiar with Project CM Policies and Test Practices.
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-WlVAdJAfGdDOZzyFV1MJsg" name="monitor_report_configuration_status,{0E00700B-4D61-4B80-A1D3-152F97B29F6A}" guid="-WlVAdJAfGdDOZzyFV1MJsg">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    This activity is focused on:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Ensuring that artifacts and their associated baselines are available.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Determining if required artifacts are stored in a controlled library and baselined.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Supporting project Configuration Status Accounting activities.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Facilitating reporting of change request information, especially the activities related to work performed against&#xD;
+        defect and enhancement requests.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring that data is &quot;rolled-up&quot; and reported for the purposes of tracking progress and trends.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    This work is applicable throughout the project lifecycle, beginning as early as the Inception phase.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This work is not considered optional, although project culture will mean this work will vary from low-ceremony to a&#xD;
+    high-ceremony undertaking, and will increase in complexity the larger or more distributed the project team becomes.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> 
+&lt;p>
+    The person playing the &lt;a class=&quot;elementLinkWithType&quot;
+    href=&quot;resources/rup_configuration_manager,{8939FDEF-EC44-4009-9F16-FAD4CFAA0B2D}.html&quot;
+    guid=&quot;{8939FDEF-EC44-4009-9F16-FAD4CFAA0B2D}&quot;>Role: Configuration Manager&lt;/a> in accordance with the Configuration
+    Management Plan needs to provide quantitative reports that can be used to assess the project status.
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-4Bi-RABoHD24VGi33ODzBg" name="manage_change_requests,{BFBA9E6A-CB4B-45A7-9A25-FF7CA1A1153D}" guid="-4Bi-RABoHD24VGi33ODzBg">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Having a standard, documented change control process ensures that changes are made within a project in a consistent&#xD;
+    manner and that the appropriate stakeholders are informed of the state of the product, changes to it and the cost and&#xD;
+    schedule impact of these changes.&#xD;
+&lt;/p></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    While this work starts in Inception and continues throughout the lifecycle, it tends to gain importance as the&#xD;
+    lifecycle progresses. It is often much more formally managed in Transition than it starts out being managed in&#xD;
+    Inception.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This work is not considered optional, although project culture will mean this work will vary from being a small&#xD;
+    informal consideration to a larger more formal endeavor. Note that some CM environments may enable the Change (or&#xD;
+    Configuration) Control Board (CCB) function to be supported through process automation where rules can be established&#xD;
+    within a tool. This is particularly valuable where the CCB function must be managed across distributed teams.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Further explanation of these concepts, suggested tasks, and states of change requests are found in &lt;a&#xD;
+    class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.continuous_integration.base/guidances/concepts/change_requests_AD4868FE.html&quot;&#xD;
+    guid=&quot;_6jdvECb3Edqh1LYUOGRh2A&quot;>Concept: Change Requests&lt;/a>.&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br /></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The Change (or Configuration) Control Board (CCB) oversees the change process, and consists of representatives playing&#xD;
+    various roles in RUP. Typically this includes managers, stakeholders (customers, end-users), developers, and testers.&#xD;
+    In a small project, a single person, such as the project manager or software architect, may be the only representative&#xD;
+    on the CCB. In the Rational Unified Process, this primary CCB role is the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.default.role_def.extend-ibm/roles/change_control_manager_ECB7AD27.html&quot;&#xD;
+    guid=&quot;_q3YC0EbREd2VjvDbJYHzxA&quot;>Change Control Manager&lt;/a>.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-A7eiuBxxjTP7TL9sb1xLiQ" name="configuration_change_management,{C85C9CC0-AD92-46C9-85BA-4C0672D6571E}" guid="-A7eiuBxxjTP7TL9sb1xLiQ">
+    <mainDescription>&lt;p>&#xD;
+    Each activity in this capability pattern&amp;nbsp;represents a high-level goal that needs to be achieved to perform&#xD;
+    effective configuration and change management. Activities such as planning the&amp;nbsp;project configuration &amp;amp; change&#xD;
+    control&amp;nbsp;and creating&amp;nbsp;project configuration management environments are performed at the start of a project.&#xD;
+    The rest are performed on an on-going basis throughout the project life-cycle.&#xD;
+&lt;/p></mainDescription>
+    <purpose>&lt;p>&#xD;
+    To explain the work involved in the Configuration and Change Management discipline, the activities, tasks&amp;nbsp;and work&#xD;
+    products are organized into a capability pattern for the discipline.&#xD;
+&lt;/p>&lt;!--EndFragment--></purpose>
+    <usageNotes>&lt;h4>&#xD;
+    Decide How to Perform the Workflow&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    The following decisions should be made regarding the Configuration &amp;amp; Change Management discipline's workflow:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Decide how to perform the workflow by looking at the activities in this workflow. Study the diagram, with its guard&#xD;
+        conditions, and the guidelines below. Decide which activities to perform and in which order.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Decide what parts of the Configuration &amp;amp; Change Management activities to perform. For example, the &lt;a&#xD;
+        class=&quot;elementLinkWithType&quot;&#xD;
+        href=&quot;./../../process.standard_rup.base-ibm/capabilitypatterns/manage_change_requests_FEE83DCE.html&quot;&#xD;
+        guid=&quot;_KjQQByZIEd-Hb5ChSoDHIA&quot;>Activity: Manage Change Requests&lt;/a>&amp;nbsp;is performed only if you are going to&#xD;
+        manage the change requests in a systematic way.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Decide when, during the project lifecycle, to introduce each part of the workflow.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></usageNotes>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aB6X4IYP1l5yffrsnQU-_g" name="submit_change_request,_jnYzZixuEd-rIPCOaPACIg" guid="-aB6X4IYP1l5yffrsnQU-_g">
+    <refinedDescription>&lt;p>&#xD;
+    When submitting a change request, provide information that describes the change. This must include a detailed&#xD;
+    description of the requested change, at a minimum. Guidance on the type of information that should be provided when&#xD;
+    submitting a change request can be found in the Sample Change Request form.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Step 1. Identify change request.&lt;br />&#xD;
+    Step 2. Document benefits, risk, and cost associated with the request.&lt;br />&#xD;
+    Step 3. Log the change request in the locally adopted change request management system.&lt;br />&#xD;
+    Step 4. Proceed to review and classify the change request.&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Hints and tips&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    • Quantify known cost and benefits.&lt;br />&#xD;
+    • List the effects or the impact if the change request is not executed.&lt;br />&#xD;
+    • Include the time required to complete the change request.&lt;br />&#xD;
+    &lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-65EJNTSZ3_7VJjE73DBgdQ" name="change_request,_jnYzaCxuEd-rIPCOaPACIg" guid="-65EJNTSZ3_7VJjE73DBgdQ">
+    <refinedDescription>&lt;p>&#xD;
+    A change request (CR) is typically a proposed variance from the system's current (or currently planned)&#xD;
+    behavior. It can also be used for a generic piece of work that is required to support the project. Change requests&#xD;
+    may include  &#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A report of an error (defect)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        An enhancement request&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Change requests provide a record of decisions and, with an appropriate assessment process, ensures that their change&#xD;
+    impacts are considered.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Some important types of change requests include:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Enhancement Requests&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Used by various stakeholders to request future features that they desire to have included in the product. These are a type&#xD;
+    of stakeholder request that capture and articulate an understanding of the stakeholders needs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Defects&lt;/b> &#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Reports of anomalies or failures in a delivered work product. Defects include such things as omissions and&#xD;
+    imperfections found during early lifecycle phases, or symptoms of faults (failures) that need to be isolated and&#xD;
+    corrected within the software. Defects may also include deviations from what can reasonably be expected of the software&#xD;
+    behavior (such as usability issues).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The purpose of a defect is to communicate the details of the issue, enabling corrective action, resolution, and&#xD;
+    tracking to occur. &#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8IcUslzrp7g0xD16R0O6LQ" name="review_change_request,_k4ICgCxuEd-rIPCOaPACIg" guid="-8IcUslzrp7g0xD16R0O6LQ">
+    <refinedDescription>&lt;p>&#xD;
+    In this task, the change request is verified to ensure that it comes from an acceptable source, that it is clearly&#xD;
+    understood, and that it is within scope. Then the change request is analyzed for its potential impact on the&#xD;
+    development. If necessary, create child change requests to handle detail.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Vz5glnxe7Deg7Y4mVcMgfA" name="assign_change_request,_n4UnoCxvEd-rIPCOaPACIg" guid="-Vz5glnxe7Deg7Y4mVcMgfA">
+    <keyConsiderations>&lt;p>&#xD;
+    Determine if there other similar or related tasks that need to be considered. Consider what resources you have available.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Are there are other similar or related tasks that need to be considered for planning purposes for&#xD;
+        the target iteration (for example, you can't implement one without the other)?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What resources do you have available, and who is the best resource for the task?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is the level of effort understood and agreed to?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What iteration does the change request need to be associated with?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Who should be working on which tasks and when?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Do you have the correct number of resources with the correct skill set to accomplish the scope of work that your project&#xD;
+        requires?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are you expecting a resource to work on a task at a time when that resource will not be available to work (for&#xD;
+        example, when the resource will be on vacation)?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Have you assigned a resource to so many tasks that you have exceeded the capacity of the resource to work? Is the&#xD;
+        resource over-allocated?&lt;br />&#xD;
+        &lt;br />&#xD;
+         &lt;br />&#xD;
+        &lt;br />&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This task assigns a change request to a resolver for implementation. Work is assigned, estimated, and tracked.&#xD;
+    When the task is complete, it is set to Resolved, as with any other work item.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For the purposes of this task, &lt;i>resources&lt;/i> refer to the people who might carry out the task, and not to any equipment that&#xD;
+    might be required for the task.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mFUR-xFHpFGdJXRObAIfvQ" name="verify_change_request,_wv_y8CxvEd-rIPCOaPACIg" guid="-mFUR-xFHpFGdJXRObAIfvQ">
+    <refinedDescription>This tasks defines the steps required to verify that a change has been implemented as requested.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-w2TNJKa_RdFvmS4Aadn0qA" name="any_role,_8IT-gdfjEd-g3IG8kXvVvw" guid="-w2TNJKa_RdFvmS4Aadn0qA">
+    <refinedDescription>&lt;p> This role allows anyone on a team to perform general tasks: &lt;/p>
+&lt;ul>
+  &lt;li> Access artifacts in the configuration control system for development and 
+    maintenance &lt;/li>
+  &lt;li> Submit change requests for the project &lt;/li>
+  &lt;li> Participate in assessments and reviews &lt;/li>
+  &lt;li> Volunteer to work on a particular iteration &lt;/li>
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--gw40yF8oh-XUaLWs9PU0Q" name="iteration_plan,_8IT-hNfjEd-g3IG8kXvVvw" guid="--gw40yF8oh-XUaLWs9PU0Q">
+    <keyConsiderations>&lt;p>
+
+    Work items assigned to an iteration do not necessarily have the same priority. When selecting work items from the Work
+
+    Items List, the iteration plan may end up having work items with different priorities (for example, you assign the
+
+    remaining high priority work items, plus a few mid-priority ones from the Work Items List). When work items are assigned
+
+    to an iteration, no matter what their previous priorities, the team has to make sure that they are able to develop
+
+    what has been assigned to the iteration. Deciding what to develop first (or
+
+    even to develop things in parallel) on an iteration will vary from project to project, from iteration to iteration.
+
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>
+    This artifact captures the key milestones of an iteration, showing start and end dates, intermediate milestones,
+    synchronization points with other teams, demos, and so on. This artifact is also used to capture issues that need to be
+    solved during the iteration.
+&lt;/p>
+&lt;p>
+    You should list a few objectives for the iteration, which will help guide you throughout the iteration. Also, assess
+    at the end if those objectives have been achieved.
+&lt;/p>
+&lt;p>
+    The task assignments for an iteration are a subset of all tasks on the &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html&quot; guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;>Artifact: Work Items List&lt;/a>. Therefore, the iteration plan ideally references
+    those work items.
+&lt;/p>
+&lt;p>
+    The evaluation criteria and iteration assessment information are captured in this artifact, so that you can communicate results and actions from
+    assessments.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-piozdN4U_j-kn6QMcLG7lQ" name="risk_list,_8IT-h9fjEd-g3IG8kXvVvw" guid="-piozdN4U_j-kn6QMcLG7lQ">
+    <keyConsiderations>&lt;p>
+    This list should capture the critical and serious risks. If you find this list extending beyond 20 items, carefully consider
+    whether they are really serious risks. Tracking more than 20 risks is an onerous task.
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>
+    This list identifies, in decreasing order of priority, all the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.mgmt.common.base/guidances/termdefinitions/risk_33255339.html&quot; guid=&quot;_ii2LUEvGEdunZcj9T5hrMQ&quot;>risks&lt;/a> associated to a project.&amp;nbsp;It serves as a focal point for project
+    activities, and is the basis around which iterations are organized.
+&lt;/p>
+&lt;p>
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.mgmt.common.extend_supp/guidances/concepts/risk_AF5840DA.html&quot; guid=&quot;_0bsLgMlgEdmt3adZL5Dmdw&quot;>Concept: Risk&lt;/a>&amp;nbsp;for more details.&lt;!--EndFragment-->
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4CAtRu1uq3oqYUk6Ev4uUg" name="work_items_list,_8IT-itfjEd-g3IG8kXvVvw" guid="-4CAtRu1uq3oqYUk6Ev4uUg">
+    <keyConsiderations>&lt;p>
+    Work Items should contain estimates. See guidelines on managing work items and agile estimation.
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>
+    This artifact provides a focal point for the entire team:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        It provides one list containing all requests for additional capabilities or enhancement for that application. Note
+        that some of these requests may never be implemented, or be implemented in later projects.
+    &lt;/li>
+    &lt;li>
+        It provides one list of all the work to be prioritized, estimated, and assigned within the project. The risk list
+        is prioritized separately.
+    &lt;/li>
+    &lt;li>
+        It provides one place to go to for the development team to understand what&amp;nbsp;micro-increments&amp;nbsp;need to be
+        delivered, get references to material required to carry out the work, and report progress made.
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    These are the typical work items that go on this list:
+&lt;/p>
+&lt;ul>
+    &lt;li>
+        Use cases (and references to use-case specifications)
+    &lt;/li>
+    &lt;li>
+        System-wide requirements
+    &lt;/li>
+    &lt;li>
+        Changes and enhancement requests
+    &lt;/li>
+    &lt;li>
+        Defects
+    &lt;/li>
+    &lt;li>
+        Development tasks
+    &lt;/li>
+&lt;/ul>
+&lt;p>
+    Work items can be very large in scope, especially when capturing requests for enhancements, such as &quot;Support Financial
+    Planning&quot; for a personal finance application. To allow the application to be developed in micro-increments, work items
+    are analyzed and broken down into smaller work items so that they can be assigned to an iteration, such as a use-case
+    scenario for&amp;nbsp;&quot;Calculate Net Worth&quot;. Further breakdown may be required to identify suitable tasks to be assigned to
+    developers, such as &quot;Develop UI for Calculate Net Worth&quot;. This means that work items often have parent/child
+    relationships, where the lowest level is a specification and tracking device for micro-increments.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-sqG131jaxqf-bC0pj-d20w" name="project_plan,_8IT-jdfjEd-g3IG8kXvVvw" guid="-sqG131jaxqf-bC0pj-d20w">
+    <keyConsiderations>Create and update the project plan in planning sessions that involve the whole team and appropriate project stakeholders in
+order to make sure that everybody agrees with it.</keyConsiderations>
+    <refinedDescription>&lt;p>
+    This artifact describes how the project is organized, and identifies what practices will be followed. Additionally, it
+    defines the parameters for tracking project progress, and specifies the high-level objectives of the iterations and
+    their milestones.
+&lt;/p>
+&lt;p>
+    The project plan allows stakeholders and other team members to understand the big picture and, roughly, when to expect
+    a certain level of functionality be available.&amp;nbsp;Update the plan&amp;nbsp;as often as necessary, usually at the end of
+    each iteration, in order to reflect changing priorities and needs, as well as record the lessons learned from the
+    project.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_vHE4OhMgfl_PciMHdSWBg" name="business_case,_8IT-kNfjEd-g3IG8kXvVvw" guid="-_vHE4OhMgfl_PciMHdSWBg">
+    <refinedDescription>For a commercial software product, the Business Case should include a set of assumptions about the project and the order of&#xD;
+magnitude return on investment (ROI) if those assumptions are true. For example, the ROI will be a magnitude of five if&#xD;
+completed in one year, two if completed in two years, and a negative number after that. These assumptions are checked again&#xD;
+at the end of the Elaboration phase, when the scope and plan are defined with more accuracy.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EOOheq7QRD3A3-t9PUNvAg" name="issues_list,_8IT-k9fjEd-g3IG8kXvVvw" guid="-EOOheq7QRD3A3-t9PUNvAg">
+    <refinedDescription>In general, issues are items that are not being tracked through Change Management or as tasks in the Project or Iteration&#xD;
+Plans, although they may derive from these.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-rYIVQAeIVHZQBJFDQY4CSQ" name="project_measurements,_8IT-ltfjEd-g3IG8kXvVvw" guid="-rYIVQAeIVHZQBJFDQY4CSQ">
+    <refinedDescription>&lt;p>&#xD;
+    The format and contents of the Project Measurements&amp;nbsp;depends on the metrics selected and the technology used for&#xD;
+    collection and storage. It is essentially a database of metric-value associations and allied information for their&#xD;
+    collection and calculation. Its form could be as simple as a set of files manually maintained by the Project&#xD;
+    Manager.&amp;nbsp; However, we recommend that the collection and storage be automated and, as far as possible, be made&#xD;
+    non-intrusive.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-sT6sv--86dvXgAyCz0QRmw" name="status_assessment,_8IT-mdfjEd-g3IG8kXvVvw" guid="-sT6sv--86dvXgAyCz0QRmw">
+    <refinedDescription>&lt;p>&#xD;
+    One of the objectives of the process is to ensure that the expectations of all parties are synchronized and consistent.&#xD;
+    The periodic Status Assessment provides a mechanism for managing everyone's expectations throughout the project&#xD;
+    lifecycle.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Continuous open communication with objective data derived directly from ongoing activities and the evolving product&#xD;
+    configurations are mandatory in any project. These project snapshots provide the basis for management's attention.&#xD;
+    While the period may vary, the forcing function needs to capture the project history.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note that Status Assessments are different from milestone reviews.&#xD;
+&lt;/p>&lt;!--EndFragment--></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

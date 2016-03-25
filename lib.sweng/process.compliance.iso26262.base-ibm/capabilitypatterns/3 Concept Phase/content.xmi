@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HytPaarZ4n3sJchc7kYbFg" name="Capture and understand the items requirements and behaviour,_INNEQJXEEeCbdJb0WnOTDQ" guid="-HytPaarZ4n3sJchc7kYbFg">
+    <refinedDescription>&lt;p>&#xD;
+    The requirements to be captured cover a number of areas such as;-&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Functional, non-functional and legal requirements, as well as the dependencies between the item and its environment.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Safety requirements that are already known about, these covers behaviour achieved by similar functions, assumptions on&#xD;
+    behaviour expected by the item and potential consequences of behaviour shortfalls, including failures modes and&#xD;
+    hazards.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This task could be considered to be similar to capturing stakeholder requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The scope of item development and interfaces also needs to be understood, this is determined by considering&#xD;
+    interactions with items or elements outside the scope of the system, allocation and distribution of functions to&#xD;
+    architecture and operating scenarios, if they impact the functionality of the item.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This can be achieved using Use case modeling if an MBSE approach is being used, see , this details a generic process&#xD;
+    for developing systems using model based techniques. see&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/SE%20Overview_85C27743.html&quot; guid=&quot;_NEwDka3gEd63sNXoX4A_sA&quot;>SE&#xD;
+    Overview&lt;/a> for the overview of the process&amp;nbsp;&amp;nbsp;and in particular &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/Requirements%20Analysis_2F8E59B2.html&quot;&#xD;
+    guid=&quot;_0PkdQa3gEd63sNXoX4A_sA&quot;>Elaborate System Requirements Specification&lt;/a>&amp;nbsp;to help with the item definition.&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;p>&#xD;
+    For a more&amp;nbsp;detailed&amp;nbsp;understanding of the requirements for Item Definition the user is referred to ISO 26262&#xD;
+    vol 3 clause 5.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-iw2SJsDZn8unnfkPvxNrQA" name="Requirements Engineer,_INNEQZXEEeCbdJb0WnOTDQ" guid="-iw2SJsDZn8unnfkPvxNrQA">
+    <refinedDescription>&lt;p>&#xD;
+    Identifies, analyses and structures requirements so that they are captured in an understandable and logical manner.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Aids with creating traceability links and baselines for requirements management.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-DHSIyKeK3wwEbSlFV4A9IQ" name="Create requirements hierarchy,_Iym3YJXEEeCbdJb0WnOTDQ" guid="-DHSIyKeK3wwEbSlFV4A9IQ">
+    <refinedDescription>&lt;p>&#xD;
+    &amp;nbsp;In summary,&amp;nbsp;requirements should be unambiguous, atomic, verifiable, &amp;nbsp;feasible and structured in a&#xD;
+    hierarchy. An attribute&amp;nbsp;set should be created for requirements so the unique identifier, ASIL rating and the&#xD;
+    status of the requirement can be captured. See &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.rqmts_mgmt.base-ibm/tasks/organize_requirements_F430CCED.html&quot;&#xD;
+    guid=&quot;_d0LLYOF9Edy14KJRPqCmog&quot;>Organize Requirements&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It should be possible allocate requirements to items or workproducts. See &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.rqmts_mgmt.base-ibm/tasks/organize_requirements_F430CCED.html&quot;&#xD;
+    guid=&quot;_d0LLYOF9Edy14KJRPqCmog&quot;>Organize Requirements&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is recommended that the user examines the details of how requirements should be organised according to ISO&#xD;
+    26262&amp;nbsp;by examining&amp;nbsp;ISO 26262 Vol 8 clause 6 and ISO 26262 Vol 3, clause 8.2&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-NU_RewAtynNBzhXhFP81kg" name="Gather pre-existing information,_JLWHgJXEEeCbdJb0WnOTDQ" guid="-NU_RewAtynNBzhXhFP81kg">
+    <refinedDescription>The objective of this task is to gather information, that can help with the development of the item, that already exists.&#xD;
+This information can be work products like initial product concepts or sketches, patents that are relevant, any&#xD;
+documentation from legacy systems that this item is based upon, enhancement or change requests, results of pre-trials etc.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HxZ8imsTMTJCmY3tRKVniQ" name="Populate requirements heirarchy,_q11UFpXjEeCeRuB-coqLuQ" guid="-HxZ8imsTMTJCmY3tRKVniQ">
+    <refinedDescription>This task is based upon populating the requirements database with pre-existing information and information captured in the&#xD;
+item definition and organising it. See &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.tech.rqmts_mgmt.base-ibm/tasks/organize_requirements_F430CCED.html&quot;&#xD;
+guid=&quot;_d0LLYOF9Edy14KJRPqCmog&quot;>Organize Requirements&lt;/a></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-FE_mb3cP4SFD9IM_OyyrRw" name="Item Definition,_HJRd4alTEeCImMeSDFMvWA" guid="-FE_mb3cP4SFD9IM_OyyrRw">
+    <refinedDescription>&lt;p>&#xD;
+    The item definition covers a number areas, it cover initial sets of requirements, functional (behavioural),&#xD;
+    non-functional (environmental, performance or quality of service) or legal (laws, national and international&#xD;
+    standards). It also consists of the definition of he behaviour and how flaws in that behaviour might result in&#xD;
+    potential hazards or be derived from potential faults.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Finally it looks at how the item interacts with its surrounding systems and captures the interfaces,&#xD;
+    interactions&amp;nbsp;and requirements that influence the item.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Yt_WX2zjWO0trz1Tfitr6A" name="Apply entire safety lifecycle,_ugZr8pXkEeCeRuB-coqLuQ" guid="-Yt_WX2zjWO0trz1Tfitr6A">
+    <refinedDescription>Refinement of the original safety plan to include all activities in the safety lifecycle based upon the development&#xD;
+category of &quot;development of new item&quot;.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9gUTLZakisA9HWkDG_ZaMA" name="Carry out impact analysis,_ugZr9ZXkEeCeRuB-coqLuQ" guid="-9gUTLZakisA9HWkDG_ZaMA">
+    <refinedDescription>&lt;p>&#xD;
+    Analysis to understand the modification and the&amp;nbsp; impact the intended modifications will have on the item and its&#xD;
+    environment.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A detailed understanding of the sort of modifications that can be applied to an item and the sort of analysis that&#xD;
+    needs to be carried out can be found in ISO 26262 Vol 3 clause 6.4.2.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dsz_ueY0zDMKH1AuqP31wg" name="Determine Development Category,_l3reMZXGEeCbdJb0WnOTDQ" guid="-dsz_ueY0zDMKH1AuqP31wg">
+    <refinedDescription>&lt;p>&#xD;
+    The main objectives of this task is to determine whether the item to be developed is new, a modification of an existing&#xD;
+    element or simply reuse of an existing element.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mazPaxKPIO6mdNGt83r5NQ" name="Determine relevant subpahses of lifecycle,_ugZr7ZXkEeCeRuB-coqLuQ" guid="-mazPaxKPIO6mdNGt83r5NQ">
+    <refinedDescription>&lt;p>&#xD;
+    &amp;nbsp;Determine the scope of the development project based upon how much modification is required (shown by the impact&#xD;
+    analysis) and if (for example)&amp;nbsp; the project is solely Hardware or Software based. This affects the subphases of&#xD;
+    the safety lifecycle that need to be carried out.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The complete safety lifecycle can be seen in the diagram&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../process.compliance.iso26262.base-ibm/capabilitypatterns/Safety%20Lifecycle_CA23D8A1.html&quot;&#xD;
+    guid=&quot;_M5UjMalOEeCdos1hFYnznA&quot;>Safety Lifecycle&lt;/a>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KAV02QalHZ4unpFQC_TYYA" name="Tailor safety lifecycle,_ugZr-ZXkEeCeRuB-coqLuQ" guid="-KAV02QalHZ4unpFQC_TYYA">
+    <refinedDescription>The process of tailoring the safety lifecyle is dependent upon the scope of the development of the item and the results of&#xD;
+the impact analysis.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-v0VtFlyyQPfpPTUo7gZE5w" name="Refine Safety Plan and other documents,_ugZr7JXkEeCeRuB-coqLuQ" guid="-v0VtFlyyQPfpPTUo7gZE5w">
+    <refinedDescription>Update of the safety plan and other relevant documents such as the confirmation and validation plan plus any others that&#xD;
+are affected that by modifications to the safety lifecycle.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_l-XP-bItJmsjhxU7kKjlw" name="Item Definition,_8JQT0JXPEeCbdJb0WnOTDQ" guid="-_l-XP-bItJmsjhxU7kKjlw">
+    <refinedDescription>&lt;p>&#xD;
+    The item definition covers a number areas, it cover initial sets of requirements, functional (behavioural),&#xD;
+    non-functional (environmental, performance or quality of service) or legal (laws, national and international&#xD;
+    standards). It also consists of the definition of he behaviour and how flaws in that behaviour might result in&#xD;
+    potential hazards or be derived from potential faults.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Finally it looks at how the item interacts with its surrounding systems and captures the interfaces,&#xD;
+    interactions&amp;nbsp;and requirements that influence the item.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-p6sxxvT8piGiGTKYo7jyWA" name="Safety Manager,_dlgGcZXjEeCeRuB-coqLuQ" guid="-p6sxxvT8piGiGTKYo7jyWA">
+    <refinedDescription>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Ao9JONDo8PjrwmDfAkMjmw" name="Project_Manager,_dlgGd5XjEeCeRuB-coqLuQ" guid="-Ao9JONDo8PjrwmDfAkMjmw">
+    <refinedDescription>&lt;div style=&quot;MARGIN-LEFT: 2em&quot;>&#xD;
+    &lt;p dir=&quot;ltr&quot;>&#xD;
+        Assigns the safety manager&lt;br />&#xD;
+        Ensures that the safety activities are performed and compliance with ISO26262 is achieved&lt;br />&#xD;
+        Verifies that the organisation has provided the required resources to carry out the functional safety activities&#xD;
+    &lt;/p>&#xD;
+&lt;/div></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Y2hHT_O0tiuGobxKHNprwQ" name="ASIL determination,_23rP4JaUEeCPtY0LnWkRDw" guid="-Y2hHT_O0tiuGobxKHNprwQ">
+    <refinedDescription>&lt;p>&#xD;
+    ASIL are required to determine how important a particular hazard or risk is. This is dependent upon three factors.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Severity (S):- How severe will the injuries be on a person involved in an accident that occurs as a consequence of a&#xD;
+    potential hazard.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Probability of exposure (E):- How likely is such a situation which leads to the hazardous event likely to occur.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Controllability (C):- How much control does the driver or other potential participants have in avoiding the hazardous&#xD;
+    event or situation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Values for these three factors are estimated and used to define the ASIL based upon the table below.&#xD;
+&lt;/p>&lt;br align=&quot;center&quot; />&#xD;
+&lt;br />&#xD;
+&lt;center>&#xD;
+    &lt;table dir=&quot;ltr&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; width=&quot;400&quot;>&#xD;
+        &lt;tbody>&#xD;
+            &lt;tr>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;bottom&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;br dir=&quot;ltr&quot; align=&quot;justify&quot; />&#xD;
+                    &lt;br />&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;bottom&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;br dir=&quot;ltr&quot; align=&quot;justify&quot; />&#xD;
+                    &lt;br />&#xD;
+                &lt;/td>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        C1&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        C2&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        C3&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; rowspan=&quot;4&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        S1&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        E1&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        E2&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        E3&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        A&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        E4&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        A&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        B&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; rowspan=&quot;4&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        S2&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        E1&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        E2&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        A&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        E3&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        A&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        B&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        E4&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        A&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        B&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        C&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; rowspan=&quot;4&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        S3&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        E1&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        A&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        E2&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        QM&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        A&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        B&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        E3&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        A&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        B&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        C&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+            &lt;tr>&#xD;
+                &lt;td bgcolor=&quot;#F3F3F3&quot; height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        E4&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        B&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        C&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+                &lt;td height=&quot;19&quot; valign=&quot;center&quot; width=&quot;20%&quot;>&#xD;
+                    &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                        D&#xD;
+                    &lt;/p>&#xD;
+                &lt;/td>&#xD;
+            &lt;/tr>&#xD;
+        &lt;/tbody>&#xD;
+    &lt;/table>&#xD;
+&lt;/center>&#xD;
+&lt;p>&#xD;
+    A is the lowest ASIL rating while D is the highest. QM (Quality Management) indicates that there is no requirement to&#xD;
+    deal with this hazard through ISO 26262, the intent being to manage the hazard through normal best practice quality&#xD;
+    management procedures.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For a detailed explanation of this&amp;nbsp;task it is advised that the user refers to ISO 26262, vol 3, clause 7.4.6 and&#xD;
+    7.4.7.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Hn_fs6h7tGBnxcjeUBh6aA" name="Determine safety goals,_23rP4ZaUEeCPtY0LnWkRDw" guid="-Hn_fs6h7tGBnxcjeUBh6aA">
+    <refinedDescription>&lt;p>&#xD;
+    The safety goals are the top level safety requirements for the item. They provide the basis for the functional safety&#xD;
+    requirements needed to avoid an unreasonable risk for each hazard. As safety goals are a form of requirement they&#xD;
+    should not be expressed in terms of a solution but in terms of functional objectives.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For a detailed explanation of this&amp;nbsp;task it is advised that the user refers to ISO 26262, vol 3, clause 7.4.8&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-NvT4v0_FO318AoZ0wGib3A" name="Hazard and risk classification,_23rP4paUEeCPtY0LnWkRDw" guid="-NvT4v0_FO318AoZ0wGib3A">
+    <refinedDescription>&lt;p>&#xD;
+    The three factors that contribute to an ASIL are:-&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Severity (S):- How severe will the injuries be on a person involved in an accident that occurs as a consequence of a&#xD;
+    potential hazard.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Probability of exposure (E):- How likely is such a situation which leads to the hazardous event likely to occur.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Controllability (C):- How much control does the driver or other potential participants have in avoiding the hazardous&#xD;
+    event or situation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For a detailed explanation of this&amp;nbsp;task it is advised that the user refers to ISO 26262, vol 3, clause 7.4.5 and&#xD;
+    Annex B2,Examples of severity,&amp;nbsp;B3 Examples of the probability exposure, in Vol 3.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZHty4kl5ty34pRGMq0AHMA" name="Situation analysis and hazard identification,_23rP45aUEeCPtY0LnWkRDw" guid="-ZHty4kl5ty34pRGMq0AHMA">
+    <refinedDescription>&lt;p>&#xD;
+    The potential hazards and operational scenarios are analysed for the item before any safety mechanisms are applied.&#xD;
+    Safety mechanisms intended to be implemented or that have already been implemented in legacy systems shall not be&#xD;
+    considered as means for providing risk reduction.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Common techniques for this sort of analysis are Failure Modes Effects Analysis (FMEA) and Fault Tree Analysis (FTA).&#xD;
+    Model based techniques are available to be used for this process see &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.real_time.safe_rel_analysis.base-ibm/guidances/practices/safe_rel_an_966E315A.html&quot;&#xD;
+    guid=&quot;_2BtTQLePEd-05egMquN4Dg&quot;>Safety and Reliability Analysis&lt;/a>&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For a detailed explanation of this&amp;nbsp;task it is advised that the user refers to ISO 26262, vol 3, clause 7.4.4 and&#xD;
+    Annex B1, Hazard analysis and risk assessment, in Vol 3.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-E7lYnZBAYYH0gIylmsxPyA" name="Verification Review of hazard analysis, risk assessment and safety goals,_23rP5JaUEeCPtY0LnWkRDw" guid="-E7lYnZBAYYH0gIylmsxPyA">
+    <refinedDescription>&lt;p>&#xD;
+    This is a review of the hazard analysis, risk assessment and safety goals, to ensure the completeness of the&#xD;
+    information and the correctness of the analysis.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For further details on this task, refer to ISO 26262, vol 3 clause 7.4.9.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-1Zif0sbLHZcs_H4Dm7bo8w" name="Safety Manager,_23rP55aUEeCPtY0LnWkRDw" guid="-1Zif0sbLHZcs_H4Dm7bo8w">
+    <refinedDescription>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-uRvw_nnHrWsb561_9GKgDw" name="Item Definition,_23rP9ZaUEeCPtY0LnWkRDw" guid="-uRvw_nnHrWsb561_9GKgDw">
+    <refinedDescription>&lt;p>&#xD;
+    The item definition covers a number areas, it cover initial sets of requirements, functional (behavioural),&#xD;
+    non-functional (environmental, performance or quality of service) or legal (laws, national and international&#xD;
+    standards). It also consists of the definition of he behaviour and how flaws in that behaviour might result in&#xD;
+    potential hazards or be derived from potential faults.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Finally it looks at how the item interacts with its surrounding systems and captures the interfaces,&#xD;
+    interactions&amp;nbsp;and requirements that influence the item.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-J64NNvrdehL_KmiGot0EDQ" name="Carry out confirmation review of hazard analysis, risk assessment and safety goals,_TbfUEKlsEeCC2aJoFcjzgA" guid="-J64NNvrdehL_KmiGot0EDQ">
+    <refinedDescription>&lt;p>&#xD;
+    The confirmation review&amp;nbsp; formally checks whether the performed hazard analysis and risk assessment procedure&#xD;
+    complies with the requirements of ISO 26262, vol 3, Clause 7. The review is carried out by person from&amp;nbsp;a different&#xD;
+    department or organisation, than that of the developers of the item. See &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.compliance.iso26262.base-ibm/tasks/Determine%20confirmation%20measures_101A6AFA.html&quot;&#xD;
+    guid=&quot;_04W6sIh2EeCE4bK4CwiExg&quot;>Determine confirmation measures&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-E1vx5qVP0WdoGqtHspYMCg" name="Allocation of functional safety requirements,_0AvrwJakEeCPtY0LnWkRDw" guid="-E1vx5qVP0WdoGqtHspYMCg">
+    <refinedDescription>&lt;p dir=&quot;ltr&quot;>&#xD;
+    The diagram below shows how the results of the Hazard analysis and risk assessment are passed down through the safety&#xD;
+    goals with ASIL levels to requirements and subsystems.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;img alt=&quot;&quot;&#xD;
+    src=&quot;./resources/Safety%20requirements%20allocation.png&quot; width=&quot;441&quot; height=&quot;259&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Users are advised to refer to ISO 26262, Vol 3 clause 4.3 for further guidance on the allocation functional safety&#xD;
+    requirements.&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br />&#xD;
+&lt;br dir=&quot;ltr&quot; align=&quot;center&quot; />&#xD;
+&lt;br />&#xD;
+&lt;b>&lt;a id=&quot;_Toc191284300&quot; name=&quot;_Toc191284300&quot;>&lt;/a>&lt;/b></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vY30zZoqWG_jDcJjUY7pkA" name="Derivation of functional safety requirements,_0AvrwZakEeCPtY0LnWkRDw" guid="-vY30zZoqWG_jDcJjUY7pkA">
+    <refinedDescription>&lt;p>&#xD;
+    The functional safety requirements are derived from the safety goals and safe states. They are decomposed to the point&#xD;
+    where they can be allocated to an items subsystem, which is defined based upon the preliminary architectural&#xD;
+    assumptions and the initial functional concept.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There&amp;nbsp;shall be at least one functional safety requirement for each safety goal. It should be noted that one safety&#xD;
+    requirement can be valid for more than one safety goal.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The ASIL level of the safety goal shall be inherited by the related safety requirement.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For detailed guidance on the derivation of these requirements it is advised that the user refers to ISO 26262, vol 3,&#xD;
+    clause 8.4.2.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This activity can be achieved in a model based environment is an adaption of the allocation of requirements from a&#xD;
+    functional architecture to high level architectural design which can be based around subsystems, this process can&#xD;
+    either be based around use cases and activities (&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/Architectural%20Design%20-%20uc_E8CAF5DD.html&quot;&#xD;
+    guid=&quot;_H1zdAa3hEd63sNXoX4A_sA&quot;>Architectural Design - Use-Case based&lt;/a>) or operations (&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/Architectural%20Design%20-%20op_54664526.html&quot;&#xD;
+    guid=&quot;_E9oWAa3hEd63sNXoX4A_sA&quot;>Architectural Design - Operation based&lt;/a>) which the are safety goals are mapped to.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QBAFJ-EeM-d7JryFgIojog" name="Evaluation of functional safety requirements,_0AvrwpakEeCPtY0LnWkRDw" guid="-QBAFJ-EeM-d7JryFgIojog">
+    <refinedDescription>&lt;p>&#xD;
+    The evaluation can be carried out using tests and trials with prototypes, simulations, studies or subject tests.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Guidance on using simulation using a model based approach is detailed in the verification stage of &lt;a&#xD;
+    class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/Architectural%20Design%20-%20uc_E8CAF5DD.html&quot;&#xD;
+    guid=&quot;_H1zdAa3hEd63sNXoX4A_sA&quot;>Architectural Design - Use-Case based&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It addresses the behaviour of the fault with respect to to the safety requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The evaluation report is captured as part of&amp;nbsp;the functional safety concept.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5tHQM3Ce-iImK-lMl44Y2g" name="Specify the criteria for the safety validation of the item,_0AvrxJakEeCPtY0LnWkRDw" guid="-5tHQM3Ce-iImK-lMl44Y2g">
+    <refinedDescription>Defines what measures will be used to validate that the item has met its safety criteria. The results are added to the&#xD;
+functional safety concept</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-FIEje7Z7mjjDX-aPzD8iwQ" name="Requirements Engineer,_t_54xJamEeCPtY0LnWkRDw" guid="-FIEje7Z7mjjDX-aPzD8iwQ">
+    <refinedDescription>&lt;p>&#xD;
+    Identifies, analyses and structures requirements so that they are captured in an understandable and logical manner.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Aids with creating traceability links and baselines for requirements management.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5TmQd_8SnH8ada1N0jHrqg" name="Safety goals,_t_54x5amEeCPtY0LnWkRDw" guid="-5TmQd_8SnH8ada1N0jHrqg">
+    <refinedDescription>&lt;p>&#xD;
+    The safety goals are the top level safety requirements for the item. They provide the basis for the functional safety&#xD;
+    requirements needed to avoid an unreasonable risk for each hazard. As safety goals are a form of requirement they&#xD;
+    should not be expressed in terms of a solution but in terms of functional objectives.&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9I4gQg1oaLRUT-79UwfnGw" name="Item Definition,_t_54ypamEeCPtY0LnWkRDw" guid="-9I4gQg1oaLRUT-79UwfnGw">
+    <refinedDescription>&lt;p>&#xD;
+    The item definition covers a number areas, it cover initial sets of requirements, functional (behavioural),&#xD;
+    non-functional (environmental, performance or quality of service) or legal (laws, national and international&#xD;
+    standards). It also consists of the definition of he behaviour and how flaws in that behaviour might result in&#xD;
+    potential hazards or be derived from potential faults.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Finally it looks at how the item interacts with its surrounding systems and captures the interfaces,&#xD;
+    interactions&amp;nbsp;and requirements that influence the item.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-O5RXyNvvdjmS7ihxOWu2Tw" name="Preliminary architectural assumptions,_t_5405amEeCPtY0LnWkRDw" guid="-O5RXyNvvdjmS7ihxOWu2Tw">
+    <refinedDescription>&lt;p>&#xD;
+    Defines the initial architecture constraints and assumptions, it could be a textual and diagramatic of&amp;nbsp;description&#xD;
+    of the architecture or a SysML model that also captures the functional concept, operating modes and systems states.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-87B3q8UtGpf4xf3vxKsI3g" name="Functional concept,_t_541pamEeCPtY0LnWkRDw" guid="-87B3q8UtGpf4xf3vxKsI3g">
+    <refinedDescription>Gives the users a conceptual highlevel understanding of the functionality of the system. This could be captured as textual&#xD;
+document but it could also be&amp;nbsp;represented as a&amp;nbsp;SysML&amp;nbsp;functional model for the item under development. The&#xD;
+SysML model may also capture the various operating modes and states and architectural assumptions at the vehicle level.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-y2fwHhbmXUrAqhsSB0rmWA" name="Operating modes and system states,_t_542ZamEeCPtY0LnWkRDw" guid="-y2fwHhbmXUrAqhsSB0rmWA">
+    <refinedDescription>Gives the users a more detailed understanding of the systems operating modes and states.This could be captured as textual&#xD;
+document or state table, but it could also be&amp;nbsp;represented as a&amp;nbsp;set of SysML&amp;nbsp;state machines mapped to the Use&#xD;
+Case model for the item under development, the behaviour could be extended to the architectural assumption model.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BpV6C3xV1sssFRl6l1_HAA" name="Verification of functional safety concept,_fwA9QJdDEeCPtY0LnWkRDw" guid="-BpV6C3xV1sssFRl6l1_HAA">
+    <refinedDescription>&lt;p>&#xD;
+    Verification task to ensure that the functional safety concept is consistent and compliant with the safety goals.&lt;br />&#xD;
+    This task needs to be carried out in accordance with&amp;nbsp;&amp;nbsp;ISO 26262, vol 8, clause 9&amp;nbsp;and is shown in the &lt;a&#xD;
+    class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../process.compliance.iso26262.base-ibm/capabilitypatterns/8.9%20Verification%20Planning_831C2385.html&quot;&#xD;
+    guid=&quot;_91quQZEZEeCUs8vNyweFYw&quot;>8.9 Verification Planning&lt;/a>&amp;nbsp;task.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If it can be shown that the Item complies to the functional safety requirements then the item also complies with the&#xD;
+    safety goals, in this case it is possible that a traceability argument can be used.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The verification report is captured as part of&amp;nbsp;the functional safety concept.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2YiG7ybtfKYEXhwXU0my4Q" name="Safety Manager,_WLd2MJdJEeCPtY0LnWkRDw" guid="-2YiG7ybtfKYEXhwXU0my4Q">
+    <refinedDescription>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-OW7e3mXx8UXLlt_pACpGjg" name="Concept Phase2,_aVsC4ZXgEeCbdJb0WnOTDQ" guid="-OW7e3mXx8UXLlt_pACpGjg" version="7.5.1">
+    <purpose>To define the items description, determine safety goals, develop functional safety concept and allocated functional safety&#xD;
+requirements to the elements of the item.</purpose>
+  </org.eclipse.epf.uma:ProcessDescription>
+</xmi:XMI>

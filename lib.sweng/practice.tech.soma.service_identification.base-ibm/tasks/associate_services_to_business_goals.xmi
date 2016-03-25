@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-1VPzhUF_x1xebCiIQkRbbw" name="associate_services_to_goals,_unALUK-BEd2qXOsgZ_h9PA" guid="-1VPzhUF_x1xebCiIQkRbbw" changeDate="2009-10-06T23:22:08.140-0700" version="7.1.0">
+  <mainDescription>&lt;p>&#xD;
+    This task produces a goal-service model -- an allocation of candidate services (or existing services) to business&#xD;
+    goals.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In this task, the work product slot of [Business Requirements] is fulfilled by Business Goals.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This technique begins with generalized statements of business goals, with subsequent decomposition into sub-goals that&#xD;
+    must be met in order to fulfill&amp;nbsp;each higher level goal. This eventually leads to a level of decomposition that&#xD;
+    supports the identification of services associated with the sub-goals. During this process, KPIs are identified and&#xD;
+    collected along with the metrics that will be used to measure, monitor, and verify the degree of success in actually&#xD;
+    achieving the goals.&amp;nbsp; Finally, candidate services and services are allocated to the goals and sub-goals.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Task steps &lt;code>Identify business goals and sub-divide into sub-goals&lt;/code> and&amp;nbsp;&lt;code>Identify Key Performance Indicators and&#xD;
+    metrics for sub-goals&lt;/code> are optional.&amp;nbsp; They do not need to be performed if a goal hierarchy with associated KPIs&#xD;
+    and metrics already exists when the task begins.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_identification.base-ibm/guidances/examples/identifying_candidate_services_from_business_goals_E936E134.html&quot; guid=&quot;_p3DoIGTgEd6EKfYvqjfiMA&quot;>Example: Identifying Candidate Services from Business Goals&lt;/a>&amp;nbsp;for two sample&#xD;
+    representations of a goal-service model.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    Failure to clearly define business goals will make it difficult to determine if proposed candidate services are&#xD;
+    business-aligned and appropriate for use in an SOA based initiative.&amp;nbsp;Because Goal-Service Modeling can also&#xD;
+    identify (not simply validate) candidate services, failure to create this work product can lead to gaps in the service&#xD;
+    portfolio. These factors can result in additional effort and cost due to the creation of unnecessary services, or&#xD;
+    reduced success of the SOA based solution due to gaps in the service portfolio.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Because&amp;nbsp;the Goal-Service Model is important to defining the scope of other service identification activities,&#xD;
+    failure to create it could result in unnecessary effort being spent in other activities, or gaps in the output from&#xD;
+    those activities.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Although the Goal-Service Model is considered important, if not essential, for a majority of SOA based initiatives,&#xD;
+    there could be occasional circumstances where the focus is narrowed to the creation of services for common technology&#xD;
+    functions which might not appear to be easily aligned with specific business goals. It is worth considering that, even&#xD;
+    in these scenarios, the Goal-Service Model can be used to document goals related to the Business of IT.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_4TnRgHZpEd6RRau582KGQA" name="Identify business goals and sub-divide into sub-goals (optional)" guid="_4TnRgHZpEd6RRau582KGQA">
+    <sectionDescription>&lt;p>&#xD;
+    As the Business Analyst, identify necessary business goals [Business Requirements]&amp;nbsp;and decompose them&amp;nbsp;into&#xD;
+    hierarchies of sub-goals that must be met in order to satisfy the top-level goals. &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.bus.common.extend-ibm/guidances/guidelines/defining_business_goals_4DC7191A.html&quot; guid=&quot;_s59O0FIQEd6lNtylJFsPIg&quot;>Guideline: Defining Business Goals&lt;/a>&amp;nbsp;provides advice for defining goals and&#xD;
+    sub-goals. Use &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.bus.common.extend-ibm/guidances/checklists/business_goals_41432B41.html&quot; guid=&quot;_8mUyAHM2Ed6va-EJWoOsvg&quot;>Checklist: Business Goals&lt;/a>&amp;nbsp;to further guide you, and use this as a completeness&#xD;
+    check.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_G-rXwHZqEd6RRau582KGQA" name="Identify Key performance indicators and metrics for sub-goals (optional)" guid="_G-rXwHZqEd6RRau582KGQA">
+    <sectionDescription>&lt;p>&#xD;
+    As the Business Analyst, identify Key&amp;nbsp;Performance Indicators and Metrics for your goals.&amp;nbsp;Document these as&#xD;
+    supplementary portions of your Business Goal descriptions.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>KPI's&lt;/b>: KPIs are used to determine how well a business is meeting its goals, or to assess the level of&#xD;
+    performance of business processes. For example, for the goal &lt;em>increase revenue&lt;/em>, a specific KPI could be &lt;em>increase&#xD;
+revenue by 5% during the next fiscal year&lt;/em>. This provides a specific way to determine if the goal has been met. &lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Metrics:&lt;/b> Metrics identify the type of measurements that need to be collected to assess the state of the KPIs.&#xD;
+    For a KPI such as &lt;em>increase revenue by 5% during the next fiscal year&lt;/em>, a metric could be &lt;em>record the revenue from all&#xD;
+    revenue generating transactions&lt;/em>. Measurements would then need to be taken of each relevant transaction, across all&#xD;
+    systems that support those transactions. An implication of this is that all of the individual measurements dictated by&#xD;
+    the metric would need to be aggregated and reported in a meaningful way so that it can be determined if the related KPI&#xD;
+has been met. &lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_unALUa-BEd2qXOsgZ_h9PA" name="Associate services with business goals" guid="_unALUa-BEd2qXOsgZ_h9PA">
+    <sectionDescription>&lt;p>&#xD;
+    Using the&amp;nbsp;identified business goals,&amp;nbsp;we now assign any candidate services in the project service portfolio to&#xD;
+    the goals they support. It is also possible to identify new candidate services where goals or sub-goals exist that have&#xD;
+    no supporting services. The method used to assign services to goals will depend on your choice of representation for&#xD;
+    the service model, and therefore the representation of the goal-service model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    During decomposition of goals into sub-goals and KPIs, the question will arise as to when we&amp;nbsp;need to&amp;nbsp;stop&#xD;
+    this decomposition process. As already mentioned, goal analysis can stop once sub-goals have been identified to the&#xD;
+    point at which services that can fulfill those sub-goals can be identified. If new services are identified, update the&#xD;
+    categorized service portfolio in the service model. For each sub-goal, identify the services needed to fulfill the&#xD;
+    sub-goal.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_o_DTMHiWEd6ks5VPZ8tZkQ" name="Update candidate service portfolio and service hierarchy" guid="_o_DTMHiWEd6ks5VPZ8tZkQ">
+    <sectionDescription>Add the new candidate services to the candidate service portfolio.&amp;nbsp;&amp;nbsp; Position them within the candidate service&#xD;
+hierarchy in accordance with your chosen taxonomic approach.</sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    The purposes of this task&amp;nbsp;are to:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Ensure that each&amp;nbsp;relevant business goal is supported by at least one candidate service or&amp;nbsp;exposed service&#xD;
+  &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Validate the degree to which candidate services are business-aligned.&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_uCUbgewsEd-sjp03to1LnQ" guid="_uCUbgewsEd-sjp03to1LnQ">
+    <resourceDescriptors xmi:id="_uCUbguwsEd-sjp03to1LnQ" id="-fOLsmSrgzBpiNGjLyyNDVA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_s_RDOewsEd-sjp03to1LnQ" name="cots_transition_phase" guid="_s_RDOewsEd-sjp03to1LnQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_s_RDPewsEd-sjp03to1LnQ" name="cots_transition_gather_info_from_spheres" guid="_s_RDPewsEd-sjp03to1LnQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_s_RDPuwsEd-sjp03to1LnQ" name="cots_transition_gather_info_from_spheres" guid="_s_RDPuwsEd-sjp03to1LnQ" superActivities="_s_RDOuwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_s-9hJ-wsEd-sjp03to1LnQ#_s-9hLOwsEd-sjp03to1LnQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_s_RDP-wsEd-sjp03to1LnQ" name="cots_transition_define_candidate_solutions" guid="_s_RDP-wsEd-sjp03to1LnQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_s_RDQOwsEd-sjp03to1LnQ" name="cots_transition_define_candidate_solutions" guid="_s_RDQOwsEd-sjp03to1LnQ" superActivities="_s_RDOuwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_s-qmfOwsEd-sjp03to1LnQ#_s-0Xp-wsEd-sjp03to1LnQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_s_RDO-wsEd-sjp03to1LnQ" name="cots_transition_fielding" guid="_s_RDO-wsEd-sjp03to1LnQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_s_RDPOwsEd-sjp03to1LnQ" name="cots_transition_fielding" guid="_s_RDPOwsEd-sjp03to1LnQ" superActivities="_s_RDOuwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_s-9heOwsEd-sjp03to1LnQ#_s-9hiOwsEd-sjp03to1LnQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_s_RDQewsEd-sjp03to1LnQ" name="cots_transition_support_iteration" guid="_s_RDQewsEd-sjp03to1LnQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_s_RDQuwsEd-sjp03to1LnQ" name="cots_transition_support_iteration" guid="_s_RDQuwsEd-sjp03to1LnQ" superActivities="_s_RDOuwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_s-0XqOwsEd-sjp03to1LnQ#_s-9hEewsEd-sjp03to1LnQ"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_s_RDOuwsEd-sjp03to1LnQ" name="cots_transition_phase" guid="_s_RDOuwsEd-sjp03to1LnQ" presentationName="COTS Transition Iteration" briefDescription="This is an example of transition phase iteration. It includes the activities typically performed during a single iteration in the transition phase." isRepeatable="true" breakdownElements="_s_RDPuwsEd-sjp03to1LnQ _s_RDQOwsEd-sjp03to1LnQ _s_RDPOwsEd-sjp03to1LnQ _s_RDQuwsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t92LNewsEd-sjp03to1LnQ" name="process_synFree" value="true"/>
+      <presentation xmi:id="-fOLsmSrgzBpiNGjLyyNDVA" href="uma://-fOLsmSrgzBpiNGjLyyNDVA#-fOLsmSrgzBpiNGjLyyNDVA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

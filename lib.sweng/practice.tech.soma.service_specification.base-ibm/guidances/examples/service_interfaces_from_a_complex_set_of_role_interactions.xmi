@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-O1kgxzwUEvmE27lJssXSkA" name="new_example,_4CI2wJd1Ed6K4On4I33bEg" guid="-O1kgxzwUEvmE27lJssXSkA" changeDate="2009-10-26T18:39:42.578-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../practice.tech.soma.service_specification.base-ibm/guidances/guidelines/identify_service_interfaces_from_role_interaction_patterns_A80FD7EE.html&quot; guid=&quot;_cBOmEJaLEd6mO_N3erykYQ&quot;>Guideline: Identify Service Interfaces from Collaboration Role Interaction Patterns&lt;/a>&amp;nbsp;introduced four rules for describing &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>ServiceInterfaces&lt;/a> and their provided and required interfaces, using interaction&#xD;
+    patterns between pairs of roles in &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/termdefinitions/service_collaboration_35276470.html&quot; guid=&quot;_V4z3YJgtEd6l6vBsNJSPDA&quot;>Service Collaborations&lt;/a>. &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../practice.tech.soma.service_specification.base-ibm/guidances/examples/simple_interface_from_request_response_collaboration_pattern_B9FC97C5.html&quot; guid=&quot;_T5vhsJd0Ed6K4On4I33bEg&quot;>Example: Simple Interface from the Request-Response Collaboration Pattern&lt;/a>&amp;nbsp;and&#xD;
+    &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../practice.tech.soma.service_specification.base-ibm/guidances/examples/complex_service_interface_from_callback_collaboration_pattern_CA73BF28.html&quot; guid=&quot;_OqDUQJd1Ed6K4On4I33bEg&quot;>Example: Complex ServiceInterface from &quot;CallBack&quot; Collaboration Pattern&lt;/a> illustrated&#xD;
+    the two main creation rules, using simple examples involving interactions between only two roles. This illustration&#xD;
+    presents a more complex example. Here, we identify ServiceInterfaces in the context of a four-role Service&#xD;
+    Collaboration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    By applying &lt;strong>Rule 2: Define the ServiceInterface and its provided and required interfaces from the perspective&#xD;
+    of the role that is messaged first&lt;/strong>, we see that we will be identifying three service interfaces here:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        One for role2, which is the provider with respect to its interactions with role1.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        One for role3, which is the provider with respect to its interaction with role2.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        One for role4, which is the provider with respect to its interactions with role2.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Using &lt;strong>Rule 3:&lt;/strong> &lt;strong>Create either a simple UML Interface or a ServiceInterface with only a provided&#xD;
+    interface when all consumer-provider communication uses a &quot;request-response&quot; collaboration pattern,&lt;/strong> we see&#xD;
+    that the interaction between role2 and role3 fits this description. Therefore, we will create either a simple UML&#xD;
+    interface or a ServiceInterface with a single provided interface to address role3's perspective.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The interactions between role2 and role1, and between role4 and role2, are addressed by &lt;strong>Rule&#xD;
+    4:&lt;/strong>&amp;nbsp;&lt;strong>Create a ServiceInterface with a provided interface and a required interface when&#xD;
+    the&amp;nbsp;provider role responds back to the&amp;nbsp;consumer role&amp;nbsp;with a callback message.&lt;/strong>&amp;nbsp;Thus, as the&#xD;
+    diagram that follows show:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        We will define a ServiceInterface with provided and required interfaces that are defined from the perspective of&#xD;
+        role2 relative to role1.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        We will define a ServiceInterface with provided and required interfaces that are defined from the perspective of&#xD;
+        role4 relative to role2.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; &lt;img height=&quot;462&quot; alt=&quot;&quot; src=&quot;resources/cmpst_provider_from_collab_patt.jpg&quot; width=&quot;599&quot; />&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

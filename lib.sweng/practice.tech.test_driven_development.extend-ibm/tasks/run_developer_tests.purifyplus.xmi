@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-GpVFPR7fS4w9V1NYa_8vIw" name=",_AF3ewJx5Edyebv9DCb0KJA" guid="-GpVFPR7fS4w9V1NYa_8vIw" version="7.2.0">
+  <sections xmi:id="_D2y5EJyBEdyebv9DCb0KJA" name="Prepare for Runtime Analysis" guid="_D2y5EJyBEdyebv9DCb0KJA">
+    <sectionDescription>&lt;p>&#xD;
+    Runtime analysis should be performed after the implementation has passed the developer tests. For runtime execution of&#xD;
+    the component to yield accurate results, care should be taken to prepare the component satisfactorily so that no&#xD;
+    anomalous results occur as a by-product of errors in implementation, compilation or linking.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You will also need to prepare any framework or supporting tools required to execute the component. In some cases this&#xD;
+    may mean creating driver or harness code to support execution of the component; in other cases it may mean&#xD;
+    instrumenting the component so that external support tools can observe and possibly control the components behavior.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Xlf8gJx6Edyebv9DCb0KJA" name="Analyze Runtime Behavior" guid="_Xlf8gJx6Edyebv9DCb0KJA">
+    <sectionDescription>&lt;p>&#xD;
+    Having prepared both the component and the environment it will be observed in, you can now begin to execute the&#xD;
+    component through the chosen scenario. Dependent on the techniques and tools employed, this step may be performed&#xD;
+    largely unattended or may offer (or even require) ongoing attention as the scenario progresses.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Look for failures or anomalies in the expected behavior, even though the developer tests passed successfully. Note any&#xD;
+    observations you make or impressions you have that you think might relate to the anomalous behavior.&amp;nbsp; Take your&#xD;
+    findings and begin to investigate the underlying fault or root cause of each failure.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Document failures in a reproduceable way, including how to set up and use analysis tools to re-create the failures or&#xD;
+    anomalies.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

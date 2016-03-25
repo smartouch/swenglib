@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-LoXUw3slDQkHjj4pMjlf3g" name="requirements_traceability,_ND_jQI5GEd2aO8DovGWPwA" guid="-LoXUw3slDQkHjj4pMjlf3g" changeDate="2009-03-16T10:13:21.828-0700" version="7.5.0">
+  <mainDescription>This checklist provides questions to use to define traceability, and to create and populate traceability matrices. It helps&#xD;
+verify that the artifacts that are dependent upon each other have been linked in a consistent and complete manner. &lt;br />&#xD;
+&lt;br />&#xD;
+Every project&amp;nbsp;needs to&amp;nbsp;consider maintaining some minimal amount of traceability to support consistency checking&#xD;
+and change impact analysis. Traceabilities that are commonly defined as part of the requirements practice include (but are&#xD;
+not limited to) business objectives to features, and features to use cases. &lt;br /></mainDescription>
+  <sections xmi:id="_4m7MsI5GEd2aO8DovGWPwA" name="Have all the necessary traceabilities been defined and has a matrix been created to represent each one?" guid="_4m7MsI5GEd2aO8DovGWPwA">
+    <sectionDescription>The amount of traceability required to support the project needs to be defined up-front. The optimal amount of traceability&#xD;
+varies by organization, and even by project within an organization. A traceability matrix&amp;nbsp;must be created for each&#xD;
+traceability that is defined.</sectionDescription>
+  </sections>
+  <sections xmi:id="_7MuKQI5GEd2aO8DovGWPwA" name="Do all the traceabilities and supporting matrices which have been defined provide value for the project?" guid="_7MuKQI5GEd2aO8DovGWPwA">
+    <sectionDescription>Maintaining traceabilities can lead to unnecessary overhead if they convey information that has limited or no value to the&#xD;
+project team. For example, one could trace every term in a use case to its glossary definition, but few projects would&#xD;
+benefit from such tracing.</sectionDescription>
+  </sections>
+  <sections xmi:id="__Qru8I5GEd2aO8DovGWPwA" name="Do traceability matrices keep row or column artifact types consistent?" guid="__Qru8I5GEd2aO8DovGWPwA">
+    <sectionDescription>If the matrix mixes row artifact types or column artifact types, rework it so that all of the artifacts in each row are of&#xD;
+the same type. For instance: each row is a use case, and no row is anything else but a use case; each column is a business&#xD;
+rule, and no column is anything else but a business rule.</sectionDescription>
+  </sections>
+  <sections xmi:id="_Hfe8YI5HEd2aO8DovGWPwA" name="Do empty rows on the trace matrix correctly reflect the status of the project?" guid="_Hfe8YI5HEd2aO8DovGWPwA">
+    <sectionDescription>&lt;p>&#xD;
+    For each empty row in the matrix, one of the following must be true:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The artifact in that row is not needed, because it does not trace to any column artifacts.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The artifact in that row is needed, and it traces to one or more existing column artifacts, which have not yet been&#xD;
+        associated with it.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The artifact in that row is needed, and it traces to one or more new column artifacts.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        In rare cases, you would not set traceability when an artifact in a row would trace to every artifact in the&#xD;
+        columns, or vice versa (for example, a global non-functional requirement that traced to all use cases).&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_TnvusI5HEd2aO8DovGWPwA" name="Do empty columns on the trace matrix correctly reflect the status of the project?" guid="_TnvusI5HEd2aO8DovGWPwA">
+    <sectionDescription>&lt;p>&#xD;
+    For each empty column in the matrix, one of the following must be true:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The artifact in that column is not needed, because it does not trace to any row artifacts.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The artifact in that column is needed, and it traces to one or more existing row artifacts, which have not yet been&#xD;
+        associated with it.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The artifact in that column is needed, and it traces to one or more new row artifacts.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        In rare cases, you would not set traceability when an artifact in a column would trace to every artifact in the&#xD;
+        rows, or vice versa (for example, a global non-functional requirement that traced to all use cases).&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_XYnYQI5HEd2aO8DovGWPwA" name="Do rows or columns with many interactions correctly reflect the status of hte project?" guid="_XYnYQI5HEd2aO8DovGWPwA">
+    <sectionDescription>&lt;p>&#xD;
+    When a row artifact interacts with lots of column artifacts or vice versa, one of the following must be true:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The content of the artifact that has a lot of interaction is very important, and deserves special attention (such&#xD;
+        as extra testing or approval, or a dedicated group to work on it).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        If the content of an artifact has a lot of interactions, it could be more complex than it needs to be.&amp;nbsp; If so,&#xD;
+        it must be refactored into two or more artifacts.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_eb-GQI5HEd2aO8DovGWPwA" name="If the matrix is supported by an automated tool, is all of the tracing either from row to column or column to row but not mixed?" guid="_eb-GQI5HEd2aO8DovGWPwA">
+    <sectionDescription>&lt;p>&#xD;
+    &quot;Mixed&quot; means tracing from row to column and column to row in the same matrix.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Automated tools usually support one-way traceability to avoid circular references in transitive tracings. (Transitive&#xD;
+    Tracing means if A traces to B and B traces to C, then A traces to C.) If tracing from rows to columns as well as&#xD;
+    columns to rows is included in the same matrix within an automated tool, rework it so that the tracing is one-way to&#xD;
+    support transitivity. The direction for one way tracing is specified as part of the traceability definition, or within&#xD;
+    the Requirement Management Plan, if one was created.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

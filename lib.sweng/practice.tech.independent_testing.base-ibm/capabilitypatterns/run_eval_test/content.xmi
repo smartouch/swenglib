@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-yhyE1_bbEQ3oW__u1FXj7g" name="run_eval_test,_VBUHQYcrEdyuU5Sm8sc1Cw" guid="-yhyE1_bbEQ3oW__u1FXj7g" version="7.2.0"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9S04joZ3M598db_wph_DfA" name="test_suite,_1XDisIcvEdyuU5Sm8sc1Cw" guid="-9S04joZ3M598db_wph_DfA">
+    <refinedDescription>&lt;p>&#xD;
+    The Test Suite provides a means of managing the complexity of the test implementation. Many system test efforts fail&#xD;
+    because the team gets lost in the minutia of all of the detailed tests, and subsequently loses control of the test&#xD;
+    effort. Similar to UML packages, Test Suites provide a hierarchy of encapsulating containers to help manage the test&#xD;
+    implementation. They provide a means of managing the strategic aspects of the test effort by collecting tests together&#xD;
+    in related groups that can be planned, managed, and assessed in a meaningful way.&#xD;
+&lt;/p>&lt;!--EndFragment--></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-hrSJnPcys6CcKRtq5kMl5A" name="test_data,_1XDisYcvEdyuU5Sm8sc1Cw" guid="-hrSJnPcys6CcKRtq5kMl5A">
+    <keyConsiderations>When managed separately from the procedural aspects of the test, Test Data enables the unique characteristics of the&#xD;
+test to be modified independently.</keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-l0Gn_gr4B0i-2PnD__t5Pw" name="test_strategy,_2iKD4YcvEdyuU5Sm8sc1Cw" guid="-l0Gn_gr4B0i-2PnD__t5Pw">
+    <refinedDescription>&lt;p>&#xD;
+    The Test Strategy is used to identify testing principles and practices that will be applied in order to mitigate the&#xD;
+    project risks, manage the testing risks, and identify any exposures. This artifact provides a common approach and&#xD;
+    terminology for the testing effort. It also gives a general direction of where the testing is headed. It emphasizes the&#xD;
+    importance of a team approach to testing.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8oEHaHE_OCcZB6LHfX1Yaw" name="test_ideas_list,_4Hoz8IcvEdyuU5Sm8sc1Cw" guid="-8oEHaHE_OCcZB6LHfX1Yaw">
+    <refinedDescription>The Test Ideas List provides a layer of abstraction between the conceptual Test Plan and the more detailed Test Case (or the&#xD;
+concrete Test Script). It is used to capture initial ideas for potential tests (often ill-formed or partial ideas) so that the&#xD;
+tests can be reasoned about. This work product is particularly useful earlier in the development cycle, or when supporting&#xD;
+project work products are unavailable or incomplete.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4K5XVHBw6N_jMW7hm6XZrQ" name="test_findings,_4Hoz8YcvEdyuU5Sm8sc1Cw" guid="-4K5XVHBw6N_jMW7hm6XZrQ">
+    <refinedDescription>Test Findings are sometimes a large set of many Test Findings.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_yAWh9j-eLCIlWUxPB4VtQ" name="test_plan,_VHq4oYl1EdyJz-Y2MJegug" guid="-_yAWh9j-eLCIlWUxPB4VtQ">
+    <refinedDescription>&lt;p>&#xD;
+    The Test Plan forms the framework within which the team performing the testing will work for the given schedule. It&#xD;
+    directs, guides, and constrains the test effort, focusing the work on the useful and necessary deliverables. It also&#xD;
+    communicates the intent of the effort to stakeholders. As such, the Test Plan should avoid detail that would not be&#xD;
+    understood, or would be considered irrelevant by the stakeholders in the test effort.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In cultures or domains in which this work product is not recognized as a formal work product, it is still important to&#xD;
+    address the different aspects represented by the Test Plan as part of the planning effort, and make appropriate&#xD;
+    decisions about what testing will be undertaken, and how the test effort will be conducted.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5BRLJHfosMEi6pvJoqiYRg" name="test_log,_VHq4ool1EdyJz-Y2MJegug" guid="-5BRLJHfosMEi6pvJoqiYRg">
+    <refinedDescription>This artifact provides a detailed, typically time-based record that both verifies that a set of tests were run, and&#xD;
+provides information that relates to the success of those tests. The focus is typically on providing an accurate audit&#xD;
+trail, which enables you to undertake a post-run diagnosis of failures. This raw data is subsequently analyzed to determine&#xD;
+the results of an aspect of the test effort.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4FGGTvj7y2z32dlAnrezUw" name="test_case,_VHq4o4l1EdyJz-Y2MJegug" guid="-4FGGTvj7y2z32dlAnrezUw">
+    <refinedDescription>&lt;p>&#xD;
+    A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
+    test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
+    formal environments, you can create test cases by identifying a unique ID, name, associated test data, and expected&#xD;
+    results.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Test cases can be derived from many sources, and typically include a subset of the requirements (such as use cases,&#xD;
+    performance characteristics, and reliability concerns) and other types of quality attributes. For more information on&#xD;
+    types of tests and their relationships to quality test attributes, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Concept: Testing Qualitative Requirements&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

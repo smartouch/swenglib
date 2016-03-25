@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_oVN40a2YEd6lBoefKBG5Og" guid="_oVN40a2YEd6lBoefKBG5Og">
+    <resourceDescriptors xmi:id="_oVN40q2YEd6lBoefKBG5Og" id="-oGeZ_940wRhk71V-1kVReQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_vb2LUKzsEeCJ-7p1IAy8Iw" id="-VBVghVGr6JvpOP0BZ13aHg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_vb2LUazsEeCJ-7p1IAy8Iw" id="-mnmgcnMsVdY4JlIeGJqWbw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_vb2LUqzsEeCJ-7p1IAy8Iw" id="-JT-W77JGk99Zy0CYigExjw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_oTk6EK2YEd6lBoefKBG5Og" name="domain_decomposition" guid="_oTk6EK2YEd6lBoefKBG5Og">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_zk1kMa2eEd6_dJstfLPnzA" name="identify_candidate_services_from_business_rules" guid="_zk1kMa2eEd6_dJstfLPnzA" presentationName="Identify Candidate Services from Business Rules" briefDescription="This task is performed to identify candidate services that will encapsulate business rules and policies that need to be accessed, in a uniform manner, from multiple systems." superActivities="_oTk6Ea2YEd6lBoefKBG5Og" mandatoryInput="_zk1kNK2eEd6_dJstfLPnzA" optionalInput="_zk1kNa2eEd6_dJstfLPnzA" output="_zk1kNa2eEd6_dJstfLPnzA">
+      <methodElementProperty xmi:id="_4ACw3bemEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <presentation xmi:id="-VBVghVGr6JvpOP0BZ13aHg" href="uma://-oGeZ_940wRhk71V-1kVReQ#-VBVghVGr6JvpOP0BZ13aHg"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_R5GZYEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_YDPAYEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_Wue0wGTgEd6EKfYvqjfiMA"/>
+      <Task href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_kOEPEGTPEd6EKfYvqjfiMA"/>
+      <selectedSteps href="uma://-OsuSy8FCj_oyIAXsqx7tuA#_3EcZgHmnEd68M7_EsVoQsw"/>
+      <selectedSteps href="uma://-OsuSy8FCj_oyIAXsqx7tuA#_ALrDwHmoEd68M7_EsVoQsw"/>
+      <selectedSteps href="uma://-OsuSy8FCj_oyIAXsqx7tuA#_lMKMgHmrEd68M7_EsVoQsw"/>
+      <selectedSteps href="uma://-OsuSy8FCj_oyIAXsqx7tuA#_xcQsMHmrEd68M7_EsVoQsw"/>
+      <selectedSteps href="uma://-OsuSy8FCj_oyIAXsqx7tuA#_7MrLcHmtEd68M7_EsVoQsw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_zk1kNK2eEd6_dJstfLPnzA" name="business_rules" guid="_zk1kNK2eEd6_dJstfLPnzA" presentationName="Business Rules" briefDescription="This artifact expresses policies and constraints that apply to the business." isPlanned="false" superActivities="_oTk6Ea2YEd6lBoefKBG5Og">
+      <methodElementProperty xmi:id="_4ACw3remEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-mnmgcnMsVdY4JlIeGJqWbw" href="uma://-oGeZ_940wRhk71V-1kVReQ#-mnmgcnMsVdY4JlIeGJqWbw"/>
+      <WorkProduct href="uma://_CIyDwEMLEdyP_Jn83ylwUQ#_UtiQwNDuEdunspUKKm1F4Q"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_zk1kNa2eEd6_dJstfLPnzA" name="service_model" guid="_zk1kNa2eEd6_dJstfLPnzA" presentationName="Service Model" briefDescription="The service model is a model of the core elements of a Service Oriented Architecture (SOA). The service model is used as an essential input to tasks in implementation and testing." isPlanned="false" superActivities="_oTk6Ea2YEd6lBoefKBG5Og">
+      <methodElementProperty xmi:id="_4ACw3LemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <checklists href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_O0Qk0Eo0Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_T-AiUEozEd6D_7XK49c0nw"/>
+      <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_lc5vgGsLEd6dX9uDBR7y4Q"/>
+      <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_qHU5sFIREd6lNtylJFsPIg"/>
+      <templates href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_mJhD0GkcEd6g1IDZLlcC3g"/>
+      <templates href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_xsgiYFIREd6lNtylJFsPIg"/>
+      <templates href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_3yebEFIREd6lNtylJFsPIg"/>
+      <WorkProduct href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_IgcA4Eo1Ed6D_7XK49c0nw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_0g48wa2eEd6_dJstfLPnzA" name="identify_candidate_services_from_domain_models" guid="_0g48wa2eEd6_dJstfLPnzA" presentationName="Identify Candidate Services from Domain Models" briefDescription="Identify candidate services that are needed to manage key information elements from the domain." superActivities="_oTk6Ea2YEd6lBoefKBG5Og" optionalInput="_zk1kNa2eEd6_dJstfLPnzA" output="_zk1kNa2eEd6_dJstfLPnzA">
+      <methodElementProperty xmi:id="_4ACw27emEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <presentation xmi:id="-JT-W77JGk99Zy0CYigExjw" href="uma://-oGeZ_940wRhk71V-1kVReQ#-JT-W77JGk99Zy0CYigExjw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_uYi1gEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_R5GZYEo1Ed6D_7XK49c0nw"/>
+      <concepts href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_YDPAYEo1Ed6D_7XK49c0nw"/>
+      <examples href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_ar_D0HojEd6spLUpguTNDw"/>
+      <Task href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_WFBT4FIPEd6lNtylJFsPIg"/>
+      <selectedSteps href="uma://-6hyoLt5DAv-VvXjDfml4AQ#_bAD3YHoYEd6spLUpguTNDw"/>
+      <selectedSteps href="uma://-6hyoLt5DAv-VvXjDfml4AQ#_G4U3oHoZEd6spLUpguTNDw"/>
+      <selectedSteps href="uma://-6hyoLt5DAv-VvXjDfml4AQ#_F857wHoaEd6spLUpguTNDw"/>
+      <selectedSteps href="uma://-6hyoLt5DAv-VvXjDfml4AQ#_c9I9MHoaEd6spLUpguTNDw"/>
+      <selectedSteps href="uma://-6hyoLt5DAv-VvXjDfml4AQ#_uolrQHoaEd6spLUpguTNDw"/>
+      <mandatoryInputExclude href="uma://_OynuUNDqEdunspUKKm1F4Q#_pEaKYDDBEdyz_pzDMsV8FQ"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_oTk6Ea2YEd6lBoefKBG5Og" name="domain_decomposition" guid="_oTk6Ea2YEd6lBoefKBG5Og" presentationName="Domain Decomposition" briefDescription="Identify candidate services using various assets from the business modeling domain." breakdownElements="_zk1kMa2eEd6_dJstfLPnzA _zk1kNK2eEd6_dJstfLPnzA _zk1kNa2eEd6_dJstfLPnzA _0g48wa2eEd6_dJstfLPnzA">
+      <methodElementProperty xmi:id="_4ACw37emEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-oGeZ_940wRhk71V-1kVReQ" href="uma://-oGeZ_940wRhk71V-1kVReQ#-oGeZ_940wRhk71V-1kVReQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

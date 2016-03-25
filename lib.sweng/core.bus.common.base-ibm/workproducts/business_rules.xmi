@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-H_GmWJ3SEFGCybkQWCzlrQ" name="business_rules,_UtiQwNDuEdunspUKKm1F4Q" guid="-H_GmWJ3SEFGCybkQWCzlrQ" changeDate="2008-10-24T15:53:39.234-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    A business rule defines a specific constraint or invariant that must be satisfied by the business. Business rules may&#xD;
+    apply always (in which case they are called invariants) or only under a specific condition. If the condition occurs,&#xD;
+    the rule becomes valid, and must therefore be complied with.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    Note that a business rule is declarative, not procedural. It describes a desirable, possible state that is suggested,&#xD;
+    required or prohibited. It may be conditional, that is, if something is the case, something else must or must not be&#xD;
+    the case. It does not, however, describe the steps to be taken to achieve the transition from one state to another, or&#xD;
+    the steps to be taken to prohibit a transition. [BRG 2000 - Business Rule Group &quot;Defining Business Rules ~ What Are&#xD;
+    They Really?&quot; Revision 1.3 July 2000]&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    A business rule may provide a set of conditions that govern business behavior or provide the criteria for when an&#xD;
+    action is successfully or unsuccessfully completed. It may stipulate what other actions can or cannot be performed as a&#xD;
+    result of successful or unsuccessful completion. It may specify the response to some external event that impinges on&#xD;
+    the enterprise. It may govern relationships that need to apply among various business entities.&lt;br />&#xD;
+&lt;/p></mainDescription>
+  <purpose>Business rules are intended to assert the desired structure of the business or to control or influence the behavior of the&#xD;
+business.&amp;nbsp; They capture policies and constraints expressed by the business that need to be challenged and/or accepted&#xD;
+as requirements.</purpose>
+  <impactOfNotHaving>&lt;p>&#xD;
+    If business rules are not documented, business people cannot validate them. If they are not identified as requirements,&#xD;
+    developers may have to perform the analysis in order to understand them or they may instead build a solution that does&#xD;
+    not comply with business rules. The rules are then likely to be represented directly in design artifacts such as code&#xD;
+    and data structures. This makes them difficult to find and change when the business wants to adapt and change. The&#xD;
+    resulting inflexibility has a direct business effect on business flexibility.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    Also, if Business Rules are not brought together in a single artifact, there will be no opportunity for identifying&#xD;
+    rules that can be reused in different parts of the system or business. If reuse is not identified it is possible that&#xD;
+    rules will be implemented that are inconsistent with other rules.&#xD;
+&lt;/p></impactOfNotHaving>
+  <reasonsForNotNeeding>&lt;p>&#xD;
+    This artifact may not be needed if there is already a Business Rules artifact that can be referenced or extended. If&#xD;
+    there are no Business Rules, then the artifact is not required.&#xD;
+&lt;/p></reasonsForNotNeeding>
+  <representationOptions>&lt;p>&#xD;
+    Business rules can be documented in a structured format as a text document or included as part of a model either as&#xD;
+    structured text or using a more formal notation such as OCL. The benefits of formally modeling these in one or more&#xD;
+    tools is that they are directly implementable with their related models, however this has the drawback that they cannot&#xD;
+    be easily reviewed as a single set of rules.&amp;nbsp; It is for this reason that it is sometimes better to just use&#xD;
+    structured text, which can either be maintained as part of a model for better traceability and structuring, or&#xD;
+    maintained as a separate document that is referenced from the model which provides the convenience of a single source.&#xD;
+    The various design models must then be validated against this single rules set to ensure that they appropriately&#xD;
+    implement the rules as stated.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Structured text&lt;/strong>&lt;br />&#xD;
+    A term used to describe text that employs a variety of methods of presentation, such as tables and diagrams, instead of&#xD;
+    sentences and paragraphs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>UML Representation:&lt;/strong> Constraint, stereotyped &amp;lt;&amp;lt;business rule&amp;gt;&amp;gt;.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Selected Representation:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Business Rules should be recorded with some level of formality. Different subject areas such as data rules, task flow&#xD;
+    rules or legal and regulatory rules require different styles and levels of formalism. It is therefore not possible to&#xD;
+    recommend a single selected representation. The Business Rules checklist and guidance should be consulted for&#xD;
+    appropriate guidance.&#xD;
+&lt;/p></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

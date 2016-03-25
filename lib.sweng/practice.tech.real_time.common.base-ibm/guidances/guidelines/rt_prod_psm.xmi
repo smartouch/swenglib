@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-XbGVZuSz8QF-PQ7Xg69T-w" name="new_guideline,_7uBgcOK-Ed-G2pDngtqTxA" guid="-XbGVZuSz8QF-PQ7Xg69T-w" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    The PSM must support the same semantic functionality as its corresponding PIM, but also incorporates design and&#xD;
+    technology decisions intended to optimize the application against its requirements and especially its required QoS. In&#xD;
+    Harmony, design is all about optimization against various design criteria including QoS. These design aspects can be&#xD;
+    added in two primary means - translation and elaboration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In translation, a translator (model compiler) is constructed that incorporate the design decisions (e.g. design&#xD;
+    patterns) and technology selections (e.g. CORBA). The translator is then applied against the PIM to produce the PSM.&#xD;
+    Elaboration is an interactive process in which the Software Modeler;applies design patterns to evolve the PIM into a&#xD;
+    PSM. Both approaches work and both have their benefits and costs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Translation requires expertise in compiler construction as well as in the technologies and design patterns to be&#xD;
+    applied. Various tags in the PIM are added to identify to the translator which patterns to apply to which PIM elements.&#xD;
+    Translators tend to be forward-only, so that the generated PSM or Platform-Specific Implementation (PSI) code cannot be&#xD;
+    modified by the developer without breaking the connection between the PIM and the PSM. That means that it may be&#xD;
+    difficult to get precise optimizations a developer might require. Further, reverse engineering is often problematic.&#xD;
+    However, once constructed, a translator is constructed, reapplying the translator is generally quick and easy.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Elaboration, on the other hand, provides a great flexibility in the achievement of specific optimizations the develop&#xD;
+    may desire. It is typically design pattern oriented (and certainly is in the Harmony Process). On the downside, this&#xD;
+    elaboration is manual, so that if a problem is discovered after the elaboration, then either the separate PIM must be&#xD;
+    updated and then the elaboration manually reapplied, the change must be reapplied to the separate PIM and PSM&#xD;
+    independently, or the evolving PSM is modified (and the &quot;PIM-ness&quot; is lost because the PIM is not separately&#xD;
+    maintained.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Harmony process recommends a combination of both approaches. Some patterns and technology selections are easy to&#xD;
+    apply via a translator in a general, but efficient way, and others are not. By selecting the appropriate mechanism, the&#xD;
+    developer's efficiency can be maintained along with the flexibility of the design approach.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As implied, the developer has choice as to whether to maintain a separate PIM and PSM, or simply evolve the PIM into&#xD;
+    the PSM. This decision is independent of the selection of translation versus elaboration. Both approaches have benefits&#xD;
+    and costs as well. Maintaining both models means that new PSMs can relatively easily be created by applying different&#xD;
+    patterns or technologies to support a different platform. However, if a problem is discovered in a PSM that affects the&#xD;
+    PIM, then the PIM must be updated and all generated PSM must be recreated. If there is only a single model (a combined&#xD;
+    PIM/PSM) then there is only a single place to make the change but the downside is that creation of other PSM is more&#xD;
+    work. The selection of the approach depends on the products required reusability and the nature of that expected reuse.&#xD;
+    If the purpose is to create a family of products, then two models is undoubtedly the best approach. If the goal is to&#xD;
+    create a single system with stable technologies, then a single model is more efficient. Most systems fall between these&#xD;
+    two extremes and the decision must be made on the exact nature of the product and its intended usage.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

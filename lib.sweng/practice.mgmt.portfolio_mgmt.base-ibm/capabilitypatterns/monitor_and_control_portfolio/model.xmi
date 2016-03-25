@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_hwy1wRTKEd6-CtZFHiHFGA" guid="_hwy1wRTKEd6-CtZFHiHFGA">
+    <resourceDescriptors xmi:id="_hwy1whTKEd6-CtZFHiHFGA" id="-y7xMSr50UxrqYvNArAQWew" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_hukBIBTKEd6-CtZFHiHFGA" name="monitor_and_control_portfolio" guid="_hukBIBTKEd6-CtZFHiHFGA">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_nKznYBTKEd6-CtZFHiHFGA" name="consolidate_progress_and_results" guid="_nKznYBTKEd6-CtZFHiHFGA" presentationName="Consolidate Progress and Results" briefDescription="Consolidate progress and results from components across the portfolio to drive high-quality decisions by all portfolio stakeholders." superActivities="_hukBIRTKEd6-CtZFHiHFGA">
+      <Task href="uma://_3X99EP7SEd2qlKqF0pYYYg#_3x25MBJZEd6DL-EvthCThw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_oOAw0BTKEd6-CtZFHiHFGA" name="monitor_changes_in_conditions" guid="_oOAw0BTKEd6-CtZFHiHFGA" presentationName="Monitor Changes in Conditions" briefDescription="Monitor changes in conditions of the portfolio's environment against portfolio components or portfolio targets and objectives to track what could impact the execution of work." superActivities="_hukBIRTKEd6-CtZFHiHFGA">
+      <Task href="uma://_3X99EP7SEd2qlKqF0pYYYg#_ZL1VoBJaEd6DL-EvthCThw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_pTTk8BTKEd6-CtZFHiHFGA" name="analyze_portfolio_trends_and_variances" guid="_pTTk8BTKEd6-CtZFHiHFGA" presentationName="Analyze Portfolio Trends and Variances" briefDescription="Analyze all detailed and aggregated portfolio components to identify trends and variances and to identify required corrective actions." superActivities="_hukBIRTKEd6-CtZFHiHFGA">
+      <Task href="uma://_3X99EP7SEd2qlKqF0pYYYg#_cU5_YBJaEd6DL-EvthCThw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_qRcoMBTKEd6-CtZFHiHFGA" name="consolidate_benefits_and_revenue_realization" guid="_qRcoMBTKEd6-CtZFHiHFGA" presentationName="Consolidate Benefits and Revenue Realization" briefDescription="Consolidate and validate data relative to benefits and revenue realization to drive quality decisions by portfolio stakeholders." superActivities="_hukBIRTKEd6-CtZFHiHFGA">
+      <Task href="uma://_3X99EP7SEd2qlKqF0pYYYg#_8QdcMBSuEd6MhpP9jJa1Mw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_rM6K4BTKEd6-CtZFHiHFGA" name="monitor_portfolio_and_conduct_reviews" guid="_rM6K4BTKEd6-CtZFHiHFGA" presentationName="Monitor Portfolio and Conduct Reviews" briefDescription="Monitor the portfolio aggregate and the components level to validate their performance, contribution, and overall impact on the portfolio." superActivities="_hukBIRTKEd6-CtZFHiHFGA" linkToPredecessor="_FNOVMLnqEd6MaesA0qBCmA _FNOVMbnqEd6MaesA0qBCmA _FNOVMrnqEd6MaesA0qBCmA _FNOVM7nqEd6MaesA0qBCmA">
+      <Task href="uma://_3X99EP7SEd2qlKqF0pYYYg#_ofhPcA9XEd6LqqyVYr5Pow"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_FNOVMLnqEd6MaesA0qBCmA" guid="_FNOVMLnqEd6MaesA0qBCmA" pred="_nKznYBTKEd6-CtZFHiHFGA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_FNOVMbnqEd6MaesA0qBCmA" guid="_FNOVMbnqEd6MaesA0qBCmA" pred="_oOAw0BTKEd6-CtZFHiHFGA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_FNOVMrnqEd6MaesA0qBCmA" guid="_FNOVMrnqEd6MaesA0qBCmA" pred="_pTTk8BTKEd6-CtZFHiHFGA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_FNOVM7nqEd6MaesA0qBCmA" guid="_FNOVM7nqEd6MaesA0qBCmA" pred="_qRcoMBTKEd6-CtZFHiHFGA"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_hukBIRTKEd6-CtZFHiHFGA" name="monitor_and_control_portfolio" guid="_hukBIRTKEd6-CtZFHiHFGA" presentationName="Monitor and Control Portfolio" briefDescription="This activity captures the flow that regulates all work in progress to identify negative trends and variances. This helps an organization develop corrective action plans." breakdownElements="_nKznYBTKEd6-CtZFHiHFGA _oOAw0BTKEd6-CtZFHiHFGA _pTTk8BTKEd6-CtZFHiHFGA _qRcoMBTKEd6-CtZFHiHFGA _rM6K4BTKEd6-CtZFHiHFGA">
+      <methodElementProperty xmi:id="_2V8mcLemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-y7xMSr50UxrqYvNArAQWew" href="uma://-y7xMSr50UxrqYvNArAQWew#-y7xMSr50UxrqYvNArAQWew"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

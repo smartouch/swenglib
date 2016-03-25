@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Jbd1QBbGEd-IO89_8phJ5g" guid="_Jbd1QBbGEd-IO89_8phJ5g">
+    <resourceDescriptors xmi:id="_Jbd1QRbGEd-IO89_8phJ5g" id="-nnbFUkPmDZ-D-PWYhoBudw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_JakdYBbGEd-IO89_8phJ5g" name="Reviews" guid="_JakdYBbGEd-IO89_8phJ5g">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_di42gBbGEd-IO89_8phJ5g" name="conduct_review" guid="_di42gBbGEd-IO89_8phJ5g" presentationName="Conduct Review" briefDescription="This task describes how to facilitate a review to maximize the productivity of the reviewers and meet defined quality requirements. " superActivities="_JakdYRbGEd-IO89_8phJ5g" linkToPredecessor="_59LS0DODEd-F4rNcFVkVxg" output="_djCngRbGEd-IO89_8phJ5g" performedPrimarilyBy="_djCngBbGEd-IO89_8phJ5g">
+      <methodElementProperty xmi:id="_11dIhbemEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <methodElementProperty xmi:id="_11dIhremEd-oHLor78AFuw" name="descriptor_customization" value="2"/>
+      <concepts href="uma://_29sv8BETEd-nONyo76otpQ#_29swBxETEd-nONyo76otpQ"/>
+      <toolmentor href="uma://_29sv8BETEd-nONyo76otpQ#_smckACL1Ed-i2-vfa43egg"/>
+      <Task href="uma://_29sv8BETEd-nONyo76otpQ#{01C0BC09-C421-438A-B4C4-351C46A244C9}"/>
+      <mandatoryInputExclude href="uma://_vJYucEfUEdyiPI8btkmvmw#_1QZI8EfUEdyiPI8btkmvmw"/>
+      <optionalInputExclude href="uma://_3LCXQCFKEd271ouXnKy9Cg#{4047B5B0-5FB7-4960-8A7E-451719D85DFF}"/>
+      <optionalInputExclude href="uma://_vJYucEfUEdyiPI8btkmvmw#_RJMUcNpUEdyzZqGyZ7hwdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_djCngBbGEd-IO89_8phJ5g" name="reviewer" guid="_djCngBbGEd-IO89_8phJ5g" presentationName="Reviewer" isPlanned="false" superActivities="_JakdYRbGEd-IO89_8phJ5g" modifies="_djCngRbGEd-IO89_8phJ5g"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_djCngRbGEd-IO89_8phJ5g" name="rup_review_record" guid="_djCngRbGEd-IO89_8phJ5g" presentationName="Review Record" briefDescription="Created to capture the results of a review activity in which one or more project artifacts are reviewed. " isPlanned="false" superActivities="_JakdYRbGEd-IO89_8phJ5g">
+      <methodElementProperty xmi:id="_11dIg7emEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_11dIiLemEd-oHLor78AFuw" name="descriptor_customization" value="1"/>
+      <WorkProduct href="uma://_3LCXQCFKEd271ouXnKy9Cg#{4047B5B0-5FB7-4960-8A7E-451719D85DFF}"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_eFAsIBbGEd-IO89_8phJ5g" name="organize_review" guid="_eFAsIBbGEd-IO89_8phJ5g" presentationName="Organize Review" briefDescription="This task describes how to facilitate the review process and ensure the review is undertaken appropriately. " superActivities="_JakdYRbGEd-IO89_8phJ5g" isSynchronizedWithSource="false" performedPrimarilyBy="_eFAsIRbGEd-IO89_8phJ5g">
+      <methodElementProperty xmi:id="_11dIh7emEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <concepts href="uma://_29sv8BETEd-nONyo76otpQ#_29swBxETEd-nONyo76otpQ"/>
+      <toolmentor href="uma://_29sv8BETEd-nONyo76otpQ#_29swDhETEd-nONyo76otpQ"/>
+      <Task href="uma://_29sv8BETEd-nONyo76otpQ#{F080799F-6A5B-40B9-ACB1-654A7741CADD}"/>
+      <mandatoryInputExclude href="uma://_vJYucEfUEdyiPI8btkmvmw#_1QZI8EfUEdyiPI8btkmvmw"/>
+      <optionalInputExclude href="uma://_vJYucEfUEdyiPI8btkmvmw#_RJMUcNpUEdyzZqGyZ7hwdw"/>
+      <optionalInputExclude href="uma://_3LCXQCFKEd271ouXnKy9Cg#{4047B5B0-5FB7-4960-8A7E-451719D85DFF}"/>
+      <outputExclude href="uma://_3LCXQCFKEd271ouXnKy9Cg#{4047B5B0-5FB7-4960-8A7E-451719D85DFF}"/>
+      <selectedStepsExclude href="uma://_2eUCcNnmEdmO6L4XMImrsA#_V8PB4NnnEdmO6L4XMImrsA"/>
+      <selectedStepsExclude href="uma://_2eUCcNnmEdmO6L4XMImrsA#_V8PB4dnnEdmO6L4XMImrsA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_eFAsIRbGEd-IO89_8phJ5g" name="review_manager" guid="_eFAsIRbGEd-IO89_8phJ5g" presentationName="Review Coordinator" isPlanned="false" superActivities="_JakdYRbGEd-IO89_8phJ5g"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_e1SSgBbGEd-IO89_8phJ5g" name="follow_up_review" guid="_e1SSgBbGEd-IO89_8phJ5g" presentationName="Follow-up Review" briefDescription="This task lists the actions which must result from a review." superActivities="_JakdYRbGEd-IO89_8phJ5g" linkToPredecessor="_6ezZMTODEd-F4rNcFVkVxg" isSynchronizedWithSource="false" additionallyPerformedBy="_djCngBbGEd-IO89_8phJ5g" mandatoryInput="_djCngRbGEd-IO89_8phJ5g" performedPrimarilyBy="_eFAsIRbGEd-IO89_8phJ5g">
+      <methodElementProperty xmi:id="_11dIgremEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <methodElementProperty xmi:id="_11dIhLemEd-oHLor78AFuw" name="descriptor_customization" value="2"/>
+      <Task href="uma://_29sv8BETEd-nONyo76otpQ#_29swARETEd-nONyo76otpQ"/>
+      <selectedSteps href="uma://-MfaHZYGzr0usn85ZExXG6Q#_MFovcBWoEd-I57lRAWnuXA"/>
+      <selectedSteps href="uma://-MfaHZYGzr0usn85ZExXG6Q#_N3MMoBWoEd-I57lRAWnuXA"/>
+      <selectedSteps href="uma://-MfaHZYGzr0usn85ZExXG6Q#_P9JzkBWoEd-I57lRAWnuXA"/>
+      <selectedSteps href="uma://-MfaHZYGzr0usn85ZExXG6Q#_RtESABWoEd-I57lRAWnuXA"/>
+      <selectedSteps href="uma://-MfaHZYGzr0usn85ZExXG6Q#_TeBSQBWoEd-I57lRAWnuXA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_59LS0DODEd-F4rNcFVkVxg" guid="_59LS0DODEd-F4rNcFVkVxg" pred="_eFAsIBbGEd-IO89_8phJ5g"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_6ezZMTODEd-F4rNcFVkVxg" guid="_6ezZMTODEd-F4rNcFVkVxg" pred="_di42gBbGEd-IO89_8phJ5g"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_JakdYRbGEd-IO89_8phJ5g" name="Reviews" guid="_JakdYRbGEd-IO89_8phJ5g" presentationName="Reviews" briefDescription="This workflow describes how to set up reviews and how to manage them, by focusing on the main tasks performed, the artifacts produced, and the roles involved." breakdownElements="_di42gBbGEd-IO89_8phJ5g _djCngBbGEd-IO89_8phJ5g _djCngRbGEd-IO89_8phJ5g _eFAsIBbGEd-IO89_8phJ5g _eFAsIRbGEd-IO89_8phJ5g _e1SSgBbGEd-IO89_8phJ5g">
+      <methodElementProperty xmi:id="_11dIibemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-nnbFUkPmDZ-D-PWYhoBudw" href="uma://-nnbFUkPmDZ-D-PWYhoBudw#-nnbFUkPmDZ-D-PWYhoBudw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

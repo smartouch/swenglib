@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_rNxbgAahEeKDn6MuflC_BA" guid="_rNxbgAahEeKDn6MuflC_BA">
+    <resourceDescriptors xmi:id="_rNxbgQahEeKDn6MuflC_BA" id="-v2II3uX4S-fRIS-sHYdwrQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_rNz3wAahEeKDn6MuflC_BA" id="-1Y5tUj7UMHaqJ2xjheTzqQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_rN1F4AahEeKDn6MuflC_BA" id="-drN3bZvU2OQZFosECH47aQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_rN1s8AahEeKDn6MuflC_BA" id="-YfHbWQwXmU5RcozU6NBRvw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_rN27EAahEeKDn6MuflC_BA" id="-xu_RNkzbY0tfbwIu7By9cA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_rN3iIAahEeKDn6MuflC_BA" id="-ywS4u8oy8i9nVT-meeEY7g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_rN4wQAahEeKDn6MuflC_BA" id="-19daaS9uUKoqBSOSLF8Wdw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_SFNoAGw_EeCcMLi_sG6TzQ" name="manage_change" guid="_SFNoAGw_EeCcMLi_sG6TzQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_vnq-EG9lEeCJFoHdlpPovQ" name="submit_change_request" guid="_vnq-EG9lEeCJFoHdlpPovQ" presentationName="Submit Change Request" briefDescription="This task describes how to submit a change request." superActivities="_SFNoAWw_EeCcMLi_sG6TzQ" output="_vn0vEG9lEeCJFoHdlpPovQ">
+      <presentation xmi:id="-v2II3uX4S-fRIS-sHYdwrQ" href="uma://-v2II3uX4S-fRIS-sHYdwrQ#-v2II3uX4S-fRIS-sHYdwrQ"/>
+      <examples href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_HxqN4GetEd2jiLiRai0fqQ"/>
+      <toolmentor href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_9iFncCEfEd2x1eZC--0C1g"/>
+      <Task href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_Z8neQA1fEd2_YZgLr0B-dw"/>
+      <selectedSteps href="uma://-7ej49lMm3JhXxEUNuvj6eg#_Yaal4C2DEd2K9MXQfaLjRA"/>
+      <selectedSteps href="uma://-7ej49lMm3JhXxEUNuvj6eg#_oTkP4C2DEd2K9MXQfaLjRA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_vn0vEG9lEeCJFoHdlpPovQ" name="change_request" guid="_vn0vEG9lEeCJFoHdlpPovQ" presentationName="Change Request" briefDescription="This artifact is used to document and track a requested change to one or more work products. It provides a record of decisions and, with an appropriate assessment process, ensures that the change impact of the request is considered." isPlanned="false" superActivities="_SFNoAWw_EeCcMLi_sG6TzQ">
+      <methodElementProperty xmi:id="_rN7MgAahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-1Y5tUj7UMHaqJ2xjheTzqQ" href="uma://-v2II3uX4S-fRIS-sHYdwrQ#-1Y5tUj7UMHaqJ2xjheTzqQ"/>
+      <WorkProduct href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_zn8dECEgEd2x1eZC--0C1g"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_xX4XcG9lEeCJFoHdlpPovQ" name="review_change_request" guid="_xX4XcG9lEeCJFoHdlpPovQ" presentationName="Review Change Request" briefDescription="This task defines how to perform change request triage." superActivities="_SFNoAWw_EeCcMLi_sG6TzQ" linkToPredecessor="_ITpIkW9mEeCJFoHdlpPovQ" mandatoryInput="_vn0vEG9lEeCJFoHdlpPovQ" output="_vn0vEG9lEeCJFoHdlpPovQ">
+      <presentation xmi:id="-drN3bZvU2OQZFosECH47aQ" href="uma://-v2II3uX4S-fRIS-sHYdwrQ#-drN3bZvU2OQZFosECH47aQ"/>
+      <guidelines href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_W4Qm4C2UEd2K9MXQfaLjRA"/>
+      <toolmentor href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_0rHkAEexEd2bv8iUEQS2Gw"/>
+      <Task href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_903dQBB7Ed2I6q7URP7I2A"/>
+      <selectedSteps href="uma://-Yh6yVcUpsm-V5Pv7zBdVRQ#_xYINYC2TEd2K9MXQfaLjRA"/>
+      <selectedSteps href="uma://-Yh6yVcUpsm-V5Pv7zBdVRQ#_8NOusC2TEd2K9MXQfaLjRA"/>
+      <selectedSteps href="uma://-Yh6yVcUpsm-V5Pv7zBdVRQ#_D5AuoC2UEd2K9MXQfaLjRA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_1wLNYG9lEeCJFoHdlpPovQ" name="assign_change_request" guid="_1wLNYG9lEeCJFoHdlpPovQ" presentationName="Assign Change Request" briefDescription="This task assigns a reviewed change request to an individual for implementation in a specified iteration." superActivities="_SFNoAWw_EeCcMLi_sG6TzQ" linkToPredecessor="_I9hMAW9mEeCJFoHdlpPovQ" mandatoryInput="_vn0vEG9lEeCJFoHdlpPovQ" output="_vn0vEG9lEeCJFoHdlpPovQ">
+      <presentation xmi:id="-YfHbWQwXmU5RcozU6NBRvw" href="uma://-v2II3uX4S-fRIS-sHYdwrQ#-YfHbWQwXmU5RcozU6NBRvw"/>
+      <toolmentor href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_-eNrMEewEd2bv8iUEQS2Gw"/>
+      <Task href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_E8zJQBB8Ed2I6q7URP7I2A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_3CkpYG9lEeCJFoHdlpPovQ" name="resolve_change_request" guid="_3CkpYG9lEeCJFoHdlpPovQ" presentationName="Resolve Change Request" briefDescription="This task indicates that a change has been implemented as requested and is ready for verification." superActivities="_SFNoAWw_EeCcMLi_sG6TzQ" linkToPredecessor="_Jkj94W9mEeCJFoHdlpPovQ" mandatoryInput="_vn0vEG9lEeCJFoHdlpPovQ" output="_vn0vEG9lEeCJFoHdlpPovQ">
+      <presentation xmi:id="-xu_RNkzbY0tfbwIu7By9cA" href="uma://-v2II3uX4S-fRIS-sHYdwrQ#-xu_RNkzbY0tfbwIu7By9cA"/>
+      <guidelines href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_ibjZAC2WEd2K9MXQfaLjRA"/>
+      <toolmentor href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_vQoRQEexEd2bv8iUEQS2Gw"/>
+      <Task href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#__NjaMC2VEd2K9MXQfaLjRA"/>
+      <selectedSteps href="uma://-Py-LUEXKGYvxaucN_FjCbQ#_L6VO0C2WEd2K9MXQfaLjRA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_3p6WMG9lEeCJFoHdlpPovQ" name="verify_change_request" guid="_3p6WMG9lEeCJFoHdlpPovQ" presentationName="Verify Change Request" briefDescription="This task ensures that a change has been implemented as requested." superActivities="_SFNoAWw_EeCcMLi_sG6TzQ" linkToPredecessor="_KCqPIW9mEeCJFoHdlpPovQ" mandatoryInput="_vn0vEG9lEeCJFoHdlpPovQ" output="_vn0vEG9lEeCJFoHdlpPovQ">
+      <presentation xmi:id="-ywS4u8oy8i9nVT-meeEY7g" href="uma://-v2II3uX4S-fRIS-sHYdwrQ#-ywS4u8oy8i9nVT-meeEY7g"/>
+      <guidelines href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_KSfRwC5bEd2qsqGjg9v4qQ"/>
+      <toolmentor href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_5qEKQEexEd2bv8iUEQS2Gw"/>
+      <Task href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_BUvdcBB8Ed2I6q7URP7I2A"/>
+      <selectedSteps href="uma://-C63rhQPc-a7Ai-tKjMsAcw#_uASyEC2XEd2K9MXQfaLjRA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4Yjk4G9lEeCJFoHdlpPovQ" name="close_change_request" guid="_4Yjk4G9lEeCJFoHdlpPovQ" presentationName="Close Change Request" briefDescription="This task closes a verified change request." superActivities="_SFNoAWw_EeCcMLi_sG6TzQ" linkToPredecessor="_KtIIcW9mEeCJFoHdlpPovQ" mandatoryInput="_vn0vEG9lEeCJFoHdlpPovQ" output="_vn0vEG9lEeCJFoHdlpPovQ">
+      <toolmentor href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_e4tnoEexEd2bv8iUEQS2Gw"/>
+      <Task href="uma://_0Vy4AAsbEd23PPGeaAmo8Q#_ajSZAC5WEd2qsqGjg9v4qQ"/>
+      <selectedSteps href="uma://-OBRJVAEmYQ-YkTsJ58Ed5g#_iNuVIC5WEd2qsqGjg9v4qQ"/>
+      <selectedSteps href="uma://-OBRJVAEmYQ-YkTsJ58Ed5g#_54YzoC5WEd2qsqGjg9v4qQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_ITpIkW9mEeCJFoHdlpPovQ" guid="_ITpIkW9mEeCJFoHdlpPovQ" pred="_vnq-EG9lEeCJFoHdlpPovQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_I9hMAW9mEeCJFoHdlpPovQ" guid="_I9hMAW9mEeCJFoHdlpPovQ" pred="_xX4XcG9lEeCJFoHdlpPovQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Jkj94W9mEeCJFoHdlpPovQ" guid="_Jkj94W9mEeCJFoHdlpPovQ" pred="_1wLNYG9lEeCJFoHdlpPovQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_KCqPIW9mEeCJFoHdlpPovQ" guid="_KCqPIW9mEeCJFoHdlpPovQ" pred="_3CkpYG9lEeCJFoHdlpPovQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_KtIIcW9mEeCJFoHdlpPovQ" guid="_KtIIcW9mEeCJFoHdlpPovQ" pred="_3p6WMG9lEeCJFoHdlpPovQ"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_SFNoAWw_EeCcMLi_sG6TzQ" name="manage_change" guid="_SFNoAWw_EeCcMLi_sG6TzQ" presentationName="Manage Change" breakdownElements="_vnq-EG9lEeCJFoHdlpPovQ _vn0vEG9lEeCJFoHdlpPovQ _xX4XcG9lEeCJFoHdlpPovQ _1wLNYG9lEeCJFoHdlpPovQ _3CkpYG9lEeCJFoHdlpPovQ _3p6WMG9lEeCJFoHdlpPovQ _4Yjk4G9lEeCJFoHdlpPovQ">
+      <presentation xmi:id="-19daaS9uUKoqBSOSLF8Wdw" href="uma://-v2II3uX4S-fRIS-sHYdwrQ#-19daaS9uUKoqBSOSLF8Wdw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

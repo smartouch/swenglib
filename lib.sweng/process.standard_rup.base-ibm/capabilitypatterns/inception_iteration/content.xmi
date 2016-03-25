@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-Yz_8p-yn17xP6bD5_3gF5Q" name="inception-phase,_o3nZoSFrEdqrX8YVzvtlIg" guid="-Yz_8p-yn17xP6bD5_3gF5Q" version="7.1.0">
+    <usageNotes>&lt;p>&#xD;
+    This capability pattern can be used to quickly construct an Inception phase iteration in a delivery process.&amp;nbsp; Copy&#xD;
+    or extend the pattern&amp;nbsp;repeatedly to create as many iterations as necessary for the particular delivery&#xD;
+    process.&amp;nbsp; Make sure to copy or extend the entire pattern, so you will also get the activity diagram for the&#xD;
+    iteration.&#xD;
+&lt;/p></usageNotes>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-NnxL7USFNmhlplb5FTV5Ig" name="define_the_business,_eFd3QDBxEd-euNqwA-cLCA" guid="-NnxL7USFNmhlplb5FTV5Ig">
+    <keyConsiderations>&lt;p>&#xD;
+    Creating business use cases&amp;nbsp;is very similar to creating system use cases. If you've never created business use&#xD;
+    cases, you can leverage the skills of an analyst who has written use cases for software systems to help define the use&#xD;
+    case model.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    Define the boundary and interactions of the business by utilizing use cases to describe a &quot;black box&quot; view of the&#xD;
+    business. Understand the organization at a high-level so that the initial scope of business definition or refactoring&#xD;
+    can be determined.&amp;nbsp;Further analysis will be performed to detail these descriptions.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;em>Portions of this task are from the &lt;a href=&quot;http://www.eclipse.org/epf&quot; target=&quot;_blank&quot;>Eclipse Process&#xD;
+    Framework&lt;/a> 1.5, made available under the&lt;/em> &lt;a href=&quot;http://www.eclipse.org/org/documents/epl-v10.php&quot;&#xD;
+    target=&quot;_blank&quot;>&lt;em>Eclipse Public License V1.0&lt;/em>&lt;/a>&lt;em>.&lt;/em>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jyH7W5OPpTULMhC3EhVuNA" name="business_analyst,_eFd3QTBxEd-euNqwA-cLCA" guid="-jyH7W5OPpTULMhC3EhVuNA">
+    <refinedDescription>A Business Analyst is an individual within an organization who defines, manages, or monitors Business Processes. They are&#xD;
+usually distinguished from the IT Specialist or programmers who implement the Business Process.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dI7Oqx_SIN5OUikSXr-jZA" name="business_use-case_model,_eFnBMTBxEd-euNqwA-cLCA" guid="-dI7Oqx_SIN5OUikSXr-jZA">
+    <keyConsiderations>&lt;p>&#xD;
+    The Business Use Case Model is used by stakeholders and&amp;nbsp;business analysts to understand and improve the way the&#xD;
+    business interacts with its environment, and by systems analysts and software architects to provide context for&#xD;
+    software development. The project manager uses this artifact to plan the content of iterations during business modeling&#xD;
+    and track progress.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    If the purpose of the business modeling effort is to re-engineer the target organization, consider maintaining two&#xD;
+    variants of the Business Use-Case Model: one that shows the business actors and business use cases of the current&#xD;
+    organization (sometimes called &quot;as-is&quot;), and one that shows the target organization with new business actors and&#xD;
+    business use cases (&quot;to-be&quot;).&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If you are considering a significant redesign of the way the target organization works (business re-engineering), this&#xD;
+    separation is needed otherwise the redesign will be developed without knowing&amp;nbsp; what the proposed changes really&#xD;
+    are at the end, and you will not be able to estimate the effects or costs of those changes. It is like an architect who&#xD;
+    is asked to draw up plans for changing a townhouse into three flats, without having an as-is blueprint from which to&#xD;
+    work.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The cost of maintaining two Business Use-Case Models is not insignificant, and carefully consider how much effort you&#xD;
+    put into a current model. Typically, you would not do more than identify and briefly describe the business use cases*&#xD;
+    and business actors. You would also briefly outline the business use cases you determine are key to the effort,&#xD;
+    possibly illustrating this with a simple activity diagram. The level of detail you choose aims at providing a shared&#xD;
+    understanding of the target organization.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You would not need this separation in the following situations:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        there is no &quot;new&quot; organization (the goal is to document an existing organization)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        there is no existing organization* (business creation)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Business actors in the use-case model are used by:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>business analysts&lt;/b>, to define the boundaries of the organization and describe the interactions between actors&#xD;
+        and business use cases&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>user-interface designers&lt;/b>, as input to capturing characteristics on human actors in the a system&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>system analysts&lt;/b>, as input to finding system actors&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    &lt;em>*Note: when modeling an existing organization to create an as-is model, you need to do little more than create the&#xD;
+    brief descriptions of business use cases, business actors and key business events and associate these with the existing&#xD;
+    business goals because you can move more directly to capturing actual current business processes that realize these&#xD;
+    business use cases. The current business use cases serve as anchors to explain the purpose of the current business&#xD;
+    processes. When the purpose is business creation, the new business use cases are &lt;strong>specifications&lt;/strong> for&#xD;
+    achievement of the business goals, for a business that does not yet exist. Consequently, they will need much more&#xD;
+    detail.&lt;/em>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-nhrHButF8xfpHQxfKDcSvg" name="business_use_case,_eFnBMzBxEd-euNqwA-cLCA" guid="-nhrHButF8xfpHQxfKDcSvg">
+    <refinedDescription>&lt;p>&#xD;
+    A Business Use Case is an account of a pattern of use&amp;nbsp;in a business, and the effect that use has on the&#xD;
+    environment (represented by business actors) and on the business itself. The pattern of use can change the way the&#xD;
+    business responds to future events or interactions.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Business Use Cases are useful for any organization that wants to know what value the business provides and how it&#xD;
+    interacts with its environment. Stakeholders and&amp;nbsp;business analysts use Business Use Cases to describe business&#xD;
+    processes and to understand the effect of any proposed changes (for example, a merger or a first CRM implementation) on&#xD;
+    the way the business works. Business Use Cases are also used by system analysts and software architects to understand&#xD;
+    the way a software system fits into the organization. Test managers use Business Use Cases to provide context for&#xD;
+    developing test scenarios for software systems. Project managers use Business Use Cases for planning the content of&#xD;
+    business-modeling iterations and tracking progress.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Business Use Case describes a business process from an external, value-added point of view. Business Use Cases are&#xD;
+    business processes that cut across organization boundaries, possibly including partners and suppliers, in order to&#xD;
+    provide value to a stakeholder of the business. A Business Use Case is a process-oriented specification of business&#xD;
+    behavior in response to the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        interaction between business and business actors&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        significant business events&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-a7jEW17ZdFG5Y_A6QbMuHw" name="develop_domain_model,_oQqoEyZVEd-Hb5ChSoDHIA" guid="-a7jEW17ZdFG5Y_A6QbMuHw">
+    <mainDescription>&lt;p>&#xD;
+    You can choose to develop a standalone subset of the business analysis model that focuses on explaining products,&#xD;
+    deliverables, or events that are important to the business domain. Such a model describes only the significant&#xD;
+    information in the business and does not include the responsibilities that people carry.&amp;nbsp; Such a model is often&#xD;
+    referred to as a domain model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The purpose of this activity&amp;nbsp;is to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identify all products and deliverables important to the business domain.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Detail the business entities.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Provide a common understanding of the concepts found in the business operations and environment.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In this&amp;nbsp;activity,&amp;nbsp;business entities are identified and described. Each business entity, as well as any terms&#xD;
+    and definitions used, must be documented in the business glossary.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Most business rules discovered here will be structural constraints and can be captured as business rules directly in the&#xD;
+    model (business analysis model or domain model). Other business rules, such as computations, must be described in a&#xD;
+    document.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When performing this activity, it is essential to review the business entities and obtain a common understanding.&#xD;
+    Failure to do this often defeats the purpose of performing domain modeling in the first place!&#xD;
+&lt;/p></mainDescription>
+    <purpose>The purpose of this activity&amp;nbsp;is to develop a Domain Model - a standalone subset of the Business Analysis Model that&#xD;
+focuses on concepts, products, deliverables, and events that are important to the business domain.</purpose>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9iCbRKIMGdiBCrTa9q6B1g" name="define_the_business,_A-elkOcjEeG-FbQ5HYlurg" guid="-9iCbRKIMGdiBCrTa9q6B1g">
+    <keyConsiderations>&lt;p>&#xD;
+    Creating business use cases&amp;nbsp;is very similar to creating system use cases. If you've never created business use&#xD;
+    cases, you can leverage the skills of an analyst who has written use cases for software systems to help define the use&#xD;
+    case model.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    Define the boundary and interactions of the business by utilizing use cases to describe a &quot;black box&quot; view of the&#xD;
+    business. Understand the organization at a high-level so that the initial scope of business definition or refactoring&#xD;
+    can be determined.&amp;nbsp;Further analysis will be performed to detail these descriptions.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;em>Portions of this task are from the &lt;a href=&quot;http://www.eclipse.org/epf&quot; target=&quot;_blank&quot;>Eclipse Process&#xD;
+    Framework&lt;/a> 1.5, made available under the&lt;/em> &lt;a href=&quot;http://www.eclipse.org/org/documents/epl-v10.php&quot;&#xD;
+    target=&quot;_blank&quot;>&lt;em>Eclipse Public License V1.0&lt;/em>&lt;/a>&lt;em>.&lt;/em>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-DJS-nkKWBSGsY7tfgHzrGw" name="business_use-case_model,_A-fMoucjEeG-FbQ5HYlurg" guid="-DJS-nkKWBSGsY7tfgHzrGw">
+    <keyConsiderations>&lt;p>&#xD;
+    The Business Use Case Model is used by stakeholders and&amp;nbsp;business analysts to understand and improve the way the&#xD;
+    business interacts with its environment, and by systems analysts and software architects to provide context for&#xD;
+    software development. The project manager uses this artifact to plan the content of iterations during business modeling&#xD;
+    and track progress.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    If the purpose of the business modeling effort is to re-engineer the target organization, consider maintaining two&#xD;
+    variants of the Business Use-Case Model: one that shows the business actors and business use cases of the current&#xD;
+    organization (sometimes called &quot;as-is&quot;), and one that shows the target organization with new business actors and&#xD;
+    business use cases (&quot;to-be&quot;).&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If you are considering a significant redesign of the way the target organization works (business re-engineering), this&#xD;
+    separation is needed otherwise the redesign will be developed without knowing&amp;nbsp; what the proposed changes really&#xD;
+    are at the end, and you will not be able to estimate the effects or costs of those changes. It is like an architect who&#xD;
+    is asked to draw up plans for changing a townhouse into three flats, without having an as-is blueprint from which to&#xD;
+    work.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The cost of maintaining two Business Use-Case Models is not insignificant, and carefully consider how much effort you&#xD;
+    put into a current model. Typically, you would not do more than identify and briefly describe the business use cases*&#xD;
+    and business actors. You would also briefly outline the business use cases you determine are key to the effort,&#xD;
+    possibly illustrating this with a simple activity diagram. The level of detail you choose aims at providing a shared&#xD;
+    understanding of the target organization.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You would not need this separation in the following situations:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        there is no &quot;new&quot; organization (the goal is to document an existing organization)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        there is no existing organization* (business creation)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Business actors in the use-case model are used by:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;b>business analysts&lt;/b>, to define the boundaries of the organization and describe the interactions between actors&#xD;
+        and business use cases&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>user-interface designers&lt;/b>, as input to capturing characteristics on human actors in the a system&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;b>system analysts&lt;/b>, as input to finding system actors&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    &lt;em>*Note: when modeling an existing organization to create an as-is model, you need to do little more than create the&#xD;
+    brief descriptions of business use cases, business actors and key business events and associate these with the existing&#xD;
+    business goals because you can move more directly to capturing actual current business processes that realize these&#xD;
+    business use cases. The current business use cases serve as anchors to explain the purpose of the current business&#xD;
+    processes. When the purpose is business creation, the new business use cases are &lt;strong>specifications&lt;/strong> for&#xD;
+    achievement of the business goals, for a business that does not yet exist. Consequently, they will need much more&#xD;
+    detail.&lt;/em>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IfHiWRLnX2aLM6SCMsrAOw" name="business_use_case,_A-fMpucjEeG-FbQ5HYlurg" guid="-IfHiWRLnX2aLM6SCMsrAOw">
+    <refinedDescription>&lt;p>&#xD;
+    A Business Use Case is an account of a pattern of use&amp;nbsp;in a business, and the effect that use has on the&#xD;
+    environment (represented by business actors) and on the business itself. The pattern of use can change the way the&#xD;
+    business responds to future events or interactions.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Business Use Cases are useful for any organization that wants to know what value the business provides and how it&#xD;
+    interacts with its environment. Stakeholders and&amp;nbsp;business analysts use Business Use Cases to describe business&#xD;
+    processes and to understand the effect of any proposed changes (for example, a merger or a first CRM implementation) on&#xD;
+    the way the business works. Business Use Cases are also used by system analysts and software architects to understand&#xD;
+    the way a software system fits into the organization. Test managers use Business Use Cases to provide context for&#xD;
+    developing test scenarios for software systems. Project managers use Business Use Cases for planning the content of&#xD;
+    business-modeling iterations and tracking progress.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A Business Use Case describes a business process from an external, value-added point of view. Business Use Cases are&#xD;
+    business processes that cut across organization boundaries, possibly including partners and suppliers, in order to&#xD;
+    provide value to a stakeholder of the business. A Business Use Case is a process-oriented specification of business&#xD;
+    behavior in response to the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        interaction between business and business actors&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        significant business events&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bpfzxNZZiNnrPqOEWRqMRA" name="model_the_business,_Bd-lAOcjEeG-FbQ5HYlurg" guid="-bpfzxNZZiNnrPqOEWRqMRA">
+    <refinedDescription>&lt;p>&#xD;
+    Business model elements (business components, services, &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.bus.common.extend_supp-ibm/guidances/concepts/business_worker_54116484.html&quot;&#xD;
+    guid=&quot;__uNa8VoGEd6Gvq_dRUXeQw&quot;>workers&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/concepts/business_entity_49738474.html&quot;&#xD;
+    guid=&quot;__uNa8FoGEd6Gvq_dRUXeQw&quot;>entities&lt;/a>, etc)&amp;nbsp;and relationships are defined from a global perspective, taking&#xD;
+    into account external constraints (business architecture) and internal interactions (operations and behaviors).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Changing a single behavior in the business can affect the structure of the business at a global level. New or changed&#xD;
+    relationships and operations are often introduced when a specific behavior is defined within the business.&amp;nbsp;It's&#xD;
+    possible for inappropriate relationships or undesirable operations to be introduced. These need to be corrected while&#xD;
+    allowing the business to perform the desired behavior. It's likely that relationships need to be evaluated and refined&#xD;
+    to accommodate the new behavior. For instance, multiplicity or the direction of the associations might need to be&#xD;
+    adjusted.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Operations also need to be normalized across the entire model. Look for operations that are redundant or entities that&#xD;
+    have similar descriptions or purpose. Refactor operations and entities to reduce redundancy, and illegal or&#xD;
+    contradictory behavior.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vssxZ9bG5zYFOrPEY8R7nQ" name="business_model,_Bd-lA-cjEeG-FbQ5HYlurg" guid="-vssxZ9bG5zYFOrPEY8R7nQ">
+    <keyConsiderations>&lt;p>&#xD;
+    Early design work generally begins with analysis and is abstract.&amp;nbsp;This&amp;nbsp;analysis model is transformed into a&#xD;
+    design model as abstract elements become more concrete.&amp;nbsp; For example the initial Business Workers can be&#xD;
+    mapped&amp;nbsp;or&amp;nbsp;refined into human workers or automated systems.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Business model captures both the analysis work and the design work.&amp;nbsp; This work can be captured in two separate&#xD;
+    business models - the Business Analysis Model and the Business Design Model.&amp;nbsp;In larger efforts there can be&#xD;
+    aspects of the business&amp;nbsp;that are still under analysis while others are being designed.&amp;nbsp; In this case the&#xD;
+    business model contains both analysis and design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/guidelines/maintain_business_analysis_and_design_models_552A7D39.html&quot;&#xD;
+     guid=&quot;_qseuQHY5Ed6zBtz8XXd6AQ&quot;>Guideline: Maintain Business Analysis and Design Models&lt;/a>&amp;nbsp;if you're considering&#xD;
+    maintaining analysis and design models side-by-side.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>This artifact defines the services offered by the business in terms of interfaces and operations, the information that is&#xD;
+passed around (business entities), the internal business structures (that is,&amp;nbsp;organization and business workers), and&#xD;
+how they collaborate to realize the external behavior described in the business use cases. &#xD;
+&lt;p>&#xD;
+    This Business Model is used by stakeholders and business analysts to understand how the&amp;nbsp;business currently works&#xD;
+    (in as-is form), and to analyze the effect of changes to the business (in to-be form).&amp;nbsp; The business analyst is&#xD;
+    responsible for the structure and integrity of the model along with detailing the elements within the model.&amp;nbsp; The&#xD;
+    model is also used by systems analysts for deriving system&amp;nbsp;requirements based on how automated systems - that is&#xD;
+    automated business workers (usually software-intensive) - will be used as part of the business process.&amp;nbsp; Software&#xD;
+    architects use the model to define a software architecture that fits the organization seamlessly and to identify&#xD;
+    classes in software analysis and design models.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JQY9yPhgHEXc_EPTRsb2aw" name="business_analysis_model,_BeKLMecjEeG-FbQ5HYlurg" guid="-JQY9yPhgHEXc_EPTRsb2aw">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;abstractly defines the business offerings, the internal business workers, the information they use&#xD;
+    (the business entities),&amp;nbsp;and the structure of the organization. It also defines how these elements interact to&#xD;
+    realize the behavior described in the business requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The internal structure and interaction of the business can be described&amp;nbsp;without&amp;nbsp;necessarily prescribing&#xD;
+    design choices for business workers and business entities in terms of role bindings (to human workers or automated&#xD;
+    systems). That is the purpose of the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/workproducts/business_design_model_FEA991D8.html&quot;&#xD;
+    guid=&quot;_tOPC8FqmEd6cz7WWjCrtdA&quot;>Business Design Model&lt;/a>, into which the Business Analysis Model evolves, as automation&#xD;
+    and refactoring options are explored.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Stakeholders and business&amp;nbsp;analysts use this artifact&amp;nbsp;to understand how the business currently works (in as-is&#xD;
+    form), and to analyze the effect of changes to the business (in to-be form). The business analyst is responsible for&#xD;
+    the structure and integrity of the model as well as&amp;nbsp;for detailing elements within the model.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KB-YplpJzv3ETQNAONLX2g" name="business_design_model,_BeKLNOcjEeG-FbQ5HYlurg" guid="-KB-YplpJzv3ETQNAONLX2g">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact concretely&amp;nbsp;defines the services offered by the business in terms of interfaces and operations, the&#xD;
+    information that is passed around (business entities), the internal business structures (that is,&amp;nbsp;organization and&#xD;
+    business workers), and how they collaborate to realize the external behavior described in the business use cases.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is the place where all the design decisions are captured.&amp;nbsp; The &quot;more abstract&quot; elements from the Business&#xD;
+    Analysis Model evolve into &quot;more concrete&quot; elements that take into account constraints an details like the business&#xD;
+    environment, organizational capabilities, etc.&amp;nbsp; For example, the initial Business Workers are mapped or realized&#xD;
+    into human workers or automated systems and services.&amp;nbsp; In most of the cases the Business Analysis Model evolves&#xD;
+    into a Business Design Model as more concrete decisions are made.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This Business Model is used by stakeholders and business analysts to understand how the&amp;nbsp;business currently works&#xD;
+    (in as-is form), and to analyze the effect of changes to the business(in to-be form).&amp;nbsp; The business analyst is&#xD;
+    responsible for the structure and integrity of the model along with detailing the elements within the model.&amp;nbsp; The&#xD;
+    model is also used by systems analysts for deriving system&amp;nbsp;requirements based on how automated systems - usually&#xD;
+    software-intensive automated business workers - will be used as part of the business process.&amp;nbsp; Software architects&#xD;
+    use the model to define a software architecture that fits the organization seamlessly and to identify classes in&#xD;
+    software analysis and design models.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Kt3_oJ5Wnc1pwFvnFdUD3Q" name="model_a_scenario,_DsoN4OcjEeG-FbQ5HYlurg" guid="-Kt3_oJ5Wnc1pwFvnFdUD3Q">
+    <refinedDescription>&lt;p>&#xD;
+    Create representations (operations and ordering) of the behavior the business needs to perform in order to fulfill&#xD;
+    specific scenarios described in the business use cases. This is represented by business elements such as business&#xD;
+    components or areas, services, &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.bus.common.extend_supp-ibm/guidances/concepts/business_worker_54116484.html&quot;&#xD;
+    guid=&quot;__uNa8VoGEd6Gvq_dRUXeQw&quot;>workers&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/concepts/business_entity_49738474.html&quot;&#xD;
+    guid=&quot;__uNa8FoGEd6Gvq_dRUXeQw&quot;>entities&lt;/a>, etc. These white-box or internal descriptions of the business are&#xD;
+    organized as use-case realizations; each use case has a corresponding realization where all the white-box descriptions&#xD;
+    of the scenarios are maintained. This makes it easier to organize and understand how the business must operate in order&#xD;
+    to fulfill the behavior described in the business use cases.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The result of this task is a set of business descriptions that can be used for business re-engineering and the&#xD;
+    identification of system services for automation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Diagrams and elements from the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/whitepapers/rational_uml_profile_for_business_modeling_8DF6A099.html&quot;&#xD;
+     guid=&quot;_4d1TwGzBEd6mWPPjpApyKw&quot;>Rational UML Profile for Business Modeling&lt;/a> are used to describe the internal&#xD;
+    working of the business.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/whitepapers/effective_business_modeling_with_uml_AA2C7A4D.html&quot;&#xD;
+     guid=&quot;_qfXDIFn8Ed6Gvq_dRUXeQw&quot;>Whitepaper: Effective Business Modeling with UML: Describing Business Use Cases and&#xD;
+    Realizations&lt;/a>&amp;nbsp;for more detail on how to create business use case realizations.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8xRtO3C3OTfKtoAL7xKxWQ" name="describe_the_business,_GtPfMOcjEeG-FbQ5HYlurg" guid="-8xRtO3C3OTfKtoAL7xKxWQ">
+    <keyConsiderations>&lt;p>&#xD;
+    Only detail the use-case scenarios that are scheduled for system development or business refactoring in the near term&#xD;
+    (in the next iteration or two). This&amp;nbsp;helps avoid unnecessary rework.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Not all use-case scenarios require detailing. Focus on those that are unclear, critical, high risk, or are required to&#xD;
+    fully communicate the scenario to the skill level of the consumer of the use case.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    &lt;em>Portions of this task are from the &lt;a href=&quot;http://www.eclipse.org/epf&quot; target=&quot;_blank&quot;>Eclipse Process&#xD;
+    Framework&lt;/a> 1.5, made available under the&lt;/em> &lt;a href=&quot;http://www.eclipse.org/org/documents/epl-v10.php&quot;&#xD;
+    target=&quot;_blank&quot;>&lt;em>Eclipse Public License V1.0&lt;/em>&lt;/a>&lt;em>.&lt;/em>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

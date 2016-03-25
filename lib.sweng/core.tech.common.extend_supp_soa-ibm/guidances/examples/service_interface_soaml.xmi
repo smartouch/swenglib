@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-2nBhNF0qg8dClxHuxINBgQ" name="service_interface_soaml,_dmG_MFbPEd6MCpkuB85p5g" guid="-2nBhNF0qg8dClxHuxINBgQ" changeDate="2009-10-29T09:01:49.109-0700" version="7.5.0">
+  <copyrightStatement href="uma://_4eYbIEcWEd6GBq2DuQ5crg#_cg5P8Lg9Ed6PrITAH4wF_w"/>
+  <mainDescription>&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>Figure 1 presents an example of a simple Interface that can be used to type a Service or Request. This&#xD;
+    is a common case where there is no required interface and no protocol. Using an Interface as type for a Service point&#xD;
+    or Request point is similar to using a WSDL PortType or Java interface as the type of an SCA component's service or&#xD;
+    reference.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 1.&amp;nbsp; A simple UML Interface&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&lt;img height=&quot;77&quot; alt=&quot;&quot; src=&quot;./resources/service_interface_example_1.gif&quot; width=&quot;237&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Figure 2 shows&amp;nbsp;a more complex ServiceInterface that does involve bi-directional&#xD;
+    interactions between the parties modeled as provided and required interfaces and a protocol for using the service&#xD;
+    capabilities. As specified by UML2, Invoicing is the provided interface as derived from the interface realization.&#xD;
+    InvoiceProcessing is the required interface as derived from the usage dependency.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>The invoicing and orderer parts of the ServiceInterface represent the consumer and&#xD;
+    provider of the service. That is, they represent the Service and Request ports at the endpoints of a ServiceChannel&#xD;
+    when the service provider is connected to a consumer. These parts are used in the protocol to capture the expected&#xD;
+    interchange between the consumer and provider.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>The protocol for using the capabilities of a service, and for responding to its needs is&#xD;
+    captured in an ownedBehavior of the ServiceInterface. The invoicingService Activity models the protocol for the&#xD;
+    InvoicingService. From the protocol we can see that initiatePriceCalculation must be invoked on the invoicing part&#xD;
+    followed by completePriceCalculation. Once the price calculation has been completed, the consumer must be prepared to&#xD;
+    respond to processInvoice. It is clear which part represents the consumer and provider by their types. The providing&#xD;
+    part is typed by the provided interface while the consuming part is typed by the required interface.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 2.&amp;nbsp; A complex ServiceInterface, involving collaboration between provider and consumer&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp; &lt;img height=&quot;420&quot; alt=&quot;&quot; src=&quot;./resources/service_interface_example_2.jpg&quot; width=&quot;591&quot; />&amp;nbsp;&lt;font     size=&quot;2&quot;>&amp;nbsp;&lt;/font>&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

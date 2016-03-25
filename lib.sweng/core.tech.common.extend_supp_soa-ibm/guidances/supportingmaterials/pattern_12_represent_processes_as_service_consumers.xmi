@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="---WlpLRn3fHLx5Prk0RmNQ" name="new_concept,_y0mr0H8UEd6EC8v3b_fCaQ" guid="---WlpLRn3fHLx5Prk0RmNQ" changeDate="2009-09-23T21:37:56.218-0700" version="7.5.0">
+  <mainDescription>&lt;h3>&#xD;
+    Context&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Many &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/termdefinitions/service_oriented_solution.supp_soa_B0376546.html&quot; guid=&quot;_Frp-0IROEd6jqtIeWlQI8A&quot;>service-oriented solutions&lt;/a> can be driven&amp;nbsp;effectively&amp;nbsp;using process&#xD;
+    execution engines.&amp;nbsp; Increasingly, these process servers execute&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.bus.common.extend-ibm/guidances/termdefinitions/bpel_E0043DD7.html&quot; guid=&quot;_uv8g0IhaEd6oeZacNg1BdA&quot;>BPEL (Web Services Business Process Definition Language)&lt;/a>&amp;nbsp;to&amp;nbsp;choreograph&#xD;
+    the interactions between the services.&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The two upper layers of the &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/soa_solution_stack_1DD21069.html&quot; guid=&quot;_PlxhEGWuEd6Zd-lbA790BQ&quot;>SOA Solution Stack&lt;/a>&amp;nbsp;reference architecture relate to business processes and&#xD;
+    consumers of business processes.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Problem&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Without guidance, it is possible to overuse the capabilities of the process server engines in situations where&#xD;
+    lower-level languages, such as Java, are better technical choices for driving service interactions.&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Forces&#xD;
+&lt;/h3>Overusing&amp;nbsp;BPEL-based choreography&amp;nbsp;can lead to reduced application performance and cause future architectural&#xD;
+problems (see &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/supportingmaterials/pattern_01_factor_composition_logic_away_from_process_logic_1D858B2C.html&quot; guid=&quot;_N-cVwHhYEd63Mo-f0bVh9w&quot;>Pattern 01: Factor Composition Logic Away from Process Logic&lt;/a>). &lt;br />&#xD;
+&lt;h3>&#xD;
+    &lt;br />&#xD;
+    Solution&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    In the general case, use&amp;nbsp;a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/termdefinitions/service_consumer_91384414.html&quot; guid=&quot;_HDs9YIQuEd6VVeXj3w86dA&quot;>service consumer&lt;/a>&amp;nbsp;to serve as a proxy for an executable business process that&#xD;
+    calls upon the services provided by a defined set of &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>Participants&lt;/a>.&amp;nbsp; This proxy&amp;nbsp;is allocated to the Business Process layer of&#xD;
+    the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/soa_solution_stack_1DD21069.html&quot; guid=&quot;_PlxhEGWuEd6Zd-lbA790BQ&quot;>SOA Solution Stack&lt;/a>.&amp;nbsp; Limit the usage of BPEL implementations of process flow&#xD;
+    logic to implementations of such proxies.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    These business process proxies subsequently can be called&amp;nbsp;by model elements that represent things&#xD;
+    which&amp;nbsp;trigger business process execution.&amp;nbsp;&amp;nbsp;Examples&amp;nbsp;include model elements that represent GUIs or&#xD;
+    the workflow infrastructure&amp;nbsp;(because a previous task has completed and a new one is starting).&amp;nbsp; Such elements&#xD;
+    would be located in the Consumer layer of the SOA Solution Stack.&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Rationale&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Having a clear guideline for where in your architecture BPEL implemented process logic&amp;nbsp;lives prevents the usage of&#xD;
+    BPEL in inappropriate places:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Prevent BPEL from being used to implement logic that is best implemented in Java language.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Prevent process logic being introduced somewhere inappropriate in the architecture. It needs to&amp;nbsp;be driving the&#xD;
+        software, and therefore it needs to appear in the upper layers of your architecture.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-shykpycP90dn7DKiMG5jXA" name="new_concept,_zfz4kGpmEd6g0_jzBUWUGg" guid="-shykpycP90dn7DKiMG5jXA" changeDate="2009-08-16T13:13:11.515-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Once business services are allocated to a &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.bus.common.extend-ibm/guidances/concepts/functional_area_analysis_9B1F96D5.html&quot; guid=&quot;_fk1woEo1Ed6D_7XK49c0nw&quot;>functional area&lt;/a>, it is helpful to group them to reflect affinity between&#xD;
+    functions.&amp;nbsp; This grouping can facilitate subsequent mapping into the IT domain.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Two common aggregation approaches are (1) business subsystems and (2) business service interfaces.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A business subsystem (or, simply, &quot;subsystem&quot;) is a conceptual aggregation of cohesive functionality within a business&#xD;
+    functional area.&amp;nbsp; It is &quot;owned&quot; by the functional area, as a sub-component.&amp;nbsp; The UML representation would be&#xD;
+    a stereotyped component&amp;nbsp;which exposes an interface that aggregates the appropriate business services.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An alternative approach is to aggregate the related business functions&amp;nbsp;using business service interfaces&amp;nbsp;that&#xD;
+    are exposed by the functional area, itself.&amp;nbsp; If one wishes to show further internals of the functional area, it is&#xD;
+    straightforward to create the internal business subsystems and delegate behavior from the functional area's service&#xD;
+    point to a service point on the business subsystem.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The aggregational approach that is used does not have significant impact on subsequent activities related to mapping&#xD;
+    between business functions and IT.&amp;nbsp; In one case, a conceptual IT subsystem will be mapped to a business&#xD;
+    subsystem.&amp;nbsp; In another case, a conceptual IT subsystem will be mapped to a business service interface.&amp;nbsp; In&#xD;
+    either approach, we bridge between business (as defined by functional areas) and IT (as realized by service&#xD;
+    components).&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

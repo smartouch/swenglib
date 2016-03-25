@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-HVnCVNwd0E6axqJxNVN2Hg" name="pattern_1_factor_composition_logic_away_from_process_logic,_ntS8wHhcEd63Mo-f0bVh9w" guid="-HVnCVNwd0E6axqJxNVN2Hg" changeDate="2009-09-18T21:45:07.296-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    In this example, we see the Activity diagram for a service operation, processPurchaseOrder, which is the entry point&#xD;
+    for a&amp;nbsp;Purchase Order Process business process (see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_composition_and_choreography_67057C86.html&quot; guid=&quot;_yAh28IA6Ed6H1oy6lZPykw&quot;>Concept: Service Composition and Choreography&lt;/a>&amp;nbsp;for more details of this example)&#xD;
+    .&amp;nbsp; The&amp;nbsp;BPEL for this method -- which is, in essence, the BPEL for the process flow --&amp;nbsp;either can be&#xD;
+    manually coded or generated from the Activity using appropriate tooling.&amp;nbsp;&amp;nbsp;The BPEL then could be used in a&#xD;
+    choreography tool to implement a long-running or short-running BPEL process.&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The processPurchaseOrder operation&amp;nbsp;is realized using three services, which are responsible for invoicing,&#xD;
+    shipping, and scheduling.&amp;nbsp; The current Activity calls various operations on those services, but it has no&#xD;
+    knowledge of how the services are realized.&amp;nbsp; Those details are deferred to behaviors which are owned by the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>Participants&lt;/a> that provide the services.&amp;nbsp; Similarly, the BPEL that would be&#xD;
+    created to support the Purchase Order Process has no knowledge of how, for example, the initiatePriceCalculation&#xD;
+    operation of the invoicing service is realized.&amp;nbsp; Those details would be captured in BPEL that maps to any owned&#xD;
+    behavior of the invoicing Participant that describes the implementation of&amp;nbsp;initiatePriceCalculation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This process of creating BPEL that describes current-level choreography of process flow and called actions, and then&#xD;
+    dropping down&amp;nbsp;a&amp;nbsp;level of detail to&amp;nbsp;create separate BPEL artifacts&amp;nbsp;to describe the details&#xD;
+    of&amp;nbsp;how the actions are realized, is continued through any hierarchy of composite services that is used&#xD;
+    to&amp;nbsp;realize a business process.&amp;nbsp; In this way, we maintain separation between process flow logic and&#xD;
+    compositional logic.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp; &lt;img height=&quot;526&quot; alt=&quot;&quot; src=&quot;resources/process_purchase_order_behavior.jpg&quot; width=&quot;599&quot; />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

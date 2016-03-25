@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_uFJtEOwsEd-sjp03to1LnQ" guid="_uFJtEOwsEd-sjp03to1LnQ">
+    <resourceDescriptors xmi:id="_uFJtEewsEd-sjp03to1LnQ" id="-OUYZ-xLc_mb3JLr-ww58Dg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_fbExgRauEeCjx5QJHD1iHA" id="-onIrfxAjLBzSkWWbJ45OFA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_gTS_QB6LEeCLp5muur8Asw" id="-XS9bX-EMONYMxUjX77aJYA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_s71UoewsEd-sjp03to1LnQ" name="cots_elaboration_recommend_solutions" guid="_s71UoewsEd-sjp03to1LnQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_s71UpOwsEd-sjp03to1LnQ" name="cots_recommend_solution" guid="_s71UpOwsEd-sjp03to1LnQ" presentationName="Recommend Solution" briefDescription="This task focuses on recommending solutions." superActivities="_s71Uo-wsEd-sjp03to1LnQ" optionalInput="_jgZakhJFEeG_dc9n0A1YZA" output="_s71UpewsEd-sjp03to1LnQ _s71Up-wsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_jgZakBJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Task href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHW-wiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-grQXDjxxkt78Pl1Hy0S3-A#_yycHXOwiEd-sjp03to1LnQ"/>
+      <selectedSteps href="uma://-grQXDjxxkt78Pl1Hy0S3-A#_yycHXewiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s71UpewsEd-sjp03to1LnQ" name="cots_cumulative_solution_eval_summary" guid="_s71UpewsEd-sjp03to1LnQ" presentationName="Cumulative Candidate Solution Evaluation Summary" briefDescription="This organizes and presents a cumulative summary of the results and key measures that were applied during the review and assessment of each COTS package." superActivities="_s71Uo-wsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t92NP-wsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_jgjLkBJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHSuwiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_s71Up-wsEd-sjp03to1LnQ" name="cots_solution_recommendation" guid="_s71Up-wsEd-sjp03to1LnQ" presentationName="Solution Recommendation" briefDescription="This presents the findings from the selection process to identify a final vendor(s) and vendor COTS package(s) for acquirer consideration. This artifact provides the rationale for the selection and includes the details for the exclusion of the other short list vendors and products and then summarizes the results, findings and conclusions for the acquirer executives." superActivities="_s71Uo-wsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t92NQOwsEd-sjp03to1LnQ" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_jgZalBJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_TMjpsOvOEd-wYsWv40Tm0w#_yycHJewiEd-sjp03to1LnQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_jgZakhJFEeG_dc9n0A1YZA" name="technical_specification_slot" guid="_jgZakhJFEeG_dc9n0A1YZA" presentationName="[Technical Specification]" briefDescription="This slot serves as an abstraction of high-level artifacts that describe requirements, constraints, and goals for the solution." isPlanned="false" superActivities="_s71Uo-wsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_jgZakxJFEeG_dc9n0A1YZA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_jgZalRJFEeG_dc9n0A1YZA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_-bv0ELXuEduGP_98XMd0fg#_i3vkoLS-EduDY8LNbMCDBA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_s71Uo-wsEd-sjp03to1LnQ" name="cots_elaboration_recommend_solutions" guid="_s71Uo-wsEd-sjp03to1LnQ" presentationName="Recommend Solutions" briefDescription="This covers essential tasks aiming at recommending solutions in the elaboration phase." breakdownElements="_s71UpOwsEd-sjp03to1LnQ _s71UpewsEd-sjp03to1LnQ _s71Up-wsEd-sjp03to1LnQ _jgZakhJFEeG_dc9n0A1YZA">
+      <methodElementProperty xmi:id="_t92NQewsEd-sjp03to1LnQ" name="process_synFree" value="true"/>
+      <presentation xmi:id="-OUYZ-xLc_mb3JLr-ww58Dg" href="uma://-OUYZ-xLc_mb3JLr-ww58Dg#-OUYZ-xLc_mb3JLr-ww58Dg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

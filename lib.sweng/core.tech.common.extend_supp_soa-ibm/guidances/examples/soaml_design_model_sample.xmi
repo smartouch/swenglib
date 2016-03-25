@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-BAcQ1fRYruatH1cqPfRhiw" name="new_example,_AfQisHNIEd6va-EJWoOsvg" guid="-BAcQ1fRYruatH1cqPfRhiw" changeDate="2009-10-26T18:06:52.250-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    The accompanying file is an Eclipse 3.4 project interchange file that contains a&amp;nbsp;Rational Software Architect&#xD;
+    Version 7.5.4 SoaML model and an associated business process model.&amp;nbsp; The SoaML model represents a slightly evolved&#xD;
+    version of the Purchase Order Process model that is presented in Appendix C of the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/whitepapers/soaml_specification_8B377FF3.html&quot; guid=&quot;_FYb84EovEd6D_7XK49c0nw&quot;>SoaML specification document&lt;/a>.&amp;nbsp; Aspects of this model also are illustrated in&#xD;
+    Jim Amsden's five-part series on &quot;Using SoaML&quot;, available from the IBM developerWorks web site, &lt;a href=&quot;http://www.ibm.com/developerworks&quot;>www.ibm.com/developerworks&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The following figure shows portions of that model, partially expanded.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note the&amp;nbsp;packaging structure that the model uses to organize its &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>ServiceInterfaces&lt;/a> and &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>Participants&lt;/a>.&amp;nbsp; Each such element is arranged, along with immediately-supporting&#xD;
+    elements and diagrams,&amp;nbsp;within its own package, within the &quot;implementation packages&quot; portion of the model&#xD;
+    structure. We refer to these as the &quot;implementation packages&quot; because the content elements that are located here are&#xD;
+    the primary source elements for the Rational Software Architect transforms that generate SOA artifacts -- such as XSDs,&#xD;
+    WSDLs, BPEL, SCA and SCDL components, and Java implementation files for interface and SCA components -- from UML.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Further note the &amp;lt;&amp;lt;perspective&amp;gt;&amp;gt; packages that are used to document concerns that cut across the&#xD;
+    implementation portions of the model.&amp;nbsp; Most specifically note the &quot;Service Collaborations&quot; and the &quot;Services&#xD;
+    Architectures&quot; perspectives.&amp;nbsp; These are home for behavioral content (&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/termdefinitions/service_collaboration_35276470.html&quot; guid=&quot;_V4z3YJgtEd6l6vBsNJSPDA&quot;>Service Collaborations&lt;/a> and &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_architecture_soaml_22F25B9A.html&quot; guid=&quot;_wYQYkEo3Ed6D_7XK49c0nw&quot;>ServicesArchitectures&lt;/a>)&amp;nbsp;that is used to show how business processes and use&#xD;
+    cases are realized by the elements of our &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/termdefinitions/service_oriented_solution.supp_soa_B0376546.html&quot; guid=&quot;_Frp-0IROEd6jqtIeWlQI8A&quot;>service oriented solutions&lt;/a>.&amp;nbsp; &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/supportingmaterials/pattern_05_manage_composition_using_service_oriented_solutions_753E5D71.html&quot; guid=&quot;_bydzoHyoEd6buIXZTkenBw&quot;>Pattern 05: Manage Composition Using Service-Oriented Solutions&lt;/a>&amp;nbsp;and &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/examples/pattern_05_manage_composition_using_service_oriented_solutions_4896F773.html&quot; guid=&quot;_plisgHypEd6buIXZTkenBw&quot;>Example: Pattern 05: Manage Composition Using Service-Oriented Solutions&lt;/a>&amp;nbsp;provide more information regarding the important service-oriented solutions concept and how the&#xD;
+    perspective packages are used to model the solution behaviors.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img height=&quot;599&quot; alt=&quot;&quot; src=&quot;resources/pop_expanded.jpg&quot; width=&quot;579&quot; />&#xD;
+&lt;/p>&amp;nbsp; &lt;br /></mainDescription>
+  <attachments>resources/purchase_order_process.zip</attachments>
+</org.eclipse.epf.uma:GuidanceDescription>

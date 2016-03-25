@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-HE4MLgUYNNfapbFP6A8Lng" name="business_rule_analysis,_Wue0wGTgEd6EKfYvqjfiMA" guid="-HE4MLgUYNNfapbFP6A8Lng" changeDate="2009-08-16T13:18:27.296-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    A&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../../practice.bus.use_case_driven_business_modeling.base-ibm/workproducts/business_model_FA12B77C.html&quot; guid=&quot;_vZ1FIFUyEd6lItlEOevULA&quot;>Business Model&lt;/a>&amp;nbsp;that includes &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/concepts/business_entity_49738474.html&quot; guid=&quot;__uNa8FoGEd6Gvq_dRUXeQw&quot;>Business Entities&lt;/a> and &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.bus.common.extend-ibm/guidances/termdefinitions/business_rule_E47D3B77.html&quot; guid=&quot;_3zxq4IqhEd64Ytrb_zySHw&quot;>Business Rules&lt;/a> can be used to&amp;nbsp;define services that encapsulate the business&#xD;
+    rules.&amp;nbsp; Figure 1 demonstrates a small, sample business-analysis model showing two business rules&#xD;
+    attached to the business entity named Order. These rules, as they are attached to a business entity, are most likely to&#xD;
+    correspond to invariants on the entity and so will be evaluated on any change in state of the entity. Rules&amp;nbsp;also&#xD;
+    can be attached to actions or processes.&amp;nbsp;&amp;nbsp;Such rules more often&amp;nbsp;are evaluated as pre-conditions or&#xD;
+    post-conditions for the action.&#xD;
+&lt;/p>&#xD;
+&lt;p>&lt;strong>Figure 1. Business analysis model&lt;/strong>&lt;/p>&#xD;
+&lt;p align=&quot;center&quot;>&#xD;
+    &amp;nbsp;&lt;img height=&quot;239&quot; alt=&quot;&quot; src=&quot;./resources/bus_rules_1.gif&quot; width=&quot;592&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In modeling the example above, it is assumed that there is a traceable relationship between the&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>ServiceInterfaces&lt;/a> derived from the business rules and between the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/message_type_soaml_41C1C53D.html&quot; guid=&quot;_Yy9FYGc6Ed65K8S2sWS35w&quot;>message(s)&lt;/a> derived from the business entity.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In many cases. complex rules are aggregated into Rule Sets. These are much more of a match for the granularity of a&#xD;
+    service, allowing, for example, a document to be passed to the validation service where the set of rules are evaluated&#xD;
+    and the results returned. From the example above, we can easily imagine that the validation services actually embody&#xD;
+    quite a complex set of rules for validating the compatibility of items ordered, quantities, and so on.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

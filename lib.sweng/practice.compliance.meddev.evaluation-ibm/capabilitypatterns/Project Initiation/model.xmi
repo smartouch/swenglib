@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_12IR4Mq3EeGXNq2nsbr5Vw" guid="_12IR4Mq3EeGXNq2nsbr5Vw">
+    <resourceDescriptors xmi:id="_12IR4cq3EeGXNq2nsbr5Vw" id="-IlyeNpG_m1q9RbRrLs0caw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_BkXIsMq6EeGXNq2nsbr5Vw" id="-ZZh117wUusi9jY0WbPV0sQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ZMDZUMxHEeGgwYAKZp_XKw" id="-YU65Tmcu7TvTRpDvkwBhJw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ZMO_gMxHEeGgwYAKZp_XKw" id="-6sE7t8tuNpeI8LcANNNVTw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ZMUfEMxHEeGgwYAKZp_XKw" id="-49J2c2AgL5YY5P8ISUkFAw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_mDkyINKZEeGb2-poP6qqwA" id="-Hy-MfkHmubAeb8dBCoDc6Q" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_1y_eUMq3EeGXNq2nsbr5Vw" name="Project Initiation" guid="_1y_eUMq3EeGXNq2nsbr5Vw">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-SQewMq5EeGXNq2nsbr5Vw" name="create_doors_proj" guid="_-SQewMq5EeGXNq2nsbr5Vw" presentationName="Install and Configure Doors" briefDescription="This task describes the steps you need to perform for installing DOORS and creating the DOORS project." superActivities="_1y_eUcq3EeGXNq2nsbr5Vw" linkToPredecessor="_yH1OMNKZEeGb2-poP6qqwA">
+      <methodElementProperty xmi:id="_lkcmINKZEeGb2-poP6qqwA" name="wbe_GlobalPresentedAfter" value="_j97UQNKZEeGb2-poP6qqwA"/>
+      <presentation xmi:id="-YU65Tmcu7TvTRpDvkwBhJw" href="uma://-IlyeNpG_m1q9RbRrLs0caw#-YU65Tmcu7TvTRpDvkwBhJw"/>
+      <Task href="uma://__LAJwLVyEeG2HZuzSn_FbQ#_NzRAcMq4EeGXNq2nsbr5Vw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-tUDEMq5EeGXNq2nsbr5Vw" name="create_rtc_proj" guid="_-tUDEMq5EeGXNq2nsbr5Vw" presentationName="Configure RTC" briefDescription="This task describes the steps you need to perform to configure RTC for the evaluation." superActivities="_1y_eUcq3EeGXNq2nsbr5Vw" linkToPredecessor="_OiGKcMq6EeGXNq2nsbr5Vw">
+      <methodElementProperty xmi:id="_lR0lENKZEeGb2-poP6qqwA" name="wbe_GlobalPresentedAfter" value="_-SQewMq5EeGXNq2nsbr5Vw"/>
+      <presentation xmi:id="-6sE7t8tuNpeI8LcANNNVTw" href="uma://-IlyeNpG_m1q9RbRrLs0caw#-6sE7t8tuNpeI8LcANNNVTw"/>
+      <Task href="uma://__LAJwLVyEeG2HZuzSn_FbQ#_RsbqYMq4EeGXNq2nsbr5Vw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="__lKREMq5EeGXNq2nsbr5Vw" name="fam_process" guid="__lKREMq5EeGXNq2nsbr5Vw" presentationName="Familiarize yourself with the Process Content" briefDescription="This task describes the main process areas you need to explore and understand." superActivities="_1y_eUcq3EeGXNq2nsbr5Vw" linkToPredecessor="_PikwAMq6EeGXNq2nsbr5Vw _k8_30MxHEeGgwYAKZp_XKw">
+      <methodElementProperty xmi:id="_YillkMxHEeGgwYAKZp_XKw" name="wbe_GlobalPresentedAfter" value="_XYFhUMxHEeGgwYAKZp_XKw"/>
+      <presentation xmi:id="-ZZh117wUusi9jY0WbPV0sQ" href="uma://-IlyeNpG_m1q9RbRrLs0caw#-ZZh117wUusi9jY0WbPV0sQ"/>
+      <Task href="uma://__LAJwLVyEeG2HZuzSn_FbQ#_PVWmgLY5EeGSYMj_fB-PRw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_OiGKcMq6EeGXNq2nsbr5Vw" guid="_OiGKcMq6EeGXNq2nsbr5Vw" pred="_-SQewMq5EeGXNq2nsbr5Vw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_O-BRccq6EeGXNq2nsbr5Vw" guid="_O-BRccq6EeGXNq2nsbr5Vw" pred="_-tUDEMq5EeGXNq2nsbr5Vw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_PikwAMq6EeGXNq2nsbr5Vw" guid="_PikwAMq6EeGXNq2nsbr5Vw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_XYFhUMxHEeGgwYAKZp_XKw" name="config_doors_rtc" guid="_XYFhUMxHEeGgwYAKZp_XKw" presentationName="Configure the DOORS/RTC Integration" briefDescription="This task describes the steps you need to perform for configuring the RTC/DOORS integration." superActivities="_1y_eUcq3EeGXNq2nsbr5Vw" linkToPredecessor="_nR-LIMxHEeGgwYAKZp_XKw">
+      <methodElementProperty xmi:id="_YillkcxHEeGgwYAKZp_XKw" name="wbe_GlobalPresentedAfter" value="_-tUDEMq5EeGXNq2nsbr5Vw"/>
+      <presentation xmi:id="-49J2c2AgL5YY5P8ISUkFAw" href="uma://-IlyeNpG_m1q9RbRrLs0caw#-49J2c2AgL5YY5P8ISUkFAw"/>
+      <Task href="uma://__LAJwLVyEeG2HZuzSn_FbQ#_CSwtYMxHEeGgwYAKZp_XKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_k8_30MxHEeGgwYAKZp_XKw" guid="_k8_30MxHEeGgwYAKZp_XKw" pred="_XYFhUMxHEeGgwYAKZp_XKw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_nR-LIMxHEeGgwYAKZp_XKw" guid="_nR-LIMxHEeGgwYAKZp_XKw" pred="_-tUDEMq5EeGXNq2nsbr5Vw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_j97UQNKZEeGb2-poP6qqwA" name="install_lic_server" guid="_j97UQNKZEeGb2-poP6qqwA" presentationName="Install and Configure License Server" briefDescription="This task describes the steps you need to perform for installing the Rational License Key Server." superActivities="_1y_eUcq3EeGXNq2nsbr5Vw">
+      <methodElementProperty xmi:id="_kkQUcNKZEeGb2-poP6qqwA" name="wbe_GlobalPresentedAfter" value="_1y_eUcq3EeGXNq2nsbr5Vw"/>
+      <presentation xmi:id="-Hy-MfkHmubAeb8dBCoDc6Q" href="uma://-IlyeNpG_m1q9RbRrLs0caw#-Hy-MfkHmubAeb8dBCoDc6Q"/>
+      <guidelines href="uma://__LAJwLVyEeG2HZuzSn_FbQ#_DxvA8NKWEeGb2-poP6qqwA"/>
+      <Task href="uma://__LAJwLVyEeG2HZuzSn_FbQ#_10uTgNKVEeGb2-poP6qqwA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_yH1OMNKZEeGb2-poP6qqwA" guid="_yH1OMNKZEeGb2-poP6qqwA" pred="_j97UQNKZEeGb2-poP6qqwA"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_1y_eUcq3EeGXNq2nsbr5Vw" name="Project Initiation" guid="_1y_eUcq3EeGXNq2nsbr5Vw" presentationName="Project Initiation" briefDescription="This scenario describes the main tasks performed to set up the tool environment, create the evaluation project and import the sample data." breakdownElements="_j97UQNKZEeGb2-poP6qqwA _-SQewMq5EeGXNq2nsbr5Vw _-tUDEMq5EeGXNq2nsbr5Vw _XYFhUMxHEeGgwYAKZp_XKw __lKREMq5EeGXNq2nsbr5Vw">
+      <presentation xmi:id="-IlyeNpG_m1q9RbRrLs0caw" href="uma://-IlyeNpG_m1q9RbRrLs0caw#-IlyeNpG_m1q9RbRrLs0caw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

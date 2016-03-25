@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-7QRUaaQQ4EUsqSPkOKCnOw" name="Handoff,_RMyAkT6fEeCNP5QymdAszQ" guid="-7QRUaaQQ4EUsqSPkOKCnOw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-akAEwSq9fzHnAKpWYEwPdw" name="gather_subsystem_spec_data,_WAV2MD6fEeCNP5QymdAszQ" guid="-akAEwSq9fzHnAKpWYEwPdw">
+    <keyConsiderations>&lt;p>&#xD;
+    Key considerations include:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Completeness&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Accuracy&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ease of access by the subsystem teams&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Clarity&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    If relevant, be sure to include quality of service and dependability expectations as well.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is also important not to overspecify the internal structure of the subsystem, a common error. The external behavior,&#xD;
+    performance and dependability should be specified by the handoff system data but the internal structure and&#xD;
+    internal-only interfaces should not.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    It is expected that the organization of the model(s) used by the system engineering staff will naturally colocate much&#xD;
+    of the necessary data. However, there is usually other data - which might be stored in non-model files and tool formats&#xD;
+    - that must be provided to the subsystem teams to ensure they build the right thing. This information includes&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Requirements allocated to the subsystem with links to requirements repositories&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use case, scenario, and state data defining subsystem functionality&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Constraints and quality of service information, including parameters such as heat, weight, power, speed, and so on&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        (Logical) operational contracts including&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;list-style: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                function or service name&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                data pass in or out&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                pre- and post-conditions&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                quality of service constraints&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Algorithmic and computational functionality&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        (Logical) interfaces among subsystems and between subsystems and system actors&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Architectural structure into which the subsystem must fit&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In general, if SysML or UML is used as the primary method for capturing information, it is recommended that the system&#xD;
+    engineering model contain all this information in one package per subsystem and hand off a package to each relevant&#xD;
+    subsystem (there may be nested packages). If there is significant data external to the model, then a conformance list&#xD;
+    should provide a list of all data to be passed.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Of4GY3VgEyLB9FrIIzV0LA" name="sys_arch_model,_WAfnMD6fEeCNP5QymdAszQ" guid="-Of4GY3VgEyLB9FrIIzV0LA">
+    <refinedDescription>The System Architectural Model&amp;nbsp;is&amp;nbsp;a hierarchical structure of System Blocks, behavior and delegation ports for&#xD;
+each block, interfaces&amp;nbsp;definitions for each port, and state-chart diagrams specifying the state-based behavior for&#xD;
+each leaf system block.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vCjFdzNEe98SjQ_Y1o6IDA" name="subsys_req_spec,_WAfnMj6fEeCNP5QymdAszQ" guid="-vCjFdzNEe98SjQ_Y1o6IDA">
+    <refinedDescription>&lt;p>&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jc9aLsChPFlvP01bfLHLbQ" name="sys_statechart_diag,_WBFdET6fEeCNP5QymdAszQ" guid="-jc9aLsChPFlvP01bfLHLbQ">
+    <refinedDescription>&lt;p>&#xD;
+    A Statechart Diagram describes the state-based behavior of a block. It is one of&amp;nbsp;the most important behavior&#xD;
+    diagrams because&amp;nbsp;it aggregates the information from both the activity diagram (functional flow) and the sequence&#xD;
+    diagrams (interactions with the environment), and adds the event-driven block behavior to the diagram. As the&#xD;
+    &quot;language&quot; of statecharts is formally defined, the correctness and completeness of the resulting behavior can be&#xD;
+    verified/validated through model execution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Statechart diagrams are finite state machines that are extended by the notation of &lt;strong>&lt;em>Hierarchy&lt;/em>&lt;/strong>&#xD;
+    and &lt;strong>&lt;em>Concurrency&lt;/em>&lt;/strong>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Basically, a statechart diagram is comprised of a set of states joined by transitions and various connectors. An event&#xD;
+    may trigger a transition from one state to another. Actions can be performed on transitions and on state entry/exit.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In most of the cases a&amp;nbsp;System Block Statechart Diagram&amp;nbsp;is defined for each leaf system block.&amp;nbsp; The&#xD;
+    emergent behavior that results form the collaboration of each leaf block statechart diagram&amp;nbsp;must reflect the&#xD;
+    functional flow captured in the white-box activity diagram&amp;nbsp;as well as the associated&amp;nbsp;white-box sequence&#xD;
+    diagrams.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ELLuuVmXMWgCqu5EzNja2g" name="sys_struc_diag,_WBFdFD6fEeCNP5QymdAszQ" guid="-ELLuuVmXMWgCqu5EzNja2g">
+    <refinedDescription>&lt;p>&#xD;
+    The main type of elements used to describe the internal structure are system blocks.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A System Block is an element of the structural description of the system under development. It is an encapsulated&#xD;
+    entity, i.e. its communication with the environment is performed through ports and&amp;nbsp;associated interfaces. A System&#xD;
+    Block may be decomposed into sub-System Blocks. At the lowest level of decomposition, the behavior of a System Block is&#xD;
+    described by means of a statechart diagram.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A System Block must have a defined boundary. Communication with the environment is performed via ports and associated&#xD;
+    interfaces.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-O6FPVNrukl4ZT3aqV-KsMw" name="sys_context_diag,_WBFdFz6fEeCNP5QymdAszQ" guid="-O6FPVNrukl4ZT3aqV-KsMw">
+    <refinedDescription>&lt;p>&#xD;
+    The system context diagram describes the&amp;nbsp;top-level collaboration showing the system (modeled as a top-level&#xD;
+    subsystem), its interfaces and its relationships with its actors, including the external I/O entities that flow between&#xD;
+    actor and system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Main information captured in the system context diagram:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The interfaces to be &lt;i>realized&lt;/i> by the system (in terms of the &lt;i>operations&lt;/i> the systems provides, and the&#xD;
+        associated protocols supported, the &lt;i>state variables&lt;/i> and &lt;i>stores&lt;/i> that the system realizes, and&#xD;
+        attributes).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The &lt;i>I/O entities&lt;/i> that flow between the system and its actors.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The interfaces &lt;i>required&lt;/i> by the system (to be realized by the actors which interact with the system) for&#xD;
+        correct performance. Often, if the actor represents an existing system with which the system must communicate,&#xD;
+        these required interfaces simply reflect constraints imposed by that other system.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-N9ahOQNZFmlWWi_Pn-09BQ" name="sys_operation,_WBFdGj6fEeCNP5QymdAszQ" guid="-N9ahOQNZFmlWWi_Pn-09BQ">
+    <refinedDescription>&lt;p>&#xD;
+    An operation specification has the following outline:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Description&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Input/Output Parameters&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Non-functional requirements: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                These are derived from the non-functional requirements associated with the steps in the various Use Cases&#xD;
+                that this operation supports.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                The context in which the operation is used (i.e. a particular Use Case) may or may not be captured (e.g. it may be&#xD;
+                specified in terms of supporting the minimum performance requirement when all Use Cases are considered)&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Pre-conditions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Post-conditions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Superordinate system traceability&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: use-case (steps) traceability&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In most of the cases, the Operations are defined for the top-level system and the main subsystems, going with the&#xD;
+    decomposition as deep as needed, in a recursive fashion. The Operations are grouped around interfaces along the main&#xD;
+    responsibilities of the (sub)system under consideration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible&amp;nbsp;for the integrity of the operation set,&amp;nbsp;should ensure&amp;nbsp;that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the operations are unique and there is no overlap between them&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the related operations are logically grouped around interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        each operation is properly documented&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the traceability relationships to other operations and/or use-case steps have been established&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        proper coverage of the use cases or system's operations, based on the scope of the current iteration&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--od8J_1MCF7_2CTBz3SXTw" name="sys_op_seq_diag,_WBFdHT6fEeCNP5QymdAszQ" guid="--od8J_1MCF7_2CTBz3SXTw">
+    <refinedDescription>&lt;p>&#xD;
+    The number of viewpoints considered will drive the number of sequence diagrams needed, as for the most complex case,&#xD;
+    for each viewpoint, there will be at least one&amp;nbsp;sequence diagram, showing how specific view elements are realizing&#xD;
+    the main operation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible for the integrity of the operation realization should&amp;nbsp;ensure that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The operation realization correctly realizes the behavior of its corresponding operation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All the chosen viewpoints are addressed and there is at least one realization per viewpoint.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The associated non-functional requirements are correctly budgeted across the subsystems operations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The operation realization is properly documented and the correspondent diagrams suit their purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The realization associations are correct.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ezWWHlJIy0CTBqq8nDhl0w" name="sys_op_act_diag,_WBFdID6fEeCNP5QymdAszQ" guid="-ezWWHlJIy0CTBqq8nDhl0w">
+    <refinedDescription>&lt;p>&#xD;
+    The number of viewpoints considered will drive the number of activity diagrams needed, as for the most complex case,&#xD;
+    for each viewpoint, there will be an activity&amp;nbsp;diagram, showing how specific view elements are realizing the main&#xD;
+    operation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible for the integrity of the operation realization should&amp;nbsp;ensure that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The operation realization correctly realizes the behavior of its corresponding operation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All the chosen viewpoints are addressed and there is at least one realization per viewpoint.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The associated non-functional requirements are correctly budgeted across the subsystems operations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The operation realization is properly documented and the correspondent diagrams suit their purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The realization associations are correct.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Lr0lrmILBwa_6CITZ70_mw" name="create_shared_model,_LFD-8D6gEeCNP5QymdAszQ" guid="-Lr0lrmILBwa_6CITZ70_mw">
+    <keyConsiderations>Elements that fall completely within one subsystem should be represented solely within that subsystem.</keyConsiderations>
+    <refinedDescription>The shared model is used by multiple subsystems to hold information used by them. It typically organized into three primary&#xD;
+areas - overall architectural descriptions, interface elements, and internal but common elements.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UUa0RLifD2QY0EobnGGsCA" name="define_subsystem_physical_interfaces,_NahacD6gEeCNP5QymdAszQ" guid="-UUa0RLifD2QY0EobnGGsCA">
+    <keyConsiderations>&lt;p>&#xD;
+    Every logical interface must be realized, but it may not be in a 1:1 way; it is common for a logical interface to&#xD;
+    result in many physical messages or machine motions that constitute the actual physical interface. In addition, logical&#xD;
+    interfaces should provide range and fidelity metadata on the parameters of the interface but not the physical data&#xD;
+    schema; the physical data scheme must be defined within this task.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    Systems engineering generally defines what is known as the &quot;logical interface&quot; between the system and its actors and&#xD;
+    among subsystems. The logical interfaces provides organizations of named services, (highly) abstract data types with&#xD;
+    ranges and constraints, and various quality of service parameters. In this task, the engineering staff must refine&#xD;
+    these logical interfaces in deployable physical interfaces. Requires the usage of services within defined APIs of&#xD;
+    existing equipment or agreements between teams on devices not yet developed. The services must be qualified with actual&#xD;
+    data schema (bit-mapped formats), and qualities of service.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-34ZBNa5sB0CynyzIjAPCcg" name="fmea,_Na-GYj6gEeCNP5QymdAszQ" guid="-34ZBNa5sB0CynyzIjAPCcg">
+    <refinedDescription>&lt;p>&#xD;
+    An FMEA is most often used in a bottom-up approach - that is detailed failures are examined to determine their ultimate&#xD;
+    consequences. In contrast, Fault Tree Analysis is more commonly used in a top-down approach, beginning with hazards and&#xD;
+    then determining what faults elicit them.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    FMEA and FTA are used in both reliability engineering and safety-critical system engineering.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xT7t2_XFUgyb8CuDU9U1Mg" name="fta,_Na-GZD6gEeCNP5QymdAszQ" guid="-xT7t2_XFUgyb8CuDU9U1Mg">
+    <refinedDescription>&lt;p>&#xD;
+    An FTA uses logical operators (commonly AND, OR, and NOT, but may also include XOR, NOR, and NAND) to depict the&#xD;
+    explicit relation between normal and exception (i.e. error) conditions and normal and exception (i.e. failure) events.&#xD;
+    FTA can be used to depict the causal chain of events and conditions for an existing design and also drive the&#xD;
+    development of design approaches (called control measures) that address the safety issues. These control measures are&#xD;
+    then added to the FTA as &quot;ANDing redundancy&quot; so that for the hazard to be manifest, both the original condition or&#xD;
+    fault must occur AND the control measure must fail as well.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An FTA is most often used in a top-down fashion, beginning with the hazards and the discovering that underlying faults&#xD;
+    that can lead to them. In contrast, an Fault Means and Effect Analysis (FMEA) is most often used in a bottom up&#xD;
+    fashion, beginning with the failures and then determining the consequences. Both are used in reliability and safety&#xD;
+    engineering.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9h8cufD2KZnyH2htfzoKUA" name="haz_an,_Na-GZj6gEeCNP5QymdAszQ" guid="-9h8cufD2KZnyH2htfzoKUA">
+    <keyConsiderations>All the relevant hazards of the system and the faults that can lead to those hazards must be identified in the hazard&#xD;
+analysis.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The hazard analysis is a key document for safety critical systems (see Term Definition: Safe) as it combines the&#xD;
+    description of the hazards, the level of risk, system faults that can lead to the hazard, and the control measures all&#xD;
+    together in a single view. The Fault is a non-compliance of the system that can lead to the identified hazard. The&#xD;
+    severity is a measure of how bad the hazard is (an arbitrary scale of 1-10 is used often used). The Risk is a value&#xD;
+    computed by the likelihood multiplied by the severity of the occurrence.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    All safety critical systems are real-time systems as well, since each fault has a period of time that it can be&#xD;
+    tolerated (called its Fault Tolerance Time). To be considered safe against a specific fault, the sum of the fault&#xD;
+    detection time and the control time (the time required for the control measure to handle the fault) must be less than&#xD;
+    or equal to the fault tolerance time.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The hazard analysis is usually coupled with one or more Fault Tree Analysis (FTA) to show how faults and other&#xD;
+    conditions can combine to lead to hazards.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The hazard analysis is created during the requirements analysis phase but not all aspects (such as the control&#xD;
+    measures) may be identified early on. The hazard analysis should be maintained throughout the development cycle - as&#xD;
+    new hazards or faults are identified, they must be added to the table. As control measures are specified, the analysis&#xD;
+    must be updated as well.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-lyY9TIpXdo_zNvfXXhoECQ" name="rt_phys_icd,_Na-GaD6gEeCNP5QymdAszQ" guid="-lyY9TIpXdo_zNvfXXhoECQ">
+    <keyConsiderations>This document is normally produced from the physical interfaces in the shared model.</keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-CKXxCr6ILcvsJzOV0Zx_VA" name="create_new_subsystem_model,_dUW5kD6jEeCNP5QymdAszQ" guid="-CKXxCr6ILcvsJzOV0Zx_VA">
+    <keyConsiderations>&lt;p>&#xD;
+    It is not expected that the non-software engineering disciplines will continue to work in UML/SysML models after the&#xD;
+    requirements are allocated and the deployment architecture defined. Nevertheless, this model provides the specification&#xD;
+    for those hardware engineering disciplines.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    Following systems engineering, a hand off from the system team to each of the subsystem will be created. It will be a&#xD;
+    package - or possibly even a separate model -&amp;nbsp;that forms the model-based specification for the subsystem. This&#xD;
+    task creates the subsystem model that will import that specification and provide a place for the subsystem team to&#xD;
+    allocate the requirements into the various discipline, create the deployment architecture for the subsystem and for the&#xD;
+    software engineers to put their software analysis and design.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_tKFFVUbKWNnREU9aOy1OQ" name="rt_model,_dVjMYD6jEeCNP5QymdAszQ" guid="-_tKFFVUbKWNnREU9aOy1OQ">
+    <keyConsiderations>Models need to have enough formality and precision to serve their purpose. This normally means that they not only&#xD;
+&lt;em>execute&lt;/em> properly but can be used as the basis for &lt;em>automatic code generation&lt;/em> for the target platform.&#xD;
+System engineering models typically are not used for code generation but should usually still execute so that their quality&#xD;
+can be assessed. Software models should normally be represented with a higher degree of precision because they represent&#xD;
+the analysis or design of the actual system to be deployed.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The model can be thought of as a repository of semantic concepts and their interrelations, visualized by a set of&#xD;
+    views. These views can be:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Structural (e.g. class diagram, structure diagram, package diagram, source code)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Behavioral (e.g. state machine diagram, activity diagram)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interaction (e.g. sequence diagram, timing diagram)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Functional (e.g. information flow diagram, use case diagram)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Performance (e.g. constraints modifying elements present in the other views)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    A model the is composed of a great many contained artifacts or work products. In addition, a model can contain a nested&#xD;
+    model, such as a Platform-Independent Model (PIM) or Platform-Specific Model (PSM), which are themselves models within&#xD;
+    the over all model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A &quot;logical&quot; model can be split across multiple physical realization models for developer convenience; indeed this is&#xD;
+    almost always the case for large models. A typical large-scale logical model consists of the following separate&#xD;
+    physical models:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        System engineering model (specifies the overall system requirements as use cases and the overall system&#xD;
+        architecture)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Software Requirements model (specifies the use cases specific to the software development)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        (Several) subsystem model (specifies the realization of each architectural unit)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Shared model (contains interfaces, classes and types shared among subsystem models)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-1NrMceoV80jErXmNI_Mqnw" name="define_interdisciplinary_interfaces,_j6guMD6jEeCNP5QymdAszQ" guid="-1NrMceoV80jErXmNI_Mqnw">
+    <keyConsiderations>It is important that all the involved disciplines partake in this task or a suboptimal interface will emerge. The interface&#xD;
+should include the services, data, physical data schema (where appropriate), constraints, performance, and physical&#xD;
+mechanisms of the interface. Engineers should evaluate the interface with careful consideration of adequacy, completeness,&#xD;
+performance, cost, and ease of development.</keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WCK61jp6hS8HjISfM87pUQ" name="rt_subsys_model,_j6guMT6jEeCNP5QymdAszQ" guid="-WCK61jp6hS8HjISfM87pUQ">
+    <refinedDescription>&lt;p>&#xD;
+    This is a package or submodel within the system engineering model and generally consists of a set of diagrams and&#xD;
+    semantic elements (e.g. requirements, blocks, logical interfaces, constraints, states, transitions, flows, traceability&#xD;
+    links, and data elements). These sets of elements together specify the requirements for the subsystem.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-XORPfgQOPMXrs-PM5XBCjg" name="allocate_to_eng_disciplines,_kf6hUD6jEeCNP5QymdAszQ" guid="-XORPfgQOPMXrs-PM5XBCjg">
+    <refinedDescription>A subsystem team is usually comprised of engineers within different disciplines, such as software, digital electronics,&#xD;
+analog electronics, hydraulic, pneumatic, control, and mechanical. Once the subsystem specification is handed off, certain&#xD;
+of the requirements will belong to one discipline or the other. Other requirements will require decomposition into derived&#xD;
+requirements, allocating portions of a subsystem-level requirement to different discipline. This is particularly true of&#xD;
+quality-of service requirements.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-v9tJ1igZYdH-6fiHKQfpCA" name="requirements_traceability,_kf6hUT6jEeCNP5QymdAszQ" guid="-v9tJ1igZYdH-6fiHKQfpCA">
+    <keyConsiderations>&lt;p>&#xD;
+    In order to maintain the consistency&amp;nbsp;of the traceability,&amp;nbsp;this artifact must be re-assessed every time there&#xD;
+    is a change to the requirement or at the end of each milestone.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In a small simple project, the traceability matrix can be&amp;nbsp;maintained in a spreadsheet. Automated tool support is&#xD;
+    helpful in a complicated large-scale project.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There are project resource costs to establishing and maintaining traceability. It is important to establish just enough&#xD;
+    traceability to support completeness checking and change impact analysis without over-using the technique by tracing&#xD;
+    &quot;everything to everything&quot;.&lt;br />&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    Traceability is defined by identifying which relationships between requirement types - or other artifacts -- are&#xD;
+    important enough to track and maintain.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wp8OAUzIgGAEPeOSYPq5CA" name="sys_srs,_kf6hUz6jEeCNP5QymdAszQ" guid="-wp8OAUzIgGAEPeOSYPq5CA">
+    <refinedDescription>&lt;p>&#xD;
+    A&amp;nbsp;System Requirements Specification is strictly the set of all relevant System Requirements for a project. This&#xD;
+    set provides a complete and consistent abstract description of the solution to the problem represented by a stakeholder&#xD;
+    specification or a similar artifact, and its context, at an appropriate level of abstraction.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In practice, there&amp;nbsp;may be several levels of&amp;nbsp;System Requirements Specification - for example, in some cases&#xD;
+    the a single level might be enough, in others, the system must be broken-down into subsystems at various levels.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If more than one level of System Requirement Specification is used, then remember the following points:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Each specification must be a complete and consistent description of the solution, at an appropriate level of&#xD;
+        abstraction&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Traceability must be maintained throughout the levels&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All specifications must be maintained in parallel&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Frequently, it&amp;nbsp;is sufficient to evolve a single specification.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The system requirements specification captures all of the system functional and non-functional requirements in one&#xD;
+    place so that they may be analyzed for consistency, completeness and correctness.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Requirements must be clear, unambiguous, testable and complete. They must include all required properties of the&#xD;
+    system. Care must be taken not to over-specify (a common problem) by including design measures in the requirements.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-jbLwHijihZc2Pdnm5imPhA" name="test_data,_3pyoEHE7Edy8Ac588DXPCQ" guid="-jbLwHijihZc2Pdnm5imPhA" changeDate="2008-10-08T15:06:58.568-0700" version="7.1.0">
+  <keyConsiderations>When managed separately from the procedural aspects of the test, Test Data enables the unique characteristics of the&#xD;
+test to be modified independently.</keyConsiderations>
+  <purpose>&lt;p>&#xD;
+    To provide both a layer of indirection and a central point of modification for the unique characteristics of a test.&#xD;
+&lt;/p></purpose>
+  <impactOfNotHaving>&lt;p>&#xD;
+    If the test data is not&amp;nbsp;captured outside of the test scripts, this might lead to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Reusability problems for combining: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Same test script with a different set of inputs&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Same test data with different test scripts&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Maintenance issues as the test data is embedded within test scripts&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></impactOfNotHaving>
+  <reasonsForNotNeeding>&lt;p>&#xD;
+    Key artifact for most projects. There are differences mostly in the formality level: in some cases, this artifact&#xD;
+    is&amp;nbsp;informal and transitory, and the test team is judged based on other criteria. In other cases -- especially with&#xD;
+    automated tests -- the test scripts and associated test data (or some subset thereof) are regarded as major&#xD;
+    deliverables of the test effort.&#xD;
+&lt;/p></reasonsForNotNeeding>
+  <briefOutline>&lt;p>&#xD;
+    Each Test Data set should consider various aspects of testing, including the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The required preconditions of the Test Environment Configuration that are assumed to exist immediately prior to the&#xD;
+        Test Data being consumed.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The unique characteristics of the Test Data. These data may range in form, from standard alphanumeric textual&#xD;
+        values to sensory data (such as auditory or visual information). Test Data may be specified as a valid range (rather&#xD;
+        than a single value) that should be used during a test.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Any dependencies between the Test Data elements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A descriptive explanation of the condition being tested, often defined in terms of what the failure is if the&#xD;
+        condition being tested is found to be false.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></briefOutline>
+  <representationOptions>&lt;p>&#xD;
+    Both the content and format of Test Data may require modification to meet the needs of each specific organization and&#xD;
+    project.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When Test Data are managed independently of procedural test concerns, there are a few different styles of storage used:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A simple form of ASCII text file, either special character delimited or fixed-width columns&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A basic form of spreadsheet or database system, such as Microsoft&amp;reg; Excel or Microsoft&amp;reg; Access&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Some form of program-generated calculation of the Test Data&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Some form of capture, extraction, or conversion of the Test Data from an original source&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A complex relational (RDBMS) or object (ODBMS) database management system. Many test teams make use of the same&#xD;
+        database to manage Test Data as that used by the software being developed. This often proves advantageous in having&#xD;
+        ready access to skilled database administrators and designers who can provide advice and support to the test team.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    As mentioned, it is typical for multiple Test Data elements to be specified in a single storage container, usually&#xD;
+    grouped by the general purpose or objective of the tests.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In some cases, the Test Data can be enclosed within the Test Script or the Test Suite work products.&#xD;
+&lt;/p></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

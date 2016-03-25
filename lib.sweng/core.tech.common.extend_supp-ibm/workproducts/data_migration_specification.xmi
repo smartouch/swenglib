@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-i_7-v1Fi2UNdwyZtgeSLwg" name="data_migration_specification,_0hQBIDDBEdyz_pzDMsV8FQ" guid="-i_7-v1Fi2UNdwyZtgeSLwg" changeDate="2007-07-28T00:35:35.000-0700" version="7.1.0">
+  <mainDescription>&lt;p>&#xD;
+    This artifact is a detailed description of the requirements for accomplishing data transfers. A data reference can be&#xD;
+    either a source (sending data into the system -inbound) or a target (receiving data from the system -outbound).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Appropriate data sources are found for each of&amp;nbsp;the target data elements, and then rules are drafted to extract,&#xD;
+    transform, and move the source to the target data element. Rules are developed for the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Data selection - rules describing the criteria by which data is to be selected&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data cleansing - rules describing how the source data will be cleansed as it is extracted&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Error detection and correction - rules defining how missing or invalid data should be treated&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data mapping - rules describing what must be done to the source data (transformation) to satisfy target data&#xD;
+        requirements&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+  <keyConsiderations>&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        It is preferable to have legacy developers from the source data reference as participants in the data mapping&#xD;
+        process.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data mapping rules may be stored in an automated tool, preferably one with a repository.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The logical level of the data model should be completed, and the external data references identified before the&#xD;
+        data mapping is begun.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  <purpose>This artifact is used to document how source data is transformed into target data, either as one-time data conversions or&#xD;
+via ongoing data interfaces. It is also used as a basis for validating the data mappings between systems.</purpose>
+  <impactOfNotHaving>&lt;p>&#xD;
+    If this artifact is not created, the formal rules and procedures for data extraction, cleansing, and subsequent&#xD;
+    transformation are not documented for review.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Data is often a critical component of any system; therefore failure to analyze and correctly map data between different&#xD;
+    data structures or systems may lead to unexpected results.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Without this artifact, developers are required to have an understanding of the underlying data and perform the data&#xD;
+    mappings directly in the code.&#xD;
+&lt;/p></impactOfNotHaving>
+  <reasonsForNotNeeding>&lt;p>&#xD;
+    Some reasons for not needing this artifact are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        There is no data to be migrated.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The data migration is straightforward enough that it can be directly implemented and verified without formal&#xD;
+        up-front analysis.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></reasonsForNotNeeding>
+  <briefOutline>&lt;p>&#xD;
+    This artifact contains the following information:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Scope of the Migration&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data Profile &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Data references (sources and targets)&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Data attributes&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Data attribute dependencies&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data Mapping Table&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data Transformation Processes&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></briefOutline>
+  <representationOptions xsi:nil="true"/>
+  <representation xsi:nil="true"/>
+  <notation xsi:nil="true"/>
+</org.eclipse.epf.uma:ArtifactDescription>

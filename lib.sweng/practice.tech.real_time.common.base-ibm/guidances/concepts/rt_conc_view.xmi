@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-MiKGZ81Y8z3hAm4xi4zQxg" name="new_concept,_c_02IOKwEd-G2pDngtqTxA" guid="-MiKGZ81Y8z3hAm4xi4zQxg" changeDate="2010-10-28T09:29:57.406-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    The concurrency and resource view of the system architecture focuses on the management of resources and the concurrent&#xD;
+    aspects of system execution.&amp;nbsp; By &lt;em>concurrent&lt;/em>,&amp;nbsp;we mean that objects may execute in parallel rather&#xD;
+    than sequentially.&amp;nbsp; We are stating that we neither know&amp;nbsp;nor care about the relative order of execution of&#xD;
+    actions between threads except where specifically mentioned.&amp;nbsp; These points of synchronization are often called&#xD;
+    &lt;em>rendezvous (or meeting point)&lt;/em>&amp;nbsp;and are the hard parts of concurrency modeling.&amp;nbsp; Sharing data and&#xD;
+    information is a common reason for threads to rendezvous and synchronize.&amp;nbsp; Another is the need to control and&#xD;
+    coordinate asynchronously executing system elements.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The four major activities done in the specification of the concurrency and resource architecture are 1) specify the&#xD;
+    tasks, 2) specify the resources and how they are to be shared, 3)&amp;nbsp; specify the scheduling patterns to be used, and&#xD;
+    4) specify how the tasks will synchronize when necessary.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In the UML, concurrency units are specified as&amp;nbsp;«active» objects. These objects are special in that they create the&#xD;
+    OS task thread in which they run, and they have the explicit responsibility to accept asynchronous events and delegate&#xD;
+    them to their internal parts. The semantic classes from the object analysis model (PIM) are ultimately added to these&#xD;
+    «active» objects as parts. Thus, these tasks organize and orchestrate the behavior of the semantic classes. Resources&#xD;
+    are classes or objects that have a finite capacity of some kind. An important aspects of this view is how these&#xD;
+    resources are safely shared by multiple threads and the synchronization decisions that govern their interaction.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While the UML is fully capable of representing all aspects of concurrency and resource management, the UML Profile for&#xD;
+    Scheduleability, Performance and Time, an OMG standard (available at &lt;a&#xD;
+    href=&quot;http://www.omg.org/&quot;>&lt;u>http://www.omg.org/&lt;/u>&lt;/a>), specifies a standard way of capturing various qualities of&#xD;
+    service related to concurrency, such as priority, periodicity, worst-case execution time, blocking time, deadlines, and&#xD;
+    so on.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Care must be taken to avoid deadlock - a condition in which expectations can never, in principle, be met. Performance&#xD;
+    is one of the primary considerations that drive the strategic decisions in this architectural view; performance&#xD;
+    analysis tools can perform various kinds of analyses to determine the scheduleability (ability of a set of tasks to&#xD;
+    always meet their deadlines); of these, Rate Monotonic Analysis (RMA) is the most common.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A concurrent thread is represented as an «active» object in the UML. The &quot;passive&quot; or &quot;semantic&quot; objects that do the&#xD;
+    real work of the system are contained as parts within these «active» objects. Properties (e.g. tags) can be used to&#xD;
+    specify concurrency-specific values such as priority, periodicity, and worst-case execution time. If desired, the UML&#xD;
+    Profile for Scheduleability, Performance, and Time specifies a standard set of stereotypes, tags, and constraints for&#xD;
+    detailed concurrency modeling.&amp;nbsp; An important view is the so-called Task Diagram, which is simply a class (or&#xD;
+    structure) diagram which emphasizes the concurrency units, their relations, and their rendezvous-related elements (e.g.&#xD;
+    semaphores and message queues).&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

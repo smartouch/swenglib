@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Ap6ZAMuT8LKdiB-FyUrBbQ" name="service_soaml,_9jRdMFbAEd6MCpkuB85p5g" guid="-Ap6ZAMuT8LKdiB-FyUrBbQ" changeDate="2009-10-13T10:56:56.812-0700" version="7.5.0">
+  <copyrightStatement href="uma://_4eYbIEcWEd6GBq2DuQ5crg#_6LLxwLNfEd6JDp2szLeSrA"/>
+  <mainDescription>&lt;p>&#xD;
+    Usage:&amp;nbsp; &quot;ServicePoint&quot; stereotypes UML Port&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>A ServicePoint is a mechanism by which a provider &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>Participant&lt;/a> makes available &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp-ibm/guidances/concepts/service_2D3C4FFE.html&quot; guid=&quot;_OMw8cEozEd6D_7XK49c0nw&quot;>services&lt;/a> that meet the needs of consumer requests as defined by &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>ServiceInterfaces&lt;/a>, Interfaces, and &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_contract_soaml_E57B30D4.html&quot; guid=&quot;_IhtgsFbBEd6MCpkuB85p5g&quot;>ServiceContracts&lt;/a>. A ServicePoint is represented by a UML Port on a Participant&#xD;
+    stereotyped as a &quot;ServicePoint.&quot;&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>By referencing a ServiceInterface, a ServicePoint&amp;nbsp;includes both&amp;nbsp;the specification of the value&#xD;
+    offered to another and how that value is offered. A ServicePoint is the visible point at which consumer requests are&#xD;
+    connected to providers, and through which they interact in order to produce some real world effect.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>A ServicePoint&amp;nbsp;also can be viewed as the offer of some service or set of related services provided&#xD;
+    by a provider Participant and consumed by some consumer Participants that has some value, or achieves some objective of&#xD;
+    the connected parties. A ServicePoint is distinguished from a simple Operation in that it&amp;nbsp;can involve a&#xD;
+    conversation between the parties as specified by some communication protocol that is necessary to meet the common&#xD;
+    objective.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>The capabilities provided through the ServicePoint -- its provided interfaces -- are derived from the&#xD;
+    interfaces realized by the ServicePoint's ServiceInterface and further detailed in the ServiceContract. The&#xD;
+    capabilities required of consumers in order to use the ServicePoint -- its required interfaces -- are derived from the&#xD;
+    interfaces used by the&amp;nbsp;ServicePoint's ServiceInterface. These are the same as the provided and required interfaces&#xD;
+    of the Port that is a generalization of ServicePoint.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;3&quot;>&lt;strong>Semantics&lt;/strong>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>A ServicePoint represents an interaction point through which a providing Participant with&#xD;
+    capabilities to provide a service interacts with a consuming participant having compatible needs. It represents a part&#xD;
+    at the end of a ServiceChannel connection and the point through which a provider satisfies a request.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>A ServicePoint is typed by an Interface or ServiceInterface that, possibly together with&#xD;
+    a ServiceContract, completely characterizes specific capabilities of the producing and consuming participants'&#xD;
+    responsibilities with respect to that service. This includes provided interfaces that designate the capabilities of the&#xD;
+    Participant through this ServicePoint, and the required interfaces that represent what the Participant&amp;nbsp;requires of&#xD;
+    consumers in order to use the provided capabilities. It also includes any protocols the providing Participant requires&#xD;
+    consumers to follow in the use of the capabilities of the ServicePoint.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>If the type of a ServicePoint is a ServiceInterface, then the&#xD;
+    ServicePoint's provided Interfaces are the Interfaces realized by the ServiceInterface, while its required Interfaces&#xD;
+    are those used by the ServiceInterface. If the type of a ServicePoint is a simple Interface, then the provided&#xD;
+    interface is that Interface and there is no required Interface and no protocol. If the ServiceInterface or UML&#xD;
+    interface typing a ServicePoint is defined as a role within a ServiceContract, then the ServicePoint (and Participant)&#xD;
+    is bound by the semantics and constraints of that ServiceContract.&lt;/font>&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;strong>&lt;font size=&quot;3&quot;>Possible Forthcoming Change in Stereotype Name&lt;/font>&lt;/strong>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>The Rational SOMA 2.9 Practices have been developed using the Beta 1 version of the &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/whitepapers/soaml_specification_8B377FF3.html&quot; guid=&quot;_FYb84EovEd6D_7XK49c0nw&quot;>SoaML Specification&lt;/a>, which was released April 1, 2009.&amp;nbsp; Some changes are to be&#xD;
+    expected between the Beta 1 specification and the final specification.&amp;nbsp; For example, we are aware that the SoaML&#xD;
+    Specification Committee is (as of mid-October, 2009) preparing to vote on a proposal to rename the ServicePoint and &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/request_point_soaml_DD83CF2.html&quot; guid=&quot;_5DYKcFbAEd6MCpkuB85p5g&quot;>RequestPoint&lt;/a> stereotypes to &quot;Service&quot; and &quot;Request&quot;, respectively.&amp;nbsp; If this&#xD;
+    proposal is accepted, this change will be incorporated into a future release of Rational SOMA.&lt;/font>&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-rpVNRaD_IH18rjsKkKeFBQ" name="opt_deployment,_5b9nQLB2Ed-_-u_W99sqSA" guid="-rpVNRaD_IH18rjsKkKeFBQ" changeDate="2010-10-20T10:29:58.203-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    In the simplest case, the software is being targeted towards an existing and understood hardware architecture. In this&#xD;
+    case, the deployment view is focused on location of the software architectural units. In the general system engineering&#xD;
+    case, allocations are made by the system engineer to optimize various qualities of the system, such as manufacturing&#xD;
+    cost, development cost, heat, weight, performance, etc.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The allocation of software to hardware may be done either symmetrically (dynamically) or asymmetrically (at design&#xD;
+    time).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    UML provides deployment diagrams specifically to show the distribution architecture, class diagrams can be better used&#xD;
+    for this purpose.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_45txoNxvEd-iT-dJmEtOOg" name="Specify the inter-disciplinary interfaces" guid="_45txoNxvEd-iT-dJmEtOOg">
+    <sectionDescription>This step determines how the multiple disciplines will collaborate to achieve the functionality and performance required of&#xD;
+the architectural unit of which they are a part. For the software-digital electronics, this is often accomplished by adding&#xD;
+metadata into tags describing the type of interface (e.g. port, interrupt, or memory-mapped), the location or address, the&#xD;
+meanings of the bits involved, and the qualities of service (e.g. response time).</sectionDescription>
+  </sections>
+  <sections xmi:id="_5-Gm0NxvEd-iT-dJmEtOOg" name="Identify the engineering disciplines involved" guid="_5-Gm0NxvEd-iT-dJmEtOOg">
+    <sectionDescription>&lt;p>&#xD;
+    The engineering disciplines managed with the deployment architecture most typically include (but are not limited to):&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Software&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Digital electronics&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Analog electronics&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Mechanical design&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Chemical design&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optical design&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Not all disciplines may be significant in any particular project.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_7AROcNxvEd-iT-dJmEtOOg" name="Allocate responsibilities to engineering disciplines" guid="_7AROcNxvEd-iT-dJmEtOOg">
+    <sectionDescription>&lt;p>&#xD;
+    This step allocates responsibilities (functionality and qualities of service) to the different engineering disciplines&#xD;
+    involved.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is most often done at the subsystem level of abstraction. That is, subsystems are composed of multiple engineering&#xD;
+    disciplines, and the allocation to the disciplines is done on a per subsystem basis.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_72NX8NxvEd-iT-dJmEtOOg" name="Perform tradeoff analysis" guid="_72NX8NxvEd-iT-dJmEtOOg">
+    <sectionDescription>&lt;p>&#xD;
+    It is important to obtain an optimal allocation of responsibilities among the different engineering disciplines.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        You must first identify key system functions and optimization criteria within scope.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Rank the optimization criteria in order of criticality&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify possible solutions and perform a Measure of Effectiveness (MoE) analysis for each solution.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Finally, select the best solution (the one with the best MoE score)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <purpose>The purpose of the deployment architecture is to allocate responsibilities and define interfaces among the different&#xD;
+engineering disciplines of software, digital electronics, analog electronics, mechanical design, chemical design, etc.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

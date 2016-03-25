@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_pE4_gLzLEeG8bpwvoltpmg" guid="_pE4_gLzLEeG8bpwvoltpmg">
+    <resourceDescriptors xmi:id="_pE4_gbzLEeG8bpwvoltpmg" id="-6wA_51yNkW18-3AZmVjYAA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_YNmX8MU_EeGvoMYeYF8yvg" id="-WpFCQ_Is-Pyy-PBf7rf9mA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_YNr3gMU_EeGvoMYeYF8yvg" id="-W_c_FgkhwBgTDBAOeEqLzA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_YNx-IMU_EeGvoMYeYF8yvg" id="-3H39dD2xSUkfAWkQDiimIg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_pD9ycLzLEeG8bpwvoltpmg" name="milestone_review" guid="_pD9ycLzLEeG8bpwvoltpmg">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_BWdBEMU_EeGvoMYeYF8yvg" name="organize_review" guid="_BWdBEMU_EeGvoMYeYF8yvg" presentationName="Organize Review" briefDescription="This task describes how to facilitate the review process and ensure the review is undertaken appropriately. " superActivities="_pD9ycbzLEeG8bpwvoltpmg" linkToPredecessor="_D4bYwMxJEeGgwYAKZp_XKw" mandatoryInput="_BXMA4MU_EeGvoMYeYF8yvg" optionalInput="_BXMA4sU_EeGvoMYeYF8yvg _BXMA5MU_EeGvoMYeYF8yvg" output="_BXMA5MU_EeGvoMYeYF8yvg">
+      <methodElementProperty xmi:id="_69KG4MxIEeGgwYAKZp_XKw" name="wbe_GlobalPresentedAfter" value="_5j2xoMxIEeGgwYAKZp_XKw"/>
+      <concepts href="uma://_29sv8BETEd-nONyo76otpQ#_29swBxETEd-nONyo76otpQ"/>
+      <toolmentor href="uma://_29sv8BETEd-nONyo76otpQ#_29swDhETEd-nONyo76otpQ"/>
+      <Task href="uma://_29sv8BETEd-nONyo76otpQ#{F080799F-6A5B-40B9-ACB1-654A7741CADD}"/>
+      <selectedSteps href="uma://_2eUCcNnmEdmO6L4XMImrsA#_V8PB4NnnEdmO6L4XMImrsA"/>
+      <selectedSteps href="uma://_2eUCcNnmEdmO6L4XMImrsA#_V8PB4dnnEdmO6L4XMImrsA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BXMA4MU_EeGvoMYeYF8yvg" name="project_work_slot" guid="_BXMA4MU_EeGvoMYeYF8yvg" presentationName="[Project Work]" briefDescription="This slot serves as an abstraction for any type of work being done on the project. It could be represented as a work items list, an operational schedule, a work breakdown structure, and so on." isPlanned="false" superActivities="_pD9ycbzLEeG8bpwvoltpmg">
+      <methodElementProperty xmi:id="_BXMA4cU_EeGvoMYeYF8yvg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_vJYucEfUEdyiPI8btkmvmw#_1QZI8EfUEdyiPI8btkmvmw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BXMA4sU_EeGvoMYeYF8yvg" name="project_definition_and_scope_slot" guid="_BXMA4sU_EeGvoMYeYF8yvg" presentationName="[Project Definition and Scope]" briefDescription="This slot serves as an abstraction of high-level artifacts that define the project and its scope. Typical examples of such artifacts could be a project definition, and a high-level project schedule identifying major milestones and major deliverables." isPlanned="false" superActivities="_pD9ycbzLEeG8bpwvoltpmg">
+      <methodElementProperty xmi:id="_BXMA48U_EeGvoMYeYF8yvg" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_vJYucEfUEdyiPI8btkmvmw#_RJMUcNpUEdyzZqGyZ7hwdw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BXMA5MU_EeGvoMYeYF8yvg" name="review_record" guid="_BXMA5MU_EeGvoMYeYF8yvg" presentationName="Review Record" briefDescription="Created to capture the results of a review activity in which one or more project artifacts are reviewed. " isPlanned="false" superActivities="_pD9ycbzLEeG8bpwvoltpmg">
+      <methodElementProperty xmi:id="_BXMA5cU_EeGvoMYeYF8yvg" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-WpFCQ_Is-Pyy-PBf7rf9mA" href="uma://-6wA_51yNkW18-3AZmVjYAA#-WpFCQ_Is-Pyy-PBf7rf9mA"/>
+      <WorkProduct href="uma://_3LCXQCFKEd271ouXnKy9Cg#{4047B5B0-5FB7-4960-8A7E-451719D85DFF}"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_B2qyMMU_EeGvoMYeYF8yvg" name="conduct_review" guid="_B2qyMMU_EeGvoMYeYF8yvg" presentationName="Conduct a Review" briefDescription="This task describes how to facilitate a review to maximize the productivity of the reviewers and meet defined quality requirements. " superActivities="_pD9ycbzLEeG8bpwvoltpmg" linkToPredecessor="_kNNkkMU_EeGvoMYeYF8yvg" mandatoryInput="_BXMA4MU_EeGvoMYeYF8yvg" optionalInput="_BXMA5MU_EeGvoMYeYF8yvg _BXMA4sU_EeGvoMYeYF8yvg" output="_BXMA5MU_EeGvoMYeYF8yvg">
+      <methodElementProperty xmi:id="_6q8VgMxIEeGgwYAKZp_XKw" name="wbe_GlobalPresentedAfter" value="_BWdBEMU_EeGvoMYeYF8yvg"/>
+      <presentation xmi:id="-W_c_FgkhwBgTDBAOeEqLzA" href="uma://-6wA_51yNkW18-3AZmVjYAA#-W_c_FgkhwBgTDBAOeEqLzA"/>
+      <concepts href="uma://_29sv8BETEd-nONyo76otpQ#_29swBxETEd-nONyo76otpQ"/>
+      <toolmentor href="uma://_29sv8BETEd-nONyo76otpQ#_smckACL1Ed-i2-vfa43egg"/>
+      <Task href="uma://_29sv8BETEd-nONyo76otpQ#{01C0BC09-C421-438A-B4C4-351C46A244C9}"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_CTppIMU_EeGvoMYeYF8yvg" name="follow_up_review" guid="_CTppIMU_EeGvoMYeYF8yvg" presentationName="Follow up a Review" briefDescription="This task lists the actions which must result from a review." superActivities="_pD9ycbzLEeG8bpwvoltpmg" linkToPredecessor="_kpIEgMU_EeGvoMYeYF8yvg" mandatoryInput="_BXMA5MU_EeGvoMYeYF8yvg">
+      <methodElementProperty xmi:id="_6WRtEMxIEeGgwYAKZp_XKw" name="wbe_GlobalPresentedAfter" value="_B2qyMMU_EeGvoMYeYF8yvg"/>
+      <presentation xmi:id="-3H39dD2xSUkfAWkQDiimIg" href="uma://-6wA_51yNkW18-3AZmVjYAA#-3H39dD2xSUkfAWkQDiimIg"/>
+      <Task href="uma://_29sv8BETEd-nONyo76otpQ#_29swARETEd-nONyo76otpQ"/>
+      <selectedSteps href="uma://-MfaHZYGzr0usn85ZExXG6Q#_MFovcBWoEd-I57lRAWnuXA"/>
+      <selectedSteps href="uma://-MfaHZYGzr0usn85ZExXG6Q#_N3MMoBWoEd-I57lRAWnuXA"/>
+      <selectedSteps href="uma://-MfaHZYGzr0usn85ZExXG6Q#_P9JzkBWoEd-I57lRAWnuXA"/>
+      <selectedSteps href="uma://-MfaHZYGzr0usn85ZExXG6Q#_RtESABWoEd-I57lRAWnuXA"/>
+      <selectedSteps href="uma://-MfaHZYGzr0usn85ZExXG6Q#_TeBSQBWoEd-I57lRAWnuXA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_kNNkkMU_EeGvoMYeYF8yvg" guid="_kNNkkMU_EeGvoMYeYF8yvg" pred="_BWdBEMU_EeGvoMYeYF8yvg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_kpIEgMU_EeGvoMYeYF8yvg" guid="_kpIEgMU_EeGvoMYeYF8yvg" pred="_B2qyMMU_EeGvoMYeYF8yvg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_5j2xoMxIEeGgwYAKZp_XKw" name="create_baseline" guid="_5j2xoMxIEeGgwYAKZp_XKw" presentationName="Create Baseline" briefDescription="This task creates the baseline in preparation for a review." superActivities="_pD9ycbzLEeG8bpwvoltpmg" output="_5j3YsMxIEeGgwYAKZp_XKw">
+      <methodElementProperty xmi:id="_6WSUIMxIEeGgwYAKZp_XKw" name="wbe_GlobalPresentedAfter" value="_pD9ycbzLEeG8bpwvoltpmg"/>
+      <Task href="uma://_GMW2QLS7EeGqmsDJBiIzJg#_YrMSgMxIEeGgwYAKZp_XKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_5j3YsMxIEeGgwYAKZp_XKw" name="baseline" guid="_5j3YsMxIEeGgwYAKZp_XKw" presentationName="Baseline" briefDescription="This artifact captures a snapshot of the system configuration information for the product prior to review." isPlanned="false" superActivities="_pD9ycbzLEeG8bpwvoltpmg">
+      <methodElementProperty xmi:id="_5j3YscxIEeGgwYAKZp_XKw" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_GMW2QLS7EeGqmsDJBiIzJg#_os5bkMxIEeGgwYAKZp_XKw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_D4bYwMxJEeGgwYAKZp_XKw" guid="_D4bYwMxJEeGgwYAKZp_XKw" pred="_5j2xoMxIEeGgwYAKZp_XKw"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_pD9ycbzLEeG8bpwvoltpmg" name="milestone_review" guid="_pD9ycbzLEeG8bpwvoltpmg" presentationName="Milestone Review" breakdownElements="_5j2xoMxIEeGgwYAKZp_XKw _BWdBEMU_EeGvoMYeYF8yvg _BXMA4MU_EeGvoMYeYF8yvg _BXMA4sU_EeGvoMYeYF8yvg _BXMA5MU_EeGvoMYeYF8yvg _B2qyMMU_EeGvoMYeYF8yvg _CTppIMU_EeGvoMYeYF8yvg _5j3YsMxIEeGgwYAKZp_XKw">
+      <presentation xmi:id="-6wA_51yNkW18-3AZmVjYAA" href="uma://-6wA_51yNkW18-3AZmVjYAA#-6wA_51yNkW18-3AZmVjYAA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

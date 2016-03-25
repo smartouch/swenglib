@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:PracticeDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-mR5qOhXNPJ8Unrbvw7cM0w" name="joint_realization,_rEYNEJi4Ed6JmoH2XFiafA" guid="-mR5qOhXNPJ8Unrbvw7cM0w" changeDate="2009-10-28T11:41:40.015-0700" version="7.5.0">
+  <additionalInfo>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        An engineering paradigm for Service Oriented Architecture: &lt;a&#xD;
+        href=&quot;http://www.ibm.com/developerworks/rational/library/may07/densmore-bohn/&quot;>&lt;u>http://www.ibm.com/developerworks/rational/library/may07/densmore-bohn/&lt;/u>&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Model Driven Systems Development with Rational Products - Redbook: &lt;a&#xD;
+        href=&quot;http://www.redbooks.ibm.com/abstracts/sg247368.html?Open&quot;>&lt;u>http://www.redbooks.ibm.com/abstracts/sg247368.html?Open&lt;/u>&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></additionalInfo>
+  <problem>&lt;p>&#xD;
+    This practice focuses on integrating various viewpoints to reason concurrently about different systems concerns.&#xD;
+    Localities are defined to show distribution of responsibilities to processing locations. Mapping of the&#xD;
+    responsibilities through white box activity diagrams for flows of a use-case to parallel architectural representations&#xD;
+    from different viewpoints,&amp;nbsp;for example&amp;nbsp;security, distribution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Value proposition: concurrently optimizes the entire system through parallel perspectives which unifies stakeholders&#xD;
+    and shortens time to agree the target system architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In developing the system model, use cases are written, system components are defined, and the interactions between the&#xD;
+    components are described. This is standard practice for modeling a system. For large-scale developments, we must design&#xD;
+    across multiple viewpoints concurrently, distributing functionality to the various pieces of the system. We also&#xD;
+    decompose the system, divide and suballocate the requirements, and develop links for traceability purposes. The concept&#xD;
+    for doing this is called Joint Realization. One mechanism for connecting all of these items is a joint realization&#xD;
+    table (JRT). The joint realization method is how the JRT is completed, and is therefore the process by which&#xD;
+    decomposition is accomplished.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A viewpoint is defined as a subset of the architecture model that addresses a certain set of engineering concerns. The&#xD;
+    same artifact can appear in more than one viewpoint. Viewpoints allow framework users to separately address different&#xD;
+    engineering concerns while maintaining an integrated, consistent representation of the underlying design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A particular viewpoint might not be useful at all model levels. For example, hardware developers are a category of&#xD;
+    (internal) program stakeholders concerned with the allocation of functionality and distribution of hardware within the&#xD;
+    system. However, at the analysis model level, decisions about where functionality will be implemented (in hardware,&#xD;
+    software, or workers) have not yet been made. As a result, there is typically no need for a hardware viewpoint at the&#xD;
+    analysis model level. However, if the system involves actual hardware development, then one certainly does need a&#xD;
+    hardware viewpoint at the more specific (lower) model levels. Although different architectures require different sets&#xD;
+    of viewpoints, almost all require the logical and distribution viewpoints.&#xD;
+&lt;/p></problem>
+  <application>Review key concepts: viewpoint, view, locality.</application>
+</org.eclipse.epf.uma:PracticeDescription>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_2dicgRTIEd6-CtZFHiHFGA" guid="_2dicgRTIEd6-CtZFHiHFGA">
+    <resourceDescriptors xmi:id="_2dicghTIEd6-CtZFHiHFGA" id="-uTaU8FdRGx7yfgmP1G1AWw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_2bmi0BTIEd6-CtZFHiHFGA" name="balance_and_authorize_portfolio" guid="_2bmi0BTIEd6-CtZFHiHFGA">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-nwr8BTIEd6-CtZFHiHFGA" name="consolidate_demand" guid="_-nwr8BTIEd6-CtZFHiHFGA" presentationName="Consolidate Demand" briefDescription="Provide a complete inventory of all components that are works in progress, as well as a complete and accurate representation of the effort required to finish all work in progress." superActivities="_2bmi0RTIEd6-CtZFHiHFGA">
+      <Task href="uma://_3X99EP7SEd2qlKqF0pYYYg#_k4v9EA9XEd6LqqyVYr5Pow"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="__Ma4MBTIEd6-CtZFHiHFGA" name="consolidate_supply" guid="__Ma4MBTIEd6-CtZFHiHFGA" presentationName="Consolidate Supply" briefDescription="Perform a complete and accurate assessment of capacity availability to avoid over-booking resources." superActivities="_2bmi0RTIEd6-CtZFHiHFGA">
+      <Task href="uma://_3X99EP7SEd2qlKqF0pYYYg#_hiEVIA9XEd6LqqyVYr5Pow"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="__7hZ4BTIEd6-CtZFHiHFGA" name="optimize_portfolio" guid="__7hZ4BTIEd6-CtZFHiHFGA" presentationName="Optimize Portfolio" briefDescription="Optimize the portfolio by selecting the set of components that generate the most value and minimize overall portfolio risk." superActivities="_2bmi0RTIEd6-CtZFHiHFGA">
+      <methodElementProperty xmi:id="_2VWJgbemEd-oHLor78AFuw" name="descriptor_customization" value="2"/>
+      <Task href="uma://_3X99EP7SEd2qlKqF0pYYYg#_ZN0nAA9XEd6LqqyVYr5Pow"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_BcsRsBTJEd6-CtZFHiHFGA" name="authorize_and_assign_components" guid="_BcsRsBTJEd6-CtZFHiHFGA" presentationName="Authorize and Assign Components" briefDescription="Authorize and assign work within the portfolio that can be successfully executed by the organization." superActivities="_2bmi0RTIEd6-CtZFHiHFGA" linkToPredecessor="_ffZ3YBTJEd6-CtZFHiHFGA">
+      <Task href="uma://_3X99EP7SEd2qlKqF0pYYYg#_c6Y_YA9XEd6LqqyVYr5Pow"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_ffZ3YBTJEd6-CtZFHiHFGA" guid="_ffZ3YBTJEd6-CtZFHiHFGA" pred="__7hZ4BTIEd6-CtZFHiHFGA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_qPzHADtZEd6EJ5PABot5eA" name="portfolio_analyst" guid="_qPzHADtZEd6EJ5PABot5eA" presentationName="Portfolio Analyst" suppressed="true" isPlanned="false" superActivities="_2bmi0RTIEd6-CtZFHiHFGA" responsibleFor="_qPzHBTtZEd6EJ5PABot5eA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_qPzHAjtZEd6EJ5PABot5eA" name="resource_mgr" guid="_qPzHAjtZEd6EJ5PABot5eA" presentationName="Resource Manager" suppressed="true" isPlanned="false" superActivities="_2bmi0RTIEd6-CtZFHiHFGA" responsibleFor="_qPzHBjtZEd6EJ5PABot5eA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_qPzHBTtZEd6EJ5PABot5eA" name="components_list" guid="_qPzHBTtZEd6EJ5PABot5eA" presentationName="Components List" briefDescription="This artifact contains the list of components proposed and carried out as part of the organization's portfolio." suppressed="true" isPlanned="false" superActivities="_2bmi0RTIEd6-CtZFHiHFGA">
+      <templates href="uma://_3X99EP7SEd2qlKqF0pYYYg#_xkjy4ETBEd6vXNfve8SdIg"/>
+      <WorkProduct href="uma://_3X99EP7SEd2qlKqF0pYYYg#_ayLDUC-QEd6C0qOQeF7hUA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_qPzHBjtZEd6EJ5PABot5eA" name="resources_list" guid="_qPzHBjtZEd6EJ5PABot5eA" presentationName="Resources List" briefDescription="This artifact captures data about an organization's consolidated resources capacity." suppressed="true" isPlanned="false" superActivities="_2bmi0RTIEd6-CtZFHiHFGA">
+      <WorkProduct href="uma://_3X99EP7SEd2qlKqF0pYYYg#_55yHEDQbEd6QsN5bdDcYQg"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_2bmi0RTIEd6-CtZFHiHFGA" name="balance_and_authorize_portfolio" guid="_2bmi0RTIEd6-CtZFHiHFGA" presentationName="Balance and Authorize Portfolio" briefDescription="This activity captures the flow that compares all new work elements to all elements that are works in progress. This helps an organization to identify any addition, removal, or change required to maintain an optimal portfolio." breakdownElements="_-nwr8BTIEd6-CtZFHiHFGA __Ma4MBTIEd6-CtZFHiHFGA __7hZ4BTIEd6-CtZFHiHFGA _BcsRsBTJEd6-CtZFHiHFGA _qPzHADtZEd6EJ5PABot5eA _qPzHAjtZEd6EJ5PABot5eA _qPzHBTtZEd6EJ5PABot5eA _qPzHBjtZEd6EJ5PABot5eA">
+      <methodElementProperty xmi:id="_2VpEcLemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-uTaU8FdRGx7yfgmP1G1AWw" href="uma://-uTaU8FdRGx7yfgmP1G1AWw#-uTaU8FdRGx7yfgmP1G1AWw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

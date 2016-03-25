@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-6hyoLt5DAv-VvXjDfml4AQ" name="identify_candidate_services_from_domain_models,_WFBT4FIPEd6lNtylJFsPIg" guid="-6hyoLt5DAv-VvXjDfml4AQ" changeDate="2009-08-16T12:58:09.828-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    This task leverages the best practices described in&amp;nbsp;&lt;a class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/supportingmaterials/pattern_06_derive_atomic_services_from_domain_model_22D3F391.html&quot; guid=&quot;_ales0HobEd6spLUpguTNDw&quot;>Pattern 06: Derive Atomic Services from the Domain Model&lt;/a>.&amp;nbsp; It uses domain&#xD;
+    models (also known as&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/information_model_7F8FC275.html&quot; guid=&quot;_GjvrcIB_Ed6gDe17473oSQ&quot;>information models&lt;/a>, or&amp;nbsp;conceptual data models)&amp;nbsp;as input and identifies a&#xD;
+    set of candidate services that are included in the project candidate service portfolio. These candidate services might&#xD;
+    yet require additional refinement; however, the steps included here provide an effective manner in which to produce an&#xD;
+    initial set of candidates.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In addition to mapping candidate services on a one-to-one basis to the domain types, some effort&amp;nbsp;needs to&amp;nbsp;be&#xD;
+    made to provide services for accessing larger collections of related domain elements.&amp;nbsp;&amp;nbsp;Some data analysis is&#xD;
+    warranted to determine the affinities between data elements, so that these larger groups of closely-related domain&#xD;
+    elements can be identified.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_identification.base-ibm/guidances/examples/identifying_candidate_services_from_domain_models_D320DF6.html&quot; guid=&quot;_ar_D0HojEd6spLUpguTNDw&quot;>Example: Identifying Candidate Services from Domain Models&lt;/a>&amp;nbsp;give more details&#xD;
+    regarding the steps in this task.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    Identifying candidate services from domain elements is one of several schemes that complement each other during&#xD;
+    candidate services identification.&amp;nbsp; Omitting any of the methods increases the risk that some candidate services&#xD;
+    will not be discovered.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Significant organizations generally need to provide some mechanism for accessing their information resources in a&#xD;
+    uniform manner.&amp;nbsp; Services are not the only approach for doing so, but they do provide an easily-distributable&#xD;
+    solution for this problem.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_bAD3YHoYEd6spLUpguTNDw" name="Analyze the domain model and update it if necessary" guid="_bAD3YHoYEd6spLUpguTNDw">
+    <sectionDescription>&lt;p>&#xD;
+    You&amp;nbsp;will usually use a conceptual (domain) data model for this step.&amp;nbsp; Focus on ensuring that appropriate&#xD;
+    relationships are reflected in the model.&amp;nbsp; In particular, aggregational and compositional relationships are&#xD;
+    important, because their presence guides the determination of groups of data elements that have a strong affinity with&#xD;
+    each other.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If this examination identifies the need for additional aggregations and compositions, ensure that they are added to the&#xD;
+    model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If you (as the SOA Architect) need clarification on aspects of the data model, enlist the support of the Data&#xD;
+    Architect.&amp;nbsp; If any changes need to be made to the model, make the Data Architect aware of these.&amp;nbsp; If you are&#xD;
+    dealing with an Enterprise resource, it is likely that role will be responsible for making the changes.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_G4U3oHoZEd6spLUpguTNDw" name="Identify domain elements with strong affinities" guid="_G4U3oHoZEd6spLUpguTNDw">
+    <sectionDescription>It is likely that groups of domain elements will be identified that are frequently, if not always, accessed&#xD;
+together.&amp;nbsp; These are our affinity groups -- also known as domain type encapsulation clusters.</sectionDescription>
+  </sections>
+  <sections xmi:id="_F857wHoaEd6spLUpguTNDw" name="Map an information management service to each individual domain type" guid="_F857wHoaEd6spLUpguTNDw">
+    <sectionDescription>&lt;p>&#xD;
+    Provide the create, read, update, and delete (CRUD) operations for each domain type in a type-specific candidate service.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_c9I9MHoaEd6spLUpguTNDw" name="Map an information management service to each affinity group" guid="_c9I9MHoaEd6spLUpguTNDw">
+    <sectionDescription>These are used to provide access to portions of the&amp;nbsp;domain model&amp;nbsp;that commonly are manipulated and accessed&#xD;
+together.</sectionDescription>
+  </sections>
+  <sections xmi:id="_uolrQHoaEd6spLUpguTNDw" name="Update candidate service portfolio and service hierarchy" guid="_uolrQHoaEd6spLUpguTNDw">
+    <sectionDescription>Add the new candidate services to the candidate service portfolio.&amp;nbsp;&amp;nbsp; Position them within the candidate service&#xD;
+hierarchy.</sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    Corporate&amp;nbsp;information is a critically valuable resource.&amp;nbsp; With this task, you identify services that can be&#xD;
+    used to provide secure, uniform access to these resources.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

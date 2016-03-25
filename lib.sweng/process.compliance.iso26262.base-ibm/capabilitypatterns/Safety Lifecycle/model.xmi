@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_uXtn8AahEeKDn6MuflC_BA" guid="_uXtn8AahEeKDn6MuflC_BA">
+    <resourceDescriptors xmi:id="_uXtn8QahEeKDn6MuflC_BA" id="-iFW_wmY3PWg_QbLs8O5BYg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_uYK68AahEeKDn6MuflC_BA" id="-YOdhqYtqgnvgsaWT2zvsoQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_uYN-QAahEeKDn6MuflC_BA" id="-FuRYvVIEerx6AAnvvXfqjw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_uYPzcAahEeKDn6MuflC_BA" id="-5RzEBO8DmGlIN53PWVRRkg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_M5UjMKlOEeCdos1hFYnznA" name="Safety Lifecycle" guid="_M5UjMKlOEeCdos1hFYnznA">
+    <methodElementProperty xmi:id="_uq1nQBcTEeKv_4Jq8IF8rQ" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_e_5HAKlOEeCdos1hFYnznA" name="3.5 Item Definition" guid="_e_5HAKlOEeCdos1hFYnznA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_e_5HAalOEeCdos1hFYnznA" name="3.5 Item Definition" guid="_e_5HAalOEeCdos1hFYnznA" presentationName="3.5 Item Definition" briefDescription="The item definition stage relates to the gathering of information about the item and the organisation of tha information as a set of requirements" superActivities="_M5UjMalOEeCdos1hFYnznA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_aVsC4JXgEeCbdJb0WnOTDQ#_q11UGJXjEeCeRuB-coqLuQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_e_5HAqlOEeCdos1hFYnznA" name="3.6 Initiate Safety Lifecycle" guid="_e_5HAqlOEeCdos1hFYnznA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_e_5HA6lOEeCdos1hFYnznA" name="3.6 Initiate Safety Lifecycle" guid="_e_5HA6lOEeCdos1hFYnznA" presentationName="3.6 Initiate Safety Lifecycle" briefDescription="The initation of the safety lifecycle concerns the determination of the type of product to be developed (i.e. based upon existing product or a new product) and based upon this tailoring the safety lifecycle. It provides the rationale for the tailoring." superActivities="_M5UjMalOEeCdos1hFYnznA" linkToPredecessor="_wwZ7QKlOEeCdos1hFYnznA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_aVsC4JXgEeCbdJb0WnOTDQ#_ugZr95XkEeCeRuB-coqLuQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_wwZ7QKlOEeCdos1hFYnznA" guid="_wwZ7QKlOEeCdos1hFYnznA">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_aVsC4JXgEeCbdJb0WnOTDQ#_q11UGJXjEeCeRuB-coqLuQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_e_5HBKlOEeCdos1hFYnznA" name="3.7 Hazard analysis and risk assessment" guid="_e_5HBKlOEeCdos1hFYnznA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_e_5HBalOEeCdos1hFYnznA" name="3.7 Hazard analysis and risk assessment" guid="_e_5HBalOEeCdos1hFYnznA" briefDescription="The hazard analysis and risk assessment phase is used to identify potential failure modes and faults that could occur in the item to be developed and from this information the ASILs and safety goals of the item are determined." superActivities="_M5UjMalOEeCdos1hFYnznA" linkToPredecessor="_wwZ7QalOEeCdos1hFYnznA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_aVsC4JXgEeCbdJb0WnOTDQ#_y687oZaUEeCPtY0LnWkRDw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_wwZ7QalOEeCdos1hFYnznA" guid="_wwZ7QalOEeCdos1hFYnznA">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_aVsC4JXgEeCbdJb0WnOTDQ#_ugZr95XkEeCeRuB-coqLuQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_e_5HBqlOEeCdos1hFYnznA" name="3.8 Functional Safety Concept" guid="_e_5HBqlOEeCdos1hFYnznA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_e_5HB6lOEeCdos1hFYnznA" name="3.8 Functional Safety Concept" guid="_e_5HB6lOEeCdos1hFYnznA" briefDescription="The functional safety concept is derived from the initial hazard analysis and proposes an initial set of concepts that can be applied to improve the functional safety of the item under development." superActivities="_M5UjMalOEeCdos1hFYnznA" linkToPredecessor="_wwZ7QqlOEeCdos1hFYnznA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_aVsC4JXgEeCbdJb0WnOTDQ#_pUx4UZakEeCPtY0LnWkRDw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_wwZ7QqlOEeCdos1hFYnznA" guid="_wwZ7QqlOEeCdos1hFYnznA">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_aVsC4JXgEeCbdJb0WnOTDQ#_y687oZaUEeCPtY0LnWkRDw"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_oX9poKlOEeCdos1hFYnznA" name="5 Hardware product development" guid="_oX9poKlOEeCdos1hFYnznA">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_oX9poalOEeCdos1hFYnznA" name="5 Hardware product development" guid="_oX9poalOEeCdos1hFYnznA" briefDescription="Hardware product development deals with process of developing the HW with respect to to the safety goals that have been allocated to it. A large part of the HW development process deals with the analysis of hw failures and such as random hw failures. There is also a large amount of collaboration with the SW development cycle as HW-SW interface needs to be defined." superActivities="_M5UjMalOEeCdos1hFYnznA" linkToPredecessor="_wwZ7RalOEeCdos1hFYnznA __mYpUalUEeCImMeSDFMvWA" variabilityType="extends">
+        <presentation xmi:id="-iFW_wmY3PWg_QbLs8O5BYg" href="uma://-iFW_wmY3PWg_QbLs8O5BYg#-iFW_wmY3PWg_QbLs8O5BYg"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_SR6wYKJ7EeCyK4sysVB96g#_nIdhcaJ7EeCyK4sysVB96g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_wwZ7RalOEeCdos1hFYnznA" guid="_wwZ7RalOEeCdos1hFYnznA">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_SR6wYKJ7EeCyK4sysVB96g#_lSmMBaJ7EeCyK4sysVB96g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="__mYpUalUEeCImMeSDFMvWA" guid="__mYpUalUEeCImMeSDFMvWA" pred="_t1GOcalTEeCImMeSDFMvWA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_q_maQKlOEeCdos1hFYnznA" name="6 Software product development" guid="_q_maQKlOEeCdos1hFYnznA">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_q_maQalOEeCdos1hFYnznA" name="6 Software product development" guid="_q_maQalOEeCdos1hFYnznA" briefDescription="The software product development cycle details the tasks and activities to be carried out to develop the software. the development process takes a top down approach based upon architectural, component and unit design and then verifying and validating upto the point where the HW/SW integration occurs. The SW development process has a lot of interaction with the HW development process due to the need to define the HW/SW interfaces." superActivities="_M5UjMalOEeCdos1hFYnznA" linkToPredecessor="_wwZ7RqlOEeCdos1hFYnznA _--mQkKlUEeCImMeSDFMvWA" variabilityType="extends">
+        <presentation xmi:id="-YOdhqYtqgnvgsaWT2zvsoQ" href="uma://-iFW_wmY3PWg_QbLs8O5BYg#-YOdhqYtqgnvgsaWT2zvsoQ"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_SR6wYKJ7EeCyK4sysVB96g#_n-tM8aJ7EeCyK4sysVB96g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_wwZ7RqlOEeCdos1hFYnznA" guid="_wwZ7RqlOEeCdos1hFYnznA">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_SR6wYKJ7EeCyK4sysVB96g#_lSmMBaJ7EeCyK4sysVB96g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_--mQkKlUEeCImMeSDFMvWA" guid="_--mQkKlUEeCImMeSDFMvWA" pred="_t1GOcalTEeCImMeSDFMvWA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_q_maQqlOEeCdos1hFYnznA" name="4.8 Item Integration and testing" guid="_q_maQqlOEeCdos1hFYnznA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_q_maQ6lOEeCdos1hFYnznA" name="4.8 Item Integration and testing" guid="_q_maQ6lOEeCdos1hFYnznA" briefDescription="The item integration and test phase covers the integration of the item at vairous levels of Hierarchy starting with the HW-SW integration, followed by the Systems integration and then the integration of the system with the vehicle." superActivities="_M5UjMalOEeCdos1hFYnznA" linkToPredecessor="_wwZ7R6lOEeCdos1hFYnznA _wwZ7SKlOEeCdos1hFYnznA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_SR6wYKJ7EeCyK4sysVB96g#_p03dUaJ7EeCyK4sysVB96g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_wwZ7R6lOEeCdos1hFYnznA" guid="_wwZ7R6lOEeCdos1hFYnznA">
+        <pred xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_SR6wYKJ7EeCyK4sysVB96g#_n-tM8aJ7EeCyK4sysVB96g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_wwZ7SKlOEeCdos1hFYnznA" guid="_wwZ7SKlOEeCdos1hFYnznA">
+        <pred xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_SR6wYKJ7EeCyK4sysVB96g#_nIdhcaJ7EeCyK4sysVB96g"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_q_maRKlOEeCdos1hFYnznA" name="4.9 Safety validation" guid="_q_maRKlOEeCdos1hFYnznA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_q_maRalOEeCdos1hFYnznA" name="4.9 Safety validation" guid="_q_maRalOEeCdos1hFYnznA" briefDescription="This task is about testing the complete vehicle to ensure that the safety goals of the item are met." superActivities="_M5UjMalOEeCdos1hFYnznA" linkToPredecessor="_wwZ7SalOEeCdos1hFYnznA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_SR6wYKJ7EeCyK4sysVB96g#_p03dU6J7EeCyK4sysVB96g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_wwZ7SalOEeCdos1hFYnznA" guid="_wwZ7SalOEeCdos1hFYnznA">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_SR6wYKJ7EeCyK4sysVB96g#_p03dUaJ7EeCyK4sysVB96g"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_q_maRqlOEeCdos1hFYnznA" name="4.10 Functional safety " guid="_q_maRqlOEeCdos1hFYnznA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_q_maR6lOEeCdos1hFYnznA" name="4.10 Functional safety " guid="_q_maR6lOEeCdos1hFYnznA" briefDescription="The functional safety assessment report assesses each of the steps of the safety lifecycle as it appears in ISO 26262, vol 2, figure 2." superActivities="_M5UjMalOEeCdos1hFYnznA" linkToPredecessor="_wwZ7SqlOEeCdos1hFYnznA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_SR6wYKJ7EeCyK4sysVB96g#_p03dVaJ7EeCyK4sysVB96g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_wwZ7SqlOEeCdos1hFYnznA" guid="_wwZ7SqlOEeCdos1hFYnznA">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_SR6wYKJ7EeCyK4sysVB96g#_p03dU6J7EeCyK4sysVB96g"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_q_maSKlOEeCdos1hFYnznA" name="4.11 Product release" guid="_q_maSKlOEeCdos1hFYnznA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_q_maSalOEeCdos1hFYnznA" name="4.11 Product release" guid="_q_maSalOEeCdos1hFYnznA" briefDescription="The release for production confirms that the item is ready for series production and operation" superActivities="_M5UjMalOEeCdos1hFYnznA" linkToPredecessor="_wwZ7S6lOEeCdos1hFYnznA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_SR6wYKJ7EeCyK4sysVB96g#_p03dV6J7EeCyK4sysVB96g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_wwZ7S6lOEeCdos1hFYnznA" guid="_wwZ7S6lOEeCdos1hFYnznA">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_SR6wYKJ7EeCyK4sysVB96g#_p03dVaJ7EeCyK4sysVB96g"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_2xTGsKlOEeCdos1hFYnznA" name="7.5 Production" guid="_2xTGsKlOEeCdos1hFYnznA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_2xTGsalOEeCdos1hFYnznA" name="7.5 Production" guid="_2xTGsalOEeCdos1hFYnznA" briefDescription="This activity details the task required to put the item into production without violating its safety goals." superActivities="_M5UjMalOEeCdos1hFYnznA" linkToPredecessor="_P5K7UKlVEeCImMeSDFMvWA _SfBjQKlVEeCImMeSDFMvWA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_yhqQQJ5HEeCk2aQcgmZB_w#_B9wK0Z5IEeCk2aQcgmZB_w"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_P5K7UKlVEeCImMeSDFMvWA" guid="_P5K7UKlVEeCImMeSDFMvWA" pred="_q_maSalOEeCdos1hFYnznA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_SfBjQKlVEeCImMeSDFMvWA" guid="_SfBjQKlVEeCImMeSDFMvWA" pred="_BtWkkKlPEeCdos1hFYnznA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_3n1tIKlOEeCdos1hFYnznA" name="7.6 Operation, service and decomissioning" guid="_3n1tIKlOEeCdos1hFYnznA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_3n1tIalOEeCdos1hFYnznA" name="7.6 Operation, service and decomissioning" guid="_3n1tIalOEeCdos1hFYnznA" briefDescription="This activity details the tasks required to maintan the integrity of the item while it is in service and being decomissioned. This involves gathering data of its performance in field to provide evidence for the &quot;proven in use&quot; argument and also to ensure that no faults develop that could violate the safety goals of the item." superActivities="_M5UjMalOEeCdos1hFYnznA" linkToPredecessor="_QlkuUKlVEeCImMeSDFMvWA _mSOA8KlVEeCImMeSDFMvWA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_yhqQQJ5HEeCk2aQcgmZB_w#_EDRF0Z5IEeCk2aQcgmZB_w"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_QlkuUKlVEeCImMeSDFMvWA" guid="_QlkuUKlVEeCImMeSDFMvWA" pred="_2xTGsalOEeCdos1hFYnznA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_mSOA8KlVEeCImMeSDFMvWA" guid="_mSOA8KlVEeCImMeSDFMvWA" pred="_gBXgMKlQEeCdos1hFYnznA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_t1GOcKlTEeCImMeSDFMvWA" name="4. Systems Engineering for product development" guid="_t1GOcKlTEeCImMeSDFMvWA">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_t1GOcalTEeCImMeSDFMvWA" name="4. Systems Engineering for product development" guid="_t1GOcalTEeCImMeSDFMvWA" superActivities="_M5UjMalOEeCdos1hFYnznA" linkToPredecessor="_N_IQgKlVEeCImMeSDFMvWA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_N7g3gJdcEeCPtY0LnWkRDw#_N7g3gZdcEeCPtY0LnWkRDw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_N_IQgKlVEeCImMeSDFMvWA" guid="_N_IQgKlVEeCImMeSDFMvWA" pred="_e_5HB6lOEeCdos1hFYnznA"/>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_BtWkkKlPEeCdos1hFYnznA" name="Develop production plan" guid="_BtWkkKlPEeCdos1hFYnznA" presentationName="Develop production plan" briefDescription="The development of the production plan takes into account any safety related aspects of the production that may affect the functional safety of the item being produced." isPlanned="true" superActivities="_M5UjMalOEeCdos1hFYnznA" linkToPredecessor="_ReprYKlVEeCImMeSDFMvWA" mandatoryInput="_BtpfgKlPEeCdos1hFYnznA _BtpfgqlPEeCdos1hFYnznA _BtpfhKlPEeCdos1hFYnznA _BtpfhqlPEeCdos1hFYnznA _BtpfiKlPEeCdos1hFYnznA _BtpfiqlPEeCdos1hFYnznA _BtpfjKlPEeCdos1hFYnznA" optionalInput="_BtpfjqlPEeCdos1hFYnznA _BtpfkKlPEeCdos1hFYnznA" output="_BtpfkKlPEeCdos1hFYnznA" performedPrimarilyBy="_BtWkkalPEeCdos1hFYnznA _BtWkk6lPEeCdos1hFYnznA">
+      <methodElementProperty xmi:id="_8SLLABbkEeKv_4Jq8IF8rQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references org.eclipse.epf.uma.Task..com.ibm.rmc.affected_work_items..extra-reference-1=&quot;&quot; org.eclipse.epf.uma.Task..com.ibm.rmc.is_of_type..extra-reference-1=&quot;&quot; udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-FuRYvVIEerx6AAnvvXfqjw" href="uma://-iFW_wmY3PWg_QbLs8O5BYg#-FuRYvVIEerx6AAnvvXfqjw"/>
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_OAXvoKaBEeCmPtYkD7g0pw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_BtWkkalPEeCdos1hFYnznA" name="Process Engineer" guid="_BtWkkalPEeCdos1hFYnznA" presentationName="Process engineer" briefDescription="Defines the flow of the various processes in the development lifecycle, these proces can relate to the Safety, Operation or Production processes." isPlanned="false" superActivities="_M5UjMalOEeCdos1hFYnznA" modifies="_BtpfkKlPEeCdos1hFYnznA">
+      <methodElementProperty xmi:id="_uYUr8AahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_8SO1YBbkEeKv_4Jq8IF8rQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_RZsw0I30EeCXD5XcLandUA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_BtWkk6lPEeCdos1hFYnznA" name="Production Engineer" guid="_BtWkk6lPEeCdos1hFYnznA" presentationName="Production Engineer" briefDescription="The production engineer implements the production and manufacturing processes designed by the process engineer and ensures that they are efficient." isPlanned="false" superActivities="_M5UjMalOEeCdos1hFYnznA" modifies="_BtpfkKlPEeCdos1hFYnznA">
+      <methodElementProperty xmi:id="_uYUr8QahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_8SUU8BbkEeKv_4Jq8IF8rQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_8h_hEJEzEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BtpfgKlPEeCdos1hFYnznA" name="Requirements for production and operation HW" guid="_BtpfgKlPEeCdos1hFYnznA" presentationName="Requirements for production and operation HW" briefDescription="Derived safety requirements, that are needed to ensure that the HW item under development while undergoing production, in storage or transport does not does not violate any of its safety goals." isPlanned="false" superActivities="_M5UjMalOEeCdos1hFYnznA">
+      <methodElementProperty xmi:id="_uYUr8gahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_8SNAMBbkEeKv_4Jq8IF8rQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_P3j3MJA6EeCXD5XcLandUA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BtpfgqlPEeCdos1hFYnznA" name="Specification of dedicated measures" guid="_BtpfgqlPEeCdos1hFYnznA" presentationName="Specification of dedicated measures" briefDescription="Specification of the dedicated measures to be employed thus enabling parts with high ASIL ratings and safety characteristics to be used in a design providing this measures are met." isPlanned="false" superActivities="_M5UjMalOEeCdos1hFYnznA">
+      <methodElementProperty xmi:id="_uYUr8wahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_8STt4BbkEeKv_4Jq8IF8rQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_1E3jMJ2fEeCk2aQcgmZB_w"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BtpfhKlPEeCdos1hFYnznA" name="Release for production report" guid="_BtpfhKlPEeCdos1hFYnznA" presentationName="Release for production report" briefDescription="This document details the configuration and versions for the HW and SW of the item to be developed and can only be created once the functional safety assessment and safety cases are complete, providing satisfactory evidence of confidence in the functional safety of the item." isPlanned="false" superActivities="_M5UjMalOEeCdos1hFYnznA">
+      <methodElementProperty xmi:id="_uYUr9AahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_8SSfwBbkEeKv_4Jq8IF8rQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_dXCLQJz3EeCk2aQcgmZB_w"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BtpfhqlPEeCdos1hFYnznA" name="Decomisioning requirements" guid="_BtpfhqlPEeCdos1hFYnznA" presentationName="Decommissioning requirements" briefDescription="Safety requirements that need to be considered when decommissioning the item, so that no violation of the safety goals occur while the item is being decommissioned." isPlanned="false" superActivities="_M5UjMalOEeCdos1hFYnznA">
+      <methodElementProperty xmi:id="_uYUr9QahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_8SR4sBbkEeKv_4Jq8IF8rQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_NOjDAJA5EeCXD5XcLandUA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BtpfiKlPEeCdos1hFYnznA" name="Operation requirements" guid="_BtpfiKlPEeCdos1hFYnznA" presentationName="Operation requirements" briefDescription="Safety requirements that need to be considered when developing the operations/logistics plan required to produce the item, so that no violation of the safety goals occur during the transport or service of the item or any of its components." isPlanned="false" superActivities="_M5UjMalOEeCdos1hFYnznA">
+      <methodElementProperty xmi:id="_uYUr9gahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_8SNnQBbkEeKv_4Jq8IF8rQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_FAO9wJA5EeCXD5XcLandUA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BtpfiqlPEeCdos1hFYnznA" name="Production requirements" guid="_BtpfiqlPEeCdos1hFYnznA" presentationName="Production requirements" briefDescription="Safety requirements that need to be considered when producing the item, so that no violation of the safety goals occur while the item is being produced." isPlanned="false" superActivities="_M5UjMalOEeCdos1hFYnznA">
+      <methodElementProperty xmi:id="_uYUr9wahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_8SWxMBbkEeKv_4Jq8IF8rQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_-Uk-EJA4EeCXD5XcLandUA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BtpfjKlPEeCdos1hFYnznA" name="Service requirements" guid="_BtpfjKlPEeCdos1hFYnznA" presentationName="Service requirements" briefDescription="Safety requirements that need to be considered when the item is being maintained or serviced, so that no violation of the safety goals occur while the item is being maintained or serviced." isPlanned="false" superActivities="_M5UjMalOEeCdos1hFYnznA">
+      <methodElementProperty xmi:id="_uYUr-AahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_8SVjEBbkEeKv_4Jq8IF8rQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_JVP2MJA5EeCXD5XcLandUA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BtpfjqlPEeCdos1hFYnznA" name="Production control plan" guid="_BtpfjqlPEeCdos1hFYnznA" presentationName="Production control plan" briefDescription="The production control plan details how the production will be controlled to ensure that the quality of the item being produced is not reduced and none of its safety goals are violated. The production control plan specifies the production control measures." isPlanned="false" superActivities="_M5UjMalOEeCdos1hFYnznA">
+      <methodElementProperty xmi:id="_uYUr-QahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_8SQqkBbkEeKv_4Jq8IF8rQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_bCoW8KZ_EeCmPtYkD7g0pw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_BtpfkKlPEeCdos1hFYnznA" name="Production plan" guid="_BtpfkKlPEeCdos1hFYnznA" presentationName="Production plan" briefDescription="Details how the item will be produced without comprising the items safety goals." isPlanned="false" superActivities="_M5UjMalOEeCdos1hFYnznA">
+      <methodElementProperty xmi:id="_uYUr-gahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_8SPccBbkEeKv_4Jq8IF8rQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_X3FA8KZ_EeCmPtYkD7g0pw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_gBXgMKlQEeCdos1hFYnznA" name="Develop operations plan" guid="_gBXgMKlQEeCdos1hFYnznA" presentationName="Develop operations plan" briefDescription="To plan for the operational aspects of the items production, relating to the transport and storage conditions of an items components." isPlanned="true" superActivities="_M5UjMalOEeCdos1hFYnznA" linkToPredecessor="_ljbBQKlVEeCImMeSDFMvWA">
+      <methodElementProperty xmi:id="_8SXYQBbkEeKv_4Jq8IF8rQ" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references org.eclipse.epf.uma.Task..com.ibm.rmc.affected_work_items..extra-reference-1=&quot;&quot; org.eclipse.epf.uma.Task..com.ibm.rmc.is_of_type..extra-reference-1=&quot;&quot; udtList=&quot;&quot;/>"/>
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_8k0IAKlPEeCdos1hFYnznA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_ReprYKlVEeCImMeSDFMvWA" guid="_ReprYKlVEeCImMeSDFMvWA" pred="_t1GOcalTEeCImMeSDFMvWA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_ljbBQKlVEeCImMeSDFMvWA" guid="_ljbBQKlVEeCImMeSDFMvWA" pred="_t1GOcalTEeCImMeSDFMvWA"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_M5UjMalOEeCdos1hFYnznA" name="Safety Lifecycle" guid="_M5UjMalOEeCdos1hFYnznA" presentationName="Safety Lifecycle" briefDescription="Overarching view of the complete safety lifecycle of ISO 26262, from concept phase to Operation, Service and Decommissioning.&#xD;&#xA;This activity diagram can be used as the basis for understanding and tailoring of the safety lifecyle." breakdownElements="_e_5HAalOEeCdos1hFYnznA _e_5HA6lOEeCdos1hFYnznA _e_5HBalOEeCdos1hFYnznA _e_5HB6lOEeCdos1hFYnznA _oX9poalOEeCdos1hFYnznA _q_maQalOEeCdos1hFYnznA _q_maQ6lOEeCdos1hFYnznA _q_maRalOEeCdos1hFYnznA _q_maR6lOEeCdos1hFYnznA _q_maSalOEeCdos1hFYnznA _2xTGsalOEeCdos1hFYnznA _3n1tIalOEeCdos1hFYnznA _BtWkkKlPEeCdos1hFYnznA _BtWkkalPEeCdos1hFYnznA _BtWkk6lPEeCdos1hFYnznA _BtpfgKlPEeCdos1hFYnznA _BtpfgqlPEeCdos1hFYnznA _BtpfhKlPEeCdos1hFYnznA _BtpfhqlPEeCdos1hFYnznA _BtpfiKlPEeCdos1hFYnznA _BtpfiqlPEeCdos1hFYnznA _BtpfjKlPEeCdos1hFYnznA _BtpfjqlPEeCdos1hFYnznA _BtpfkKlPEeCdos1hFYnznA _gBXgMKlQEeCdos1hFYnznA _t1GOcalTEeCImMeSDFMvWA">
+      <presentation xmi:id="-5RzEBO8DmGlIN53PWVRRkg" href="uma://-iFW_wmY3PWg_QbLs8O5BYg#-5RzEBO8DmGlIN53PWVRRkg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

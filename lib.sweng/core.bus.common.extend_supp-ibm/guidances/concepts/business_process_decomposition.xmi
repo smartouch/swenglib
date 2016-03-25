@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-sPTpfeb2nQoYhlfbgvQp9g" name="business_process_decomposition,_0XDGMEozEd6D_7XK49c0nw" guid="-sPTpfeb2nQoYhlfbgvQp9g" changeDate="2009-08-29T09:24:11.046-0700" version="7.5.0">
+  <mainDescription>&lt;h3>&#xD;
+    Introduction&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.bus.common.extend-ibm/guidances/concepts/business_process_6DC80DFA.html&quot; guid=&quot;_zjPQgIqmEd64Ytrb_zySHw&quot;>Business process&lt;/a> models are used for many purposes, including business&#xD;
+    transformation and for&amp;nbsp;identifying candidate services.&amp;nbsp; High-level process models often suffice for business&#xD;
+    transformation analysis, but much lower-level models -- driving down to the level of fairly fine-grained process steps&#xD;
+    -- often are required for candidate service identification.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The following figure&amp;nbsp;shows process decomposition into sub-processes and use cases. The notion of a sub-process is&#xD;
+    a convenient construct used to denote further levels of refinement of a process, into its constituent parts&#xD;
+    (sub-processes), recursively.&amp;nbsp; Once decomposition into sub-processes reaches the point where further decomposition&#xD;
+    would have us dealing with&amp;nbsp;fine-grained user actions, we are at the level of leaf-level sub-processes and need to&#xD;
+    stop.&amp;nbsp; These leaf-level sub-processes are used to identify portions of the overall business process that are&#xD;
+    amenable to automation.&amp;nbsp; IT-level use-cases can then be defined which capture the goals of the actors which&#xD;
+    interact with the IT infrastructure.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp; &lt;img alt=&quot;&quot; src=&quot;resources/bus_proc_decomp_2.gif&quot; width=&quot;549&quot; height=&quot;262&quot; />&lt;br />&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Candidate services can be identified at essentially every level of the decomposed business process.&amp;nbsp; For example,&#xD;
+    a service might be identified which a consumer would use to initiate an entire business process.&amp;nbsp; More granular&#xD;
+    services could be used to provide entry to each sub-process.&amp;nbsp; Even lower-level candidate services could be mapped&#xD;
+    to the leaf-level sub-processes, and perhaps to the IT use-cases, themselves.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>&lt;font size=&quot;4&quot;>Business Process Models as Business Use Case Realizations&lt;/font>&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Business process models can be viewed as being equivalent to the realization of business use cases.&amp;nbsp; So, business&#xD;
+    use case refinement can be considered to be one aspect of business process decomposition.&amp;nbsp; Consider the following&#xD;
+    diagram:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;resources/bus_proc_decomp_1a.gif&quot; width=&quot;599&quot;     height=&quot;494&quot; />&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The lower-level, more detailed use cases are still use cases for the &lt;em>same business system&lt;/em> as the high-level&#xD;
+    use cases, that is they still represent a black-box view of the behavior of that business system. For each of these&#xD;
+    levels of use-case, there is a corresponding realization, which we can describe as a business process.&amp;nbsp; It is&#xD;
+    possible therefore to regard this kind of analysis as&amp;nbsp;one aspect&amp;nbsp;of process decomposition.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

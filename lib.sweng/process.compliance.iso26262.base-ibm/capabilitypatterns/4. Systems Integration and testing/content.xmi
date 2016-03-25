@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-x494aeuWcqxVeAJKb8RkTQ" name="Develop HW-SW integration testing specification,_giyHQKZHEeCmzNtTCfivQw" guid="-x494aeuWcqxVeAJKb8RkTQ">
+    <keyConsiderations>If the item is ASIL C or D then a specification for the complete testing of the hardware software interface is required.</keyConsiderations>
+    <refinedDescription>&lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+    The test specification specifies and selects the simulation scenarios, test cases and test data based upon the methods&#xD;
+    selected in the&amp;nbsp;HW-SW integration&amp;nbsp;test plan.&#xD;
+&lt;/p>&#xD;
+&lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+    It is advised that the user refers to ISO 26262 vol 8, clause 9.4.2 for further details on the contents of&#xD;
+    the&amp;nbsp;test(verification) specification.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-G0fp1mEy1zkZOxKZXIMizg" name="Integrate HW and SW,_iacMcKZHEeCmzNtTCfivQw" guid="-G0fp1mEy1zkZOxKZXIMizg">
+    <refinedDescription>Integration of the hardware and software, providing the building blocks for the system integration.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mIWFP5IAhUCLEUXgq1QDgQ" name="Test HW-SW integration,_lU2vIKZHEeCmzNtTCfivQw" guid="-mIWFP5IAhUCLEUXgq1QDgQ">
+    <refinedDescription>The HW-SW integration artifact will be tested according to the HW-SW integration verification (test) plan and test&#xD;
+specification.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dXvlmTEtQWc6omf1duGWxA" name="Develop HW-SW verification plan,_rlrQIKZLEeCmzNtTCfivQw" guid="-dXvlmTEtQWc6omf1duGWxA">
+    <keyConsiderations>If the item is ASIL C or D then&amp;nbsp;it is required to plan&amp;nbsp;for the complete testing of the hardware software&#xD;
+interface requirements at the HW-SW integration level. Otherwise a rationale will be provided that no remaining issue of&#xD;
+the hardware software interface exists.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    ISO 26262, vol 8, clause 9 defines the guidance for generic aspects of verification planning which should be followed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In order to detect systematic faults within the implementation of system design during the hardware-software&#xD;
+    integration various test methods must be selected that cover a variety of aspects of test and verification.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The selection of the application&amp;nbsp;feasible methods are detailed in the step section.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-lL8JikBi49_BIw79eywb-Q" name="Item integration and testing plan,_-PStZaZkEeCmzNtTCfivQw" guid="-lL8JikBi49_BIw79eywb-Q">
+    <refinedDescription>&lt;p>&#xD;
+    The integration and test plan is scoped to the system and vehicle level and considers information such as the&#xD;
+    specification of the integration test (so that issues arising from the HW and SW verifications are included), the&#xD;
+    interfaces between subsystems and the environment and all the relevant configuration and calibration data for all&#xD;
+    variants of the item that are intended for production.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The user is referred to ISO 26262 Vol 4, clause 7.4.11 for further details.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-YdSSkWb43CEqQ_P95mQzwA" name="Develop systems integration testing specification,_urIiAKZHEeCmzNtTCfivQw" guid="-YdSSkWb43CEqQ_P95mQzwA">
+    <refinedDescription>&lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+    The test specification, specifies and selects the simulation scenarios, test cases and test data based upon the methods&#xD;
+    selected in the System integration test plan.&#xD;
+&lt;/p>&#xD;
+&lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+    It is advised that the user refers to ISO 26262 vol 8, clause 9.4.2 for further details on the contents of the&#xD;
+    test(verification) specification.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jcmtO1htQJ9mm_-X2m4kcA" name="Integrate at the systems level,_wBkJcKZHEeCmzNtTCfivQw" guid="-jcmtO1htQJ9mm_-X2m4kcA">
+    <refinedDescription>&lt;p>&#xD;
+    To integrate the various HW-SW artifacts according to the system design to create a system,&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It should be noted that there can be many HW-SW artifacts involved in this activity.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AQgGa0YaxwsHwT_v0xi-rw" name="Test systems integration,_xB8BUKZHEeCmzNtTCfivQw" guid="-AQgGa0YaxwsHwT_v0xi-rw">
+    <refinedDescription>&lt;p>&#xD;
+    The system integration artifact will be test against the system design specification, technical and functional safety&#xD;
+    requirements to ensure compliance against those documents.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Tests used to verify the hardware and software implementation should also be completed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The tests are intended to provide evidence that each element of the system interacts correctly and complies with the&#xD;
+    technical and functional safety concepts, and to give an adequate level of confidence that unintended behaviours, that&#xD;
+    could violate a safety goal, are absent&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7JJV6obZLk7XnIcNvNSQog" name="Develop system verification plan,_u9lnIKZLEeCmzNtTCfivQw" guid="-7JJV6obZLk7XnIcNvNSQog">
+    <refinedDescription>&lt;p>&#xD;
+    ISO 26262, vol 8, clause 9 defines the guidance for generic aspects of verification planning which should be followed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In order to detect systematic faults within the implementation during systems integration, various test methods must be&#xD;
+    selected that cover a variety of aspects of test and verification.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The selection of the application&amp;nbsp;feasible methods are detailed in the steps section.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jR06ubLuoJ44b2AizT7V7Q" name="Develop vehicle integration testing specification,_vbtqYKZHEeCmzNtTCfivQw" guid="-jR06ubLuoJ44b2AizT7V7Q">
+    <refinedDescription>&lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+    The test specification, specifies and selects the simulation scenarios, test cases and test data based upon the methods&#xD;
+    selected in the&amp;nbsp;vehicle integration test plan.&#xD;
+&lt;/p>&#xD;
+&lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+    It is advised that the user refers to ISO 26262 vol 8, clause 9.4.2 for further details on the contents of the&#xD;
+    test(verification) specification.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-grsGAuOAhSThWf5JFrnf0A" name="Test vehicle integration,_xZx5kKZHEeCmzNtTCfivQw" guid="-grsGAuOAhSThWf5JFrnf0A">
+    <refinedDescription>&lt;p>&#xD;
+    The integrated vehicle and systems will be tested against the safety goals, system design specification, technical and&#xD;
+    functional safety requirements according to the&amp;nbsp;vehicle integration verification (test) plan and test&#xD;
+    specification.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This testing will include the verification of the on-board communication network and its interaction with the on-board&#xD;
+    power supply.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4i8XHvtSyTOWmlveQJS5Nw" name="Develop vehicle verification plan,_wcz-MKZLEeCmzNtTCfivQw" guid="-4i8XHvtSyTOWmlveQJS5Nw">
+    <keyConsiderations>The test planning must include the verification of the on-board communication network and its interaction with the on board&#xD;
+power supply.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    ISO 26262, vol 8, clause 9 defines the guidance for generic aspects of verification planning which should be followed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In order to detect systematic faults within the implementation of system design during the hardware-software&#xD;
+    integration various test methods must be selected that cover a variety of aspects of test and verification.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The selection of the application&amp;nbsp;feasible methods are detailed in the step section.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-3PrPbmjpGPTFgyIXFuHk_w" name="Safety goals,_W7eGmqZ6EeCmPtYkD7g0pw" guid="-3PrPbmjpGPTFgyIXFuHk_w">
+    <refinedDescription>&lt;p>&#xD;
+    The safety goals are the top level safety requirements for the item. They provide the basis for the functional safety&#xD;
+    requirements needed to avoid an unreasonable risk for each hazard. As safety goals are a form of requirement they&#xD;
+    should not be expressed in terms of a solution but in terms of functional objectives.&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-s6zI8SPHi6GzN-OAJMWzHQ" name="Develop integration and test strategy,_J6aOYKZWEeCmzNtTCfivQw" guid="-s6zI8SPHi6GzN-OAJMWzHQ">
+    <refinedDescription>&lt;p>&#xD;
+    An integration and test strategy based upon the system design specification, functional safety concept and the item&#xD;
+    integration and test plan must be developed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The integration and test activities are hierarchical in nature, building up from the integration of embedded software&#xD;
+    onto HW and then integrating HW-SW elements together to get systems, then finally integrating systems and placing them&#xD;
+    on the vehicle.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Integration and testing of the subsequent level of hierarchy can only be completed once the testing on the earlier&#xD;
+    level is complete.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EJGCp2uQD4sulfKdv6fp7g" name="Project_Manager,_-QCUIaZkEeCmzNtTCfivQw" guid="-EJGCp2uQD4sulfKdv6fp7g">
+    <refinedDescription>&lt;div style=&quot;MARGIN-LEFT: 2em&quot;>&#xD;
+    &lt;p dir=&quot;ltr&quot;>&#xD;
+        Assigns the safety manager&lt;br />&#xD;
+        Ensures that the safety activities are performed and compliance with ISO26262 is achieved&lt;br />&#xD;
+        Verifies that the organisation has provided the required resources to carry out the functional safety activities&#xD;
+    &lt;/p>&#xD;
+&lt;/div></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ptGGIBbo84gQ4kVQC0_7aQ" name="Safety Manager,_-QCUJKZkEeCmzNtTCfivQw" guid="-ptGGIBbo84gQ4kVQC0_7aQ">
+    <refinedDescription>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-uvMhCN4ULp4C3Ej1NQkqWg" name="Item integration and testing plan,_-QCULaZkEeCmzNtTCfivQw" guid="-uvMhCN4ULp4C3Ej1NQkqWg">
+    <refinedDescription>&lt;p>&#xD;
+    The integration and test plan is scoped to the system and vehicle level and considers information such as the&#xD;
+    specification of the integration test (so that issues arising from the HW and SW verifications are included), the&#xD;
+    interfaces between subsystems and the environment and all the relevant configuration and calibration data for all&#xD;
+    variants of the item that are intended for production.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The user is referred to ISO 26262 Vol 4, clause 7.4.11 for further details.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-OEzJSBvYRPZ3kwvF3rNT9Q" name="Develop validation plan,_Z0Y0cKZ6EeCmPtYkD7g0pw" guid="-OEzJSBvYRPZ3kwvF3rNT9Q">
+    <refinedDescription>&lt;p>&#xD;
+    The scope of the validation plan is applied at the vehicle level, the integration item can inched E/E systems,&#xD;
+    software, hardware, elements of other technologies of external measures.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The information making up the validation plan should include the following details:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Information relating to the configuration of the item and its calibration data.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The specification of the validation test procedures, test cases, driving manoeuvres, the equipment, environmental&#xD;
+    conditions and acceptance criteria.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gGOhJeyO7-v4VNBW_YTbdA" name="Execute the validation plan,_Z0Y0caZ6EeCmPtYkD7g0pw" guid="-gGOhJeyO7-v4VNBW_YTbdA">
+    <refinedDescription>&lt;p>&#xD;
+    The execution of the validation plan provides&amp;nbsp;a rationale regarding the absence of faulty activation of safety&#xD;
+    mechanisms due to operational situations, system or feature interactions or use cases. If testing is used for&#xD;
+    validation then the same requirements for testing as provided for verification apply.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The characteristics of controllability, the effectiveness of the safety measures for controlling random and systematic&#xD;
+    failures, the external measures and the elements of other technology involved in the integrated item , shall be&#xD;
+    validated at the vehicle level against the safety goals, functional safety requirements and the intended use. The&#xD;
+    validation details shall also include the scope of the application, i.e. configuration, environmental conditions, use&#xD;
+    cases, driving situation, and &amp;nbsp;the validation test procedures and test cases for each safety goal including&#xD;
+    detailed pass fail criteria.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The validation of random hardware failures shall be carried out at the item level in accordance with the architectural&#xD;
+    metrics and in accordance with the assessment criteria detailed in ISO 26262, vol 5, clause 9. This is recommended for&#xD;
+    items with an ASIL of B and highly recommended for items with an ASIL of C or D.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Methods that can be applied for validation are the following:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Reproducible tests with specified test procedures, test cases and pass/fail criteria.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Analysis, (Simulation, FMEA, FTA, ETA)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Long term tests (such as vehicle driving schedules and data captured from test fleets)&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    User test under real life conditions, panel or blind tests, expert panels and reviews.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Finally the results of the validation will be evaluated and presented as a report.&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-NOquaQWj-IxoxsogC_smPg" name="Safety goals,_Z0ildqZ6EeCmPtYkD7g0pw" guid="-NOquaQWj-IxoxsogC_smPg">
+    <refinedDescription>&lt;p>&#xD;
+    The safety goals are the top level safety requirements for the item. They provide the basis for the functional safety&#xD;
+    requirements needed to avoid an unreasonable risk for each hazard. As safety goals are a form of requirement they&#xD;
+    should not be expressed in terms of a solution but in terms of functional objectives.&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-GyId_XVG1n8BgcjoscPvUQ" name="Functional concept,_Z0ilgqZ6EeCmPtYkD7g0pw" guid="-GyId_XVG1n8BgcjoscPvUQ">
+    <refinedDescription>Gives the users a conceptual highlevel understanding of the functionality of the system. This could be captured as textual&#xD;
+document but it could also be&amp;nbsp;represented as a&amp;nbsp;SysML&amp;nbsp;functional model for the item under development. The&#xD;
+SysML model may also capture the various operating modes and states and architectural assumptions at the vehicle level.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-OMUuAfSukKLCkCL7IIlfug" name="Item integration and testing plan,_Z0ilhKZ6EeCmPtYkD7g0pw" guid="-OMUuAfSukKLCkCL7IIlfug">
+    <refinedDescription>&lt;p>&#xD;
+    The integration and test plan is scoped to the system and vehicle level and considers information such as the&#xD;
+    specification of the integration test (so that issues arising from the HW and SW verifications are included), the&#xD;
+    interfaces between subsystems and the environment and all the relevant configuration and calibration data for all&#xD;
+    variants of the item that are intended for production.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The user is referred to ISO 26262 Vol 4, clause 7.4.11 for further details.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QWTM40kwLwTwvv9DBxz-Ow" name="Safety Manager,_-WYxwaZ6EeCmPtYkD7g0pw" guid="-QWTM40kwLwTwvv9DBxz-Ow">
+    <refinedDescription>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-d7SCqzTf-daBe6QnPKPuQw" name="Develop functional safety assessment report,_JoQcsKZ9EeCmPtYkD7g0pw" guid="-d7SCqzTf-daBe6QnPKPuQw">
+    <refinedDescription>&lt;p>&#xD;
+    The assessment of functional safety is initiated by the organisational body responsible for the functional safety of&#xD;
+    the item. This could be the vehicle manufacturer or supplier. It is a highly recommended practice for items with an&#xD;
+    ASIL B and a requirement for items with an ASIL of C or D.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The functional safety assessment report assesses each of the steps of the safety lifecycle as it appears in ISO 26262,&#xD;
+    vol 2, figure 2. It is from this that the specific topics to be addressed by the functional safety assessment are&#xD;
+    identified.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The functional safety assessment will be carried out in accordance with ISO 26262, vol 2, clause 6.4.6. based upon the&#xD;
+    measures in&amp;nbsp;&amp;nbsp; &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.compliance.iso26262.base-ibm/tasks/Determine%20confirmation%20measures_101A6AFA.html&quot;&#xD;
+    guid=&quot;_04W6sIh2EeCE4bK4CwiExg&quot;>Determine confirmation measures&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EqK3vJ0VQjW1SXyTAPZjBw" name="Safety Manager,_JtxO0qZ9EeCmPtYkD7g0pw" guid="-EqK3vJ0VQjW1SXyTAPZjBw">
+    <refinedDescription>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xjiyz-eGs7UnksCZmzZ-sQ" name="4.11 Develop release for production report,_4V55MKZ-EeCmPtYkD7g0pw" guid="-xjiyz-eGs7UnksCZmzZ-sQ">
+    <refinedDescription>&lt;p>&#xD;
+    Only after each stage of the safety lifecycle has been completed and evidence for compliance given at the functional&#xD;
+    safety assessment can the release for production report be prepared.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The release for production of the item can only be approved if the functional safety assessment report and safety&#xD;
+    case&amp;nbsp;are satisfactory and provide confidence of functional safety.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The documentation for the release of production must include the following information&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The name and signature of the person in charge of the release&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The version of the released item&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The configuration of the released item, these should be baselines for hardware and software and be under configuration&#xD;
+    management.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    References to associated documents&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The release date.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Known safety anomalies shall be solved.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-YLNRd5kyPDNZIhpV8lsSUg" name="Project_Manager,_4V55MaZ-EeCmPtYkD7g0pw" guid="-YLNRd5kyPDNZIhpV8lsSUg">
+    <refinedDescription>&lt;div style=&quot;MARGIN-LEFT: 2em&quot;>&#xD;
+    &lt;p dir=&quot;ltr&quot;>&#xD;
+        Assigns the safety manager&lt;br />&#xD;
+        Ensures that the safety activities are performed and compliance with ISO26262 is achieved&lt;br />&#xD;
+        Verifies that the organisation has provided the required resources to carry out the functional safety activities&#xD;
+    &lt;/p>&#xD;
+&lt;/div></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-bj51xgSrtC5kGrtp4Oud6Q" name="4. B Systems Integration and testing,_lXc4wZ5HEeCk2aQcgmZB_w" guid="-bj51xgSrtC5kGrtp4Oud6Q" version="7.5.1">
+    <purpose>To integrate, verify and validate that the item fulfills all its safety goals at the different levels of integration.</purpose>
+  </org.eclipse.epf.uma:ProcessDescription>
+</xmi:XMI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_yuR7UN05Ed-7no4nyxiTMA" guid="_yuR7UN05Ed-7no4nyxiTMA">
+    <resourceDescriptors xmi:id="_yuR7Ud05Ed-7no4nyxiTMA" id="-Z1h0lqvflufF3MS7bJuB9g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ZJSxsOt9Ed-CX61vejKjLw" id="-egEpQpoWhkMFVfdeR2ZVhA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ZKMJkOt9Ed-CX61vejKjLw" id="-yUPVmS0tz1GIZyElJhcb8w" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ZKMJket9Ed-CX61vejKjLw" id="-NUYD9pY9NA6TqyLXoHS84g" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ZKMJkut9Ed-CX61vejKjLw" id="-7olOAwvrKvhAI4uwHfhrxA" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ZKVTgOt9Ed-CX61vejKjLw" id="-aVZdM7uY8rHad_Rm0PYVSg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ZKVTget9Ed-CX61vejKjLw" id="-M_Jj56pWMQGdcX_24ou0EA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_ytYjcN05Ed-7no4nyxiTMA" name="microcycle_rt" guid="_ytYjcN05Ed-7no4nyxiTMA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_Q3Fh8N06Ed-7no4nyxiTMA" name="hi_fi_modeling" guid="_Q3Fh8N06Ed-7no4nyxiTMA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_Q3Or4N06Ed-7no4nyxiTMA" name="hi_fi_modeling" guid="_Q3Or4N06Ed-7no4nyxiTMA" superActivities="_ytYjcd05Ed-7no4nyxiTMA" linkToPredecessor="_IoGDEN1BEd-7no4nyxiTMA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_4vJEULw5Ed-eitZNR_0_Rg#_4vJEUbw5Ed-eitZNR_0_Rg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_IoGDEN1BEd-7no4nyxiTMA" guid="_IoGDEN1BEd-7no4nyxiTMA" pred="_tp0bkd08Ed-7no4nyxiTMA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_SSRtkN06Ed-7no4nyxiTMA" name="arch_dsgn_rt" guid="_SSRtkN06Ed-7no4nyxiTMA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_SSRtkd06Ed-7no4nyxiTMA" name="arch_dsgn_rt" guid="_SSRtkd06Ed-7no4nyxiTMA" presentationName="Architectural Design" superActivities="_ytYjcd05Ed-7no4nyxiTMA" linkToPredecessor="_JsWVYN1BEd-7no4nyxiTMA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_QV0mgLavEd-qJK6AskeP4g#_QV0mgbavEd-qJK6AskeP4g"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_JsWVYN1BEd-7no4nyxiTMA" guid="_JsWVYN1BEd-7no4nyxiTMA" pred="_Q3Or4N06Ed-7no4nyxiTMA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_VZWzQN06Ed-7no4nyxiTMA" name="mech_dsgn_rt" guid="_VZWzQN06Ed-7no4nyxiTMA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_VZWzQd06Ed-7no4nyxiTMA" name="mech_dsgn_rt" guid="_VZWzQd06Ed-7no4nyxiTMA" presentationName="Collaboration Design" superActivities="_ytYjcd05Ed-7no4nyxiTMA" linkToPredecessor="_LbW04N1BEd-7no4nyxiTMA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_k6ra0LFCEd-mOKCs6c0xZQ#_k6ra0bFCEd-mOKCs6c0xZQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_LbW04N1BEd-7no4nyxiTMA" guid="_LbW04N1BEd-7no4nyxiTMA" pred="_SSRtkd06Ed-7no4nyxiTMA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_XCjlsN06Ed-7no4nyxiTMA" name="det_dsgn_rt" guid="_XCjlsN06Ed-7no4nyxiTMA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_XDARoN06Ed-7no4nyxiTMA" name="det_dsgn_rt" guid="_XDARoN06Ed-7no4nyxiTMA" presentationName="Detailed Design" superActivities="_ytYjcd05Ed-7no4nyxiTMA" linkToPredecessor="_L-YCYN1BEd-7no4nyxiTMA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_3qYtoLw3Ed-eitZNR_0_Rg#_3qYtobw3Ed-eitZNR_0_Rg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_L-YCYN1BEd-7no4nyxiTMA" guid="_L-YCYN1BEd-7no4nyxiTMA" pred="_VZWzQd06Ed-7no4nyxiTMA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_cLkt8N06Ed-7no4nyxiTMA" name="Validation" guid="_cLkt8N06Ed-7no4nyxiTMA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_cLkt8d06Ed-7no4nyxiTMA" name="Validation" guid="_cLkt8d06Ed-7no4nyxiTMA" presentationName="Validation" briefDescription="Validation is the confirmation of the correct functionality of the fully integrated prototype." superActivities="_ytYjcd05Ed-7no4nyxiTMA" linkToPredecessor="_VvewEN1BEd-7no4nyxiTMA _VvohEN1BEd-7no4nyxiTMA _VvxrAN1BEd-7no4nyxiTMA _KDZ3gN4SEd-8BsDLkQrDSQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_VvewEN1BEd-7no4nyxiTMA" guid="_VvewEN1BEd-7no4nyxiTMA" pred="_XDARoN06Ed-7no4nyxiTMA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_VvohEN1BEd-7no4nyxiTMA" guid="_VvohEN1BEd-7no4nyxiTMA" pred="_IdyF8d1AEd-7no4nyxiTMA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_VvxrAN1BEd-7no4nyxiTMA" guid="_VvxrAN1BEd-7no4nyxiTMA" pred="_MEAlwd1AEd-7no4nyxiTMA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_KDZ3gN4SEd-8BsDLkQrDSQ" guid="_KDZ3gN4SEd-8BsDLkQrDSQ" pred="_0NO1cd4REd-8BsDLkQrDSQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_tp0bkN08Ed-7no4nyxiTMA" name="val_uc_seq" guid="_tp0bkN08Ed-7no4nyxiTMA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_tp0bkd08Ed-7no4nyxiTMA" name="val_uc_seq" guid="_tp0bkd08Ed-7no4nyxiTMA" presentationName="Prototype Definition" superActivities="_ytYjcd05Ed-7no4nyxiTMA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_FWr3QHItEd6TqoTvu90UgA#_FWr3QXItEd6TqoTvu90UgA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_IdyF8N1AEd-7no4nyxiTMA" name="Prepare for Validation" guid="_IdyF8N1AEd-7no4nyxiTMA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_IdyF8d1AEd-7no4nyxiTMA" name="Prepare for Validation" guid="_IdyF8d1AEd-7no4nyxiTMA" presentationName="Prepare for Validation" briefDescription="This activity focuses on the creating of the testing of some element or set of elements at some level of abstraction" superActivities="_ytYjcd05Ed-7no4nyxiTMA" linkToPredecessor="_PAGG8N1BEd-7no4nyxiTMA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_PAGG8N1BEd-7no4nyxiTMA" guid="_PAGG8N1BEd-7no4nyxiTMA" pred="_tp0bkd08Ed-7no4nyxiTMA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_MEAlwN1AEd-7no4nyxiTMA" name="Continuous Integration" guid="_MEAlwN1AEd-7no4nyxiTMA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_MEAlwd1AEd-7no4nyxiTMA" name="Continuous Integration" guid="_MEAlwd1AEd-7no4nyxiTMA" presentationName="Continuous Integration" briefDescription="This activity updates the system configuration and performs integration tests. If the tests pass, as new baseline is create that forms the basis for future development. If the tests fail, corrective action is taken as soon as possible." superActivities="_ytYjcd05Ed-7no4nyxiTMA" linkToPredecessor="_Ry6M0N1BEd-7no4nyxiTMA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Ry6M0N1BEd-7no4nyxiTMA" guid="_Ry6M0N1BEd-7no4nyxiTMA" pred="_tp0bkd08Ed-7no4nyxiTMA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0NO1cN4REd-8BsDLkQrDSQ" name="Update Dependability Analysis" guid="_0NO1cN4REd-8BsDLkQrDSQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_0NO1cd4REd-8BsDLkQrDSQ" name="Update Dependability Analysis" guid="_0NO1cd4REd-8BsDLkQrDSQ" presentationName="Update Dependability Analysis" superActivities="_ytYjcd05Ed-7no4nyxiTMA" linkToPredecessor="_HZOwQN4SEd-8BsDLkQrDSQ" breakdownElements="_-YaQAN4REd-8BsDLkQrDSQ _-YaQAd4REd-8BsDLkQrDSQ _-YaQAt4REd-8BsDLkQrDSQ _-YaQA94REd-8BsDLkQrDSQ _-YaQBN4REd-8BsDLkQrDSQ _-YaQBd4REd-8BsDLkQrDSQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_-YaQAN4REd-8BsDLkQrDSQ" name="update_hazard_analysis" guid="_-YaQAN4REd-8BsDLkQrDSQ" presentationName="Update Safety and Reliability Analysis" briefDescription="The hazard analysis should be frequently reviewed and updated as design decisions are made, solutions are modified, and requirements change. " superActivities="_0NO1cd4REd-8BsDLkQrDSQ" additionallyPerformedBy="_-YaQAt4REd-8BsDLkQrDSQ" mandatoryInput="_-YaQA94REd-8BsDLkQrDSQ" optionalInput="_-YaQBN4REd-8BsDLkQrDSQ _-YaQBd4REd-8BsDLkQrDSQ" output="_-YaQBN4REd-8BsDLkQrDSQ _-YaQBd4REd-8BsDLkQrDSQ _-YaQA94REd-8BsDLkQrDSQ" performedPrimarilyBy="_-YaQAd4REd-8BsDLkQrDSQ">
+        <presentation xmi:id="-egEpQpoWhkMFVfdeR2ZVhA" href="uma://-Z1h0lqvflufF3MS7bJuB9g#-egEpQpoWhkMFVfdeR2ZVhA"/>
+        <guidelines href="uma://_LTqnQLeLEd-05egMquN4Dg#_t7YDMOKuEd-G2pDngtqTxA"/>
+        <guidelines href="uma://_LTqnQLeLEd-05egMquN4Dg#_bJn-8OKvEd-G2pDngtqTxA"/>
+        <Task href="uma://_LTqnQLeLEd-05egMquN4Dg#_MJtuYMsnEd-f7_TOobgnDw"/>
+        <selectedSteps href="uma://-4I8lj9cleH8grtcvZ8lX4Q#_Hovx8OCOEd-aE9U0mRj03A"/>
+        <selectedSteps href="uma://-4I8lj9cleH8grtcvZ8lX4Q#_KLUcYOCOEd-aE9U0mRj03A"/>
+        <selectedSteps href="uma://-4I8lj9cleH8grtcvZ8lX4Q#_L9KNcOCOEd-aE9U0mRj03A"/>
+        <selectedSteps href="uma://-4I8lj9cleH8grtcvZ8lX4Q#_OT9swOCOEd-aE9U0mRj03A"/>
+        <selectedSteps href="uma://-4I8lj9cleH8grtcvZ8lX4Q#_QGjrwOCOEd-aE9U0mRj03A"/>
+        <selectedSteps href="uma://-4I8lj9cleH8grtcvZ8lX4Q#_TCwXIOCOEd-aE9U0mRj03A"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-YaQAd4REd-8BsDLkQrDSQ" name="rt_safe_czar" guid="_-YaQAd4REd-8BsDLkQrDSQ" presentationName="Safety Czar" briefDescription="This role is assigned to the person(s) responsible for specification for and adherence to safety requirements and regulations. " isPlanned="false" superActivities="_0NO1cd4REd-8BsDLkQrDSQ" modifies="_-YaQBN4REd-8BsDLkQrDSQ _-YaQBd4REd-8BsDLkQrDSQ _-YaQA94REd-8BsDLkQrDSQ" responsibleFor="_-YaQBd4REd-8BsDLkQrDSQ _-YaQA94REd-8BsDLkQrDSQ">
+        <methodElementProperty xmi:id="_sEFvIukJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+        <presentation xmi:id="-yUPVmS0tz1GIZyElJhcb8w" href="uma://-Z1h0lqvflufF3MS7bJuB9g#-yUPVmS0tz1GIZyElJhcb8w"/>
+        <Role href="uma://_LTqnQLeLEd-05egMquN4Dg#_hKsN0MsnEd-f7_TOobgnDw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_-YaQAt4REd-8BsDLkQrDSQ" name="rt_rel_czar" guid="_-YaQAt4REd-8BsDLkQrDSQ" presentationName="Reliability Czar" briefDescription="This role is assigned to the person(s) responsible for specification for and adherence to reliability requirements and regulations." isPlanned="false" superActivities="_0NO1cd4REd-8BsDLkQrDSQ" responsibleFor="_-YaQBN4REd-8BsDLkQrDSQ">
+        <methodElementProperty xmi:id="_sEFvI-kJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+        <presentation xmi:id="-NUYD9pY9NA6TqyLXoHS84g" href="uma://-Z1h0lqvflufF3MS7bJuB9g#-NUYD9pY9NA6TqyLXoHS84g"/>
+        <Role href="uma://_LTqnQLeLEd-05egMquN4Dg#_taMQkMsnEd-f7_TOobgnDw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_-YaQA94REd-8BsDLkQrDSQ" name="haz_an" guid="_-YaQA94REd-8BsDLkQrDSQ" presentationName="Hazard Analysis" briefDescription="The hazard analysis relates faults, risks, probability, losses, severity of losses, fault tolerance times, and control measures together. " isPlanned="false" superActivities="_0NO1cd4REd-8BsDLkQrDSQ">
+        <methodElementProperty xmi:id="_sEFvIekJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+        <presentation xmi:id="-7olOAwvrKvhAI4uwHfhrxA" href="uma://-Z1h0lqvflufF3MS7bJuB9g#-7olOAwvrKvhAI4uwHfhrxA"/>
+        <guidelines href="uma://_LTqnQLeLEd-05egMquN4Dg#_bJn-8OKvEd-G2pDngtqTxA"/>
+        <WorkProduct href="uma://_LTqnQLeLEd-05egMquN4Dg#_aYBnMMsnEd-f7_TOobgnDw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_-YaQBN4REd-8BsDLkQrDSQ" name="fmea" guid="_-YaQBN4REd-8BsDLkQrDSQ" presentationName="Failure Modes and Effect Analysis" briefDescription="This work product is to assess the modes and effects of failures on the system and its environment. " isPlanned="false" superActivities="_0NO1cd4REd-8BsDLkQrDSQ">
+        <methodElementProperty xmi:id="_sEFvJOkJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+        <presentation xmi:id="-aVZdM7uY8rHad_Rm0PYVSg" href="uma://-Z1h0lqvflufF3MS7bJuB9g#-aVZdM7uY8rHad_Rm0PYVSg"/>
+        <WorkProduct href="uma://_LTqnQLeLEd-05egMquN4Dg#_xUh_MMsnEd-f7_TOobgnDw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_-YaQBd4REd-8BsDLkQrDSQ" name="fta" guid="_-YaQBd4REd-8BsDLkQrDSQ" presentationName="Fault-Tree Analysis" briefDescription="This artifact is a modeling artifact used to represent causality chain relating safety-critical events that can lead to a hazardous condition and accidents. " isPlanned="false" superActivities="_0NO1cd4REd-8BsDLkQrDSQ">
+        <methodElementProperty xmi:id="_sEFvIOkJEd-I1fnAy2RxGw" name="descriptor_createdByReference" value="true"/>
+        <presentation xmi:id="-M_Jj56pWMQGdcX_24ou0EA" href="uma://-Z1h0lqvflufF3MS7bJuB9g#-M_Jj56pWMQGdcX_24ou0EA"/>
+        <guidelines href="uma://_LTqnQLeLEd-05egMquN4Dg#_t7YDMOKuEd-G2pDngtqTxA"/>
+        <WorkProduct href="uma://_LTqnQLeLEd-05egMquN4Dg#_WxDggMsnEd-f7_TOobgnDw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_HZOwQN4SEd-8BsDLkQrDSQ" guid="_HZOwQN4SEd-8BsDLkQrDSQ" pred="_tp0bkd08Ed-7no4nyxiTMA"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_ytYjcd05Ed-7no4nyxiTMA" name="microcycle_rt" guid="_ytYjcd05Ed-7no4nyxiTMA" presentationName="Microcycle" briefDescription="A microcycle is an iterative, incremental development process that is focused on analyzing, optimizing, and validating high quality pieces of the system that is being built." breakdownElements="_tp0bkd08Ed-7no4nyxiTMA _Q3Or4N06Ed-7no4nyxiTMA _SSRtkd06Ed-7no4nyxiTMA _VZWzQd06Ed-7no4nyxiTMA _XDARoN06Ed-7no4nyxiTMA _0NO1cd4REd-8BsDLkQrDSQ _cLkt8d06Ed-7no4nyxiTMA _IdyF8d1AEd-7no4nyxiTMA _MEAlwd1AEd-7no4nyxiTMA">
+      <methodElementProperty xmi:id="_sEFvJekJEd-I1fnAy2RxGw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-Z1h0lqvflufF3MS7bJuB9g" href="uma://-Z1h0lqvflufF3MS7bJuB9g#-Z1h0lqvflufF3MS7bJuB9g"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

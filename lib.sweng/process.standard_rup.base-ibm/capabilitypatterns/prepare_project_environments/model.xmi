@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_ySKe4CZREd-Hb5ChSoDHIA" guid="_ySKe4CZREd-Hb5ChSoDHIA">
+    <resourceDescriptors xmi:id="_ySKe4SZREd-Hb5ChSoDHIA" id="-xskl1Xr74rdyd_yxx_7Zng" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_0KxYUFEeEeGA-PmdUJzrIw" id="-xDKh1Xv2qDYr3hxm5QZQSg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_xfz1FiZREd-Hb5ChSoDHIA" name="prepare_project_environments" guid="_xfz1FiZREd-Hb5ChSoDHIA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz1GyZREd-Hb5ChSoDHIA" name="prepare_environment_for_project" guid="_xfz1GyZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz1HCZREd-Hb5ChSoDHIA" name="prepare_environment_for_project" guid="_xfz1HCZREd-Hb5ChSoDHIA" presentationName="Prepare Environment for a Project" superActivities="_xfz1GiZREd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_KjjKySZIEd-Hb5ChSoDHIA#_KjjK8yZIEd-Hb5ChSoDHIA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz1FyZREd-Hb5ChSoDHIA" name="create_project_configuration_management_cm_environments" guid="_xfz1FyZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz1GCZREd-Hb5ChSoDHIA" name="create_project_configuration_management_cm_environments" guid="_xfz1GCZREd-Hb5ChSoDHIA" presentationName="Create Project Configuration Management (CM) Environment" superActivities="_xfz1GiZREd-Hb5ChSoDHIA">
+        <presentation xmi:id="-xDKh1Xv2qDYr3hxm5QZQSg" href="uma://-xskl1Xr74rdyd_yxx_7Zng#-xDKh1Xv2qDYr3hxm5QZQSg"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_xfz1GiZREd-Hb5ChSoDHIA" name="prepare_project_environments" guid="_xfz1GiZREd-Hb5ChSoDHIA" presentationName="Prepare Project Environments" briefDescription="This covers preparation of the various project environments for the project, including the appropriate configuration management and environment discipline activities." breakdownElements="_xfz1HCZREd-Hb5ChSoDHIA _xfz1GCZREd-Hb5ChSoDHIA">
+      <methodElementProperty xmi:id="_4Fss2LemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-xskl1Xr74rdyd_yxx_7Zng" href="uma://-xskl1Xr74rdyd_yxx_7Zng#-xskl1Xr74rdyd_yxx_7Zng"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-WeiDCiBu3mnlgrqGPQbtuA" name="new_concept,_BWHC4H8UEd6EC8v3b_fCaQ" guid="-WeiDCiBu3mnlgrqGPQbtuA" changeDate="2009-09-23T21:22:17.734-0700" version="7.5.0">
+  <mainDescription>&lt;h3>&#xD;
+    Context&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    To paraphrase the Rational Unified Process, an operation:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;em>...represents a capability that can be requested from an object to effect behavior. An operation specifies the&#xD;
+    name, type, parameters, and constraints for invoking an associated behavior.&lt;/em>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>&lt;font size=&quot;4&quot;>Problem&lt;/font>&lt;/strong>&#xD;
+&lt;/p>It is difficult to understand what an operation does if its signature is not meaningful.&lt;br />&#xD;
+&lt;h3>&#xD;
+    Forces&#xD;
+&lt;/h3>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Modeling an operation signature using a single input and output message reduces the amount of meaning of that&#xD;
+        signature.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Often on diagrams, only the signature of an operation might be shown without the structure of the types used in the&#xD;
+        signature.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h3>&#xD;
+    Solution&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Keep operations as meaningful as possible:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Avoid modeling your operation using a simple request/response message pair.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Use meaningful parameter types derived from your domain types to type your parameters.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Name parameters helpfully (for example, &lt;em>newCustomer:Customer&lt;/em> for the &lt;em>createCustomer&lt;/em>&#xD;
+        operation).&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;h3>&#xD;
+    Rationale&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    Meaningful operation signatures enable you to convey more meaning in diagrams that only show service specifications&#xD;
+    without showing the structure of the parameters.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

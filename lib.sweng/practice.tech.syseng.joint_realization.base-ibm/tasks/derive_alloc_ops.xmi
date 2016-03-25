@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-hUFe5vxnx0IDd49h85aE0w" name="derive_alloc_ops,_YWF74KIiEd6eYbGGXte97g" guid="-hUFe5vxnx0IDd49h85aE0w" changeDate="2009-11-09T14:21:44.031-0800" version="7.5.0">
+  <sections xmi:id="_upsVgM1_Ed6r0fGOs-z5sw" name="Allocate operations and realize interfaces" guid="_upsVgM1_Ed6r0fGOs-z5sw">
+    <sectionDescription>Given the operations from the previous level of decomposition; some will be allocated in whole to one of the subsystems at&#xD;
+the current level for each Viewpoint. For those, the operation will be allocated and assigned to the appropriate subsystem&#xD;
+interface.</sectionDescription>
+  </sections>
+  <sections xmi:id="_3Y79kM1_Ed6r0fGOs-z5sw" name="Derive lower level operations and allocate" guid="_3Y79kM1_Ed6r0fGOs-z5sw">
+    <sectionDescription>&lt;p>&#xD;
+    For those operations that aren't allocated, they are then defined at the lower level as a collaboration between the&#xD;
+    entities at that level. This is done for the entities in each of the Viewpoints.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Elaborate the black-box flow-of-events text into sequences of white-box steps, which speak in terms of subsystem&#xD;
+    actions and interactions. Next, a System Operation (black-box step) is expanded into one or more white-box steps, each&#xD;
+    of which is performed by a named subsystem.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note that the analysis now proceeds driven by System Operation; that is, treat the next realization step as the&#xD;
+    realization of each System Operation (rather than the more abstract notion of system use case black-box step). The&#xD;
+    white-box steps for each System Operation are captured (initially) and associated with the corresponding System&#xD;
+    Operation as its realization. The white-box steps are not stored with the System Use-Case, but can be traced from the&#xD;
+    System Use Case through the System Operation.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_PNCE4M2AEd6r0fGOs-z5sw" name="Revisit completed viewpoints if necessary" guid="_PNCE4M2AEd6r0fGOs-z5sw">
+    <sectionDescription>In the case when an operation has been refactored, you need to revisit the previously-defined realizations in the&#xD;
+viewpoints you addressed first.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

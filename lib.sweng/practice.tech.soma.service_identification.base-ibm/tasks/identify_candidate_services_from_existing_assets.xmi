@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-zX2g74wrSjohoEHOmIsOjw" name="identify_candidate_services_from_existing_assets,_ZuYAMFIPEd6lNtylJFsPIg" guid="-zX2g74wrSjohoEHOmIsOjw" changeDate="2009-09-26T07:33:52.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Reuse of existing IT assets within an SOA has two components: (1) identification of reusable assets&amp;nbsp;and the&#xD;
+    Capabilities that they offer, and (2) determination of how these assets will be used to realize services that have been&#xD;
+    selected for exposure.&amp;nbsp; The first component of this sub-process is performed in this task.&amp;nbsp; Realization&#xD;
+    decisions are made within a Service Realization initiative, and are beyond the scope of the present discussion.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In this task, candidate services and flows are identified using Existing Asset Analysis.&amp;nbsp; The assets examined can&#xD;
+    include existing systems,&amp;nbsp;such as packaged or custom applications, and&amp;nbsp;industry standards, models, and&#xD;
+    components. Technical constraints related to existing systems&amp;nbsp;need to&amp;nbsp;be evaluated as early as possible for&#xD;
+    risk management purposes.&amp;nbsp;Because of this requirement, the related task, &lt;em>Perform Technical Feasibility&#xD;
+    Exploration&lt;/em>,&amp;nbsp;is often&amp;nbsp;performed as soon as possible after or during Existing Asset Analysis.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/mapping_existing_assets_to_services_7EAC5931.html&quot; guid=&quot;_ksjf0GWpEd6Zd-lbA790BQ&quot;>Guideline: Mapping Existing Assets to Services&lt;/a>&amp;nbsp;provides detailed advice for&#xD;
+    this task.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In this task, the work product slot of [Business Design] is filled by Business Model, which includes business process&#xD;
+    descriptions.&#xD;
+&lt;/p>&lt;br /></mainDescription>
+  <sections xmi:id="_uj7mYHpqEd6gprFfWHBp7w" name="Identify the existing assets that are to be analyzed." guid="_uj7mYHpqEd6gprFfWHBp7w">
+    <sectionDescription>This can be a major workflow in itself.&amp;nbsp; One useful approach is to build a context diagram that establishes the&#xD;
+functional boundary between the&amp;nbsp;to-be SOA system and the actors outside that system.&amp;nbsp; Then, examine the current&#xD;
+application portfolio to identify the business processes, applications, and data flows that lie within that boundary.</sectionDescription>
+  </sections>
+  <sections xmi:id="_afB4MHprEd6gprFfWHBp7w" name="Document the functions of the relevant existing custom systems" guid="_afB4MHprEd6gprFfWHBp7w">
+    <sectionDescription>Describe the functions of the systems, the events that they respond to, and the data flows that they manage.&amp;nbsp; Work with the&#xD;
+Developer who is responsible for the existing systems, if necessary.&amp;nbsp; Leverage his or her expertise, so that you can&#xD;
+more quickly identify the functions offered by the existing asset.</sectionDescription>
+  </sections>
+  <sections xmi:id="_tGrIwHprEd6gprFfWHBp7w" name="Perform coarse-grained mapping between existing business functions and the to-be business processes." guid="_tGrIwHprEd6gprFfWHBp7w">
+    <sectionDescription>&lt;p>&#xD;
+    This pertains mainly to custom applications.&amp;nbsp; Analysis of packaged applications is addressed in other steps of&#xD;
+    this task.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As is further described in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/mapping_existing_assets_to_services_7EAC5931.html&quot; guid=&quot;_ksjf0GWpEd6Zd-lbA790BQ&quot;>Guideline: Mapping Existing Assets to Services&lt;/a>, coarse-grained mapping involves&#xD;
+    three steps:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Understand the business functions supported by each application.&lt;span style=&quot;mso-spacerun: yes&quot;>&amp;nbsp;&lt;/span>&#xD;
+        Typically a business function can be mapped to an activity within a business process [Business Design].&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Record attributes of existing applications in terms of technologies used, architectural styles, and so on.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify applications that perform common services.&#xD;
+    &lt;/li>&#xD;
+&lt;/ol>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_5PeGkHprEd6gprFfWHBp7w" name="Map the useful functions of existing custom systems into new candidate services" guid="_5PeGkHprEd6gprFfWHBp7w">
+    <sectionDescription>&lt;p>&#xD;
+    In the previous step, you identified existing business functions that could be used to support specific portions of the&#xD;
+    to-be business processes.&amp;nbsp; Create new candidate services that are derived from these useful business functions.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_XW-QMHptEd6gprFfWHBp7w" name="Identify candidate services from packaged applications" guid="_XW-QMHptEd6gprFfWHBp7w">
+    <sectionDescription>&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/mapping_existing_assets_to_services_7EAC5931.html&quot; guid=&quot;_ksjf0GWpEd6Zd-lbA790BQ&quot;>Guideline: Mapping Existing Assets to Services&lt;/a>&amp;nbsp;provides detailed advice regarding&#xD;
+this step.</sectionDescription>
+  </sections>
+  <sections xmi:id="_tVWMAHptEd6gprFfWHBp7w" name="Update candidate service portfolio and service hierarchy" guid="_tVWMAHptEd6gprFfWHBp7w">
+    <sectionDescription>Add the new candidate services to the candidate service portfolio, which is part of the Service Model.&amp;nbsp;&amp;nbsp;&#xD;
+Position&amp;nbsp;them within the candidate service hierarchy, according to your chosen taxonomic approach.</sectionDescription>
+  </sections>
+  <sections xmi:id="_V-qukHpvEd6gprFfWHBp7w" name="Ensure that  non-functional asset requirements are documented." guid="_V-qukHpvEd6gprFfWHBp7w">
+    <sectionDescription>&lt;p>&#xD;
+    When documenting Non-Functional Requirements for existing assets, consider the topics described in&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/non_functional_requirements_for_existing_systems_3C1767E0.html&quot; guid=&quot;_fREWsKmFEd6aY6j-UvaWFw&quot;>Guideline: Non-Functional Requirements for Existing Systems&lt;/a>&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_NW86cHvmEd6tIvNJ0OpmMQ" name="Create an Asset Fit Gap Analysis for each asset that has been mapped to a candidate service." guid="_NW86cHvmEd6tIvNJ0OpmMQ">
+    <sectionDescription>Create an Asset Fit Gap Analysis&amp;nbsp;for each existing asset that is a strong candidate for reuse.&amp;nbsp;&amp;nbsp;Creating&#xD;
+this document helps&amp;nbsp;you to&amp;nbsp;better understand the goodness-of-fit between the asset and the business requirement&#xD;
+that it is being targeted to fulfill.&amp;nbsp; This insight is used&amp;nbsp;later&amp;nbsp;to determine whether it is cost-effective&#xD;
+to use the asset to realize one or more services.&amp;nbsp;</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to begin the reuse process within an SOA initiative, by identifying candidate services that can&#xD;
+be harvested from existing IT assets.</purpose>
+</org.eclipse.epf.uma:TaskDescription>

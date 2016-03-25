@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-zM9ObVEp4OYFFeVrID5OfA" name="new_example,_T5vhsJd0Ed6K4On4I33bEg" guid="-zM9ObVEp4OYFFeVrID5OfA" changeDate="2009-10-28T22:58:30.000-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../practice.tech.soma.service_specification.base-ibm/guidances/guidelines/identify_service_interfaces_from_role_interaction_patterns_A80FD7EE.html&quot; guid=&quot;_cBOmEJaLEd6mO_N3erykYQ&quot;>Guideline: Identify Service Interfaces from Collaboration Role Interaction Patterns&lt;/a>&amp;nbsp;presents four rules for describing ServiceInterfaces, based upon pairs of interacting roles in&#xD;
+    service collaborations. The rule illustrated here is:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Rule 3:&lt;/strong> &lt;strong>Create either a simple UML interface or a ServiceInterface with only a provided&#xD;
+    interface when all consumer-provider communication uses a &quot;request-response&quot; collaboration&#xD;
+    pattern.&lt;/strong>&amp;nbsp;&lt;br />&#xD;
+    &lt;br />&#xD;
+    In Figure 1, we have a consumer, &quot;role1,&quot; and a provider, &quot;role2.&quot; They communicate by using a simple request-response&#xD;
+    collaboration pattern.&amp;nbsp;For example, &quot;role1&quot; calls operations that are provided by &quot;role2,&quot; and &quot;role2&quot; responds by&#xD;
+    using conventional operation returns. Here, there is no complex interaction protocol between the service consumer and&#xD;
+    the service provider.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    From the perspective of the&amp;nbsp;provider,&amp;nbsp;we have discovered either a simple UML interface or a ServiceInterface&#xD;
+    with a single provided interface.&amp;nbsp;In this instance, we have rendered this as a ServiceInterface with a single&#xD;
+    provided (realized) interface. This is shown in Figure 2.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 1.&amp;nbsp; Interaction pattern that yields a simple service interface&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;416&quot; alt=&quot;&quot; src=&quot;./resources/simple_if_from_collab_patt.jpg&quot; width=&quot;597&quot; />&amp;nbsp;&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br />&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 2.&amp;nbsp; Static model of the simple service interface&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;226&quot; alt=&quot;&quot; src=&quot;./resources/simple_service_interface.gif&quot; width=&quot;196&quot; />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

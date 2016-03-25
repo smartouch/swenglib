@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-OsuSy8FCj_oyIAXsqx7tuA" name="identify_candidate_services_from_business_rules,_kOEPEGTPEd6EKfYvqjfiMA" guid="-OsuSy8FCj_oyIAXsqx7tuA" changeDate="2009-10-28T11:25:33.671-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    As&amp;nbsp;is described in&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.tech.soma.service_identification.base-ibm/guidances/concepts/business_rule_analysis_96BC2841.html&quot; guid=&quot;_Wue0wGTgEd6EKfYvqjfiMA&quot;>Concept: Business Rule Analysis&lt;/a>, larger businesses increasingly use Business Rules&#xD;
+    Management Systems (BRMSes) to author and externalize their business rules.&amp;nbsp; BRMSes can automate the creation of&#xD;
+    access layers, such as Web services or Java&amp;trade;beans, for accessing the business rules programmatically.&amp;nbsp; In such an&#xD;
+    environment, the task related to identifying candidate services largely devolves to the IT staff working with the&#xD;
+    business analysts to document the services that the BRMS automatically generates.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Organizations that have not yet adopted a BRMS will need to use a more conventional approach&amp;nbsp;for identifying&#xD;
+    candidate services from business rules.&amp;nbsp; The steps in this task largely are intended for the use of such&#xD;
+    organizations.&amp;nbsp; The final step -- Update candidate service portfolio and service hierarchy -- is valid for&#xD;
+    organizations using a BRMS, as well.&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    Business rules and policies that are subject to change&amp;nbsp;need to&amp;nbsp;be externalized to reduce opportunities for&#xD;
+    error.&amp;nbsp; Service enablement and using business rules engines are two approaches to externalization.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_3EcZgHmnEd68M7_EsVoQsw" name="Identify which rules need to be externalized" guid="_3EcZgHmnEd68M7_EsVoQsw">
+    <sectionDescription>&lt;p>&#xD;
+    Rules whose use is limited to a single application, or that change infrequently, are candidates for services that you should NOT externalize.&#xD;
+&lt;/p>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_ALrDwHmoEd68M7_EsVoQsw" name="For reactive business rules, identify pertinent triggering events, execution conditions, and actions." guid="_ALrDwHmoEd68M7_EsVoQsw">
+    <sectionDescription>&lt;p>&#xD;
+    Business rules fall into two broad categories:&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Inference rules&lt;/strong> (IF this, THEN that), which&amp;nbsp; are commonly stateless rules that are&#xD;
+        encountered during the execution of procedural applications; and&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Reactive rules&lt;/strong>, which are triggered by specific events,&amp;nbsp;run if a specific condition is valid,&#xD;
+        and which perform a specific action -- such as a database modification.&amp;nbsp; Reactive rules commonly are executed&#xD;
+        by a system that monitors its surrounding conditions.&amp;nbsp;&amp;nbsp;As an example, when a particular item in a grocery&#xD;
+        store falls below a certain number of on-shelf items, that might trigger a restocking order.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In this step, focus on reactive rules.&amp;nbsp; The &lt;em>triggering event&lt;/em>, &lt;em>transition condition&lt;/em>, and&#xD;
+    &lt;em>action taken&lt;/em> need to be documented.&amp;nbsp; If the candidate service is selected later for exposure, these three&#xD;
+    items will need to be addressed during the implementation of the service that realizes the rule.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_lMKMgHmrEd68M7_EsVoQsw" name="Decide which conditions and actions need to be externalized" guid="_lMKMgHmrEd68M7_EsVoQsw">
+    <sectionDescription>For reactive rules, the execution conditions and the actions are points of potential variability.&amp;nbsp; They are candidates&#xD;
+for externalization as services.</sectionDescription>
+  </sections>
+  <sections xmi:id="_xcQsMHmrEd68M7_EsVoQsw" name="Apply the Rule Pattern Language, or similar best practices, to determine rule types and understand how to realize rules." guid="_xcQsMHmrEd68M7_EsVoQsw">
+    <sectionDescription>&lt;p>&#xD;
+    The Rule Pattern Language [&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../practice.tech.soma.service_identification.base-ibm/guidances/supportingmaterials/references.si_35DAD18E.html&quot; guid=&quot;_nIJt4IwcEd67gNqkJgB8lA&quot;>ARS01&lt;/a>] defines 21 best practices for categorizing and realizing business rules.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_7MrLcHmtEd68M7_EsVoQsw" name="Update candidate service portfolio and service hierarchy" guid="_7MrLcHmtEd68M7_EsVoQsw">
+    <sectionDescription>Add the new candidate services to the candidate service portfolio.&amp;nbsp;&amp;nbsp; Position them within the candidate service&#xD;
+hierarchy, in alignment with your chosen taxonomic approach.</sectionDescription>
+  </sections>
+  <purpose>The purpose of this task is to&amp;nbsp;capture and externalize rules and&#xD;
+policies that might need to change&amp;nbsp;when the organization's business model, products, and service offerings&#xD;
+change.</purpose>
+  <alternatives>Use of a business rules engine to externalize business rules.&amp;nbsp; Such engines commonly come provisioned with a&#xD;
+service-oriented interface that provides access to the rules engine.</alternatives>
+</org.eclipse.epf.uma:TaskDescription>

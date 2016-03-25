@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_2xCZYOvPEd-wYsWv40Tm0w" guid="_2xCZYOvPEd-wYsWv40Tm0w">
+    <resourceDescriptors xmi:id="_LanosOwhEd-sjp03to1LnQ" id="-j48vc1LvLBZzKbXbQyO2tQ" uri="roles/cots_acquirer.xmi"/>
+    <resourceDescriptors xmi:id="_OFFq4ewhEd-sjp03to1LnQ" id="-9dJuUD6xnyeURPwBlKdNaA" uri="roles/cots_database_designer.xmi"/>
+    <resourceDescriptors xmi:id="_OFYl0OwhEd-sjp03to1LnQ" id="-oGBwck2bAtN_BLHpo6Qp2g" uri="roles/cots_designer.xmi"/>
+    <resourceDescriptors xmi:id="_PQCbEOwhEd-sjp03to1LnQ" id="-DUOqGX0nhVjmk4yPgxnptw" uri="roles/cots_implementer.xmi"/>
+    <resourceDescriptors xmi:id="_RtGTYewhEd-sjp03to1LnQ" id="-LeMwrS0QFgU2nNURQSI-4A" uri="roles/cots_system_administrator.xmi"/>
+    <resourceDescriptors xmi:id="_RtGTYuwhEd-sjp03to1LnQ" id="-bqqWuSARoN0CO9_4SQW-DQ" uri="roles/cots_project_manager.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_2w5PcOvPEd-wYsWv40Tm0w" userChangeable="false" name="core.default.role_def.extend_cots-ibm" guid="_2w5PcOvPEd-wYsWv40Tm0w" changeDate="2011-01-05T11:13:56.921-0800" supporting="true">
+    <methodElementProperty xmi:id="_2xCZYuvPEd-wYsWv40Tm0w" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_VBVtYBXVEdyM9L6rbYAZaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2w5PcevPEd-wYsWv40Tm0w" name="Content" guid="_2w5PcevPEd-wYsWv40Tm0w">
+      <methodElementProperty xmi:id="_L6KiMPwiEeC7S8FB_hVh9w" name="pakage_supporting" value="true"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2w5PcuvPEd-wYsWv40Tm0w" name="Categories" guid="_2w5PcuvPEd-wYsWv40Tm0w">
+        <methodElementProperty xmi:id="_L6KiMfwiEeC7S8FB_hVh9w" name="pakage_supporting" value="true"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2w5Pc-vPEd-wYsWv40Tm0w" name="Domains" guid="_2w5Pc-vPEd-wYsWv40Tm0w">
+          <methodElementProperty xmi:id="_L6KiMvwiEeC7S8FB_hVh9w" name="pakage_supporting" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2w5PdOvPEd-wYsWv40Tm0w" name="Disciplines" guid="_2w5PdOvPEd-wYsWv40Tm0w">
+          <methodElementProperty xmi:id="_L6KiM_wiEeC7S8FB_hVh9w" name="pakage_supporting" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2w5PdevPEd-wYsWv40Tm0w" name="RoleSets" guid="_2w5PdevPEd-wYsWv40Tm0w">
+          <methodElementProperty xmi:id="_L6KiNPwiEeC7S8FB_hVh9w" name="pakage_supporting" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_TH2aIOwhEd-sjp03to1LnQ" name="analysts" guid="_TH2aIOwhEd-sjp03to1LnQ" presentationName="Analysts" variabilityType="contributes" roles="_K0eOsOwhEd-sjp03to1LnQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:RoleSet" href="uma://_yjPyAMYfEdyXeo04os5BOw#_HrORgGgZEd-Iq9J-mVPu8w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_TH2aIewhEd-sjp03to1LnQ" name="developers" guid="_TH2aIewhEd-sjp03to1LnQ" presentationName="Developers" variabilityType="contributes" roles="_NkTSAOwhEd-sjp03to1LnQ _NkTSAewhEd-sjp03to1LnQ _OluSwOwhEd-sjp03to1LnQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:RoleSet" href="uma://_yjPyAMYfEdyXeo04os5BOw#_1Y5JoGgYEd-Iq9J-mVPu8w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_TH2aIuwhEd-sjp03to1LnQ" name="managers" guid="_TH2aIuwhEd-sjp03to1LnQ" presentationName="Managers" variabilityType="contributes" roles="_Qc7sAewhEd-sjp03to1LnQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:RoleSet" href="uma://_yjPyAMYfEdyXeo04os5BOw#_-tYz0GgYEd-Iq9J-mVPu8w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSet" xmi:id="_TH2aI-whEd-sjp03to1LnQ" name="production_support" guid="_TH2aI-whEd-sjp03to1LnQ" presentationName="Production and Support" variabilityType="contributes" roles="_Qc7sAOwhEd-sjp03to1LnQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:RoleSet" href="uma://_yjPyAMYfEdyXeo04os5BOw#_6-0QUGgYEd-Iq9J-mVPu8w"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2w5PduvPEd-wYsWv40Tm0w" name="WP Types" guid="_2w5PduvPEd-wYsWv40Tm0w">
+          <methodElementProperty xmi:id="_L6KiNfwiEeC7S8FB_hVh9w" name="pakage_supporting" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2w5Pd-vPEd-wYsWv40Tm0w" name="Tools" guid="_2w5Pd-vPEd-wYsWv40Tm0w">
+          <methodElementProperty xmi:id="_L6KiNvwiEeC7S8FB_hVh9w" name="pakage_supporting" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2w5PeOvPEd-wYsWv40Tm0w" name="StandardCategories" guid="_2w5PeOvPEd-wYsWv40Tm0w">
+          <methodElementProperty xmi:id="_L6KiN_wiEeC7S8FB_hVh9w" name="pakage_supporting" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2w5PeevPEd-wYsWv40Tm0w" name="CustomCategories" guid="_2w5PeevPEd-wYsWv40Tm0w">
+          <methodElementProperty xmi:id="_L6KiOPwiEeC7S8FB_hVh9w" name="pakage_supporting" value="true"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2w5PeuvPEd-wYsWv40Tm0w" name="Hidden" guid="_2w5PeuvPEd-wYsWv40Tm0w">
+            <methodElementProperty xmi:id="_L6KiOfwiEeC7S8FB_hVh9w" name="pakage_supporting" value="true"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_2w5Pe-vPEd-wYsWv40Tm0w" name="Custom Categories" guid="_2w5Pe-vPEd-wYsWv40Tm0w"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_2w5PfOvPEd-wYsWv40Tm0w" name="CoreContent" guid="_2w5PfOvPEd-wYsWv40Tm0w">
+        <methodElementProperty xmi:id="_L6KiOvwiEeC7S8FB_hVh9w" name="pakage_supporting" value="true"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_E_8EQOwhEd-sjp03to1LnQ" name="cots_roles" guid="_E_8EQOwhEd-sjp03to1LnQ" presentationName="COTS Development Roles">
+          <methodElementProperty xmi:id="_L6KiO_wiEeC7S8FB_hVh9w" name="pakage_supporting" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_K0eOsOwhEd-sjp03to1LnQ" name="cots_acquirer" guid="_K0eOsOwhEd-sjp03to1LnQ" presentationName="Acquirer" briefDescription="This role is responsible for the identification, implementation, and deployment of complex information technology solutions where COTS packages are an integral part of the solution.">
+            <presentation xmi:id="-j48vc1LvLBZzKbXbQyO2tQ" href="uma://-j48vc1LvLBZzKbXbQyO2tQ#-j48vc1LvLBZzKbXbQyO2tQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_NkTSAOwhEd-sjp03to1LnQ" name="cots_database_designer" guid="_NkTSAOwhEd-sjp03to1LnQ" presentationName="COTS Database Designer">
+            <presentation xmi:id="-9dJuUD6xnyeURPwBlKdNaA" href="uma://-9dJuUD6xnyeURPwBlKdNaA#-9dJuUD6xnyeURPwBlKdNaA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_NkTSAewhEd-sjp03to1LnQ" name="cots_designer" guid="_NkTSAewhEd-sjp03to1LnQ" presentationName="COTS Designer">
+            <presentation xmi:id="-oGBwck2bAtN_BLHpo6Qp2g" href="uma://-oGBwck2bAtN_BLHpo6Qp2g#-oGBwck2bAtN_BLHpo6Qp2g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_OluSwOwhEd-sjp03to1LnQ" name="cots_implementer" guid="_OluSwOwhEd-sjp03to1LnQ" presentationName="COTS Implementer">
+            <presentation xmi:id="-DUOqGX0nhVjmk4yPgxnptw" href="uma://-DUOqGX0nhVjmk4yPgxnptw#-DUOqGX0nhVjmk4yPgxnptw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Qc7sAOwhEd-sjp03to1LnQ" name="cots_system_administrator" guid="_Qc7sAOwhEd-sjp03to1LnQ" presentationName="COTS System Administrator">
+            <presentation xmi:id="-LeMwrS0QFgU2nNURQSI-4A" href="uma://-LeMwrS0QFgU2nNURQSI-4A#-LeMwrS0QFgU2nNURQSI-4A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Qc7sAewhEd-sjp03to1LnQ" name="cots_project_manager" guid="_Qc7sAewhEd-sjp03to1LnQ" presentationName="COTS Project Manager">
+            <presentation xmi:id="-bqqWuSARoN0CO9_4SQW-DQ" href="uma://-bqqWuSARoN0CO9_4SQW-DQ#-bqqWuSARoN0CO9_4SQW-DQ"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_2w5PfevPEd-wYsWv40Tm0w" name="CapabilityPatterns" guid="_2w5PfevPEd-wYsWv40Tm0w"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_2w5PfuvPEd-wYsWv40Tm0w" name="DeliveryProcesses" guid="_2w5PfuvPEd-wYsWv40Tm0w"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_2w5Pf-vPEd-wYsWv40Tm0w" name="ProcessContributions" guid="_2w5Pf-vPEd-wYsWv40Tm0w"/>
+    <bases href="uma://_yjPyAMYfEdyXeo04os5BOw#_yjPyAMYfEdyXeo04os5BOw"/>
+    <bases href="uma://_OOB2AAouEdyhlpBPrduOMw#_OOB2AAouEdyhlpBPrduOMw"/>
+    <bases href="uma://_OynuUNDqEdunspUKKm1F4Q#_OynuUNDqEdunspUKKm1F4Q"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

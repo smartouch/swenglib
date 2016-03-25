@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-wWsYx_vZ_nAo1AWX6b1pRQ" name="service_point_soaml,_4rbIAFbBEd6MCpkuB85p5g" guid="-wWsYx_vZ_nAo1AWX6b1pRQ" changeDate="2009-10-29T09:04:13.546-0700" version="7.5.0">
+  <copyrightStatement href="uma://_4eYbIEcWEd6GBq2DuQ5crg#_cg5P8Lg9Ed6PrITAH4wF_w"/>
+  <mainDescription>&lt;p>&#xD;
+    The following two examples show (1) a model of a Participant that has a ServicePoint typed by a ServiceInterface, and&#xD;
+    (2) a Participant with a ServicePoint that is typed by a simple UML Interface.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>In Figure 1,&amp;nbsp;an invoicing service is provided by an Invoicer Participant.&amp;nbsp;The Invoicer&#xD;
+    Participant is seen to realize the Invoicing UseCase that describes the high-level requirements for the service&#xD;
+    provider and its services. The invoicing ServicePoint is typed by the InvoicingService ServiceInterface that defines&#xD;
+    the interface to the service.&amp;nbsp; A ServiceInterface, rather than a UML Interface, was used here because use of the&#xD;
+    Service&amp;nbsp;requires a protocol&amp;nbsp;that describes the choreography between the service provider and the service&#xD;
+    consumer.&amp;nbsp; This&amp;nbsp;follows from the&amp;nbsp;ServiceInterface having both a provided interface and a required&#xD;
+    interface.&amp;nbsp; The protocol definition is not part of this example.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>The Invoicer Participant has two ownedBehaviors, one an Activity and the other an OpaqueBehavior that&#xD;
+    are the methods for the Operations provided through the invoicing service and model the implementation of those&#xD;
+    capabilities - no stereotypes are provided as these are standard UML constructs.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 1.&amp;nbsp; ServicePoint typed with a ServiceInterface&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&lt;img height=&quot;479&quot; alt=&quot;&quot; src=&quot;./resources/servicepoint_example_1.jpg&quot; width=&quot;573&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>Figure 2&amp;nbsp;shows an example of a scheduling Service provided by a Scheduling Participant. In this&#xD;
+    case, the type of the Service is a simple Interface indicating what capabilities are provided through the Service, and&#xD;
+    that consumers are not required to provide any capabilities and there is no protocol for using the service&#xD;
+    capabilities. SoaML allows Services type typed by a simple interface in order to support this common case.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 2.&amp;nbsp; ServicePoint typed with a simple UML Interface&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp; &lt;img height=&quot;354&quot; alt=&quot;&quot; src=&quot;./resources/servicepoint_example_2.jpg&quot; width=&quot;561&quot; />&amp;nbsp;&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

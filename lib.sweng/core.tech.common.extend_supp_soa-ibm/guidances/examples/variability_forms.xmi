@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:GuidanceDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-dKUQiHfFLffp9qA3yeLKbQ" name="new_example,_5qR_kHr1Ed6mlZJ30DTT1Q" guid="-dKUQiHfFLffp9qA3yeLKbQ" changeDate="2009-10-29T09:12:09.484-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Figure 1 demonstrates the notion of variability by role, where we have a new collaboration &quot;Sale&quot; which denotes the&#xD;
+    relationship between a seller and purchaser as parties to a contract. In UML it is then possible to create a&#xD;
+    Collaboration&amp;nbsp;Use which binds the roles &quot;purchaser&quot; and &quot;seller&quot; to actual model elements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 1.&amp;nbsp; Variability by collaboration role, to be realized using Collaboration Uses&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&lt;img height=&quot;236&quot; alt=&quot;&quot; src=&quot;./resources/candv_sale.jpg&quot; width=&quot;429&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    As an alternative,&amp;nbsp;the next example&amp;nbsp;examines the process of sale using an escrow service. We capture the&#xD;
+    required capabilities of any escrow service as an interface, with a set of operations corresponding to the&#xD;
+    responsibilities we expect the escrow service to perform. With this we create a templated collaboration where we use&#xD;
+    the escrow interface as the type of the template parameter. Now it is possible to instantiate the template providing&#xD;
+    any class or component that realizes the IEscrowService interface. This approach is illustrated in Figure 2.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 2.&amp;nbsp; Representing variability using a parameterized template&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&lt;img height=&quot;142&quot; alt=&quot;&quot; src=&quot;./resources/candv_template.jpg&quot; width=&quot;241&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Finally, we might more simply use a component (or class) to contain our common elements and have it require the&#xD;
+    IEscrowService interface using the UML 2.0 &amp;lt;&amp;lt;use&amp;gt;&amp;gt; relationship as shown in the diagram below. This&#xD;
+    approach is certainly valuable at a design level as it is also a common programming approach in Component-Based&#xD;
+    Development or even just in languages such as Java.&amp;nbsp; Figure 3 illustrates how to model this approach.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Figure 3.&amp;nbsp; Representing implementation variability with a &amp;lt;&amp;lt;used&amp;gt;&amp;gt; interface&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;97&quot; alt=&quot;&quot; src=&quot;./resources/candv_interface.jpg&quot; width=&quot;359&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The choice of technique will, as usual, depend on the situation including considerations such as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The kind of variability being expressed, as we have seen above.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Whether the&amp;nbsp;elements are&amp;nbsp;parts of&amp;nbsp;an analysis, design or implementation model.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The skills and expectations of the stakeholders in the model.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:GuidanceDescription>

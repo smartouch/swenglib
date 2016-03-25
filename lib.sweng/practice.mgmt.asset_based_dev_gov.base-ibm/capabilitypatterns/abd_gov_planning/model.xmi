@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_bQEKYAmpEdyRJZtLhdKeoQ" guid="_bQEKYAmpEdyRJZtLhdKeoQ">
+    <resourceDescriptors xmi:id="_bQEKYQmpEdyRJZtLhdKeoQ" id="-tHOxlKc-eHR0V1YCBdUwsQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_bMCmAAmpEdyRJZtLhdKeoQ" name="abd_gov_planning" guid="_bMCmAAmpEdyRJZtLhdKeoQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__p3N8AmpEdyRJZtLhdKeoQ" name="Preparation" guid="__p3N8AmpEdyRJZtLhdKeoQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="__p3N8QmpEdyRJZtLhdKeoQ" name="Preparation" guid="__p3N8QmpEdyRJZtLhdKeoQ" presentationName="Preparation" superActivities="_bMCmAQmpEdyRJZtLhdKeoQ" breakdownElements="_PgVXYAmqEdyRJZtLhdKeoQ _PgVXYQmqEdyRJZtLhdKeoQ _PgVXYgmqEdyRJZtLhdKeoQ _PgVXYwmqEdyRJZtLhdKeoQ _Q2BX8AmqEdyRJZtLhdKeoQ _Q2BX8QmqEdyRJZtLhdKeoQ _Q2BX8gmqEdyRJZtLhdKeoQ _Q2BX8wmqEdyRJZtLhdKeoQ _Q2BX9AmqEdyRJZtLhdKeoQ _Q2BX9QmqEdyRJZtLhdKeoQ _SsLoUAmqEdyRJZtLhdKeoQ _UHYbAAmqEdyRJZtLhdKeoQ _VQjCgAmqEdyRJZtLhdKeoQ _VQjCgQmqEdyRJZtLhdKeoQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_PgVXYAmqEdyRJZtLhdKeoQ" name="prepare_clasification_schema" guid="_PgVXYAmqEdyRJZtLhdKeoQ" presentationName="Prepare Classification Schema" briefDescription="Identify the categorization for assets." superActivities="__p3N8QmpEdyRJZtLhdKeoQ" linkToPredecessor="_HLj9dAmtEdyRJZtLhdKeoQ" mandatoryInput="_PgVXYgmqEdyRJZtLhdKeoQ" output="_PgVXYwmqEdyRJZtLhdKeoQ" performedPrimarilyBy="_PgVXYQmqEdyRJZtLhdKeoQ">
+        <Task href="uma://_IO30kHwTEduHM-FVLbf0RA#_0NTsAPaBEdqJ3rP9LdCKZw"/>
+        <selectedStepsExclude href="uma://-yFa7w-ehfOy4-S9URAoPvw#_dKYqENybEdu7aoTbpwypbQ"/>
+        <selectedStepsExclude href="uma://-yFa7w-ehfOy4-S9URAoPvw#_fy6ykNybEdu7aoTbpwypbQ"/>
+        <selectedStepsExclude href="uma://-yFa7w-ehfOy4-S9URAoPvw#_h0aJMNybEdu7aoTbpwypbQ"/>
+        <selectedStepsExclude href="uma://-yFa7w-ehfOy4-S9URAoPvw#_kP-zwNybEdu7aoTbpwypbQ"/>
+        <selectedStepsExclude href="uma://-yFa7w-ehfOy4-S9URAoPvw#_m_XLINybEdu7aoTbpwypbQ"/>
+        <selectedStepsExclude href="uma://-yFa7w-ehfOy4-S9URAoPvw#_o3ULQNybEdu7aoTbpwypbQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_PgVXYQmqEdyRJZtLhdKeoQ" name="abd_gov_administrator" guid="_PgVXYQmqEdyRJZtLhdKeoQ" presentationName="Administrator [ABD]" briefDescription="The Administrator implements policies and supports the repository." superActivities="__p3N8QmpEdyRJZtLhdKeoQ" modifies="_PgVXYwmqEdyRJZtLhdKeoQ" responsibleFor="_PgVXYwmqEdyRJZtLhdKeoQ">
+        <methodElementProperty xmi:id="_2ENWNbemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_2ENWPbemEd-oHLor78AFuw" name="descriptor_customization" value="2"/>
+        <Role href="uma://_IO30kHwTEduHM-FVLbf0RA#_zG55MNgQEduDraenoyN0Lg"/>
+        <responsibleForExclude href="uma://_IO30kHwTEduHM-FVLbf0RA#_eLvrUNyZEdu7aoTbpwypbQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_PgVXYgmqEdyRJZtLhdKeoQ" name="reuse_strategy" guid="_PgVXYgmqEdyRJZtLhdKeoQ" presentationName="Reuse Strategy" briefDescription="Describes the approach that the organization will take to pursue asset reuse activities." superActivities="__p3N8QmpEdyRJZtLhdKeoQ">
+        <methodElementProperty xmi:id="_2ENWNremEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+        <templates href="uma://_IO30kHwTEduHM-FVLbf0RA#_L2UoENJlEdux05v8_58ieA"/>
+        <WorkProduct href="uma://_IO30kHwTEduHM-FVLbf0RA#_yyfCIAJyEdyQiqExTMAGXw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_PgVXYwmqEdyRJZtLhdKeoQ" name="classification_schema" guid="_PgVXYwmqEdyRJZtLhdKeoQ" presentationName="Classification Schema" briefDescription="A structure of values used to classify assets in the repository." superActivities="__p3N8QmpEdyRJZtLhdKeoQ">
+        <methodElementProperty xmi:id="_2ENWN7emEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_IO30kHwTEduHM-FVLbf0RA#_sDiQIAJtEdyQiqExTMAGXw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Q2BX8AmqEdyRJZtLhdKeoQ" name="prepare_resources_and_training_plan" guid="_Q2BX8AmqEdyRJZtLhdKeoQ" presentationName="Prepare Resources and Training Plan" briefDescription="Describe the asset manufacturing, management, usage team organization, and their enablement training." superActivities="__p3N8QmpEdyRJZtLhdKeoQ" linkToPredecessor="_GtdsNAmtEdyRJZtLhdKeoQ" mandatoryInput="_Q2BX8wmqEdyRJZtLhdKeoQ _Q2BX9AmqEdyRJZtLhdKeoQ _PgVXYgmqEdyRJZtLhdKeoQ" optionalInput="_Q2BX8gmqEdyRJZtLhdKeoQ" output="_Q2BX9QmqEdyRJZtLhdKeoQ" performedPrimarilyBy="_Q2BX8QmqEdyRJZtLhdKeoQ">
+        <Task href="uma://_IO30kHwTEduHM-FVLbf0RA#_wtVlMPaBEdqJ3rP9LdCKZw"/>
+        <selectedStepsExclude href="uma://-pQSKhTscDrGJt7L6TGYipg#_MMVvwP8lEduLr5zGs322wA"/>
+        <selectedStepsExclude href="uma://-pQSKhTscDrGJt7L6TGYipg#_StkoIP8lEduLr5zGs322wA"/>
+        <selectedStepsExclude href="uma://-pQSKhTscDrGJt7L6TGYipg#_YhXLsP8lEduLr5zGs322wA"/>
+        <selectedStepsExclude href="uma://-pQSKhTscDrGJt7L6TGYipg#_gFzNgP8lEduLr5zGs322wA"/>
+        <selectedStepsExclude href="uma://-pQSKhTscDrGJt7L6TGYipg#_novagP8lEduLr5zGs322wA"/>
+        <selectedStepsExclude href="uma://-pQSKhTscDrGJt7L6TGYipg#_yyNpUP8lEduLr5zGs322wA"/>
+        <selectedStepsExclude href="uma://-pQSKhTscDrGJt7L6TGYipg#_56yOgP8lEduLr5zGs322wA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_Q2BX8QmqEdyRJZtLhdKeoQ" name="abd_gov_manager" guid="_Q2BX8QmqEdyRJZtLhdKeoQ" presentationName="Manager [ABD]" briefDescription="The Manager provides oversight to asset program activities." superActivities="__p3N8QmpEdyRJZtLhdKeoQ" modifies="_Q2BX8wmqEdyRJZtLhdKeoQ _Q2BX9AmqEdyRJZtLhdKeoQ _PgVXYgmqEdyRJZtLhdKeoQ _Q2BX9QmqEdyRJZtLhdKeoQ" responsibleFor="_Q2BX9QmqEdyRJZtLhdKeoQ _Q2BX9AmqEdyRJZtLhdKeoQ _Q2BX8wmqEdyRJZtLhdKeoQ _PgVXYgmqEdyRJZtLhdKeoQ">
+        <methodElementProperty xmi:id="_2ENWPremEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://_IO30kHwTEduHM-FVLbf0RA#_qy734NgQEduDraenoyN0Lg"/>
+        <responsibleForExclude href="uma://_IO30kHwTEduHM-FVLbf0RA#_ND-vkNyNEdu7aoTbpwypbQ"/>
+        <responsibleForExclude href="uma://_IO30kHwTEduHM-FVLbf0RA#_6ZAeEP3REdubna2vE0o6gQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Q2BX8gmqEdyRJZtLhdKeoQ" name="asset_workflow_specification" guid="_Q2BX8gmqEdyRJZtLhdKeoQ" presentationName="Asset Workflow Specification" briefDescription="A description of the steps in an asset review or procurement workflow." superActivities="__p3N8QmpEdyRJZtLhdKeoQ">
+        <methodElementProperty xmi:id="_2ENWQbemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+        <examples href="uma://_IO30kHwTEduHM-FVLbf0RA#_e12_4P82EduLr5zGs322wA"/>
+        <WorkProduct href="uma://_IO30kHwTEduHM-FVLbf0RA#_eRhmYNydEdu7aoTbpwypbQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Q2BX8wmqEdyRJZtLhdKeoQ" name="reuse_adoption_incentive_plan" guid="_Q2BX8wmqEdyRJZtLhdKeoQ" presentationName="Reuse Adoption and Incentive Plan" briefDescription="Describes the asset rollout plan and incentives." superActivities="__p3N8QmpEdyRJZtLhdKeoQ">
+        <methodElementProperty xmi:id="_2ENWP7emEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_IO30kHwTEduHM-FVLbf0RA#_G1kA0AJxEdyQiqExTMAGXw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Q2BX9AmqEdyRJZtLhdKeoQ" name="reuse_assessment" guid="_Q2BX9AmqEdyRJZtLhdKeoQ" presentationName="Reuse Assessment" briefDescription="Describes the opportunities and abilities of the organization, or some other entity, to conduct asset reuse work." superActivities="__p3N8QmpEdyRJZtLhdKeoQ">
+        <methodElementProperty xmi:id="_2ENWQLemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+        <guidelines href="uma://{AA38D0B3-05CF-49D4-B858-CAFC6819F2F7}#_91VWsCZwEdyyDbS4PtwWKw"/>
+        <templates href="uma://_IO30kHwTEduHM-FVLbf0RA#_8ZtEQNyEEdu7aoTbpwypbQ"/>
+        <WorkProduct href="uma://_IO30kHwTEduHM-FVLbf0RA#_1DAIsAJxEdyQiqExTMAGXw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_Q2BX9QmqEdyRJZtLhdKeoQ" name="resources_training_plan" guid="_Q2BX9QmqEdyRJZtLhdKeoQ" presentationName="Resources and Training Plan" briefDescription="Describes the roles, the users, and the plans for training them." superActivities="__p3N8QmpEdyRJZtLhdKeoQ">
+        <methodElementProperty xmi:id="_2ENWQremEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_IO30kHwTEduHM-FVLbf0RA#_NIUNwAJwEdyQiqExTMAGXw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_SsLoUAmqEdyRJZtLhdKeoQ" name="prepare_reuse_adoption_and_incentive_plan" guid="_SsLoUAmqEdyRJZtLhdKeoQ" presentationName="Prepare Reuse Adoption and Incentive Plan" briefDescription="Create a plan for practitioners and technical management to adopt reuse practices." superActivities="__p3N8QmpEdyRJZtLhdKeoQ" linkToPredecessor="_H5A5UAmtEdyRJZtLhdKeoQ" mandatoryInput="_PgVXYgmqEdyRJZtLhdKeoQ" optionalInput="_Q2BX8gmqEdyRJZtLhdKeoQ" output="_Q2BX8wmqEdyRJZtLhdKeoQ" performedPrimarilyBy="_Q2BX8QmqEdyRJZtLhdKeoQ">
+        <Task href="uma://_IO30kHwTEduHM-FVLbf0RA#_r2i1YPaBEdqJ3rP9LdCKZw"/>
+        <selectedStepsExclude href="uma://-Z7N_cFWZkAIgNUZ5i3GMMQ#_kIJeEP8kEduLr5zGs322wA"/>
+        <selectedStepsExclude href="uma://-Z7N_cFWZkAIgNUZ5i3GMMQ#_rRBlQP8kEduLr5zGs322wA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_UHYbAAmqEdyRJZtLhdKeoQ" name="prepare_reuse_assessment" guid="_UHYbAAmqEdyRJZtLhdKeoQ" presentationName="Prepare Reuse Assessment" briefDescription="The organization's aptitude and opportunity for reuse is assessed." superActivities="__p3N8QmpEdyRJZtLhdKeoQ" output="_Q2BX9AmqEdyRJZtLhdKeoQ" performedPrimarilyBy="_Q2BX8QmqEdyRJZtLhdKeoQ">
+        <guidelines href="uma://{AA38D0B3-05CF-49D4-B858-CAFC6819F2F7}#_91VWsCZwEdyyDbS4PtwWKw"/>
+        <Task href="uma://_IO30kHwTEduHM-FVLbf0RA#_ocr9oPaBEdqJ3rP9LdCKZw"/>
+        <selectedStepsExclude href="uma://-mKGSGXv8absfI__Gs7vFjA#_MTYXcNMpEdu6ttMl0uhyhw"/>
+        <selectedStepsExclude href="uma://-mKGSGXv8absfI__Gs7vFjA#_O1NbANMpEdu6ttMl0uhyhw"/>
+        <selectedStepsExclude href="uma://-mKGSGXv8absfI__Gs7vFjA#_Qz3gENMpEdu6ttMl0uhyhw"/>
+        <selectedStepsExclude href="uma://-mKGSGXv8absfI__Gs7vFjA#_Tky18P8jEduLr5zGs322wA"/>
+        <selectedStepsExclude href="uma://-mKGSGXv8absfI__Gs7vFjA#_Yv5o4P8jEduLr5zGs322wA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_VQjCgAmqEdyRJZtLhdKeoQ" name="prepare_reuse_strategy" guid="_VQjCgAmqEdyRJZtLhdKeoQ" presentationName="Prepare Reuse Strategy" briefDescription="The Reuse Strategy describes how the enterprise, or some other scoped entity, will conduct the activities of the reuse program." superActivities="__p3N8QmpEdyRJZtLhdKeoQ" linkToPredecessor="_Ckqq0AmtEdyRJZtLhdKeoQ" additionallyPerformedBy="_VQjCgQmqEdyRJZtLhdKeoQ" mandatoryInput="_Q2BX9AmqEdyRJZtLhdKeoQ" output="_PgVXYgmqEdyRJZtLhdKeoQ" performedPrimarilyBy="_Q2BX8QmqEdyRJZtLhdKeoQ">
+        <Task href="uma://_IO30kHwTEduHM-FVLbf0RA#_ifIaEPaBEdqJ3rP9LdCKZw"/>
+        <selectedStepsExclude href="uma://-QIhtQLUo73E-2E4wV1fnow#_lclUsNgEEduDraenoyN0Lg"/>
+        <selectedStepsExclude href="uma://-QIhtQLUo73E-2E4wV1fnow#_qswN0NgEEduDraenoyN0Lg"/>
+        <selectedStepsExclude href="uma://-QIhtQLUo73E-2E4wV1fnow#_urHg0NgEEduDraenoyN0Lg"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_VQjCgQmqEdyRJZtLhdKeoQ" name="asset_governance_board" guid="_VQjCgQmqEdyRJZtLhdKeoQ" presentationName="Asset Governance Board" briefDescription="The body of members responsible for defining many of the policies for asset-based governance and development." superActivities="__p3N8QmpEdyRJZtLhdKeoQ" responsibleFor="_Q2BX8gmqEdyRJZtLhdKeoQ">
+        <methodElementProperty xmi:id="_2EXHMLemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://_IO30kHwTEduHM-FVLbf0RA#_qPmwoOHkEdq3CP4DTSI-pw"/>
+        <responsibleForExclude href="uma://_IO30kHwTEduHM-FVLbf0RA#_8HQgANydEdu7aoTbpwypbQ"/>
+        <responsibleForExclude href="uma://_IO30kHwTEduHM-FVLbf0RA#_GpIZQAJvEdyQiqExTMAGXw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Ckqq0AmtEdyRJZtLhdKeoQ" guid="_Ckqq0AmtEdyRJZtLhdKeoQ" pred="_UHYbAAmqEdyRJZtLhdKeoQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_GtdsNAmtEdyRJZtLhdKeoQ" guid="_GtdsNAmtEdyRJZtLhdKeoQ" pred="_VQjCgAmqEdyRJZtLhdKeoQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_HLj9dAmtEdyRJZtLhdKeoQ" guid="_HLj9dAmtEdyRJZtLhdKeoQ" pred="_VQjCgAmqEdyRJZtLhdKeoQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_H5A5UAmtEdyRJZtLhdKeoQ" guid="_H5A5UAmtEdyRJZtLhdKeoQ" pred="_VQjCgAmqEdyRJZtLhdKeoQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_CzxlMAmqEdyRJZtLhdKeoQ" name="Funding" guid="_CzxlMAmqEdyRJZtLhdKeoQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_CzxlMQmqEdyRJZtLhdKeoQ" name="Funding" guid="_CzxlMQmqEdyRJZtLhdKeoQ" presentationName="Funding" superActivities="_bMCmAQmpEdyRJZtLhdKeoQ" breakdownElements="_ZtAmwAmqEdyRJZtLhdKeoQ _ZtAmwQmqEdyRJZtLhdKeoQ _ZtAmwgmqEdyRJZtLhdKeoQ _ZtAmwwmqEdyRJZtLhdKeoQ _ZtAmxAmqEdyRJZtLhdKeoQ _ZtAmxQmqEdyRJZtLhdKeoQ _bi38MAmqEdyRJZtLhdKeoQ _bi38MQmqEdyRJZtLhdKeoQ"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ZtAmwAmqEdyRJZtLhdKeoQ" name="prepare_asset_financial_estimates" guid="_ZtAmwAmqEdyRJZtLhdKeoQ" presentationName="Prepare Asset Financial Estimates" briefDescription="Estimate financial aspects of asset program." superActivities="_CzxlMQmqEdyRJZtLhdKeoQ" mandatoryInput="_ZtAmwgmqEdyRJZtLhdKeoQ _ZtAmwwmqEdyRJZtLhdKeoQ _ZtAmxAmqEdyRJZtLhdKeoQ" output="_ZtAmxQmqEdyRJZtLhdKeoQ" performedPrimarilyBy="_ZtAmwQmqEdyRJZtLhdKeoQ">
+        <examples href="uma://_IO30kHwTEduHM-FVLbf0RA#_4o9roNyGEdu7aoTbpwypbQ"/>
+        <examples href="uma://_IO30kHwTEduHM-FVLbf0RA#_ijj98NyKEdu7aoTbpwypbQ"/>
+        <examples href="uma://_IO30kHwTEduHM-FVLbf0RA#_IvWjkNyLEdu7aoTbpwypbQ"/>
+        <Task href="uma://_IO30kHwTEduHM-FVLbf0RA#_wzbRMPHCEdqvbZNHa620Yw"/>
+        <selectedStepsExclude href="uma://-4x-v7D5YGWzrB1VZAkHk2w#_C8BU4P26Edubna2vE0o6gQ"/>
+        <selectedStepsExclude href="uma://-4x-v7D5YGWzrB1VZAkHk2w#_ELAQgP26Edubna2vE0o6gQ"/>
+        <selectedStepsExclude href="uma://-4x-v7D5YGWzrB1VZAkHk2w#_Gc4zkP26Edubna2vE0o6gQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_ZtAmwQmqEdyRJZtLhdKeoQ" name="abd_gov_manager" guid="_ZtAmwQmqEdyRJZtLhdKeoQ" presentationName="Manager [ABD]" briefDescription="The Manager provides oversight to asset program activities." superActivities="_CzxlMQmqEdyRJZtLhdKeoQ" modifies="_ZtAmxAmqEdyRJZtLhdKeoQ _ZtAmxQmqEdyRJZtLhdKeoQ" responsibleFor="_bi38MQmqEdyRJZtLhdKeoQ _ZtAmxQmqEdyRJZtLhdKeoQ _ZtAmxAmqEdyRJZtLhdKeoQ _ZtAmwwmqEdyRJZtLhdKeoQ _ZtAmwgmqEdyRJZtLhdKeoQ">
+        <methodElementProperty xmi:id="_2ENWQ7emEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+        <Role href="uma://_IO30kHwTEduHM-FVLbf0RA#_qy734NgQEduDraenoyN0Lg"/>
+        <responsibleForExclude href="uma://_IO30kHwTEduHM-FVLbf0RA#_6ZAeEP3REdubna2vE0o6gQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ZtAmwgmqEdyRJZtLhdKeoQ" name="resources_training_plan" guid="_ZtAmwgmqEdyRJZtLhdKeoQ" presentationName="Resources and Training Plan" briefDescription="Describes the roles, the users, and the plans for training them." superActivities="_CzxlMQmqEdyRJZtLhdKeoQ">
+        <methodElementProperty xmi:id="_2ENWPLemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_IO30kHwTEduHM-FVLbf0RA#_NIUNwAJwEdyQiqExTMAGXw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ZtAmwwmqEdyRJZtLhdKeoQ" name="reuse_adoption_incentive_plan" guid="_ZtAmwwmqEdyRJZtLhdKeoQ" presentationName="Reuse Adoption and Incentive Plan" briefDescription="Describes the asset rollout plan and incentives." superActivities="_CzxlMQmqEdyRJZtLhdKeoQ">
+        <methodElementProperty xmi:id="_2ENWO7emEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+        <WorkProduct href="uma://_IO30kHwTEduHM-FVLbf0RA#_G1kA0AJxEdyQiqExTMAGXw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ZtAmxAmqEdyRJZtLhdKeoQ" name="reuse_strategy" guid="_ZtAmxAmqEdyRJZtLhdKeoQ" presentationName="Reuse Strategy" briefDescription="Describes the approach that the organization will take to pursue asset reuse activities." superActivities="_CzxlMQmqEdyRJZtLhdKeoQ">
+        <methodElementProperty xmi:id="_2ENWOremEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+        <templates href="uma://_IO30kHwTEduHM-FVLbf0RA#_L2UoENJlEdux05v8_58ieA"/>
+        <WorkProduct href="uma://_IO30kHwTEduHM-FVLbf0RA#_yyfCIAJyEdyQiqExTMAGXw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ZtAmxQmqEdyRJZtLhdKeoQ" name="asset_financial_estimate" guid="_ZtAmxQmqEdyRJZtLhdKeoQ" presentationName="Asset Financial Estimate" briefDescription="Describes the financial requirements for conducting the asset program." superActivities="_CzxlMQmqEdyRJZtLhdKeoQ">
+        <methodElementProperty xmi:id="_2ENWObemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+        <examples href="uma://_IO30kHwTEduHM-FVLbf0RA#_4o9roNyGEdu7aoTbpwypbQ"/>
+        <WorkProduct href="uma://_IO30kHwTEduHM-FVLbf0RA#_ND-vkNyNEdu7aoTbpwypbQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_bi38MAmqEdyRJZtLhdKeoQ" name="secure_sponsor" guid="_bi38MAmqEdyRJZtLhdKeoQ" presentationName="Secure Sponsor" briefDescription="Select one or more sponsors to fund the asset program." superActivities="_CzxlMQmqEdyRJZtLhdKeoQ" linkToPredecessor="_fdZblAmrEdyRJZtLhdKeoQ" mandatoryInput="_ZtAmxQmqEdyRJZtLhdKeoQ _bi38MQmqEdyRJZtLhdKeoQ" optionalInput="_ZtAmxAmqEdyRJZtLhdKeoQ" output="_ZtAmxAmqEdyRJZtLhdKeoQ" performedPrimarilyBy="_ZtAmwQmqEdyRJZtLhdKeoQ">
+        <Task href="uma://_IO30kHwTEduHM-FVLbf0RA#_2Yh4gPHCEdqvbZNHa620Yw"/>
+        <selectedStepsExclude href="uma://-UA3Wb-AnbujrELbLKi2YHQ#_-4xscP26Edubna2vE0o6gQ"/>
+        <selectedStepsExclude href="uma://-UA3Wb-AnbujrELbLKi2YHQ#_BE17YP27Edubna2vE0o6gQ"/>
+        <selectedStepsExclude href="uma://-UA3Wb-AnbujrELbLKi2YHQ#_CkqIUP27Edubna2vE0o6gQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_bi38MQmqEdyRJZtLhdKeoQ" name="reuse_assessment" guid="_bi38MQmqEdyRJZtLhdKeoQ" presentationName="Reuse Assessment" briefDescription="Describes the opportunities and abilities of the organization, or some other entity, to conduct asset reuse work." superActivities="_CzxlMQmqEdyRJZtLhdKeoQ">
+        <methodElementProperty xmi:id="_2ENWOLemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+        <guidelines href="uma://{AA38D0B3-05CF-49D4-B858-CAFC6819F2F7}#_91VWsCZwEdyyDbS4PtwWKw"/>
+        <templates href="uma://_IO30kHwTEduHM-FVLbf0RA#_8ZtEQNyEEdu7aoTbpwypbQ"/>
+        <WorkProduct href="uma://_IO30kHwTEduHM-FVLbf0RA#_1DAIsAJxEdyQiqExTMAGXw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_fdZblAmrEdyRJZtLhdKeoQ" guid="_fdZblAmrEdyRJZtLhdKeoQ" pred="_ZtAmwAmqEdyRJZtLhdKeoQ"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_bMCmAQmpEdyRJZtLhdKeoQ" name="abd_gov_planning" guid="_bMCmAQmpEdyRJZtLhdKeoQ" presentationName="Planning" briefDescription="This capability pattern describe the main activities for planning development-time asset governance." breakdownElements="__p3N8QmpEdyRJZtLhdKeoQ _CzxlMQmqEdyRJZtLhdKeoQ">
+      <methodElementProperty xmi:id="_2EXHMbemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-tHOxlKc-eHR0V1YCBdUwsQ" href="uma://-tHOxlKc-eHR0V1YCBdUwsQ#-tHOxlKc-eHR0V1YCBdUwsQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

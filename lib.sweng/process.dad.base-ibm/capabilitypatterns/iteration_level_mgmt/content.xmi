@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-T9rGCiNIPfaB2h6kTB8uAw" name="iteration_level_mgmt,_rFgCsfNLEd-m6bC08PA8Yw" guid="-T9rGCiNIPfaB2h6kTB8uAw"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xXZo4qHvuzhlMlE1OrdROg" name="work_items_list,_2k8hgPNLEd-m6bC08PA8Yw" guid="-xXZo4qHvuzhlMlE1OrdROg">
+    <keyConsiderations>&lt;p>&#xD;
+    Work Items should contain estimates. See guidelines on managing work items and agile estimation.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact provides a focal point for the entire team:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        It provides one list containing all requests for additional capabilities or enhancement for that application. Note&#xD;
+        that some of these requests may never be implemented, or be implemented in later projects.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one list of all the work to be prioritized, estimated, and assigned within the project. The risk list&#xD;
+        is prioritized separately.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one place to go to for the development team to understand what&amp;nbsp;micro-increments&amp;nbsp;need to be&#xD;
+        delivered, get references to material required to carry out the work, and report progress made.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    These are the typical work items that go on this list:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Use cases (and references to use-case specifications)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        System-wide requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Changes and enhancement requests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defects&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Development tasks&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Work items can be very large in scope, especially when capturing requests for enhancements, such as &quot;Support Financial&#xD;
+    Planning&quot; for a personal finance application. To allow the application to be developed in micro-increments, work items&#xD;
+    are analyzed and broken down into smaller work items so that they can be assigned to an iteration, such as a use-case&#xD;
+    scenario for&amp;nbsp;&quot;Calculate Net Worth&quot;. Further breakdown may be required to identify suitable tasks to be assigned to&#xD;
+    developers, such as &quot;Develop UI for Calculate Net Worth&quot;. This means that work items often have parent/child&#xD;
+    relationships, where the lowest level is a specification and tracking device for micro-increments.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8fZ6sn8LeY4ixbqDtGsLnQ" name="risk_list,_2k8hhvNLEd-m6bC08PA8Yw" guid="-8fZ6sn8LeY4ixbqDtGsLnQ">
+    <keyConsiderations>&lt;p>&#xD;
+    This list should capture the critical and serious risks. If you find this list extending beyond 20 items, carefully&#xD;
+    consider whether they are really serious risks. Tracking more than 20 risks is an onerous task.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This list identifies, in decreasing order of priority, all the &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.base/guidances/termdefinitions/risk_33255339.html&quot;&#xD;
+    guid=&quot;_ii2LUEvGEdunZcj9T5hrMQ&quot;>risks&lt;/a> associated to a project.&amp;nbsp;It serves as a focal point for project&#xD;
+    activities, and is the basis around which iterations are organized.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../core.mgmt.common.extend_supp/guidances/concepts/risk_AF5840DA.html&quot;&#xD;
+    guid=&quot;_0bsLgMlgEdmt3adZL5Dmdw&quot;>Concept: Risk&lt;/a>&amp;nbsp;for more details.&lt;!--EndFragment-->&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-T0syn-2_ElFqHZsEGnb6Nw" name="plan_iteration,_2k8hiPNLEd-m6bC08PA8Yw" guid="-T0syn-2_ElFqHZsEGnb6Nw">
+    <keyConsiderations>&lt;p>&#xD;
+    While planning the iteration at the project level, consider doing the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Ensure that the iteration work effort rolled up from each sub team corresponds to a reasonable amount of work for&#xD;
+        the iteration, based on each sub team’s previous velocity.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    During project planning, iterations are identified, but the estimates have an acceptable uncertainty due to the lack of&#xD;
+    detail at the project inception. This task is repeated for each iteration within a release. It allows the team to&#xD;
+    increase the accuracy of the estimates for one iteration, as more detail is known along the project.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Ensure that the team commits to a reasonable amount of work for the iteration, based on team performance from previous&#xD;
+    iterations.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Pb7DKoR2SiC1AafSThcFDg" name="iteration_plan,_2k8hifNLEd-m6bC08PA8Yw" guid="-Pb7DKoR2SiC1AafSThcFDg">
+    <keyConsiderations>&lt;p>&#xD;
+    In a team of teams context, the project leadership team produces iteration plans that drive the sub teams' iteration&#xD;
+    plans. The high level&amp;nbsp;iteration plans are part of the larger project release plan, and they typically define:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Cross-team items which will be facilitated by the project leadership team&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Goals which should be injected into the&amp;nbsp;sub team plans&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact captures the key milestones of an iteration, showing start and end dates, intermediate milestones,&#xD;
+    synchronization points with other teams, demos, and so on. This artifact is also used to capture issues that need to be&#xD;
+    solved during the iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You should list a few objectives for the iteration, which will help guide you throughout the iteration. Also, assess at&#xD;
+    the end if those objectives have been achieved.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The task assignments for an iteration are a subset of all tasks on the &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.extend_supp/workproducts/work_items_list_39D03CC8.html&quot;&#xD;
+    guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;>Artifact: Work Items List&lt;/a>. Therefore, the iteration plan ideally references those&#xD;
+    work items.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The evaluation criteria and iteration assessment information are captured in this artifact, so that you can communicate&#xD;
+    results and actions from assessments.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-oPEAE47jAOyeiTK797XMSA" name="assess_results,_u0USQPNVEd-GPIBfpa4TUw" guid="-oPEAE47jAOyeiTK797XMSA">
+    <keyConsiderations>&lt;p>&#xD;
+    While assessing the iteration results at the project level, consider doing the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Coordinate&amp;nbsp;the sub teams activities such as iteration assessment and demonstration of iteration results to&#xD;
+        stakeholders. Leverage iteration status reports created by sub teams.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Perform a retrospective with sub team leads to understand what went well - and what not -&amp;nbsp;for each sub&#xD;
+        team.&amp;nbsp;Improve the overall process followed by all teams.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>Coordinate the assessment and discuss with the team how the iteration results will be best presented to stakeholders, so&#xD;
+that they can learn as much about the solution as possible. Listen to what the team has to say about what went wrong (and&#xD;
+what went right) during the iteration. This knowledge will help everybody make informed decisions about the next iteration&#xD;
+planning, and determine the best course of action for the project. This task is performed at the end of every iteration&#xD;
+until the end of the project.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dZx44rp7eY32lBJHx-vaBw" name="project_manager,_Xfi9QQNHEeKgIrW2BoUv0Q" guid="-dZx44rp7eY32lBJHx-vaBw">
+    <keyConsiderations>&lt;p>&#xD;
+    In the context of a team of teams, this role leads the project leadership team and has the following responsibilities:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Responsible for the release plan&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defines the iterations&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defines the release themes in collaboration with product managers&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defines the overall process and rules&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Maintains the project area&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defines iteration themes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Plans and tracks iteration progress&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Weekly status report&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Runs weekly planning call&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Reviews plans&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Facilitates cross team efforts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensures project health (green builds, tracks risks, make issues visible)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Coaches the team to drive a successful outcome of the project and the acceptance of the product by the customer&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is accountable for the outcome of the project and the acceptance of the product by the customer&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is responsible for the evaluation of project's risks and for controlling those risks through mitigation strategies&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Applies management knowledge, skills, tools, and techniques to a broad range of tasks to deliver the&#xD;
+        desired result for a particular project in a timely manner&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-DOCss_PVAMktQHLq0XSi9w" name="architect,_XfsHMQNHEeKgIrW2BoUv0Q" guid="-DOCss_PVAMktQHLq0XSi9w">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role leads or coordinates the technical design of the system and has overall responsibility for&#xD;
+    facilitating the major technical decisions expressed as software architecture. This typically includes identifying and&#xD;
+    documenting the architecturally significant aspects of the system as views that describe requirements, design,&#xD;
+    implementation, and deployment.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This role is also responsible for providing the rationale for these decisions, balancing the concerns of the various&#xD;
+    stakeholders, reducing technical risks, and ensuring that decisions are effectively communicated, validated, and&#xD;
+    followed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This role works closely with project managers in staffing and planning the project, because it is recommended&#xD;
+    that the team be organized around the architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This role also works closely with analysts and developers to make sure that the architecturally significant&#xD;
+    requirements are assigned to the proper components of the system. &#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-y1aaUm9XUShKvXBWP_U9Yw" name="tester,_Xf0DAQNHEeKgIrW2BoUv0Q" guid="-y1aaUm9XUShKvXBWP_U9Yw">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying the tests that need to be performed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identifying the most appropriate implementation approach for a given test&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Implementing individual tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Setting up and running the tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Logging outcomes and verifying that the tests have been run&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Analyzing and guiding the recovery from execution errors&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Communicating test results to the team&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-94Ts1FnkrqqJHQN7UocZxg" name="user_support_specs,_XgUZUQNHEeKgIrW2BoUv0Q" guid="-94Ts1FnkrqqJHQN7UocZxg">
+    <keyConsiderations>&lt;p>&#xD;
+    Coordinate the User Support Specifications with the end user training material specifications to avoid having to cover&#xD;
+    the same topics twice - unless it is on purpose.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In writing the User Support Specifications, re-use as much as possible of the:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Package Design Documentation&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Package Extension Specifications&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Report Specifications&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interface Specifications&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In selecting the media for the user documentation take into the consideration the ease of maintenance, i.e., how will&#xD;
+    the documentation be updated, is the documentation accessible, and how will it be distributed.&amp;nbsp; Should the&#xD;
+    documentation be on-line on a server, and should some of it be kept in hard copy as a back up in case the server is&#xD;
+    inaccessible?&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This must be done in conjunction with the development of user training materials.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The specifications are the work descriptions for the development of the various units of user documentation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The User Support Specifications should cover:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The configuration of the standard package, including accessibility and package extensions that have been developed.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The reports and interfaces that have been developed. &#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        How a combination of these will be used to support the client's business processes.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The specifications define the boundaries between the different units of user documentation, as well as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Content&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Audience&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Purpose&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Standards to be used, and the language(s)&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-H_PsXD_QYUiDHsjJ_Lkb6w" name="requirements_attributes.add,_XgYDsQNHEeKgIrW2BoUv0Q" guid="-H_PsXD_QYUiDHsjJ_Lkb6w">
+    <keyConsiderations>Requirement attributes help the project team understand, prioritize, manage, track and validate the project requirements.</keyConsiderations>
+    <refinedDescription>A project requirement does not just consist of the description of the requirement. Each requirement needs a set of&#xD;
+properties - called attributes -&amp;nbsp;that capture important information about it. And requirements that belong to&#xD;
+different categories&amp;nbsp;can have a different set of attributes. All requirements&amp;nbsp;must have a core set of attributes&#xD;
+to capture critical information about each requirement. The information that is captured in the attributes can used to&#xD;
+generate views and reports, which are used to track and measure progress.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-s6Bo4Vt1aTrwPH-z0Hqm0w" name="requirements_traceability,_XgcVIQNHEeKgIrW2BoUv0Q" guid="-s6Bo4Vt1aTrwPH-z0Hqm0w">
+    <keyConsiderations>&lt;p>&#xD;
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'&quot;>In order to maintain the consistency&amp;nbsp;of the&#xD;
+    traceability,&amp;nbsp;this artifact must be re-assessed every time there is a change to the requirement or at the end of&#xD;
+    each milestone.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span style=&quot;FONT-SIZE: 10pt; LINE-HEIGHT: 115%; FONT-FAMILY: 'Arial','sans-serif'&quot;>In a small simple project, the&#xD;
+    traceability matrix can be&amp;nbsp;maintained in a spreadsheet. Automated tool support is helpful in a complicated&#xD;
+    large-scale project.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There are project resource costs to establishing and maintaining traceability. It is important to establish just enough&#xD;
+    traceability to support completeness checking and change impact analysis without over-using the technique by tracing&#xD;
+    &quot;everything to everything&quot;.&lt;br />&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'&quot;>&lt;span&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'&quot;>Traceability is defined by identifying which relationships&#xD;
+    between requirement types - or other artifacts -- are important enough to track and maintain.&lt;/span>&lt;/span>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7FpZ0R1_NUzU_x1b3jwoWg" name="requirements_management_process_description,_XggmkQNHEeKgIrW2BoUv0Q" guid="-7FpZ0R1_NUzU_x1b3jwoWg">
+    <refinedDescription>&lt;p>&#xD;
+    The Requirements Management Process Description describes the requirements artifacts, requirement types, their&#xD;
+    respective requirements attributes, how requirements traceability will be managed, and specifies the information to be&#xD;
+    collected and tracked. It also specifies how requirements changes will be managed, as well as addressing requirements&#xD;
+    organization, tool automation, the necessary reports, views, and queries that will be generated and the related&#xD;
+    processes for requirements and requirements change management.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Bolscjw4vfEa7PjWWuoS-g" name="vision,_Xgk4AANHEeKgIrW2BoUv0Q" guid="-Bolscjw4vfEa7PjWWuoS-g">
+    <keyConsiderations>&lt;p>&#xD;
+    It is good practice to keep this artifact brief, so you can release it to stakeholders as soon as possible, and to make&#xD;
+    the artifact easy for stakeholders to read and understand. You can accomplish this by including only the most important&#xD;
+    features and avoiding details of requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Projects that focus on product development might extend the marketing section and include a more detailed product&#xD;
+    position statement that is based on their needs and research.&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TDimm0A2FxXlaboa_nvRZw" name="glossary,_XgoiYQNHEeKgIrW2BoUv0Q" guid="-TDimm0A2FxXlaboa_nvRZw">
+    <keyConsiderations>&lt;p>&#xD;
+    Although listed as an &lt;i>output from&lt;/i> and an &lt;i>input to&lt;/i> tasks associated with the requirements discipline, this&#xD;
+    artifact can be updated at any time and by any role as new terms are identified. The terms defined should be used&#xD;
+    according to the recorded definitions in all project documentation so that all stakeholders can clearly see that terms&#xD;
+    are being used consistently.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    One of the primary decisions when developing&amp;nbsp;this artifact&amp;nbsp;is whether to have all terms in a single glossary&#xD;
+    or to maintain terms in several glossaries, business terms artifacts, or models.&amp;nbsp;If terms are defined in multiple&#xD;
+    places, you need to communicate all of those sources to the team and decide which take precedence.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It may be important, even in small projects, to reference and use existing broader glossaries, business terms&#xD;
+    artifacts, or data models, where they exist.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Industry- and organization-wide glossaries may be referenced, and compliance with such specific chosen standards may be&#xD;
+    required.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;helps you avoid miscommunication by providing two essential resources:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A central location to look for terms and abbreviations that are new to development team members&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Definitions of terms that are used in specific ways within the domain&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Definitions for the glossary terms come from several sources, such as requirements documents, specifications, and&#xD;
+    discussions with stakeholders and domain experts.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Wxkbp_vfRkBJn54FGvuflw" name="storyboard,_Xgta4QNHEeKgIrW2BoUv0Q" guid="-Wxkbp_vfRkBJn54FGvuflw">
+    <keyConsiderations>&lt;p>&#xD;
+One or multiple storyboards may be defined for a use case, thereby supporting a use-case-driven approach to software engineering, as well as providing an excellent means to validate the user's (actor's) expectations of these use cases and their role in the use-case flows of events.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;span class=&quot;Apple-style-span&quot; style=&quot;WORD-SPACING: 0px; FONT: 13px arial; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-INDENT: 0px; WHITE-SPACE: normal; LETTER-SPACING: normal; BORDER-COLLAPSE: separate; TEXT-ALIGN: left; orphans: 2; widows: 2; webkit-border-horizontal-spacing: 0px; webkit-border-vertical-spacing: 0px; webkit-text-decorations-in-effect: none; webkit-text-size-adjust: auto; webkit-text-stroke-width: 0&quot;>&#xD;
+Storyboards support requirements elicitation by enabling stakeholders to discover and clarify unknown or unclear requirements, and to provide feedbacks.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HGpkSxPZrMMrxpaURLV9Hg" name="user_role,_Xgy6cQNHEeKgIrW2BoUv0Q" guid="-HGpkSxPZrMMrxpaURLV9Hg">
+    <refinedDescription>&lt;p> A user role&amp;nbsp;represents users of the system under development who have &#xD;
+  similar attributes. These are some of the common attributes that differentiate &#xD;
+  user roles from each other: &lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Frequency of using the software&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Proficiency with using computers and similar systems&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Domain knowledge&#xD;
+    &lt;/li>&#xD;
+    &#xD;
+  &lt;li> Reasons for using the system or problems that they want to solve&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p> Identifying user roles&amp;nbsp;helps the team and stakeholders gain insight on &#xD;
+  who will use the system, what their objectives are,&amp;nbsp;what problems they &#xD;
+  have that the system will be solving, and so on. &lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ECF86aBDtKI4LvXtomsvTg" name="it_services_strategy,_XhhTMQNHEeKgIrW2BoUv0Q" guid="-ECF86aBDtKI4LvXtomsvTg">
+    <keyConsiderations>&lt;p>&#xD;
+    The IT Services Strategy could potentially lead to significant changes to the set of IT services provided and the way&#xD;
+    in which they are sourced and delivered. As a consequence it could have far-reaching implications for the IT&#xD;
+    organization, it's skills, processes and tools.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The IT Services Strategy work product describes the desired future strategic set or portfolio of IT services that must&#xD;
+    be provided to satisfy the business' requirements and describes the individual services making up that future service&#xD;
+    portfolio or service model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An IT service is a specific IT function or output, performed on behalf of or in support of a consumer, that provides&#xD;
+    measurable value. Services are a basis for doing business with the consumer of IT services, require an understanding of&#xD;
+    their needs, and are delivered through a series of implemented activities.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An IT service brings together elements of process, organization and technology. The detailed service definitions show:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The activities, from one or more processes, that are executed in delivering the service;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The service roles or participants responsible for executing those activities;&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The tools or information technology used to automate the execution of activities and deliver their results.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The IT services strategy describes the set of services that are to be provided and the way in which those services are&#xD;
+    grouped or categorized. The scope and granularity of the service model will depend greatly on the perspective being&#xD;
+    taken and the context within which the service model and service definitions are being created. The level of detail&#xD;
+    necessary in the service definition will vary considerably depending on the audience for that description and the&#xD;
+    purpose for which it is being created. For example, the IT Service model and service definitions used by a CIO or&#xD;
+    business executive to facilitate analysis of outsourcing options will be at a much higher level than the service&#xD;
+    definitions required by the first line IT manager responsible for defining and implementing service workflows.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-NjFVRUFovfKe45d6lzP6-g" name="software_dist_plan,_XhkWgQNHEeKgIrW2BoUv0Q" guid="-NjFVRUFovfKe45d6lzP6-g">
+    <refinedDescription>&lt;p>&#xD;
+    A Software Distribution Plan is part of a systems management project or part of an IT system architecture Operational&#xD;
+    Model. The Software Distribution Plan includes the data required to allow the operations department to perform the&#xD;
+    software configuration, installation, and distribution (CID) process.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Generating a Software Distribution Plan is a way to avoid significant adverse impact on end users and IT infrastructure&#xD;
+    due to changes and the overall cost of distributing the solution. The plan, when implemented, will provide end users,&#xD;
+    who are accepting a new application and possibly new hardware, with the ability to restore their systems to a known&#xD;
+    state on short notice. Downtime, due to user error or system disruption, cannot be tolerated in mission critical&#xD;
+    applications, such as a call center for a telephone company or other utility.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Full automation of the software distribution process is not always necessary, but the plan will identify the cost&#xD;
+    benefit of automation. The information collected in the plan will be valuable for any mixture of manual and automated&#xD;
+    processes.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-NVRHQkWIMDGeHgNMhtNLCg" name="architecture_notebook,_XhoA4QNHEeKgIrW2BoUv0Q" guid="-NVRHQkWIMDGeHgNMhtNLCg">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;describes the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html&quot;&#xD;
+    guid=&quot;__O7tAMVvEduLYZUGfgZrkQ&quot;>Software Architecture&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It provides a place for maintaining the list of architectural issues, along with the associated architectural&#xD;
+    decisions, designs, patterns, code documented (or pointed to), and so forth -- all at appropriate levels to make it&#xD;
+    easy to understand what architectural decisions have been made and remain to be made.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is helpful for architects to use this artifact to collaborate with other team members in developing the architecture&#xD;
+    and to help team members understand the motivation behind architectural decisions so that those decisions can be&#xD;
+    robustly implemented. For example, the architect may put constraints on how data is packaged and communicated between&#xD;
+    different parts of the system. This may appear to be a burden, but the justification in the Architecture Notebook can&#xD;
+    explain that there is a significant performance bottleneck when communicating with a legacy system. The rest of the&#xD;
+    system must adapt to this bottleneck by following a specific data packaging scheme.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This artifact should also inform the team members how the system is partitioned or organized so that the team can adapt&#xD;
+    to the needs of the system. It also gives a first glimpse of the system and its technical motivations to whoever must&#xD;
+    maintain and change the architecture later.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-GhbNNoo6V6HAX4xuBX4xvQ" name="build,_XiIXMQNHEeKgIrW2BoUv0Q" guid="-GhbNNoo6V6HAX4xuBX4xvQ">
+    <refinedDescription>&lt;p>&#xD;
+    This working version of the system or part of the system&amp;nbsp;is the result of putting the implementation through a&#xD;
+    build process (typically an automated build script) that creates an executable version, or one that runs. This&#xD;
+    executable version will typically have a number of supporting files that are also considered part of this artifact.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-nEQdzWiF5LY5XEdc3TOOng" name="design,_XiMBkQNHEeKgIrW2BoUv0Q" guid="-nEQdzWiF5LY5XEdc3TOOng">
+    <refinedDescription>&lt;p>&#xD;
+    This work product describes the elements that will make up the implemented system. It communicates abstractions of&#xD;
+    particular portions of the implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While architecture focuses on interfaces, patterns, and key decisions, the design fleshes out the technical details in&#xD;
+    readiness for implementation, or as part of implementation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This product can describe multiple static and dynamic views of the system for examination. Although various views may&#xD;
+    focus on divergent, seemingly independent issues of how the system will be put together and work, they should fit&#xD;
+    together without contradiction.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2X9EqJFfKVRMDHOSIfLO-w" name="developer_test,_XiPE4QNHEeKgIrW2BoUv0Q" guid="-2X9EqJFfKVRMDHOSIfLO-w">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact covers all of the steps to validate a specific aspect of an implementation element. For example, a test&#xD;
+    could ensure that the parameters of a method properly accept the uppermost and lowermost required values. A developer&#xD;
+    test specifies test entries, execution conditions, and expected results. These details are identified to evaluate a&#xD;
+    particular aspect of a scenario.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    When you collect developer tests for a specific implementation element, you can validate that the element performs as&#xD;
+    specified.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The tests be self-documenting so that it is clear upon completion of the test whether the implementation element has&#xD;
+    run correctly.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-fOiEoM_tUmQeHKL0PMDtDw" name="implementation,_XiSvQQNHEeKgIrW2BoUv0Q" guid="-fOiEoM_tUmQeHKL0PMDtDw">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact is the collection of one or more of these elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Source code files&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data files&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Build scripts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Other files that are transformed into the executable system&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-RuHriKTuBy7Byz3Cj5ZcvQ" name="test_case,_Xi82kQNHEeKgIrW2BoUv0Q" guid="-RuHriKTuBy7Byz3Cj5ZcvQ">
+    <refinedDescription>&lt;p>&#xD;
+    A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
+    test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
+    formal environments, you can create test cases by identifying a unique ID, name, associated test data, and expected&#xD;
+    results.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Test cases can be derived from many sources, and typically include a subset of the requirements (such as use cases,&#xD;
+    performance characteristics, and reliability concerns) and other types of quality attributes. For more information on&#xD;
+    types of tests and their relationships to quality test attributes, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Concept: Testing Qualitative Requirements&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

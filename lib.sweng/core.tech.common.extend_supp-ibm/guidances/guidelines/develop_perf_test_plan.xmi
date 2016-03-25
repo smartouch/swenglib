@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-aktppkMP2pUCdLEuwvQaZQ" name="develop_perf_test_plan,_wF1rEHODEdyur-UVVhx-aQ" guid="-aktppkMP2pUCdLEuwvQaZQ" version="7.1.0">
+  <mainDescription>&lt;h3>&#xD;
+    Introduction&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    One of the biggest misconceptions of performance testing is that you can create a high-load performance test&#xD;
+    specification and just start it running, capture the measurements, and then you have successfully completed your&#xD;
+    performance test.&amp;nbsp; Assuming perfect system design and with some additional scrutiny of the test results, this is&#xD;
+    an idealized result.&amp;nbsp; However, in practice, this never happens.&amp;nbsp; This is like suggesting that once a program&#xD;
+    is written and compiled, it may be shipped since it obviously does not need to be tested as it was written without any&#xD;
+    product defects.&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Create Scheduled Testing Plans&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    You should create a conservatively scheduled testing plan taking into account the needs for analyzing and tuning major&#xD;
+    subsystems and newly delivered components that are part of the application environment on the system under test&#xD;
+    (SUT).&amp;nbsp; Plan a heavy load test for each of these new subsystems to ensure that they are properly balanced with the&#xD;
+    remainder of the SUT.&amp;nbsp; This may include tuning operating system or server parameters, running multiple instances&#xD;
+    of a web server, J2EE application server, or even changing the connection style to a back-end database server.&amp;nbsp;&#xD;
+    Ensuring that front-end load balancing equipment is working properly and is not circumvented by the load testing driver&#xD;
+    systems is also important.&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Plan for Load Testing Sizing&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    In addition, you must size and deploy an appropriate complex of load testing driver systems and networking capacity so&#xD;
+    that the system under test can be fully loaded.&amp;nbsp; Your driver systems must not end up to be the bottleneck&#xD;
+    preventing further scaling up of the work load.&amp;nbsp; One simplification that can help guarantee this is using multiple&#xD;
+    exact duplicates of the driver system and testing the capacity of a single driver system and then de-rating its&#xD;
+    capacity for the actual performance tests by 10-15% to ensure ample driver capacity.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Once the basic tuning and capacity testing have been done and you are convinced that the test environment is ready for&#xD;
+    a full load test, you can begin by testing at 10-20% of full load, then 50% of full load, and finally at 100% of full&#xD;
+    load.&amp;nbsp; Making 2 or 3 100% full load tests may be important if there are any possibilities of unanticipated system&#xD;
+    response time variation due to an ill-defined initial system state or a variable test parameter such as network&#xD;
+    bandwidth availability that might be beyond your control during the test.&amp;nbsp; Make sure you maintain the 100% load&#xD;
+    point for a long enough period to ensure that your measurements are taken during a steady state period of system&#xD;
+    activity.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If overload or excess capacity needs to be tested, schedule a test run that begins as at 100% of full load and then&#xD;
+    ramps up 5-10% of additional load at a time until the measured responses or verification points begin failing to pass&#xD;
+    acceptable level.&amp;nbsp; This is your basic system capacity load level.&lt;br />&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-mfTIsYXJUzH1wc-xI4NpGA" name="Perform Systems Integration Testing,_3SXsceb9EeGcDsTeRQzr_Q" guid="-mfTIsYXJUzH1wc-xI4NpGA">
+    <mainDescription>&lt;p>&#xD;
+    In larger integrated systems, the overall system is comprised of subsystems or large components. Each of these&#xD;
+    subsystems was tested during Component Integration Testing to confirm it performs properly when taken on its own.&#xD;
+    Systems Integration testing confirms that the subsystem or components interact as designed and as required once&#xD;
+    integrated together. For example, a Systems Integration test of a material handling system’s emergency stop system&#xD;
+    would confirm that each subsystem stops and that each component subsystem turns on its e-stop indicators.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Since the goal of Systems Integration Testing is to confirm the interactions between subsystems, most tests confirm the&#xD;
+    interfaces between the subsystems and complex responses to stimuli. In many cases, testing requires stimulating the&#xD;
+    inputs to one subsystem and observing the outputs of another. Modeling the system simplifies identifying these&#xD;
+    interactions.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For Model Driven Systems Engineering projects, the activity diagrams developed during Design Synthesis allocate&#xD;
+    functional (actions) to the subsystems (swim lanes). Following the paths through the activity diagrams identify the&#xD;
+    functionality of the necessary test scenarios. Note that each path can be represented as a sequence diagram. The&#xD;
+    control flows and object flows that cross the swim lane boundaries represent the interfaces between the subsystems.&#xD;
+&lt;/p></mainDescription>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pGGaYQJBqkDHa7h4tfopIg" name="id_sys_int_test_cases,_5YvjEOb9EeGcDsTeRQzr_Q" guid="-pGGaYQJBqkDHa7h4tfopIg">
+    <refinedDescription>&lt;p>&#xD;
+    &lt;strong>Define test context&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The first step in performing System Integration test is to define what will be tested, the System Under Test (SUT).&#xD;
+    Many times, the SUT will encompass the complete system. In other cases, it will encompass a subset of&#xD;
+    subsystem/components that interact together to meet some capability. Often, System Integration testing requires that&#xD;
+    the tests run on the target device or a simulator. This environment restriction requires a special software build with&#xD;
+    all required components. If all required parts are not available, it may be possible to use a simulator or build&#xD;
+    special testing components for a subsystem.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Define test cases&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Identify test cases by identifying the functionality you are building. Each test case defines a specific capability.&#xD;
+    This functionality may be described by a use case, an activity diagram or flow chart, a state chart, or a set of&#xD;
+    requirements. For each test case, define one or more test scripts so that the capability is fully exercised. It is&#xD;
+    important to specify the scenario completely, including exception handling conditions.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--tDIbON3QTgTTsQuU4UC1Q" name="dev_sys_int_test_cases,_56ch8Ob9EeGcDsTeRQzr_Q" guid="--tDIbON3QTgTTsQuU4UC1Q">
+    <refinedDescription>&lt;p>&#xD;
+    A test&amp;nbsp;script executes one path through the capability being tested by the test case. This script may be specified&#xD;
+    as a path through an activity diagram, a sequence diagram, or text. Some test scripts require manual manipulation of&#xD;
+    inputs such as pushing buttons. Others may be automated by the program that executes the test. Still others may use a&#xD;
+    combination of test hardware and a testing language to stimulate component inputs and read component outputs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In all cases, describe the initialization conditions for the tests. Describe each action and the expected component&#xD;
+    response in the test management software. Define the passing and failure conditions completely.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Some typical test scripts include:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Proper response to hardware signals&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Proper response to messages&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Proper response to human inputs&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Handling unexpected inputs or inputs in unexpected order&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-C7tw-p9ThCgxVUgY-g5Tmw" name="exec_test,_6VWVQOb9EeGcDsTeRQzr_Q" guid="-C7tw-p9ThCgxVUgY-g5Tmw">
+    <refinedDescription>&lt;p>&#xD;
+    The main steps that you need to perform are:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Setup Test Environment to Known State&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Set Execution Tool Options&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Schedule Test Execution&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Execute Test&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Evaluate Execution of Test&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Recover from Halted Tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Inspect the Test Logs for Completeness and Accuracy&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Restore Test Environment to Known State&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Maintain Traceability Relationships&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Evaluate and Verify Your Results&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-NHhszRMpy04gTIFKgs1E7Q" name="analyze_results,_6u4PkOb9EeGcDsTeRQzr_Q" guid="-NHhszRMpy04gTIFKgs1E7Q">
+    <refinedDescription>&lt;p>&#xD;
+    The main steps that you need to perform are:&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        Examine the Test Logs&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Capture Nontrivial Incident Data&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify Procedural Errors in the Test&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Locate and Isolate Failures&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Diagnose Failure Symptoms and Characteristics&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify Candidate Solutions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Document Your Findings Appropriately&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Create and Maintain Change Requests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Evaluate and Verify Your Results&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-B9EtlxtfzzpIrquiK2Iz7A" name="sys_srs,_GeHOwQZ3EeKXLaiBtahMmw" guid="-B9EtlxtfzzpIrquiK2Iz7A">
+    <refinedDescription>&lt;p>&#xD;
+    A&amp;nbsp;System Requirements Specification is strictly the set of all relevant System Requirements for a project. This&#xD;
+    set provides a complete and consistent abstract description of the solution to the problem represented by a stakeholder&#xD;
+    specification or a similar artifact, and its context, at an appropriate level of abstraction.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In practice, there&amp;nbsp;may be several levels of&amp;nbsp;System Requirements Specification - for example, in some cases&#xD;
+    the a single level might be enough, in others, the system must be broken-down into subsystems at various levels.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If more than one level of System Requirement Specification is used, then remember the following points:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Each specification must be a complete and consistent description of the solution, at an appropriate level of&#xD;
+        abstraction&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Traceability must be maintained throughout the levels&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All specifications must be maintained in parallel&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Frequently, it&amp;nbsp;is sufficient to evolve a single specification.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The system requirements specification captures all of the system functional and non-functional requirements in one&#xD;
+    place so that they may be analyzed for consistency, completeness and correctness.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Requirements must be clear, unambiguous, testable and complete. They must include all required properties of the&#xD;
+    system. Care must be taken not to over-specify (a common problem) by including design measures in the requirements.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QRTCmc5ZAdOHLp369IP5MA" name="icd,_GeH10QZ3EeKXLaiBtahMmw" guid="-QRTCmc5ZAdOHLp369IP5MA">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact includes specifications&amp;nbsp;for all thermal, mechanical, electrical, optical and chemical interfaces&#xD;
+    between the element and its operational, maintenance,&amp;nbsp;and test environments.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The system element may be the entire system, in which case the interfaces represent the external system&#xD;
+    interfaces.&amp;nbsp; Alternatively, the system element may be a segment, subsystem, unit, or component of an enclosing&#xD;
+    system.&amp;nbsp; In&amp;nbsp;which case, the interfaces represent the internal interfaces of the enclosing system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There will be multiple instances of this artifact. In particular, there will always be an instance of this artifact&#xD;
+    that specifies the external interfaces, which may include interfaces required for testing and maintenance&amp;nbsp;as well&#xD;
+    as the operational interfaces, of the system.&amp;nbsp; This ensures that the system will be interoperable within&amp;nbsp;the&#xD;
+    operational (and test and maintenance) environment.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Additional instances of this artifact will be required to specify the internal interfaces for each system&#xD;
+    element.&amp;nbsp; This ensures that the system element will be interoperable within the enclosing system.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ovOrkbXFaoSdkqPCh-yVvQ" name="sys_arch_model,_GeNVYQZ3EeKXLaiBtahMmw" guid="-ovOrkbXFaoSdkqPCh-yVvQ">
+    <refinedDescription>The System Architectural Model&amp;nbsp;is&amp;nbsp;a hierarchical structure of System Blocks, behavior and delegation ports for&#xD;
+each block, interfaces&amp;nbsp;definitions for each port, and state-chart diagrams specifying the state-based behavior for&#xD;
+each leaf system block.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-w60l7hQ7YzHxG97TQ7gEzA" name="test_case,_GeSN4QZ3EeKXLaiBtahMmw" guid="-w60l7hQ7YzHxG97TQ7gEzA">
+    <refinedDescription>&lt;p>&#xD;
+    A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
+    test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
+    formal environments, you can create test cases by identifying a unique ID, name, associated test data, and expected&#xD;
+    results.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Test cases can be derived from many sources, and typically include a subset of the requirements (such as use cases,&#xD;
+    performance characteristics, and reliability concerns) and other types of quality attributes. For more information on&#xD;
+    types of tests and their relationships to quality test attributes, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Concept: Testing Qualitative Requirements&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UzKHy_r2Bin5SBprGzRJ_g" name="sys_uc_ib_diag,_Ged0EQZ3EeKXLaiBtahMmw" guid="-UzKHy_r2Bin5SBprGzRJ_g">
+    <refinedDescription>&lt;p>&#xD;
+    Elements of this diagram are instances of SysML blocks that represent the use case and its associated actor(s).&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Use-Case Block is the structural representation of a use case defined in the use-case diagram. It is used to&#xD;
+    represent the formal specification of the system behavior for the use case and acts as a location for the&#xD;
+    operations/functions that the use case employs. The Use-Case Block communicates with relevant Actor Blocks via&#xD;
+    ports&amp;nbsp;and associated provided and required interfaces.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An Actor Block is the realization of an actor that was previously identified in a system&amp;nbsp;use case diagram. An&#xD;
+    actor block represents a person, or system that is external to the system under development, that interacts&#xD;
+    with&amp;nbsp;the system under development&amp;nbsp;by providing the inputs to, and receiving&amp;nbsp;outputs&amp;nbsp;from&amp;nbsp;the&#xD;
+    system under development.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Nx8g01h9SSoAhuOSx25z_Q" name="sys_uc_st_chart_diag,_GefpQQZ3EeKXLaiBtahMmw" guid="-Nx8g01h9SSoAhuOSx25z_Q">
+    <refinedDescription>&lt;p>&#xD;
+    A Statechart Diagram describes the state-based behavior of a block. It aggregates the information from both the&#xD;
+    activity diagram (functional flow) and the sequence diagrams (interactions with the environment), and adds the&#xD;
+    event-driven block behavior to the diagram. As the &quot;language&quot; of statecharts is formally defined, the correctness and&#xD;
+    completeness of the resulting behavior can be verified/validated through model execution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Statechart diagrams are finite state machines that are extended by the notation of Hierarchy and Concurrency.&#xD;
+    Basically, a statechart diagram is comprised of a set of states joined by transitions and various connectors. An event&#xD;
+    may trigger a transition from one state to another. Actions can be performed on transitions and on state entry/exit.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Use-Case&amp;nbsp;Block Statechart Diagram must reflect the functional flow captured in the use-case black-box activity&#xD;
+    diagram as well as the associated use-case black-box sequence diagrams.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yfc_wPVwS6wmDUePPGJeew" name="sys_uc_act_diag,_GehecQZ3EeKXLaiBtahMmw" guid="-yfc_wPVwS6wmDUePPGJeew">
+    <refinedDescription>&lt;p>&#xD;
+    An Activity Diagram is similar to the classic flow chart. It describes a workflow, business process, or algorithm by&#xD;
+    decomposing the flow of execution into a set of actions and sub activities joined by transitions and various&#xD;
+    connectors. These actions and sub activities are called activity nodes. An activity can be a simple linear sequence of&#xD;
+    activity nodes or it can be a complex series of parallel activity nodes with conditional branching and concurrency.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There will be multiple instances of this artifact.&amp;nbsp;During requirements analysis, &quot;black-box&quot; activity diagrams are&#xD;
+    created describing the functional flows for the system as a whole.&amp;nbsp;During architectural design,&#xD;
+    &quot;white-box&quot;&amp;nbsp;activity diagrams are created that show the allocation of actions to specific system elements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Activities may be grouped and assigned to objects – e.g. subsystems. In this case, the activity diagram is split into&#xD;
+    swim lanes that depict the respective responsibilities.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-P9rBOWZ98zwxJRN9c09f5w" name="sys_uc_seq_diag,_GejToQZ3EeKXLaiBtahMmw" guid="-P9rBOWZ98zwxJRN9c09f5w">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact describes the time-ordered sequence of interactions between a system use case and its associated actors.&#xD;
+    In addition to the sent and received messages (service requests), the use-case lifeline shows the requested operations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There will be multiple instances of this artifact.&amp;nbsp;Initially, &quot;black-box&quot;&amp;nbsp;sequence diagrams are created which&#xD;
+    evolve into &quot;white-box&quot;&amp;nbsp;sequence diagrams that show the&amp;nbsp;responsibilities of&amp;nbsp;specific system elements.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-SjK9deh5i5vm491Z9uqDAQ" name="sys_statechart_diag,_GeqoYAZ3EeKXLaiBtahMmw" guid="-SjK9deh5i5vm491Z9uqDAQ">
+    <refinedDescription>&lt;p>&#xD;
+    A Statechart Diagram describes the state-based behavior of a block. It is one of&amp;nbsp;the most important behavior&#xD;
+    diagrams because&amp;nbsp;it aggregates the information from both the activity diagram (functional flow) and the sequence&#xD;
+    diagrams (interactions with the environment), and adds the event-driven block behavior to the diagram. As the&#xD;
+    &quot;language&quot; of statecharts is formally defined, the correctness and completeness of the resulting behavior can be&#xD;
+    verified/validated through model execution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Statechart diagrams are finite state machines that are extended by the notation of &lt;strong>&lt;em>Hierarchy&lt;/em>&lt;/strong>&#xD;
+    and &lt;strong>&lt;em>Concurrency&lt;/em>&lt;/strong>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Basically, a statechart diagram is comprised of a set of states joined by transitions and various connectors. An event&#xD;
+    may trigger a transition from one state to another. Actions can be performed on transitions and on state entry/exit.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In most of the cases a&amp;nbsp;System Block Statechart Diagram&amp;nbsp;is defined for each leaf system block.&amp;nbsp; The&#xD;
+    emergent behavior that results form the collaboration of each leaf block statechart diagram&amp;nbsp;must reflect the&#xD;
+    functional flow captured in the white-box activity diagram&amp;nbsp;as well as the associated&amp;nbsp;white-box sequence&#xD;
+    diagrams.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IDyP5a64xvWTVCRcCBci4g" name="sys_struc_diag,_Ger2gQZ3EeKXLaiBtahMmw" guid="-IDyP5a64xvWTVCRcCBci4g">
+    <refinedDescription>&lt;p>&#xD;
+    The main type of elements used to describe the internal structure are system blocks.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A System Block is an element of the structural description of the system under development. It is an encapsulated&#xD;
+    entity, i.e. its communication with the environment is performed through ports and&amp;nbsp;associated interfaces. A System&#xD;
+    Block may be decomposed into sub-System Blocks. At the lowest level of decomposition, the behavior of a System Block is&#xD;
+    described by means of a statechart diagram.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A System Block must have a defined boundary. Communication with the environment is performed via ports and associated&#xD;
+    interfaces.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-YhpSDESuapZHXYVtTi7uow" name="sys_context_diag,_GetrsQZ3EeKXLaiBtahMmw" guid="-YhpSDESuapZHXYVtTi7uow">
+    <refinedDescription>&lt;p>&#xD;
+    The system context diagram describes the&amp;nbsp;top-level collaboration showing the system (modeled as a top-level&#xD;
+    subsystem), its interfaces and its relationships with its actors, including the external I/O entities that flow between&#xD;
+    actor and system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Main information captured in the system context diagram:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The interfaces to be &lt;i>realized&lt;/i> by the system (in terms of the &lt;i>operations&lt;/i> the systems provides, and the&#xD;
+        associated protocols supported, the &lt;i>state variables&lt;/i> and &lt;i>stores&lt;/i> that the system realizes, and&#xD;
+        attributes).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The &lt;i>I/O entities&lt;/i> that flow between the system and its actors.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The interfaces &lt;i>required&lt;/i> by the system (to be realized by the actors which interact with the system) for&#xD;
+        correct performance. Often, if the actor represents an existing system with which the system must communicate,&#xD;
+        these required interfaces simply reflect constraints imposed by that other system.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4JrNwwFIGSke0FBLmnnWwA" name="sys_operation,_Geu50QZ3EeKXLaiBtahMmw" guid="-4JrNwwFIGSke0FBLmnnWwA">
+    <refinedDescription>&lt;p>&#xD;
+    An operation specification has the following outline:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Description&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Input/Output Parameters&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Non-functional requirements: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                These are derived from the non-functional requirements associated with the steps in the various Use Cases&#xD;
+                that this operation supports.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                The context in which the operation is used (i.e. a particular Use Case) may or may not be captured (e.g. it&#xD;
+                may be specified in terms of supporting the minimum performance requirement when all Use Cases are&#xD;
+                considered)&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Pre-conditions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Post-conditions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Superordinate system traceability&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: use-case (steps) traceability&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In most of the cases, the Operations are defined for the top-level system and the main subsystems, going with the&#xD;
+    decomposition as deep as needed, in a recursive fashion. The Operations are grouped around interfaces along the main&#xD;
+    responsibilities of the (sub)system under consideration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible&amp;nbsp;for the integrity of the operation set,&amp;nbsp;should ensure&amp;nbsp;that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the operations are unique and there is no overlap between them&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the related operations are logically grouped around interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        each operation is properly documented&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the traceability relationships to other operations and/or use-case steps have been established&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        proper coverage of the use cases or system's operations, based on the scope of the current iteration&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-VYGAtDOwxTc8Jf0C2mlt6g" name="sys_op_seq_diag,_GewvAQZ3EeKXLaiBtahMmw" guid="-VYGAtDOwxTc8Jf0C2mlt6g">
+    <refinedDescription>&lt;p>&#xD;
+    The number of viewpoints considered will drive the number of sequence diagrams needed, as for the most complex case,&#xD;
+    for each viewpoint, there will be at least one&amp;nbsp;sequence diagram, showing how specific view elements are realizing&#xD;
+    the main operation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible for the integrity of the operation realization should&amp;nbsp;ensure that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The operation realization correctly realizes the behavior of its corresponding operation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All the chosen viewpoints are addressed and there is at least one realization per viewpoint.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The associated non-functional requirements are correctly budgeted across the subsystems operations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The operation realization is properly documented and the correspondent diagrams suit their purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The realization associations are correct.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vKBgp2Y5y6KGdIhSvTxlvw" name="sys_op_act_diag,_GeykMQZ3EeKXLaiBtahMmw" guid="-vKBgp2Y5y6KGdIhSvTxlvw">
+    <refinedDescription>&lt;p>&#xD;
+    The number of viewpoints considered will drive the number of activity diagrams needed, as for the most complex case,&#xD;
+    for each viewpoint, there will be an activity&amp;nbsp;diagram, showing how specific view elements are realizing the main&#xD;
+    operation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible for the integrity of the operation realization should&amp;nbsp;ensure that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The operation realization correctly realizes the behavior of its corresponding operation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All the chosen viewpoints are addressed and there is at least one realization per viewpoint.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The associated non-functional requirements are correctly budgeted across the subsystems operations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The operation realization is properly documented and the correspondent diagrams suit their purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The realization associations are correct.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Fd7HRlnoPhX4CabZOiIxvw" name="stk_reqs_spec,_GfXzAAZ3EeKXLaiBtahMmw" guid="-Fd7HRlnoPhX4CabZOiIxvw">
+    <refinedDescription>&lt;p>&#xD;
+    In practice, there&amp;nbsp;may be several levels of Stakeholder Requirements Specification - for example, in some cases&#xD;
+    the Vision could be sufficient. In other cases, organizations may need to work with several levels of Stakeholder,&#xD;
+    evolving the specification for the different levels. Typically, this&amp;nbsp;would include specifications such as&#xD;
+    a&amp;nbsp;Product Vision, Product Objectives, Product Specification, etc.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If more than one level of Stakeholder Requirement Specification is used, then remember the following points:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Each document must be a complete and consistent description of the problem, at an appropriate level of abstraction&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Traceability must be maintained throughout the levels&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All documents must be maintained in parallel&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Frequently, it&amp;nbsp;is sufficient to evolve a single document. However, we recommend retaining at least the distinction&#xD;
+    between the overall Vision and the Stakeholder Requirements.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-lEdK69xJztSYEyg2ivFHOw" name="test_env_configuration,_GgoXQQZ3EeKXLaiBtahMmw" guid="-lEdK69xJztSYEyg2ivFHOw">
+    <refinedDescription>&lt;p>&#xD;
+    Each Test Environment Configuration specifies an appropriate, controlled setting in which to conduct the required test&#xD;
+    and evaluation activities. Providing a controlled environment, built from a known configuration in which to conduct&#xD;
+    these activities, helps to ensure that the results of these efforts are accurate, valid, and have a higher likelihood&#xD;
+    of being systematically reproduced. A well-controlled Test Environment is an important aspect of efficient failure&#xD;
+    analysis and fault resolution.&#xD;
+&lt;/p>&lt;!--EndFragment--></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BShJPuAbufBCElrwDhEr4Q" name="test_automation_arch,_GgsBoQZ3EeKXLaiBtahMmw" guid="-BShJPuAbufBCElrwDhEr4Q">
+    <refinedDescription>&lt;p>&#xD;
+    The Test Automation Architecture provides a comprehensive architectural overview of the test-automation system, using a&#xD;
+    number of different architectural views to depict different aspects of the system. It serves as a means of reasoning&#xD;
+    about, managing, and communicating the fundamental characteristics and features of the test-automation software system.&#xD;
+    It provides a governing focus for the test-automation software that enables the required system to be realized in&#xD;
+    respect to key aspects such as: maintainability, extensibility, reliability, concurrency, distribution, security, and&#xD;
+    recovery.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9H97JctgnHbx1770E4faAA" name="test_log,_GhAxwQZ3EeKXLaiBtahMmw" guid="-9H97JctgnHbx1770E4faAA">
+    <refinedDescription>This artifact provides a detailed, typically time-based record that both verifies that a set of tests were run, and&#xD;
+provides information that relates to the success of those tests. The focus is typically on providing an accurate audit&#xD;
+trail, which enables you to undertake a post-run diagnosis of failures. This raw data is subsequently analyzed to determine&#xD;
+the results of an aspect of the test effort.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JFYrxwiUk7GAcldb-Lrygw" name="test_findings,_GhmnoQZ3EeKXLaiBtahMmw" guid="-JFYrxwiUk7GAcldb-Lrygw">
+    <refinedDescription>Test Findings are sometimes a large set of many Test Findings.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Ow0Jqjz6D5_SKZ9E6Gfx5g" name="change_request,_HKX30AZ3EeKXLaiBtahMmw" guid="-Ow0Jqjz6D5_SKZ9E6Gfx5g">
+    <refinedDescription>&lt;p>&#xD;
+    A change request (CR) is typically a proposed variance from the system's current (or currently planned) behavior. It&#xD;
+    can also be used for a generic piece of work that is required to support the project. Change requests may include&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A report of an error (defect)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        An enhancement request&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Change requests provide a record of decisions and, with an appropriate assessment process, ensures that their change&#xD;
+    impacts are considered.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Some important types of change requests include:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Enhancement Requests&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Used by various stakeholders to request future features that they desire to have included in the product. These are a&#xD;
+    type of stakeholder request that capture and articulate an understanding of the stakeholders needs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Defects&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Reports of anomalies or failures in a delivered work product. Defects include such things as omissions and&#xD;
+    imperfections found during early lifecycle phases, or symptoms of faults (failures) that need to be isolated and&#xD;
+    corrected within the software. Defects may also include deviations from what can reasonably be expected of the software&#xD;
+    behavior (such as usability issues).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The purpose of a defect is to communicate the details of the issue, enabling corrective action, resolution, and&#xD;
+    tracking to occur.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

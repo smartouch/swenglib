@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-zuOScV8bLoON1ws9zw5Xrw" name="gen_seq_diags,_xbPbYKIiEd6eYbGGXte97g" guid="-zuOScV8bLoON1ws9zw5Xrw" changeDate="2009-11-09T15:14:36.890-0800" version="7.5.0">
+  <sections xmi:id="_2GTZQOTyEd6-EtmJBf6mkQ" name="Create Operation Realizations" guid="_2GTZQOTyEd6-EtmJBf6mkQ">
+    <sectionDescription>Working with the expanded (white-box) operation descriptions from the previous activity, the detail of messages, entities&#xD;
+exchanged, sequencing, control flow, and associated data is added and the resulting Operation Realizations are captured in&#xD;
+the System Model. As this detail is added, the System Designer evaluates the quality of the emergent collaborations,&#xD;
+looking for opportunities to refactor the design. Annotate the Operation Realizations with descriptions of what the&#xD;
+subsystem does when processing a message (drawn from the white-box step description and refined if necessary). These&#xD;
+descriptions help with the next step, to develop specifications for each Subsystem Operation.</sectionDescription>
+  </sections>
+  <sections xmi:id="_7may4OTyEd6-EtmJBf6mkQ" name="Aggregate similar subsystem white-box steps and specify the Subsystem Operations" guid="_7may4OTyEd6-EtmJBf6mkQ">
+    <sectionDescription>&lt;p>&#xD;
+    Next, working from the white-box steps and the Operation Realizations, the Subsystem Operations are identified and&#xD;
+    their behavior specified. As with the identification of system operations, there might not be a unique subsystem&#xD;
+    operation for each white-box step; that is, as you examine the set of white-box steps and their associated exchange of&#xD;
+    messages, input-output entities, and so forth, you might find that it is possible to define a smaller set of Subsystem&#xD;
+    Operations to fulfill their needs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The process allows you&amp;nbsp;to reason about concurrency issues: if you were to view a Subsystem Operation as a discrete&#xD;
+    piece of functionality available to actors, then, as a first approximation, operations associated with the same process&#xD;
+    cannot be performed in parallel. This might lead you&amp;nbsp;to reconsider the process allocation, or consider process&#xD;
+    replication, or to examine the perceived latency problem at a lower level of detail, for example, through examination&#xD;
+    of time-slicing options, and process sharing when an operation blocks (to do input-output, for example). These&#xD;
+    techniques can give acceptable responsiveness, whereas a delaying of the start of an operation (strictly serializing&#xD;
+    operations) might be intolerable. In this form, the survey sorted by process becomes a property of the System Model.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

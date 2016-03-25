@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-F1LONOTJ_lpzSagqVaCaPg" name="business_design_model,_tOPC8FqmEd6cz7WWjCrtdA" guid="-F1LONOTJ_lpzSagqVaCaPg" changeDate="2009-07-22T16:18:39.078-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    This artifact concretely&amp;nbsp;defines the services offered by the business in terms of interfaces and operations, the&#xD;
+    information that is passed around (business entities), the internal business structures (that is,&amp;nbsp;organization and&#xD;
+    business workers), and how they collaborate to realize the external behavior described in the business use cases.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is the place where all the design decisions are captured.&amp;nbsp; The &quot;more abstract&quot; elements from the Business&#xD;
+    Analysis Model evolve into &quot;more concrete&quot; elements that take into account constraints an details like the business&#xD;
+    environment, organizational capabilities, etc.&amp;nbsp; For example, the initial Business Workers are mapped or realized&#xD;
+    into human workers or automated systems and services.&amp;nbsp; In most of the cases the Business Analysis Model evolves&#xD;
+    into a Business Design Model as more concrete decisions are made.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This Business Model is used by stakeholders and business analysts to understand how the&amp;nbsp;business currently works&#xD;
+    (in as-is form), and to analyze the effect of changes to the business(in to-be form).&amp;nbsp; The business analyst is&#xD;
+    responsible for the structure and integrity of the model along with detailing the elements within the model.&amp;nbsp; The&#xD;
+    model is also used by systems analysts for deriving system&amp;nbsp;requirements based on how automated systems - usually&#xD;
+    software-intensive automated business workers - will be used as part of the business process.&amp;nbsp; Software architects&#xD;
+    use the model to define a software architecture that fits the organization seamlessly and to identify classes in&#xD;
+    software analysis and design models.&#xD;
+&lt;/p></mainDescription>
+  <purpose>To concretely&amp;nbsp;describe &lt;i>how&lt;/i> the business works to provide that which&amp;nbsp;is described by the business use&#xD;
+cases.</purpose>
+  <impactOfNotHaving>The design model is essential when considering changes to the business processes or the organization (structure, roles and&#xD;
+responsibilities). You will be unable to reason about such changes effectively, negatively impacting the businesses ability&#xD;
+to fulfill its goals.</impactOfNotHaving>
+  <reasonsForNotNeeding>&lt;p>&#xD;
+    If the objective of the business modeling effort is simply to &lt;em>specify&lt;/em> needed behavior (through Business Use&#xD;
+    Cases), or to formulate a Business Vision, then this artifact is not needed.&#xD;
+&lt;/p></reasonsForNotNeeding>
+  <briefOutline>&lt;p>&#xD;
+    The &lt;strong>Business Design&amp;nbsp;Model&lt;/strong> can have the following &lt;strong>properties&lt;/strong>, similar to the&#xD;
+    Business Analysis Model:&#xD;
+&lt;/p>&#xD;
+&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Introduction:&lt;/strong> A textual description that serves as a brief introduction to the model.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Business Systems:&lt;/strong>&amp;nbsp;Components in the model, representing a hierarchy*.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Business Workers:&amp;nbsp;&lt;/strong>The Business Worker classes in the model, owned by the Business Systems.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Business Entities:&lt;/strong> The Business Entity classes in the model, owned by the Business Systems.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Business Events:&lt;/strong> The Business Event classes in the model, owned by the Business Systems.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Business Rules:&lt;/strong> The Business Rules captured in the model. These are not the Business Rules that&#xD;
+        are captured in document form in a separate artifact.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Relationships:&lt;/strong> The relationships in the model, owned by the Business Systems.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Business Use-Case Realizations:&lt;/strong> The Business Use-Case Realizations in the model, owned by the&#xD;
+        Business Systems.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Business Context Collaboration:&lt;/strong> The external realization of the interactions between the business&#xD;
+        and the business actors, showing the &lt;em>services&lt;/em> provided by the top-level Business System (that is, the&#xD;
+        business itself), the interfaces for these services, the connections to the business actors, and the Business&#xD;
+        Entities input and output.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;strong>Diagrams:&lt;/strong> The diagrams in the model, owned by the Business Systems.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    *Note that the business itself is the top-level component (Business System), and directly encapsulates business&#xD;
+    workers, business entities etc.&#xD;
+&lt;/p></briefOutline>
+  <representationOptions>UML Representation:&amp;nbsp; Model, stereotyped as &amp;lt;&amp;lt;business design&amp;gt;&amp;gt;.</representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

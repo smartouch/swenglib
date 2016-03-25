@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_uCBgkewsEd-sjp03to1LnQ" guid="_uCBgkewsEd-sjp03to1LnQ">
+    <resourceDescriptors xmi:id="_uCBgkuwsEd-sjp03to1LnQ" id="-dRPohiUyPySNybVCrIcjEw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_s_RDTewsEd-sjp03to1LnQ" name="cots_elaboration_phase" guid="_s_RDTewsEd-sjp03to1LnQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_s_RDTuwsEd-sjp03to1LnQ" name="cots_elaboration_gather_info_from_spheres" guid="_s_RDTuwsEd-sjp03to1LnQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_s_RDT-wsEd-sjp03to1LnQ" name="cots_elaboration_gather_info_from_spheres" guid="_s_RDT-wsEd-sjp03to1LnQ" superActivities="_s_RDWOwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_s7PesewsEd-sjp03to1LnQ#_s7PeuOwsEd-sjp03to1LnQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_s_RDVuwsEd-sjp03to1LnQ" name="cots_elaboration_define_candidate_solutions" guid="_s_RDVuwsEd-sjp03to1LnQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_s_RDV-wsEd-sjp03to1LnQ" name="cots_elaboration_define_candidate_solutions" guid="_s_RDV-wsEd-sjp03to1LnQ" hasMultipleOccurrences="true" superActivities="_s_RDWOwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_s7iZ7ewsEd-sjp03to1LnQ#_s7iZ7uwsEd-sjp03to1LnQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_s_RDVOwsEd-sjp03to1LnQ" name="cots_elaboration_recommend_solutions" guid="_s_RDVOwsEd-sjp03to1LnQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_s_RDVewsEd-sjp03to1LnQ" name="cots_elaboration_recommend_solutions" guid="_s_RDVewsEd-sjp03to1LnQ" superActivities="_s_RDWOwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_s71UoewsEd-sjp03to1LnQ#_s71Uo-wsEd-sjp03to1LnQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_s_RDUuwsEd-sjp03to1LnQ" name="cots_elaboration_acquire_packages" guid="_s_RDUuwsEd-sjp03to1LnQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_s_RDU-wsEd-sjp03to1LnQ" name="cots_elaboration_acquire_packages" guid="_s_RDU-wsEd-sjp03to1LnQ" superActivities="_s_RDWOwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_s7iZvuwsEd-sjp03to1LnQ#_s7iZwuwsEd-sjp03to1LnQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_s_RDUOwsEd-sjp03to1LnQ" name="cots_elaboration_support_iteration" guid="_s_RDUOwsEd-sjp03to1LnQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_s_RDUewsEd-sjp03to1LnQ" name="cots_elaboration_support_iteration" guid="_s_RDUewsEd-sjp03to1LnQ" superActivities="_s_RDWOwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_s7iZx-wsEd-sjp03to1LnQ#_s7iZzuwsEd-sjp03to1LnQ"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_s_RDWOwsEd-sjp03to1LnQ" name="cots_elaboration_phase" guid="_s_RDWOwsEd-sjp03to1LnQ" presentationName="COTS Elaboration Iteration" briefDescription="This is an example of elaboration phase iteration. It includes the activities typically performed during a single iteration in the elaboration phase." isRepeatable="true" breakdownElements="_s_RDT-wsEd-sjp03to1LnQ _s_RDV-wsEd-sjp03to1LnQ _s_RDVewsEd-sjp03to1LnQ _s_RDU-wsEd-sjp03to1LnQ _s_RDUewsEd-sjp03to1LnQ">
+      <methodElementProperty xmi:id="_t92LM-wsEd-sjp03to1LnQ" name="process_synFree" value="true"/>
+      <presentation xmi:id="-dRPohiUyPySNybVCrIcjEw" href="uma://-dRPohiUyPySNybVCrIcjEw#-dRPohiUyPySNybVCrIcjEw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

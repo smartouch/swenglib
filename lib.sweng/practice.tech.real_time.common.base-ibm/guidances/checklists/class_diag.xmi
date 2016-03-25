@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="--WN_wwBPhNFZmMGJ8HDQzg" name="new_checklist,_uGmdMOIpEd-aTvH4QbT1dw" guid="--WN_wwBPhNFZmMGJ8HDQzg" version="7.5.0">
+  <mainDescription>A class diagram may show a number of classes interacting together to realize a use case.&amp;nbsp; A class diagram may show the&#xD;
+same class in a generalization taxonomy.&amp;nbsp; A class diagram may show how the class fits within its domain of&#xD;
+interest.&amp;nbsp; No matter what a particular class diagram represents, it should follow the general guidelines below.&amp;nbsp;</mainDescription>
+  <sections xmi:id="_qhCnkOIwEd-aTvH4QbT1dw" name="Does each class diagram have a mission statement?" guid="_qhCnkOIwEd-aTvH4QbT1dw">
+    <sectionDescription>&lt;p>&#xD;
+    Each class diagram should have an explicit mission statement defining the intent or purpose of the diagram. This is&#xD;
+    usually shown in a comment at the upper left hand corner of the diagram.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Typical missions include&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Showing the elements realizing an analysis or design collaboration&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Showing a generalization taxonomy&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Showing the structure of a single class (e.g. nested parts)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Showing the features of a single class (e.g. attributes, operations, ports, and interfaces&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_scbWMOIwEd-aTvH4QbT1dw" name="Does the diagram show all elements relevant to the mission of the diagram?" guid="_scbWMOIwEd-aTvH4QbT1dw">
+    <sectionDescription>&lt;p>&#xD;
+    The diagrams should show all elements relevant to the purpose of the diagram. These may include the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Objects&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Parts&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ports&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Constraints&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Event Receptions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Operations&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Attributes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Packages&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_wNOuUOIwEd-aTvH4QbT1dw" name="Do all structural elements have singular nouns for names?" guid="_wNOuUOIwEd-aTvH4QbT1dw">
+    <sectionDescription>All classes, objects, and attributes are things and so should have noun or noun phrases for names. The names should be&#xD;
+singular, since relations show multiplicity not names.</sectionDescription>
+  </sections>
+  <sections xmi:id="_1Aoy8OIwEd-aTvH4QbT1dw" name="Are PIM Classes from problem domain vocabulary?" guid="_1Aoy8OIwEd-aTvH4QbT1dw">
+    <sectionDescription>Class diagrams showing analysis collaborations (from the Platform Independent Model) should name classes, object,&#xD;
+attributes, operations, functions, services, etc. from the problem domain vocabulary &lt;em>not&lt;/em> from the solution&#xD;
+technology&amp;nbsp;or design domain.</sectionDescription>
+  </sections>
+  <sections xmi:id="_3Tat4OIwEd-aTvH4QbT1dw" name="Are all reusable classes defined within a common shared model or package?" guid="_3Tat4OIwEd-aTvH4QbT1dw">
+    <sectionDescription>To facilitate reusability, it is recommended that shared and reusable classes be put into a shared common model or package.</sectionDescription>
+  </sections>
+  <sections xmi:id="_5x0C8OIwEd-aTvH4QbT1dw" name="Do all operations and events have strong verb names?" guid="_5x0C8OIwEd-aTvH4QbT1dw">
+    <sectionDescription>An operation or event indicates a behavioral thing and so should have a verb or verb phrase for its name.</sectionDescription>
+  </sections>
+  <sections xmi:id="_8c4iEOIwEd-aTvH4QbT1dw" name="Are only necessary features public?" guid="_8c4iEOIwEd-aTvH4QbT1dw">
+    <sectionDescription>Following the principle of encapsulation, class features that don't need to be shared should be made protected or private.&#xD;
+Attributes should always be thus protected, and when necessary, access should be provided through mutator and accessor&#xD;
+methods.</sectionDescription>
+  </sections>
+  <sections xmi:id="_-o8xAOIwEd-aTvH4QbT1dw" name="Are friend dependencies used infrequently?" guid="_-o8xAOIwEd-aTvH4QbT1dw">
+    <sectionDescription>Friend dependencies should be used when class are inherently tightly coupled and so it makes sense to bypass the normal&#xD;
+access rights; however, this should be an infrequent occurrence.&amp;nbsp;A friend dependency should meet an explicit need not&#xD;
+easily otherwise met.</sectionDescription>
+  </sections>
+  <sections xmi:id="_BJursOIxEd-aTvH4QbT1dw" name="Are usage dependencies only used when a class is indirectly used?" guid="_BJursOIxEd-aTvH4QbT1dw">
+    <sectionDescription>The usage dependency forces the class to be in the compilation scope and is commonly used only when a class is used&#xD;
+indirectly by another, such as when an operation uses a formal parameter typed by the used class but the main class does&#xD;
+not have another relation to the used class.</sectionDescription>
+  </sections>
+  <sections xmi:id="_Diw_oOIxEd-aTvH4QbT1dw" name="Is port usage limited inside subsystems and components?" guid="_Diw_oOIxEd-aTvH4QbT1dw">
+    <sectionDescription>Ports are a means of connecting to parts across an encapsulation boundary. However, they take up extra computing cycles and&#xD;
+use extra memory so their use should be limited to providing access to parts. They should not, in general, be used to&#xD;
+connect elements within the same encapsulation scope.</sectionDescription>
+  </sections>
+  <sections xmi:id="_F6KU0OIxEd-aTvH4QbT1dw" name="Do all ports have explicitly defined interfaces?" guid="_F6KU0OIxEd-aTvH4QbT1dw">
+    <sectionDescription>Ports are typed by the interfaces they provide and/or require. Each port should have at least one interface that defines&#xD;
+its contract but may have more.</sectionDescription>
+  </sections>
+  <sections xmi:id="_IPU1YOIxEd-aTvH4QbT1dw" name="Are ports named in terms of their semantic content?" guid="_IPU1YOIxEd-aTvH4QbT1dw">
+    <sectionDescription>Port names should reveal their usage or content.</sectionDescription>
+  </sections>
+  <sections xmi:id="_K-tz0OIxEd-aTvH4QbT1dw" name="Do interfaces only expose essential detail?" guid="_K-tz0OIxEd-aTvH4QbT1dw">
+    <sectionDescription>Interfaces should avoid exposing implementation details. For example, an ordered container should have operations such as&#xD;
+first() and next() but not leftChild() and rightChild() since the latter expose the implementation as a binary tree.</sectionDescription>
+  </sections>
+  <sections xmi:id="_NPZdAOIxEd-aTvH4QbT1dw" name="Are Quality of Service constraints explicitly depicted?" guid="_NPZdAOIxEd-aTvH4QbT1dw">
+    <sectionDescription>Quality of Service - if within the scope of the diagram's mission - should be shown as constraints on effected elements,&#xD;
+such as relations, interfaces, classes, operations, and attributes.</sectionDescription>
+  </sections>
+  <sections xmi:id="_P3L-oOIxEd-aTvH4QbT1dw" name="Whenever a class invokes services of another, is an explicit association required?" guid="_P3L-oOIxEd-aTvH4QbT1dw">
+    <sectionDescription>Association depict the relation between classes that allows one class to invoke the services of another.</sectionDescription>
+  </sections>
+  <sections xmi:id="_SHbi8OIxEd-aTvH4QbT1dw" name="Is multiplicity depicted at the role ends of all associations?" guid="_SHbi8OIxEd-aTvH4QbT1dw">
+    <sectionDescription>Multiplicity is a crucial piece of information and so should be depicted on all kinds of associations (including&#xD;
+aggregation and composition). The exception is the whole end of a composition which is, by definition, always '1'.</sectionDescription>
+  </sections>
+  <sections xmi:id="_VB2FoOIxEd-aTvH4QbT1dw" name="Are default names not used?" guid="_VB2FoOIxEd-aTvH4QbT1dw">
+    <sectionDescription>Tools often provide default names for classes, attributes, operations, role ends, etc. These should all be renamed to&#xD;
+semantically relevant names.</sectionDescription>
+  </sections>
+  <sections xmi:id="_YC9tQOIxEd-aTvH4QbT1dw" name="Do all elements at a non-unary association role end serve the same semantic purpose?" guid="_YC9tQOIxEd-aTvH4QbT1dw">
+    <sectionDescription>If a role end has a multiplicity greater than 1, then the objects at that end should be interchangeable in terms of their&#xD;
+purpose. For example, a waveform may contain 20,000 data points, but each data point serves the same semantic purpose as&#xD;
+all the rest.</sectionDescription>
+  </sections>
+  <sections xmi:id="_bN6mUOIxEd-aTvH4QbT1dw" name="Does the diagram use different associations for semantically distinct roles?" guid="_bN6mUOIxEd-aTvH4QbT1dw">
+    <sectionDescription>If a class relates to another in more than one semantic way, there should be an association for each distinct semantic&#xD;
+purpose. For example, a controller may relate to a data queue class in two ways (one per instance), one for input data and&#xD;
+one for output data. This are semantically distinct intents and so require two associations.</sectionDescription>
+  </sections>
+  <sections xmi:id="_efIfcOIxEd-aTvH4QbT1dw" name="Are the associations unidirectional?" guid="_efIfcOIxEd-aTvH4QbT1dw">
+    <sectionDescription>Most associations represent a client-server relation and so are really unidirectional. Occasionally, an association&#xD;
+represents a peer-peer relation; in this case, a bidirectional association is appropriate.</sectionDescription>
+  </sections>
+  <sections xmi:id="_g5qBIOIxEd-aTvH4QbT1dw" name="Do all associations use the same line style?" guid="_g5qBIOIxEd-aTvH4QbT1dw">
+    <sectionDescription>Associations of all kinds - association, aggregation, and composition, should all use a common line style to aid&#xD;
+readability. This might be straight, curved, or (most common) rectilinear.</sectionDescription>
+  </sections>
+  <sections xmi:id="_jRpMMOIxEd-aTvH4QbT1dw" name="Is a composite responsible for creation and destruction of the part?" guid="_jRpMMOIxEd-aTvH4QbT1dw">
+    <sectionDescription>When there is a composition relation, the composite whole should be responsible for both the creation and destruction of&#xD;
+the part.</sectionDescription>
+  </sections>
+  <sections xmi:id="_l_sG0OIxEd-aTvH4QbT1dw" name="Does generalization only depict &quot;is a kind of&quot; ?" guid="_l_sG0OIxEd-aTvH4QbT1dw">
+    <sectionDescription>Sometimes generalization is (incorrectly) used to depict &quot;is a use of&quot;. For example, a elevator &quot;UpButton&quot; is not a&#xD;
+different &lt;em>kind&lt;/em> of button than a &quot;DownButton&quot; and so these are not different subclasses of &quot;Button&quot;. Instead,&#xD;
+&quot;upButton&quot; or &quot;downButton&quot; should be used as the association role name since it depicts a usage of the instance.</sectionDescription>
+  </sections>
+  <sections xmi:id="_sbtvEOIxEd-aTvH4QbT1dw" name="Does parameterization specializes classes on data type, and generalization specialized on behavior?" guid="_sbtvEOIxEd-aTvH4QbT1dw">
+    <sectionDescription>Classes specialized by inheritance (generalization) perform different operation implementation on the same data types;&#xD;
+parameterized classes perform the same operation implementation on different data types.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

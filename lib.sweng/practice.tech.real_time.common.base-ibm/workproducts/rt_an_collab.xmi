@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-eDWxsPLK3hBwGqj69xvp4g" name="rt_an_collab,_Uv99kNYfEd-ILILBAvkcFg" guid="-eDWxsPLK3hBwGqj69xvp4g" version="7.5.0">
+  <mainDescription>A collaboration is a set of object roles (typed by classes) that are interrelated by relations (e.g. association,&#xD;
+aggregation, composition, generalization, and dependencies) so that they work together to achieve a larger-scale behavior.&#xD;
+In an object analysis model (PIM), the collaboration captures the essential object roles, attributes, operations, states,&#xD;
+events, and relations that must be present for the collaboration to properly semantically model the problem. In a design&#xD;
+model (PSM), the collaboration is optimized against the various design constraints.</mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    Don't add design patterns to an analysis (PIM) collaborations, or if you must, then it should be the simplest one that&#xD;
+    meets the functional need. PIM collaborations do not contain threads either, as this is another design concern. In the&#xD;
+    PSM, those aspects are added to optimize the execution of the PSM.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The analysis collaboration should execute and be able to replicate all the use case scenarios via execution, but will&#xD;
+    usually be sub-optimal in performance.&#xD;
+&lt;/p></keyConsiderations>
+  <purpose>The purpose of a collaboration is to specify how internal elements of a system work together to realize a larger-scale&#xD;
+functionality, most commonly a use case. An analysis collaboration should execute and realize all the functional&#xD;
+requirements of the use case it realizes.</purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

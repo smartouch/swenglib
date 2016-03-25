@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Sn3L92sI7sWyeXO3YiLYXQ" name="representing_interfaces_to_external_systems,_i85tQEeaEd2fPvaEVG7O3Q" guid="-Sn3L92sI7sWyeXO3YiLYXQ" changeDate="2008-08-04T13:55:34.000-0700" version="7.1.0">
+  <mainDescription>&lt;p>&#xD;
+    If the system communicates with another system, there will be one or more boundary classes identified in &lt;strong>Task:&#xD;
+    Use Case Analysis&lt;/strong> to describe the communication protocol. An external system may be anything from software to&#xD;
+    hardware units that the current system will use (such as printers, terminals, alarm devices, and sensors). In each&#xD;
+    case, a boundary class will be identified whose purpose is to mediate the communication with the external system.&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;exampleheading&quot;>&#xD;
+    Example&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;example&quot;>&#xD;
+    An Automated Teller Machine (ATM) must communicate with the ATM Network to ascertain whether a customer's bank number&#xD;
+    and PIN are correct, and whether they have sufficient funds in their account to effect a withdrawal. Since the ATM&#xD;
+    Network is an external system (from the perspective of the ATM), you would use a &lt;b>boundary&lt;/b> class to represent it&#xD;
+    in Use Case Analysis.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If the interface(s) to the system are simple and well-defined, a single class may be sufficient to represent the&#xD;
+    external system. Often, however, these interfaces are too complex to be represented using a single class; they often&#xD;
+    require complex collaborations of many classes. Moreover, interfaces between systems are often highly reusable across&#xD;
+    applications. As a result, in many cases, a subsystem more appropriately models the system interfaces.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The use of a subsystem allows the interface to the external system to be defined and stabilized, while leaving the&#xD;
+    design details of the system interface to remain hidden as its definition evolves.&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

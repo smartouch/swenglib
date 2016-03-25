@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-n8gWjRxV6dGwBecz2xVHbQ" name=",_sfkLcDNcEd6_nLybut0Zyw" guid="-n8gWjRxV6dGwBecz2xVHbQ" changeDate="2009-06-15T17:25:20.265-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    Define the boundary and interactions of the business by utilizing use cases to describe a &quot;black box&quot; view of the&#xD;
+    business. Understand the organization at a high-level so that the initial scope of business definition or refactoring&#xD;
+    can be determined.&amp;nbsp;Further analysis will be performed to detail these descriptions.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;em>Portions of this task are from the &lt;a href=&quot;http://www.eclipse.org/epf&quot; target=&quot;_blank&quot;>Eclipse Process&#xD;
+    Framework&lt;/a> 1.5, made available under the&lt;/em> &lt;a href=&quot;http://www.eclipse.org/org/documents/epl-v10.php&quot; target=&quot;_blank&quot;>&lt;em>Eclipse Public License V1.0&lt;/em>&lt;/a>&lt;em>.&lt;/em>&#xD;
+&lt;/p></mainDescription>
+  <keyConsiderations>&lt;p>&#xD;
+    Creating business use cases&amp;nbsp;is very similar to creating system use cases. If you've never created business use&#xD;
+    cases, you can leverage the skills of an analyst who has written use cases for software systems to help define the use&#xD;
+    case model.&#xD;
+&lt;/p></keyConsiderations>
+  <sections xmi:id="_gDg14FBlEd6HMOWuocLkZg" name="Gather information" guid="_gDg14FBlEd6HMOWuocLkZg">
+    <sectionDescription>&lt;p>&#xD;
+    Use various techniques to make identifying business requirements easier. See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/req_gathering_techniques_8CB8E44C.html&quot;&#xD;
+    guid=&quot;_OnoNQNSAEdmLhZ9H5Plxyw&quot;>Guideline: Requirements Gathering Techniques&lt;/a>&amp;nbsp;for ideas on how to gather&#xD;
+    requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Face-to-face meetings with stakeholders is the most effective way to understand stakeholder needs and to gather and&#xD;
+    validate requirements, but you must prepare in order for these meetings to run efficiently.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Be prepared by gathering and reviewing information related to the problem and business domains, business environment,&#xD;
+    and key stakeholders. Most of this information&amp;nbsp;is available in the business vision.&amp;nbsp;Also review any existing&#xD;
+    stakeholder requests.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_4Q7cIFBlEd6HMOWuocLkZg" name="Identify the types of requirements relevant to your business" guid="_4Q7cIFBlEd6HMOWuocLkZg">
+    <sectionDescription>&lt;p>&#xD;
+    Requirements can be broadly classified as either functional or non-functional requirements. The former specify what the&#xD;
+    business must do. The latter specify constraints on the business such as customer satisfaction, response time,&#xD;
+    interfaces with other organizations, etc. Depending upon the domain there can be regulatory requirements that also&#xD;
+    apply.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Collaborate with stakeholders to identify the types of requirements relevant to your business. This will help you&#xD;
+    assess the completeness of your requirement set.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_pYV20EcbEd6GBq2DuQ5crg" name="Identify and capture business use cases and business actors in the business use-case model" guid="_pYV20EcbEd6GBq2DuQ5crg">
+    <sectionDescription>&lt;p>&#xD;
+    Define the line that divides the business and the business's environment. Collaborate with the stakeholders, since&#xD;
+    decisions concerning system boundaries will have a major impact on cost, schedule and system architecture. Record&#xD;
+    actors and use cases in the use case model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Collaborate&amp;nbsp;with stakeholders to identify business&amp;nbsp;interfaces, as well as input and output information&#xD;
+    exchanged with business users or other organizations. Identify and capture&amp;nbsp;the actors and use cases in the&#xD;
+    use-case model. Use the use case work product to outline the use cases. See &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/guidelines/identify_and_outline_business_actors_and_ucs_95F43C55.html&quot;&#xD;
+     guid=&quot;_YOJxQFBnEd6HMOWuocLkZg&quot;>Identify and Outline Business Actors and Use Cases&lt;/a>&amp;nbsp;for more information.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_zU4nMEcVEd6GBq2DuQ5crg" name="Consider business goals" guid="_zU4nMEcVEd6GBq2DuQ5crg">
+    <sectionDescription>&lt;p>&#xD;
+    Review any business goals that have already been described, and consider whether they will be supported by business use&#xD;
+    cases. If a business use case supports very different business goals you will find it difficult to measure or improve&#xD;
+    its performance. Consider splitting such a use case into multiple use cases.&amp;nbsp;Business use cases that support none&#xD;
+    of the already-identified business goals could be unnecessary. On the other hand, further investigation of these&#xD;
+    business use cases could reveal undiscovered business goals.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Business goals must also be considered in comparison to the business actors. Do the identified business goals drive the&#xD;
+    business toward the business actors that they intend to embrace? Are any business actors not addressed by the business&#xD;
+    goals? New business goals also might be discovered during this analysis. See&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.bus.common.extend_supp-ibm/guidances/concepts/business_goal_FDAF5499.html&quot;&#xD;
+    guid=&quot;_lepv0EcYEd6GBq2DuQ5crg&quot;>Concept: Business Goal&lt;/a> for more information.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_CdzKAGAjEd6N3oh9_fLQiQ" name="Consider the business constraints and environment" guid="_CdzKAGAjEd6N3oh9_fLQiQ">
+    <sectionDescription>&lt;p>&#xD;
+    Indicate the significant constraints and environmental elements the business must address, such as external influences,&#xD;
+    regulatory bodies, and partners. Add this information as constraints and requirements in the Supplementary Business&#xD;
+    Specification. See &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/req_gathering_techniques_8CB8E44C.html&quot;&#xD;
+    guid=&quot;_OnoNQNSAEdmLhZ9H5Plxyw&quot;>Requirements Gathering Techniques&lt;/a>&amp;nbsp;for details on identifying requirements and&#xD;
+    constraints.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Kng_IGBPEd6N3oh9_fLQiQ" name="Define the human resources" guid="_Kng_IGBPEd6N3oh9_fLQiQ">
+    <sectionDescription>&lt;p>&#xD;
+    The process of defining the human resource aspects of the business.&amp;nbsp; The human resources aspects refine the&#xD;
+    Business Worker and includes the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Consider the competence profiles that exist within the organization. Define competence profiles that will be&#xD;
+        required in the future, or define the necessary changes to the existing profiles. Will the future business require&#xD;
+        employees to be more or less independent? Will they need higher or lower education requirements?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Discuss education needs. Define both long-term training programs to overcome the differences between current and&#xD;
+        desired competence profiles, as well as any initial training needs associated with the introduction of new business&#xD;
+        processes.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Define any mechanisms (reward structures, trainee programs, mentor programs, or other incentives) that exist or&#xD;
+        need to be put in place to enhance skill levels. Discuss the advantages and disadvantages of each.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Explore the possibility of relocating individuals in the organization due to changes in responsibilities or the&#xD;
+        need to enhance communication.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_OU5RgFCFEd6HMOWuocLkZg" name="Prioritize business use cases" guid="_OU5RgFCFEd6HMOWuocLkZg">
+    <sectionDescription>&lt;p>&#xD;
+    Prioritize business use cases that are of high interest.&amp;nbsp;Critical, risky, or unclear use cases&amp;nbsp;must be&#xD;
+    described in detail. You could find you want to detail all use cases, many&amp;nbsp;use cases, or parts of a few critical&#xD;
+    use cases.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To determine high-priority business use cases:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Determine the business use cases that will be of interest to the intended system if you perform business&#xD;
+        engineering to find the requirements of information systems.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Develop a clear outline of use cases before deciding whether or not to include any that are not clearly relevant&#xD;
+        from an information-system perspective.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Look for the business use cases that support the most important business goals.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_XR3-IFCGEd6HMOWuocLkZg" name="Evaluate the results" guid="_XR3-IFCGEd6HMOWuocLkZg">
+    <sectionDescription>&lt;p>&#xD;
+    Check the use-case model to verify that the model is correct and consistent. It's not necessary to\ review the model in&#xD;
+    detail. Consider the&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../practice.bus.use_case_driven_business_modeling.base-ibm/guidances/checklists/business_use-case_32902404.html&quot; guid=&quot;_11KJIDQdEd6UdJtXX0x6GA&quot;>Checklist: Business Use-Case&lt;/a> while working on the model. The interested parties&#xD;
+    must determine if:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        All necessary use cases are identified.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Any unnecessary use cases have been removed from the model.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Each business use case's outline is as complete as possible at this stage.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_a1Db4FCEEd6HMOWuocLkZg" name="Achieve Concurrence" guid="_a1Db4FCEEd6HMOWuocLkZg">
+    <sectionDescription>Conduct a review&amp;nbsp;of the&amp;nbsp;use cases and business requirements with relevant stakeholders to ensure consistency with&#xD;
+the agreed vision, goals, and to identify any required changes.</sectionDescription>
+  </sections>
+  <purpose>&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        To define the boundaries of the business to be modeled.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To define who and what will interact with the business.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To outline the processes in the business.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        To capture business requirements.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-uc-EThfYUcaM38svXxZD2Q" name="new_checklist,_kY628OIpEd-aTvH4QbT1dw" guid="-uc-EThfYUcaM38svXxZD2Q" version="7.5.0">
+  <mainDescription>Scenarios may not visit&amp;nbsp; all states in all the participant objects nor activate all transitions, but they provide an&#xD;
+order-dependent view of how the set of objects is expected to behave under some set of conditions with a specific ordering&#xD;
+of external and internal stimuli.</mainDescription>
+  <sections xmi:id="_3QncEOIxEd-aTvH4QbT1dw" name="Does the sequence diagram have a mission statement?" guid="_3QncEOIxEd-aTvH4QbT1dw">
+    <sectionDescription>Preconditions describe the starting point for the scenario execution and the assumptions being made. Post-conditions are&#xD;
+things that are true after the end of the scenario, such as object states and values of variables. The pre- and&#xD;
+post-conditions should be visible on the diagram; this is often done with a comment in the upper left- or right-hand corner&#xD;
+of the diagram.</sectionDescription>
+  </sections>
+  <sections xmi:id="_688j4OIxEd-aTvH4QbT1dw" name="Does each use case have at least three scenarios?" guid="_688j4OIxEd-aTvH4QbT1dw">
+    <sectionDescription>A common use for a scenario is to describe a specific system-actor interaction performed while executing a use case. There&#xD;
+should be no less than three such scenarios, although one or two dozen is more common. More than 50 might result in&#xD;
+decomposing the use cases into smaller pieces.</sectionDescription>
+  </sections>
+  <sections xmi:id="_9lLxcOIxEd-aTvH4QbT1dw" name="Does each scenario have at least three messages?" guid="_9lLxcOIxEd-aTvH4QbT1dw">
+    <sectionDescription>Scenarios may be highly complex but some people err on the side of making the scenarios so trivial that they add no value.&#xD;
+For example, a sequence diagram that shows a single message &quot;TurnOn()&quot; adds no value. In this case, either go into more&#xD;
+detail about what turning on the system means or add this an a first step in a more complex scenario that initializes the&#xD;
+system.</sectionDescription>
+  </sections>
+  <sections xmi:id="_AeGfUOIyEd-aTvH4QbT1dw" name="Does the scenario show a proper sequence of messages?" guid="_AeGfUOIyEd-aTvH4QbT1dw"/>
+  <sections xmi:id="_CJGBgOIyEd-aTvH4QbT1dw" name="Are all sequence diagram operators not nested more than three deep?" guid="_CJGBgOIyEd-aTvH4QbT1dw">
+    <sectionDescription>UML 2.0 added sequence diagram operators. While they significantly improve the rigor of the diagrams, they are easily and&#xD;
+often overused.</sectionDescription>
+  </sections>
+  <sections xmi:id="_FZ3OsOIyEd-aTvH4QbT1dw" name="Do messages show parameter and return values?" guid="_FZ3OsOIyEd-aTvH4QbT1dw">
+    <sectionDescription>To understand the specific scenario, it is often necessary to know the data being passed in or out of the services invoked&#xD;
+by the messages.</sectionDescription>
+  </sections>
+  <sections xmi:id="_H0rrUOIyEd-aTvH4QbT1dw" name="Does the lifeline decomposition show the scenario at a deeper level of detail?" guid="_H0rrUOIyEd-aTvH4QbT1dw">
+    <sectionDescription>Lifeline decomposition is an addition in UML 2 that allows a scenario to be viewed at different levels of abstraction.&#xD;
+Lifeline decomposition should be used to show how the internal parts of the element represented by the lifeline collaborate&#xD;
+in the same scenario.</sectionDescription>
+  </sections>
+  <sections xmi:id="_KwcR0OIyEd-aTvH4QbT1dw" name="Is the ENV lifeline used to glue together scenarios at different levels of abstraction?" guid="_KwcR0OIyEd-aTvH4QbT1dw">
+    <sectionDescription>Since lifeline decomposition shows the same scenario at different levels of detail, there must be a means by which messages&#xD;
+shown at the higher level enter into the lower level decomposed lifeline. This is done by creating the sequence diagram for&#xD;
+the decomposed lifeline and using the ENV (environment) lifeline. Messages entering the lifeline in the higher-level&#xD;
+scenario exit the ENV lifeline at the lower level. Messages leaving the lifeline in the higher-level scenario enter the ENV&#xD;
+lifeline at the lower level.</sectionDescription>
+  </sections>
+  <sections xmi:id="_NfFCUOIyEd-aTvH4QbT1dw" name="Are Execution Occurrences used infrequently?" guid="_NfFCUOIyEd-aTvH4QbT1dw">
+    <sectionDescription>Execution occurrences are rectangles placed on the line to show the execution resulting from reception of an incoming&#xD;
+message. These only make sense in strictly sequential flows&amp;nbsp;but normally different lifelines may execute in different&#xD;
+threads.&amp;nbsp;Generally, the use of execution occurrences should be avoided.</sectionDescription>
+  </sections>
+  <sections xmi:id="_RGMS8OIyEd-aTvH4QbT1dw" name="Do the scenarios contain relevant quality of service constraints?" guid="_RGMS8OIyEd-aTvH4QbT1dw">
+    <sectionDescription>Messages, sets of messages, lifelines, and other elements should have quality of service constraints added as appropriate.</sectionDescription>
+  </sections>
+  <sections xmi:id="_ULfP8OIyEd-aTvH4QbT1dw" name="Is time used as an actor?" guid="_ULfP8OIyEd-aTvH4QbT1dw">
+    <sectionDescription>Time should be depicted as a messages-to-self on some lifeline. Time is not an executable element and is therefore not an&#xD;
+actor. Occasionally, when using less capable tools to capture highly detailed design scenarios, you may use a timer as a&#xD;
+lifeline and use it to initiate time-events. However, this should never be done in a scenario in the use case or PIM&#xD;
+models.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:ContentDescription>

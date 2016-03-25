@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-yFa7w-ehfOy4-S9URAoPvw" name="prepare_clasification_schema,_0NTsAPaBEdqJ3rP9LdCKZw" guid="-yFa7w-ehfOy4-S9URAoPvw" changeDate="2007-05-23T14:36:01.937-0700" version="1.0.0">
+  <mainDescription>&lt;p>&#xD;
+    Classification schemas are a form of communication, and serve to help describe assets. Classification schemas can be&#xD;
+    used as mechanisms for searching and discovering assets. The repository can have many classification schemas. The&#xD;
+    administrator submits these classification schemas in the repository.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An asset may be classified using values from many classification schemas. The classification schemas may be exclusive&#xD;
+    and not related to each other. Using classification schemas in this manner permits many perspectives to be captured.&#xD;
+    For example, not only do practitioners (architects, developers, testers, etc.) work with assets, but certainly&#xD;
+    administrators and technical management will interact with the assets, as well as with&amp;nbsp;report generators, metrics&#xD;
+    collectors and other tools.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Each classification schema should be created with a specific focus. For example, you may create a classification schema&#xD;
+    to describe the business domain of interest to the enterprise. You might create another classification schema to&#xD;
+    describe the technical contexts for the enterprise, such as runtime platforms and development platforms.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Classification schemas are often created from the perspective of a target consumer. For example, architects may want to&#xD;
+    discover an asset's relevancy from the perspective of non-functional characteristics.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img height=&quot;331&quot; alt=&quot;A classification schema example. &quot; src=&quot;./resources/asset_classification.gif&quot; width=&quot;544&quot; />&#xD;
+&lt;/p>There is a similarity and relationship between asset type and classification. Both are used for describing the asset,&#xD;
+both are used for searching and discovery. The asset type has a stronger affinity with describing the set of artifacts that&#xD;
+should exist in the asset and also with the kinds of relationships that the asset should have with other assets. An asset&#xD;
+has one type, whereas it may have many classifications which enhance the description of the asset.</mainDescription>
+  <sections xmi:id="_dKYqENybEdu7aoTbpwypbQ" name="Determine the Consumers Perspectives to be Represented" guid="_dKYqENybEdu7aoTbpwypbQ">
+    <sectionDescription>The architect and other stakeholders evaluate the way in which they anticipate asset repository users will view and access&#xD;
+their assets. In general, the administrator will create one classification schema per perspective. Not all users should be&#xD;
+burdened with all perspectives.</sectionDescription>
+  </sections>
+  <sections xmi:id="_fy6ykNybEdu7aoTbpwypbQ" name="Create a Classification Schema for each Perspective" guid="_fy6ykNybEdu7aoTbpwypbQ">
+    <sectionDescription>&lt;p>&#xD;
+    The classification schema may be captured in the form of a treeview, or it may be in the form of a model. One or more&#xD;
+    classification schemas may be used to represent key views for an enterprise architecture. A reference model can be used&#xD;
+    as a basis for a category schema. For example, you may use the Technical Reference Model (TRM) from the Federal&#xD;
+    Enterprise Architecture (FEA) to classify your assets. A graphical representation of the reference model may be used to&#xD;
+    communicate.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img alt=&quot;Reference model from FEA&quot; src=&quot;./resources/fea_trm_classif.gif&quot; width=&quot;600&quot; height=&quot;405&quot; />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_h0aJMNybEdu7aoTbpwypbQ" name="Obtain Necessary Buy-in from Stakeholders" guid="_h0aJMNybEdu7aoTbpwypbQ">
+    <sectionDescription>Using models or pictures to communicate the classification schema simplifies the effort to achieve buy-in. Some key&#xD;
+stakeholders need to include those who will use the classification schema to classify assets.</sectionDescription>
+  </sections>
+  <sections xmi:id="_kP-zwNybEdu7aoTbpwypbQ" name="Submit Classification Schema to Repository" guid="_kP-zwNybEdu7aoTbpwypbQ">
+    <sectionDescription>&lt;p>&#xD;
+    Once buy-in has happened, the schema needs to be prepared to be entered into the asset repository. A simple tree&#xD;
+    structure may be prepared from the graphical pictures or models, such as the sample below for the TRM of the FEA.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The tree structure is then submitted to the repository, whose values are used to classify assets. The tree structure&#xD;
+    may be represented using the Reusable Asset Specification (RAS). There is a section in RAS which describes simple&#xD;
+    classification schema structures. The tree structure may also be represented using OWL.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Classification Schema: Technical Reference Model&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Service and Access Delivery&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Access Channels&#xD;
+            &lt;/li>&#xD;
+            &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+                &lt;ul>&#xD;
+                    &lt;li>&#xD;
+                        Mobile&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        Wireless&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        Web&#xD;
+                    &lt;/li>&#xD;
+                &lt;/ul>&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Delivery Channels&#xD;
+            &lt;/li>&#xD;
+            &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+                &lt;ul>&#xD;
+                    &lt;li>&#xD;
+                        Internet&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        Intranet&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        Extranet&#xD;
+                    &lt;/li>&#xD;
+                &lt;/ul>&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Service Requirements&#xD;
+            &lt;/li>&#xD;
+            &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+                &lt;ul>&#xD;
+                    &lt;li>&#xD;
+                        Section 508&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        Privacy&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        Security&#xD;
+                    &lt;/li>&#xD;
+                &lt;/ul>&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Service Framework&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Service Transport&#xD;
+            &lt;/li>&#xD;
+            &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+                &lt;ul>&#xD;
+                    &lt;li>&#xD;
+                        HTTP&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        HTTPS&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        WAP&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        TCP/IP&#xD;
+                    &lt;/li>&#xD;
+                &lt;/ul>&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Service Interface&#xD;
+            &lt;/li>&#xD;
+            &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+                &lt;ul>&#xD;
+                    &lt;li>&#xD;
+                        SOAP&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        XML&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        UDDI&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        WSDL&#xD;
+                    &lt;/li>&#xD;
+                &lt;/ul>&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Component Architecture&#xD;
+            &lt;/li>&#xD;
+            &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+                &lt;ul>&#xD;
+                    &lt;li>&#xD;
+                        Security&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        Presentation&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        Business Logic&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        Data Interchange&#xD;
+                    &lt;/li>&#xD;
+                    &lt;li>&#xD;
+                        Data Management&#xD;
+                    &lt;/li>&#xD;
+                &lt;/ul>&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Service Platforms&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;LIST-STYLE-TYPE: none&quot;>&#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Java 2 Platform, Enterprise Editions (J2EE)&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Microsoft Windows .NET&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_m_XLINybEdu7aoTbpwypbQ" name="Practice Asset Classification and Usage" guid="_m_XLINybEdu7aoTbpwypbQ">
+    <sectionDescription>With the classification schemas configured in the repository, create some practice assets and classifications to verify&#xD;
+searching scenarios.</sectionDescription>
+  </sections>
+  <sections xmi:id="_o3ULQNybEdu7aoTbpwypbQ" name="Refine Classification Schema" guid="_o3ULQNybEdu7aoTbpwypbQ">
+    <sectionDescription>Refine the classification schemas as needed based on lessons learned.</sectionDescription>
+  </sections>
+  <keyConsiderations>&lt;p>&#xD;
+    Impact/Influence on the ABD process:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+        href=&quot;./../../practice.mgmt.asset_based_dev.base-ibm/tasks/configure_repository_CC804EAF.html&quot;&#xD;
+        guid=&quot;_dI8ooKaCEduHC6cE2S3HNg&quot;>Task: Configure Repository&lt;/a>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+        href=&quot;./../../practice.mgmt.asset_based_dev.base-ibm/capabilitypatterns/AandM_B47E985F.html&quot;&#xD;
+        guid=&quot;_nfpIkQVqEdyJlaiJ7G71ig&quot;>Activity: Administration and Monitoring&lt;/a>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+</org.eclipse.epf.uma:TaskDescription>

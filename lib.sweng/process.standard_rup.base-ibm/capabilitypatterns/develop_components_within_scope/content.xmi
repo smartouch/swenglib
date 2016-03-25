@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-PA5NYpzgoHsInx-y6HbOpg" name="develop_components_within_scope,_hdw4QSCcEdq3qtLcbHn6PQ" guid="-PA5NYpzgoHsInx-y6HbOpg" version="7.1.0">
+    <mainDescription>&lt;p>&#xD;
+    This pattern, or&amp;nbsp;set of activities,&amp;nbsp;is typically repeated for every build in an iteration.&amp;nbsp; The&#xD;
+    frequency of build production varies from project to project.&amp;nbsp; Some projects build on a daily basis; others&#xD;
+    produce one build per iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    [within Scope] in the name of this pattern indicates that the activities within this pattern are bounded by a&#xD;
+    particular scope, such as a particular component, for example.&amp;nbsp;&amp;nbsp;This pattern is intended to be used multiple&#xD;
+    times, once for each appropriate 'scope'.&amp;nbsp; For example, once for each component in an iteration.&#xD;
+&lt;/p></mainDescription>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="--0lnffiYzdKe7_AynexTLQ" name="design_components,{9C683674-97C1-4AEE-8DB0-9514AEFF698E}" guid="--0lnffiYzdKe7_AynexTLQ">
+    <mainDescription>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    This activity has the following goals:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Refine the definitions of design elements by working out the 'details' of how the design elements realize the&#xD;
+        behavior required of them.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Refine and update the use-case realizations based on new design element identified (i.e. keeping the use-case&#xD;
+        realizations updated)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Review the design&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+    <usageGuidance>&lt;p>&#xD;
+    Typically the work here is carried out individually or in small teams, with informal inter-group interactions where&#xD;
+    needed to communicate changes between the teams. As design elements are refined, responsibilities often shift between&#xD;
+    them, requiring simultaneous changes to a number of design elements and use-case realizations. Because of the interplay&#xD;
+    of responsibilities, it is almost impossible for design team members to work in complete isolation. To keep the design&#xD;
+    effort focused on the required behavior of the system (as expressed in use-case realizations), a typical pattern of&#xD;
+    interaction emerges:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        design elements are refined by the responsible persons or teams&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        a small group (perhaps 2-5 people) gathers informally to work out the impact of the new design elements on a set of&#xD;
+        existing use-case realizations&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        changes to both the use-case realization and the participating design elements are identified&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the cycle repeats until all required behavior for the iteration is designed.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Because the process itself is iterative, the criteria for 'all required behavior for the iteration' will depend on the&#xD;
+    position in the lifecycle.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Focus on architecturally-significant behaviors in the elaboration phase. Ignore all other 'details'.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        In the construction phase there is a shift to completeness and consistency of the design, so that by the end of the&#xD;
+        construction phase there are no unresolved design issues.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Note that the design for an iteration does not need to be complete before beginning implementation and test activities.&#xD;
+    Partially implementing and testing a design as it evolves can be an effective means of validating and refining design,&#xD;
+    even within an iteration.&#xD;
+&lt;/p></usageGuidance>
+    <howtoStaff>&lt;a id=&quot;HowToStaff&quot; name=&quot;HowToStaff&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Typically, one person or a small team is responsible for a set of design elements, usually one or more packages or&#xD;
+    subsystems containing other design elements. This person/team is responsible for fleshing out the design details for&#xD;
+    the elements contained in the package or subsystem: completing all operation definitions and the definition of&#xD;
+    relationships to other design elements. The design of capsules focuses on the recursive decomposition of functionality&#xD;
+    in the system in terms of capsules and (passive or data) classes. The design of classes focuses on refining the design&#xD;
+    of passive&amp;nbsp;class design elements, while the&amp;nbsp;design of subsystems&amp;nbsp;focuses on the allocation of behavior&#xD;
+    mapped to the subsystem itself to contained design elements (either contained capsules and classes or&#xD;
+    subsystems).&amp;nbsp; Typically subsystems are used primarily as large-grained model organization structures, while&#xD;
+    capsules being used for the bulk of the work and &quot;ordinary&quot; classes being relegated largely to passive stores of&#xD;
+    information.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The individuals or teams responsible for designing capsules should be knowledgeable in the implementation language as&#xD;
+    well as possessing expertise in the concurrency issues in general. Individuals responsible for designing&amp;nbsp;passive&#xD;
+    classes should also be knowledgeable in the implementation language as well as in algorithms or technologies to be&#xD;
+    employed by the class. Individuals or teams responsible for subsystems should be more generalists, able to make&#xD;
+    decisions on the proper partitioning of functionality between design elements, and able to understand the inherent&#xD;
+    trade-offs involved in various design alternatives.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While the individual design elements are refined, the use-case realizations must be refined to reflect the evolving&#xD;
+    responsibilities of the design elements. Typically, one person or a small team is responsible for refining one or more&#xD;
+    related use-case realizations. As design elements are added or refined, the use-case realizations need to be&#xD;
+    reconsidered and evolved as they become outdated, or as improvements in the design model allow for simplifications in&#xD;
+    the use-case realizations. The individuals or teams responsible for use-case realizations need to have broader&#xD;
+    understanding of the behavior required by the use cases and of the trade-offs of different approaches to allocating&#xD;
+    this behavior amongst design elements. In addition, since they are responsible for selecting the elements that will&#xD;
+    perform the use cases, they need to have a deep understanding of external (public) behaviors of the design elements&#xD;
+    themselves.&#xD;
+&lt;/p></howtoStaff>
+  </org.eclipse.epf.uma:ActivityDescription>
+</xmi:XMI>

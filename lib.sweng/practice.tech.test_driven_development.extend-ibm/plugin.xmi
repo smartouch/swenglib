@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="__kr8AK9KEdyWbrpDltNb2Q" guid="__kr8AK9KEdyWbrpDltNb2Q">
+    <resourceDescriptors xmi:id="_Btvdwa9MEdyWbrpDltNb2Q" id="-Q8mV7Sw0qY-jjTJYm_0CrA" uri="guidances/roadmaps/tdd_practice_roadmap.booster.xmi"/>
+    <resourceDescriptors xmi:id="_rlqSEL5OEdyVSKPNZSOBmg" id="-MiNOvXRpCyhU_n9aNdDl9Q" uri="guidances/guidelines/developer_testing.tdd.extend-ibm.xmi"/>
+    <resourceDescriptors xmi:id="_AhoUEJyBEdyebv9DCb0KJA" id="-GpVFPR7fS4w9V1NYa_8vIw" uri="tasks/run_developer_tests.purifyplus.xmi"/>
+    <resourceDescriptors xmi:id="_WJJ1MQwWEd2FmcoR1ME0CA" id="-R8LEMDQFXLCSmf5cnYLC2Q" uri="guidances/whitepapers/rup_xp_guidelines_test-first_design_and_refactoring.xmi"/>
+    <resourceDescriptors xmi:id="_ONFqYSx_Ed2K3Yip7M1QZA" id="-576WNi9KXmuleChgrot0ug" uri="guidances/practices/test_driven_dev.ibm.xmi"/>
+    <resourceDescriptors xmi:id="_4lePcJx4Edyebv9DCb0KJA" id="-xw54nFrwBWrBncPy63Qibg" uri="guidances/toolmentors/executing_test_suites_using_purifyplus.xmi"/>
+    <resourceDescriptors xmi:id="_cf39EWmUEd2wW88Ut0zE5w" id="-nno_nQ_unAyG_yLxg5_EIw" uri="guidances/supportingmaterials/release_info_test_driven_development.ibm.xmi"/>
+    <resourceDescriptors xmi:id="_I36BwT3BEd-M-OuRmKiBlQ" id="-pQyVMWdzCJHtxpDMqcQPBw" uri="guidances/toolmentors/implement_developer_tests_rad.xmi"/>
+    <resourceDescriptors xmi:id="_oJkOMT2-Ed-M-OuRmKiBlQ" id="-rbZFnu0kGn37igw0pzPbBg" uri="guidances/toolmentors/run_developer_tests_rad.xmi"/>
+    <resourceDescriptors xmi:id="_erwGED9uEeC1XKLdKbTzUA" id="-k8bt5Q5bbnVuEhvMslMSGQ" uri="guidances/toolmentors/implementing_the_solution_with_rtc.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="__kl1YK9KEdyWbrpDltNb2Q" userChangeable="false" name="practice.tech.test_driven_development.extend-ibm" guid="__kl1YK9KEdyWbrpDltNb2Q" presentationName="Test-Driven Development (Extend-IBM)" authors="Jim Ruehlin" changeDate="2011-08-11T11:35:49.171-0700">
+    <methodElementProperty xmi:id="_3faI4bemEd-oHLor78AFuw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_VBVtYBXVEdyM9L6rbYAZaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__kl1Ya9KEdyWbrpDltNb2Q" name="Content" guid="__kl1Ya9KEdyWbrpDltNb2Q">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__kl1Yq9KEdyWbrpDltNb2Q" name="Categories" guid="__kl1Yq9KEdyWbrpDltNb2Q">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__kl1Y69KEdyWbrpDltNb2Q" name="Domains" guid="__kl1Y69KEdyWbrpDltNb2Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__kl1ZK9KEdyWbrpDltNb2Q" name="Disciplines" guid="__kl1ZK9KEdyWbrpDltNb2Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__kl1Za9KEdyWbrpDltNb2Q" name="RoleSets" guid="__kl1Za9KEdyWbrpDltNb2Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__kl1Zq9KEdyWbrpDltNb2Q" name="WP Types" guid="__kl1Zq9KEdyWbrpDltNb2Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__kl1Z69KEdyWbrpDltNb2Q" name="Tools" guid="__kl1Z69KEdyWbrpDltNb2Q">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_F1J5EFp0Ed2sVpdLbJeozw" name="purifyplus.tdd" guid="_F1J5EFp0Ed2sVpdLbJeozw" variabilityType="contributes" toolMentors="_lOBSkJx4Edyebv9DCb0KJA">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_3mXbsMYhEdyXeo04os5BOw#_p265AAZzEd2_nsE9-uzU8Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_SRQnIHpkEd-lOq2Oa3QeDQ" name="rad.tdd" guid="_SRQnIHpkEd-lOq2Oa3QeDQ" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_3mXbsMYhEdyXeo04os5BOw#_-7ifMILgEd-1weEJENVG7w"/>
+            <toolMentors href="#_isGOAD3AEd-M-OuRmKiBlQ"/>
+            <toolMentors href="#_J_ElgD2-Ed-M-OuRmKiBlQ"/>
+            <toolMentors href="uma://_3mXbsMYhEdyXeo04os5BOw#_VUbh8D3DEd-M-OuRmKiBlQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_YivFQMRIEeCvXflP40nnuA" name="rtc.clmit_acc" guid="_YivFQMRIEeCvXflP40nnuA" variabilityType="contributes" toolMentors="_GODAgDodEeCpzolR6oKRqQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_3mXbsMYhEdyXeo04os5BOw#_58RjIMYhEdyXeo04os5BOw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__kl1aK9KEdyWbrpDltNb2Q" name="StandardCategories" guid="__kl1aK9KEdyWbrpDltNb2Q"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__kl1aa9KEdyWbrpDltNb2Q" name="CustomCategories" guid="__kl1aa9KEdyWbrpDltNb2Q">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__kl1aq9KEdyWbrpDltNb2Q" name="Hidden" guid="__kl1aq9KEdyWbrpDltNb2Q">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="__kl1a69KEdyWbrpDltNb2Q" name="Custom Categories" guid="__kl1a69KEdyWbrpDltNb2Q"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="__kl1bK9KEdyWbrpDltNb2Q" name="CoreContent" guid="__kl1bK9KEdyWbrpDltNb2Q">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Xsg3oK9LEdyWbrpDltNb2Q" name="test_driven_development" guid="_Xsg3oK9LEdyWbrpDltNb2Q" presentationName="Test Driven Development">
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_7euWwK9LEdyWbrpDltNb2Q" name="tdd_practice_roadmap.booster" guid="_7euWwK9LEdyWbrpDltNb2Q" variabilityType="contributes">
+            <presentation xmi:id="-Q8mV7Sw0qY-jjTJYm_0CrA" href="uma://-Q8mV7Sw0qY-jjTJYm_0CrA#-Q8mV7Sw0qY-jjTJYm_0CrA"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Roadmap" href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_8yG48JRqEdyrdaw_xGakyw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Whitepaper" xmi:id="_WH0YcAwWEd2FmcoR1ME0CA" name="rup_xp_guidelines_test-first_design_and_refactoring" guid="_WH0YcAwWEd2FmcoR1ME0CA" presentationName="RUP/XP Guidelines: Test-first Design and Refactoring" briefDescription="This paper demonstrates the techniques of refactoring in the presence of test-first design and conveys a programming attitude.">
+            <presentation xmi:id="-R8LEMDQFXLCSmf5cnYLC2Q" href="uma://-R8LEMDQFXLCSmf5cnYLC2Q#-R8LEMDQFXLCSmf5cnYLC2Q"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_SJbdoCkdEd25ppNyEiVMqA" name="test_driven_dev.ibm" guid="_SJbdoCkdEd25ppNyEiVMqA" variabilityType="contributes" contentReferences="_WH0YcAwWEd2FmcoR1ME0CA">
+            <presentation xmi:id="-576WNi9KXmuleChgrot0ug" href="uma://-576WNi9KXmuleChgrot0ug#-576WNi9KXmuleChgrot0ug"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Practice" href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_FUDtMB4mEd2bS8fFOQ7WWA"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4ShP0AaHEd2_nsE9-uzU8Q" name="tool_mentors" guid="_4ShP0AaHEd2_nsE9-uzU8Q" presentationName="Tool Mentors">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HNFcwAarEd2_nsE9-uzU8Q" name="executing_test_suites_using_purifyplus" guid="_HNFcwAarEd2_nsE9-uzU8Q" presentationName="Executing Test Suites Using PurifyPlus">
+            <methodElementProperty xmi:id="_Kbx78N2rEeG3tM3BHScrbg" name="me_edited" value="true"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_AF3ewJx5Edyebv9DCb0KJA" name="run_developer_tests.purifyplus" guid="_AF3ewJx5Edyebv9DCb0KJA" orderingGuide="&lt;?xml version=&quot;1.0&quot; encoding=&quot;ASCII&quot;?>&#xD;&#xA;&lt;org.eclipse.epf.uma.edit.tng.util.model:OrderInfoCollection xmi:version=&quot;2.0&quot; xmlns:xmi=&quot;http://www.omg.org/XMI&quot; xmlns:org.eclipse.epf.uma.edit.tng.util.model=&quot;http:///com/ibm/uma/edit/tng/util/model.ecore&quot;>&#xD;&#xA;  &lt;orderInfos name=&quot;sections&quot; timestamp=&quot;1196124610463&quot;>&#xD;&#xA;    &lt;gUIDs>_gjLBUJfIEdyZkIR-s-Y8wQ&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_haRocJfIEdyZkIR-s-Y8wQ&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_D2y5EJyBEdyebv9DCb0KJA&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_Xlf8gJx6Edyebv9DCb0KJA&lt;/gUIDs>&#xD;&#xA;    &lt;gUIDs>_itj1QJfIEdyZkIR-s-Y8wQ&lt;/gUIDs>&#xD;&#xA;  &lt;/orderInfos>&#xD;&#xA;&lt;/org.eclipse.epf.uma.edit.tng.util.model:OrderInfoCollection>&#xD;&#xA;" variabilityType="contributes" toolMentors="_lOBSkJx4Edyebv9DCb0KJA">
+              <presentation xmi:id="-GpVFPR7fS4w9V1NYa_8vIw" href="uma://-GpVFPR7fS4w9V1NYa_8vIw#-GpVFPR7fS4w9V1NYa_8vIw"/>
+              <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_R7atwJfIEdyZkIR-s-Y8wQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_BgvfsL8HEdyWjdB0wruS8w" name="developer_testing.pptdd" guid="_BgvfsL8HEdyWjdB0wruS8w" variabilityType="contributes">
+              <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Concept" href="uma://_OOB2AAouEdyhlpBPrduOMw#_ADwlAJRtEdyrdaw_xGakyw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Guideline" xmi:id="_ARQM0L5OEdyVSKPNZSOBmg" name="developer_testing.tdd.extend-ibm" guid="_ARQM0L5OEdyVSKPNZSOBmg" variabilityType="contributes">
+              <presentation xmi:id="-MiNOvXRpCyhU_n9aNdDl9Q" href="uma://-MiNOvXRpCyhU_n9aNdDl9Q#-MiNOvXRpCyhU_n9aNdDl9Q"/>
+              <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Guideline" href="uma://_OOB2AAouEdyhlpBPrduOMw#_ByOd4O6pEduvoopEslG-4g"/>
+            </contentElements>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Td8Qgz26Ed-M-OuRmKiBlQ" name="rad_tool_mentors" guid="_Td8Qgz26Ed-M-OuRmKiBlQ" presentationName="Tool Mentors" briefDescription="DDI tool mentors.">
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_J_ElgD2-Ed-M-OuRmKiBlQ" name="run_developer_tests_rad" guid="_J_ElgD2-Ed-M-OuRmKiBlQ" presentationName="Run Developer Tests using Rational Application Developer" briefDescription="This toolmentor describes the use of Rational Application Developer to debug applications.">
+              <methodElementProperty xmi:id="_O0CbMAdkEeKXSPD1Yyu9JA" name="me_edited" value="true"/>
+              <presentation xmi:id="-rbZFnu0kGn37igw0pzPbBg" href="uma://-rbZFnu0kGn37igw0pzPbBg#-rbZFnu0kGn37igw0pzPbBg"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_xmWcQD2_Ed-M-OuRmKiBlQ" name="run_developer_tests.rad" guid="_xmWcQD2_Ed-M-OuRmKiBlQ" variabilityType="contributes" toolMentors="_J_ElgD2-Ed-M-OuRmKiBlQ">
+              <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_R7atwJfIEdyZkIR-s-Y8wQ"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_isGOAD3AEd-M-OuRmKiBlQ" name="implement_developer_tests_rad" guid="_isGOAD3AEd-M-OuRmKiBlQ" presentationName="Implement Developer Tests using Rational Application Developer" briefDescription="This toolmentor describes the use of Rational Application Developer to test applications.">
+              <presentation xmi:id="-pQyVMWdzCJHtxpDMqcQPBw" href="uma://-pQyVMWdzCJHtxpDMqcQPBw#-pQyVMWdzCJHtxpDMqcQPBw"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_QHw6sD3BEd-M-OuRmKiBlQ" name="implement_developer_tests.rad" guid="_QHw6sD3BEd-M-OuRmKiBlQ" variabilityType="contributes" toolMentors="_isGOAD3AEd-M-OuRmKiBlQ">
+              <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_znlIcJR9EdyVKbgqUOtqQA"/>
+            </contentElements>
+            <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_2LS00D3EEd-M-OuRmKiBlQ" name="implement_solution.rad" guid="_2LS00D3EEd-M-OuRmKiBlQ" variabilityType="contributes">
+              <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_Ht-z8JfJEdyZkIR-s-Y8wQ"/>
+              <toolMentors href="uma://_3mXbsMYhEdyXeo04os5BOw#_VUbh8D3DEd-M-OuRmKiBlQ"/>
+            </contentElements>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_lOBSkJx4Edyebv9DCb0KJA" name="executing_test_suites_using_purifyplus" guid="_lOBSkJx4Edyebv9DCb0KJA" presentationName="Executing Test Suites Using the Rational PurifyPlus Tools (Windows and Unix)" briefDescription="This tool mentor describes the use of the Rational PurifyPlus tools in test suites to detect potentially harmful memory errors and leaks, to ensure that your tests are achieving an acceptable level of code coverage, and to bring performance problems to your attention.">
+            <presentation xmi:id="-xw54nFrwBWrBncPy63Qibg" href="uma://-xw54nFrwBWrBncPy63Qibg#-xw54nFrwBWrBncPy63Qibg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_W9h3cMRHEeCvXflP40nnuA" name="implement_solution.rtc" guid="_W9h3cMRHEeCvXflP40nnuA" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Task" href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_Ht-z8JfJEdyZkIR-s-Y8wQ"/>
+            <conceptsAndPapers href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_1QU9MAIoEdyLh7vsrHZ4YA"/>
+            <toolMentors href="#_GODAgDodEeCpzolR6oKRqQ"/>
+            <toolMentors href="uma://_3mXbsMYhEdyXeo04os5BOw#_bvhk8DodEeCpzolR6oKRqQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_GODAgDodEeCpzolR6oKRqQ" name="implementing_the_solution_with_rtc" guid="_GODAgDodEeCpzolR6oKRqQ" presentationName="Implementing the Solution with IBM Rational Team Concert" briefDescription=" ">
+            <methodElementProperty xmi:id="_4jxFUJ-gEeGZFqPrALABKA" name="me_edited" value="true"/>
+            <presentation xmi:id="-k8bt5Q5bbnVuEhvMslMSGQ" href="uma://-k8bt5Q5bbnVuEhvMslMSGQ#-k8bt5Q5bbnVuEhvMslMSGQ"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_cdySYGmUEd2wW88Ut0zE5w" name="release_info" guid="_cdySYGmUEd2wW88Ut0zE5w" presentationName="Release Info">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_cdySYWmUEd2wW88Ut0zE5w" name="release_info_test_driven_development.ibm" guid="_cdySYWmUEd2wW88Ut0zE5w" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif" variabilityType="contributes">
+            <presentation xmi:id="-nno_nQ_unAyG_yLxg5_EIw" href="uma://-nno_nQ_unAyG_yLxg5_EIw#-nno_nQ_unAyG_yLxg5_EIw"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#__dz3oMuIEdyRPtFYRAKVDg"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__kl1ba9KEdyWbrpDltNb2Q" name="CapabilityPatterns" guid="__kl1ba9KEdyWbrpDltNb2Q"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__kl1bq9KEdyWbrpDltNb2Q" name="DeliveryProcesses" guid="__kl1bq9KEdyWbrpDltNb2Q"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__kl1b69KEdyWbrpDltNb2Q" name="ProcessContributions" guid="__kl1b69KEdyWbrpDltNb2Q"/>
+    <bases href="uma://_DZ1rEI7-Edy7q8CKc_B8eg#_DZ1rEI7-Edy7q8CKc_B8eg"/>
+    <bases href="uma://_OynuUNDqEdunspUKKm1F4Q#_OynuUNDqEdunspUKKm1F4Q"/>
+    <bases href="uma://_3mXbsMYhEdyXeo04os5BOw#_3mXbsMYhEdyXeo04os5BOw"/>
+    <bases href="uma://_rhS8wCB1Ed2BC837SW9yQQ#_rhS8wCB1Ed2BC837SW9yQQ"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+    <bases href="uma://_OOB2AAouEdyhlpBPrduOMw#_OOB2AAouEdyhlpBPrduOMw"/>
+    <bases href="uma://_-bv0ELXuEduGP_98XMd0fg#_-bv0ELXuEduGP_98XMd0fg"/>
+    <bases href="uma://_0TmecJ-VEdy3Nc4rvuj7bA#_0TmecJ-VEdy3Nc4rvuj7bA"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

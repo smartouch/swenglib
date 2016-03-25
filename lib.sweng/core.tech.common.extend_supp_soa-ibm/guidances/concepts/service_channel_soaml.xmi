@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-iDs3uwWC1lbj4OS2yicE-Q" name="new_concept,_pOTTMGaaEd65K8S2sWS35w" guid="-iDs3uwWC1lbj4OS2yicE-Q" changeDate="2009-09-05T11:32:10.078-0700" version="7.5.0">
+  <copyrightStatement href="uma://_4eYbIEcWEd6GBq2DuQ5crg#_6LLxwLNfEd6JDp2szLeSrA"/>
+  <mainDescription>&lt;p>&#xD;
+    Usage:&amp;nbsp; &quot;ServiceChannel&quot; stereotypes UML Connector&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>A ServiceChannel provides a communication path between consumer Requests and provider Services.&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;3&quot;>&lt;strong>Semantics&lt;/strong>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>A ServiceChannel is used to connect Requests of consumer &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>Participants&lt;/a> to Services of provider Participants at the ServiceChannel ends. A&#xD;
+    ServiceChannel enables communication between the Request and Service.&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;font size=&quot;2&quot;>A &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/request_point_soaml_DD83CF2.html&quot; guid=&quot;_5DYKcFbAEd6MCpkuB85p5g&quot;>RequestPoint&lt;/a> specifies a Participant's needs. A &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_point_soaml_E250D92A.html&quot; guid=&quot;_9jRdMFbAEd6MCpkuB85p5g&quot;>ServicePoint&lt;/a> specifies a Participant's offered services. &lt;font size=&quot;2&quot;>A&#xD;
+    RequestPoint is compatible with, and&amp;nbsp;can be connected to, a ServicePoint through a ServiceChannel,&#xD;
+    if:&lt;/font>&lt;/font>&#xD;
+&lt;/p>&#xD;
+&lt;ol>&#xD;
+    &lt;li>&#xD;
+        &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>The Request and Service have the same type, either an Interface or&#xD;
+        ServiceInterface.&lt;/font>&lt;/font>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>The type of the Service is a specialization or realization of the type of the&#xD;
+        Request.&lt;/font>&lt;/font>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>The Request and Service have compatible needs and capabilities, respectively. This&#xD;
+        means the Service must provide an Operation for every Operation used through the Request, the Request must provide&#xD;
+        an Operation for every Operation used through the Service, and the protocols for how the capabilities are&#xD;
+        used&amp;nbsp;are compatible between the Request and Service.&lt;/font>&lt;/font>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        &lt;font size=&quot;2&quot;>&lt;font size=&quot;2&quot;>Any of the above are true for a subset of a ServiceInterface as defined by a port on&#xD;
+        that service interface.&lt;/font>&lt;/font>&#xD;
+    &lt;/li>&#xD;
+&lt;/ol></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

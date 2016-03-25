@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-VcXFvujKQvwJSgckLRrjSw" name="manage_change,_QdKmYbzMEeG8bpwvoltpmg" guid="-VcXFvujKQvwJSgckLRrjSw" version="7.5.1"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aOeDwJ1-G0jCv-v6xN3JKQ" name="submit_change_request,_6-LiUMU8EeGvoMYeYF8yvg" guid="-aOeDwJ1-G0jCv-v6xN3JKQ">
+    <refinedDescription>&lt;p>&#xD;
+    When submitting a change request, provide information that describes the change. This must include a detailed&#xD;
+    description of the requested change, at a minimum. Guidance on the type of information that should be provided when&#xD;
+    submitting a change request can be found in the Sample Change Request form.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Step 1. Identify change request.&lt;br />&#xD;
+    Step 2. Document benefits, risk, and cost associated with the request.&lt;br />&#xD;
+    Step 3. Log the change request in the locally adopted change request management system.&lt;br />&#xD;
+    Step 4. Proceed to review and classify the change request.&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Hints and tips&#xD;
+&lt;/h3>&#xD;
+&lt;p>&#xD;
+    • Quantify known cost and benefits.&lt;br />&#xD;
+    • List the effects or the impact if the change request is not executed.&lt;br />&#xD;
+    • Include the time required to complete the change request.&lt;br />&#xD;
+    &lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-F6cqr20bm1f5OpwxrVrd7Q" name="change_request,_6-1poMU8EeGvoMYeYF8yvg" guid="-F6cqr20bm1f5OpwxrVrd7Q">
+    <refinedDescription>&lt;p>&#xD;
+    A change request (CR) is typically a proposed variance from the system's current (or currently planned) behavior. It&#xD;
+    can also be used for a generic piece of work that is required to support the project. Change requests may include&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A report of an error (defect)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        An enhancement request&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Change requests provide a record of decisions and, with an appropriate assessment process, ensures that their change&#xD;
+    impacts are considered.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Some important types of change requests include:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Enhancement Requests&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Used by various stakeholders to request future features that they desire to have included in the product. These are a&#xD;
+    type of stakeholder request that capture and articulate an understanding of the stakeholders needs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Defects&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Reports of anomalies or failures in a delivered work product. Defects include such things as omissions and&#xD;
+    imperfections found during early lifecycle phases, or symptoms of faults (failures) that need to be isolated and&#xD;
+    corrected within the software. Defects may also include deviations from what can reasonably be expected of the software&#xD;
+    behavior (such as usability issues).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The purpose of a defect is to communicate the details of the issue, enabling corrective action, resolution, and&#xD;
+    tracking to occur.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-h0Cz9RU9t2Tk0DMKW3i0zQ" name="review_change_request,_7gm58MU8EeGvoMYeYF8yvg" guid="-h0Cz9RU9t2Tk0DMKW3i0zQ">
+    <refinedDescription>&lt;p>&#xD;
+    In this task, the change request is verified to ensure that it comes from an acceptable source, that it is clearly&#xD;
+    understood, and that it is within scope. Then the change request is analyzed for its potential impact on the&#xD;
+    development. If necessary, create child change requests to handle detail.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-j3AF4AYN8DzniVFPhm-ONg" name="assign_change_request,_79N9cMU8EeGvoMYeYF8yvg" guid="-j3AF4AYN8DzniVFPhm-ONg">
+    <keyConsiderations>&lt;p>&#xD;
+    Determine if there other similar or related tasks that need to be considered. Consider what resources you have&#xD;
+    available.&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Are there are other similar or related tasks that need to be considered for planning purposes for the target&#xD;
+        iteration (for example, you can't implement one without the other)?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What resources do you have available, and who is the best resource for the task?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Is the level of effort understood and agreed to?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        What iteration does the change request need to be associated with?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Who should be working on which tasks and when?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Do you have the correct number of resources with the correct skill set to accomplish the scope of work that your&#xD;
+        project requires?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Are you expecting a resource to work on a task at a time when that resource will not be available to work (for&#xD;
+        example, when the resource will be on vacation)?&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Have you assigned a resource to so many tasks that you have exceeded the capacity of the resource to work? Is the&#xD;
+        resource over-allocated?&lt;br />&#xD;
+        &lt;br />&#xD;
+        &lt;br />&#xD;
+        &lt;br />&#xD;
+        &lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This task assigns a change request to a resolver for implementation. Work is assigned, estimated, and tracked. When the&#xD;
+    task is complete, it is set to Resolved, as with any other work item.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For the purposes of this task, &lt;i>resources&lt;/i> refer to the people who might carry out the task, and not to any&#xD;
+    equipment that might be required for the task.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-eDM687gBZGIAd_5Y4XO6NA" name="resolve_change_request,_9IjIIMU8EeGvoMYeYF8yvg" guid="-eDM687gBZGIAd_5Y4XO6NA">
+    <keyConsiderations>Verify that all required Change Sets are identified against the Change Request, and that they are in the appropriate state.</keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This task describes the steps to indicate that a change has been implemented and is ready for verification.&#xD;
+&lt;/p>&#xD;
+&lt;h3>&#xD;
+    Hints and tips&#xD;
+&lt;/h3>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Review the resolution of the change request to ensure it meets all stakeholder expectations.&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-RvgCBD8iAvRurOc7z-cbZQ" name="verify_change_request,_9tRl0MU8EeGvoMYeYF8yvg" guid="-RvgCBD8iAvRurOc7z-cbZQ">
+    <refinedDescription>This tasks defines the steps required to verify that a change has been implemented as requested.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

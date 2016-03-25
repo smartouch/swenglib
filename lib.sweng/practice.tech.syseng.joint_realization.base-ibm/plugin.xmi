@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_mXU1MCSmEd6BKv8Pr8i7Eg" guid="_mXU1MCSmEd6BKv8Pr8i7Eg">
+    <subManagers xmi:id="_KnCikZi5Ed6JmoH2XFiafA" href="uma://_KmS7sJi5Ed6JmoH2XFiafA#_KnCikZi5Ed6JmoH2XFiafA"/>
+    <subManagers xmi:id="_KBCiAKMLEd6XGaN9G5GQxw" href="uma://_If4RQKMLEd6XGaN9G5GQxw#_KBCiAKMLEd6XGaN9G5GQxw"/>
+    <resourceDescriptors xmi:id="_KmcFoZi5Ed6JmoH2XFiafA" id="_KmS7sJi5Ed6JmoH2XFiafA" uri="capabilitypatterns/jr_op/model.xmi"/>
+    <resourceDescriptors xmi:id="_KAcFEaMLEd6XGaN9G5GQxw" id="_If4RQKMLEd6XGaN9G5GQxw" uri="capabilitypatterns/jr_uc/model.xmi"/>
+    <resourceDescriptors xmi:id="_sej-MKnyEd63sOwvVJD3Tw" id="-zuOScV8bLoON1ws9zw5Xrw" uri="tasks/gen_seq_diags.xmi"/>
+    <resourceDescriptors xmi:id="_NPAVcanzEd63sOwvVJD3Tw" id="-hUFe5vxnx0IDd49h85aE0w" uri="tasks/derive_alloc_ops.xmi"/>
+    <resourceDescriptors xmi:id="_U2Ro0anzEd63sOwvVJD3Tw" id="--6hV0--c_Hsx8Si0jT-uiQ" uri="tasks/create_ports_and_intfcs.xmi"/>
+    <resourceDescriptors xmi:id="_xynO4L6EEd6EnZQdp87-CQ" id="-mR5qOhXNPJ8Unrbvw7cM0w" uri="guidances/practices/joint_realization.xmi"/>
+    <resourceDescriptors xmi:id="_-gsOkb6FEd6EnZQdp87-CQ" id="-jTEI4wgcBBdoXte3LnOXSQ" uri="guidances/roadmaps/how_to_adopt.xmi"/>
+    <resourceDescriptors xmi:id="_jmVcwL6MEd6EnZQdp87-CQ" id="-REo_pu2YzqXF5ojYNNY5Rg" uri="guidances/concepts/sys_arch_viewpoints.xmi"/>
+    <resourceDescriptors xmi:id="_vwBycL6MEd6EnZQdp87-CQ" id="-EiOy-BohRUNm6Hb_3GGBhg" uri="guidances/concepts/uc_flowdown.xmi"/>
+    <resourceDescriptors xmi:id="_CS53wb6NEd6EnZQdp87-CQ" id="-aMiKVqOoil_7k0GRisL8Rg" uri="guidances/concepts/suppl_req_flowdown.xmi"/>
+    <resourceDescriptors xmi:id="_S-Ro4b6NEd6EnZQdp87-CQ" id="-Vmefn-ZSOgQumQHqTA24tw" uri="guidances/concepts/locality.xmi"/>
+    <resourceDescriptors xmi:id="_08lAIbCdEd-ErNXPTRl9KQ" id="-RmHzqI27VANFtqXhgQ4u2Q" uri="guidances/supportingmaterials/release_info_joint_realization.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_mXU1ICSmEd6BKv8Pr8i7Eg" userChangeable="false" name="practice.tech.syseng.joint_realization.base-ibm" guid="_mXU1ICSmEd6BKv8Pr8i7Eg" presentationName="Joint Realization" briefDescription="Joint Realization is about analyzing how the elements of multiple viewpoints collaborate in carrying out an operation or service. For example, in joint realization, the flowdown might consist of simultaneously determining the collaboration of logical and distribution elements." changeDate="2009-10-27T14:47:45.484-0700">
+    <methodElementProperty xmi:id="_3d6UF7emEd-oHLor78AFuw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_VBVtYBXVEdyM9L6rbYAZaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mXU1ISSmEd6BKv8Pr8i7Eg" name="Content" guid="_mXU1ISSmEd6BKv8Pr8i7Eg">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mXU1IiSmEd6BKv8Pr8i7Eg" name="Categories" guid="_mXU1IiSmEd6BKv8Pr8i7Eg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mXU1IySmEd6BKv8Pr8i7Eg" name="Domains" guid="_mXU1IySmEd6BKv8Pr8i7Eg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mXU1JCSmEd6BKv8Pr8i7Eg" name="Disciplines" guid="_mXU1JCSmEd6BKv8Pr8i7Eg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mXU1JSSmEd6BKv8Pr8i7Eg" name="RoleSets" guid="_mXU1JSSmEd6BKv8Pr8i7Eg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mXU1JiSmEd6BKv8Pr8i7Eg" name="WP Types" guid="_mXU1JiSmEd6BKv8Pr8i7Eg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mXU1JySmEd6BKv8Pr8i7Eg" name="Tools" guid="_mXU1JySmEd6BKv8Pr8i7Eg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mXU1KCSmEd6BKv8Pr8i7Eg" name="StandardCategories" guid="_mXU1KCSmEd6BKv8Pr8i7Eg"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mXU1KSSmEd6BKv8Pr8i7Eg" name="CustomCategories" guid="_mXU1KSSmEd6BKv8Pr8i7Eg">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mXU1KiSmEd6BKv8Pr8i7Eg" name="Hidden" guid="_mXU1KiSmEd6BKv8Pr8i7Eg">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_mXU1KySmEd6BKv8Pr8i7Eg" name="Custom Categories" guid="_mXU1KySmEd6BKv8Pr8i7Eg"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mXU1LCSmEd6BKv8Pr8i7Eg" name="CoreContent" guid="_mXU1LCSmEd6BKv8Pr8i7Eg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_mrVwQJi4Ed6JmoH2XFiafA" name="Joint Realization" guid="_mrVwQJi4Ed6JmoH2XFiafA">
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_YWF74KIiEd6eYbGGXte97g" name="derive_alloc_ops" guid="_YWF74KIiEd6eYbGGXte97g" presentationName="Derive and/or Allocate Operations" briefDescription="This task describes how to derive and allocate the defined operations.">
+            <presentation xmi:id="-hUFe5vxnx0IDd49h85aE0w" href="uma://-hUFe5vxnx0IDd49h85aE0w#-hUFe5vxnx0IDd49h85aE0w"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_dTfs0JgYEd6u7McLcbxIEQ"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_VY4MkGKXEd6Ih4GzU1_Daw"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_CSXS4JNkEd6TXvoh_VAeug"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_nTJCoKIlEd6eYbGGXte97g"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_zd0bgKJAEd6eYbGGXte97g"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_dTfs0JgYEd6u7McLcbxIEQ"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_CSXS4JNkEd6TXvoh_VAeug"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_zd0bgKJAEd6eYbGGXte97g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_xbPbYKIiEd6eYbGGXte97g" name="gen_seq_diags" guid="_xbPbYKIiEd6eYbGGXte97g" presentationName="Generate Sequence Diagrams for each Subsystem" briefDescription="This task describes the steps involved in generating the sequence diagrams for each subsystem.">
+            <presentation xmi:id="-zuOScV8bLoON1ws9zw5Xrw" href="uma://-zuOScV8bLoON1ws9zw5Xrw#-zuOScV8bLoON1ws9zw5Xrw"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_dTfs0JgYEd6u7McLcbxIEQ"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_CSXS4JNkEd6TXvoh_VAeug"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_nTJCoKIlEd6eYbGGXte97g"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_zd0bgKJAEd6eYbGGXte97g"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_F8whAJNkEd6TXvoh_VAeug"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_UVUkYKI-Ed6eYbGGXte97g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_3yyzUKIiEd6eYbGGXte97g" name="create_ports_and_intfcs" guid="_3yyzUKIiEd6eYbGGXte97g" presentationName="Create Ports and Interfaces per Subsystem" briefDescription="This task describes the steps involved in creating the ports and interfaces.">
+            <presentation xmi:id="--6hV0--c_Hsx8Si0jT-uiQ" href="uma://--6hV0--c_Hsx8Si0jT-uiQ#--6hV0--c_Hsx8Si0jT-uiQ"/>
+            <guidelines href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_g2qrYOT1Ed6-EtmJBf6mkQ"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_dTfs0JgYEd6u7McLcbxIEQ"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_F8whAJNkEd6TXvoh_VAeug"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_nTJCoKIlEd6eYbGGXte97g"/>
+            <mandatoryInput href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_UVUkYKI-Ed6eYbGGXte97g"/>
+            <output href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_dTfs0JgYEd6u7McLcbxIEQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Practice" xmi:id="_rEYNEJi4Ed6JmoH2XFiafA" name="joint_realization" guid="_rEYNEJi4Ed6JmoH2XFiafA" presentationName="Joint Realization" briefDescription="Joint Realization is about analyzing how the elements of multiple viewpoints collaborate in carrying out an operation or service. For example, in joint realization, the flowdown might consist of simultaneously determining the collaboration of logical and distribution elements.">
+            <presentation xmi:id="-mR5qOhXNPJ8Unrbvw7cM0w" href="uma://-mR5qOhXNPJ8Unrbvw7cM0w#-mR5qOhXNPJ8Unrbvw7cM0w"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="#_IQ-YsL6NEd6EnZQdp87-CQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="#_7o4PwL6MEd6EnZQdp87-CQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="#_UZvWwL6MEd6EnZQdp87-CQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Concept" href="#_o_c2gL6MEd6EnZQdp87-CQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_dTfs0JgYEd6u7McLcbxIEQ"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_zd0bgKJAEd6eYbGGXte97g"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_UVUkYKI-Ed6eYbGGXte97g"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Artifact" href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_nTJCoKIlEd6eYbGGXte97g"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_3yyzUKIiEd6eYbGGXte97g"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_YWF74KIiEd6eYbGGXte97g"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Task" href="#_xbPbYKIiEd6eYbGGXte97g"/>
+            <contentReferences xsi:type="org.eclipse.epf.uma:Roadmap" href="#_mJI04L6FEd6EnZQdp87-CQ"/>
+            <activityReferences href="uma://_KmS7sJi5Ed6JmoH2XFiafA#_KmS7sZi5Ed6JmoH2XFiafA"/>
+            <activityReferences href="uma://_If4RQKMLEd6XGaN9G5GQxw#_If4RSKMLEd6XGaN9G5GQxw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Roadmap" xmi:id="_mJI04L6FEd6EnZQdp87-CQ" name="how_to_adopt" guid="_mJI04L6FEd6EnZQdp87-CQ" presentationName="How to Adopt the Joint Realization Practice" briefDescription="This roadmap describes how to adopt the Joint Realization practice.">
+            <presentation xmi:id="-jTEI4wgcBBdoXte3LnOXSQ" href="uma://-jTEI4wgcBBdoXte3LnOXSQ#-jTEI4wgcBBdoXte3LnOXSQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_UZvWwL6MEd6EnZQdp87-CQ" name="sys_arch_viewpoints" guid="_UZvWwL6MEd6EnZQdp87-CQ" presentationName="System Architecture: Viewpoints, Levels, Models" briefDescription="A system architecture is a representation of a system in which there is a mapping of functionality onto hardware and software components, a mapping of the software architecture onto the hardware architecture, and human interaction with these components.">
+            <presentation xmi:id="-REo_pu2YzqXF5ojYNNY5Rg" href="uma://-REo_pu2YzqXF5ojYNNY5Rg#-REo_pu2YzqXF5ojYNNY5Rg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_o_c2gL6MEd6EnZQdp87-CQ" name="uc_flowdown" guid="_o_c2gL6MEd6EnZQdp87-CQ" presentationName="Use-Case Flowdown" briefDescription="Use-case flowdown is the technique for deriving functional requirements for the analysis (and then design) elements.">
+            <presentation xmi:id="-EiOy-BohRUNm6Hb_3GGBhg" href="uma://-EiOy-BohRUNm6Hb_3GGBhg#-EiOy-BohRUNm6Hb_3GGBhg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_7o4PwL6MEd6EnZQdp87-CQ" name="suppl_req_flowdown" guid="_7o4PwL6MEd6EnZQdp87-CQ" presentationName="Supplementary Requirements Flowdown" briefDescription="Supplementary requirements flowdown is the technique for deriving non-functional requirements for the analysis (and then design) elements.">
+            <presentation xmi:id="-aMiKVqOoil_7k0GRisL8Rg" href="uma://-aMiKVqOoil_7k0GRisL8Rg#-aMiKVqOoil_7k0GRisL8Rg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Concept" xmi:id="_IQ-YsL6NEd6EnZQdp87-CQ" name="locality" guid="_IQ-YsL6NEd6EnZQdp87-CQ" presentationName="Locality" briefDescription="A locality expresses notionally where processing occurs (the semantics of locality implies a tighter grouping of resources) without defining exact geographic location or how the processing capability is to be realized.">
+            <presentation xmi:id="-Vmefn-ZSOgQumQHqTA24tw" href="uma://-Vmefn-ZSOgQumQHqTA24tw#-Vmefn-ZSOgQumQHqTA24tw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_070yMLCdEd-ErNXPTRl9KQ" name="release_info_joint_realization" guid="_070yMLCdEd-ErNXPTRl9KQ" presentationName="Practice: System Engineering - Joint Realization" shapeicon="guidances/supportingmaterials/resources/whats_new.gif" nodeicon="guidances/supportingmaterials/resources/whats_new_obj.gif">
+            <presentation xmi:id="-RmHzqI27VANFtqXhgQ4u2Q" href="uma://-RmHzqI27VANFtqXhgQ4u2Q#-RmHzqI27VANFtqXhgQ4u2Q"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_mXU1LSSmEd6BKv8Pr8i7Eg" name="CapabilityPatterns" guid="_mXU1LSSmEd6BKv8Pr8i7Eg">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_KmS7sJi5Ed6JmoH2XFiafA" href="uma://_KmS7sJi5Ed6JmoH2XFiafA#_KmS7sJi5Ed6JmoH2XFiafA"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_If4RQKMLEd6XGaN9G5GQxw" href="uma://_If4RQKMLEd6XGaN9G5GQxw#_If4RQKMLEd6XGaN9G5GQxw"/>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_mXU1LiSmEd6BKv8Pr8i7Eg" name="DeliveryProcesses" guid="_mXU1LiSmEd6BKv8Pr8i7Eg"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_mXU1LySmEd6BKv8Pr8i7Eg" name="ProcessContributions" guid="_mXU1LySmEd6BKv8Pr8i7Eg"/>
+    <bases href="uma://_WbKEoGG1Ed6ByZ91UzrddQ#_WbKEoGG1Ed6ByZ91UzrddQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-2KlvIPK956wH1YP9-uXg8g" name="define_test_approach,_s_hlIHE4Edy8Ac588DXPCQ" guid="-2KlvIPK956wH1YP9-uXg8g" changeDate="2007-12-20T12:59:38.796-0800" version="7.2.0">
+  <sections xmi:id="_R0VtEHdVEdyqd9oUl_5ulw" name="Examine Test Motivators and Test Items" guid="_R0VtEHdVEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Using the evaluation mission as context, examine the test-related plans, and study the test motivators that have been&#xD;
+    identified for the forthcoming test effort. It may be necessary to do further investigation at the motivator source:&#xD;
+    usually the iteration plan provides a means of locating additional information.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For each motivator, consider what test approach and associated techniques might be required to address each motivator.&#xD;
+    Also examine the Test Plan and study the test items. Each targeted test item should be considered in relation to each&#xD;
+    Motivator, and the approach and techniques extended accordingly. If you cannot find a lot of detail about (or you are&#xD;
+    unfamiliar with) the test items, it may be useful to discuss the targeted items with the development staff, usually by&#xD;
+    starting with the software architect or development team leads.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Focus on identifying the minimal set of techniques necessary to satisfactorily address the evaluation mission and&#xD;
+    motivators. Look for opportunities where one technique can be used to address more than one aspect of the required&#xD;
+    testing. Note other potential techniques that seem interesting to explore, but be able to identify these as additional&#xD;
+    rather than essential.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Uw_rcHdVEdyqd9oUl_5ulw" name="Examine the Software Architecture" guid="_Uw_rcHdVEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Study the Software Architecture to gain an understanding of its key elements: mechanisms, main views, and so on.&#xD;
+    Typically, the Software Architecture documentation provides good information focused at the right level of detail for&#xD;
+    use in considering a test approach. To clarify its information, or in the absence of a document, it is useful to&#xD;
+    discuss the architecture with the development staff, usually by talking to the software architect directly, or one of&#xD;
+    the development team leads.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Focus on identifying and discussing the key mechanisms, and gaining a good understanding of these aspects of the&#xD;
+    system. Each mechanism and key feature of the architecture will likely present challenges or constraints for the test&#xD;
+    effort. For example, a distributed architecture may necessitate organizing the test team into sub-teams, each team&#xD;
+    targeting an architectural tier.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    While a creative way to the test implementation and execution strategy can often be used to overcome these challenges,&#xD;
+    it may be necessary to have the development team modify the software to enable testing, as discussed in &lt;a&#xD;
+    class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.independent_testing.base-ibm/tasks/define_testability_elements_ED2AC642.html&quot;&#xD;
+    guid=&quot;_4REVYHE5Edy8Ac588DXPCQ&quot;>Task: Define Testability Elements&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_b6mycHdVEdyqd9oUl_5ulw" name="Consider the Appropriate Breadth and Depth of the Test Approach " guid="_b6mycHdVEdyqd9oUl_5ulw">
+    <sectionDescription>Considering all of the details that are now known about the requirements on the test approach, it is beneficial to step&#xD;
+back and consider the test approach from a higher-level perspective. What things does the test approach not address that it&#xD;
+should? Are there any concerns that should be explored that do not appear in any of the documented information? &#xD;
+&lt;p>&#xD;
+    Based on your experience, review the requirements for the test approach for appropriate breadth and depth for this&#xD;
+    stage in the project lifecycle. Consider additional requirements that will help to present a more complete approach.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_hr2_YHdVEdyqd9oUl_5ulw" name="Identify Existing Test Techniques for Reuse" guid="_hr2_YHdVEdyqd9oUl_5ulw">
+    <sectionDescription>From your own experience, or other experience that you have access to, identify existing techniques that will either meet&#xD;
+the requirements of the test approach, or can be adapted to meet them.</sectionDescription>
+  </sections>
+  <sections xmi:id="_kH3u0HdVEdyqd9oUl_5ulw" name="Identify Additional Techniques" guid="_kH3u0HdVEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    It is not terribly useful to think in terms of a complete test approach: there are always additional techniques that&#xD;
+    you might try if you only had limitless time and resources.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    However, it is important that the test approach is well-rounded and comprehensive enough to allow a useful evaluation&#xD;
+    of perceived quality to be made. This requires an approach that evaluates sufficient aspects of quality risk (or&#xD;
+    dimensions of quality) for the project team to assess perceived quality with a justified degree of confidence.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_mf3g8HdVEdyqd9oUl_5ulw" name="Define Techniques" guid="_mf3g8HdVEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Outline the workings of each technique. Address the type of testing that it supports, and the objective, scope,&#xD;
+    implementation method, test oracles, assessment method, and automation needs of the technique.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In many cases, you will reuse technique from one project to the next. In this situation, you can simply reference a&#xD;
+    common definition of the technique, or copy the existing definition and revise it as appropriate.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For more details, see: &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.tech.independent_testing.base-ibm/guidances/guidelines/def_test_tech_4939900C.html&quot;&#xD;
+    guid=&quot;_M5LYALJYEdyHw6xErAkVmw&quot;>Guideline: Defining Test Techniques&lt;/a>.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_n7qJgHdVEdyqd9oUl_5ulw" name="Outline the Test Automation Architecture" guid="_n7qJgHdVEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Based on experience gained from similar systems or in similar problem domains, begin to define a candidate architecture&#xD;
+    for the test automation system.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_ry3EkHdVEdyqd9oUl_5ulw" name="Define the Test Asset Configuration Management Strategy" guid="_ry3EkHdVEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Like many other work products produced during a software development project, test assets are candidates for&#xD;
+    configuration management and version control.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The specific requirements can range in complexity from the decision to use basic backup and recovery services enabled,&#xD;
+    to having full support for parallel development of automated Test Scripts at multiple sites against different versions&#xD;
+    of an application.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Give thought to your requirements for configuration management, and begin to outline probable logistical needs to&#xD;
+    realize those requirements.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_whD5EHdVEdyqd9oUl_5ulw" name="Survey Availability of Reusable Assets " guid="_whD5EHdVEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Sometimes, it makes sense to build assets from scratch, and sometimes it does not. Try to find a good balance between a&#xD;
+    complete &quot;roll-you-own&quot; philosophy and establishing a rigid and bureaucratic librarian policy on new work product&#xD;
+    creation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There are times when one approach is better than the other, and you should be flexible enough to take advantage of the&#xD;
+    benefits that both approaches bring.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_y6i48HdVEdyqd9oUl_5ulw" name="Capture Your Findings" guid="_y6i48HdVEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    Depending on a number of factors (including team size and organization culture), there will be better and worse ways to&#xD;
+    record the decisions that you have made about the test approach.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    You will typically have two audiences to consider: the management team will want to review this information to provide&#xD;
+    approval and be aware of the logistics implications of the approach, and the test team will want to use the test&#xD;
+    approach as guidance for the work that they undertake. Try to find an appropriate medium to suitably address both needs&#xD;
+    (perhaps using a project Intranet Web site).&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_3rkX8HdVEdyqd9oUl_5ulw" name="Evaluate and Verify Your Results " guid="_3rkX8HdVEdyqd9oUl_5ulw">
+    <sectionDescription>&lt;p>&#xD;
+    You should evaluate whether your work is of appropriate quality, and that it is complete enough to be useful to those&#xD;
+    team members who will make subsequent use of it as input to their work. Where possible, use checklists to verify that&#xD;
+    quality and completeness are good enough.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Have the people who perform the downstream tasks that rely on your work as input review your interim work. Do this&#xD;
+    while you still have time available to address their concerns. You should also evaluate your work against the key input&#xD;
+    work products to make sure that you have represented them accurately and sufficiently. It may be useful to have the&#xD;
+    author of the input work product review your work on this basis.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    The purpose of this task is to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identify each specific technique that will be employed to enable the desired testing&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Outline the workings of each technique, including the types of testing that it supports&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Define a candidate architecture for the test automation system&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:TaskDescription>

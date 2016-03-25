@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-ohVcRABpLWezyKRGEy77fg" name="new_artifact,_3pFRQLQ3Ed6dub1WVMVYrA" guid="-ohVcRABpLWezyKRGEy77fg" changeDate="2009-11-18T12:15:35.984-0800" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    This artifact includes specifications&amp;nbsp;for all thermal, mechanical, electrical, optical and chemical interfaces&#xD;
+    between the element and its operational, maintenance,&amp;nbsp;and test environments.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The system element may be the entire system, in which case the interfaces represent the external system&#xD;
+    interfaces.&amp;nbsp; Alternatively, the system element may be a segment, subsystem, unit, or component of an enclosing&#xD;
+    system.&amp;nbsp; In&amp;nbsp;which case, the interfaces represent the internal interfaces of the enclosing system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There will be multiple instances of this artifact. In particular, there will always be an instance of this artifact&#xD;
+    that specifies the external interfaces, which may include interfaces required for testing and maintenance&amp;nbsp;as well&#xD;
+    as the operational interfaces, of the system.&amp;nbsp; This ensures that the system will be interoperable within&amp;nbsp;the&#xD;
+    operational (and test and maintenance) environment.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Additional instances of this artifact will be required to specify the internal interfaces for each system&#xD;
+    element.&amp;nbsp; This ensures that the system element will be interoperable within the enclosing system.&#xD;
+&lt;/p></mainDescription>
+  <purpose>To specify the logical and physical interfaces between a system element and its environment so that these interfaces can be&#xD;
+communicated and agreed between relevant parties to ensure that the element will function properly in the intended&#xD;
+environments.</purpose>
+  <impactOfNotHaving>Without this artifact integration and deployment risk will be unacceptably high.</impactOfNotHaving>
+  <representationOptions>This artifact may be represented as a document or a report from a modeling tool.</representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

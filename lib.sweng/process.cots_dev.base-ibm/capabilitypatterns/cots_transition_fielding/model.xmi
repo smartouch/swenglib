@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_uHYhsOwsEd-sjp03to1LnQ" guid="_uHYhsOwsEd-sjp03to1LnQ">
+    <resourceDescriptors xmi:id="_uHYhsewsEd-sjp03to1LnQ" id="-UMVn-Uf_bVSP6H2K6mczbg" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_s-9heOwsEd-sjp03to1LnQ" name="cots_transition_fielding" guid="_s-9heOwsEd-sjp03to1LnQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_-nbsIB6LEeCLp5muur8Asw" name="plan_deployment" guid="_-nbsIB6LEeCLp5muur8Asw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_-nbsIR6LEeCLp5muur8Asw" name="plan_deployment" guid="_-nbsIR6LEeCLp5muur8Asw" superActivities="_s-9hiOwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlGB1BY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="__KANsB6LEeCLp5muur8Asw" name="develop_support_material" guid="__KANsB6LEeCLp5muur8Asw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="__KANsR6LEeCLp5muur8Asw" name="develop_support_material" guid="__KANsR6LEeCLp5muur8Asw" superActivities="_s-9hiOwsEd-sjp03to1LnQ" linkToPredecessor="_Edv_QB6MEeCLp5muur8Asw" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlPyuhY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Edv_QB6MEeCLp5muur8Asw" guid="_Edv_QB6MEeCLp5muur8Asw">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlGB1BY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_ARh2cB6MEeCLp5muur8Asw" name="package_product" guid="_ARh2cB6MEeCLp5muur8Asw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_ARh2cR6MEeCLp5muur8Asw" name="package_product" guid="_ARh2cR6MEeCLp5muur8Asw" isOptional="true" superActivities="_s-9hiOwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlGB5hY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_CJCKoB6MEeCLp5muur8Asw" name="produce_deployment_unit" guid="_CJCKoB6MEeCLp5muur8Asw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_CJCKoR6MEeCLp5muur8Asw" name="produce_deployment_unit" guid="_CJCKoR6MEeCLp5muur8Asw" superActivities="_s-9hiOwsEd-sjp03to1LnQ" linkToPredecessor="_Edv_QR6MEeCLp5muur8Asw" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlGB7BY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Edv_QR6MEeCLp5muur8Asw" guid="_Edv_QR6MEeCLp5muur8Asw">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlPyuhY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_C5wc8B6MEeCLp5muur8Asw" name="manage_acceptance_test" guid="_C5wc8B6MEeCLp5muur8Asw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_C5wc8R6MEeCLp5muur8Asw" name="manage_acceptance_test" guid="_C5wc8R6MEeCLp5muur8Asw" superActivities="_s-9hiOwsEd-sjp03to1LnQ" linkToPredecessor="_Edv_Qh6MEeCLp5muur8Asw" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlGBrRY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Edv_Qh6MEeCLp5muur8Asw" guid="_Edv_Qh6MEeCLp5muur8Asw">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlGB1BY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_DpcNcB6MEeCLp5muur8Asw" name="beta_test_product" guid="_DpcNcB6MEeCLp5muur8Asw">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_DpcNcR6MEeCLp5muur8Asw" name="beta_test_product" guid="_DpcNcR6MEeCLp5muur8Asw" isOptional="true" superActivities="_s-9hiOwsEd-sjp03to1LnQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_ub_eoAiaEeCt4-FxrVeQpQ#_PlGB-hY9EeC7GIF5yBIrzQ"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_s-9hiOwsEd-sjp03to1LnQ" name="cots_transition_fielding" guid="_s-9hiOwsEd-sjp03to1LnQ" presentationName="Field and Support Solution" briefDescription="This covers essential tasks aimed at fielding the solution to the users and providing support in the transition phase." breakdownElements="_-nbsIR6LEeCLp5muur8Asw __KANsR6LEeCLp5muur8Asw _ARh2cR6MEeCLp5muur8Asw _CJCKoR6MEeCLp5muur8Asw _C5wc8R6MEeCLp5muur8Asw _DpcNcR6MEeCLp5muur8Asw">
+      <methodElementProperty xmi:id="_t9_8-ewsEd-sjp03to1LnQ" name="process_synFree" value="true"/>
+      <presentation xmi:id="-UMVn-Uf_bVSP6H2K6mczbg" href="uma://-UMVn-Uf_bVSP6H2K6mczbg#-UMVn-Uf_bVSP6H2K6mczbg"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_yRRHACZREd-Hb5ChSoDHIA" guid="_yRRHACZREd-Hb5ChSoDHIA">
+    <resourceDescriptors xmi:id="_yRRHASZREd-Hb5ChSoDHIA" id="-rn1hUE71kgptJbrUnTSquQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_xfz07SZREd-Hb5ChSoDHIA" name="integrate_and_validate_build" guid="_xfz07SZREd-Hb5ChSoDHIA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz09CZREd-Hb5ChSoDHIA" name="integrate_each_subsystem" guid="_xfz09CZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz09SZREd-Hb5ChSoDHIA" name="integrate_each_subsystem" guid="_xfz09SZREd-Hb5ChSoDHIA" presentationName="Integrate each Subsystem" hasMultipleOccurrences="true" superActivities="_xfz08CZREd-Hb5ChSoDHIA" isOngoing="true" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_0uUD8CsBEd-5jezL08ZExg#_jQykwde2Ed-Zq9ImbgqLFQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz07iZREd-Hb5ChSoDHIA" name="integrate_the_system" guid="_xfz07iZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz07yZREd-Hb5ChSoDHIA" name="integrate_the_system" guid="_xfz07yZREd-Hb5ChSoDHIA" presentationName="Integrate the System" superActivities="_xfz08CZREd-Hb5ChSoDHIA" isOngoing="true" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_0uUD8CsBEd-5jezL08ZExg#_Rcu30de3Ed-Zq9ImbgqLFQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz08SZREd-Hb5ChSoDHIA" name="validate_build_stability" guid="_xfz08SZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz08yZREd-Hb5ChSoDHIA" name="validate_build_stability" guid="_xfz08yZREd-Hb5ChSoDHIA" presentationName="Validate Build Stability" superActivities="_xfz08CZREd-Hb5ChSoDHIA" isOngoing="true" linkToPredecessor="_xfz08iZREd-Hb5ChSoDHIA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_Kj2FxiZIEd-Hb5ChSoDHIA#_KkJAsSZIEd-Hb5ChSoDHIA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_xfz08iZREd-Hb5ChSoDHIA" guid="_xfz08iZREd-Hb5ChSoDHIA" pred="_xfz07yZREd-Hb5ChSoDHIA"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_xfz08CZREd-Hb5ChSoDHIA" name="integrate_and_validate_build" guid="_xfz08CZREd-Hb5ChSoDHIA" presentationName="Integrate and Validate Build" briefDescription="This covers the activities required to integrate, build and validate the build for either a subsystem or the entire system, whichever is appropriate." breakdownElements="_xfz09SZREd-Hb5ChSoDHIA _xfz07yZREd-Hb5ChSoDHIA _xfz08yZREd-Hb5ChSoDHIA">
+      <methodElementProperty xmi:id="_4Ez8CremEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-rn1hUE71kgptJbrUnTSquQ" href="uma://-rn1hUE71kgptJbrUnTSquQ#-rn1hUE71kgptJbrUnTSquQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

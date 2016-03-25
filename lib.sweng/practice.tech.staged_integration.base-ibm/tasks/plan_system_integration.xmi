@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="_2OXh8tnmEdmO6L4XMImrsA" name="plan_system_integration,{11538D9A-7439-4FDD-8333-9E2E47E5E173}" guid="_2OXh8tnmEdmO6L4XMImrsA" changeDate="2005-11-04T08:39:38.694-0700" version="7.1.0">
+  <sections xmi:id="_VX3wkNnnEdmO6L4XMImrsA" name=" Identify Subsystems " guid="_VX3wkNnnEdmO6L4XMImrsA">
+    <sectionDescription>&lt;a id=&quot;Identify Subsystems&quot; name=&quot;Identify Subsystems&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Identify which implementation subsystems participate in the next increment of the system to be built.&amp;nbsp; Study the&#xD;
+    design to understand dependencies required for compilation, as well as to support end-to-end scenarios targeted for&#xD;
+    the next increment.&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;picturecenter&quot; align=&quot;center&quot;>&#xD;
+    &lt;img height=&quot;171&quot; alt=&quot;Use-cases and Scenarios for an Iteration Diagram&quot; src=&quot;resources/plsyint1.gif&quot; width=&quot;339&quot;&#xD;
+    align=&quot;center&quot; />&amp;nbsp;&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_VYnXcNnnEdmO6L4XMImrsA" name=" Define Build Sets " guid="_VYnXcNnnEdmO6L4XMImrsA">
+    <sectionDescription>&lt;a id=&quot;'Define&quot; name=&quot;'Define&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    In large systems where you may have up to a hundred implementation subsystems, it becomes a complex task to plan the&#xD;
+    integration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    To facilitate integration planning, and manage complexity you need to reduce the number of things you need to think&#xD;
+    about. It is recommended that you define meaningful sets of subsystems (&lt;b>build sets&lt;/b> or &lt;b>towers&lt;/b>), that&#xD;
+    belong together from an integration point of view. 'Belong together' in the sense that these subsystems are sometimes&#xD;
+    integrated as a group; it does not make sense to integrate just one of the subsystems. For example, all the subsystems&#xD;
+    in lower layers that a subsystem needs (imports directly, or indirectly) to execute, could be a meaningful build set.&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;picturecenter&quot; align=&quot;center&quot;>&#xD;
+    &lt;img alt=&quot;Sample Build Set Diagram&quot; align=&quot;center&quot; src=&quot;./resources/plsyint2.gif&quot; width=&quot;327&quot; height=&quot;188&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;picturetext&quot;>&#xD;
+    A build set is defined for the lowest layer if these two subsystems are often integrated as a group. A build set is&#xD;
+    defined with all subsystems that are needed to compile and execute subsystem A.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Notice that the build sets can, and will, overlap. Which build sets and their contents you have may vary during the&#xD;
+    life of a project.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The purpose of defining these build sets is to make it easier to do the integration planning. Instead of thinking about&#xD;
+    individual subsystems you can think about sets of subsystems.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Consider integration scenarios and use them to validate that&amp;nbsp;the defined build sets reflect&amp;nbsp;the best&#xD;
+    integration sequence for the system.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_VZXlYNnnEdmO6L4XMImrsA" name=" Define a Series of Builds " guid="_VZXlYNnnEdmO6L4XMImrsA">
+    <sectionDescription>&lt;a id=&quot;Define a Series of Builds&quot; name=&quot;Define a Series of Builds&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    You define a series of builds to incrementally integrate the system. This is typically done bottom-up in the layered&#xD;
+    structure of subsystems in the implementation model. For each build, define which subsystems should go into it, and&#xD;
+    which other subsystems must be available as stubs. In the figure following, three builds have been defined.&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;picturecenter&quot; align=&quot;center&quot;>&#xD;
+    &lt;img height=&quot;171&quot; alt=&quot;Three Build Integration Plan Diagram&quot; src=&quot;resources/plsyint3.gif&quot; width=&quot;339&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;picturetext&quot;>&#xD;
+    An integration planned to be done in three builds.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_f2-2gJqQEd-kc5UaZgO6nw" name="Specify responsibilities, timing, and qualification of builds" guid="_f2-2gJqQEd-kc5UaZgO6nw">
+    <sectionDescription>Who creates the builds, when they are created, and how builds are qualified should be spelled out.</sectionDescription>
+  </sections>
+  <sections xmi:id="_p5W6YJqQEd-kc5UaZgO6nw" name="Document step by step procedures" guid="_p5W6YJqQEd-kc5UaZgO6nw">
+    <sectionDescription>&lt;p>&#xD;
+    Procedures are ideally simple, using build automation tools to minimize manual steps.&amp;nbsp;&amp;nbsp; This step may involve&#xD;
+    coordinating with others on the team to create integration workspaces and automated build scripts. Document decisions&#xD;
+    and rationale for all integration procedures.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

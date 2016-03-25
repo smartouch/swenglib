@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_yRkB8CZREd-Hb5ChSoDHIA" guid="_yRkB8CZREd-Hb5ChSoDHIA">
+    <resourceDescriptors xmi:id="_yRkB8SZREd-Hb5ChSoDHIA" id="-rSzYi8LlHgEHQc0-bFQTBQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_xfz09iZREd-Hb5ChSoDHIA" name="ongoing_management_and_support" guid="_xfz09iZREd-Hb5ChSoDHIA">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz1BSZREd-Hb5ChSoDHIA" name="support_environment_during_an_iteration" guid="_xfz1BSZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz1BiZREd-Hb5ChSoDHIA" name="support_environment_during_an_iteration" guid="_xfz1BiZREd-Hb5ChSoDHIA" presentationName="Support Environment During an Iteration" isPlanned="false" superActivities="_xfz09yZREd-Hb5ChSoDHIA" isOngoing="true" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_KjjKySZIEd-Hb5ChSoDHIA#_KjjK6CZIEd-Hb5ChSoDHIA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz1ACZREd-Hb5ChSoDHIA" name="manage_iteration" guid="_xfz1ACZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz1ASZREd-Hb5ChSoDHIA" name="manage_iteration" guid="_xfz1ASZREd-Hb5ChSoDHIA" presentationName="Manage Iteration" isPlanned="false" superActivities="_xfz09yZREd-Hb5ChSoDHIA" isOngoing="true" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_hhtj0CYtEd-Oda441NMnHQ#_hiAezSYtEd-Oda441NMnHQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz1ByZREd-Hb5ChSoDHIA" name="monitor_control_project" guid="_xfz1ByZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz1CCZREd-Hb5ChSoDHIA" name="monitor_control_project" guid="_xfz1CCZREd-Hb5ChSoDHIA" presentationName="Monitor &amp; Control Project" isPlanned="false" superActivities="_xfz09yZREd-Hb5ChSoDHIA" isOngoing="true" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_hhtj0CYtEd-Oda441NMnHQ#_hh3VJiYtEd-Oda441NMnHQ"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz1CSZREd-Hb5ChSoDHIA" name="manage_changing_requirements" guid="_xfz1CSZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz1CiZREd-Hb5ChSoDHIA" name="manage_changing_requirements" guid="_xfz1CiZREd-Hb5ChSoDHIA" presentationName="Manage Changing Requirements" isPlanned="false" superActivities="_xfz09yZREd-Hb5ChSoDHIA" isOngoing="true" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_KjsUsyZIEd-Hb5ChSoDHIA#_KjsVGSZIEd-Hb5ChSoDHIA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz0-CZREd-Hb5ChSoDHIA" name="manage_change_requests" guid="_xfz0-CZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz0-SZREd-Hb5ChSoDHIA" name="manage_change_requests" guid="_xfz0-SZREd-Hb5ChSoDHIA" presentationName="Manage Change Requests" isPlanned="false" superActivities="_xfz09yZREd-Hb5ChSoDHIA" isOngoing="true" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_KjQP-CZIEd-Hb5ChSoDHIA#_KjQQByZIEd-Hb5ChSoDHIA"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz0_SZREd-Hb5ChSoDHIA" name="change_and_deliver_configuration_items" guid="_xfz0_SZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz0_yZREd-Hb5ChSoDHIA" name="change_and_deliver_configuration_items" guid="_xfz0_yZREd-Hb5ChSoDHIA" presentationName="Change and Deliver Configuration Items" isPlanned="false" superActivities="_xfz09yZREd-Hb5ChSoDHIA" isOngoing="true"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz1AiZREd-Hb5ChSoDHIA" name="manage_baselines_releases" guid="_xfz1AiZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz1AyZREd-Hb5ChSoDHIA" name="manage_baselines_releases" guid="_xfz1AyZREd-Hb5ChSoDHIA" presentationName="Manage Baselines &amp; Releases" isPlanned="false" superActivities="_xfz09yZREd-Hb5ChSoDHIA" isOngoing="true"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_xfz0-iZREd-Hb5ChSoDHIA" name="monitor_report_configuration_status" guid="_xfz0-iZREd-Hb5ChSoDHIA">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_xfz0-yZREd-Hb5ChSoDHIA" name="monitor_report_configuration_status" guid="_xfz0-yZREd-Hb5ChSoDHIA" presentationName="Monitor &amp; Report Configuration Status" isPlanned="false" superActivities="_xfz09yZREd-Hb5ChSoDHIA" isOngoing="true"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_xfz09yZREd-Hb5ChSoDHIA" name="ongoing_management_and_support" guid="_xfz09yZREd-Hb5ChSoDHIA" presentationName="Ongoing Management and Support" briefDescription="This covers the various management and support activities that are repeated on an ongoing basis throughout the project." isPlanned="false" isOngoing="true" breakdownElements="_xfz1ASZREd-Hb5ChSoDHIA _xfz1CCZREd-Hb5ChSoDHIA _xfz1CiZREd-Hb5ChSoDHIA _xfz0-SZREd-Hb5ChSoDHIA _xfz1BiZREd-Hb5ChSoDHIA _xfz0_yZREd-Hb5ChSoDHIA _xfz1AyZREd-Hb5ChSoDHIA _xfz0-yZREd-Hb5ChSoDHIA">
+      <methodElementProperty xmi:id="_4DUHMremEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-rSzYi8LlHgEHQc0-bFQTBQ" href="uma://-rSzYi8LlHgEHQc0-bFQTBQ#-rSzYi8LlHgEHQc0-bFQTBQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_RMpkQdCWEd6pvKOOG4xvNQ" guid="_RMpkQdCWEd6pvKOOG4xvNQ">
+    <resourceDescriptors xmi:id="_RMpkQtCWEd6pvKOOG4xvNQ" id="-cQFVc3IrQoH5YjL-c-QIUQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_RJXmwNCWEd6pvKOOG4xvNQ" name="se_op_it" guid="_RJXmwNCWEd6pvKOOG4xvNQ">
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_pPy0MNCWEd6pvKOOG4xvNQ" name="uc_reqs_an" guid="_pPy0MNCWEd6pvKOOG4xvNQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_pP7-INCWEd6pvKOOG4xvNQ" name="uc_reqs_an" guid="_pP7-INCWEd6pvKOOG4xvNQ" superActivities="_RJXmwdCWEd6pvKOOG4xvNQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_4bxesGKDEd6Ih4GzU1_Daw#_4bxesWKDEd6Ih4GzU1_Daw"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_rNZwYNCWEd6pvKOOG4xvNQ" name="val_uc_act" guid="_rNZwYNCWEd6pvKOOG4xvNQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_rNZwYdCWEd6pvKOOG4xvNQ" name="val_uc_act" guid="_rNZwYdCWEd6pvKOOG4xvNQ" presentationName="Build and Validate [Critical Use Cases]" superActivities="_RJXmwdCWEd6pvKOOG4xvNQ" linkToPredecessor="_o_DI0NCeEd6pvKOOG4xvNQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_AYgX0GKcEd6Ih4GzU1_Daw#_AYgX0WKcEd6Ih4GzU1_Daw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_o_DI0NCeEd6pvKOOG4xvNQ" guid="_o_DI0NCeEd6pvKOOG4xvNQ" pred="_pP7-INCWEd6pvKOOG4xvNQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_twbGwNCWEd6pvKOOG4xvNQ" name="arch_an_op" guid="_twbGwNCWEd6pvKOOG4xvNQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_twbGwdCWEd6pvKOOG4xvNQ" name="arch_an_op" guid="_twbGwdCWEd6pvKOOG4xvNQ" presentationName="Architectural Analysis [Critical Aspects]" superActivities="_RJXmwdCWEd6pvKOOG4xvNQ" linkToPredecessor="_rlpXoNCeEd6pvKOOG4xvNQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_RQ1XgJitEd6JmoH2XFiafA#_RQ1XgZitEd6JmoH2XFiafA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_rlpXoNCeEd6pvKOOG4xvNQ" guid="_rlpXoNCeEd6pvKOOG4xvNQ" pred="_rNZwYdCWEd6pvKOOG4xvNQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_0UMVwNCWEd6pvKOOG4xvNQ" name="val_uc_act" guid="_0UMVwNCWEd6pvKOOG4xvNQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_0UMVwdCWEd6pvKOOG4xvNQ" name="val_uc_act" guid="_0UMVwdCWEd6pvKOOG4xvNQ" presentationName="Build and Validate Use Cases" superActivities="_RJXmwdCWEd6pvKOOG4xvNQ" linkToPredecessor="_GTdcANPqEd6qFpHlHJ_DCA" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_AYgX0GKcEd6Ih4GzU1_Daw#_AYgX0WKcEd6Ih4GzU1_Daw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_GTdcANPqEd6qFpHlHJ_DCA" guid="_GTdcANPqEd6qFpHlHJ_DCA" pred="_EwESUNCXEd6pvKOOG4xvNQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_19PXMNCWEd6pvKOOG4xvNQ" name="arch_an_op" guid="_19PXMNCWEd6pvKOOG4xvNQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_19PXMdCWEd6pvKOOG4xvNQ" name="arch_an_op" guid="_19PXMdCWEd6pvKOOG4xvNQ" presentationName="Architectural Analysis [Main Elements]" superActivities="_RJXmwdCWEd6pvKOOG4xvNQ" linkToPredecessor="_46JTkNCeEd6pvKOOG4xvNQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_RQ1XgJitEd6JmoH2XFiafA#_RQ1XgZitEd6JmoH2XFiafA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_46JTkNCeEd6pvKOOG4xvNQ" guid="_46JTkNCeEd6pvKOOG4xvNQ" pred="_0UMVwdCWEd6pvKOOG4xvNQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_3YSY4NCWEd6pvKOOG4xvNQ" name="arch_dsgn_op" guid="_3YSY4NCWEd6pvKOOG4xvNQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_3YSY4dCWEd6pvKOOG4xvNQ" name="arch_dsgn_op" guid="_3YSY4dCWEd6pvKOOG4xvNQ" presentationName="Architectural Design [Main Elements]" superActivities="_RJXmwdCWEd6pvKOOG4xvNQ" linkToPredecessor="_715TANCeEd6pvKOOG4xvNQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_JUsugKMNEd6XGaN9G5GQxw#_JUsugaMNEd6XGaN9G5GQxw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_715TANCeEd6pvKOOG4xvNQ" guid="_715TANCeEd6pvKOOG4xvNQ" pred="_19PXMdCWEd6pvKOOG4xvNQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_47YjUNCWEd6pvKOOG4xvNQ" name="arch_an_op" guid="_47YjUNCWEd6pvKOOG4xvNQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_47YjUdCWEd6pvKOOG4xvNQ" name="arch_an_op" guid="_47YjUdCWEd6pvKOOG4xvNQ" presentationName="Architectural Analysis" superActivities="_RJXmwdCWEd6pvKOOG4xvNQ" linkToPredecessor="_E0V0sNCfEd6pvKOOG4xvNQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_RQ1XgJitEd6JmoH2XFiafA#_RQ1XgZitEd6JmoH2XFiafA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_E0V0sNCfEd6pvKOOG4xvNQ" guid="_E0V0sNCfEd6pvKOOG4xvNQ" pred="_II4BMNCXEd6pvKOOG4xvNQ"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_5v1fENCWEd6pvKOOG4xvNQ" name="arch_dsgn_op" guid="_5v1fENCWEd6pvKOOG4xvNQ">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_5v1fEdCWEd6pvKOOG4xvNQ" name="arch_dsgn_op" guid="_5v1fEdCWEd6pvKOOG4xvNQ" presentationName="Architectural Design" superActivities="_RJXmwdCWEd6pvKOOG4xvNQ" linkToPredecessor="_JNhbcdCfEd6pvKOOG4xvNQ" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_JUsugKMNEd6XGaN9G5GQxw#_JUsugaMNEd6XGaN9G5GQxw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_JNhbcdCfEd6pvKOOG4xvNQ" guid="_JNhbcdCfEd6pvKOOG4xvNQ" pred="_47YjUdCWEd6pvKOOG4xvNQ"/>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_EwESUNCXEd6pvKOOG4xvNQ" name="Lifecycle Objectives" guid="_EwESUNCXEd6pvKOOG4xvNQ" presentationName="Lifecycle Objectives" superActivities="_RJXmwdCWEd6pvKOOG4xvNQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_II4BMNCXEd6pvKOOG4xvNQ" name="Preliminary Architecture" guid="_II4BMNCXEd6pvKOOG4xvNQ" presentationName="Preliminary Architecture" superActivities="_RJXmwdCWEd6pvKOOG4xvNQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_Oyc9QNCXEd6pvKOOG4xvNQ" name="Lifecycle Architecture" guid="_Oyc9QNCXEd6pvKOOG4xvNQ" presentationName="Lifecycle Architecture" superActivities="_RJXmwdCWEd6pvKOOG4xvNQ"/>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_RJXmwdCWEd6pvKOOG4xvNQ" name="se_op_it" guid="_RJXmwdCWEd6pvKOOG4xvNQ" presentationName="SE - Operation focused" breakdownElements="_pP7-INCWEd6pvKOOG4xvNQ _rNZwYdCWEd6pvKOOG4xvNQ _twbGwdCWEd6pvKOOG4xvNQ _EwESUNCXEd6pvKOOG4xvNQ _0UMVwdCWEd6pvKOOG4xvNQ _19PXMdCWEd6pvKOOG4xvNQ _3YSY4dCWEd6pvKOOG4xvNQ _II4BMNCXEd6pvKOOG4xvNQ _47YjUdCWEd6pvKOOG4xvNQ _5v1fEdCWEd6pvKOOG4xvNQ _Oyc9QNCXEd6pvKOOG4xvNQ">
+      <methodElementProperty xmi:id="_4GcTsbemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-cQFVc3IrQoH5YjL-c-QIUQ" href="uma://-cQFVc3IrQoH5YjL-c-QIUQ#-cQFVc3IrQoH5YjL-c-QIUQ"/>
+      <includesPatterns href="uma://_4bxesGKDEd6Ih4GzU1_Daw#_4bxesWKDEd6Ih4GzU1_Daw"/>
+      <includesPatterns href="uma://_AYgX0GKcEd6Ih4GzU1_Daw#_AYgX0WKcEd6Ih4GzU1_Daw"/>
+      <includesPatterns href="uma://_RQ1XgJitEd6JmoH2XFiafA#_RQ1XgZitEd6JmoH2XFiafA"/>
+      <includesPatterns href="uma://_JUsugKMNEd6XGaN9G5GQxw#_JUsugaMNEd6XGaN9G5GQxw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

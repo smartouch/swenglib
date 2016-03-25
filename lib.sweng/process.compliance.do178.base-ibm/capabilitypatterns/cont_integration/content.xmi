@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vlLYoX6TO2bG87IWByrZGg" name="integrate_and_create_build,_yG77QHElEeCg_7IEA-6QZQ" guid="-vlLYoX6TO2bG87IWByrZGg">
+    <keyConsiderations>&lt;p>&#xD;
+    In order to be effective at applying the practice of &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.continuous_integration.base/guidances/guidelines/continuous_integration_13C1A8CA.html&quot;&#xD;
+    guid=&quot;_i8bUEL6cEdqti4GwqTkbsQ&quot;>Continuous Integration&lt;/a>,&amp;nbsp;the time to integrate, build, and test the increment&#xD;
+    must be short enough that it can be performed several times per day.&amp;nbsp; Changes should be broken down into&#xD;
+    relatively small &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.mgmt.common.extend_supp/guidances/concepts/change_set_430BF233.html&quot;&#xD;
+    guid=&quot;_1QU9MAIoEdyLh7vsrHZ4YA&quot;>Change Set&lt;/a>s that can be implemented, integrated and tested quickly.&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bdfmc8ZknFLecCHIpuopuw" name="build,_yT5ZMHElEeCg_7IEA-6QZQ" guid="-bdfmc8ZknFLecCHIpuopuw">
+    <refinedDescription>&lt;p>&#xD;
+    This working version of the system or part of the system&amp;nbsp;is the result of putting the implementation through a&#xD;
+    build process (typically an automated build script) that creates an executable version, or one that runs. This&#xD;
+    executable version will typically have a number of supporting files that are also considered part of this artifact.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gQhmcstpVBfuu6TVhHT3Cw" name="perform_review,_70HpQJiYEeCHuaDqfjetaA" guid="-gQhmcstpVBfuu6TVhHT3Cw">
+    <keyConsiderations>&lt;p>&#xD;
+    Reviews are &lt;em>very&lt;/em> expensive to perform but, when performed well,&amp;nbsp;are highly valuable. It is crucial that&#xD;
+    they be performed effectively. Identified issues should be solved outside of the meeting. Subsequent reviews need only&#xD;
+    go over the action lists from the meeting to ensure each issue has been appropriately addressed. This means that action&#xD;
+    lists are essential artifacts for effective reviews.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is crucial to understand that reviews are not a replacement for good modeling in the first place. One of the basic&#xD;
+    requirements prior to a review is that the model &lt;em>executes properly&lt;/em>. In a PIM review, this means that it is&#xD;
+    debugged and can replicate (via execution) the use case scenarios. In a PSM review, this means that the model has&#xD;
+    passed formal unit testing. You should NEVER find a compilation problem in a review; it is far cheaper to have the&#xD;
+    product owner find that on their own &lt;em>prior to planning the review&lt;/em> rather than find it in a room full of&#xD;
+    people. The intent of the review should be to evaluate an set of already high-quality artifacts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is also very important to &lt;em>stay focused&lt;/em> during the review. The meeting leader needs to rule with a (silk&#xD;
+    covered) iron fist. Reviews are very expensive so the object is to perform the intent of the review as efficiently as&#xD;
+    possible.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note: subsequent reviews of an already-reviewed work product should focus exclusively on the action list from the&#xD;
+    previous review.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    There are a number of work products created in a modern software-centric development project. Any of them may be&#xD;
+    subject to a review, depending on the delivery process in which they are created. Some of these include:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Requirements specification&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Systems engineering models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Architectural Specifications&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Project schedules&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Software or hardware design models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Software source code&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test cases, procedures, and results&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Plans: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Software Development Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Quality Assurance Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Software Verification Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Verification and Validation Test Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Configuration Management Plan&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The best way to inject quality into work products is through careful engineering and demonstration and test via&#xD;
+    execution or simulation. For many of these work products, execution isn’t feasible, so reviews are a way of assessing&#xD;
+    the quality of the work product. In addition, many work products must conform to guidelines, standards or templates and&#xD;
+    this is most easily demonstrated through a review process. Lastly, reviews also serve to disseminate information to&#xD;
+    different stakeholders about the structure, content, and quality of a work product.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-FYH1GPJ2RTpqUBUNENg7kA" name="reviewer,_70juIJiYEeCHuaDqfjetaA" guid="-FYH1GPJ2RTpqUBUNENg7kA">
+    <refinedDescription>&lt;a id=&quot;Top&quot; name=&quot;Top&quot;>&lt;/a>&lt;a id=&quot;XE_Reviewer__role_definition&quot; name=&quot;XE_Reviewer__role_definition&quot;>&lt;/a>&lt;a id=&quot;Description&quot;&#xD;
+name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Any member of the project team can take on the &lt;a class=&quot;PresentationName&quot;&#xD;
+    guid=&quot;{638E0897-F63B-444C-8178-D05224689DE7}&quot;>Reviewer&lt;/a> role, as long as they have the appropriate pre-requisite&#xD;
+    skills. For reviews that involve multiple team members, one person playing this role will also need to take&#xD;
+    responsibility for coordinating the review process itself , playing the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.default.role_def.extend-ibm/roles/review_coordinator_D598A3E4.html&quot;&#xD;
+    guid=&quot;{D6CA9DC7-4DF2-4BA4-A0AD-7FBAEB6539E1}&quot;>Review Coordinator&lt;/a> role. Reviews can be generalized into two main&#xD;
+    categories: management reviews of project progress and technical reviews of project work products.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-afP7b8mWiBbwtRSxJTazPw" name="review_coordinator,_70juJJiYEeCHuaDqfjetaA" guid="-afP7b8mWiBbwtRSxJTazPw">
+    <refinedDescription>&lt;a id=&quot;Top&quot; name=&quot;Top&quot;>&lt;/a>&lt;a id=&quot;XE_Review_Coordinator__role_definition&quot;&#xD;
+name=&quot;XE_Review_Coordinator__role_definition&quot;>&lt;/a>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The &lt;a class=&quot;PresentationName&quot; guid=&quot;{D6CA9DC7-4DF2-4BA4-A0AD-7FBAEB6539E1}&quot;>Review Coordinator&lt;/a> role is&#xD;
+    responsible for managing the review process. Reviews can be generalized into two main categories: management reviews of&#xD;
+    project progress and technical reviews of project work products. This role is responsible for the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Ensuring that required reviews are conducted&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring that the appropriate review attendees are included and notified with appropriate review details&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Conducting the review in an appropriate and efficient manner&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring that follow-up tasks that result from the review are managed to closure&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    When staffing this role, you need to consider both the skills required for the role and the different approaches you&#xD;
+    can take to assigning staff to the role.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4SR-kO6ARGX45C5h8wCIfw" name="review_record,_70juJpiYEeCHuaDqfjetaA" guid="-4SR-kO6ARGX45C5h8wCIfw">
+    <refinedDescription>&lt;p>&#xD;
+    &lt;!--StartFragment-->A review record is an assessment work product specialized for capturing the results of review&#xD;
+    activities.&lt;!--EndFragment-->&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-v0nSdj4KyJC3jUAMXuDDsA" name="work_items_list,_70juKpiYEeCHuaDqfjetaA" guid="-v0nSdj4KyJC3jUAMXuDDsA">
+    <keyConsiderations>&lt;p>&#xD;
+    Work Items should contain estimates. See guidelines on managing work items and agile estimation.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact provides a focal point for the entire team:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        It provides one list containing all requests for additional capabilities or enhancement for that application. Note&#xD;
+        that some of these requests may never be implemented, or be implemented in later projects.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one list of all the work to be prioritized, estimated, and assigned within the project. The risk list&#xD;
+        is prioritized separately.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one place to go to for the development team to understand what&amp;nbsp;micro-increments&amp;nbsp;need to be&#xD;
+        delivered, get references to material required to carry out the work, and report progress made.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    These are the typical work items that go on this list:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Use cases (and references to use-case specifications)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        System-wide requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Changes and enhancement requests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defects&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Development tasks&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Work items can be very large in scope, especially when capturing requests for enhancements, such as &quot;Support Financial&#xD;
+    Planning&quot; for a personal finance application. To allow the application to be developed in micro-increments, work items&#xD;
+    are analyzed and broken down into smaller work items so that they can be assigned to an iteration, such as a use-case&#xD;
+    scenario for&amp;nbsp;&quot;Calculate Net Worth&quot;. Further breakdown may be required to identify suitable tasks to be assigned to&#xD;
+    developers, such as &quot;Develop UI for Calculate Net Worth&quot;. This means that work items often have parent/child&#xD;
+    relationships, where the lowest level is a specification and tracking device for micro-increments.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bjzzhNikWtwEaIZMEzmOCg" name="change_request,_70juLJiYEeCHuaDqfjetaA" guid="-bjzzhNikWtwEaIZMEzmOCg">
+    <refinedDescription>&lt;p>&#xD;
+    A change request (CR) is typically a proposed variance from the system's current (or currently planned) behavior. It&#xD;
+    can also be used for a generic piece of work that is required to support the project. Change requests may include&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A report of an error (defect)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        An enhancement request&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Change requests provide a record of decisions and, with an appropriate assessment process, ensures that their change&#xD;
+    impacts are considered.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Some important types of change requests include:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Enhancement Requests&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Used by various stakeholders to request future features that they desire to have included in the product. These are a&#xD;
+    type of stakeholder request that capture and articulate an understanding of the stakeholders needs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Defects&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Reports of anomalies or failures in a delivered work product. Defects include such things as omissions and&#xD;
+    imperfections found during early lifecycle phases, or symptoms of faults (failures) that need to be isolated and&#xD;
+    corrected within the software. Defects may also include deviations from what can reasonably be expected of the software&#xD;
+    behavior (such as usability issues).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The purpose of a defect is to communicate the details of the issue, enabling corrective action, resolution, and&#xD;
+    tracking to occur.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-kJPdUhsxljxQQUecNTmpNA" name="update_integration_tests,_uPpIMJ6ZEeCZfuSJrcWUIw" guid="-kJPdUhsxljxQQUecNTmpNA">
+    <keyConsiderations>&lt;p>&#xD;
+    The primary purposes of these tests are to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Demonstrate the proper use of interfaces between elements created by different engineers&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test evolving functionality and capability&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Reduce risk with early verification of added features&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Avoid defects rather than identify and fix them late in development&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Tests focus on proper use of interfaces and overall flow of capability. Integration tests are usually not as complete&#xD;
+    as either unit level testing or verification and validation testing.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note: The basic rule of incremental integration is that developers are not allowed to “break the build”.&#xD;
+    Unit/developer-level testing should be done prior to integration. If, in spite of this, a submission by an engineer&#xD;
+    fails to build or fails the tests, the work products must be kicked back to the authoring engineer for immediate&#xD;
+    repair.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This tasks creates integration tests to verify that the work done by different engineers works together appropriately.&#xD;
+    Because integration is done incrementally at a highly frequent basis (often daily), the tests must be added in&#xD;
+    conjunction with the addition of the functionality in the software.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Integration tests are “grey box” tests in which the architectural elements being integrated are visible but there more&#xD;
+    primitive constituent elements are typically not.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-g50QgY12kV2AoSQdPQS5Ew" name="tester,_uSx7wJ6ZEeCZfuSJrcWUIw" guid="-g50QgY12kV2AoSQdPQS5Ew">
+    <refinedDescription>&lt;p>&#xD;
+    The person in this role is primarily responsible for the following&amp;nbsp;tasks:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Identifying the tests&amp;nbsp;that need to&amp;nbsp;be performed&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identifying the most appropriate implementation approach for a given test&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Implementing individual tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Setting up and running the tests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Logging outcomes and verifying that the tests have been run&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Analyzing and guiding the recovery from execution errors&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Communicating test results to the team&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-FIFMXVFPJuc4OmuZKi-UMw" name="test_case,_uTE2sJ6ZEeCZfuSJrcWUIw" guid="-FIFMXVFPJuc4OmuZKi-UMw">
+    <refinedDescription>&lt;p>&#xD;
+    A test case specifies the conditions that must be validated to enable an assessment of aspects of the system under&#xD;
+    test. A test case is more formal than a test idea; typically, a test case takes the form of a specification. In less&#xD;
+    formal environments, you can create test cases by identifying a unique ID, name, associated test data, and expected&#xD;
+    results.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Test cases can be derived from many sources, and typically include a subset of the requirements (such as use cases,&#xD;
+    performance characteristics, and reliability concerns) and other types of quality attributes. For more information on&#xD;
+    types of tests and their relationships to quality test attributes, see &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/testing_qualitative_rqmts_CAE80710.html&quot;&#xD;
+    guid=&quot;_0aJ6cMlgEdmt3adZL5Dmdw&quot;>Concept: Testing Qualitative Requirements&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aP0Op68jaHAK2Wcj66gZ9w" name="test_data,_uTE2sp6ZEeCZfuSJrcWUIw" guid="-aP0Op68jaHAK2Wcj66gZ9w">
+    <keyConsiderations>When managed separately from the procedural aspects of the test, Test Data enables the unique characteristics of the test&#xD;
+to be modified independently.</keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KbLqG7Z_oIy4p3L7UIT82A" name="test_suite,_uTE2tJ6ZEeCZfuSJrcWUIw" guid="-KbLqG7Z_oIy4p3L7UIT82A">
+    <refinedDescription>&lt;p>&#xD;
+    The Test Suite provides a means of managing the complexity of the test implementation. Many system test efforts fail&#xD;
+    because the team gets lost in the minutia of all of the detailed tests, and subsequently loses control of the test&#xD;
+    effort. Similar to UML packages, Test Suites provide a hierarchy of encapsulating containers to help manage the test&#xD;
+    implementation. They provide a means of managing the strategic aspects of the test effort by collecting tests together&#xD;
+    in related groups that can be planned, managed, and assessed in a meaningful way.&#xD;
+&lt;/p>&lt;!--EndFragment--></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-dvJhIuYFhgC2GX6I33sd_g" name="cont_integration,_d8bGkWw_EeCcMLi_sG6TzQ" guid="-dvJhIuYFhgC2GX6I33sd_g" version="7.5.1"/>
+</xmi:XMI>

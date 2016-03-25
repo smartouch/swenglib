@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-O_4ucp0Z5IAvaO4urZ-AVA" name="Plan functional safety assessment activities,_IzoH8JdtEeCPtY0LnWkRDw" guid="-O_4ucp0Z5IAvaO4urZ-AVA">
+    <refinedDescription>The functional safety assessment plan is based upon the ASIL levels of the item under development and the contents of ISO&#xD;
+26262 vol 2, clause 6.4.6 table 1 and 2 (&lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../practice.compliance.iso26262.base-ibm/tasks/Determine%20confirmation%20measures_101A6AFA.html&quot;&#xD;
+guid=&quot;_04W6sIh2EeCE4bK4CwiExg&quot;>Determine confirmation measures&lt;/a>) . Which outlines the tasks and independence of safety&#xD;
+auditors for a particular ASIL level and scope and depth of the assessment.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-1brGvqzOJUVxmxXA1M1WLw" name="Plan system level safety activities,_IzoH8ZdtEeCPtY0LnWkRDw" guid="-1brGvqzOJUVxmxXA1M1WLw">
+    <refinedDescription>&lt;p>&#xD;
+    The activities during the development of the lifecycle are phased around the item under development. The task of&#xD;
+    systems engineering is carried out iteratively at different levels of development, the tasks being repeated at the&#xD;
+    subsystems level.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The diagram below gives an&amp;nbsp;example of the flows and activities that need to be carried out for an item consisting&#xD;
+    of number of subsystems consisting of combinations of hardware and software elements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;resources/PD3%20at%20systems%20level.png&quot; width=&quot;600&quot; height=&quot;600&quot; />&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-3ZOtgezS50KddeuPzxhC2Q" name="Plan validation activities,_IzoH8pdtEeCPtY0LnWkRDw" guid="-3ZOtgezS50KddeuPzxhC2Q">
+    <refinedDescription>Develop plan of the activities required to provide evidence that the item complies to the safety goals, that they are&#xD;
+correct, complete and achieved at the vehicle level. This plan should also validate that the safety concepts are&#xD;
+appropriate for the functional safety of the item.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IGWXHpL-gzxSLoDxVfcnmA" name="Safety Manager,_V6Uu8ZkOEeCHd41ThlqoSg" guid="-IGWXHpL-gzxSLoDxVfcnmA">
+    <refinedDescription>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pTb2Q-V48VHqn1DYdBQMjA" name="Project_Manager,_V6Uu9JkOEeCHd41ThlqoSg" guid="-pTb2Q-V48VHqn1DYdBQMjA">
+    <refinedDescription>&lt;div style=&quot;MARGIN-LEFT: 2em&quot;>&#xD;
+    &lt;p dir=&quot;ltr&quot;>&#xD;
+        Assigns the safety manager&lt;br />&#xD;
+        Ensures that the safety activities are performed and compliance with ISO26262 is achieved&lt;br />&#xD;
+        Verifies that the organisation has provided the required resources to carry out the functional safety activities&#xD;
+    &lt;/p>&#xD;
+&lt;/div></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-lzpmAyBrQq5WQDysW1rqnA" name="Preliminary architectural assumptions,_V6UvAJkOEeCHd41ThlqoSg" guid="-lzpmAyBrQq5WQDysW1rqnA">
+    <refinedDescription>&lt;p>&#xD;
+    Defines the initial architecture constraints and assumptions, it could be a textual and diagrammatic&#xD;
+    of&amp;nbsp;description of the architecture or a SysML model that also captures the functional concept, operating modes and&#xD;
+    systems states.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-sCCJTDfA4l2tkS3QfeuPOA" name="Item Definition,_V6UvA5kOEeCHd41ThlqoSg" guid="-sCCJTDfA4l2tkS3QfeuPOA">
+    <refinedDescription>&lt;p>&#xD;
+    The item definition covers a number areas, it cover initial sets of requirements, functional (behavioural),&#xD;
+    non-functional (environmental, performance or quality of service) or legal (laws, national and international&#xD;
+    standards). It also consists of the definition of he behaviour and how flaws in that behaviour might result in&#xD;
+    potential hazards or be derived from potential faults.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Finally it looks at how the item interacts with its surrounding systems and captures the interfaces,&#xD;
+    interactions&amp;nbsp;and requirements that influence the item.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vm-m6z-vFAZ8vkOScJbgQA" name="Item integration and testing plan,_V6UvBpkOEeCHd41ThlqoSg" guid="-vm-m6z-vFAZ8vkOScJbgQA">
+    <refinedDescription>&lt;p>&#xD;
+    The integration and test plan is scoped to the system and vehicle level and considers information such as the&#xD;
+    specification of the integration test (so that issues arising from the HW and SW verifications are included), the&#xD;
+    interfaces between subsystems and the environment and all the relevant configuration and calibration data for all&#xD;
+    variants of the item that are intended for production.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The user is referred to ISO 26262 Vol 4, clause 7.4.11 for further details.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-XsLqlwLq0OLdmYgXe8BOVQ" name="Carry out confirmation review of the item integration and test plan,_xHKOkKlzEeCC2aJoFcjzgA" guid="-XsLqlwLq0OLdmYgXe8BOVQ">
+    <refinedDescription>&lt;p>&#xD;
+    Review to confirm that the item integration and test plan has been developed according to the requirements detailed in&#xD;
+    ISO 26262, vol 4, Clause 5.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Independence of the reviewer is dependent upon the ASIL level of the items being integrated see &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.compliance.iso26262.base-ibm/tasks/Determine%20confirmation%20measures_101A6AFA.html&quot;&#xD;
+    guid=&quot;_04W6sIh2EeCE4bK4CwiExg&quot;>Determine confirmation measures&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZyZRDquUT5gxQ_E8AN-5xw" name="Carry out confirmation review of the validation plan,_LI3yEKl2EeCC2aJoFcjzgA" guid="-ZyZRDquUT5gxQ_E8AN-5xw">
+    <refinedDescription>&lt;p>&#xD;
+    Review to confirm that the&amp;nbsp;validation plan has been developed according to the requirements detailed in ISO 26262,&#xD;
+    vol 4, Clause 5.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Independence of the reviewer is dependent upon the ASIL level of the items being integrated see &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.compliance.iso26262.base-ibm/tasks/Determine%20confirmation%20measures_101A6AFA.html&quot;&#xD;
+    guid=&quot;_04W6sIh2EeCE4bK4CwiExg&quot;>Determine confirmation measures&lt;/a>.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-kDWKC5wo9_RPV6DXs3IeFg" name="Develop technical safety requirements,_V8YnoJkSEeCHd41ThlqoSg" guid="-kDWKC5wo9_RPV6DXs3IeFg">
+    <refinedDescription>&lt;p>&#xD;
+    The technical safety requirements describe how to implement the functional safety concept at the Item/system level and&#xD;
+    later on how this implementation is allocated down to HW and SW elements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The development of the technical safety requirements can be achieved with a combination of requirements management and&#xD;
+    modeling techniques based upon SysML or UML. This is especially useful when defining interfaces, transitions between&#xD;
+    operating modes and safer modes, constraints (non functional, environmental, timing etc).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/Architectural%20Design%20-%20uc_E8CAF5DD.html&quot;&#xD;
+    guid=&quot;_H1zdAa3hEd63sNXoX4A_sA&quot;>Architectural Design - Use-Case based&lt;/a>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is advised that the user refers to the&amp;nbsp;detailed requirements around this task in ISO 26262, vol 4, Clause&#xD;
+    6.4.1-6.4.10&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-iJclzPJWZvDT7HyCIVc7ig" name="Refine Validation Plan,_V8YnoZkSEeCHd41ThlqoSg" guid="-iJclzPJWZvDT7HyCIVc7ig">
+    <refinedDescription>&lt;p>&#xD;
+    Specification&amp;nbsp;of the validation criteria concerning&amp;nbsp;functional safety.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Defines how the item is validated against the customer requirements. It captures the configuration and calibration and&#xD;
+    data of the item to be validated, along with test procedures, test cases and acceptance criteria. Information regarding&#xD;
+    the equipment to be test and environmental conditions are also required to define the validation plan.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-MvwIPQpu-gL3UFhC2FdQEg" name="Verify technical safety requirements,_V8YnopkSEeCHd41ThlqoSg" guid="-MvwIPQpu-gL3UFhC2FdQEg">
+    <refinedDescription>&lt;p>&#xD;
+    &amp;nbsp;Analysis of the technical safety requirements to ensure compliance with the functional safety concept and the&#xD;
+    preliminary architectural design.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The verification is based upon the supporting processes detailed in ISO 26262, vol 8, clause 9, (&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../process.compliance.iso26262.base-ibm/capabilitypatterns/8.9%20Verification%20Planning_831C2385.html&quot;&#xD;
+    guid=&quot;_91quQZEZEeCUs8vNyweFYw&quot;>8.9 Verification Planning&lt;/a>).&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-XZUpQdP_F7oB_FiUXCie6w" name="Preliminary architectural assumptions,_V8YnrZkSEeCHd41ThlqoSg" guid="-XZUpQdP_F7oB_FiUXCie6w">
+    <refinedDescription>&lt;p>&#xD;
+    Defines the initial architecture constraints and assumptions, it could be a textual and diagrammatic&#xD;
+    of&amp;nbsp;description of the architecture or a SysML model that also captures the functional concept, operating modes and&#xD;
+    systems states.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-FBEFI4BlNRWiPYtefDEi3w" name="Functional concept,_V8YnsZkSEeCHd41ThlqoSg" guid="-FBEFI4BlNRWiPYtefDEi3w">
+    <refinedDescription>Gives the users a conceptual highlevel understanding of the functionality of the system. This could be captured as textual&#xD;
+document but it could also be&amp;nbsp;represented as a&amp;nbsp;SysML&amp;nbsp;functional model for the item under development. The&#xD;
+SysML model may also capture the various operating modes and states and architectural assumptions at the vehicle level.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-u7mpewH2HbEkG-2IOhj5Nw" name="Safety goals,_V8Yns5kSEeCHd41ThlqoSg" guid="-u7mpewH2HbEkG-2IOhj5Nw">
+    <refinedDescription>&lt;p>&#xD;
+    The safety goals are the top level safety requirements for the item. They provide the basis for the functional safety&#xD;
+    requirements needed to avoid an unreasonable risk for each hazard. As safety goals are a form of requirement they&#xD;
+    should not be expressed in terms of a solution but in terms of functional objectives.&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yvK6SWXGhLvoIWwe0yYfSA" name="Requirements Engineer,_5ql4p5wUEeCHd41ThlqoSg" guid="-yvK6SWXGhLvoIWwe0yYfSA">
+    <refinedDescription>&lt;p>&#xD;
+    Identifies, analyses and structures requirements so that they are captured in an understandable and logical manner.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Aids with creating traceability links and baselines for requirements management.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-1lOQx8cXDTP5aCji42gYSA" name="Develop technical safety architecture,_2mntEZzfEeCBU9GxbrSLZw" guid="-1lOQx8cXDTP5aCji42gYSA">
+    <usageGuidance>If using model based techniques then it is advised that the following guidance is employed, use either &lt;a&#xD;
+class=&quot;elementLink&quot; href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/Architectural%20Design%20-%20uc_E8CAF5DD.html&quot;&#xD;
+guid=&quot;_H1zdAa3hEd63sNXoX4A_sA&quot;>Architectural Design - Use-Case based&lt;/a>&amp;nbsp;or &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/Architectural%20Design%20-%20op_54664526.html&quot;&#xD;
+guid=&quot;_E9oWAa3hEd63sNXoX4A_sA&quot;>Architectural Design - Operation based&lt;/a>. These methods also provide the basis for&#xD;
+deriving the HW-SW interface specification and the systems design specification.</usageGuidance>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mFMX5s3VDyz0j4Fmyq5R2w" name="Allocate safety requirements to HW and SW,_Z3hSEJzkEeCk2aQcgmZB_w" guid="-mFMX5s3VDyz0j4Fmyq5R2w">
+    <refinedDescription>&lt;p>&#xD;
+    This task is to some extent carried out in parallel with the development of the technical safety concept as assumptions&#xD;
+    have to be made based upon ASIL decomposition and the systematic fault analysis as to the means by which a safety&#xD;
+    requirement is implemented in HW or SW.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Their&amp;nbsp;must be a 100 % coverage of safety requirements to either HW and or SW elements, either directly or by&#xD;
+    refinement.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gLKtxpmM1RgE3gZdyWmvjQ" name="Requirements Engineer,_Z3hSE5zkEeCk2aQcgmZB_w" guid="-gLKtxpmM1RgE3gZdyWmvjQ">
+    <refinedDescription>&lt;p>&#xD;
+    Identifies, analyses and structures requirements so that they are captured in an understandable and logical manner.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Aids with creating traceability links and baselines for requirements management.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JJI1fXlN5uo29UAH7WWK6Q" name="Develop system design,_bG85oJzkEeCk2aQcgmZB_w" guid="-JJI1fXlN5uo29UAH7WWK6Q">
+    <refinedDescription>&lt;p>&#xD;
+    Although the system design is not brought out as a work product in ISO 26262, it is essential to capture it for the&#xD;
+    purpose of the refined system verification report that ensures that the proposed system design realises the intent of&#xD;
+    the technical safety concepts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The nature of the system design can be model based, this an appropriate medium for a number methods that can be used to&#xD;
+    verify the system design which are recommended or highly recommended for according to the applied ASIL level, these&#xD;
+    include System design inspection, system design walkthroughs, simulation and safety analyses.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If a model based approach is developed further, with the appropriate tools it is possible that system prototyping and&#xD;
+    vehicle tests can also be carried out.&#xD;
+&lt;/p>If using model based techniques then it is advised that the following guidance is employed, use either &lt;a&#xD;
+class=&quot;elementLink&quot; href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/Architectural%20Design%20-%20uc_E8CAF5DD.html&quot;&#xD;
+guid=&quot;_H1zdAa3hEd63sNXoX4A_sA&quot;>Architectural Design - Use-Case based&lt;/a>&amp;nbsp;or &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/Architectural%20Design%20-%20op_54664526.html&quot;&#xD;
+guid=&quot;_E9oWAa3hEd63sNXoX4A_sA&quot;>Architectural Design - Operation based&lt;/a>. These methods also provide the basis for&#xD;
+deriving the HW-SW interface specification and the systems design specification.&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-jgx7TeI8axIq6QcyCqLLkQ" name="Develop technical safety concept,_bywPsJzkEeCk2aQcgmZB_w" guid="-jgx7TeI8axIq6QcyCqLLkQ">
+    <refinedDescription>&lt;p>&#xD;
+    This task is used to define the architecture of the item according to the ASIL designation of the requirements that&#xD;
+    have been allocated to it and its respective subsystems.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The primary inputs to this phase are the functional concept, the technical safety requirements and the preliminary&#xD;
+    architectural assumptions. The consistency across these products with the technical safety concept shall be ensured.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The verifiability of the system design, the effectiveness of the HW and SW development and the systems testability&#xD;
+    through system integration should all be considered during the systems design and development.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is recommended that developers examine ISO 26262 Vol 4, clause 7.4.1 through 7.4.4&amp;nbsp;and 7.4.6 in detail to fully&#xD;
+    appreciate the&amp;nbsp;guidance on developing the technical safety concept.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The steps indicated in this section are summaries of&amp;nbsp;considerations that need to be made and again it is advised&#xD;
+    that developers follow the guidelines indicated.&amp;nbsp;&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-3n9ZYB5V0dZwXRcXPStfmA" name="Preliminary architectural assumptions,_bywPuZzkEeCk2aQcgmZB_w" guid="-3n9ZYB5V0dZwXRcXPStfmA">
+    <refinedDescription>&lt;p>&#xD;
+    Defines the initial architecture constraints and assumptions, it could be a textual and diagrammatic&#xD;
+    of&amp;nbsp;description of the architecture or a SysML model that also captures the functional concept, operating modes and&#xD;
+    systems states.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-1xnnHDloqngIXx4Xie2JWA" name="Functional concept,_bywPu5zkEeCk2aQcgmZB_w" guid="-1xnnHDloqngIXx4Xie2JWA">
+    <refinedDescription>Gives the users a conceptual highlevel understanding of the functionality of the system. This could be captured as textual&#xD;
+document but it could also be&amp;nbsp;represented as a&amp;nbsp;SysML&amp;nbsp;functional model for the item under development. The&#xD;
+SysML model may also capture the various operating modes and states and architectural assumptions at the vehicle level.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gweHFqf85p-Pky2q0s2paA" name="Refine System design to HW and SW level,_dJojEJzkEeCk2aQcgmZB_w" guid="-gweHFqf85p-Pky2q0s2paA">
+    <refinedDescription>&lt;p>&#xD;
+    This tasks is a continuance of the development of the system design down to the HW and SW level.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The nature of the system design can be model based, this an appropriate medium for a number methods that can be used to&#xD;
+    verify the system design which are recommended or highly recommended for according to the applied ASIL level, these&#xD;
+    include System design inspection, system design walkthroughs, simulation and safety analyses.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If a model based approach is developed further, with the appropriate tools it is possible that system prototyping and&#xD;
+    vehicle tests can also be carried out.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The use of a model based approach at this level is especially useful for helping develop the item and integration test&#xD;
+    plans.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This could be considered to be a variant on the architectural analysis phase of system development detailed&amp;nbsp;in &lt;a&#xD;
+    class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/Architectural%20Design%20-%20uc_E8CAF5DD.html&quot;&#xD;
+    guid=&quot;_H1zdAa3hEd63sNXoX4A_sA&quot;>Architectural Design - Use-Case based&lt;/a>&amp;nbsp;or &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/Architectural%20Design%20-%20op_54664526.html&quot;&#xD;
+    guid=&quot;_E9oWAa3hEd63sNXoX4A_sA&quot;>Architectural Design - Operation based&lt;/a>&amp;nbsp;depending upon the approach being&#xD;
+    taken.&lt;br />&#xD;
+    &amp;nbsp;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WbrG9sM9oq20cTudp4SBcg" name="Verify system and HW SW design,_d7GcQJzkEeCk2aQcgmZB_w" guid="-WbrG9sM9oq20cTudp4SBcg">
+    <refinedDescription>&lt;p>&#xD;
+    In this task the following methods and measures should be considered.&#xD;
+&lt;/p>&#xD;
+&lt;table dir=&quot;ltr&quot; border=&quot;1&quot; cellspacing=&quot;1&quot; cellpadding=&quot;2&quot; width=&quot;631&quot;>&#xD;
+    &lt;tbody>&#xD;
+        &lt;tr>&#xD;
+            &lt;td bgcolor=&quot;#CCCCCC&quot; valign=&quot;center&quot; rowspan=&quot;2&quot; width=&quot;70%&quot; colspan=&quot;2&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>Methods&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td bgcolor=&quot;#CCCCCC&quot; valign=&quot;top&quot; width=&quot;30%&quot; colspan=&quot;4&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>ASIL&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td bgcolor=&quot;#CCCCCC&quot; valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>A&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td bgcolor=&quot;#CCCCCC&quot; valign=&quot;top&quot; width=&quot;6%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>B&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td bgcolor=&quot;#CCCCCC&quot; valign=&quot;top&quot; width=&quot;7%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>C&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td bgcolor=&quot;#CCCCCC&quot; valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>D&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;4%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    1a&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;66%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    System design inspection (a)&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    +&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;6%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    ++&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;7%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    ++&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    ++&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;4%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    1b&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;66%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    System design walkthrough (a)&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    ++&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;6%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    +&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;7%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    o&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    o&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;4%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    2a&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;66%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Simulation (b)&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    +&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;6%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    +&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;7%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    ++&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    ++&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;4%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    2b&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;66%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    System prototyping and vehicle tests (b)&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    +&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;6%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    +&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;7%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    ++&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    ++&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;4%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    3&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;66%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Safety analyses (c)&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;30%&quot; colspan=&quot;4&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    see Table1&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; colspan=&quot;6&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                    a Methods 1a and 1b serve as check of complete and correct detailing and implementation of the&#xD;
+                    technical safety requirements into system design.&#xD;
+                &lt;/p>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                    b Methods 2a and 2b can be used advantageously as a fault injection technique.&#xD;
+                &lt;/p>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                    c For conducting safety analyses, see ISO26262-9: , Clause8.&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+    &lt;/tbody>&#xD;
+&lt;/table>&#xD;
+&lt;p>&#xD;
+    It is advised that the user refer to ISO 26262, vol 4, clause 7.4.8.2 for detailed guidance about the analysis of newly&#xD;
+    identified hazards that come about as a result of the system design that are not part of a safety goal.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If system based modeling is used, simulation is possible using&amp;nbsp; the verification task from &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/Architectural%20Design%20-%20uc_E8CAF5DD.html&quot;&#xD;
+    guid=&quot;_H1zdAa3hEd63sNXoX4A_sA&quot;>Architectural Design - Use-Case based&lt;/a>&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br />&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    &lt;br dir=&quot;ltr&quot; align=&quot;justify&quot; />&#xD;
+    &lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-IsxnKD2-_-CPq4wb5NScSg" name="4.7 System design,_GTlNEZdtEeCPtY0LnWkRDw" guid="-IsxnKD2-_-CPq4wb5NScSg">
+    <usageGuidance>If using model based techniques then it is advised that the following guidance is employed, use either &lt;a&#xD;
+class=&quot;elementLink&quot; href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/Architectural%20Design%20-%20uc_E8CAF5DD.html&quot;&#xD;
+guid=&quot;_H1zdAa3hEd63sNXoX4A_sA&quot;>Architectural Design - Use-Case based&lt;/a>&amp;nbsp;or &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../process.syseng.base-ibm/deliveryprocesses/Architectural%20Design%20-%20op_54664526.html&quot;&#xD;
+guid=&quot;_E9oWAa3hEd63sNXoX4A_sA&quot;>Architectural Design - Operation based&lt;/a>. These methods also provide the basis for&#xD;
+deriving the HW-SW interface specification and the systems design specification.</usageGuidance>
+  </org.eclipse.epf.uma:ActivityDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aE4qEab-qpkoRGYr1ThbjQ" name="Develop HW and SW inteface specification,_-wn-UZwUEeCHd41ThlqoSg" guid="-aE4qEab-qpkoRGYr1ThbjQ">
+    <refinedDescription>&lt;p>&#xD;
+    The specifications covers all points of interaction of components involved in a technical safety concept.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Details can be found in ISO 26262 Vol 4, Clause 7.4.6&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For an example of content of an HSI report it is recommended that the user refers to ISO 26262, vol 4, Annex B.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If using a model based approach it&amp;nbsp;is also possible to derive the HSI specification directly from the model using&#xD;
+    an appropriate document template with the modeling tool.&amp;nbsp;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JiXlUNvr7pKYgxoffIjliQ" name="Develop requirements for production, operation service and decommissioning,_-wn-UpwUEeCHd41ThlqoSg" guid="-JiXlUNvr7pKYgxoffIjliQ">
+    <refinedDescription>&lt;p>&#xD;
+    Means to support the capturing of data from field shall be established. The extent of this data is based upon the&#xD;
+    results of the safety analysis and implemented safety mechanisms.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Diagnostic features should be implemented in the system design to allow service staff to identify faults.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Requirements that need to be considered for this task include, assembly instructions, proper identification of&#xD;
+    components, safety related special characteristics, verification measures for production,servicing/fault diagnostics,&#xD;
+    decomissioning etc.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-R0ZO4dJ-7T4b-gtmB9fmdQ" name="Develop system design specification,_-wn-U5wUEeCHd41ThlqoSg" guid="-R0ZO4dJ-7T4b-gtmB9fmdQ">
+    <refinedDescription>&lt;p>&#xD;
+    The System design specification defines the architecture and functionality&amp;nbsp;of the system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If using model based techniques the systems design specification can be derived from the model using the appropriate&#xD;
+    document template for the tools being used.&#xD;
+&lt;/p>&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-M-9Q_o9PhK67BycLnE5CiA" name="Refine system level verification report,_-wn-VpwUEeCHd41ThlqoSg" guid="-M-9Q_o9PhK67BycLnE5CiA">
+    <refinedDescription>&lt;p>&#xD;
+    The system verification report details the tests carried out and the results, it provides the rationale for the&#xD;
+    acceptance of the technical safety concept.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The methods to be used are detailed in the table below&#xD;
+&lt;/p>&#xD;
+&lt;table dir=&quot;ltr&quot; border=&quot;1&quot; cellspacing=&quot;1&quot; cellpadding=&quot;2&quot; width=&quot;631&quot;>&#xD;
+    &lt;tbody>&#xD;
+        &lt;tr>&#xD;
+            &lt;td bgcolor=&quot;#CCCCCC&quot; valign=&quot;center&quot; rowspan=&quot;2&quot; width=&quot;70%&quot; colspan=&quot;2&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>Methods&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td bgcolor=&quot;#CCCCCC&quot; valign=&quot;top&quot; width=&quot;30%&quot; colspan=&quot;4&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>ASIL&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td bgcolor=&quot;#CCCCCC&quot; valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>A&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td bgcolor=&quot;#CCCCCC&quot; valign=&quot;top&quot; width=&quot;6%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>B&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td bgcolor=&quot;#CCCCCC&quot; valign=&quot;top&quot; width=&quot;7%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>C&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td bgcolor=&quot;#CCCCCC&quot; valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    &lt;b>D&lt;/b>&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;4%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    1a&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;66%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    System design inspection a&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    +&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;6%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    ++&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;7%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    ++&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    ++&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;4%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    1b&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;66%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    System design walkthrough a&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    ++&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;6%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    +&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;7%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    o&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    o&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;4%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    2a&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;66%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Simulation b&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    +&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;6%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    +&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;7%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    ++&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    ++&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;4%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    2b&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;66%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    System prototyping and vehicle tests b&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    +&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;6%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    +&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;7%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    ++&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;8%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    ++&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;4%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    3&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;66%&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;left&quot;>&#xD;
+                    Safety analysesc&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+            &lt;td valign=&quot;top&quot; width=&quot;30%&quot; colspan=&quot;4&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;center&quot;>&#xD;
+                    see Table1&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+        &lt;tr>&#xD;
+            &lt;td valign=&quot;top&quot; colspan=&quot;6&quot;>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                    a)Methods 1a and 1b serve as check of complete and correct detailing and implementation of the&#xD;
+                    technical safety requirements into system design.&#xD;
+                &lt;/p>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                    b)Methods 2a and 2b can be used advantageously as a fault injection technique.&#xD;
+                &lt;/p>&#xD;
+                &lt;p dir=&quot;ltr&quot; align=&quot;justify&quot;>&#xD;
+                    c)For conducting safety analyses, see ISO26262-9: , Clause8.&#xD;
+                &lt;/p>&#xD;
+            &lt;/td>&#xD;
+        &lt;/tr>&#xD;
+    &lt;/tbody>&#xD;
+&lt;/table>&lt;br />&#xD;
+&lt;p>&#xD;
+    This task shall cover the analysis of possible haxards introduced by the systems design. If new hazards are identified&#xD;
+    that do not match to a safety goal then these shall be added to and evaluated in hazard analysis and risk assessment in&#xD;
+    accordance with the change management process.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is advised that the user refer to ISO 26262, vol 4, clause 7.4.8 for detailed guidance.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-O_h_hbLjCu4zE4IsHQPIAA" name="Refine item integration and test plan,_ZW1uEJy8EeCBU9GxbrSLZw" guid="-O_h_hbLjCu4zE4IsHQPIAA">
+    <refinedDescription>&lt;p>&#xD;
+    The integration and test plan is scoped to the system and vehicle level and considers information such as the&#xD;
+    specification of the integration test (so that issues arising from the HW and SW verifications are included), the&#xD;
+    interfaces between subsystems and the environment and all the relevant configuration and calibration data for all&#xD;
+    variants of the item that are intended for production.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The user is referred to ISO 26262 Vol 4, clause 7.4.11 for further details.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-G3qx9HI22jvQ8zeQIza7yA" name="Item integration and testing plan,_7ctlZ5z3EeCk2aQcgmZB_w" guid="-G3qx9HI22jvQ8zeQIza7yA">
+    <refinedDescription>&lt;p>&#xD;
+    The integration and test plan is scoped to the system and vehicle level and considers information such as the&#xD;
+    specification of the integration test (so that issues arising from the HW and SW verifications are included), the&#xD;
+    interfaces between subsystems and the environment and all the relevant configuration and calibration data for all&#xD;
+    variants of the item that are intended for production.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The user is referred to ISO 26262 Vol 4, clause 7.4.11 for further details.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-OihqGxEKEEg0CwOctDS3yA" name="Systems Engineering for product development,_N7g3gZdcEeCPtY0LnWkRDw" guid="-OihqGxEKEEg0CwOctDS3yA" version="7.5.1">
+    <purpose>To develop a systems specification that can be implemented in HW and SW and fulfil all its safety goals.</purpose>
+  </org.eclipse.epf.uma:ProcessDescription>
+</xmi:XMI>

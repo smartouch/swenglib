@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-lu_G1r7TG1ZY3sp4HRCdjw" name="define_uc_sys_context,_NmzNMJH1EeCcAYj_fHOzTg" guid="-lu_G1r7TG1ZY3sp4HRCdjw">
+    <refinedDescription>&lt;p>&#xD;
+    This task is the first step in the process of building an executable model of a use-case.&amp;nbsp; It begins with the&#xD;
+    definition of a use-case block and actor(s) blocks&amp;nbsp;that represent the respective use case and associated&#xD;
+    actors.&amp;nbsp; At this stage, the blocks are empty and not associated.&amp;nbsp;&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZsPwWHJuvkMUbG-l75MCGw" name="sys_uc_ib_diag,_Nm8-MpH1EeCcAYj_fHOzTg" guid="-ZsPwWHJuvkMUbG-l75MCGw">
+    <refinedDescription>&lt;p>&#xD;
+    Elements of this diagram are instances of SysML blocks that represent the use case and its associated actor(s).&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Use-Case Block is the structural representation of a use case defined in the use-case diagram. It is used to&#xD;
+    represent the formal specification of the system behavior for the use case and acts as a location for the&#xD;
+    operations/functions that the use case employs. The Use-Case Block communicates with relevant Actor Blocks via&#xD;
+    ports&amp;nbsp;and associated provided and required interfaces.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    An Actor Block is the realization of an actor that was previously identified in a system&amp;nbsp;use case diagram. An&#xD;
+    actor block represents a person, or system that is external to the system under development, that interacts&#xD;
+    with&amp;nbsp;the system under development&amp;nbsp;by providing the inputs to, and receiving&amp;nbsp;outputs&amp;nbsp;from&amp;nbsp;the&#xD;
+    system under development.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-tfMpmUlWm4X9uuAiKKhyPQ" name="sys_uc_st_chart_diag,_Nm8-NZH1EeCcAYj_fHOzTg" guid="-tfMpmUlWm4X9uuAiKKhyPQ">
+    <refinedDescription>&lt;p>&#xD;
+    A Statechart Diagram describes the state-based behavior of a block. It aggregates the information from both the&#xD;
+    activity diagram (functional flow) and the sequence diagrams (interactions with the environment), and adds the&#xD;
+    event-driven block behavior to the diagram. As the &quot;language&quot; of statecharts is formally defined, the correctness and&#xD;
+    completeness of the resulting behavior can be verified/validated through model execution.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Statechart diagrams are finite state machines that are extended by the notation of Hierarchy and Concurrency.&#xD;
+    Basically, a statechart diagram is comprised of a set of states joined by transitions and various connectors. An event&#xD;
+    may trigger a transition from one state to another. Actions can be performed on transitions and on state entry/exit.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Use-Case&amp;nbsp;Block Statechart Diagram must reflect the functional flow captured in the use-case black-box activity&#xD;
+    diagram as well as the associated use-case black-box sequence diagrams.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-oVJ_lAAnNIeAVLLVT-8U-Q" name="sys_uc_act_diag,_Nm8-OJH1EeCcAYj_fHOzTg" guid="-oVJ_lAAnNIeAVLLVT-8U-Q">
+    <refinedDescription>&lt;p>&#xD;
+    An Activity Diagram is similar to the classic flow chart. It describes a workflow, business process, or algorithm by&#xD;
+    decomposing the flow of execution into a set of actions and sub activities joined by transitions and various&#xD;
+    connectors. These actions and sub activities are called activity nodes. An activity can be a simple linear sequence of&#xD;
+    activity nodes or it can be a complex series of parallel activity nodes with conditional branching and concurrency.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There will be multiple instances of this artifact.&amp;nbsp;During requirements analysis, &quot;black-box&quot; activity diagrams are&#xD;
+    created describing the functional flows for the system as a whole.&amp;nbsp;During architectural design,&#xD;
+    &quot;white-box&quot;&amp;nbsp;activity diagrams are created that show the allocation of actions to specific system elements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Activities may be grouped and assigned to objects – e.g. subsystems. In this case, the activity diagram is split into&#xD;
+    swim lanes that depict the respective responsibilities.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-uTW797GskCBOnp5Ke5LFAQ" name="sys_uc_seq_diag,_Nm8-O5H1EeCcAYj_fHOzTg" guid="-uTW797GskCBOnp5Ke5LFAQ">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact describes the time-ordered sequence of interactions between a system use case and its associated actors.&#xD;
+    In addition to the sent and received messages (service requests), the use-case lifeline shows the requested operations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There will be multiple instances of this artifact.&amp;nbsp;Initially, &quot;black-box&quot;&amp;nbsp;sequence diagrams are created which&#xD;
+    evolve into &quot;white-box&quot;&amp;nbsp;sequence diagrams that show the&amp;nbsp;responsibilities of&amp;nbsp;specific system elements.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_uX-dK8eFhFMP-RntlTnCA" name="define_uc_scenarios,_TF4FAJH1EeCcAYj_fHOzTg" guid="-_uX-dK8eFhFMP-RntlTnCA">
+    <refinedDescription>&lt;p>&#xD;
+    Use case scenarios represent the interactions of the system executing the use case with the actors. Each scenario&#xD;
+    represents a specific sequence of events, messages, and actions. Each of these elements captures at least part of a&#xD;
+    requirement, and often more than one requirement, specifying a required or optional sequence, input and output events&#xD;
+    and messages, and control and data transformations.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A use case normally has between several and several dozen such scenarios and each scenario has typically several to&#xD;
+    several dozen messages. The scenarios set is said to be 'minimally complete' when each functional or quality of service&#xD;
+    requirement is represented on at least one scenario. Messages between the use case and the actor(s) are normally&#xD;
+    represented as asynchronous events that optionally carry data. This constitutes the so-called 'logical interface'&#xD;
+    between the actors and the system as it executes the use case.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8flXv5YBpBUNpepOdFjayg" name="derive_uc_func_flow,_bYW4kJH1EeCcAYj_fHOzTg" guid="-8flXv5YBpBUNpepOdFjayg">
+    <refinedDescription>The functional flow is normally an activity diagram with forks, joins and branches that represents the entire set of&#xD;
+scenarios. Some engineers use this representation to reason about the scope of the use case and the interaction of the&#xD;
+requirements within the use case.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QkvczRGylp07Rnet97qIpw" name="define_ports_intfcs,_cN2WIJH1EeCcAYj_fHOzTg" guid="-QkvczRGylp07Rnet97qIpw">
+    <refinedDescription>&lt;p>&#xD;
+    This task&amp;nbsp;refines&amp;nbsp;the executable use-case model by adding ports, interfaces and connectors to support the&#xD;
+    communication between the use-case block and its associated actors.&amp;nbsp; The ports, interfaces and connectors&amp;nbsp;are&#xD;
+    derived from the previously defined black-box sequence diagrams.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-tWxwJOuyrfWr-iAc4q9qeQ" name="sys_operation,_cN2WIZH1EeCcAYj_fHOzTg" guid="-tWxwJOuyrfWr-iAc4q9qeQ">
+    <refinedDescription>&lt;p>&#xD;
+    An operation specification has the following outline:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Description&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Input/Output Parameters&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Non-functional requirements: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                These are derived from the non-functional requirements associated with the steps in the various Use Cases&#xD;
+                that this operation supports.&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                The context in which the operation is used (i.e. a particular Use Case) may or may not be captured (e.g. it may be&#xD;
+                specified in terms of supporting the minimum performance requirement when all Use Cases are considered)&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Pre-conditions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Post-conditions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Superordinate system traceability&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: use-case (steps) traceability&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    In most of the cases, the Operations are defined for the top-level system and the main subsystems, going with the&#xD;
+    decomposition as deep as needed, in a recursive fashion. The Operations are grouped around interfaces along the main&#xD;
+    responsibilities of the (sub)system under consideration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible&amp;nbsp;for the integrity of the operation set,&amp;nbsp;should ensure&amp;nbsp;that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        the operations are unique and there is no overlap between them&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the related operations are logically grouped around interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        each operation is properly documented&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        the traceability relationships to other operations and/or use-case steps have been established&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        proper coverage of the use cases or system's operations, based on the scope of the current iteration&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2B8ziekFxLl0RB-qJsEHWA" name="sys_op_seq_diag,_cOAHIZH1EeCcAYj_fHOzTg" guid="-2B8ziekFxLl0RB-qJsEHWA">
+    <refinedDescription>&lt;p>&#xD;
+    The number of viewpoints considered will drive the number of sequence diagrams needed, as for the most complex case,&#xD;
+    for each viewpoint, there will be at least one&amp;nbsp;sequence diagram, showing how specific view elements are realizing&#xD;
+    the main operation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible for the integrity of the operation realization should&amp;nbsp;ensure that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The operation realization correctly realizes the behavior of its corresponding operation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All the chosen viewpoints are addressed and there is at least one realization per viewpoint.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The associated non-functional requirements are correctly budgeted across the subsystems operations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The operation realization is properly documented and the correspondent diagrams suit their purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The realization associations are correct.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-uT5WY-suGfwIR_HjuPRZIA" name="sys_op_act_diag,_cOAHJJH1EeCcAYj_fHOzTg" guid="-uT5WY-suGfwIR_HjuPRZIA">
+    <refinedDescription>&lt;p>&#xD;
+    The number of viewpoints considered will drive the number of activity diagrams needed, as for the most complex case,&#xD;
+    for each viewpoint, there will be an activity&amp;nbsp;diagram, showing how specific view elements are realizing the main&#xD;
+    operation.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The&amp;nbsp;role responsible for the integrity of the operation realization should&amp;nbsp;ensure that:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The operation realization correctly realizes the behavior of its corresponding operation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All the chosen viewpoints are addressed and there is at least one realization per viewpoint.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The associated non-functional requirements are correctly budgeted across the subsystems operations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The operation realization is properly documented and the correspondent diagrams suit their purpose.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The realization associations are correct.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Wa-pjF95yh_jbYyfJ50Ciw" name="derive_uc_state_behavior,_dduCkJH1EeCcAYj_fHOzTg" guid="-Wa-pjF95yh_jbYyfJ50Ciw">
+    <refinedDescription>&lt;p>&#xD;
+    In order to verify/validate a use case model through model execution, its state-based behavior needs to be described in&#xD;
+    a statechart diagram. The derivation of the statechart is based on the functional description, captured in the use-case&#xD;
+    black-box activity diagram and the associated use-case black-box sequence diagrams. The verification/validation of the&#xD;
+    detailed architectural design is performed through model execution on the bases of stimuli derived from the black-box&#xD;
+    sequence diagrams.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-r5WWfTvo9O4ro-yxGmxGZg" name="ver_val_func_reqs,_ibj1kJH1EeCcAYj_fHOzTg" guid="-r5WWfTvo9O4ro-yxGmxGZg">
+    <refinedDescription>The use of an executable state machine representation demonstrates the consistency of the state model with the scenarios&#xD;
+(as represented on state machines). It also allows exploration of flows that might have not been explicitly specified as&#xD;
+scenarios but are nevertheless important. The state machine forms the normative behavioral model specification for the use&#xD;
+case.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-BpTM1UHjrxWctZdcPdmUcg" name="sys_srs,_BJgh8JiLEeCHuaDqfjetaA" guid="-BpTM1UHjrxWctZdcPdmUcg">
+    <refinedDescription>&lt;p>&#xD;
+    A&amp;nbsp;System Requirements Specification is strictly the set of all relevant System Requirements for a project. This&#xD;
+    set provides a complete and consistent abstract description of the solution to the problem represented by a stakeholder&#xD;
+    specification or a similar artifact, and its context, at an appropriate level of abstraction.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In practice, there&amp;nbsp;may be several levels of&amp;nbsp;System Requirements Specification - for example, in some cases&#xD;
+    the a single level might be enough, in others, the system must be broken-down into subsystems at various levels.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If more than one level of System Requirement Specification is used, then remember the following points:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Each specification must be a complete and consistent description of the solution, at an appropriate level of&#xD;
+        abstraction&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Traceability must be maintained throughout the levels&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        All specifications must be maintained in parallel&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Frequently, it&amp;nbsp;is sufficient to evolve a single specification.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The system requirements specification captures all of the system functional and non-functional requirements in one&#xD;
+    place so that they may be analyzed for consistency, completeness and correctness.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Requirements must be clear, unambiguous, testable and complete. They must include all required properties of the&#xD;
+    system. Care must be taken not to over-specify (a common problem) by including design measures in the requirements.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Vi4_kMDbC9VN9LhbJmPjiA" name="system_wide_requirements,_BJgh8piLEeCHuaDqfjetaA" guid="-Vi4_kMDbC9VN9LhbJmPjiA">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;
+        particular, include the needs of those who are responsible for maintaining or supporting the system after it is&#xD;
+        delivered.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Typically, there are some overlaps and gray areas between system-wide requirements and other requirements work&#xD;
+        products. For example, the authorization behavior of a system can be specified as use cases or as statements within&#xD;
+        system-wide requirements. The overall driving need is that no important requirements are missed or duplicated, and&#xD;
+        that there is an agreed upon approach for capturing and processing every type of requirement.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        System-wide requirements originate from many places. Documenting the source of the requirement is particularly&#xD;
+        important when you separate externally mandated requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Requirements are often thought of as &quot;Qualitative&quot; (specifying a quality or desirable characteristic) versus&#xD;
+        &quot;Quantitative&quot; (specifying a quantity). Qualitative requirements can sometimes be elaborated into quantitative&#xD;
+        requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A good quality requirement is one that you can verify, either through testing or some other objective evaluation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        You must evaluate system-wide requirements for cost, schedule impact, and level of contribution to business goals.&#xD;
+        Based on your evaluation, the system-wide requirements should be iteratively challenged, defended, and amended.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-zQGjy0yF-r_nY89jgJzZEA" name="trace_record,_BJgh9JiLEeCHuaDqfjetaA" guid="-zQGjy0yF-r_nY89jgJzZEA">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact records information about relationships between information in the development. It is often a logical&#xD;
+    rather than a physical construct. There is generally no specific physical &quot;place&quot; where all this information exists,&#xD;
+    but it is distributed throughout the physical storage of the information used for development.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The traceability record&amp;nbsp;allows those involved in the development of a system to understand the relationships&#xD;
+    between different elements in the development, for example, which requirements are tested by a particular test case.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Where information is needed about the relationships between two specific types of information (for example Stakeholder&#xD;
+    Requirements and System Requirements), it is often extracted into a Traceability Matrix.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-3XTiT94ozRJ5Zxf8auTDAQ" name="perform_review,_Qm3xYJiXEeCHuaDqfjetaA" guid="-3XTiT94ozRJ5Zxf8auTDAQ">
+    <keyConsiderations>&lt;p>&#xD;
+    Reviews are &lt;em>very&lt;/em> expensive to perform but, when performed well,&amp;nbsp;are highly valuable. It is crucial that&#xD;
+    they be performed effectively. Identified issues should be solved outside of the meeting. Subsequent reviews need only&#xD;
+    go over the action lists from the meeting to ensure each issue has been appropriately addressed. This means that action&#xD;
+    lists are essential artifacts for effective reviews.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is crucial to understand that reviews are not a replacement for good modeling in the first place. One of the basic&#xD;
+    requirements prior to a review is that the model &lt;em>executes properly&lt;/em>. In a PIM review, this means that it is&#xD;
+    debugged and can replicate (via execution) the use case scenarios. In a PSM review, this means that the model has&#xD;
+    passed formal unit testing. You should NEVER find a compilation problem in a review; it is far cheaper to have the&#xD;
+    product owner find that on their own &lt;em>prior to planning the review&lt;/em> rather than find it in a room full of&#xD;
+    people. The intent of the review should be to evaluate an set of already high-quality artifacts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is also very important to &lt;em>stay focused&lt;/em> during the review. The meeting leader needs to rule with a (silk&#xD;
+    covered) iron fist. Reviews are very expensive so the object is to perform the intent of the review as efficiently as&#xD;
+    possible.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note: subsequent reviews of an already-reviewed work product should focus exclusively on the action list from the&#xD;
+    previous review.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    There are a number of work products created in a modern software-centric development project. Any of them may be&#xD;
+    subject to a review, depending on the delivery process in which they are created. Some of these include:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Requirements specification&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Systems engineering models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Architectural Specifications&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Project schedules&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Software or hardware design models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Software source code&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test cases, procedures, and results&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Plans: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Software Development Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Quality Assurance Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Software Verification Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Verification and Validation Test Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Configuration Management Plan&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The best way to inject quality into work products is through careful engineering and demonstration and test via&#xD;
+    execution or simulation. For many of these work products, execution isn’t feasible, so reviews are a way of assessing&#xD;
+    the quality of the work product. In addition, many work products must conform to guidelines, standards or templates and&#xD;
+    this is most easily demonstrated through a review process. Lastly, reviews also serve to disseminate information to&#xD;
+    different stakeholders about the structure, content, and quality of a work product.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5klyV-5OjAYPVtntWbLj5A" name="reviewer,_QneOUJiXEeCHuaDqfjetaA" guid="-5klyV-5OjAYPVtntWbLj5A">
+    <refinedDescription>&lt;a id=&quot;Top&quot; name=&quot;Top&quot;>&lt;/a>&lt;a id=&quot;XE_Reviewer__role_definition&quot; name=&quot;XE_Reviewer__role_definition&quot;>&lt;/a>&lt;a id=&quot;Description&quot;&#xD;
+name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Any member of the project team can take on the &lt;a class=&quot;PresentationName&quot;&#xD;
+    guid=&quot;{638E0897-F63B-444C-8178-D05224689DE7}&quot;>Reviewer&lt;/a> role, as long as they have the appropriate pre-requisite&#xD;
+    skills. For reviews that involve multiple team members, one person playing this role will also need to take&#xD;
+    responsibility for coordinating the review process itself , playing the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.default.role_def.extend-ibm/roles/review_coordinator_D598A3E4.html&quot;&#xD;
+    guid=&quot;{D6CA9DC7-4DF2-4BA4-A0AD-7FBAEB6539E1}&quot;>Review Coordinator&lt;/a> role. Reviews can be generalized into two main&#xD;
+    categories: management reviews of project progress and technical reviews of project work products.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Uk0myHYmkMBewrzeNMXSWQ" name="review_coordinator,_QneOVJiXEeCHuaDqfjetaA" guid="-Uk0myHYmkMBewrzeNMXSWQ">
+    <refinedDescription>&lt;a id=&quot;Top&quot; name=&quot;Top&quot;>&lt;/a>&lt;a id=&quot;XE_Review_Coordinator__role_definition&quot;&#xD;
+name=&quot;XE_Review_Coordinator__role_definition&quot;>&lt;/a>&lt;a id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    The &lt;a class=&quot;PresentationName&quot; guid=&quot;{D6CA9DC7-4DF2-4BA4-A0AD-7FBAEB6539E1}&quot;>Review Coordinator&lt;/a> role is&#xD;
+    responsible for managing the review process. Reviews can be generalized into two main categories: management reviews of&#xD;
+    project progress and technical reviews of project work products. This role is responsible for the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Ensuring that required reviews are conducted&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring that the appropriate review attendees are included and notified with appropriate review details&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Conducting the review in an appropriate and efficient manner&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Ensuring that follow-up tasks that result from the review are managed to closure&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    When staffing this role, you need to consider both the skills required for the role and the different approaches you&#xD;
+    can take to assigning staff to the role.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-OB7Tn4Nj0Nw6xxJl5mNaBw" name="review_record,_Qnn_UJiXEeCHuaDqfjetaA" guid="-OB7Tn4Nj0Nw6xxJl5mNaBw">
+    <refinedDescription>&lt;p>&#xD;
+    &lt;!--StartFragment-->A review record is an assessment work product specialized for capturing the results of review&#xD;
+    activities.&lt;!--EndFragment-->&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xY46fEsfz54elHPDLReAtA" name="work_items_list,_Qnn_VJiXEeCHuaDqfjetaA" guid="-xY46fEsfz54elHPDLReAtA">
+    <keyConsiderations>&lt;p>&#xD;
+    Work Items should contain estimates. See guidelines on managing work items and agile estimation.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact provides a focal point for the entire team:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        It provides one list containing all requests for additional capabilities or enhancement for that application. Note&#xD;
+        that some of these requests may never be implemented, or be implemented in later projects.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one list of all the work to be prioritized, estimated, and assigned within the project. The risk list&#xD;
+        is prioritized separately.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        It provides one place to go to for the development team to understand what&amp;nbsp;micro-increments&amp;nbsp;need to be&#xD;
+        delivered, get references to material required to carry out the work, and report progress made.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    These are the typical work items that go on this list:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Use cases (and references to use-case specifications)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        System-wide requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Changes and enhancement requests&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defects&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Development tasks&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Work items can be very large in scope, especially when capturing requests for enhancements, such as &quot;Support Financial&#xD;
+    Planning&quot; for a personal finance application. To allow the application to be developed in micro-increments, work items&#xD;
+    are analyzed and broken down into smaller work items so that they can be assigned to an iteration, such as a use-case&#xD;
+    scenario for&amp;nbsp;&quot;Calculate Net Worth&quot;. Further breakdown may be required to identify suitable tasks to be assigned to&#xD;
+    developers, such as &quot;Develop UI for Calculate Net Worth&quot;. This means that work items often have parent/child&#xD;
+    relationships, where the lowest level is a specification and tracking device for micro-increments.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-C-gpg6qefqvFMb-vVRK1SA" name="change_request,_Qnn_VpiXEeCHuaDqfjetaA" guid="-C-gpg6qefqvFMb-vVRK1SA">
+    <refinedDescription>&lt;p>&#xD;
+    A change request (CR) is typically a proposed variance from the system's current (or currently planned) behavior. It&#xD;
+    can also be used for a generic piece of work that is required to support the project. Change requests may include&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A report of an error (defect)&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        An enhancement request&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Change requests provide a record of decisions and, with an appropriate assessment process, ensures that their change&#xD;
+    impacts are considered.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Some important types of change requests include:&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Enhancement Requests&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Used by various stakeholders to request future features that they desire to have included in the product. These are a&#xD;
+    type of stakeholder request that capture and articulate an understanding of the stakeholders needs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;b>Defects&lt;/b>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Reports of anomalies or failures in a delivered work product. Defects include such things as omissions and&#xD;
+    imperfections found during early lifecycle phases, or symptoms of faults (failures) that need to be isolated and&#xD;
+    corrected within the software. Defects may also include deviations from what can reasonably be expected of the software&#xD;
+    behavior (such as usability issues).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The purpose of a defect is to communicate the details of the issue, enabling corrective action, resolution, and&#xD;
+    tracking to occur.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-U3Pjew7ZEkw-7f45mx78xA" name="perform_review,_JiAKkJkSEeC4zvtKrl-GoQ" guid="-U3Pjew7ZEkw-7f45mx78xA">
+    <keyConsiderations>&lt;p>&#xD;
+    Reviews are &lt;em>very&lt;/em> expensive to perform but, when performed well,&amp;nbsp;are highly valuable. It is crucial that&#xD;
+    they be performed effectively. Identified issues should be solved outside of the meeting. Subsequent reviews need only&#xD;
+    go over the action lists from the meeting to ensure each issue has been appropriately addressed. This means that action&#xD;
+    lists are essential artifacts for effective reviews.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is crucial to understand that reviews are not a replacement for good modeling in the first place. One of the basic&#xD;
+    requirements prior to a review is that the model &lt;em>executes properly&lt;/em>. In a PIM review, this means that it is&#xD;
+    debugged and can replicate (via execution) the use case scenarios. In a PSM review, this means that the model has&#xD;
+    passed formal unit testing. You should NEVER find a compilation problem in a review; it is far cheaper to have the&#xD;
+    product owner find that on their own &lt;em>prior to planning the review&lt;/em> rather than find it in a room full of&#xD;
+    people. The intent of the review should be to evaluate an set of already high-quality artifacts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is also very important to &lt;em>stay focused&lt;/em> during the review. The meeting leader needs to rule with a (silk&#xD;
+    covered) iron fist. Reviews are very expensive so the object is to perform the intent of the review as efficiently as&#xD;
+    possible.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Note: subsequent reviews of an already-reviewed work product should focus exclusively on the action list from the&#xD;
+    previous review.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    There are a number of work products created in a modern software-centric development project. Any of them may be&#xD;
+    subject to a review, depending on the delivery process in which they are created. Some of these include:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Requirements specification&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Systems engineering models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Architectural Specifications&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Project schedules&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Software or hardware design models&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Software source code&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Test cases, procedures, and results&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Plans: &#xD;
+        &lt;ul>&#xD;
+            &lt;li>&#xD;
+                Software Development Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Quality Assurance Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Software Verification Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Verification and Validation Test Plan&#xD;
+            &lt;/li>&#xD;
+            &lt;li>&#xD;
+                Configuration Management Plan&#xD;
+            &lt;/li>&#xD;
+        &lt;/ul>&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The best way to inject quality into work products is through careful engineering and demonstration and test via&#xD;
+    execution or simulation. For many of these work products, execution isn’t feasible, so reviews are a way of assessing&#xD;
+    the quality of the work product. In addition, many work products must conform to guidelines, standards or templates and&#xD;
+    this is most easily demonstrated through a review process. Lastly, reviews also serve to disseminate information to&#xD;
+    different stakeholders about the structure, content, and quality of a work product.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vpw1Ch4SQWxAucWPVP1TTQ" name="update_maintain_soft_reqs,_7KzOIMLXEeCtQ_sFmyTdVw" guid="-vpw1Ch4SQWxAucWPVP1TTQ">
+    <refinedDescription>This task maintains the software requirements. Some of these may be directly allocated from a system requirement. Others&#xD;
+may require derivation and elaboration from system requirements and update based on other forms of requirements analysis&#xD;
+including use case analysis. In addition, this task establishes traceability among the system requirements, software&#xD;
+requirements, and software user cases. This traceability information is used for review, impact, coverage, and completeness&#xD;
+analysis.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-_WT4YJs4yZh9DoJp_Up6_w" name="prototype_definition,_GSKh8ZH1EeCcAYj_fHOzTg" guid="-_WT4YJs4yZh9DoJp_Up6_w"/>
+</xmi:XMI>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-aGWoAM5NPld5S3zHBvXztw" name="new_guideline,_cBOmEJaLEd6mO_N3erykYQ" guid="-aGWoAM5NPld5S3zHBvXztw" changeDate="2009-09-02T19:22:42.187-0700" version="7.5.0">
+  <mainDescription>&lt;p> A ServiceInterface can be a relatively complex construct, possessing multiple &#xD;
+  provided and required simple interfaces. For example, see &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_interface_soaml_CA95983A.html&quot; guid=&quot;_N5e2oFbBEd6MCpkuB85p5g&quot;>Concept: ServiceInterface (SoaML)&lt;/a> and &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/examples/service_interface_soaml_EC252D57.html&quot; guid=&quot;_dmG_MFbPEd6MCpkuB85p5g&quot;>Example: ServiceInterface (SoaML)&lt;/a>, We provide rules that can be used to counter this &#xD;
+  complexity and to reduce the effort that otherwise might be needed to define &#xD;
+  ServiceInterfaces and their associated provided and required interfaces. &lt;/p>&#xD;
+&lt;p> As they are written and illustrated here, the rules presuppose the use of &#xD;
+  Interactions to describe service collaborations. This is not required. The rules &#xD;
+  could be recast to use Activities or other behavioral representations. &lt;/p>&#xD;
+&lt;p> &lt;strong>Rule 1: Identify ServiceInterfaces by examining pairs of interacting &#xD;
+  roles in a service collaboration.&lt;/strong> A &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend-ibm/guidances/termdefinitions/service_collaboration_35276470.html&quot; guid=&quot;_V4z3YJgtEd6l6vBsNJSPDA&quot;>service &#xD;
+  collaboration&lt;/a> can have numerous interacting roles. To simplify the process &#xD;
+  of describing ServiceInterfaces, start by considering pairs of interacting roles. &#xD;
+  This rule &lt;strong>can&lt;/strong> be broken when it is appropriate to do so. ServiceInterfaces &#xD;
+  can possess multiple provided and multiple required interfaces; therefore, they &#xD;
+  can involve the interaction of three or more roles in a service collaboration. &#xD;
+  However, start with the simplest case first. Add complexity (creating ServiceInterfaces &#xD;
+  that involve more than two interacting roles) only when the solution requires &#xD;
+  it. &lt;/p>&#xD;
+&lt;p> &lt;strong>Rule 2: Define the ServiceInterface and its provided and required &#xD;
+  interfaces from the perspective of the role that is messaged first.&lt;/strong> &#xD;
+  The role in the interacting pair that sends the first message is the &lt;em>consumer&lt;/em>; &#xD;
+  the role that receives the first message is the &lt;em>provider&lt;/em>. Always define &#xD;
+  ServiceInterfaces from the provider's perspective. In &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../practice.tech.soma.service_specification.base-ibm/guidances/examples/consumer_and_provider_roles_in_service_collaborations_950C3FF9.html&quot; guid=&quot;_N_9gUJdzEd6K4On4I33bEg&quot;>Example: Consumer and Provider Roles in Service Collaborations&lt;/a>, we have an interacting &#xD;
+  pair of roles, &quot;role1&quot; and &quot;role2,&quot; with role2 as the provider. Define the ServiceInterface &#xD;
+  and its provided and required interfaces from the perspective of role2. &lt;/p>&#xD;
+&lt;p> &lt;strong>Rule 3:&lt;/strong> &lt;strong>Create either a simple UML Interface or a &#xD;
+  ServiceInterface with only a provided interface when all consumer-provider communication &#xD;
+  uses a request-response collaboration pattern.&lt;/strong> If all message calls &#xD;
+  between the interacting roles are in one direction -- the consumer sends messages, &#xD;
+  and the provider responds with conventional operation returns -- there is no &#xD;
+  complex interaction protocol between the two. Either a simple UML interface &#xD;
+  or a ServiceInterface with a single provided interface suffices. &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../practice.tech.soma.service_specification.base-ibm/guidances/examples/simple_interface_from_request_response_collaboration_pattern_B9FC97C5.html&quot; guid=&quot;_T5vhsJd0Ed6K4On4I33bEg&quot;>Example: Simple Interface from the Request-Response Collaboration Pattern&lt;/a> illustrates &#xD;
+  this. &lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Rule 4:&lt;/strong>  &lt;strong>Create a ServiceInterface with a provided interface and a required interface&#xD;
+    when the provider role responds back to the consumer role with a callback&#xD;
+    message.&lt;/strong>  In this case, the provider role requires that the consumer be able to accept&#xD;
+    messages, thus the provider requires an interface on the consumer.  This is seen in &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../practice.tech.soma.service_specification.base-ibm/guidances/examples/complex_service_interface_from_callback_collaboration_pattern_CA73BF28.html&quot; guid=&quot;_OqDUQJd1Ed6K4On4I33bEg&quot;>Example: Complex ServiceInterface from &quot;CallBack&quot; Collaboration Pattern&lt;/a> .&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../practice.tech.soma.service_specification.base-ibm/guidances/examples/service_interfaces_from_a_complex_set_of_role_interactions_EC625647.html&quot; guid=&quot;_4CI2wJd1Ed6K4On4I33bEg&quot;>Example: ServiceInterfaces from a Complex Set of Role Interactions&lt;/a> examines a&#xD;
+    four-role collaboration to apply the ServiceInterface description rules at a larger scale.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;br />&#xD;
+    &lt;br />&#xD;
+    &lt;br />&#xD;
+     &#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-1jY9F_7vrpRJuWOGN4fVMA" name="Model-based Systems Engineering,_1mEFgXT_EeCwX7mOdAgHBA" guid="-1jY9F_7vrpRJuWOGN4fVMA" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    The MbSE workflow is use case based. It starts with the definition of the system use cases. They are listed in the&#xD;
+    requirements package of the Rhapsody project _RA . The system use cases are ranked according to their importance for&#xD;
+    the development of the system architecture. Each of these system use cases defines the increment of the SE workflow&#xD;
+    iteration.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In the subsequent functional analysis phase the chosen system use case is transformed into an executable use case&#xD;
+    model. The modeling is performed in a separate Rhapsody project (Uc_FA). Output of the functional analysis phase is the&#xD;
+    baselined verified/validated executable Black-Box Use Case Model&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The first step in the architectural design phase is the realization of the Black-Box Use Case Model. The realization is&#xD;
+    performed in a separate Rhapsody project (Uc_AD). Based on design decisions - optionally elaborated in a trade study -&#xD;
+    and dependent on the hand-off to the subsequent development, the use case model is decomposed, and system-level&#xD;
+    operations then are allocated to the relevant subsystems/ subsystem components. The collaboration of the decomposed&#xD;
+    subsystems is verified through model execution. Output of the use case realization is the baselined White-Box Use Case&#xD;
+    Model.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The final task in the architectural design phase is the creation/update of the Integrated System Architecture Model&#xD;
+    (Rhapsody project _IA). This model is the aggregate of the baselined realized use case models. In order to comply with&#xD;
+    the chosen standardized architectural structure of the Integrated System Architecture, the White-Box Use Case Model&#xD;
+    needs to be refactored accordingly (ref. section 2.2.4.2) prior to its integration. The correctness and completeness of&#xD;
+    the updated Integrated System Architecture Model may be verified through model execution. The baselined Integrated&#xD;
+    System Architecture Model is the key artifact of the hand-off to the subsequent system development. It is the&#xD;
+    repository from which specification documents are generated (these documents include HW/SW Requirements Specifications,&#xD;
+    ICDs, etc.).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The outlined workflow is repeated for all system use cases.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ProcessDescription>

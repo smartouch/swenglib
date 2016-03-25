@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-0JF2RScHRjLnh6gqcJ3txQ" name="detail_component_model,_1P8IEAruEdy5ib8CxgclIA" guid="-0JF2RScHRjLnh6gqcJ3txQ" changeDate="2007-10-17T18:49:57.640-0700" version="v.1">
+  <mainDescription>&lt;p>&#xD;
+    In this task, you detail and structure the logical components, define their interfaces, and transform them into&#xD;
+    physical components. You validate whether the component model addresses the architecturally significant requirements.&#xD;
+&lt;/p></mainDescription>
+  <sections xmi:id="_SNnSYF3IEd2ux6PWtFLIHw" name="Review the architecture" guid="_SNnSYF3IEd2ux6PWtFLIHw">
+    <sectionDescription>&lt;p>&#xD;
+    Review the Architecture Overview, Component Model, and Architectural Decisions to familiarize yourself with the current&#xD;
+    state of the architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Update the artifacts with any new information that you have discovered since you outlined the Component Model.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_Uj2J8F3IEd2ux6PWtFLIHw" name="Structure components" guid="_Uj2J8F3IEd2ux6PWtFLIHw">
+    <sectionDescription>&lt;p>&#xD;
+    Review the candidate components that you identified when you outlined the architecture. These concepts were purposely&#xD;
+    simplified to omit details.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Now it is time to refine these simplified concepts into well-structured logical components. A comprehensive Component&#xD;
+    Model is not the goal, however. Focus on architecturally significant elements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Refactor, package, and structure the high-level candidate components into detailed logical components. See &lt;a&#xD;
+    class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/guidelines/structuring_components_26FC87E6.html&quot;&#xD;
+    guid=&quot;_HI8-gIEcEd2z9IawWqZSFw&quot;>Guideline: Structuring Components&lt;/a>. Review your list of &lt;a&#xD;
+    class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/concepts/reusable_asset_43D27168.html&quot;&#xD;
+    guid=&quot;_S8L70ID3Ed2z9IawWqZSFw&quot;>Reusable Assets&lt;/a> and keep an eye out for reuse of existing products or subsystems.&#xD;
+    Identify components to align with existing resources where possible.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    If the target implementation environment is constrained and well-specified, you may directly identify and specify&#xD;
+    physical components without bothering with logical components.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Update the Component Model and document the rationale for any key decisions.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_WybhYF3IEd2ux6PWtFLIHw" name="Specify component interfaces" guid="_WybhYF3IEd2ux6PWtFLIHw">
+    <sectionDescription>&lt;p>&#xD;
+    Make the responsibilities of your logical components available for use within the system by offering &lt;a&#xD;
+    class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/concepts/interface_46AFCEE5.html&quot;&#xD;
+    guid=&quot;_aHFYoDfWEdyIwaPzqVg2tg&quot;>Interfaces&lt;/a> to other components.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    First, decide which responsibilities need to be external to each component by looking at dependencies between&#xD;
+    components. Group like responsibilities together, and name the interface for each group of responsibilities. See &lt;a&#xD;
+    class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/guidelines/specifying_components_E78FD8AF.html&quot;&#xD;
+    guid=&quot;_-k2PcIEbEd2z9IawWqZSFw&quot;>Guideline: Specifying Components&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Capture the interfaces for each component and the associated responsibilities in the Component Model using a Component&#xD;
+    Specification Diagram. Document the rationale for any key decisions you make.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_a9E84F3IEd2ux6PWtFLIHw" name="Specify operations and signatures" guid="_a9E84F3IEd2ux6PWtFLIHw">
+    <sectionDescription>&lt;p>&#xD;
+    For each interface that you have defined for your logical components, go through each responsibility and specify an&#xD;
+    operation and its signature. In the operation's signature, assign a type to each parameter and the return value. See &lt;a&#xD;
+    class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/guidelines/specifying_components_E78FD8AF.html&quot;&#xD;
+    guid=&quot;_-k2PcIEbEd2z9IawWqZSFw&quot;>Guideline: Specifying Components&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Capture operations and their signatures in a Component Specification Diagram of the Component Model.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_JuZOIGlfEd299drcGVSEiw" name="Specify pre- and post-conditions" guid="_JuZOIGlfEd299drcGVSEiw">
+    <sectionDescription>&lt;p>&#xD;
+    Specify pre-conditions for operations to add clarity about what the caller is responsible for checking. Specify&#xD;
+    post-conditions to add clarity about the effect the operation has on the component's data or state. See &lt;a&#xD;
+    class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/guidelines/specifying_components_E78FD8AF.html&quot;&#xD;
+    guid=&quot;_-k2PcIEbEd2z9IawWqZSFw&quot;>Guideline: Specifying Components&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Express pre- and post-conditions in the Component Model either using the formal Object Constraint Language (OCL) or&#xD;
+    using natural language.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_CIWxYGmBEd299drcGVSEiw" name="Refine architectural mechanisms" guid="_CIWxYGmBEd299drcGVSEiw">
+    <sectionDescription>&lt;p>&#xD;
+    Scan all Logical Components that use each analysis mechanism that you defined when you outlined the architecture. Based&#xD;
+    on the characteristics that these components share, refine and add detail to each mechanism, defining an appropriate &lt;a&#xD;
+    class=&quot;elementLink&quot; href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/design_mechanism_CE197B4E.html&quot;&#xD;
+    guid=&quot;_w2ACwA4LEduibvKwrGxWxA&quot;>Design Mechanism&lt;/a>. Capture this detail in the component descriptions. The detail is&#xD;
+    still at the logical level, but it will help you select specific technologies when you transform your logical&#xD;
+    components into physical components. Document the rationale for any key decisions that you make.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_f0Cr0F3IEd2ux6PWtFLIHw" name="Transform components" guid="_f0Cr0F3IEd2ux6PWtFLIHw">
+    <sectionDescription>&lt;p>&#xD;
+    The Component Model created so far is at the logical level, and is deliberately product and technology agnostic.&#xD;
+    Component Transformation involves making decisions about what technology best implements each of the logical level&#xD;
+    components.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    At this point, make technology decisions about each component and transform it into a &lt;a&#xD;
+    class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/concepts/logical_and_physical_components_93EAAF0D.html&quot;&#xD;
+    guid=&quot;_3mMfQIDvEd2z9IawWqZSFw&quot;>Physical Component&lt;/a>. Transform your logical components into physical components by&#xD;
+    applying appropriate transformation patterns, which match the required functionality and available technologies.&#xD;
+    Document the rationale for any key decisions you make.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    For any logical components that have design mechanisms noted, select an &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/implementation_mechanism_C92E670B.html&quot;&#xD;
+    guid=&quot;_0LcUkA4LEduibvKwrGxWxA&quot;>Implementation Mechanism&lt;/a> and apply the design pattern for the mechanism. Plug in&#xD;
+    your system's components as parameters to the design pattern. See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp-ibm/guidances/guidelines/transforming_components_613F775F.html&quot;&#xD;
+    guid=&quot;_JyRxMIEcEd2z9IawWqZSFw&quot;>Guideline: Transforming Components&lt;/a>.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Repeat the steps of this task to specify details of your physical components.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_iRb7UF3IEd2ux6PWtFLIHw" name="Discover reuse opportunities" guid="_iRb7UF3IEd2ux6PWtFLIHw">
+    <sectionDescription>&lt;p>&#xD;
+    Review your list of potentially reusable assets and look for existing physical components that offer similar interfaces&#xD;
+    to the physical components that you identified in the previous step. If exact matches do not exist, find approximate&#xD;
+    matches.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Modify your newly identified interfaces to improve the fit with existing ones. This may involve factoring the interface&#xD;
+    by splitting it into several interfaces, some of which match an existing component and some of which are new. Replace&#xD;
+    your interfaces with existing interfaces where exact matches occur. See &lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/guidelines/software_reuse_B6B04C26.html&quot;&#xD;
+    guid=&quot;_vO2uoO0OEduUpsu85bVhiQ&quot;>Guideline: Software Reuse&lt;/a>.&lt;br />&#xD;
+    &lt;br />&#xD;
+    Replace your physical components with existing components wherever possible to satisfy the required behavior of the&#xD;
+    system. In the Component Model, note the source of any component to be reused instead of built. Document the rationale&#xD;
+    for any key decisions you make.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_k9D0EF3IEd2ux6PWtFLIHw" name="Validate the architecture" guid="_k9D0EF3IEd2ux6PWtFLIHw">
+    <sectionDescription>&lt;p>&#xD;
+    Review the Component Model to ensure that it is complete and consistent. Review the goals, requirements, and&#xD;
+    constraints to ensure that your architecture meets them; update them with any new information that you have&#xD;
+    discovered.&amp;nbsp;You might need to do some trade-off analysis to meet the architectural requirements. Be sure to&#xD;
+    capture rationale for non-obvious decisions, or difficult to meet requirements.&amp;nbsp;If you find items that your&#xD;
+    architecture has not yet addressed, go through this task again to fill in the holes.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Review the Architectural Decisions to ensure that you have captured the rationale for any significant decisions that&#xD;
+    you have made, especially those that are controversial or are based on reasoning that is not obvious.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Build an &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/executable_arch_D4E68CBD.html&quot;&#xD;
+    guid=&quot;_O1kAANvfEduv2KOT-Teh6w&quot;>Executable Architecture&lt;/a> to validate the architecture. Perform enough development&#xD;
+    work to produce just enough working software to show that the architecture is viable. It is acceptable for the software&#xD;
+    to have an incomplete or prototypical feel, as it is primarily concerned with baselining the architecture to provide a&#xD;
+    stable foundation for the remaining development work.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Communicate the architecture to developers, and make sure that they understand it and can deliver it. Repeat the steps&#xD;
+    of this task as needed to incorporate their feedback. For checklists to assess the results of this task, refer to the&#xD;
+    output work products.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;p>&#xD;
+    The purpose of this task is to detail the component model enough to create an executable architecture, in order to&#xD;
+    validate whether it addresses the architecturally significant requirements.&#xD;
+&lt;/p></purpose>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BusinessModeling="http:///schemas/BusinessModeling/2" xmlns:Default="http:///schemas/Default/1" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.1/notation" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.2/Umlnotation" xsi:schemaLocation="http:///schemas/BusinessModeling/2 pathmap://BM_PROFILES/BM.epx#_biXOMFSlEduDJ7xushbBPA?Business%20Modeling/BusinessModeling? http:///schemas/Default/1 pathmap://UML2_MSL_PROFILES/Default.epx#_IN8k8MmBEdqBcN1R6EvWUw?Default/Default? http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
+  <uml:Model xmi:id="_A2bGlW4yEd6UmoywPugm9g" name="Candidate Services Template">
+    <eAnnotations xmi:id="_A2bGlm4yEd6UmoywPugm9g" source="uml2.diagrams" references="_A2bGl24yEd6UmoywPugm9g">
+      <contents xmi:type="notation:Diagram" xmi:id="_A2bGl24yEd6UmoywPugm9g" type="Freeform" name="Candidate Services Template Instructions">
+        <children xmi:id="_A2bGmG4yEd6UmoywPugm9g" type="shadowRectangle">
+          <children xmi:id="_A2bGmW4yEd6UmoywPugm9g" type="DiagramName"/>
+          <children xmi:id="_A2bGmm4yEd6UmoywPugm9g" type="Description"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_A2bGm24yEd6UmoywPugm9g" fontHeight="24" description="Candidate Services Template" lineColor="16777215"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bGnG4yEd6UmoywPugm9g" x="1471" y="581" width="15212" height="1905"/>
+        </children>
+        <children xmi:id="_A2bGnW4yEd6UmoywPugm9g" type="Text">
+          <children xmi:id="_A2bGnm4yEd6UmoywPugm9g" type="DiagramName">
+            <element xsi:nil="true"/>
+          </children>
+          <children xmi:id="_A2bGn24yEd6UmoywPugm9g" type="Description">
+            <element xsi:nil="true"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_A2bGoG4yEd6UmoywPugm9g" fontName="Arial" fontHeight="10" description="The template is provided to help you identify and capture, using an independent model, candidate services.  This template duplicates the content from the Service Design template model that pertains to candidate services identification.  We provide this simplified template to enable organizations to better focus on candidate services identification as a separate work flow, if such is desired.  The structure of the model is synthesized from guidance provided in IBM’s Redbook, “Building SOA Solutions Using the Rational SDP”, in the five-part “Using SoaML” series of developerWorks articles by Jim Amsden, and in IBM Rational’s Rational Unified Process SOMA 2.9, which is provided with IBM Rational Method Composer.&#xD;&#xA;&#xD;&#xA;The template pre-supposes use of SoaML, the Object Management Group’s standard for describing service oriented systems.  SoaML defines SOA-specific extensions to the UML metamodel.  The current SoaML specification can be found at http://www.omg.org/spec/SoaML/Current.&#xD;&#xA;&#xD;&#xA;Navigate to the following diagram for specific information regarding the contents of this template and how the template should be used.&#xD;&#xA;&#xD;&#xA;Template Structure Overview (double-click the diagram link to the right)&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;In brief, to create your Candidate Services model using the building blocks, you will iteratively perform the activities described in the following diagram:&#xD;&#xA;&#xD;&#xA;&#x9;Identify Candidate Services (double-click the diagram link to the right)&#xD;&#xA;&#xD;&#xA;WHEN YOU NO LONGER NEED THESE INSTRUCTIONS:&#xD;&#xA;Delete this diagram (&quot;Candidate Services Template Instructions&quot;) from the model&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;"/>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bGoW4yEd6UmoywPugm9g" x="634" y="3170" width="16674"/>
+        </children>
+        <children xmi:id="_A2bGom4yEd6UmoywPugm9g" type="Note" element="_A2bIs24yEd6UmoywPugm9g">
+          <eAnnotations xmi:id="_A2bGo24yEd6UmoywPugm9g" source="DiagramLink"/>
+          <children xmi:id="_A2bGpG4yEd6UmoywPugm9g" type="DiagramName"/>
+          <children xmi:id="_A2bGpW4yEd6UmoywPugm9g" type="Description"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_A2bGpm4yEd6UmoywPugm9g" lineWidth="1"/>
+          <styles xmi:type="notation:TextStyle" xmi:id="_A2bGp24yEd6UmoywPugm9g"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_A2bGqG4yEd6UmoywPugm9g"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bGqW4yEd6UmoywPugm9g" x="16484" y="9193"/>
+        </children>
+        <children xmi:id="_3KYpYG42Ed6UmoywPugm9g" type="Note" element="_A2bJWW4yEd6UmoywPugm9g">
+          <eAnnotations xmi:id="_3KiaYm42Ed6UmoywPugm9g" source="DiagramLink"/>
+          <children xmi:id="_3KiaYG42Ed6UmoywPugm9g" type="DiagramName"/>
+          <children xmi:id="_3KiaYW42Ed6UmoywPugm9g" type="Description"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_3KYpYW42Ed6UmoywPugm9g" lineWidth="1"/>
+          <styles xmi:type="notation:TextStyle" xmi:id="_3KYpYm42Ed6UmoywPugm9g"/>
+          <styles xmi:type="notation:LineTypeStyle" xmi:id="_3KYpY242Ed6UmoywPugm9g"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3KYpZG42Ed6UmoywPugm9g" x="16484" y="11729"/>
+        </children>
+        <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_A2bGsm4yEd6UmoywPugm9g"/>
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+    <eAnnotations xmi:id="_A2bGs24yEd6UmoywPugm9g" source="http://www.eclipse.org/emf/2002/Ecore"/>
+    <eAnnotations xmi:id="_A2bGtG4yEd6UmoywPugm9g" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+      <details xmi:id="_A2bGtm4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBFragment" value="1"/>
+      <details xmi:id="_A2bGt24yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBArtifact" value="1"/>
+      <details xmi:id="_A2bGuG4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBFunction" value="1"/>
+      <details xmi:id="_A2bGuW4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBStructureDiagram" value="1"/>
+      <details xmi:id="_A2bGum4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBSubsystem" value="1"/>
+      <details xmi:id="_A2bGu24yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBSignal" value="1"/>
+      <details xmi:id="_A2bGvG4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBClass" value="1"/>
+      <details xmi:id="_A2bGvW4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBRelationship1" value="1"/>
+      <details xmi:id="_A2bGvm4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBRelationship2" value="1"/>
+      <details xmi:id="_A2bGv24yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBStateMachine1" value="1"/>
+      <details xmi:id="_A2bGwG4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBStateMachine2" value="1"/>
+      <details xmi:id="_A2bGwW4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBComponent" value="1"/>
+      <details xmi:id="_A2bGwm4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBDeploymentSpecification" value="1"/>
+      <details xmi:id="_A2bGw24yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBActivity1" value="1"/>
+      <details xmi:id="_A2bGxG4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBActivity2" value="1"/>
+      <details xmi:id="_A2bGxW4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBActivityDiagram" value="1"/>
+      <details xmi:id="_A2bGxm4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBAction" value="1"/>
+      <details xmi:id="_A2bGx24yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBActivity3" value="1"/>
+      <details xmi:id="_A2bGyG4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBPackage" value="1"/>
+      <details xmi:id="_A2bGyW4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBSequence1" value="1"/>
+      <details xmi:id="_A2bGym4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBSequence2" value="1"/>
+      <details xmi:id="_A2bGy24yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBSequenceDiagram" value="1"/>
+      <details xmi:id="_A2bGzG4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBLifeLine" value="1"/>
+      <details xmi:id="_A2bGzW4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBUsage" value="1"/>
+      <details xmi:id="_A2bGzm4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBFreeFormDiagram" value="1"/>
+      <details xmi:id="_A2bGz24yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBInstance" value="1"/>
+      <details xmi:id="_A2bG0G4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBComponentDiagram" value="1"/>
+      <details xmi:id="_A2bG0W4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBEvent1" value="1"/>
+      <details xmi:id="_A2bG0m4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBEvent2" value="1"/>
+      <details xmi:id="_A2bG024yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBTypes2" value="1"/>
+      <details xmi:id="_A2bG1G4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBTypes4" value="1"/>
+      <details xmi:id="_A2bG1W4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBConstraint" value="1"/>
+      <details xmi:id="_A2bG1m4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBCommunicationDiagram" value="1"/>
+      <details xmi:id="_A2bG124yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBInterface" value="1"/>
+      <details xmi:id="_A2bG2G4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBComment2" value="1"/>
+      <details xmi:id="_A2bG2W4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBCompositeStructure1" value="1"/>
+      <details xmi:id="_A2bG2m4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBCollaboration" value="1"/>
+      <details xmi:id="_A2bG224yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBStateChartDiagram" value="1"/>
+      <details xmi:id="_A2bG3G4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBRealization" value="1"/>
+      <details xmi:id="_A2bG3W4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBUseCase1" value="1"/>
+      <details xmi:id="_A2bG3m4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBUseCase2" value="1"/>
+      <details xmi:id="_A2bG324yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBClassDiagram" value="1"/>
+      <details xmi:id="_A2bG4G4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBUseCaseDiagram" value="1"/>
+      <details xmi:id="_A2bG4W4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBDeployment1" value="1"/>
+      <details xmi:id="_A2bG4m4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBDeployment2" value="1"/>
+      <details xmi:id="_A2bG424yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBDeploymentDiagram" value="1"/>
+      <details xmi:id="_A2bG5G4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBInteraction" value="1"/>
+      <details xmi:id="_A2bG5W4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBCommunication" value="1"/>
+      <details xmi:id="_A2bG5m4yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBCollaborationUse" value="1"/>
+      <details xmi:id="_A2bG524yEd6UmoywPugm9g" key="com.ibm.xtools.activities.umlBBRelationship3" value="1"/>
+      <details xmi:id="_S0zxkasKEd6O6qotfKbo6Q" key="com.ibm.xtools.modeling.soa.ml.uireduction.activity" value="2"/>
+      <details xmi:id="_S0zxkqsKEd6O6qotfKbo6Q" key="com.ibm.xtools.activities.umlBBFunctionTemplateParameter" value="1"/>
+      <details xmi:id="_S0zxk6sKEd6O6qotfKbo6Q" key="com.ibm.xtools.activities.umlBBDependancy" value="1"/>
+      <details xmi:id="_S0zxlKsKEd6O6qotfKbo6Q" key="com.ibm.xtools.activities.umlBBComment1" value="1"/>
+    </eAnnotations>
+    <ownedComment xmi:id="_A2bG6G4yEd6UmoywPugm9g" annotatedElement="_A2bGlW4yEd6UmoywPugm9g">
+      <body>Used&amp;nbsp;&amp;nbsp;to&amp;nbsp;create&amp;nbsp;a&amp;nbsp;new&amp;nbsp;candidate service&amp;nbsp;model using SoaML notation and the guidance provided in Rational SOMA 2.9.</body>
+    </ownedComment>
+    <packageImport xmi:id="_A2bG6W4yEd6UmoywPugm9g">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_A2bG-m4yEd6UmoywPugm9g" name="Candidate Services Identification  Building Blocks">
+      <eAnnotations xmi:id="_A2bG-24yEd6UmoywPugm9g" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_A2bIb24yEd6UmoywPugm9g" name="${Domain}">
+        <eAnnotations xmi:id="_A2bIcG4yEd6UmoywPugm9g" source="uml2.diagrams" references="_A2bIcW4yEd6UmoywPugm9g">
+          <contents xmi:type="notation:Diagram" xmi:id="_A2bIcW4yEd6UmoywPugm9g" type="Freeform" name="${Domain} - Overview">
+            <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_A2bIcm4yEd6UmoywPugm9g"/>
+            <element xsi:nil="true"/>
+          </contents>
+        </eAnnotations>
+        <eAnnotations xmi:id="_A2bIc24yEd6UmoywPugm9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_A2bIdG4yEd6UmoywPugm9g" key="BusinessDomain"/>
+        </eAnnotations>
+        <packagedElement xmi:type="uml:Component" xmi:id="_A2bIdW4yEd6UmoywPugm9g" name="${Functional Area}">
+          <eAnnotations xmi:id="_A2bIdm4yEd6UmoywPugm9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_-yqg4HI9Ed6YK5Mz5YyXJg" key="Functional Area"/>
+          </eAnnotations>
+          <eAnnotations xmi:id="_A2bIeG4yEd6UmoywPugm9g" source="uml2.diagrams">
+            <contents xmi:type="notation:Diagram" xmi:id="_A2bIeW4yEd6UmoywPugm9g" type="Freeform" name="${Functional Area} - Overview">
+              <children xmi:id="_TANNsHI9Ed6YK5Mz5YyXJg" element="_A2bIdW4yEd6UmoywPugm9g">
+                <children xmi:id="_TAW-sHI9Ed6YK5Mz5YyXJg" type="ImageCompartment">
+                  <layoutConstraint xmi:type="notation:Size" xmi:id="_TAW-sXI9Ed6YK5Mz5YyXJg" width="1320" height="1320"/>
+                </children>
+                <children xmi:id="_TAW-snI9Ed6YK5Mz5YyXJg" type="Stereotype"/>
+                <children xmi:id="_TAW-s3I9Ed6YK5Mz5YyXJg" type="Kind"/>
+                <children xmi:id="_TAW-tHI9Ed6YK5Mz5YyXJg" type="Name"/>
+                <children xmi:id="_TAW-tXI9Ed6YK5Mz5YyXJg" type="Parent"/>
+                <children xmi:id="_TAW-tnI9Ed6YK5Mz5YyXJg" visible="false" type="AttributeCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_TAW-t3I9Ed6YK5Mz5YyXJg"/>
+                </children>
+                <children xmi:id="_TAgIoHI9Ed6YK5Mz5YyXJg" visible="false" type="OperationCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_TAgIoXI9Ed6YK5Mz5YyXJg"/>
+                </children>
+                <children xmi:id="_TAgIonI9Ed6YK5Mz5YyXJg" visible="false" type="RealizationListCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_TAgIo3I9Ed6YK5Mz5YyXJg"/>
+                </children>
+                <children xmi:id="_TAgIpHI9Ed6YK5Mz5YyXJg" type="RequiredInterfaceListCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_TAgIpXI9Ed6YK5Mz5YyXJg"/>
+                </children>
+                <children xmi:id="_TAgIpnI9Ed6YK5Mz5YyXJg" type="ProvidedInterfaceListCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_TAgIp3I9Ed6YK5Mz5YyXJg"/>
+                </children>
+                <children xmi:id="_TAgIqHI9Ed6YK5Mz5YyXJg" visible="false" type="StructureCompartment">
+                  <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_TAgIqXI9Ed6YK5Mz5YyXJg"/>
+                </children>
+                <styles xmi:type="umlnotation:UMLComponentStyle" xmi:id="_TANNsXI9Ed6YK5Mz5YyXJg" showStereotype="Label"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TANNsnI9Ed6YK5Mz5YyXJg" x="9827" y="6023"/>
+              </children>
+              <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_A2bIem4yEd6UmoywPugm9g"/>
+              <element xsi:nil="true"/>
+            </contents>
+          </eAnnotations>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_A2bIe24yEd6UmoywPugm9g" name="Request" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_A2bIfG4yEd6UmoywPugm9g" name="Service" aggregation="composite"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_A2bIim4yEd6UmoywPugm9g" name="${Asset}">
+        <eAnnotations xmi:id="_A2bIi24yEd6UmoywPugm9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_A2bIjG4yEd6UmoywPugm9g" key="ExistingAsset"/>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_A2bIjW4yEd6UmoywPugm9g" name="${BusinessInterface}"/>
+      <packagedElement xmi:type="uml:Activity" xmi:id="_A2bIfW4yEd6UmoywPugm9g" name="${Process}">
+        <eAnnotations xmi:id="_A2bIfm4yEd6UmoywPugm9g" source="uml2.diagrams">
+          <contents xmi:type="notation:Diagram" xmi:id="_A2bIf24yEd6UmoywPugm9g" type="Activity" element="_A2bIfW4yEd6UmoywPugm9g" name="${Process}" measurementUnit="Himetric">
+            <children xmi:id="_A2bIgG4yEd6UmoywPugm9g" type="Activity Frame" element="_A2bIfW4yEd6UmoywPugm9g">
+              <children xmi:id="_A2bIgW4yEd6UmoywPugm9g" type="ActivityCompartment">
+                <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_A2bIgm4yEd6UmoywPugm9g"/>
+              </children>
+              <children xmi:id="_A2bIg24yEd6UmoywPugm9g" type="Name"/>
+              <styles xmi:type="umlnotation:UMLFrameStyle" xmi:id="_A2bIhG4yEd6UmoywPugm9g" showStereotype="Label"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bIhW4yEd6UmoywPugm9g" x="793" y="793"/>
+            </children>
+            <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_A2bIhm4yEd6UmoywPugm9g"/>
+            <styles xmi:type="notation:BooleanValueStyle" xmi:id="_A2bIh24yEd6UmoywPugm9g" name="support_hide_pins"/>
+          </contents>
+        </eAnnotations>
+        <eAnnotations xmi:id="_A2bIiG4yEd6UmoywPugm9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_A2bIiW4yEd6UmoywPugm9g" key="BusinessProcess"/>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_A2bIsW4yEd6UmoywPugm9g" name="Model template usage instructions">
+        <eAnnotations xmi:id="_A2bIsm4yEd6UmoywPugm9g" source="uml2.diagrams">
+          <contents xmi:type="notation:Diagram" xmi:id="_A2bIs24yEd6UmoywPugm9g" type="Freeform" name="Template Structure Overview">
+            <children xmi:id="_A2bItG4yEd6UmoywPugm9g" type="shadowRectangle">
+              <children xmi:id="_A2bItW4yEd6UmoywPugm9g" type="DiagramName"/>
+              <children xmi:id="_A2bItm4yEd6UmoywPugm9g" type="Description"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_A2bIt24yEd6UmoywPugm9g" fontHeight="24" description="Template Structure Overview" lineColor="16777215"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bIuG4yEd6UmoywPugm9g" x="1135" y="819" width="18653" height="1905"/>
+            </children>
+            <children xmi:id="_A2bIuW4yEd6UmoywPugm9g" type="Text">
+              <children xmi:id="_A2bIum4yEd6UmoywPugm9g" type="DiagramName">
+                <element xsi:nil="true"/>
+              </children>
+              <children xmi:id="_A2bIu24yEd6UmoywPugm9g" type="Description">
+                <element xsi:nil="true"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_A2bIvG4yEd6UmoywPugm9g" fontName="Arial" fontHeight="10" description="The template includes the following content:&#xD;&#xA;&#xD;&#xA;•    &#x9;A package entitled “Candidate Services Identification Building Blocks”.  This package contains chunks of model content that you can use to build the Candidate Services model more quickly.  The general techniques for using the building blocks located here and elsewhere are described in this diagram:&#xD;&#xA;&#xD;&#xA;&#x9;Capabilities Instructions (double-click the diagram link to the right)&#xD;&#xA;  &#xD;&#xA;•    &#x9;A &lt;&lt;perspective>> package entitled “0 – Capabilities (Candidate Services)”.    A Capability represents the ability to act and produce an outcome that achieves a result.  A Capability (or the need for such) can be identified from numerous sources, including business processes, existing computing systems, business goals, information models, etc.  Identifying Capabilities is a necessary precursor to determining which services will be exposed.  &#xD;&#xA;&#xD;&#xA;The Capabilities package can be used as the “home” for Capabilities that are identified by a particular project, perhaps prior to re-homing them to an organizationally-scoped Capabilities model.  This package also includes model structures that can be used to organize model elements, such a business goals, business rules, etc., which are inputs to Capabilities discovery.  The general techniques for using this package and its supporting building blocks are described in the previously - referenced diagram:&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;"/>
+              <element xsi:nil="true"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bIvW4yEd6UmoywPugm9g" x="951" y="2853" width="19020"/>
+            </children>
+            <children xmi:id="_A2bIvm4yEd6UmoywPugm9g" type="Note" element="_A2bKXW4yEd6UmoywPugm9g">
+              <eAnnotations xmi:id="_A2bIv24yEd6UmoywPugm9g" source="DiagramLink"/>
+              <children xmi:id="_A2bIwG4yEd6UmoywPugm9g" type="DiagramName"/>
+              <children xmi:id="_A2bIwW4yEd6UmoywPugm9g" type="Description"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_A2bIwm4yEd6UmoywPugm9g" lineWidth="1"/>
+              <styles xmi:type="notation:TextStyle" xmi:id="_A2bIw24yEd6UmoywPugm9g"/>
+              <styles xmi:type="notation:LineTypeStyle" xmi:id="_A2bIxG4yEd6UmoywPugm9g"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bIxW4yEd6UmoywPugm9g" x="17752" y="5072"/>
+            </children>
+            <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_A2bI5m4yEd6UmoywPugm9g"/>
+            <element xsi:nil="true"/>
+          </contents>
+        </eAnnotations>
+        <packagedElement xmi:type="uml:Package" xmi:id="_A2bJS24yEd6UmoywPugm9g" name="Sample Process Guidance">
+          <eAnnotations xmi:id="_A2bJTG4yEd6UmoywPugm9g" source="uml2.diagrams">
+            <contents xmi:type="notation:Diagram" xmi:id="_A2bJWW4yEd6UmoywPugm9g" type="Freeform" name="Identify Candidate Services">
+              <children xmi:id="_A2bJWm4yEd6UmoywPugm9g" type="Text">
+                <children xmi:id="_A2bJW24yEd6UmoywPugm9g" type="DiagramName">
+                  <element xsi:nil="true"/>
+                </children>
+                <children xmi:id="_A2bJXG4yEd6UmoywPugm9g" type="Description">
+                  <element xsi:nil="true"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_A2bJXW4yEd6UmoywPugm9g" fontName="Arial" fontHeight="10" description="•    &#x9;Populate the “0 – Capabilities (Candidate Services)” &lt;&lt;perspective>> package with business domain, business goal, information model, and existing asset elements which will be used to discover or derive Capabilities&#xD;&#xA;&#xD;&#xA;•    &#x9;Discover/derive Capabilities using one or more procedures, such as those which are described in Rational’s Service Identification practice, which is part of IBM Rational SOMA 2.9 (Rational SOMA 2.9); “Using SoaML Part 1: Service Identification”, developerWorks article by Jim Amsden; or the IBM Redbook, “Building SOA Systems using the Rational SDP”.  Create the new Capabilities in the previously-referenced package.&#xD;&#xA;&#xD;&#xA;•    &#x9;As you create new Capabilities, make the effort to understand how they might relate to each other – for example, does Capability A use Capability B?  Document this understanding by establishing appropriate relationships (associations, generalizations, etc.) between the Capabilities.             "/>
+                <element xsi:nil="true"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bJXm4yEd6UmoywPugm9g" x="634" y="3170" width="13677"/>
+              </children>
+              <children xmi:id="_A2bJX24yEd6UmoywPugm9g" type="Text">
+                <children xmi:id="_A2bJYG4yEd6UmoywPugm9g" type="DiagramName">
+                  <element xsi:nil="true"/>
+                </children>
+                <children xmi:id="_A2bJYW4yEd6UmoywPugm9g" type="Description">
+                  <element xsi:nil="true"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_A2bJYm4yEd6UmoywPugm9g" fontHeight="24" description="Identify Capabilities (Candidate Services)"/>
+                <element xsi:nil="true"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bJY24yEd6UmoywPugm9g" x="529" y="1375"/>
+              </children>
+              <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_A2bJZG4yEd6UmoywPugm9g"/>
+              <element xsi:nil="true"/>
+            </contents>
+          </eAnnotations>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_A2bJ0W4yEd6UmoywPugm9g" name="Template and Building Block Usage Guidance">
+          <eAnnotations xmi:id="_A2bJ0m4yEd6UmoywPugm9g" source="uml2.diagrams">
+            <contents xmi:type="notation:Diagram" xmi:id="_A2bKXW4yEd6UmoywPugm9g" type="Freeform" name="Capabilities Instructions">
+              <children xmi:id="_A2bKXm4yEd6UmoywPugm9g" type="Text">
+                <children xmi:id="_A2bKX24yEd6UmoywPugm9g" type="DiagramName">
+                  <element xsi:nil="true"/>
+                </children>
+                <children xmi:id="_A2bKYG4yEd6UmoywPugm9g" type="Description">
+                  <element xsi:nil="true"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_A2bKYW4yEd6UmoywPugm9g" fontHeight="24" description="Capabilities Instructions"/>
+                <element xsi:nil="true"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bKYm4yEd6UmoywPugm9g" x="635" y="740"/>
+              </children>
+              <children xmi:id="_A2bKY24yEd6UmoywPugm9g" type="Text">
+                <children xmi:id="_A2bKZG4yEd6UmoywPugm9g" type="DiagramName">
+                  <element xsi:nil="true"/>
+                </children>
+                <children xmi:id="_A2bKZW4yEd6UmoywPugm9g" type="Description">
+                  <element xsi:nil="true"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_A2bKZm4yEd6UmoywPugm9g" fontName="Arial" fontHeight="10" description="The “0 – Capabilities (Candidate Services)” package is provided to organize SoaML Capabilities and UML elements that represent resources from which Capabilities can be identified.  Candidate Services – perhaps a better-known term – often can be mapped 1-to-1 to Capabilities.  So, Capabilities can be identified using any of the methods that have been described for identifying Candidate Services.  See, for example, Rational’s Service Identification practice, which is part of IBM Rational SOMA 2.9 (Rational SOMA 2.9); “Using SoaML Part 1: Service Identification”, developerWorks article by Jim Amsden; or the IBM Redbook, “Building SOA Systems using the Rational SDP”.  &#xD;&#xA;&#xD;&#xA;There is a sub-package, “Capabilities Identification Sources”, which can be used as the “home” for the resources used in service identification.  These include the following:&#xD;&#xA;•    &#x9;Business Domain Decomposition elements, such as business processes, business rules, business domains and business systems, and business services;&#xD;&#xA;•    &#x9;Business Goals;&#xD;&#xA;•    &#x9;Business Rules;&#xD;&#xA;•    &#x9;Existing Assets (such as JEE components, CICS transactions, etc); and&#xD;&#xA;•    &#x9;Information Model elements&#xD;&#xA;&#xD;&#xA;It is suggested that these elements, when created in this model, be placed in the appropriate sub-package under the “Capabilities Identification Sources” package.&#xD;&#xA;&#xD;&#xA;Even though there is a placeholder in this package hierarchy for business processes (described using Activity diagrams), such business processes also can be represented in Rational Software Architect (RSA) using the following:&#xD;&#xA;•    &#x9;WebSphere Business Modeler business models;&#xD;&#xA;•    &#x9;BPMN-based business processes, developed directly in RSA;&#xD;&#xA;•    &#x9;Business processes imported from Rational Requirements Composer.&#xD;&#xA;&#xD;&#xA;Building blocks for many of the precursor resources can be found either in the sub-packages under “Capabilities Identification Sources” or under the Candidate Services Identification Building Blocks package.&#xD;&#xA;&#xD;&#xA;Capabilities themselves should be homed in the “Capabilities” package that is found under the “0 – Capabilities (Candidate Services)” &lt;&lt;perspective>> package.  They can be created using several tools, including Project Explorer context menus, Class, Component, and FreeForm diagram action bar menu items, and the Capability drawing palette tool.  &#xD;&#xA;&#xD;&#xA;It is suggested that the source of a given Capability be indicated diagrammatically.  Place a Capability and the element(s) from which it is derived onto a diagram under the Capabilities package, and create a &lt;&lt;Derive>> dependency from the Capability to its source element(s).&#xD;&#xA;&#xD;&#xA;TO USE A BUILDING BLOCK:&#xD;&#xA;&#xD;&#xA;1) In the Project Explorer, select the element to be copied, right-click, and select &quot;Copy&quot;.  Move the cursor to where the new element is to be created, right-click, and select &quot;Paste&quot;.&#xD;&#xA;&#xD;&#xA;2) Right-click over the new element, choose Find/Replace to change the placeholder text ${...} to the desired name.&#xD;&#xA;"/>
+                <element xsi:nil="true"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bKZ24yEd6UmoywPugm9g" x="-4245" y="2222" width="18649"/>
+              </children>
+              <children xmi:id="_A2bKaG4yEd6UmoywPugm9g" type="Activity Frame" element="_A2kNvG4yEd6UmoywPugm9g">
+                <children xmi:id="_A2bKaW4yEd6UmoywPugm9g" type="ActivityCompartment">
+                  <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_A2bKam4yEd6UmoywPugm9g"/>
+                </children>
+                <children xmi:id="_A2bKa24yEd6UmoywPugm9g" type="Name"/>
+                <styles xmi:type="umlnotation:UMLFrameStyle" xmi:id="_A2bKbG4yEd6UmoywPugm9g" showListStereotype="Text" showStereotype="Text"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bKbW4yEd6UmoywPugm9g" x="-3830" y="20896"/>
+              </children>
+              <children xmi:id="_A2bKbm4yEd6UmoywPugm9g" element="_A2kNt24yEd6UmoywPugm9g">
+                <children xmi:id="_A2bKb24yEd6UmoywPugm9g" type="ImageCompartment">
+                  <layoutConstraint xmi:type="notation:Size" xmi:id="_A2bKcG4yEd6UmoywPugm9g" width="1320" height="1320"/>
+                </children>
+                <children xmi:id="_A2bKcW4yEd6UmoywPugm9g" type="Stereotype"/>
+                <children xmi:id="_A2bKcm4yEd6UmoywPugm9g" type="Name"/>
+                <children xmi:id="_A2bKc24yEd6UmoywPugm9g" type="Parent"/>
+                <children xmi:id="_A2bKdG4yEd6UmoywPugm9g" type="AttributeCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_A2bKdW4yEd6UmoywPugm9g"/>
+                </children>
+                <children xmi:id="_A2bKdm4yEd6UmoywPugm9g" type="OperationCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_A2bKd24yEd6UmoywPugm9g"/>
+                </children>
+                <children xmi:id="_A2bKeG4yEd6UmoywPugm9g" visible="false" type="SignalCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_A2bKeW4yEd6UmoywPugm9g"/>
+                </children>
+                <children xmi:id="_A2bKem4yEd6UmoywPugm9g" visible="false" type="StructureCompartment">
+                  <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_A2bKe24yEd6UmoywPugm9g"/>
+                </children>
+                <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_A2bKfG4yEd6UmoywPugm9g" showStereotype="Label"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bKfW4yEd6UmoywPugm9g" x="-3804" y="23458"/>
+              </children>
+              <children xmi:id="_A2bKnW4yEd6UmoywPugm9g" element="_A2kNsm4yEd6UmoywPugm9g">
+                <children xmi:id="_A2bKnm4yEd6UmoywPugm9g" type="ImageCompartment">
+                  <layoutConstraint xmi:type="notation:Size" xmi:id="_A2bKn24yEd6UmoywPugm9g" width="530" height="530"/>
+                </children>
+                <children xmi:id="_A2bKoG4yEd6UmoywPugm9g" type="Stereotype"/>
+                <children xmi:id="_A2bKoW4yEd6UmoywPugm9g" type="Kind"/>
+                <children xmi:id="_A2bKom4yEd6UmoywPugm9g" type="Name"/>
+                <children xmi:id="_A2bKo24yEd6UmoywPugm9g" type="Parent"/>
+                <children xmi:id="_A2bKpG4yEd6UmoywPugm9g" type="AttributeCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_A2bKpW4yEd6UmoywPugm9g"/>
+                </children>
+                <children xmi:id="_A2bKpm4yEd6UmoywPugm9g" type="OperationCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_A2bKp24yEd6UmoywPugm9g"/>
+                </children>
+                <children xmi:id="_A2bKqG4yEd6UmoywPugm9g" visible="false" type="SignalCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_A2bKqW4yEd6UmoywPugm9g"/>
+                </children>
+                <styles xmi:type="umlnotation:UMLClassifierStyle" xmi:id="_A2bKqm4yEd6UmoywPugm9g" showStereotype="Label" useClassifierShape="true"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bKq24yEd6UmoywPugm9g" x="-3804" y="30115"/>
+              </children>
+              <children xmi:id="_A2bKrG4yEd6UmoywPugm9g" element="_A2kNlG4yEd6UmoywPugm9g">
+                <children xmi:id="_A2bKrW4yEd6UmoywPugm9g" type="ImageCompartment">
+                  <layoutConstraint xmi:type="notation:Size" xmi:id="_A2bKrm4yEd6UmoywPugm9g" width="1320" height="1320"/>
+                </children>
+                <children xmi:id="_A2bKr24yEd6UmoywPugm9g" type="Stereotype"/>
+                <children xmi:id="_A2bKsG4yEd6UmoywPugm9g" type="Name"/>
+                <children xmi:id="_A2bKsW4yEd6UmoywPugm9g" type="Parent"/>
+                <children xmi:id="_A2bKsm4yEd6UmoywPugm9g" type="AttributeCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_A2bKs24yEd6UmoywPugm9g"/>
+                </children>
+                <children xmi:id="_A2bKtG4yEd6UmoywPugm9g" type="OperationCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_A2bKtW4yEd6UmoywPugm9g"/>
+                </children>
+                <children xmi:id="_A2bKtm4yEd6UmoywPugm9g" visible="false" type="SignalCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_A2bKt24yEd6UmoywPugm9g"/>
+                </children>
+                <children xmi:id="_A2bKuG4yEd6UmoywPugm9g" visible="false" type="StructureCompartment">
+                  <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_A2bKuW4yEd6UmoywPugm9g"/>
+                </children>
+                <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_A2bKum4yEd6UmoywPugm9g" showStereotype="Label"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bKu24yEd6UmoywPugm9g" x="-3804" y="32675"/>
+              </children>
+              <children xmi:id="_A2bKvG4yEd6UmoywPugm9g" element="_A2kNmW4yEd6UmoywPugm9g">
+                <children xmi:id="_A2bKvW4yEd6UmoywPugm9g" type="ImageCompartment">
+                  <layoutConstraint xmi:type="notation:Size" xmi:id="_A2bKvm4yEd6UmoywPugm9g" width="1320" height="1320"/>
+                </children>
+                <children xmi:id="_A2bKv24yEd6UmoywPugm9g" type="Stereotype"/>
+                <children xmi:id="_A2bKwG4yEd6UmoywPugm9g" type="Kind"/>
+                <children xmi:id="_A2bKwW4yEd6UmoywPugm9g" type="Name"/>
+                <children xmi:id="_A2bKwm4yEd6UmoywPugm9g" type="Parent"/>
+                <children xmi:id="_A2bKw24yEd6UmoywPugm9g" visible="false" type="AttributeCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_A2bKxG4yEd6UmoywPugm9g"/>
+                </children>
+                <children xmi:id="_A2bKxW4yEd6UmoywPugm9g" visible="false" type="OperationCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_A2bKxm4yEd6UmoywPugm9g"/>
+                </children>
+                <children xmi:id="_A2bKx24yEd6UmoywPugm9g" visible="false" type="RealizationListCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_A2bKyG4yEd6UmoywPugm9g"/>
+                </children>
+                <children xmi:id="_A2bKyW4yEd6UmoywPugm9g" type="RequiredInterfaceListCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_A2bKym4yEd6UmoywPugm9g"/>
+                </children>
+                <children xmi:id="_A2bKy24yEd6UmoywPugm9g" type="ProvidedInterfaceListCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_A2bKzG4yEd6UmoywPugm9g"/>
+                </children>
+                <children xmi:id="_A2bKzW4yEd6UmoywPugm9g" visible="false" type="StructureCompartment">
+                  <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_A2bKzm4yEd6UmoywPugm9g"/>
+                </children>
+                <styles xmi:type="umlnotation:UMLComponentStyle" xmi:id="_A2bKz24yEd6UmoywPugm9g" showStereotype="Label"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bK0G4yEd6UmoywPugm9g" x="-3804" y="35108"/>
+              </children>
+              <children xmi:id="_A2bK0W4yEd6UmoywPugm9g" type="Note">
+                <children xmi:id="_A2bK0m4yEd6UmoywPugm9g" type="DiagramName">
+                  <element xsi:nil="true"/>
+                </children>
+                <children xmi:id="_A2bK024yEd6UmoywPugm9g" type="Description">
+                  <element xsi:nil="true"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_A2bK1G4yEd6UmoywPugm9g" description="A business process, represented as a UML Activity.&amp;nbsp; This building block is available both from the Business Domain&#xD;&#xA;Decomposition :: Business Process Descriptions&amp;nbsp;and&amp;nbsp;Candidate Services Identification Building Blocks&#xD;&#xA;&amp;nbsp;packages" fillColor="13369343" lineColor="6737151" lineWidth="1"/>
+                <styles xmi:type="notation:TextStyle" xmi:id="_A2bK1W4yEd6UmoywPugm9g"/>
+                <styles xmi:type="notation:LineTypeStyle" xmi:id="_A2bK1m4yEd6UmoywPugm9g"/>
+                <element xsi:nil="true"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bK124yEd6UmoywPugm9g" x="3170" y="20605" width="10132"/>
+              </children>
+              <children xmi:id="_A2bK2G4yEd6UmoywPugm9g" type="Note">
+                <children xmi:id="_A2bK2W4yEd6UmoywPugm9g" type="DiagramName">
+                  <element xsi:nil="true"/>
+                </children>
+                <children xmi:id="_A2bK2m4yEd6UmoywPugm9g" type="Description">
+                  <element xsi:nil="true"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_A2bK224yEd6UmoywPugm9g" description="A Business Rule, available from the&amp;nbsp;Business Domain Decomposition :: Business Rules package" fillColor="13369343" lineColor="6737151" lineWidth="1"/>
+                <styles xmi:type="notation:TextStyle" xmi:id="_A2bK3G4yEd6UmoywPugm9g"/>
+                <styles xmi:type="notation:LineTypeStyle" xmi:id="_A2bK3W4yEd6UmoywPugm9g"/>
+                <element xsi:nil="true"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bK3m4yEd6UmoywPugm9g" x="3170" y="23458" width="9154"/>
+              </children>
+              <children xmi:id="_A2bK324yEd6UmoywPugm9g" type="Note">
+                <children xmi:id="_A2bK4G4yEd6UmoywPugm9g" type="DiagramName">
+                  <element xsi:nil="true"/>
+                </children>
+                <children xmi:id="_A2bK4W4yEd6UmoywPugm9g" type="Description">
+                  <element xsi:nil="true"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_A2bK4m4yEd6UmoywPugm9g" description="&lt;p>&#xD;&#xA;    A Business Domain, used to express a competency of the business.&amp;nbsp; A Business Domain is a container for&#xD;&#xA;    &amp;nbsp;Functional&amp;nbsp; Areas.&amp;nbsp;&#xD;&#xA;&lt;/p>" fillColor="13369343" lineColor="6737151" lineWidth="1"/>
+                <styles xmi:type="notation:TextStyle" xmi:id="_A2bK424yEd6UmoywPugm9g"/>
+                <styles xmi:type="notation:LineTypeStyle" xmi:id="_A2bK5G4yEd6UmoywPugm9g"/>
+                <element xsi:nil="true"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bK5W4yEd6UmoywPugm9g" x="3170" y="25677" width="9128"/>
+              </children>
+              <children xmi:id="_A2bK5m4yEd6UmoywPugm9g" type="Note">
+                <children xmi:id="_A2bK524yEd6UmoywPugm9g" type="DiagramName">
+                  <element xsi:nil="true"/>
+                </children>
+                <children xmi:id="_A2bK6G4yEd6UmoywPugm9g" type="Description">
+                  <element xsi:nil="true"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_A2bK6W4yEd6UmoywPugm9g" description="&lt;p>&#xD;&#xA;    Functional Area, which is an independent capability within a business.&amp;nbsp;&amp;nbsp;Functional Areas&amp;nbsp;expose and&#xD;&#xA;    &amp;nbsp;accept &amp;nbsp;services through ServicePoints and RequestPoints, which&amp;nbsp;are typed using Business&#xD;&#xA;    Services.&amp;nbsp; The&amp;nbsp;&amp;nbsp;Functional Area&amp;nbsp;building block is available under the Business Domain building&#xD;&#xA;    block.&amp;nbsp; The Business Service&amp;nbsp; building block is available under the Functional Areas Description :: Business&#xD;&#xA;    Services and the Candidate Services Identification Building Blocks packages.&#xD;&#xA;&lt;/p>" fillColor="13369343" lineColor="6737151" lineWidth="1"/>
+                <styles xmi:type="notation:TextStyle" xmi:id="_A2bK6m4yEd6UmoywPugm9g"/>
+                <styles xmi:type="notation:LineTypeStyle" xmi:id="_A2bK624yEd6UmoywPugm9g"/>
+                <element xsi:nil="true"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bK7G4yEd6UmoywPugm9g" x="3170" y="27896" width="9153" height="4121"/>
+              </children>
+              <children xmi:id="_A2bK7W4yEd6UmoywPugm9g" type="Note">
+                <children xmi:id="_A2bK7m4yEd6UmoywPugm9g" type="DiagramName">
+                  <element xsi:nil="true"/>
+                </children>
+                <children xmi:id="_A2bK724yEd6UmoywPugm9g" type="Description">
+                  <element xsi:nil="true"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_A2bK8G4yEd6UmoywPugm9g" description="A Business Goal; available under the Business Goals package.&amp;nbsp; Can be created by stereotyping a Class as&#xD;&#xA;&amp;lt;&amp;lt;BusinessGoal&amp;gt;&amp;gt;." fillColor="13369343" lineColor="6737151" lineWidth="1"/>
+                <styles xmi:type="notation:TextStyle" xmi:id="_A2bK8W4yEd6UmoywPugm9g"/>
+                <styles xmi:type="notation:LineTypeStyle" xmi:id="_A2bK8m4yEd6UmoywPugm9g"/>
+                <element xsi:nil="true"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bK824yEd6UmoywPugm9g" x="3170" y="32753" width="9109"/>
+              </children>
+              <children xmi:id="_A2bK9G4yEd6UmoywPugm9g" type="Note">
+                <children xmi:id="_A2bK9W4yEd6UmoywPugm9g" type="DiagramName">
+                  <element xsi:nil="true"/>
+                </children>
+                <children xmi:id="_A2bK9m4yEd6UmoywPugm9g" type="Description">
+                  <element xsi:nil="true"/>
+                </children>
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_A2bK924yEd6UmoywPugm9g" description="An&amp;nbsp;Existing&amp;nbsp;Asset;&amp;nbsp;available&amp;nbsp;from&amp;nbsp;the&amp;nbsp;Existing&amp;nbsp;Assets&amp;nbsp;and&amp;nbsp;the&amp;nbsp;Candidate&amp;nbsp;&#xD;&#xA;Services Identification Building Blocks&amp;nbsp;packages." fillColor="13369343" lineColor="6737151" lineWidth="1"/>
+                <styles xmi:type="notation:TextStyle" xmi:id="_A2bK-G4yEd6UmoywPugm9g"/>
+                <styles xmi:type="notation:LineTypeStyle" xmi:id="_A2bK-W4yEd6UmoywPugm9g"/>
+                <element xsi:nil="true"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2bK-m4yEd6UmoywPugm9g" x="3170" y="35187" width="9496"/>
+              </children>
+              <children xmi:id="_ht5p0HJAEd6YK5Mz5YyXJg" element="_A2bIb24yEd6UmoywPugm9g">
+                <children xmi:id="_ht5p03JAEd6YK5Mz5YyXJg" type="ImageCompartment">
+                  <layoutConstraint xmi:type="notation:Size" xmi:id="_ht5p1HJAEd6YK5Mz5YyXJg" width="1320" height="1320"/>
+                </children>
+                <children xmi:id="_ht5p1XJAEd6YK5Mz5YyXJg" type="Stereotype"/>
+                <children xmi:id="_ht5p1nJAEd6YK5Mz5YyXJg" type="Name"/>
+                <children xmi:id="_ht5p13JAEd6YK5Mz5YyXJg" type="Parent"/>
+                <children xmi:id="_ht5p2HJAEd6YK5Mz5YyXJg" type="PackageContents">
+                  <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_ht5p2XJAEd6YK5Mz5YyXJg" canonical="false" collapsed="true"/>
+                </children>
+                <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_ht5p0XJAEd6YK5Mz5YyXJg" showStereotype="Label"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ht5p0nJAEd6YK5Mz5YyXJg" x="-3804" y="25677"/>
+              </children>
+              <children xmi:id="_j7dtkHJAEd6YK5Mz5YyXJg" element="_A2bIdW4yEd6UmoywPugm9g">
+                <children xmi:id="_j7dtk3JAEd6YK5Mz5YyXJg" type="ImageCompartment">
+                  <layoutConstraint xmi:type="notation:Size" xmi:id="_j7dtlHJAEd6YK5Mz5YyXJg" width="1320" height="1320"/>
+                </children>
+                <children xmi:id="_j7wogHJAEd6YK5Mz5YyXJg" type="Stereotype"/>
+                <children xmi:id="_j7wogXJAEd6YK5Mz5YyXJg" type="Kind"/>
+                <children xmi:id="_j7wognJAEd6YK5Mz5YyXJg" type="Name"/>
+                <children xmi:id="_j7wog3JAEd6YK5Mz5YyXJg" type="Parent"/>
+                <children xmi:id="_j7wohHJAEd6YK5Mz5YyXJg" visible="false" type="AttributeCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_j7wohXJAEd6YK5Mz5YyXJg"/>
+                </children>
+                <children xmi:id="_j7wohnJAEd6YK5Mz5YyXJg" visible="false" type="OperationCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_j7woh3JAEd6YK5Mz5YyXJg"/>
+                </children>
+                <children xmi:id="_j7woiHJAEd6YK5Mz5YyXJg" visible="false" type="RealizationListCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_j7woiXJAEd6YK5Mz5YyXJg"/>
+                </children>
+                <children xmi:id="_j7woinJAEd6YK5Mz5YyXJg" type="RequiredInterfaceListCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_j7woi3JAEd6YK5Mz5YyXJg"/>
+                </children>
+                <children xmi:id="_j7wojHJAEd6YK5Mz5YyXJg" type="ProvidedInterfaceListCompartment">
+                  <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_j7wojXJAEd6YK5Mz5YyXJg"/>
+                </children>
+                <children xmi:id="_j7wojnJAEd6YK5Mz5YyXJg" visible="false" type="StructureCompartment">
+                  <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_j7woj3JAEd6YK5Mz5YyXJg"/>
+                </children>
+                <styles xmi:type="umlnotation:UMLComponentStyle" xmi:id="_j7dtkXJAEd6YK5Mz5YyXJg" showStereotype="Label"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_j7dtknJAEd6YK5Mz5YyXJg" x="-3170" y="27896"/>
+              </children>
+              <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_A2bK-24yEd6UmoywPugm9g"/>
+              <element xsi:nil="true"/>
+              <edges xmi:id="_A2bK_24yEd6UmoywPugm9g" type="NoteAttachment" source="_A2bKaG4yEd6UmoywPugm9g" target="_A2bK0W4yEd6UmoywPugm9g">
+                <styles xmi:type="notation:ConnectorStyle" xmi:id="_A2bLAG4yEd6UmoywPugm9g" lineWidth="1"/>
+                <styles xmi:type="notation:ArrowStyle" xmi:id="_A2bLAW4yEd6UmoywPugm9g"/>
+                <styles xmi:type="notation:LineTypeStyle" xmi:id="_A2bLAm4yEd6UmoywPugm9g"/>
+                <element xsi:nil="true"/>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A2bLA24yEd6UmoywPugm9g" points="[30, 2, -164, 1]$[195, -22, 1, -23]"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A2bLBG4yEd6UmoywPugm9g" id="(0.09011054,0.47471264)"/>
+              </edges>
+              <edges xmi:id="_A2bLBW4yEd6UmoywPugm9g" type="NoteAttachment" source="_A2bKbm4yEd6UmoywPugm9g" target="_A2bK2G4yEd6UmoywPugm9g">
+                <styles xmi:type="notation:ConnectorStyle" xmi:id="_A2bLBm4yEd6UmoywPugm9g" lineWidth="1"/>
+                <styles xmi:type="notation:ArrowStyle" xmi:id="_A2bLB24yEd6UmoywPugm9g"/>
+                <styles xmi:type="notation:LineTypeStyle" xmi:id="_A2bLCG4yEd6UmoywPugm9g"/>
+                <element xsi:nil="true"/>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A2bLCW4yEd6UmoywPugm9g" points="[38, 0, -148, 1]$[187, 19, 1, 20]"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A2bLCm4yEd6UmoywPugm9g" id="(0.10836793,0.5246455)"/>
+              </edges>
+              <edges xmi:id="_A2bLF24yEd6UmoywPugm9g" type="NoteAttachment" source="_A2bKnW4yEd6UmoywPugm9g" target="_A2bK5m4yEd6UmoywPugm9g">
+                <styles xmi:type="notation:ConnectorStyle" xmi:id="_A2bLGG4yEd6UmoywPugm9g" lineWidth="1"/>
+                <styles xmi:type="notation:ArrowStyle" xmi:id="_A2bLGW4yEd6UmoywPugm9g"/>
+                <styles xmi:type="notation:LineTypeStyle" xmi:id="_A2bLGm4yEd6UmoywPugm9g"/>
+                <element xsi:nil="true"/>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A2bLG24yEd6UmoywPugm9g" points="[64, -6, -121, 11]$[186, 13, 1, 30]"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A2bLHG4yEd6UmoywPugm9g" id="(0.20091774,0.6956397)"/>
+              </edges>
+              <edges xmi:id="_A2bLHW4yEd6UmoywPugm9g" type="NoteAttachment" source="_A2bKrG4yEd6UmoywPugm9g" target="_A2bK7W4yEd6UmoywPugm9g">
+                <styles xmi:type="notation:ConnectorStyle" xmi:id="_A2bLHm4yEd6UmoywPugm9g" lineWidth="1"/>
+                <styles xmi:type="notation:ArrowStyle" xmi:id="_A2bLH24yEd6UmoywPugm9g"/>
+                <styles xmi:type="notation:LineTypeStyle" xmi:id="_A2bLIG4yEd6UmoywPugm9g"/>
+                <element xsi:nil="true"/>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A2bLIW4yEd6UmoywPugm9g" points="[38, 2, -145, 1]$[184, 21, 1, 20]"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A2bLIm4yEd6UmoywPugm9g" id="(0.09737622,0.5178933)"/>
+              </edges>
+              <edges xmi:id="_A2bLI24yEd6UmoywPugm9g" type="NoteAttachment" source="_A2bKvG4yEd6UmoywPugm9g" target="_A2bK9G4yEd6UmoywPugm9g">
+                <styles xmi:type="notation:ConnectorStyle" xmi:id="_A2bLJG4yEd6UmoywPugm9g" lineWidth="1"/>
+                <styles xmi:type="notation:ArrowStyle" xmi:id="_A2bLJW4yEd6UmoywPugm9g"/>
+                <styles xmi:type="notation:LineTypeStyle" xmi:id="_A2bLJm4yEd6UmoywPugm9g"/>
+                <element xsi:nil="true"/>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A2bLJ24yEd6UmoywPugm9g" points="[40, -1, -151, 4]$[192, -24, 1, -19]"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A2bLKG4yEd6UmoywPugm9g" id="(0.13116898,0.4469953)"/>
+              </edges>
+              <edges xmi:id="_j7wokHJAEd6YK5Mz5YyXJg" type="OwnedElement" source="_ht5p0HJAEd6YK5Mz5YyXJg" target="_j7dtkHJAEd6YK5Mz5YyXJg">
+                <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_j7wokXJAEd6YK5Mz5YyXJg" lineWidth="1" showStereotype="Text"/>
+                <element xsi:nil="true"/>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_j7woknJAEd6YK5Mz5YyXJg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+              </edges>
+              <edges xmi:id="_nIzMQHJAEd6YK5Mz5YyXJg" type="NoteAttachment" source="_A2bK324yEd6UmoywPugm9g" target="_ht5p0HJAEd6YK5Mz5YyXJg">
+                <styles xmi:type="notation:ConnectorStyle" xmi:id="_nIzMQXJAEd6YK5Mz5YyXJg" lineWidth="1"/>
+                <styles xmi:type="notation:ArrowStyle" xmi:id="_nIzMQnJAEd6YK5Mz5YyXJg"/>
+                <styles xmi:type="notation:LineTypeStyle" xmi:id="_nIzMQ3JAEd6YK5Mz5YyXJg"/>
+                <element xsi:nil="true"/>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nIzMRHJAEd6YK5Mz5YyXJg" points="[-22, 2, 205, -8]$[-169, 11, 58, 1]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nIzMRXJAEd6YK5Mz5YyXJg" id="(0.06430762,0.4024308)"/>
+              </edges>
+              <edges xmi:id="_n5YUoHJAEd6YK5Mz5YyXJg" type="NoteAttachment" source="_A2bK5m4yEd6UmoywPugm9g" target="_j7dtkHJAEd6YK5Mz5YyXJg">
+                <styles xmi:type="notation:ConnectorStyle" xmi:id="_n5YUoXJAEd6YK5Mz5YyXJg" lineWidth="1"/>
+                <styles xmi:type="notation:ArrowStyle" xmi:id="_n5YUonJAEd6YK5Mz5YyXJg"/>
+                <styles xmi:type="notation:LineTypeStyle" xmi:id="_n5YUo3JAEd6YK5Mz5YyXJg"/>
+                <element xsi:nil="true"/>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n5YUpHJAEd6YK5Mz5YyXJg" points="[-58, -1, 160, -3]$[-139, -14, 79, -16]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_n5YUpXJAEd6YK5Mz5YyXJg" id="(0.16814159,0.18393594)"/>
+              </edges>
+            </contents>
+          </eAnnotations>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_A2kNhm4yEd6UmoywPugm9g" name="0 - Capabilities (Candidate Services)">
+      <eAnnotations xmi:id="_A2kNh24yEd6UmoywPugm9g" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_A2kNiG4yEd6UmoywPugm9g" name="Capabilities">
+        <eAnnotations xmi:id="_A2kNiW4yEd6UmoywPugm9g" source="uml2.diagrams">
+          <contents xmi:type="notation:Diagram" xmi:id="_A2kNim4yEd6UmoywPugm9g" type="Freeform" name="Capabilities -- Overview">
+            <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_A2kNi24yEd6UmoywPugm9g"/>
+            <element xsi:nil="true"/>
+          </contents>
+          <contents xmi:type="notation:Diagram" xmi:id="_A2kNjG4yEd6UmoywPugm9g" type="Freeform" name="Capabilities -- Taxonomy">
+            <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_A2kNjW4yEd6UmoywPugm9g"/>
+            <element xsi:nil="true"/>
+          </contents>
+        </eAnnotations>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_A2kNjm4yEd6UmoywPugm9g" name="Capabilities Identification Sources">
+        <eAnnotations xmi:id="_A2kNj24yEd6UmoywPugm9g" source="uml2.diagrams"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_A2kNkG4yEd6UmoywPugm9g" name="Business Goals">
+          <eAnnotations xmi:id="_A2kNkW4yEd6UmoywPugm9g" source="uml2.diagrams">
+            <contents xmi:type="notation:Diagram" xmi:id="_A2kNkm4yEd6UmoywPugm9g" type="Freeform" name="Business Goals -- Overview">
+              <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_A2kNk24yEd6UmoywPugm9g"/>
+              <element xsi:nil="true"/>
+            </contents>
+          </eAnnotations>
+          <packagedElement xmi:type="uml:Class" xmi:id="_A2kNlG4yEd6UmoywPugm9g" name="${Goal}"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_A2kNlW4yEd6UmoywPugm9g" name="Existing Assets">
+          <eAnnotations xmi:id="_A2kNlm4yEd6UmoywPugm9g" source="uml2.diagrams">
+            <contents xmi:type="notation:Diagram" xmi:id="_A2kNl24yEd6UmoywPugm9g" type="Freeform" name="Existing Assets -- Overview">
+              <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_A2kNmG4yEd6UmoywPugm9g"/>
+              <element xsi:nil="true"/>
+            </contents>
+          </eAnnotations>
+          <packagedElement xmi:type="uml:Component" xmi:id="_A2kNmW4yEd6UmoywPugm9g" name="${Asset}">
+            <eAnnotations xmi:id="_A2kNmm4yEd6UmoywPugm9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_A2kNm24yEd6UmoywPugm9g" key="ExistingAsset"/>
+            </eAnnotations>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_A2kNnG4yEd6UmoywPugm9g" name="Business Domain Decomposition">
+          <eAnnotations xmi:id="_A2kNnW4yEd6UmoywPugm9g" source="uml2.diagrams"/>
+          <packagedElement xmi:type="uml:Package" xmi:id="_A2kNnm4yEd6UmoywPugm9g" name="Functional Areas Description">
+            <eAnnotations xmi:id="_A2kNn24yEd6UmoywPugm9g" source="uml2.diagrams"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_A2kNrm4yEd6UmoywPugm9g" name="BusinessServices">
+              <eAnnotations xmi:id="_A2kNr24yEd6UmoywPugm9g" source="uml2.diagrams" references="_A2kNsG4yEd6UmoywPugm9g">
+                <contents xmi:type="notation:Diagram" xmi:id="_A2kNsG4yEd6UmoywPugm9g" type="Freeform" name="Business Services - Overview">
+                  <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_A2kNsW4yEd6UmoywPugm9g"/>
+                  <element xsi:nil="true"/>
+                </contents>
+              </eAnnotations>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_A2kNsm4yEd6UmoywPugm9g" name="${BusinessInterface}"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_go0YcHI9Ed6YK5Mz5YyXJg" name="${Domain}">
+              <eAnnotations xmi:id="_go0YcXI9Ed6YK5Mz5YyXJg" source="uml2.diagrams" references="_go0YcnI9Ed6YK5Mz5YyXJg">
+                <contents xmi:type="notation:Diagram" xmi:id="_go0YcnI9Ed6YK5Mz5YyXJg" type="Freeform" name="${Domain} - Overview">
+                  <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_go0Yc3I9Ed6YK5Mz5YyXJg"/>
+                  <element xsi:nil="true"/>
+                </contents>
+              </eAnnotations>
+              <eAnnotations xmi:id="_go0YdHI9Ed6YK5Mz5YyXJg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_go0YdXI9Ed6YK5Mz5YyXJg" key="BusinessDomain"/>
+              </eAnnotations>
+              <packagedElement xmi:type="uml:Component" xmi:id="_go0YdnI9Ed6YK5Mz5YyXJg" name="${Functional Area}">
+                <eAnnotations xmi:id="_go0Yd3I9Ed6YK5Mz5YyXJg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                  <details xmi:id="_BuuCUHI-Ed6YK5Mz5YyXJg" key="Functional Area"/>
+                </eAnnotations>
+                <eAnnotations xmi:id="_go0YeHI9Ed6YK5Mz5YyXJg" source="uml2.diagrams">
+                  <contents xmi:type="notation:Diagram" xmi:id="_go0YeXI9Ed6YK5Mz5YyXJg" type="Freeform" name="${Functional Area} - Overview">
+                    <children xmi:id="_go0YenI9Ed6YK5Mz5YyXJg" element="_go0YdnI9Ed6YK5Mz5YyXJg">
+                      <children xmi:id="_go0Ye3I9Ed6YK5Mz5YyXJg" type="ImageCompartment">
+                        <layoutConstraint xmi:type="notation:Size" xmi:id="_go0YfHI9Ed6YK5Mz5YyXJg" width="1320" height="1320"/>
+                      </children>
+                      <children xmi:id="_go0YfXI9Ed6YK5Mz5YyXJg" type="Stereotype"/>
+                      <children xmi:id="_go0YfnI9Ed6YK5Mz5YyXJg" type="Kind"/>
+                      <children xmi:id="_go0Yf3I9Ed6YK5Mz5YyXJg" type="Name"/>
+                      <children xmi:id="_go0YgHI9Ed6YK5Mz5YyXJg" type="Parent"/>
+                      <children xmi:id="_go0YgXI9Ed6YK5Mz5YyXJg" visible="false" type="AttributeCompartment">
+                        <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_go0YgnI9Ed6YK5Mz5YyXJg"/>
+                      </children>
+                      <children xmi:id="_go0Yg3I9Ed6YK5Mz5YyXJg" visible="false" type="OperationCompartment">
+                        <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_go0YhHI9Ed6YK5Mz5YyXJg"/>
+                      </children>
+                      <children xmi:id="_go0YhXI9Ed6YK5Mz5YyXJg" visible="false" type="RealizationListCompartment">
+                        <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_go0YhnI9Ed6YK5Mz5YyXJg"/>
+                      </children>
+                      <children xmi:id="_go0Yh3I9Ed6YK5Mz5YyXJg" type="RequiredInterfaceListCompartment">
+                        <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_go0YiHI9Ed6YK5Mz5YyXJg"/>
+                      </children>
+                      <children xmi:id="_go0YiXI9Ed6YK5Mz5YyXJg" type="ProvidedInterfaceListCompartment">
+                        <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_go0YinI9Ed6YK5Mz5YyXJg"/>
+                      </children>
+                      <children xmi:id="_go0Yi3I9Ed6YK5Mz5YyXJg" visible="false" type="StructureCompartment">
+                        <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_go0YjHI9Ed6YK5Mz5YyXJg"/>
+                      </children>
+                      <styles xmi:type="umlnotation:UMLComponentStyle" xmi:id="_go0YjXI9Ed6YK5Mz5YyXJg" showStereotype="Label"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_go0YjnI9Ed6YK5Mz5YyXJg" x="9827" y="6023"/>
+                    </children>
+                    <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_go0Yj3I9Ed6YK5Mz5YyXJg"/>
+                    <element xsi:nil="true"/>
+                  </contents>
+                </eAnnotations>
+                <ownedAttribute xmi:type="uml:Port" xmi:id="_go0YkHI9Ed6YK5Mz5YyXJg" name="Request" aggregation="composite"/>
+                <ownedAttribute xmi:type="uml:Port" xmi:id="_go0YkXI9Ed6YK5Mz5YyXJg" name="Service" aggregation="composite"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_A2kNs24yEd6UmoywPugm9g" name="Business Rules">
+            <eAnnotations xmi:id="_A2kNtG4yEd6UmoywPugm9g" source="uml2.diagrams">
+              <contents xmi:type="notation:Diagram" xmi:id="_A2kNtW4yEd6UmoywPugm9g" type="Freeform" name="Business Rules -- Overview">
+                <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_A2kNtm4yEd6UmoywPugm9g"/>
+                <element xsi:nil="true"/>
+              </contents>
+            </eAnnotations>
+            <packagedElement xmi:type="uml:Class" xmi:id="_A2kNt24yEd6UmoywPugm9g" name="${Rule}">
+              <eAnnotations xmi:id="_A2kNuG4yEd6UmoywPugm9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_A2kNuW4yEd6UmoywPugm9g" key="BusinessRule"/>
+              </eAnnotations>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_A2kNum4yEd6UmoywPugm9g" name="Business Process Descriptions">
+            <eAnnotations xmi:id="_A2kNu24yEd6UmoywPugm9g" source="uml2.diagrams"/>
+            <packagedElement xmi:type="uml:Activity" xmi:id="_A2kNvG4yEd6UmoywPugm9g" name="${Process}">
+              <eAnnotations xmi:id="_A2kNvW4yEd6UmoywPugm9g" source="uml2.diagrams">
+                <contents xmi:type="notation:Diagram" xmi:id="_A2kNvm4yEd6UmoywPugm9g" type="Activity" element="_A2kNvG4yEd6UmoywPugm9g" name="${Process}" measurementUnit="Himetric">
+                  <children xmi:id="_A2kNv24yEd6UmoywPugm9g" type="Activity Frame" element="_A2kNvG4yEd6UmoywPugm9g">
+                    <children xmi:id="_A2kNwG4yEd6UmoywPugm9g" type="ActivityCompartment">
+                      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_A2kNwW4yEd6UmoywPugm9g"/>
+                    </children>
+                    <children xmi:id="_A2kNwm4yEd6UmoywPugm9g" type="Name"/>
+                    <styles xmi:type="umlnotation:UMLFrameStyle" xmi:id="_A2kNw24yEd6UmoywPugm9g" showStereotype="Label"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A2kNxG4yEd6UmoywPugm9g" x="793" y="793"/>
+                  </children>
+                  <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_A2kNxW4yEd6UmoywPugm9g"/>
+                  <styles xmi:type="notation:BooleanValueStyle" xmi:id="_A2kNxm4yEd6UmoywPugm9g" name="support_hide_pins"/>
+                </contents>
+              </eAnnotations>
+              <eAnnotations xmi:id="_A2kNx24yEd6UmoywPugm9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                <details xmi:id="_A2kNyG4yEd6UmoywPugm9g" key="BusinessProcess"/>
+              </eAnnotations>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_A2kNyW4yEd6UmoywPugm9g" name="Information Model">
+          <eAnnotations xmi:id="_A2kNym4yEd6UmoywPugm9g" source="uml2.diagrams" references="_A2kNy24yEd6UmoywPugm9g">
+            <contents xmi:type="notation:Diagram" xmi:id="_A2kNy24yEd6UmoywPugm9g" type="Freeform" name="Information Model -- Overview">
+              <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_A2kNzG4yEd6UmoywPugm9g"/>
+              <element xsi:nil="true"/>
+            </contents>
+          </eAnnotations>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_A2kN-G4yEd6UmoywPugm9g">
+      <eAnnotations xmi:id="_A2kN-W4yEd6UmoywPugm9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_A2kN-m4yEd6UmoywPugm9g">
+      <eAnnotations xmi:id="_A2kN-24yEd6UmoywPugm9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_IN8k8MmBEdqBcN1R6EvWUw?Default/Default?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_A2kN_G4yEd6UmoywPugm9g">
+      <eAnnotations xmi:id="_A2kN_W4yEd6UmoywPugm9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_A2kOAG4yEd6UmoywPugm9g">
+      <eAnnotations xmi:id="_A2kOAW4yEd6UmoywPugm9g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://BM_PROFILES/BM.epx#_biXOMFSlEduDJ7xushbBPA?Business%20Modeling/BusinessModeling?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://BM_PROFILES/BM.epx#_vWDZcTB4EdmD3LtL1d2JnQ?Business%20Modeling?"/>
+    </profileApplication>
+    <profileApplication xmi:id="_S0g2oKsKEd6O6qotfKbo6Q">
+      <eAnnotations xmi:id="_S0zxkKsKEd6O6qotfKbo6Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://SOAML/SoaML.epx#_x1wwoZC9Ed65QtEA2_z-fQ?SoaML/SoaML?"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://SOAML/SoaML.epx#_ut1IIGfDEdy6JoIZoRRqYw?SoaML?"/>
+    </profileApplication>
+  </uml:Model>
+  <Default:Documentation xmi:id="_A2kOAm4yEd6UmoywPugm9g" base_Comment="_A2bG6G4yEd6UmoywPugm9g"/>
+  <Standard:ModelLibrary xmi:id="_A2kOBm4yEd6UmoywPugm9g" base_Package="_A2bG-m4yEd6UmoywPugm9g"/>
+  <Standard:ModelLibrary xmi:id="_A2kOB24yEd6UmoywPugm9g" base_Package="_A2bG-m4yEd6UmoywPugm9g"/>
+  <Default:Perspective xmi:id="_A2kOFm4yEd6UmoywPugm9g" base_Package="_A2kNhm4yEd6UmoywPugm9g"/>
+  <BusinessModeling:BusinessGoal xmi:id="_A2kOGG4yEd6UmoywPugm9g" base_Class="_A2kNlG4yEd6UmoywPugm9g"/>
+  <BusinessModeling:BusinessService xmi:id="_A2kOGm4yEd6UmoywPugm9g" base_Interface="_A2kNsm4yEd6UmoywPugm9g"/>
+  <BusinessModeling:BusinessService xmi:id="_A2kOG24yEd6UmoywPugm9g" base_Interface="_A2bIjW4yEd6UmoywPugm9g"/>
+</xmi:XMI>

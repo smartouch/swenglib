@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-nYhwfXiXY6eEJZV3sQVltA" name="considerations_in_service_provider_selection,_Jm4HUJgPEd6l6vBsNJSPDA" guid="-nYhwfXiXY6eEJZV3sQVltA" changeDate="2009-09-02T15:26:15.781-0700" version="7.5.0">
+  <mainDescription>&lt;p> Much of this&amp;nbsp;article is based on [&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../practice.tech.soma.service_specification.base-ibm/guidances/supportingmaterials/references.ss_236B49D1.html&quot; guid=&quot;_uH07wJgPEd6l6vBsNJSPDA&quot;>JAM09c&lt;/a>]. &lt;/p>&#xD;
+&lt;p> Allocating services to providers is not a simple exercise in meeting functional &#xD;
+  requirements. Nonfunctional requirements and thorny architectural issues also &#xD;
+  enter into consideration. These are among the driving factors: &lt;/p>&#xD;
+&lt;ul>&#xD;
+  &lt;li> Functional cohesion to maximize reuse. Are there services that commonly &#xD;
+    work in concert with&amp;nbsp;each other? If so, perhaps it makes sense to provision &#xD;
+    them with a single provider.&amp;nbsp; &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;ul>&#xD;
+  &lt;li class=&quot;MsoNormal&quot;     style=&quot;MARGIN: 0mm 0mm 0pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt&quot;> &#xD;
+    Where the services are most likely used, and where they are most likely to &#xD;
+    be deployed. It helps to reduce network latency if those who provide the service &#xD;
+    and those who use it are close to each other in the network.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;ul>&#xD;
+  &lt;li class=&quot;MsoNormal&quot;     style=&quot;MARGIN: 0mm 0mm 0pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt&quot;> &#xD;
+    What qualities of service are required. The&amp;nbsp;&lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/participant_soaml_1A392457.html&quot; guid=&quot;_zL3kgFbAEd6MCpkuB85p5g&quot;>Participant&lt;/a> &#xD;
+    is simply a conceptual wrapper for the underlying &lt;a class=&quot;elementLinkWithUserText&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/service_component_54F50804.html&quot; guid=&quot;_Gcmp8GZaEd65K8S2sWS35w&quot;>Service &#xD;
+    Component&lt;/a>. It might be necessary to use a specific service component to &#xD;
+    provide a specified QoS level for three services. In that case, all three &#xD;
+    services might be offered by the same Participant. &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;ul>&#xD;
+  &lt;li>Stability of the functional area.&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;ul>&#xD;
+  &lt;li class=&quot;MsoNormal&quot;     style=&quot;MARGIN: 0mm 0mm 0pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt&quot;> &#xD;
+    Where the most change is anticipated. If three services are being designed &#xD;
+    and one is highly unstable, the design decision (at least initially) could &#xD;
+    be to ensure that it is not provisioned on the same Participant as the two &#xD;
+    more stable services. &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;ul>&#xD;
+  &lt;li class=&quot;MsoNormal&quot;     style=&quot;MARGIN: 0mm 0mm 0pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt&quot;> &#xD;
+    How much coupling is tolerable in the domain.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;ul>&#xD;
+  &lt;li class=&quot;MsoNormal&quot;     style=&quot;MARGIN: 0mm 0mm 0pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt&quot;> &#xD;
+    Reducing coupling to minimize the effect of change.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;ul>&#xD;
+  &lt;li class=&quot;MsoNormal&quot;     style=&quot;MARGIN: 0mm 0mm 0pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt&quot;> &#xD;
+    Security issues.&lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;ul>&#xD;
+  &lt;li class=&quot;MsoNormal&quot;     style=&quot;MARGIN: 0mm 0mm 0pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt&quot;> &#xD;
+    Applicable platform implementation technologies. &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;ul>&#xD;
+  &lt;li class=&quot;MsoNormal&quot;     style=&quot;MARGIN: 0mm 0mm 0pt; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-list: l0 level1 lfo2; tab-stops: list 36.0pt&quot;> &#xD;
+    Integration and reuse of existing systems. &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;br /></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

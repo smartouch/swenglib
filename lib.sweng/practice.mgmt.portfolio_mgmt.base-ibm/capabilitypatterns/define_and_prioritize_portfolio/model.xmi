@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_Vae6ARTCEd6-CtZFHiHFGA" guid="_Vae6ARTCEd6-CtZFHiHFGA">
+    <resourceDescriptors xmi:id="_Vae6AhTCEd6-CtZFHiHFGA" id="-C9zqAebEml3JV-TdMgnezA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_VXWtgBTCEd6-CtZFHiHFGA" name="define_and_prioritize_portfolio" guid="_VXWtgBTCEd6-CtZFHiHFGA">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_I40B0BTFEd6-CtZFHiHFGA" name="identify_components" guid="_I40B0BTFEd6-CtZFHiHFGA" presentationName="Identify Components" briefDescription="Receive and review requests for a portfolio, identifying components and supplying detailed information for each component." superActivities="_VXWtgRTCEd6-CtZFHiHFGA">
+      <Task href="uma://_3X99EP7SEd2qlKqF0pYYYg#_JzomYA9WEd6LqqyVYr5Pow"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_KJtpABTFEd6-CtZFHiHFGA" name="categorize_components" guid="_KJtpABTFEd6-CtZFHiHFGA" presentationName="Categorize Components" briefDescription="Categorize all components into work pipelines for further evaluation, selection, and prioritization." superActivities="_VXWtgRTCEd6-CtZFHiHFGA" linkToPredecessor="_14xC4BTFEd6-CtZFHiHFGA">
+      <Task href="uma://_3X99EP7SEd2qlKqF0pYYYg#_TG-aAA9WEd6LqqyVYr5Pow"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_K-J9sBTFEd6-CtZFHiHFGA" name="evaluate_components" guid="_K-J9sBTFEd6-CtZFHiHFGA" presentationName="Evaluate Components" briefDescription="Provide additional information for each component and evaluate them from quantitative and qualitative points of view." superActivities="_VXWtgRTCEd6-CtZFHiHFGA" linkToPredecessor="_2jYGIRTFEd6-CtZFHiHFGA">
+      <Task href="uma://_3X99EP7SEd2qlKqF0pYYYg#_jrqUUA9WEd6LqqyVYr5Pow"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_LxamoBTFEd6-CtZFHiHFGA" name="select_components" guid="_LxamoBTFEd6-CtZFHiHFGA" presentationName="Select Components" briefDescription="Triage the requests and components being considered for inclusion within the portfolio." superActivities="_VXWtgRTCEd6-CtZFHiHFGA">
+      <Task href="uma://_3X99EP7SEd2qlKqF0pYYYg#_nkC7IA9WEd6LqqyVYr5Pow"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_Mb344BTFEd6-CtZFHiHFGA" name="prioritize_components" guid="_Mb344BTFEd6-CtZFHiHFGA" presentationName="Prioritize Components" briefDescription="Use selected components to create a prioritized list for inclusion in the portfolio." superActivities="_VXWtgRTCEd6-CtZFHiHFGA" linkToPredecessor="_4I_ZERTFEd6-CtZFHiHFGA">
+      <Task href="uma://_3X99EP7SEd2qlKqF0pYYYg#_pt_DIA9WEd6LqqyVYr5Pow"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_14xC4BTFEd6-CtZFHiHFGA" guid="_14xC4BTFEd6-CtZFHiHFGA" pred="_I40B0BTFEd6-CtZFHiHFGA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_2jYGIRTFEd6-CtZFHiHFGA" guid="_2jYGIRTFEd6-CtZFHiHFGA" pred="_KJtpABTFEd6-CtZFHiHFGA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_4I_ZERTFEd6-CtZFHiHFGA" guid="_4I_ZERTFEd6-CtZFHiHFGA" pred="_LxamoBTFEd6-CtZFHiHFGA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_1dWowDtSEd6EJ5PABot5eA" name="portfolio_analyst" guid="_1dWowDtSEd6EJ5PABot5eA" presentationName="Portfolio Analyst" suppressed="true" isPlanned="false" superActivities="_VXWtgRTCEd6-CtZFHiHFGA" responsibleFor="_oIHr0EAaEd6so4MawQGgnA _1dWoxjtSEd6EJ5PABot5eA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_1dWoxjtSEd6EJ5PABot5eA" name="components_list" guid="_1dWoxjtSEd6EJ5PABot5eA" presentationName="Components List" briefDescription="This artifact contains the list of components proposed and carried out as part of the organization's portfolio." suppressed="true" isPlanned="false" superActivities="_VXWtgRTCEd6-CtZFHiHFGA">
+      <templates href="uma://_3X99EP7SEd2qlKqF0pYYYg#_xkjy4ETBEd6vXNfve8SdIg"/>
+      <WorkProduct href="uma://_3X99EP7SEd2qlKqF0pYYYg#_ayLDUC-QEd6C0qOQeF7hUA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_oIHr0EAaEd6so4MawQGgnA" name="ideas_and_requests_list" guid="_oIHr0EAaEd6so4MawQGgnA" presentationName="Ideas and Requests List" briefDescription="This artifact captures a list of incoming ideas and requests." suppressed="true" isPlanned="false" superActivities="_VXWtgRTCEd6-CtZFHiHFGA">
+      <toolmentor href="uma://_3X99EP7SEd2qlKqF0pYYYg#_Aj9qMP7hEd2pf77DabzLMA"/>
+      <WorkProduct href="uma://_3X99EP7SEd2qlKqF0pYYYg#_WVRKsEAZEd6so4MawQGgnA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_VXWtgRTCEd6-CtZFHiHFGA" name="define_and_prioritize_portfolio" guid="_VXWtgRTCEd6-CtZFHiHFGA" presentationName="Define and Prioritize Portfolio" briefDescription="This activity captures the flow that guides the transition of all new work elements within the portfolio that are being considered (for example: projects, products, enhancements, user requests, production support)." breakdownElements="_I40B0BTFEd6-CtZFHiHFGA _KJtpABTFEd6-CtZFHiHFGA _K-J9sBTFEd6-CtZFHiHFGA _LxamoBTFEd6-CtZFHiHFGA _Mb344BTFEd6-CtZFHiHFGA _1dWowDtSEd6EJ5PABot5eA _1dWoxjtSEd6EJ5PABot5eA _oIHr0EAaEd6so4MawQGgnA">
+      <methodElementProperty xmi:id="_2VWJgLemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-C9zqAebEml3JV-TdMgnezA" href="uma://-C9zqAebEml3JV-TdMgnezA#-C9zqAebEml3JV-TdMgnezA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

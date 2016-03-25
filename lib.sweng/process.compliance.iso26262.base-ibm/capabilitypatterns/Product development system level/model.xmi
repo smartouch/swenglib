@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_uYXIMAahEeKDn6MuflC_BA" guid="_uYXIMAahEeKDn6MuflC_BA">
+    <resourceDescriptors xmi:id="_uYXIMQahEeKDn6MuflC_BA" id="-_vq_JJQDFsi854ch2fnpIg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_uYbZoAahEeKDn6MuflC_BA" id="-hax9S95-W2cssrmr0TkNMg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_uYdO0AahEeKDn6MuflC_BA" id="-P0vo6fU-g879pUoeK6T1yg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_uYfrEAahEeKDn6MuflC_BA" id="-bWzUyDgrw3jBUulq3XweMQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_uYhgQAahEeKDn6MuflC_BA" id="-6Fxjh9iUU4Q1wXgeHvQtZA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_SR6wYKJ7EeCyK4sysVB96g" name="Product development system level" guid="_SR6wYKJ7EeCyK4sysVB96g">
+    <methodElementProperty xmi:id="_uexhMBcTEeKv_4Jq8IF8rQ" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lSmMAKJ7EeCyK4sysVB96g" name="4.5 Initiate systems level product development" guid="_lSmMAKJ7EeCyK4sysVB96g">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_lSmMAaJ7EeCyK4sysVB96g" name="4.5 Initiate systems level product development" guid="_lSmMAaJ7EeCyK4sysVB96g" briefDescription="The initial stage of systems development is to plan the activities around the development process." superActivities="_SR6wYaJ7EeCyK4sysVB96g" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_N7g3gJdcEeCPtY0LnWkRDw#_3k8OYJdsEeCPtY0LnWkRDw"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lSmMAqJ7EeCyK4sysVB96g" name="4.6 Specification of the technical safety requirements" guid="_lSmMAqJ7EeCyK4sysVB96g">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_lSmMA6J7EeCyK4sysVB96g" name="4.6 Specification of the technical safety requirements" guid="_lSmMA6J7EeCyK4sysVB96g" briefDescription="The specification of the technical safety requirements is further refinement of the safety goals and functional safety requirements that we defined as part of the functional safety concept." superActivities="_SR6wYaJ7EeCyK4sysVB96g" linkToPredecessor="_rftOgKJ7EeCyK4sysVB96g" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_N7g3gJdcEeCPtY0LnWkRDw#_Bp3P8ZdtEeCPtY0LnWkRDw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_rftOgKJ7EeCyK4sysVB96g" guid="_rftOgKJ7EeCyK4sysVB96g">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_N7g3gJdcEeCPtY0LnWkRDw#_3k8OYJdsEeCPtY0LnWkRDw"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_lSmMBKJ7EeCyK4sysVB96g" name="4.7 System design" guid="_lSmMBKJ7EeCyK4sysVB96g">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_lSmMBaJ7EeCyK4sysVB96g" name="4.7 System design" guid="_lSmMBaJ7EeCyK4sysVB96g" briefDescription="The system design stage relates to the development of the system design and the technical safety concept, such that they comply with the functional and technical safety requirements of the item." superActivities="_SR6wYaJ7EeCyK4sysVB96g" linkToPredecessor="_rftOgaJ7EeCyK4sysVB96g" variabilityType="extends">
+        <presentation xmi:id="-_vq_JJQDFsi854ch2fnpIg" href="uma://-_vq_JJQDFsi854ch2fnpIg#-_vq_JJQDFsi854ch2fnpIg"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_N7g3gJdcEeCPtY0LnWkRDw#_GTlNEZdtEeCPtY0LnWkRDw"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_rftOgaJ7EeCyK4sysVB96g" guid="_rftOgaJ7EeCyK4sysVB96g">
+        <pred xsi:type="org.eclipse.epf.uma:Activity" href="uma://_N7g3gJdcEeCPtY0LnWkRDw#_Bp3P8ZdtEeCPtY0LnWkRDw"/>
+      </processElements>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_nIdhcKJ7EeCyK4sysVB96g" name="5 Hardware product development" guid="_nIdhcKJ7EeCyK4sysVB96g">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_nIdhcaJ7EeCyK4sysVB96g" name="5 Hardware product development" guid="_nIdhcaJ7EeCyK4sysVB96g" briefDescription="Hardware product development deals with process of developing the HW with respect to to the safety goals that have been allocated to it. A large part of the HW development process deals with the analysis of hw failures and such as random hw failures. There is also a large amount of collaboration with the SW development cycle as HW-SW interface needs to be defined." superActivities="_SR6wYaJ7EeCyK4sysVB96g" linkToPredecessor="_mIoUwaJ-EeCyK4sysVB96g" variabilityType="extends">
+        <presentation xmi:id="-hax9S95-W2cssrmr0TkNMg" href="uma://-_vq_JJQDFsi854ch2fnpIg#-hax9S95-W2cssrmr0TkNMg"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_V6rioJ2gEeCk2aQcgmZB_w#_V6rioZ2gEeCk2aQcgmZB_w"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_mIoUwaJ-EeCyK4sysVB96g" guid="_mIoUwaJ-EeCyK4sysVB96g" pred="_lSmMBaJ7EeCyK4sysVB96g"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_n-tM8KJ7EeCyK4sysVB96g" name="6 Software product development" guid="_n-tM8KJ7EeCyK4sysVB96g">
+      <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_n-tM8aJ7EeCyK4sysVB96g" name="6 Software product development" guid="_n-tM8aJ7EeCyK4sysVB96g" briefDescription="The software product development cycle details the tasks and activities to be carried out to develop the software. the development process takes a top down approach based upon architectural, component and unit design and then verifying and validating upto the point where the HW/SW integration occurs. The SW development process has a lot of interaction with the HW development process due to the need to define the HW/SW interfaces." superActivities="_SR6wYaJ7EeCyK4sysVB96g" linkToPredecessor="_mqwKYaJ-EeCyK4sysVB96g" variabilityType="extends">
+        <presentation xmi:id="-P0vo6fU-g879pUoeK6T1yg" href="uma://-_vq_JJQDFsi854ch2fnpIg#-P0vo6fU-g879pUoeK6T1yg"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_GebYQKGLEeC6D4cw2ululQ#_GebYQaGLEeC6D4cw2ululQ"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_mqwKYaJ-EeCyK4sysVB96g" guid="_mqwKYaJ-EeCyK4sysVB96g" pred="_lSmMBaJ7EeCyK4sysVB96g"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_p03dUKJ7EeCyK4sysVB96g" name="4.8 Item Integration and testing" guid="_p03dUKJ7EeCyK4sysVB96g">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_p03dUaJ7EeCyK4sysVB96g" name="4.8 Item Integration and testing" guid="_p03dUaJ7EeCyK4sysVB96g" briefDescription="The item integration and test phase covers the integration of the item at vairous levels of Hierarchy starting with the HW-SW integration, followed by the Systems integration and then the integration of the system with the vehicle." superActivities="_SR6wYaJ7EeCyK4sysVB96g" linkToPredecessor="_nKCucaJ-EeCyK4sysVB96g _nxiMQKJ-EeCyK4sysVB96g" variabilityType="extends">
+        <presentation xmi:id="-bWzUyDgrw3jBUulq3XweMQ" href="uma://-_vq_JJQDFsi854ch2fnpIg#-bWzUyDgrw3jBUulq3XweMQ"/>
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_lXc4wJ5HEeCk2aQcgmZB_w#_qDaRkZ5HEeCk2aQcgmZB_w"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_nKCucaJ-EeCyK4sysVB96g" guid="_nKCucaJ-EeCyK4sysVB96g" pred="_n-tM8aJ7EeCyK4sysVB96g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_nxiMQKJ-EeCyK4sysVB96g" guid="_nxiMQKJ-EeCyK4sysVB96g" pred="_nIdhcaJ7EeCyK4sysVB96g"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_p03dUqJ7EeCyK4sysVB96g" name="4.9 Safety validation" guid="_p03dUqJ7EeCyK4sysVB96g">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_p03dU6J7EeCyK4sysVB96g" name="4.9 Safety validation" guid="_p03dU6J7EeCyK4sysVB96g" briefDescription="This task is about testing the complete vehicle to ensure that the safety goals of the item are met." superActivities="_SR6wYaJ7EeCyK4sysVB96g" linkToPredecessor="_kVlp0KJ-EeCyK4sysVB96g" variabilityType="extends">
+        <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Activity" href="uma://_lXc4wJ5HEeCk2aQcgmZB_w#_veMCwZ5IEeCk2aQcgmZB_w"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_kVlp0KJ-EeCyK4sysVB96g" guid="_kVlp0KJ-EeCyK4sysVB96g" pred="_p03dUaJ7EeCyK4sysVB96g"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_p03dVKJ7EeCyK4sysVB96g" name="4.10 Functional safety " guid="_p03dVKJ7EeCyK4sysVB96g">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_p03dVaJ7EeCyK4sysVB96g" name="4.10 Functional safety " guid="_p03dVaJ7EeCyK4sysVB96g" presentationName="4.10 Functional safety assessment" briefDescription="The functional safety assessment report assesses each of the steps of the safety lifecycle as it appears in ISO 26262, vol 2, figure 2." superActivities="_SR6wYaJ7EeCyK4sysVB96g" linkToPredecessor="_k1eq0KJ-EeCyK4sysVB96g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_k1eq0KJ-EeCyK4sysVB96g" guid="_k1eq0KJ-EeCyK4sysVB96g" pred="_p03dU6J7EeCyK4sysVB96g"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_p03dVqJ7EeCyK4sysVB96g" name="4.11 Product release" guid="_p03dVqJ7EeCyK4sysVB96g">
+      <processElements xsi:type="org.eclipse.epf.uma:Activity" xmi:id="_p03dV6J7EeCyK4sysVB96g" name="4.11 Product release" guid="_p03dV6J7EeCyK4sysVB96g" presentationName="4.11 Product release" briefDescription="The release for production confirms that the item is ready for series production and operation" superActivities="_SR6wYaJ7EeCyK4sysVB96g" linkToPredecessor="_lZPfMKJ-EeCyK4sysVB96g"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_lZPfMKJ-EeCyK4sysVB96g" guid="_lZPfMKJ-EeCyK4sysVB96g" pred="_p03dVaJ7EeCyK4sysVB96g"/>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_SR6wYaJ7EeCyK4sysVB96g" name="Product development system level" guid="_SR6wYaJ7EeCyK4sysVB96g" presentationName="Product development system level" briefDescription="This shows the reference phase model for the product development of the system level and can be used as the basis for tailoring the system level development process" breakdownElements="_lSmMAaJ7EeCyK4sysVB96g _lSmMA6J7EeCyK4sysVB96g _lSmMBaJ7EeCyK4sysVB96g _nIdhcaJ7EeCyK4sysVB96g _n-tM8aJ7EeCyK4sysVB96g _p03dUaJ7EeCyK4sysVB96g _p03dU6J7EeCyK4sysVB96g _p03dVaJ7EeCyK4sysVB96g _p03dV6J7EeCyK4sysVB96g">
+      <presentation xmi:id="-6Fxjh9iUU4Q1wXgeHvQtZA" href="uma://-_vq_JJQDFsi854ch2fnpIg#-6Fxjh9iUU4Q1wXgeHvQtZA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

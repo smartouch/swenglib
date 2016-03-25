@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ActivityDescription xmi:id="-nNQY_aC89-U5WE7L8A6VvQ" name="Define Solution,_TbgokBTiEdqO_t18Ye750g" guid="-nNQY_aC89-U5WE7L8A6VvQ"/>
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-THO4DP3PcOWqU3vgFWn9-Q" name="cots_inception_define_candidate_solutions,_P6-zYffeEdmriJhf4djjLA" guid="-THO4DP3PcOWqU3vgFWn9-Q">
+    <mainDescription>&lt;p>&#xD;
+    Once additional information has been gathered within each &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../practice.tech.cots_dev.base-ibm/guidances/concepts/process_drivers_for_cots_package_delivery_22609607.html&quot;&#xD;
+     guid=&quot;_yylRFOwiEd-sjp03to1LnQ&quot;>sphere of influence&lt;/a>, it is combined to refine a previously defined solution that&#xD;
+    could meet the demands of the use cases and non-functional requirements, architectural and design constraints, and&#xD;
+    project management constraints such as time, money, people, and scope with reasonable risks.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In the inception phase, the definition of a candidate solution has been captured in a &lt;a&#xD;
+    class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../practice.tech.cots_dev.base-ibm/workproducts/cots_solution_dossier_49A4D9B8.html&quot;&#xD;
+    guid=&quot;_yycHZuwiEd-sjp03to1LnQ&quot;>Solution Dossie&lt;/a>r that includes, among other artifacts, the relevant &lt;a&#xD;
+    class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../practice.tech.cots_dev.base-ibm/workproducts/cots_package_dossier_CBE1A5C1.html&quot;&#xD;
+    guid=&quot;_yycHKOwiEd-sjp03to1LnQ&quot;>COTS Package Dossier(s)&lt;/a>, &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../practice.tech.cots_dev.base-ibm/workproducts/cots_vendor_dossier_74FC3A2.html&quot;&#xD;
+    guid=&quot;_yycHJOwiEd-sjp03to1LnQ&quot;>Vendor Dossier(s)&lt;/a> and the &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp-ibm/workproducts/architecture_overview_C0E96EF.html&quot;&#xD;
+    guid=&quot;_Gio7QDDIEdyz_pzDMsV8FQ&quot;>architectural design overview&lt;/a>. In early iterations of the elaboration phase, these&#xD;
+    artifacts are refined&amp;nbsp; until the best solution is selected. In later iterations, the artifacts of the selected&#xD;
+    solution are further refined until it is shown that the selected solution has achieved sufficient stability in&#xD;
+    requirements and architecture and that all architecturally significant risks have been addressed.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The definition of a solution (candidate or selected) should include enough information about its architecture and&#xD;
+    design in order to allow the construction of an &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../practice.tech.cots_dev.base-ibm/workproducts/cots_executing_system_F270F4C8.html&quot;&#xD;
+    guid=&quot;_yylRKuwiEd-sjp03to1LnQ&quot;>Executing System&lt;/a>, called executable architectural prototype in the elaboration&#xD;
+    phase. The role of the executable architectural prototype is to help users and engineers better understand how the COTS&#xD;
+    packages contained in the solution affect the user business processes, as well as better understand the complexity&#xD;
+    involved in COTS package integration, COTS package configuration, data migration and custom development.&#xD;
+&lt;/p></mainDescription>
+    <scope>&amp;nbsp;</scope>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vKuHW69NiMfNMsFBF9WDeQ" name="business_case,_s7sKvOwsEd-sjp03to1LnQ" guid="-vKuHW69NiMfNMsFBF9WDeQ">
+    <refinedDescription>For a commercial software product, the Business Case should include a set of assumptions about the project and the order of&#xD;
+magnitude return on investment (ROI) if those assumptions are true. For example, the ROI will be a magnitude of five if&#xD;
+completed in one year, two if completed in two years, and a negative number after that. These assumptions are checked again&#xD;
+at the end of the Elaboration phase, when the scope and plan are defined with more accuracy.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WgZ8dlN4tkb39I68I1qrkg" name="build_procedures,_XOqmNxatEeCjx5QJHD1iHA" guid="-WgZ8dlN4tkb39I68I1qrkg">
+    <keyConsiderations>&lt;p>
+    This is a very straightforward work product.&amp;nbsp; Write the build procedures so any team member can follow them.&amp;nbsp;
+&lt;/p>
+&lt;p>
+    If security is an issue, ensure that the team knows where and how to get the password.&amp;nbsp; One solution is letting
+    the project manager keep passwords in a sealed envelope in a secure location. However, the proper people must be aware
+    of how to gain access to this location, if necessary.
+&lt;/p>
+&lt;p>
+    You can test the Build Procedures by having a team member unfamiliar with the process walk through the
+    procedures.&lt;br />
+&lt;/p></keyConsiderations>
+    <refinedDescription>This artifact&amp;nbsp;may include such items as which files are required, which links must be in place, which libraries are
+accessed, the sequence of steps required to generate the system, or any required passwords.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6sM1wRKeS1kY9PheDZw6FQ" name="integrator,_XO0XMRatEeCjx5QJHD1iHA" guid="-6sM1wRKeS1kY9PheDZw6FQ">
+    <refinedDescription>&lt;a id=&quot;Top&quot; name=&quot;Top&quot;>&lt;/a>&lt;a id=&quot;XE_integrator_(role)__description_of&quot; name=&quot;XE_integrator_(role)__description_of&quot;>&lt;/a>&lt;a&#xD;
+id=&quot;Description&quot; name=&quot;Description&quot;>&lt;/a> &#xD;
+&lt;p>&#xD;
+    Implementers deliver their tested Implementation Elements into an integration workspace, whereas integrators combine&#xD;
+    them to produce a build. An integrator is also responsible for planning the integration, which takes place at the&#xD;
+    subsystem and system levels, with each having a separate integration workspace. Tested elements are delivered from an&#xD;
+    implementer's private development workspace into a subsystem integration workspace, whereas integrated implementation&#xD;
+    subsystems are delivered from the subsystem integration workspace into the system integration workspace.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;h4>&#xD;
+    Further Reading&#xD;
+&lt;/h4>&#xD;
+&lt;p>&#xD;
+    See &lt;i>Code Complete - A Practical Handbook of Software Construction&lt;/i> [&lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend-ibm-usdd/guidances/supportingmaterials/tech_references.usdd_B1D5B98B.html&quot;&#xD;
+    guid=&quot;_XgtG4EcbEd6pZ7kaNkUN9Q&quot;>MCO93&lt;/a>].&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-OoiWzhE98Sr5hXAD5jbquA" name="cots_system_architect,_z3EKARatEeCjx5QJHD1iHA" guid="-OoiWzhE98Sr5hXAD5jbquA">
+    <keyConsiderations>&lt;b>Relationship of System Architect to Software Architect&lt;/b> &#xD;
+&lt;p>&#xD;
+    There are many similarities in the roles; indeed for projects that are deemed &quot;systems&quot; developments because of their&#xD;
+    size or complexity, but which are, nevertheless largely or completely software, the two roles coalesce. However, in the&#xD;
+    general case, the constituency of the System Architect is larger than that of the Software Architect. The System&#xD;
+    Architect must contend with physically imposed constraints that do not exist in the much more malleable world of&#xD;
+    software. The very flexibility of software though makes possible paths of architectural evolution that previously could&#xD;
+    not be contemplated. Therefore, the relationship of Software Architect to System Architect is not a strictly&#xD;
+    subordinate one: feedback from software architectural considerations can profoundly affect the system architecture; to&#xD;
+    deny this is to run the risk of potentially sub-optimal &lt;i>system&lt;/i> architectures based on the simplistic notion of&#xD;
+    software architecture as derivative from the allocation of requirements (by the System Architect) to computing&#xD;
+    platforms. It is true to say though that in a team of System Architect and Software Architect(s), the responsibilities&#xD;
+    of the System Architect role require that the System Architect be &lt;i>primus inter pares&lt;/i>, because the system is the&#xD;
+    end-product.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The System Architect establishes and refines the system's logical and physical structure and is concerned with the&#xD;
+    optimization of these structures in terms of major system elements and their interfaces, and making trade-offs in&#xD;
+    competing factors and constraints (for example, performance, cost, environmental impact), in evaluating potential&#xD;
+    solutions that produce the required behavior. The System Architects' view spans the entire system and all factors,&#xD;
+    external and internal, that might affect its development. Given the need to maintain this broad view, the System&#xD;
+    Architect rarely engages in depth in the detailed engineering of a system, preferring to leave that to other&#xD;
+    practitioners in the various engineering specialties.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-j-zPU82cj-jco8iDjdtNww" name="cots_system_architect,_s7sKyOwsEd-sjp03to1LnQ" guid="-j-zPU82cj-jco8iDjdtNww">
+    <keyConsiderations>&lt;b>Relationship of System Architect to Software Architect&lt;/b> &#xD;
+&lt;p>&#xD;
+    There are many similarities in the roles; indeed for projects that are deemed &quot;systems&quot; developments because of their&#xD;
+    size or complexity, but which are, nevertheless largely or completely software, the two roles coalesce. However, in the&#xD;
+    general case, the constituency of the System Architect is larger than that of the Software Architect. The System&#xD;
+    Architect must contend with physically imposed constraints that do not exist in the much more malleable world of&#xD;
+    software. The very flexibility of software though makes possible paths of architectural evolution that previously could&#xD;
+    not be contemplated. Therefore, the relationship of Software Architect to System Architect is not a strictly&#xD;
+    subordinate one: feedback from software architectural considerations can profoundly affect the system architecture; to&#xD;
+    deny this is to run the risk of potentially sub-optimal &lt;i>system&lt;/i> architectures based on the simplistic notion of&#xD;
+    software architecture as derivative from the allocation of requirements (by the System Architect) to computing&#xD;
+    platforms. It is true to say though that in a team of System Architect and Software Architect(s), the responsibilities&#xD;
+    of the System Architect role require that the System Architect be &lt;i>primus inter pares&lt;/i>, because the system is the&#xD;
+    end-product.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The System Architect establishes and refines the system's logical and physical structure and is concerned with the&#xD;
+    optimization of these structures in terms of major system elements and their interfaces, and making trade-offs in&#xD;
+    competing factors and constraints (for example, performance, cost, environmental impact), in evaluating potential&#xD;
+    solutions that produce the required behavior. The System Architects' view spans the entire system and all factors,&#xD;
+    external and internal, that might affect its development. Given the need to maintain this broad view, the System&#xD;
+    Architect rarely engages in depth in the detailed engineering of a system, preferring to leave that to other&#xD;
+    practitioners in the various engineering specialties.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KucaeZo1IcwQZpyz3TkmnA" name="cots_system_architect,_s-g1LOwsEd-sjp03to1LnQ" guid="-KucaeZo1IcwQZpyz3TkmnA">
+    <keyConsiderations>&lt;b>Relationship of System Architect to Software Architect&lt;/b> &#xD;
+&lt;p>&#xD;
+    There are many similarities in the roles; indeed for projects that are deemed &quot;systems&quot; developments because of their&#xD;
+    size or complexity, but which are, nevertheless largely or completely software, the two roles coalesce. However, in the&#xD;
+    general case, the constituency of the System Architect is larger than that of the Software Architect. The System&#xD;
+    Architect must contend with physically imposed constraints that do not exist in the much more malleable world of&#xD;
+    software. The very flexibility of software though makes possible paths of architectural evolution that previously could&#xD;
+    not be contemplated. Therefore, the relationship of Software Architect to System Architect is not a strictly&#xD;
+    subordinate one: feedback from software architectural considerations can profoundly affect the system architecture; to&#xD;
+    deny this is to run the risk of potentially sub-optimal &lt;i>system&lt;/i> architectures based on the simplistic notion of&#xD;
+    software architecture as derivative from the allocation of requirements (by the System Architect) to computing&#xD;
+    platforms. It is true to say though that in a team of System Architect and Software Architect(s), the responsibilities&#xD;
+    of the System Architect role require that the System Architect be &lt;i>primus inter pares&lt;/i>, because the system is the&#xD;
+    end-product.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The System Architect establishes and refines the system's logical and physical structure and is concerned with the&#xD;
+    optimization of these structures in terms of major system elements and their interfaces, and making trade-offs in&#xD;
+    competing factors and constraints (for example, performance, cost, environmental impact), in evaluating potential&#xD;
+    solutions that produce the required behavior. The System Architects' view spans the entire system and all factors,&#xD;
+    external and internal, that might affect its development. Given the need to maintain this broad view, the System&#xD;
+    Architect rarely engages in depth in the detailed engineering of a system, preferring to leave that to other&#xD;
+    practitioners in the various engineering specialties.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Z6JWN4zDoLnPxZU4S-O0pA" name="cots_system_architect,_LVwhIRZCEeC7GIF5yBIrzQ" guid="-Z6JWN4zDoLnPxZU4S-O0pA">
+    <keyConsiderations>&lt;b>Relationship of System Architect to Software Architect&lt;/b> &#xD;
+&lt;p>&#xD;
+    There are many similarities in the roles; indeed for projects that are deemed &quot;systems&quot; developments because of their&#xD;
+    size or complexity, but which are, nevertheless largely or completely software, the two roles coalesce. However, in the&#xD;
+    general case, the constituency of the System Architect is larger than that of the Software Architect. The System&#xD;
+    Architect must contend with physically imposed constraints that do not exist in the much more malleable world of&#xD;
+    software. The very flexibility of software though makes possible paths of architectural evolution that previously could&#xD;
+    not be contemplated. Therefore, the relationship of Software Architect to System Architect is not a strictly&#xD;
+    subordinate one: feedback from software architectural considerations can profoundly affect the system architecture; to&#xD;
+    deny this is to run the risk of potentially sub-optimal &lt;i>system&lt;/i> architectures based on the simplistic notion of&#xD;
+    software architecture as derivative from the allocation of requirements (by the System Architect) to computing&#xD;
+    platforms. It is true to say though that in a team of System Architect and Software Architect(s), the responsibilities&#xD;
+    of the System Architect role require that the System Architect be &lt;i>primus inter pares&lt;/i>, because the system is the&#xD;
+    end-product.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    The System Architect establishes and refines the system's logical and physical structure and is concerned with the&#xD;
+    optimization of these structures in terms of major system elements and their interfaces, and making trade-offs in&#xD;
+    competing factors and constraints (for example, performance, cost, environmental impact), in evaluating potential&#xD;
+    solutions that produce the required behavior. The System Architects' view spans the entire system and all factors,&#xD;
+    external and internal, that might affect its development. Given the need to maintain this broad view, the System&#xD;
+    Architect rarely engages in depth in the detailed engineering of a system, preferring to leave that to other&#xD;
+    practitioners in the various engineering specialties.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-dn8LcNdWb2hwGhI1aw63jg" name="requirements_attributes,_PkYt8R63EeCFtI1FQSVGsA" guid="-dn8LcNdWb2hwGhI1aw63jg">
+    <keyConsiderations>Requirement attributes help the project team understand, prioritize, manage, track and validate the project requirements.</keyConsiderations>
+    <refinedDescription>A project requirement does not just consist of the description of the requirement. Each requirement needs a set of&#xD;
+properties - called attributes -&amp;nbsp;that capture important information about it. And requirements that belong to&#xD;
+different categories&amp;nbsp;can have a different set of attributes. All requirements&amp;nbsp;must have a core set of attributes&#xD;
+to capture critical information about each requirement. The information that is captured in the attributes can used to&#xD;
+generate views and reports, which are used to track and measure progress.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ugbJhoc4ltJy01DZojJpjA" name="requirements_traceability,_PkYt9B63EeCFtI1FQSVGsA" guid="-ugbJhoc4ltJy01DZojJpjA">
+    <keyConsiderations>&lt;p>&#xD;
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'&quot;>In order to maintain the consistency&amp;nbsp;of the&#xD;
+    traceability,&amp;nbsp;this artifact must be re-assessed every time there is a change to the requirement or at the end of&#xD;
+    each milestone.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span style=&quot;FONT-SIZE: 10pt; LINE-HEIGHT: 115%; FONT-FAMILY: 'Arial','sans-serif'&quot;>In a small simple project, the&#xD;
+    traceability matrix can be&amp;nbsp;maintained in a spreadsheet. Automated tool support is helpful in a complicated&#xD;
+    large-scale project.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    There are project resource costs to establishing and maintaining traceability. It is important to establish just enough&#xD;
+    traceability to support completeness checking and change impact analysis without over-using the technique by tracing&#xD;
+    &quot;everything to everything&quot;.&lt;br />&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    &lt;span style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'&quot;>&lt;span&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: 'Arial','sans-serif'&quot;>Traceability is defined by identifying which relationships&#xD;
+    between requirement types - or other artifacts -- are important enough to track and maintain.&lt;/span>&lt;/span>&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZYsc7hSpbekt_uNDARKqAg" name="requirements_management_process_description,_PkYt9x63EeCFtI1FQSVGsA" guid="-ZYsc7hSpbekt_uNDARKqAg">
+    <refinedDescription>&lt;p>&#xD;
+    The Requirements Management Process Description describes the requirements artifacts, requirement types, their&#xD;
+    respective requirements attributes, how requirements traceability will be managed, and specifies the information to be&#xD;
+    collected and tracked. It also specifies how requirements changes will be managed, as well as addressing requirements&#xD;
+    organization, tool automation, the necessary reports, views, and queries that will be generated and the related&#xD;
+    processes for requirements and requirements change management.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Szki7lmZHyP1Hofcz0JWEw" name="vision,_PkYt-h63EeCFtI1FQSVGsA" guid="-Szki7lmZHyP1Hofcz0JWEw">
+    <keyConsiderations>&lt;p>&#xD;
+    It is good practice to keep this artifact brief, so you can release it to stakeholders as soon as possible, and to make&#xD;
+    the artifact easy for stakeholders to read and understand. You can accomplish this by including only the most important&#xD;
+    features and avoiding details of requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Projects that focus on product development might extend the marketing section and include a more detailed product&#xD;
+    position statement that is based on their needs and research.&#xD;
+&lt;/p></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-rRz0ZlDid51qWOtIlRDZrw" name="glossary,_PkYt_R63EeCFtI1FQSVGsA" guid="-rRz0ZlDid51qWOtIlRDZrw">
+    <keyConsiderations>&lt;p>&#xD;
+    Although listed as an &lt;i>output from&lt;/i> and an &lt;i>input to&lt;/i> tasks associated with the requirements discipline, this&#xD;
+    artifact can be updated at any time and by any role as new terms are identified. The terms defined should be used&#xD;
+    according to the recorded definitions in all project documentation so that all stakeholders can clearly see that terms&#xD;
+    are being used consistently.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    One of the primary decisions when developing&amp;nbsp;this artifact&amp;nbsp;is whether to have all terms in a single glossary&#xD;
+    or to maintain terms in several glossaries, business terms artifacts, or models.&amp;nbsp;If terms are defined in multiple&#xD;
+    places, you need to communicate all of those sources to the team and decide which take precedence.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It may be important, even in small projects, to reference and use existing broader glossaries, business terms&#xD;
+    artifacts, or data models, where they exist.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Industry- and organization-wide glossaries may be referenced, and compliance with such specific chosen standards may be&#xD;
+    required.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;helps you avoid miscommunication by providing two essential resources:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A central location to look for terms and abbreviations that are new to development team members&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Definitions of terms that are used in specific ways within the domain&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Definitions for the glossary terms come from several sources, such as requirements documents, specifications, and&#xD;
+    discussions with stakeholders and domain experts.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2AYQf0rBjACAg7nDOyRfvQ" name="storyboard,_PkYuAB63EeCFtI1FQSVGsA" guid="-2AYQf0rBjACAg7nDOyRfvQ">
+    <keyConsiderations>&lt;p>&#xD;
+    One or multiple storyboards may be defined for a use case, thereby supporting a use-case-driven approach to software&#xD;
+    engineering, as well as providing an excellent means to validate the user's (actor's) expectations of these use cases&#xD;
+    and their role in the use-case flows of events.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;span class=&quot;Apple-style-span&quot;&#xD;
+style=&quot;WORD-SPACING: 0px; FONT: 13px arial; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-INDENT: 0px; WHITE-SPACE: normal; LETTER-SPACING: normal; BORDER-COLLAPSE: separate; TEXT-ALIGN: left; orphans: 2; widows: 2; webkit-border-horizontal-spacing: 0px; webkit-border-vertical-spacing: 0px; webkit-text-decorations-in-effect: none; webkit-text-size-adjust: auto; webkit-text-stroke-width: 0&quot;>Storyboards&#xD;
+support requirements elicitation by enabling stakeholders to discover and clarify unknown or unclear requirements, and to&#xD;
+provide feedbacks.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-oSlL0GLplPk0buVNKl6azQ" name="system_wide_requirements,_PkYuAx63EeCFtI1FQSVGsA" guid="-oSlL0GLplPk0buVNKl6azQ">
+    <keyConsiderations>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;
+        particular, include the needs of those who are responsible for maintaining or supporting the system after it is&#xD;
+        delivered.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Typically, there are some overlaps and gray areas between system-wide requirements and other requirements work&#xD;
+        products. For example, the authorization behavior of a system can be specified as use cases or as statements within&#xD;
+        system-wide requirements. The overall driving need is that no important requirements are missed or duplicated, and&#xD;
+        that there is an agreed upon approach for capturing and processing every type of requirement.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        System-wide requirements originate from many places. Documenting the source of the requirement is particularly&#xD;
+        important when you separate externally mandated requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Requirements are often thought of as &quot;Qualitative&quot; (specifying a quality or desirable characteristic) versus&#xD;
+        &quot;Quantitative&quot; (specifying a quantity). Qualitative requirements can sometimes be elaborated into quantitative&#xD;
+        requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A good quality requirement is one that you can verify, either through testing or some other objective evaluation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        You must evaluate system-wide requirements for cost, schedule impact, and level of contribution to business goals.&#xD;
+        Based on your evaluation, the system-wide requirements should be iteratively challenged, defended, and amended.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ES0rLF9NVvgBPwqswqe0XQ" name="actor,_PkYuCR63EeCFtI1FQSVGsA" guid="-ES0rLF9NVvgBPwqswqe0XQ">
+    <keyConsiderations>&lt;p>&#xD;
+    This&amp;nbsp;artifact concentrates on the classes of person and other systems that interact with the system under&#xD;
+    consideration. Not every role in an organization becomes an actor.&amp;nbsp;However, work products that describe&#xD;
+    organizational roles may be useful sources for coming up with actors.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    Actors represent different types of users. An actor is anyone or anything that exchanges data with the system. An actor&#xD;
+    can be a user, external hardware, or another system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The difference between an actor and an individual system user is that an actor represents a particular class of users,&#xD;
+    rather than an actual user.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Several different individual users can play the same role, which means that they can be represented by the same, single&#xD;
+    actor. In that case, each individual user constitutes an instance of the actor.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>However,&#xD;
+    in some situations, only one person plays the role modeled by an actor. For example, there may be only one individual&#xD;
+    in the role of system administrator for a rather small system.&lt;/span>&#xD;
+&lt;/p>&#xD;
+&lt;p class=&quot;MsoNormal&quot; style=&quot;MARGIN: 6pt 0pt&quot;>&#xD;
+    &lt;span&#xD;
+    style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA&quot;>The&#xD;
+    same user can also act as several actors (that is, the same person can take on different roles).&lt;/span>&#xD;
+&lt;/p>&lt;br />&#xD;
+&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5Fg2-PsRoCetGveBtCQ31w" name="data_migration_specification,_-gVZgXOZEeCIg8bfzEsl9Q" guid="-5Fg2-PsRoCetGveBtCQ31w">
+    <keyConsiderations>&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        It is preferable to have legacy developers from the source data reference as participants in the data mapping&#xD;
+        process.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data mapping rules may be stored in an automated tool, preferably one with a repository.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The logical level of the data model should be completed, and the external data references identified before the&#xD;
+        data mapping is begun.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact is a detailed description of the requirements for accomplishing data transfers. A data reference can be&#xD;
+    either a source (sending data into the system -inbound) or a target (receiving data from the system -outbound).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Appropriate data sources are found for each of&amp;nbsp;the target data elements, and then rules are drafted to extract,&#xD;
+    transform, and move the source to the target data element. Rules are developed for the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Data selection - rules describing the criteria by which data is to be selected&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data cleansing - rules describing how the source data will be cleansed as it is extracted&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Error detection and correction - rules defining how missing or invalid data should be treated&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data mapping - rules describing what must be done to the source data (transformation) to satisfy target data&#xD;
+        requirements&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-z0orYR3x648FOvdL_CXAcQ" name="data_migration_specification,_FHFrEXOaEeCIg8bfzEsl9Q" guid="-z0orYR3x648FOvdL_CXAcQ">
+    <keyConsiderations>&lt;ul class=&quot;noindent&quot;>&#xD;
+    &lt;li>&#xD;
+        It is preferable to have legacy developers from the source data reference as participants in the data mapping&#xD;
+        process.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data mapping rules may be stored in an automated tool, preferably one with a repository.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The logical level of the data model should be completed, and the external data references identified before the&#xD;
+        data mapping is begun.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    This artifact is a detailed description of the requirements for accomplishing data transfers. A data reference can be&#xD;
+    either a source (sending data into the system -inbound) or a target (receiving data from the system -outbound).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Appropriate data sources are found for each of&amp;nbsp;the target data elements, and then rules are drafted to extract,&#xD;
+    transform, and move the source to the target data element. Rules are developed for the following:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Data selection - rules describing the criteria by which data is to be selected&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data cleansing - rules describing how the source data will be cleansed as it is extracted&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Error detection and correction - rules defining how missing or invalid data should be treated&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Data mapping - rules describing what must be done to the source data (transformation) to satisfy target data&#xD;
+        requirements&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

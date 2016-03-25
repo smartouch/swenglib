@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-Y8e9JbFSE9GSuQtTWacw-Q" name="sys_struc_diag,_dTfs0JgYEd6u7McLcbxIEQ" guid="-Y8e9JbFSE9GSuQtTWacw-Q" changeDate="2009-11-19T10:21:25.125-0800" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    The main type of elements used to describe the internal structure are system blocks.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A System Block is an element of the structural description of the system under development. It is an encapsulated&#xD;
+    entity, i.e. its communication with the environment is performed through ports and&amp;nbsp;associated interfaces. A System&#xD;
+    Block may be decomposed into sub-System Blocks. At the lowest level of decomposition, the behavior of a System Block is&#xD;
+    described by means of a statechart diagram.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A System Block must have a defined boundary. Communication with the environment is performed via ports and associated&#xD;
+    interfaces.&#xD;
+&lt;/p></mainDescription>
+  <purpose>To represent the internal structure of the system under development or a component of it.</purpose>
+  <impactOfNotHaving>Without this artifact, reasoning about the internal structure of the system would be very difficult.</impactOfNotHaving>
+  <representationOptions>&lt;p>&#xD;
+    A system block can be represented as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        A SysML block on a Block Definition Diagram.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The classifier of a SysML part on an Internal Block Diagram,&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        The classifier of a SysML lifeline on a Sequence Diagram.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

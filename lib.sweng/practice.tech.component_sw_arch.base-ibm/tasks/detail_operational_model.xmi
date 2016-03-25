@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-iEe9vWCmxa5KkTOWaV22UQ" name="detail_operational_model,_ZU-WcCsQEd-pq9tGZ00Zeg" guid="-iEe9vWCmxa5KkTOWaV22UQ" changeDate="2010-04-21T15:04:54.843-0700" version="7.1.0">
+  <mainDescription>&lt;p>&#xD;
+    Detail the required operational characteristics and capabilities of the IT system architecture and&amp;nbsp;describe, at an&#xD;
+    architectural level, the network of computer systems and their associated peripherals, together with the systems&#xD;
+    software, middleware, and application software that they run in order to support the users of the system.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Use reference architectures as a source for specification when there is a good fit to the target problem domain.&#xD;
+&lt;/p></mainDescription>
+  <externalId xsi:nil="true"/>
+  <keyConsiderations>The logical level of the operational model is developed in parallel with the physical operational model and is tightly&#xD;
+coupled with both its development and also the development of the component model. Therefore decisions made when developing&#xD;
+the logical operational model may result in changes to both the physical operational model and the component model.&lt;br />&#xD;
+&lt;br />&#xD;
+The state of the operational model which needs to be reached at the end of this task is dependent on the context in which&#xD;
+it is being developed, the level of confidence that needs to be achieved in the architecture and design, and the degree of&#xD;
+accuracy of estimates of resources to further develop the operational model.</keyConsiderations>
+  <sections xmi:id="_i7gAoE2SEd--Q4ueyBDelA" name="Detail logical node specifications" guid="_i7gAoE2SEd--Q4ueyBDelA">
+    <sectionDescription>&lt;p>&#xD;
+    The purpose of this step is to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        develop a specification of the functions, configuration and responsibilities of nodes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        develop a detailed technical specification against which an architect can evaluate alternative products, or even&#xD;
+        against which technology vendors can submit proposals&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Develop a detailed description of each node, which usually includes a table or box diagram that identifies and&#xD;
+    classifies the software components that run on the node. Components (which may not all be software) may be grouped into&#xD;
+    deployment units for ease of placement.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The description includes the node's availability, performance, security and other non-functional characteristics. (A&#xD;
+    non-functional characteristic is what is achieved; a non-functional requirement is what is required).&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_9qmggE2SEd--Q4ueyBDelA" name="Detail logical connection descriptions" guid="_9qmggE2SEd--Q4ueyBDelA">
+    <sectionDescription>&lt;p>&#xD;
+    The purpose of this task is to:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        understand the requirements for network capabilities needed to support connections between nodes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        understand ability of connections support workloads&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Describe the connections between the system nodes at a logical level. This is usually done in table format using from&#xD;
+    node/to node columns that are further subdivided by individual communications between the nodes. The specification&#xD;
+    consists of the following information:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        The end points (node names) of the connection and the business traffic it supports.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A description of the connections and its characteristics. For example, security, data type (e.g. character, image),&#xD;
+        protocol used and nature of the connection (e.g. messaging).&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Documentation of the expected workload for each connection in terms of transactions and packet sizes. Traffic is&#xD;
+        defined in terms of minimum, average and peak traffic expectations and durations.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        A specification of the availability requirements for the connection&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <sections xmi:id="_fd8fME2TEd--Q4ueyBDelA" name="Perform simulations and prototyping to verify design decisions" guid="_fd8fME2TEd--Q4ueyBDelA"/>
+  <sections xmi:id="_iTvnoE2TEd--Q4ueyBDelA" name="Review and refine placement of components on logical nodes" guid="_iTvnoE2TEd--Q4ueyBDelA"/>
+  <sections xmi:id="_kiDSQE2TEd--Q4ueyBDelA" name="Transform the logical operational model into physical model" guid="_kiDSQE2TEd--Q4ueyBDelA">
+    <sectionDescription>&lt;p>&#xD;
+    The physical specification is fully constrained by the limitations of the technology available, geography and the&#xD;
+    environment. Fine-grained, detailed models and specifications are produced. The operational model at this point is a&#xD;
+    complete architectural specification of the IT system, including:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        software products, hardware products and communication connections to enable products to be ordered. This may&#xD;
+        include upgrades to installed products or connections.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        a specification of the operational aspect, which so that nodes and connections can be configured, components deployed a&#xD;
+        brought into operation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        new functionality needed to support operational requirements (e.g., instrumentation) to be created, this will&#xD;
+        typically comprise module specifications which can be taken by a developer or programmer and developed and&#xD;
+        unit-tested. The output of this task is an elaboration of the node descriptions, connection descriptions, system&#xD;
+        management descriptions and middleware specifications. Product selection methods and techniques are used to make&#xD;
+        choices where complexity or risks are factors.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Develop the physical specifications for nodes and connections.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Evaluate and select products.&lt;br />&#xD;
+    &lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_qvpAcE2UEd--Q4ueyBDelA" name="Refine the operational model" guid="_qvpAcE2UEd--Q4ueyBDelA">
+    <sectionDescription>&lt;p>&#xD;
+    This step is&amp;nbsp;performed to ensure the right balance between requirements and practicality for the operational model&#xD;
+    in the delivery of the solution's functional and non-functional requirements.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is almost inevitable that, while assessing the operational model's ability to achieve the various non-functional&#xD;
+    requirements, some shortfall or other will be identified, which will require the operational model to be changed.&#xD;
+    Possibly, it will prove to be impossible, within practical bounds, to achieve all aspects of the solution's&#xD;
+    non-functional requirements. For example, the delivery of very high levels of availability may compromise the&#xD;
+    solution's ability to deliver sub-second response times.&lt;br />&#xD;
+    &lt;br />&#xD;
+    This sub-task assesses the implications of these conclusions for the operational model and, where necessary and&#xD;
+    practical enhances the design. Alternatively, where such changes are not considered desirable or where requirements are&#xD;
+    found to be in conflict, this task ensures the requirements are refined and balanced to &quot;the art of the&#xD;
+    possible&quot;.&lt;br />&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <purpose>&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Develop complete views of the system topology&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Identify connections between nodes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Provide basis for examining non-functional requirements&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Validate that all the necessary business and technical functionality have been identified&lt;br />&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  <alternatives xsi:nil="true"/>
+</org.eclipse.epf.uma:TaskDescription>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_ulkdwAahEeKDn6MuflC_BA" guid="_ulkdwAahEeKDn6MuflC_BA">
+    <resourceDescriptors xmi:id="_ulkdwQahEeKDn6MuflC_BA" id="-QqdL5mVA5TOT0dyEnOxTUg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ulovMAahEeKDn6MuflC_BA" id="-lRtOdS67DR5OIVfGoocSVw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ulp9UAahEeKDn6MuflC_BA" id="-KwHxBpf0bObKc6KeCxx4Vg" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ulqkYAahEeKDn6MuflC_BA" id="-Khn2vuDwM6m8PZWT4IJaIQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_ulrLcAahEeKDn6MuflC_BA" id="-rPbs1jOBMK1viQ24K6_b1g" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_t6y9EJXnEeCeRuB-coqLuQ" name="Tool Environment Setup" guid="_t6y9EJXnEeCeRuB-coqLuQ">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_T69hgJXoEeCeRuB-coqLuQ" name="8.10 Develop document management plan" guid="_T69hgJXoEeCeRuB-coqLuQ" presentationName="8.10 Develop document management plan" briefDescription="Details the planning of the activities surrounding the document management system." isPlanned="true" superActivities="_t6y9EZXnEeCeRuB-coqLuQ" optionalInput="_T69hhpXoEeCeRuB-coqLuQ" output="_T69hiJXoEeCeRuB-coqLuQ" performedPrimarilyBy="_T69hgpXoEeCeRuB-coqLuQ">
+      <presentation xmi:id="-QqdL5mVA5TOT0dyEnOxTUg" href="uma://-QqdL5mVA5TOT0dyEnOxTUg#-QqdL5mVA5TOT0dyEnOxTUg"/>
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_zlNiYJEqEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_T69hgZXoEeCeRuB-coqLuQ" name="Implement document management plan" guid="_T69hgZXoEeCeRuB-coqLuQ" presentationName="Implement document management plan" briefDescription="Carry out the activities detailed in the document management plan to set up the document management systems and associated infrastructure." isPlanned="true" superActivities="_t6y9EZXnEeCeRuB-coqLuQ" linkToPredecessor="_Zi3IsZXpEeCeRuB-coqLuQ" additionallyPerformedBy="_T69hhJXoEeCeRuB-coqLuQ" mandatoryInput="_T69hiJXoEeCeRuB-coqLuQ" output="_T69hipXoEeCeRuB-coqLuQ _T69hjJXoEeCeRuB-coqLuQ" performedPrimarilyBy="_T69hgpXoEeCeRuB-coqLuQ">
+      <presentation xmi:id="-lRtOdS67DR5OIVfGoocSVw" href="uma://-QqdL5mVA5TOT0dyEnOxTUg#-lRtOdS67DR5OIVfGoocSVw"/>
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_AdHzgJEsEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_T69hgpXoEeCeRuB-coqLuQ" name="Knowledge Engineer" guid="_T69hgpXoEeCeRuB-coqLuQ" presentationName="Knowledge Engineer" briefDescription="Understands document management processes, procedures and how to manage information." isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ" modifies="_T69hiJXoEeCeRuB-coqLuQ _T69hipXoEeCeRuB-coqLuQ _T69hjJXoEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultAoAahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_4BgKsJEuEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_T69hhJXoEeCeRuB-coqLuQ" name="Specialist tools administrator" guid="_T69hhJXoEeCeRuB-coqLuQ" presentationName="Specialist tools administrator" briefDescription="This is a set up and administration role that covers the installation and configuration of various specialist tools. The sort of the tools that this may cover are, requirements management, modeling, configuration and change management tools. " isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ" modifies="_W2kXAZXoEeCeRuB-coqLuQ _T69hhpXoEeCeRuB-coqLuQ _ZIJ_IZXoEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultAoQahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_Li1gkJBkEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_T69hhpXoEeCeRuB-coqLuQ" name="Safety plan" guid="_T69hhpXoEeCeRuB-coqLuQ" presentationName="Safety plan " briefDescription="Plan to control and guide the safety activities of a project including dates, milestones, tasks, deliverables, responsibilities and resources.&#xD;&#xA;&#xD;&#xA;This is the Initial version of the safety plan, that gets refined through further stages of development in the Safety plan Vn+1." isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultAogahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_YSuNcIhqEeCE4bK4CwiExg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_T69hiJXoEeCeRuB-coqLuQ" name="Document management plan" guid="_T69hiJXoEeCeRuB-coqLuQ" presentationName="Document management plan" briefDescription="The plan describing how documentation shall be made available for each phase of the safety lifecycle, to enable completion of the phase and verification activities. It should also be available to aid in carrying out the assessment and management of functional safety." isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultAowahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_cY8jAJEdEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_T69hipXoEeCeRuB-coqLuQ" name="Document map" guid="_T69hipXoEeCeRuB-coqLuQ" presentationName="Document map" briefDescription="A document describing where relevant project information is kept or where it can be searched for." isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultApAahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_wpC_IJEdEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_T69hjJXoEeCeRuB-coqLuQ" name="Document template" guid="_T69hjJXoEeCeRuB-coqLuQ" presentationName="Document template" briefDescription="A standard template that should take into account in-house procedures and working practices. It shall be organized to ease the searching of inform. It shall all detail placeholders for the following information.&#xD;&#xA;              Title which shall refer to the scope and content,&#xD;&#xA;              The author and approver&#xD;&#xA;               Unique identification of each different revision of a document  &#xD;&#xA;               Change history&#xD;&#xA;               State, e.g. draft, reviewed, approved, released&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;" isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultApQahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_qpMVgJEdEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_WI0gMJXoEeCeRuB-coqLuQ" name="Set up Change environment and tools" guid="_WI0gMJXoEeCeRuB-coqLuQ" presentationName="Set up Change Management environment and tools" briefDescription="This task is required so that an infrastructure, environment and tools exist for Change Management." isPlanned="true" superActivities="_t6y9EZXnEeCeRuB-coqLuQ" linkToPredecessor="_fuMCgJXpEeCeRuB-coqLuQ" performedPrimarilyBy="_T69hhJXoEeCeRuB-coqLuQ">
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_LTQcMJBTEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_W2kXAJXoEeCeRuB-coqLuQ" name="Develop change management plan" guid="_W2kXAJXoEeCeRuB-coqLuQ" presentationName="Develop change management plan" briefDescription="Organise how change management will be implemented and deployed through the project." isPlanned="true" superActivities="_t6y9EZXnEeCeRuB-coqLuQ" mandatoryInput="_W2kXAZXoEeCeRuB-coqLuQ" optionalInput="_W2kXA5XoEeCeRuB-coqLuQ" output="_W2kXBZXoEeCeRuB-coqLuQ" performedPrimarilyBy="_YheHsZXqEeCeRuB-coqLuQ _YheHtJXqEeCeRuB-coqLuQ">
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_4EQU0JEPEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_W2kXAZXoEeCeRuB-coqLuQ" name="Configuration management plan" guid="_W2kXAZXoEeCeRuB-coqLuQ" presentationName="Configuration management plan" briefDescription="Plan to detail how to carry out and control the configuration management of the item under development. Part of this plan is the planning for the set up of the environment and tools to support CM." isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultApgahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_vJ9IwJEOEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_W2kXA5XoEeCeRuB-coqLuQ" name="Project Plan" guid="_W2kXA5XoEeCeRuB-coqLuQ" presentationName="Project Plan " briefDescription="Overall plan of the project that is initially derived from external sources and updated accordingly&#xD;&#xA;" isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultApwahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_pFF-cIhqEeCE4bK4CwiExg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_W2kXBZXoEeCeRuB-coqLuQ" name="Change Management plan" guid="_W2kXBZXoEeCeRuB-coqLuQ" presentationName="Change Management plan" briefDescription="Plan containing a list of approved changes and the schedule when the changes will be implemented." isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultAqAahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_ZGs3gJEPEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_YpdQ8JXoEeCeRuB-coqLuQ" name="8.7 Develop configuration management plan" guid="_YpdQ8JXoEeCeRuB-coqLuQ" presentationName="8.7 Develop configuration management plan" briefDescription="Plan to detail how to carry out and control the configuration management of the item under development. Part of this plan is the planning for the set up of the environment and tools to support CM." isPlanned="true" superActivities="_t6y9EZXnEeCeRuB-coqLuQ" optionalInput="_T69hhpXoEeCeRuB-coqLuQ" output="_W2kXAZXoEeCeRuB-coqLuQ" performedPrimarilyBy="_T69hhJXoEeCeRuB-coqLuQ">
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_fPda8JEOEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_ZIJ_IJXoEeCeRuB-coqLuQ" name="8.7 Set up CM environment and tools" guid="_ZIJ_IJXoEeCeRuB-coqLuQ" presentationName="8.7 Set up Configuration Management tools and environment" briefDescription="The task of setting up the infrastructure and environment to support configuration management." isPlanned="true" superActivities="_t6y9EZXnEeCeRuB-coqLuQ" linkToPredecessor="_FjNRcJXrEeCeRuB-coqLuQ" mandatoryInput="_W2kXAZXoEeCeRuB-coqLuQ" optionalInput="_T69hiJXoEeCeRuB-coqLuQ _T69hipXoEeCeRuB-coqLuQ _ZIJ_IZXoEeCeRuB-coqLuQ" performedPrimarilyBy="_T69hhJXoEeCeRuB-coqLuQ">
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#__A6g0JBSEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_ZIJ_IZXoEeCeRuB-coqLuQ" name="Populated requirements database with hierarchy" guid="_ZIJ_IZXoEeCeRuB-coqLuQ" presentationName="Populated requirements database with hierarchy" isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultAqQahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_RqYe0JEuEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_cTjkIJXoEeCeRuB-coqLuQ" name="8.7 Apply confguration management" guid="_cTjkIJXoEeCeRuB-coqLuQ" presentationName="8.7 Apply configuration management" briefDescription="This tasks indicates that CM should be applied through the lifetime of the project." isPlanned="true" superActivities="_t6y9EZXnEeCeRuB-coqLuQ" linkToPredecessor="_aQdOgZXpEeCeRuB-coqLuQ _h2rZAZXpEeCeRuB-coqLuQ _ugjqoZXpEeCeRuB-coqLuQ _GlhDAZXrEeCeRuB-coqLuQ" mandatoryInput="_cTjkI5XoEeCeRuB-coqLuQ _cTjkJZXoEeCeRuB-coqLuQ" output="_cTjkJZXoEeCeRuB-coqLuQ" performedPrimarilyBy="_cTjkIZXoEeCeRuB-coqLuQ">
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_CbUrwJEPEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_cTjkIZXoEeCeRuB-coqLuQ" name="Project member" guid="_cTjkIZXoEeCeRuB-coqLuQ" presentationName="Project member" briefDescription="Overarching role that covers anyone on the project that has impact on the lifecycle of the element being developed.&#xD;&#xA;The project member role can be used to assign someone a task that requires a skill set that is outside the general roles defined." isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ" modifies="_cTjkJZXoEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultAqgahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_MKQyEJEWEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_cTjkI5XoEeCeRuB-coqLuQ" name="configurable element or work product" guid="_cTjkI5XoEeCeRuB-coqLuQ" presentationName="configurable element or work product" briefDescription="Any item that is part of the project that needs to be put under configuration control.&#xD;&#xA;It can be source code, models, requirements, documents etc. " isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultAqwahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_RVI8sJEwEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_cTjkJZXoEeCeRuB-coqLuQ" name="Configuration management database" guid="_cTjkJZXoEeCeRuB-coqLuQ" presentationName="Configuration management database" briefDescription="The storage location or pointer to the storage location of the configured items." isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultArAahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#__A3UEJEvEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_fhyasJXoEeCeRuB-coqLuQ" name="8.6 Set up RM environment and tools" guid="_fhyasJXoEeCeRuB-coqLuQ" presentationName="8.6 Set up Requirements Management environment and tools" briefDescription="This task is required so that an infrastructure, environment and tools exist for the management of requirements" isPlanned="true" superActivities="_t6y9EZXnEeCeRuB-coqLuQ" additionallyPerformedBy="_fhyasZXoEeCeRuB-coqLuQ" mandatoryInput="_T69hhpXoEeCeRuB-coqLuQ _fhyas5XoEeCeRuB-coqLuQ" output="_T69hhpXoEeCeRuB-coqLuQ _ZIJ_IZXoEeCeRuB-coqLuQ" performedPrimarilyBy="_T69hhJXoEeCeRuB-coqLuQ">
+      <Task href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_6gSOQJBSEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_fhyasZXoEeCeRuB-coqLuQ" name="Safety Manager" guid="_fhyasZXoEeCeRuB-coqLuQ" presentationName="Safety Manager" briefDescription="Plans the safety activities in the development  subphases of the safety lifecycle.&#xD;&#xA;He is responsible for the maintenance of the safety plan, and for monitoring the progress of the safety activities against the safety plan." isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultArQahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-KwHxBpf0bObKc6KeCxx4Vg" href="uma://-QqdL5mVA5TOT0dyEnOxTUg#-KwHxBpf0bObKc6KeCxx4Vg"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_jhKyAIedEeCpk9ipETsKDg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_fhyas5XoEeCeRuB-coqLuQ" name="Safety requirements" guid="_fhyas5XoEeCeRuB-coqLuQ" presentationName="Safety requirements" briefDescription="List of requirements that have been tagged as safety requirements. " isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultArgahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_HSYwQJEuEeCUs8vNyweFYw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_Zi3IsZXpEeCeRuB-coqLuQ" guid="_Zi3IsZXpEeCeRuB-coqLuQ" pred="_T69hgJXoEeCeRuB-coqLuQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_aQdOgZXpEeCeRuB-coqLuQ" guid="_aQdOgZXpEeCeRuB-coqLuQ" pred="_T69hgZXoEeCeRuB-coqLuQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_fuMCgJXpEeCeRuB-coqLuQ" guid="_fuMCgJXpEeCeRuB-coqLuQ" pred="_W2kXAJXoEeCeRuB-coqLuQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_h2rZAZXpEeCeRuB-coqLuQ" guid="_h2rZAZXpEeCeRuB-coqLuQ" pred="_WI0gMJXoEeCeRuB-coqLuQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_ugjqoZXpEeCeRuB-coqLuQ" guid="_ugjqoZXpEeCeRuB-coqLuQ" pred="_fhyasJXoEeCeRuB-coqLuQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_YheHsZXqEeCeRuB-coqLuQ" name="Project Manager" guid="_YheHsZXqEeCeRuB-coqLuQ" presentationName="Project Manager" briefDescription="The project manager is responsible for the overall management of the functional safety aspects of the development project. " isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ" modifies="_W2kXBZXoEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultArwahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-Khn2vuDwM6m8PZWT4IJaIQ" href="uma://-QqdL5mVA5TOT0dyEnOxTUg#-Khn2vuDwM6m8PZWT4IJaIQ"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_aipNQIecEeCpk9ipETsKDg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_YheHtJXqEeCeRuB-coqLuQ" name="Process Enginer" guid="_YheHtJXqEeCeRuB-coqLuQ" presentationName="Process engineer" briefDescription="Defines the flow of the various processes in the development lifecycle, these proces can relate to the Safety, Operation or Production processes." isPlanned="false" superActivities="_t6y9EZXnEeCeRuB-coqLuQ" modifies="_W2kXBZXoEeCeRuB-coqLuQ">
+      <methodElementProperty xmi:id="_ultAsAahEeKDn6MuflC_BA" name="descriptor_createdByReference" value="true"/>
+      <Role href="uma://_d4hlMIbyEeCBYM-YrlIDLw#_RZsw0I30EeCXD5XcLandUA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_FjNRcJXrEeCeRuB-coqLuQ" guid="_FjNRcJXrEeCeRuB-coqLuQ" pred="_YpdQ8JXoEeCeRuB-coqLuQ"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_GlhDAZXrEeCeRuB-coqLuQ" guid="_GlhDAZXrEeCeRuB-coqLuQ" pred="_ZIJ_IJXoEeCeRuB-coqLuQ"/>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_t6y9EZXnEeCeRuB-coqLuQ" name="Tool Environment Setup" guid="_t6y9EZXnEeCeRuB-coqLuQ" presentationName="Tool Environment Setup" briefDescription="Although not an official task or set of work products as defined in ISO 26262, this particular task is necessary to set up the environment required to support ISO 26262 as well as the tools that will cover aspects of the development lifecycle such as documentation, change and configuration management and requirements management. &#xD;&#xA;The requirements for tools to cover these aspects of the development lifecycle are detailed in ISO 26262, vol 8." breakdownElements="_T69hgJXoEeCeRuB-coqLuQ _T69hgZXoEeCeRuB-coqLuQ _T69hgpXoEeCeRuB-coqLuQ _T69hhJXoEeCeRuB-coqLuQ _T69hhpXoEeCeRuB-coqLuQ _T69hiJXoEeCeRuB-coqLuQ _T69hipXoEeCeRuB-coqLuQ _T69hjJXoEeCeRuB-coqLuQ _WI0gMJXoEeCeRuB-coqLuQ _W2kXAJXoEeCeRuB-coqLuQ _W2kXAZXoEeCeRuB-coqLuQ _W2kXA5XoEeCeRuB-coqLuQ _W2kXBZXoEeCeRuB-coqLuQ _YpdQ8JXoEeCeRuB-coqLuQ _ZIJ_IJXoEeCeRuB-coqLuQ _ZIJ_IZXoEeCeRuB-coqLuQ _cTjkIJXoEeCeRuB-coqLuQ _cTjkIZXoEeCeRuB-coqLuQ _cTjkI5XoEeCeRuB-coqLuQ _cTjkJZXoEeCeRuB-coqLuQ _fhyasJXoEeCeRuB-coqLuQ _fhyasZXoEeCeRuB-coqLuQ _fhyas5XoEeCeRuB-coqLuQ _YheHsZXqEeCeRuB-coqLuQ _YheHtJXqEeCeRuB-coqLuQ">
+      <presentation xmi:id="-rPbs1jOBMK1viQ24K6_b1g" href="uma://-QqdL5mVA5TOT0dyEnOxTUg#-rPbs1jOBMK1viQ24K6_b1g"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

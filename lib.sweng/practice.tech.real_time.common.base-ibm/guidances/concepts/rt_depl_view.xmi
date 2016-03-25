@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-n1TkmLoy3P5-K2xP1roRYA" name="new_concept,_sgZBAOKwEd-G2pDngtqTxA" guid="-n1TkmLoy3P5-K2xP1roRYA" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    The deployment view focuses on how the software architecture maps onto the physical devices such as processors, disk&#xD;
+    drives, displays, and so on. As in Unified Modeling Language (UML) the concept of a node can be used to represent&#xD;
+    physical devices. Nodes are often stereotyped to indicate the kind of hardware they represent. Some developers may only&#xD;
+    differentiate between processors (devices that execute code that you write) and devices (ones that don't), while others&#xD;
+    prefer to identify more detail such as whether a device is a stepper motor, DC motor, thermometer, IR sensor, and so&#xD;
+    on.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The primary use for the deployment view is to represent asymmetric deployment architectures. Then the hardware platform&#xD;
+    can be schematically represented and the mapping of software subsystems and components can be detailed. For asymmetric&#xD;
+    systems this is particularly important to understand how the software on the different processors will collaborate and&#xD;
+    permits performance analysis. You can either nest the software components inside the system or use a dependency from&#xD;
+    the component or software subsystem to indicate that the node supports or executes that software element.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Care must be taken to fully specify the interfaces between the disciplines so that the specific engineering disciplines&#xD;
+    may work with appropriate expectations on how to interact with the other. Inadequate or incorrect specification of&#xD;
+    interfaces - especially between electronics and software - can lead to expensive and delayed integration late in the&#xD;
+    development process. We recommend, therefore, that the interfaces between disciplines be identified early and frozen&#xD;
+    under configuration management. If the interface specification is later found to be inadequate or incorrect, then it&#xD;
+    can be thawed, renegotiated, re-specified and refrozen. This may mean that some rework must be done, but in our&#xD;
+    experience it is far better to have a known, well-specified and frozen target interface, even if it is wrong in some&#xD;
+    detail, than to let the interface &quot;float&quot; until late in the project.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The preferred method for showing the deployment architecture is with a class diagram. This is maximally flexible and&#xD;
+    allows the clear identification of interfaces. In the case of software-only development, a deployment diagram can be&#xD;
+    used. It is less semantically capable than a class diagram but can show allocations of software components to&#xD;
+    processors, buses, links and devices.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:ProcessDescription xmi:id="-B6bgIqVTvyS-1IHOTbWThg" name="manage_reusable_asset,_7npukfQlEduo2_EF-XqXpA" guid="-B6bgIqVTvyS-1IHOTbWThg" version="1.0.0">
+    <mainDescription>&lt;p>&#xD;
+    The&amp;nbsp;purpose of asset management is to provide control and organization to the review and approval workflow,&#xD;
+    delivering assets to consumers in a managed, scalable manner. Asset management is subject to and operates under the&#xD;
+    policies and&amp;nbsp;guidance from Asset Governance.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Asset Management Workflows and Tasks are organized into directed workflow where the tasks occur in a sequence and&#xD;
+    in a non-ordered tasks where the tasks occur at multiple points, without order prescribed. The Review / Approval&#xD;
+    Workflow represents the directed workflow where the tasks occur in the sequence presented. The number of task and their&#xD;
+    order may vary and should be customized for your needs.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Supporting Workflow Tasks are non-ordered and may occur at multiple points throughout the lifecycle of an asset.&#xD;
+&lt;/p></mainDescription>
+  </org.eclipse.epf.uma:ProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-h9pXWLcR-33ta4WD1xI3qw" name="search_asset,_33pRwAVqEdyJlaiJ7G71ig" guid="-h9pXWLcR-33ta4WD1xI3qw">
+    <refinedDescription>&lt;p>&#xD;
+    There are several styles of searching, some more structured than others.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    One structured approach to searching is to use &lt;strong>values&lt;/strong> from category schemas. This approach implies&#xD;
+    that the assets in the repository have been classified according to the category schema. And then these values are&#xD;
+    available as filters&amp;nbsp;that can be selected and combined with other filters to create a search query. This approach&#xD;
+    is useful if the category schema is well understood by the Asset Consumer.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Searching with &lt;strong>keywords&lt;/strong> is a little less structured and it does imply the keyword or something similar&#xD;
+    to it is found in the assets. When searching with keywords the matches may be found in the asset metadata or it may be&#xD;
+    found in the asset artifacts. Some Repositories provide fuzzy searching, taking into consideration misspelled words or&#xD;
+    similar words.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A less structured style of searching is to use &lt;strong>tags&lt;/strong>. With this approach the Asset Consumer associates&#xD;
+    their own word(s) with the asset; this allows the Asset Consumer to view one or more assets in the repository using&#xD;
+    their own words.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    One of the challenges for Asset Consumers conducting searches is to browse result lists as the number of assets in the&#xD;
+    repository grows. Reducing the number of clicks to arrive at a useful, not-overwhelming result list becomes a&#xD;
+    challenge.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is possible to combine multiple search techniques into a single search query. For example, an Asset Consumer may use&#xD;
+    some keywords, combined with several filters to create a search query, such as &quot;claims&quot; with the filters &quot;Type:&#xD;
+    service&quot; and &quot;State: Approved&quot;. This means the Repository could search for assets of type Service, in the state of&#xD;
+    Approved, containing the term &quot;claims&quot; somewhere in the metadata or the asset artifacts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Another helpful technique to minimize search efforts is to leverage asset relationships. Creating coarse-grained assets&#xD;
+    which &quot;contain&quot; other assets, either by-value or by-reference, can dramatically cut down on the search time and effort.&#xD;
+    See&amp;nbsp;&lt;a class=&quot;elementLinkWithType&quot;&#xD;
+    href=&quot;./../../practice.mgmt.asset_based_dev.base-ibm/guidances/concepts/composingsolutions_recipes_8BD29681.html&quot;&#xD;
+    guid=&quot;_ciVFUPCrEdquxKT1X5kJ4g&quot;>Concept: Composing Solutions: Recipes&lt;/a> to read more about coarse-grained assets.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-CecF42-lBng6l60JM5Xbbg" name="asset_consumer,_33pRwQVqEdyJlaiJ7G71ig" guid="-CecF42-lBng6l60JM5Xbbg">
+    <refinedDescription>The Asset Consumer searches and browses &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../extend.rup_abd/workproducts/reusable_asset_A38D118D.html&quot;&#xD;
+guid=&quot;{B40F6CE7-C2CF-49DB-A805-2FBDC885102D}&quot;>Reusable Asset&lt;/a>s in the &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../extend.rup_abd/workproducts/repository_BBA87BE5.html&quot;&#xD;
+guid=&quot;{634E94FE-A1C0-4B66-94C0-4D91B3CADB90}&quot;>Asset Repository&lt;/a>, and ultimately uses the&amp;nbsp;assets. The Asset Consumer&#xD;
+provides feedback on the assets. There are many roles from the enterprise which may perform the role of an Asset Consumer,&#xD;
+for example: Manager, Analyst, Architect, Developer, Tester, and so forth.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-NQUHwnXvvX6SHkJc-v91tg" name="repository,_33pRwgVqEdyJlaiJ7G71ig" guid="-NQUHwnXvvX6SHkJc-v91tg">
+    <refinedDescription>&lt;p>&#xD;
+    The Asset&amp;nbsp;Repository includes the &lt;a class=&quot;elementlinkwithusertext&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/workproducts/reusable_asset_A38D118D.html&quot;&#xD;
+    guid=&quot;{B40F6CE7-C2CF-49DB-A805-2FBDC885102D}&quot;>Reusable Assets&lt;/a> to which the asset consumer has access. It may&#xD;
+    include asset catalogs and repositories (hosted by the organization or a third party on the Internet), as well as&#xD;
+    internal repositories (on the user's local hard disk, a project's local network, and/or an organization's Intranet).&#xD;
+    Such a definition of the Asset&amp;nbsp;Repository is essential because it offers much greater flexibility to the asset&#xD;
+    consumer, and it supports a wider ecosystem for asset creation, management, and application.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Asset Repository represents the context in which Reusable Assets are published. Describing it as a composite&#xD;
+    artifact is really an optimization from a process description point of view, which provides a way to describe where&#xD;
+    assets are published, and what assets are searched for, generically, without having to repeatedly say that the &quot;reuse&#xD;
+    library&quot; could be a company-wide repository, a project-wide repository, a third-party repository, etc.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Asset&amp;nbsp;Repository supports different kinds of context-dependent searches, navigation, and retrieval of assets&#xD;
+    (or parts of assets).&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-0kNu77jjJ3xIjiIV4DhdOw" name="review_and_test_asset,_5j0fsAVqEdyJlaiJ7G71ig" guid="-0kNu77jjJ3xIjiIV4DhdOw">
+    <refinedDescription>&lt;p>&#xD;
+    As assets are submitted to the Repository the relevant parties are notified of their role in the review process. Some&#xD;
+    may be in the role of Reviewers whereas others are in the role of the Review Board. There are many possible review&#xD;
+    processes given the variety of asset types, cultures, and other restrictions.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The review processes are defined per Community. There are three kinds of review processes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        AS-IS&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Built-in&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Extensible&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The Built-in and Extensible review processes can use a Review Board. The Review Board provides oversight to the review&#xD;
+    process, they can modify the set of reviewers, initiate the review process, and cast final votes on the asset. Without&#xD;
+    a Review Board the Reviewers are notified and the assets are approved/rejected based on the votes cast by the&#xD;
+    Reviewers.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&lt;img style=&quot;WIDTH: 814px; HEIGHT: 583px&quot; height=&quot;527&quot; alt=&quot;Review Process with and without Review Board.&quot;&#xD;
+    src=&quot;./resources/builtinreview_comparereviewboard.gif&quot; width=&quot;600&quot; />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        As-Is: this really means there is no review process, meaning that assets submitted using AS-IS are automatically&#xD;
+        approved. Administrators normally have to approve this.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Built-in: in this case the Asset Repository provides fundamental asset review capabilities which can be configured&#xD;
+        by the Administrator. Review Board members and reviewers can be identified to review assets of a particular type,&#xD;
+        owner, or classification. The Asset Repository notifies participants when an asset comes in for a review process.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Extensible: this kind of review process is customizable to reflect the workflow the enterprise needs. This review&#xD;
+        process is specified by a process language or by a change management system.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    There are many possible review processes given the variety of asset types, cultures, and other restrictions. The review&#xD;
+    process can be netted to two major groups, the Review Board and the Reviewers. The review process was specified in the&#xD;
+    Task: Configure Repository. If the Review Board is enabled then for each asset that is submitted the Review Board&#xD;
+    should be notified and they begin their activities. The Review Board will plan the review, select reviewers, initiate&#xD;
+    the review, evaluate the submitted reviews, and cast the final, deciding vote on the asset. In the image below a&#xD;
+    built-in review process has been specified called &quot;Service Implementation Review&quot; for assets of type &quot;Service&#xD;
+    Implementation&quot;. A Review Board has been enabled, this means they will cast the final vote on the asset. Also one&#xD;
+    review has been identified, by name, rather than by role.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Once the Reviewers are notified of the review they can claim the review request and conduct the review and submit the&#xD;
+    review with vote to the Repository. Reviewers may also suggest other Reviewers to the Review Board. If the Review Board&#xD;
+    is not enabled for the review, then the votes from the Reviewers determine if the asset is accepted or rejected.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The actual set of reviewers, the steps of the review process, and the parties involved generally requires customization&#xD;
+    for each organization.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-DI5feZHwSiGKlEj-h3hM5A" name="asset_reviewer,_5j0fsQVqEdyJlaiJ7G71ig" guid="-DI5feZHwSiGKlEj-h3hM5A">
+    <refinedDescription>The repository notifies the Asset Reviewer when&amp;nbsp;an asset is submitted for review. The Asset Reviewer selects the asset&#xD;
+to review and evaluates the asset, prepares review material, and then votes to accept or reject the asset.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EnsOsLyDfchDfQ9NpdXqmw" name="asset_review_board,_5j0fsgVqEdyJlaiJ7G71ig" guid="-EnsOsLyDfchDfQ9NpdXqmw">
+    <refinedDescription>&lt;p>&#xD;
+    The Review Board is responsible for specifying review processes. It works with the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/roles/teamspace_administrator_3CF68D4D.html&quot;&#xD;
+    guid=&quot;_g8U5YN6tEdqwWKV3TFzcXQ&quot;>Community Administrator&lt;/a> to get the assets&amp;nbsp;into the Repository. The Review Board&#xD;
+    identifies who potential reviewers are and customizes the review process in the Repository to add the reviewers.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Review Board also initiates the review in the Repository, monitors who has submitted reviews, and then evaluates&#xD;
+    the submitted reviews and casts the final vote on an asset.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This role should be optional, allowing varying degrees of formality in the asset review process.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xLk42WUmqSz9WpWHuxuh0g" name="asset_review,_5j0ftAVqEdyJlaiJ7G71ig" guid="-xLk42WUmqSz9WpWHuxuh0g">
+    <refinedDescription>This artifact provides the basis for the Reviewers vote. The Asset Review is typically submitted to the Repository and&#xD;
+attached to the asset. The Asset Review should generally not be visible to Asset Consumers&amp;nbsp;after the asset has been&#xD;
+approved.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZpPuXY2F1OMTXf9FKOs8wg" name="publish_or_deploy_asset,_6Y34YAVqEdyJlaiJ7G71ig" guid="-ZpPuXY2F1OMTXf9FKOs8wg">
+    <refinedDescription>&lt;p>&#xD;
+    In this task, the asset is made visible to a target audience that goes beyond the Repository. As part of the normal&#xD;
+    asset review activities, the asset may transition to the state of Approved. It is then&amp;nbsp;visible to the Asset&#xD;
+    Consumers with the appropriate access control.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    However, here&amp;nbsp;you are interested in making the asset visible to other target audiences. This task will largely&#xD;
+    take place as certain asset types, such as Service Interfaces, are published into service registries.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In this case the Service Interface likely has several key artifacts such as the WSDL,&amp;nbsp;and XSDs. At this point, the&#xD;
+    approved Service Interface asset is selected and the target service registry is identified. The contents of the Service&#xD;
+    Interface (or whatever asset type it may be) asset are published to the service registry.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This can affect the state of the asset in the Repository by&amp;nbsp;transitioning to something such as &quot;published&quot;.&#xD;
+    Publishing the asset introduces some issues around classification and security. The classification of the asset in the&#xD;
+    Repository may not map directly to the classification that is available in the target repository or registry.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Another consideration is security and access control. In some cases the access control between the two systems may be&#xD;
+    dissimilar. It is critical that one Repository does not betray the access control specified in another repository.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A development-time repository is focused on the governance of assets to aid the development organization. The runtime&#xD;
+    service registry is focused on the governance of services into and out of production environments.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;img style=&quot;WIDTH: 638px; HEIGHT: 343px&quot; height=&quot;550&quot;&#xD;
+    alt=&quot;The contents of the Service Interface asset are published to the service registry.&quot; src=&quot;./resources/image14.gif&quot;&#xD;
+    width=&quot;322&quot; />&#xD;
+&lt;/p>When publishing an asset to another repository or registry, the administrators will also need to deal with duplicated&#xD;
+data and how to handle updates and new versions. It is also necessary to consider which system is the source of record for&#xD;
+the asset or some portion of the asset.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-TC2vmGXu_xzh9_87fh9ChA" name="teamspace_administrator,_6Y34YQVqEdyJlaiJ7G71ig" guid="-TC2vmGXu_xzh9_87fh9ChA">
+    <refinedDescription>&lt;p>&#xD;
+    The Community Administrator makes &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/workproducts/reusable_asset_A38D118D.html&quot;&#xD;
+    guid=&quot;{B40F6CE7-C2CF-49DB-A805-2FBDC885102D}&quot;>Reusable Assets&lt;/a> available to the target audience by establishing and&#xD;
+    maintaining the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/workproducts/repository_BBA87BE5.html&quot;&#xD;
+    guid=&quot;{634E94FE-A1C0-4B66-94C0-4D91B3CADB90}&quot;>Asset Repository&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Community Administrator configures the repository to support the right kinds of assets for the appropriate&#xD;
+    audience. This can include activities such as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Defining the asset types for one or more organizations&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Describing the review process for these asset types&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Capturing the taxonomy for these asset types&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defining the roles for a particular organization&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defining the access control and permissions for roles in that organization&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The Community Administrator coordinates with the&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/roles/repository_administrator_B229B75A.html&quot;&#xD;
+    guid=&quot;_Qvb3kGLREdu966JQULqj8A&quot;>Repository Administrator&lt;/a>&amp;nbsp;as part of the overall configuration of the&#xD;
+    repository.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-SRzV6K7E9UyxlZriC4OTfA" name="asset_owner,_6Y34YgVqEdyJlaiJ7G71ig" guid="-SRzV6K7E9UyxlZriC4OTfA">
+    <refinedDescription>&lt;p>&#xD;
+    The Asset Owner role is a person or an organization that defines and submits the asset version, as well as updates or&#xD;
+    removes the asset version. The Asset Owner is the original creator of the asset version.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A new asset version can be created by a new Asset Owner. This means the repository can have the following assets:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Asset name: Credit Report Service&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Version: 1 Owner: Bill Walker&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        ------&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Asset name: Credit Report Service&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Version: 2 Owner: Jill Allred&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-I2f213U43cVfMiqRHQU2qg" name="reuse_feedback,_aJOK8azbEeCkm47UBNMmoQ" guid="-I2f213U43cVfMiqRHQU2qg">
+    <refinedDescription>&lt;p>&#xD;
+    The &lt;a class=&quot;PresentationName&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/workproducts/reuse_feedback_4FE0BF48.html&quot;&#xD;
+    guid=&quot;{17055D74-3590-4749-A1B4-F65E19239DBD}&quot;>Reuse Feedback&lt;/a> captures feedback concerning a specific &lt;a&#xD;
+    class=&quot;elementLink&quot; href=&quot;./../../extend.rup_abd/workproducts/reusable_asset_A38D118D.html&quot;&#xD;
+    guid=&quot;{B40F6CE7-C2CF-49DB-A805-2FBDC885102D}&quot;>Reusable Asset&lt;/a> in the repository, the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/workproducts/repository_BBA87BE5.html&quot;&#xD;
+    guid=&quot;{634E94FE-A1C0-4B66-94C0-4D91B3CADB90}&quot;>Asset Repository&lt;/a> itself, and suggestions for new reusable assets.&#xD;
+    Feedback concerning a specific reusable asset is intended to be made public (as a testimonial or a review, for&#xD;
+    example).&amp;nbsp;Relevant feedback is made available to asset consumers when browsing the&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/workproducts/repository_BBA87BE5.html&quot;&#xD;
+    guid=&quot;{634E94FE-A1C0-4B66-94C0-4D91B3CADB90}&quot;>Asset Repository&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Reuse feedback is a critical lifeline to an &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/workproducts/repository_BBA87BE5.html&quot;&#xD;
+    guid=&quot;{634E94FE-A1C0-4B66-94C0-4D91B3CADB90}&quot;>Asset Repository&lt;/a>. From this feedback asset-level and repository-level&#xD;
+    decisions are made. From such feedback the organization of a repository may be significantly altered or a &lt;a&#xD;
+    class=&quot;elementLink&quot; href=&quot;./../../extend.rup_abd/workproducts/reusable_asset_A38D118D.html&quot;&#xD;
+    guid=&quot;{B40F6CE7-C2CF-49DB-A805-2FBDC885102D}&quot;>Reusable Asset&lt;/a> may be modified to address defects or to introduce&#xD;
+    features.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5lxdbsC5-eTd73zXsR5RlA" name="configure_repository,_1cXiIAVqEdyJlaiJ7G71ig" guid="-5lxdbsC5-eTd73zXsR5RlA">
+    <refinedDescription>&lt;p>&#xD;
+    There is several major administration roles involved with configuring an asset repository. The steps for configuring&#xD;
+    the repository cross these roles. These roles may be played&amp;nbsp;by a single person, but that is not very likely. For&#xD;
+    more information see: &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../practice.mgmt.asset_based_dev.base-ibm/guidances/supportingmaterials/role_overview_FC18EBE4.html&quot;&#xD;
+    guid=&quot;_lYmhwPHEEdqvbZNHa620Yw&quot;>Role Roadmap&lt;/a>. The major roles are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Community Administrator: this role is responsible for specifying the asset types, review processes, roles and&#xD;
+        access control, and review processes for a specific Community. A Community is an arbitrary collection of users and&#xD;
+        the assets that are relevant to them.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Repository Administrator: this role is responsible for specifying server paths, application server paths, database&#xD;
+        configurations, web service locations, background process settings, and overall performance.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Integration Administrator: this role is responsible for integrating the Repository with development lifecycle tools&#xD;
+        such as SCM tools, change management tools, and service registries.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qi60UiVfGs-fYdVXG-rvNw" name="teamspace_administrator,_1cXiIQVqEdyJlaiJ7G71ig" guid="-qi60UiVfGs-fYdVXG-rvNw">
+    <refinedDescription>&lt;p>&#xD;
+    The Community Administrator makes &lt;a class=&quot;elementLinkWithUserText&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/workproducts/reusable_asset_A38D118D.html&quot;&#xD;
+    guid=&quot;{B40F6CE7-C2CF-49DB-A805-2FBDC885102D}&quot;>Reusable Assets&lt;/a> available to the target audience by establishing and&#xD;
+    maintaining the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/workproducts/repository_BBA87BE5.html&quot;&#xD;
+    guid=&quot;{634E94FE-A1C0-4B66-94C0-4D91B3CADB90}&quot;>Asset Repository&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Community Administrator configures the repository to support the right kinds of assets for the appropriate&#xD;
+    audience. This can include activities such as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Defining the asset types for one or more organizations&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Describing the review process for these asset types&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Capturing the taxonomy for these asset types&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defining the roles for a particular organization&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Defining the access control and permissions for roles in that organization&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    The Community Administrator coordinates with the&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/roles/repository_administrator_B229B75A.html&quot;&#xD;
+    guid=&quot;_Qvb3kGLREdu966JQULqj8A&quot;>Repository Administrator&lt;/a>&amp;nbsp;as part of the overall configuration of the&#xD;
+    repository.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-grOeq-z-KPCmwJu5DJVxqQ" name="integration_administrator,_1cXiIgVqEdyJlaiJ7G71ig" guid="-grOeq-z-KPCmwJu5DJVxqQ">
+    <refinedDescription>&lt;p>&#xD;
+    This role is responsible for integrating the Repository with development lifecycle tools such as SCM tools, change&#xD;
+    management tools, and service registries.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Asset Repository is focused on the development community. As such the repository should integrate with&#xD;
+    tools&amp;nbsp;that enable the development community. These kinds of tools include SCM tools, change management tools,&#xD;
+    integrated development environments, and service registries.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4Z5d-n6kpYS8UG3gZUd5mA" name="repository_administrator,_1cXiIwVqEdyJlaiJ7G71ig" guid="-4Z5d-n6kpYS8UG3gZUd5mA">
+    <refinedDescription>&lt;p>&#xD;
+    This role is responsible the overall configuration of the Asset Repository. These responsibilities include specifying:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Server paths&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Repository license&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Application server paths&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Database configurations&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Web server path&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Web services path&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Background index process settings&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Overall performance&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Sr8VSLRFSFvfvUjhnQvXmQ" name="asset_types,_1cXiJAVqEdyJlaiJ7G71ig" guid="-Sr8VSLRFSFvfvUjhnQvXmQ">
+    <refinedDescription>Each asset is of a specific type. The asset types describe what can be contained in the asset, what relationships and asset&#xD;
+can or should have, and so forth. This work product is typically rendered in a picture and illustrates relationships and&#xD;
+content, and the kind of classification an asset is intended for.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2AEhpgiyw9o8UEp90WAL2w" name="repository,_1cXiJQVqEdyJlaiJ7G71ig" guid="-2AEhpgiyw9o8UEp90WAL2w">
+    <refinedDescription>&lt;p>&#xD;
+    The Asset&amp;nbsp;Repository includes the &lt;a class=&quot;elementlinkwithusertext&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/workproducts/reusable_asset_A38D118D.html&quot;&#xD;
+    guid=&quot;{B40F6CE7-C2CF-49DB-A805-2FBDC885102D}&quot;>Reusable Assets&lt;/a> to which the asset consumer has access. It may&#xD;
+    include asset catalogs and repositories (hosted by the organization or a third party on the Internet), as well as&#xD;
+    internal repositories (on the user's local hard disk, a project's local network, and/or an organization's Intranet).&#xD;
+    Such a definition of the Asset&amp;nbsp;Repository is essential because it offers much greater flexibility to the asset&#xD;
+    consumer, and it supports a wider ecosystem for asset creation, management, and application.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Asset Repository represents the context in which Reusable Assets are published. Describing it as a composite&#xD;
+    artifact is really an optimization from a process description point of view, which provides a way to describe where&#xD;
+    assets are published, and what assets are searched for, generically, without having to repeatedly say that the &quot;reuse&#xD;
+    library&quot; could be a company-wide repository, a project-wide repository, a third-party repository, etc.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Asset&amp;nbsp;Repository supports different kinds of context-dependent searches, navigation, and retrieval of assets&#xD;
+    (or parts of assets).&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AN96M5IxgrYj0rXw1eBnwg" name="report_on_asset,_2gUScAVqEdyJlaiJ7G71ig" guid="-AN96M5IxgrYj0rXw1eBnwg">
+    <refinedDescription>&lt;p>&#xD;
+    There are many kinds of metrics to track. Some metrics are tracked by the Repository, others are tracked by other tools&#xD;
+    or roles. These metrics can come from various sources, such as:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Asset Consumers&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Asset Owners/Producers/Reviewers&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Repository&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Derived for Managers&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p>&#xD;
+    Asset Consumer metrics generally include qualitative metrics, such as reusability ratings (4 out of 5 stars) or text&#xD;
+    feedback in the form of comments and discussions. Typically these metrics are stored on the Repository.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Asset Owners/Producers/Reviewers tend to create asset-level metrics. These include metrics such as anticipated level of&#xD;
+    effort for an Asset Consumer to use the asset, and the level of effort to create a given version of an asset. The&#xD;
+    metrics also include size, such as number of bytes, lines of code, or number of components. Typically these metrics are&#xD;
+    stored with the asset in the Repository.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Repository metrics are largely quantitative. These include metrics such as number of downloads for a given asset&#xD;
+    version, number of searches and kinds of searches, number of browses from searches, as well as information on which&#xD;
+    Asset Consumers conducted certain downloads. Some of the other metrics may be repository activity over a period of&#xD;
+    time, such as, number of repository accesses, or asset submissions and so forth over a period of time. The Repository&#xD;
+    can also track number of problems or defects associated with an asset.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    In general, Repositories are not tracking the cost side of asset development. This is typically tracked in project&#xD;
+    management and financial reporting tools. Bringing together the metrics from Asset Consumers, Asset&#xD;
+    Owners/Producers/Reviewers and the Repository with costing metrics gives a foundation for derived metrics. Some of&#xD;
+    these metrics include project reuse percentage, project productivity gains, and return on investment.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pUXa52wcuIgwYzmrKllKWg" name="asset_consumer,_2gUScQVqEdyJlaiJ7G71ig" guid="-pUXa52wcuIgwYzmrKllKWg">
+    <refinedDescription>The Asset Consumer searches and browses &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../extend.rup_abd/workproducts/reusable_asset_A38D118D.html&quot;&#xD;
+guid=&quot;{B40F6CE7-C2CF-49DB-A805-2FBDC885102D}&quot;>Reusable Asset&lt;/a>s in the &lt;a class=&quot;elementLink&quot;&#xD;
+href=&quot;./../../extend.rup_abd/workproducts/repository_BBA87BE5.html&quot;&#xD;
+guid=&quot;{634E94FE-A1C0-4B66-94C0-4D91B3CADB90}&quot;>Asset Repository&lt;/a>, and ultimately uses the&amp;nbsp;assets. The Asset Consumer&#xD;
+provides feedback on the assets. There are many roles from the enterprise which may perform the role of an Asset Consumer,&#xD;
+for example: Manager, Analyst, Architect, Developer, Tester, and so forth.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qv6beAFv-d0W3BNmJLBrzw" name="asset_owner,_2gUScgVqEdyJlaiJ7G71ig" guid="-qv6beAFv-d0W3BNmJLBrzw">
+    <refinedDescription>&lt;p>&#xD;
+    The Asset Owner role is a person or an organization that defines and submits the asset version, as well as updates or&#xD;
+    removes the asset version. The Asset Owner is the original creator of the asset version.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A new asset version can be created by a new Asset Owner. This means the repository can have the following assets:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Asset name: Credit Report Service&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Version: 1 Owner: Bill Walker&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        ------&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Asset name: Credit Report Service&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Version: 2 Owner: Jill Allred&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Q_sz30HD9letF5L7p5rx3g" name="asset_producer,_2gUScwVqEdyJlaiJ7G71ig" guid="-Q_sz30HD9letF5L7p5rx3g">
+    <refinedDescription>&lt;p>&#xD;
+    The Asset Producer updates an asset version by developing artifacts and harvesting artifacts as well as making changes&#xD;
+    to the metadata. If the updates require the creation of a new asset version, then the Asset Producer becomes the &lt;a&#xD;
+    class=&quot;elementLink&quot; href=&quot;./../../extend.rup_abd/roles/asset_owner_51973C5A.html&quot;&#xD;
+    guid=&quot;_Vp9JcGLUEdu966JQULqj8A&quot;>Asset Owner&lt;/a>&amp;nbsp;in the repository.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-o2mSt1dczddcB2TCQwOGlQ" name="asset_review_board,_2gUSdAVqEdyJlaiJ7G71ig" guid="-o2mSt1dczddcB2TCQwOGlQ">
+    <refinedDescription>&lt;p>&#xD;
+    The Review Board is responsible for specifying review processes. It works with the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/roles/teamspace_administrator_3CF68D4D.html&quot;&#xD;
+    guid=&quot;_g8U5YN6tEdqwWKV3TFzcXQ&quot;>Community Administrator&lt;/a> to get the assets&amp;nbsp;into the Repository. The Review Board&#xD;
+    identifies who potential reviewers are and customizes the review process in the Repository to add the reviewers.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The Review Board also initiates the review in the Repository, monitors who has submitted reviews, and then evaluates&#xD;
+    the submitted reviews and casts the final vote on an asset.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This role should be optional, allowing varying degrees of formality in the asset review process.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-T5s-CQBSLcBtBWQ3tw0dcg" name="asset_reviewer,_2gUSdQVqEdyJlaiJ7G71ig" guid="-T5s-CQBSLcBtBWQ3tw0dcg">
+    <refinedDescription>The repository notifies the Asset Reviewer when&amp;nbsp;an asset is submitted for review. The Asset Reviewer selects the asset&#xD;
+to review and evaluates the asset, prepares review material, and then votes to accept or reject the asset.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8WBNfO7pc4Z-cZ3UI2X1dQ" name="subscriber,_2gUSdgVqEdyJlaiJ7G71ig" guid="-8WBNfO7pc4Z-cZ3UI2X1dQ">
+    <refinedDescription>A Subscriber is interested in the activities&amp;nbsp;related to&amp;nbsp;an asset or on a specified search in the repository. The&#xD;
+Subscriber registers interest in the Asset Repository. Some examples of events&amp;nbsp;related to&amp;nbsp;an asset include change&#xD;
+in state, submitted rating, downloads, asset update, and others. The Subscriber may be notified via e-mail or RSS feeds.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Q-8hF6O0yA8jE9IMcvr9BA" name="remove_asset,_3H9hQAVqEdyJlaiJ7G71ig" guid="-Q-8hF6O0yA8jE9IMcvr9BA">
+    <keyConsiderations>&lt;p>&#xD;
+    In most cases the enterprise should avoid deleting the asset from the repository. To be more specific, assets which&#xD;
+    have just been submitted to the repository and are in the initial state or draft state, or rather, the asset has not&#xD;
+    gone through review and approval processes and are not available for asset consumers, are generally&amp;nbsp;OK to delete&#xD;
+    from the repository.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Asset owners can generally delete non-approved assets with little repercussion. Whereas assets which have been approved&#xD;
+    and are being reused are more difficult to delete. One of the more challenging aspects to removing assets is ensuring&#xD;
+    that the entire set of Asset Consumers are communicated with. Having support from the repository to automate much of&#xD;
+    this communication is a critical feature.&#xD;
+&lt;/p></keyConsiderations>
+    <refinedDescription>&lt;p>&#xD;
+    There are three levels of removing an asset from a repository. These include retiring an asset, archiving an asset, and&#xD;
+    deleting an asset.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Retire Asset&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is performed by an administrator who sets the state of the asset to retired. The effect of this is the asset is no&#xD;
+    longer visible to the Asset Consumers, but is still visible to the Asset Owner and the administrator.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Archive Asset&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is performed by an administrator who sets the state of the asset to archived. The effect of this is the asset is&#xD;
+    no longer visible to Asset Consumers or to the Asset Owner, but is still visible to the administrator.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Delete Asset&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This is performed by the Asset Owner or the administrator. The effect of this is the asset is removed from the&#xD;
+    Repository. Certainly this needs to be handled with care.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &lt;strong>Considerations for removing an asset&lt;/strong>&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Some of the considerations for removing an asset are:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Asset usage levels: the asset is dormant, few searches, few browses, few downloads, little feedback, and so forth.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Funding termination: sponsor changes or terminates funding support, perhaps due to business prioritization.&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Need for solution diminishes: the problem either goes away, or a new solution is available, or level of effort to&#xD;
+        maintain become prohibitive.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-0sq858vObQ945-AChSsOUQ" name="reuse_feedback,_aJq24azbEeCkm47UBNMmoQ" guid="-0sq858vObQ945-AChSsOUQ">
+    <refinedDescription>&lt;p>&#xD;
+    The &lt;a class=&quot;PresentationName&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/workproducts/reuse_feedback_4FE0BF48.html&quot;&#xD;
+    guid=&quot;{17055D74-3590-4749-A1B4-F65E19239DBD}&quot;>Reuse Feedback&lt;/a> captures feedback concerning a specific &lt;a&#xD;
+    class=&quot;elementLink&quot; href=&quot;./../../extend.rup_abd/workproducts/reusable_asset_A38D118D.html&quot;&#xD;
+    guid=&quot;{B40F6CE7-C2CF-49DB-A805-2FBDC885102D}&quot;>Reusable Asset&lt;/a> in the repository, the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/workproducts/repository_BBA87BE5.html&quot;&#xD;
+    guid=&quot;{634E94FE-A1C0-4B66-94C0-4D91B3CADB90}&quot;>Asset Repository&lt;/a> itself, and suggestions for new reusable assets.&#xD;
+    Feedback concerning a specific reusable asset is intended to be made public (as a testimonial or a review, for&#xD;
+    example).&amp;nbsp;Relevant feedback is made available to asset consumers when browsing the&amp;nbsp;&lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/workproducts/repository_BBA87BE5.html&quot;&#xD;
+    guid=&quot;{634E94FE-A1C0-4B66-94C0-4D91B3CADB90}&quot;>Asset Repository&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Reuse feedback is a critical lifeline to an &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../extend.rup_abd/workproducts/repository_BBA87BE5.html&quot;&#xD;
+    guid=&quot;{634E94FE-A1C0-4B66-94C0-4D91B3CADB90}&quot;>Asset Repository&lt;/a>. From this feedback asset-level and repository-level&#xD;
+    decisions are made. From such feedback the organization of a repository may be significantly altered or a &lt;a&#xD;
+    class=&quot;elementLink&quot; href=&quot;./../../extend.rup_abd/workproducts/reusable_asset_A38D118D.html&quot;&#xD;
+    guid=&quot;{B40F6CE7-C2CF-49DB-A805-2FBDC885102D}&quot;>Reusable Asset&lt;/a> may be modified to address defects or to introduce&#xD;
+    features.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_gDgF4DN8Ed6_nLybut0Zyw" guid="_gDgF4DN8Ed6_nLybut0Zyw">
+    <resourceDescriptors xmi:id="_rZ_LwTQSEd6UdJtXX0x6GA" id="-sOmmoV3UCrxoceJTSthW5w" uri="guidances/supportingmaterials/welcome.soa.xmi"/>
+    <resourceDescriptors xmi:id="_veskYEZHEd6DhbzzyJmhdQ" id="-0rVTIERiqfvbFlAIdPPCng" uri="guidances/supportingmaterials/getting_started_with_the_soma_practices.xmi"/>
+    <resourceDescriptors xmi:id="_Gg8BMJpsEd6o74-wQ-l20w" id="-ujTTKo-1TCs_FLywR5M_HQ" uri="guidances/toolmentors/rsa_build_service_model_from_soaml_template.soa.publish.xmi"/>
+    <resourceDescriptors xmi:id="__1uyQLTqEd6485NHeyxOgA" id="-O5vJ_lCZCW8kzLBNN5B7yw" uri="roles/architect.supp.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_gDgF0DN8Ed6_nLybut0Zyw" userChangeable="false" name="publish.tech.soma.base-ibm" guid="_gDgF0DN8Ed6_nLybut0Zyw" briefDescription="Publish practices and lifecycles for SOMA development." authors="Jim Ruehlin" changeDate="2010-10-06T12:46:40.656-0700">
+    <methodElementProperty xmi:id="_4KxaEbemEd-oHLor78AFuw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_VBVtYBXVEdyM9L6rbYAZaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gDgF0TN8Ed6_nLybut0Zyw" name="Content" guid="_gDgF0TN8Ed6_nLybut0Zyw">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gDgF0jN8Ed6_nLybut0Zyw" name="Categories" guid="_gDgF0jN8Ed6_nLybut0Zyw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gDgF0zN8Ed6_nLybut0Zyw" name="Domains" guid="_gDgF0zN8Ed6_nLybut0Zyw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gDgF1DN8Ed6_nLybut0Zyw" name="Disciplines" guid="_gDgF1DN8Ed6_nLybut0Zyw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gDgF1TN8Ed6_nLybut0Zyw" name="RoleSets" guid="_gDgF1TN8Ed6_nLybut0Zyw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gDgF1jN8Ed6_nLybut0Zyw" name="WP Types" guid="_gDgF1jN8Ed6_nLybut0Zyw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gDgF1zN8Ed6_nLybut0Zyw" name="Tools" guid="_gDgF1zN8Ed6_nLybut0Zyw">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_VhCgIJpoEd6o74-wQ-l20w" name="rational_software_architect.soa-publish" guid="_VhCgIJpoEd6o74-wQ-l20w" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Tool" href="uma://_3mXbsMYhEdyXeo04os5BOw#_u4ZsoER-Ed2eKeXZgLpnkQ"/>
+            <toolMentors href="#_AGBTkJppEd6o74-wQ-l20w"/>
+            <toolMentors href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_CAZm8HLoEd6sAIXj8wzebg"/>
+            <toolMentors href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_R5GlAHLoEd6sAIXj8wzebg"/>
+            <toolMentors href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_XXFJQHLrEd6dsJb1-FWFSQ"/>
+            <toolMentors href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_iXrHQIlEEd65XMCQ7LtxNw"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gDgF2DN8Ed6_nLybut0Zyw" name="StandardCategories" guid="_gDgF2DN8Ed6_nLybut0Zyw"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gDgF2TN8Ed6_nLybut0Zyw" name="CustomCategories" guid="_gDgF2TN8Ed6_nLybut0Zyw">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gDgF2jN8Ed6_nLybut0Zyw" name="Hidden" guid="_gDgF2jN8Ed6_nLybut0Zyw">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_gDgF2zN8Ed6_nLybut0Zyw" name="Custom Categories" guid="_gDgF2zN8Ed6_nLybut0Zyw" categorizedElements="_mOOisDN8Ed6_nLybut0Zyw _fkhtADOLEd6jS7-0yMOEJQ _36gqoEDXEd6xU9AA2v_L1g _7TxNkEZKEd6DhbzzyJmhdQ _vFSugLN3Ed6Q48--ssE8QQ _4JLxsLgpEd6EUtitpj4XQA"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_mOOisDN8Ed6_nLybut0Zyw" name="practices" guid="_mOOisDN8Ed6_nLybut0Zyw" presentationName="Practices" shapeicon="customcategories/resources/practice_set.gif" nodeicon="customcategories/resources/practice_set_obj.gif" variabilityType="replaces">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_RJ__ECLJEd2ct852UDqXGQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_GdFlkK9UEd2qXOsgZ_h9PA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_AJPzULaDEd2n36KPip6Xng#_N9VOQLaDEd2n36KPip6Xng"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_r5JXMLaCEd2n36KPip6Xng#_S80AALaDEd2n36KPip6Xng"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Practice" href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_RO-zgDN6Ed6_nLybut0Zyw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_fkhtADOLEd6jS7-0yMOEJQ" name="navigation_view.rational_soa" guid="_fkhtADOLEd6jS7-0yMOEJQ" variabilityType="contributes" categorizedElements="_-RdmUEIvEd6dRqjofH5VWA __UL3cLNVEd6S8Yus0zy05A">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_1-9JoEKmEdyrauqpmnA8jQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_36gqoEDXEd6xU9AA2v_L1g" name="delivery_process_list.soa" guid="_36gqoEDXEd6xU9AA2v_L1g" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCIHYsRdEdyD76CYS6Ta7A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_-RdmUEIvEd6dRqjofH5VWA" name="capability_patterns" guid="_-RdmUEIvEd6dRqjofH5VWA" presentationName="Capability Patterns">
+            <methodElementProperty xmi:id="_HZStgEIwEd6dRqjofH5VWA" name="CategoryElementsSortType" value="Manual"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_YzdzwEDPEd6xU9AA2v_L1g#_YzdzwUDPEd6xU9AA2v_L1g"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_7TxNkEZKEd6DhbzzyJmhdQ" name="getting_started_list.soa" guid="_7TxNkEZKEd6DhbzzyJmhdQ" variabilityType="contributes" categorizedElements="_jfluEEZHEd6DhbzzyJmhdQ">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_WCIHYMRdEdyD76CYS6Ta7A"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="__UL3cLNVEd6S8Yus0zy05A" name="soa_architectural_patterns" guid="__UL3cLNVEd6S8Yus0zy05A" presentationName="SOA Architectural Patterns">
+            <categorizedElements xsi:type="org.eclipse.epf.uma:Concept" href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_-Ne-cHhXEd63Mo-f0bVh9w"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_9oSvoLNQEd6WR9wJZqNhXA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_Gh9fALNREd6WR9wJZqNhXA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_vFSugLN3Ed6Q48--ssE8QQ" name="designing_service_solutions_using_rational_software_architect" guid="_vFSugLN3Ed6Q48--ssE8QQ" presentationName="Designing Service Solutions using Rational Software Architect">
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#__pcvMHJOEd6ZMq0fab_yhw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_FK0bMLN4Ed6Q48--ssE8QQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:CustomCategory" href="#_MzdLELN5Ed6Q48--ssE8QQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_FK0bMLN4Ed6Q48--ssE8QQ" name="rational_software_architect_service_solution_design_tool_mentors" guid="_FK0bMLN4Ed6Q48--ssE8QQ" presentationName="Rational Software Architect Service Solution Design Tool Mentors">
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_E-Ow8JpvEd6o74-wQ-l20w"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_uZz80JryEd6L7c7RvvYqTg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_32tcUJx3Ed6mdrpPUUpq_w"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_gXV1kJx8Ed6mdrpPUUpq_w"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_-SzssJpsEd6o74-wQ-l20w"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_C5S8sKLeEd6E3ZvDETLL9g"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_lFnEcJpsEd6o74-wQ-l20w"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_r5JXMLaCEd2n36KPip6Xng#_4Hs6gIlDEd65XMCQ7LtxNw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_r5JXMLaCEd2n36KPip6Xng#_VLJ4AJseEd6L7c7RvvYqTg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_r5JXMLaCEd2n36KPip6Xng#_K9IWUJqFEd6QY_56pVRTLw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_r5JXMLaCEd2n36KPip6Xng#_1BF1cJqHEd6QY_56pVRTLw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_r5JXMLaCEd2n36KPip6Xng#_940rIJqHEd6QY_56pVRTLw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_r5JXMLaCEd2n36KPip6Xng#_OijdgJqIEd6QY_56pVRTLw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_r5JXMLaCEd2n36KPip6Xng#_bYDwUJqIEd6QY_56pVRTLw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_MzdLELN5Ed6Q48--ssE8QQ" name="rational_software_architect_service_transformation_tool_mentors" guid="_MzdLELN5Ed6Q48--ssE8QQ" presentationName="Rational Software Architect Service Transformation Tool Mentors">
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_CAZm8HLoEd6sAIXj8wzebg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_R5GlAHLoEd6sAIXj8wzebg"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_XXFJQHLrEd6dsJb1-FWFSQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_iXrHQIlEEd65XMCQ7LtxNw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_4JLxsLgpEd6EUtitpj4XQA" name="release_info" guid="_4JLxsLgpEd6EUtitpj4XQA" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_irqswCLOEd2ct852UDqXGQ"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_WrGSULgeEd6EUtitpj4XQA"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_mbx_ALgtEd63AKI_74QaXw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_r5JXMLaCEd2n36KPip6Xng#_cI4WYbguEd63AKI_74QaXw"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_AJPzULaDEd2n36KPip6Xng#_8pFSMbguEd63AKI_74QaXw"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_gDgF3DN8Ed6_nLybut0Zyw" name="CoreContent" guid="_gDgF3DN8Ed6_nLybut0Zyw">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Gwz7wDOLEd6jS7-0yMOEJQ" name="rational_soa" guid="_Gwz7wDOLEd6jS7-0yMOEJQ" presentationName="Rational SOA">
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_iOu9IDQSEd6UdJtXX0x6GA" name="welcome.soa" guid="_iOu9IDQSEd6UdJtXX0x6GA" presentationName="Welcome to IBM Rational SOMA 2.9" briefDescription="IBM Rational SOMA 2.9 is a collection of practices for identifying and specifying services, specifying service-oriented solutions, and making decisions regarding how services will be realized." variabilityType="replaces">
+            <presentation xmi:id="-sOmmoV3UCrxoceJTSthW5w" href="uma://-sOmmoV3UCrxoceJTSthW5w#-sOmmoV3UCrxoceJTSthW5w"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:SupportingMaterial" href="uma://_vsno4EKmEdyrauqpmnA8jQ#_g910gCapEd21TMX858E1gw"/>
+            <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_e3mR4FIREd6lNtylJFsPIg"/>
+            <conceptsAndPapers href="uma://_WCUhAO8KEdmKSqa_gSYthg#_FxJEkFUKEd2_rMtRMt_EMg"/>
+            <conceptsAndPapers href="uma://_WCUhAO8KEdmKSqa_gSYthg#_qhCTAFRREd2CWscN8Mx6rg"/>
+            <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_FYb84EovEd6D_7XK49c0nw"/>
+            <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_-Ne-cHhXEd63Mo-f0bVh9w"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:SupportingMaterial" xmi:id="_jfluEEZHEd6DhbzzyJmhdQ" name="getting_started_with_the_soma_practices" guid="_jfluEEZHEd6DhbzzyJmhdQ" presentationName="Developing Service-Oriented Solutions Using the IBM Rational SOMA 2.9 practices" briefDescription="Advice for using Rational SOMA 2.9 practices to develop service-oriented solutions. The practices are based on the IBM Global Business Services approach to services development.">
+            <presentation xmi:id="-0rVTIERiqfvbFlAIdPPCng" href="uma://-0rVTIERiqfvbFlAIdPPCng#-0rVTIERiqfvbFlAIdPPCng"/>
+            <conceptsAndPapers href="uma://_WCUhAO8KEdmKSqa_gSYthg#_qhCTAFRREd2CWscN8Mx6rg"/>
+            <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_T-AiUEozEd6D_7XK49c0nw"/>
+            <guidelines href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_NiIGsIYNEd6L7PopHG7zng"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4jIRQJplEd6o74-wQ-l20w" name="tool_mentors" guid="_4jIRQJplEd6o74-wQ-l20w">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_9JIMAJplEd6o74-wQ-l20w" name="rational_software_architect" guid="_9JIMAJplEd6o74-wQ-l20w">
+            <contentElements xsi:type="org.eclipse.epf.uma:ToolMentor" xmi:id="_AGBTkJppEd6o74-wQ-l20w" name="rsa_build_service_model_from_soaml_template.soa.publish" guid="_AGBTkJppEd6o74-wQ-l20w" variabilityType="contributes">
+              <presentation xmi:id="-ujTTKo-1TCs_FLywR5M_HQ" href="uma://-ujTTKo-1TCs_FLywR5M_HQ#-ujTTKo-1TCs_FLywR5M_HQ"/>
+              <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:ToolMentor" href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#__pcvMHJOEd6ZMq0fab_yhw"/>
+              <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_XsWMIFIREd6lNtylJFsPIg"/>
+              <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_R5GZYEo1Ed6D_7XK49c0nw"/>
+              <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_A5_hYFbBEd6MCpkuB85p5g"/>
+              <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_N5e2oFbBEd6MCpkuB85p5g"/>
+              <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_9jRdMFbAEd6MCpkuB85p5g"/>
+              <conceptsAndPapers href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_zL3kgFbAEd6MCpkuB85p5g"/>
+            </contentElements>
+          </childPackages>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_Xc0DoLRvEd6485NHeyxOgA" name="supplementary_plug-in_support" guid="_Xc0DoLRvEd6485NHeyxOgA" presentationName="Supplementary Plug-in Support" briefDescription="Include elements from supplementary plug-ins that otherwise cause broken links in the published process.">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_3QxHkLTqEd6485NHeyxOgA" name="architect.supp" guid="_3QxHkLTqEd6485NHeyxOgA" variabilityType="contributes">
+            <presentation xmi:id="-O5vJ_lCZCW8kzLBNN5B7yw" href="uma://-O5vJ_lCZCW8kzLBNN5B7yw#-O5vJ_lCZCW8kzLBNN5B7yw"/>
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_0X9iEMlgEdmt3adZL5Dmdw"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gDgF3TN8Ed6_nLybut0Zyw" name="CapabilityPatterns" guid="_gDgF3TN8Ed6_nLybut0Zyw"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gDgF3jN8Ed6_nLybut0Zyw" name="DeliveryProcesses" guid="_gDgF3jN8Ed6_nLybut0Zyw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_gDgF3zN8Ed6_nLybut0Zyw" name="ProcessContributions" guid="_gDgF3zN8Ed6_nLybut0Zyw"/>
+    <bases href="uma://_vsno4EKmEdyrauqpmnA8jQ#_vsno4EKmEdyrauqpmnA8jQ"/>
+    <bases href="uma://_rhS8wCB1Ed2BC837SW9yQQ#_rhS8wCB1Ed2BC837SW9yQQ"/>
+    <bases href="uma://_ZqI0ADNQEd6_nLybut0Zyw#_ZqI0ADNQEd6_nLybut0Zyw"/>
+    <bases href="uma://_6yJIwK9QEd2qXOsgZ_h9PA#_6yJIwK9QEd2qXOsgZ_h9PA"/>
+    <bases href="uma://_AJPzULaDEd2n36KPip6Xng#_AJPzULaDEd2n36KPip6Xng"/>
+    <bases href="uma://_r5JXMLaCEd2n36KPip6Xng#_r5JXMLaCEd2n36KPip6Xng"/>
+    <bases href="uma://_QDfL4EDPEd6xU9AA2v_L1g#_QDfL4EDPEd6xU9AA2v_L1g"/>
+    <bases href="uma://_6Bi1YLAYEd2oW_uTVb0U4w#_6Bi1YLAYEd2oW_uTVb0U4w"/>
+    <bases href="uma://_fwiWcEcYEd6GBq2DuQ5crg#_fwiWcEcYEd6GBq2DuQ5crg"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

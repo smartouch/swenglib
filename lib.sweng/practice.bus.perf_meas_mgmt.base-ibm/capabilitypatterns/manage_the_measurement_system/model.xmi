@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_1D6FIP0kEd20w98rSqT2fg" guid="_1D6FIP0kEd20w98rSqT2fg">
+    <resourceDescriptors xmi:id="_1D6FIf0kEd20w98rSqT2fg" id="-QZvhFolPgpp7IJQMyOWYyw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_WFonUPdNEd-5P-QeUarQcw" id="-kXDnPw-_tC4i8exAI1dH_Q" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_WFonUfdNEd-5P-QeUarQcw" id="-8_HPgPuXeFBEkGQixw18uQ" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_WFonUvdNEd-5P-QeUarQcw" id="-hwW9GCE46Cc3_3IVYg_8sw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_WFonU_dNEd-5P-QeUarQcw" id="-c90RcH0L4mYnr6ieiY0zPw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_WFonVPdNEd-5P-QeUarQcw" id="-qDRVGTBwfcuGSmWnyd3iOQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_1DAtQP0kEd20w98rSqT2fg" name="Manage the Measurement System" guid="_1DAtQP0kEd20w98rSqT2fg">
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_AzXV4P0lEd20w98rSqT2fg" name="deploy_meas_system" guid="_AzXV4P0lEd20w98rSqT2fg" presentationName="Deploy the Measurement System" briefDescription="This task addresses the performance measurement system deployment, including  detailed planning, preparing users,  deploying hardware and software, and starting the collection of the metrics." superActivities="_1DAtQf0kEd20w98rSqT2fg" mandatoryInput="_AzXV4f0lEd20w98rSqT2fg _AzXV4v0lEd20w98rSqT2fg _TVqUsP3bEd2KfuloJ5E1jQ" output="_TjzjwfdNEd-5P-QeUarQcw">
+      <methodElementProperty xmi:id="_1ir9gLemEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <presentation xmi:id="-kXDnPw-_tC4i8exAI1dH_Q" href="uma://-QZvhFolPgpp7IJQMyOWYyw#-kXDnPw-_tC4i8exAI1dH_Q"/>
+      <toolmentor href="uma://_WGnkUN5pEd2J7couKHLTuw#_wCBN0OONEd6HcrwWZcV6RQ"/>
+      <Task href="uma://_WGnkUN5pEd2J7couKHLTuw#_F5i-0P0gEd20w98rSqT2fg"/>
+      <selectedSteps href="uma://-sGvFDCpPiRI85OFXWVTANA#_oeOT0P0gEd20w98rSqT2fg"/>
+      <selectedSteps href="uma://-sGvFDCpPiRI85OFXWVTANA#_sz-zIP0gEd20w98rSqT2fg"/>
+      <selectedSteps href="uma://-sGvFDCpPiRI85OFXWVTANA#_wN1q4P0gEd20w98rSqT2fg"/>
+      <selectedSteps href="uma://-sGvFDCpPiRI85OFXWVTANA#_ynblcCiDEd6VNpSWJzf2tw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_AzXV4f0lEd20w98rSqT2fg" name="measurement_infrastructure" guid="_AzXV4f0lEd20w98rSqT2fg" presentationName="Measurement Infrastructure" briefDescription="This artifact is the actual hardware and software portions of the measurement system.  It consists of the data repositories for storage of metrics information and the software to generate metrics reports." isPlanned="false" superActivities="_1DAtQf0kEd20w98rSqT2fg">
+      <methodElementProperty xmi:id="_1ir9gbemEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_CIyDwEMLEdyP_Jn83ylwUQ#_wIAXkPhdEd2eD9_rTy05yw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_AzXV4v0lEd20w98rSqT2fg" name="measurement_process_model" guid="_AzXV4v0lEd20w98rSqT2fg" presentationName="Measurement Process and Procedures" briefDescription="This artifact captures the specifics on the roles, tasks and the artifacts that are required to setup and manage a specific performance measurement system.  It captures the details concerning who, what when and how the performance measurement system will operate." isPlanned="false" superActivities="_1DAtQf0kEd20w98rSqT2fg">
+      <methodElementProperty xmi:id="_1ir9gremEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_CIyDwEMLEdyP_Jn83ylwUQ#_07HhQPhdEd2eD9_rTy05yw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_BUvkoP0lEd20w98rSqT2fg" name="assess_meas_system" guid="_BUvkoP0lEd20w98rSqT2fg" presentationName="Assess the Measurement System" briefDescription="This task is for evaluating whether the infrastructure and the process are meeting the needs of the business and IT organization." superActivities="_1DAtQf0kEd20w98rSqT2fg" linkToPredecessor="__S6i8ShqEd6VNpSWJzf2tw" mandatoryInput="_AzXV4f0lEd20w98rSqT2fg _AzXV4v0lEd20w98rSqT2fg _TVqUsP3bEd2KfuloJ5E1jQ _DjL78yiEEd6VNpSWJzf2tw" output="_DjL79CiEEd6VNpSWJzf2tw">
+      <methodElementProperty xmi:id="_1i1HcbemEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <presentation xmi:id="-8_HPgPuXeFBEkGQixw18uQ" href="uma://-QZvhFolPgpp7IJQMyOWYyw#-8_HPgPuXeFBEkGQixw18uQ"/>
+      <Task href="uma://_WGnkUN5pEd2J7couKHLTuw#_K8waAP0gEd20w98rSqT2fg"/>
+      <selectedSteps href="uma://-DI5i43RFMio20Qk19wC_Rw#_CdpDMP0hEd20w98rSqT2fg"/>
+      <selectedSteps href="uma://-DI5i43RFMio20Qk19wC_Rw#_XLi1oP0hEd20w98rSqT2fg"/>
+      <selectedSteps href="uma://-DI5i43RFMio20Qk19wC_Rw#_ZfhDYP0hEd20w98rSqT2fg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TVqUsP3bEd2KfuloJ5E1jQ" name="measurement_specification" guid="_TVqUsP3bEd2KfuloJ5E1jQ" presentationName="Measurement Specification" briefDescription="This artifact is a specification document, documenting the detail design of the performance measurement system.  It includes the specifics on the detail of each measure to be implemented.  It also includes the specifications of the measurement infrastructure." isPlanned="false" superActivities="_1DAtQf0kEd20w98rSqT2fg">
+      <methodElementProperty xmi:id="_1ir9g7emEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_CIyDwEMLEdyP_Jn83ylwUQ#_RaLCMP1IEd20w98rSqT2fg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_teYKUChqEd6VNpSWJzf2tw" name="manage_meas_system" guid="_teYKUChqEd6VNpSWJzf2tw" presentationName="Manage the Measurement System" briefDescription="This task identifies the day-to-day items that need to be accomplished to support the efficient and effective use of a performance measurement system." superActivities="_1DAtQf0kEd20w98rSqT2fg" linkToPredecessor="_zEmL8ChqEd6VNpSWJzf2tw" mandatoryInput="_AzXV4v0lEd20w98rSqT2fg" output="_7H9dsOIIEd--IupE_yo_tA">
+      <methodElementProperty xmi:id="_1i1HcLemEd-oHLor78AFuw" name="descriptor_localUsingInfo"/>
+      <presentation xmi:id="-hwW9GCE46Cc3_3IVYg_8sw" href="uma://-QZvhFolPgpp7IJQMyOWYyw#-hwW9GCE46Cc3_3IVYg_8sw"/>
+      <Task href="uma://_WGnkUN5pEd2J7couKHLTuw#_9f21cChgEd6VNpSWJzf2tw"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_zEmL8ChqEd6VNpSWJzf2tw" guid="_zEmL8ChqEd6VNpSWJzf2tw" pred="_AzXV4P0lEd20w98rSqT2fg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="__S6i8ShqEd6VNpSWJzf2tw" guid="__S6i8ShqEd6VNpSWJzf2tw" pred="_teYKUChqEd6VNpSWJzf2tw"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_DjL78CiEEd6VNpSWJzf2tw" name="technical_sme" guid="_DjL78CiEEd6VNpSWJzf2tw" presentationName="Technical SME" isPlanned="false" superActivities="_1DAtQf0kEd20w98rSqT2fg" responsibleFor="_TVqUsP3bEd2KfuloJ5E1jQ _AzXV4f0lEd20w98rSqT2fg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_DjL78SiEEd6VNpSWJzf2tw" name="solution_architect" guid="_DjL78SiEEd6VNpSWJzf2tw" presentationName="Solution Architect" isPlanned="false" superActivities="_1DAtQf0kEd20w98rSqT2fg" responsibleFor="_DjL79CiEEd6VNpSWJzf2tw _DjL78yiEEd6VNpSWJzf2tw _AzXV4v0lEd20w98rSqT2fg"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_DjL78yiEEd6VNpSWJzf2tw" name="measurement_requirements" guid="_DjL78yiEEd6VNpSWJzf2tw" presentationName="Measurement Requirements" briefDescription="This work product captures the high level requirements for the performance measurement system.  It describes &quot;what&quot; specific measures are being captured at the three levels and &quot;why&quot; they are being captured.  It also documents any measurement infrastructure or process requirements." isPlanned="false" superActivities="_1DAtQf0kEd20w98rSqT2fg">
+      <methodElementProperty xmi:id="_1i1HcremEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_CIyDwEMLEdyP_Jn83ylwUQ#_WAwy0P1IEd20w98rSqT2fg"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_DjL79CiEEd6VNpSWJzf2tw" name="measurement_assessment" guid="_DjL79CiEEd6VNpSWJzf2tw" presentationName="Measurement Assessment" briefDescription="This work product documents a periodic evaluation of the performance measurement system.  The assessment reviews the processes and metrics implemented.  It also documents discussions with management on the applicability of the measures being captured.  Lastly, it recommends modifications to the performance measurement system to optimize its effectiveness." isPlanned="false" superActivities="_1DAtQf0kEd20w98rSqT2fg">
+      <methodElementProperty xmi:id="_1i1Hc7emEd-oHLor78AFuw" name="descriptor_createdByReference" value="true"/>
+      <WorkProduct href="uma://_WGnkUN5pEd2J7couKHLTuw#_QQZNcAzwEd6ERc3uCTKYXQ"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_7H9dsOIIEd--IupE_yo_tA" name="measurement_data" guid="_7H9dsOIIEd--IupE_yo_tA" presentationName="Measurement Data" briefDescription="Base and derived measurement data gathered from projects according to implemented metric specifications." isPlanned="false" superActivities="_1DAtQf0kEd20w98rSqT2fg">
+      <presentation xmi:id="-c90RcH0L4mYnr6ieiY0zPw" href="uma://-QZvhFolPgpp7IJQMyOWYyw#-c90RcH0L4mYnr6ieiY0zPw"/>
+      <WorkProduct href="uma://_WGnkUN5pEd2J7couKHLTuw#_-oqgEOBiEd-EFPtY3zXi1A"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_TjzjwfdNEd-5P-QeUarQcw" name="deployed_measurement_system" guid="_TjzjwfdNEd-5P-QeUarQcw" presentationName="Deployed Measurement System" briefDescription="This outcome represents a deployed Performance Measurement System." isPlanned="false" superActivities="_1DAtQf0kEd20w98rSqT2fg">
+      <methodElementProperty xmi:id="_TjzjwvdNEd-5P-QeUarQcw" name="descriptor_createdByReference" value="true"/>
+      <presentation xmi:id="-qDRVGTBwfcuGSmWnyd3iOQ" href="uma://-QZvhFolPgpp7IJQMyOWYyw#-qDRVGTBwfcuGSmWnyd3iOQ"/>
+      <WorkProduct href="uma://_WGnkUN5pEd2J7couKHLTuw#_9nIykPSjEd-uW69oGnBHFg"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_1DAtQf0kEd20w98rSqT2fg" name="Manage the Measurement System" guid="_1DAtQf0kEd20w98rSqT2fg" presentationName="Manage the Measurement System" briefDescription="This workflow describes how to manage a Performance Measurement System and what are the main tasks performed, the artifacts produced and consumed, and the roles involved." breakdownElements="_AzXV4P0lEd20w98rSqT2fg _AzXV4f0lEd20w98rSqT2fg _AzXV4v0lEd20w98rSqT2fg _teYKUChqEd6VNpSWJzf2tw _BUvkoP0lEd20w98rSqT2fg _TVqUsP3bEd2KfuloJ5E1jQ _DjL78CiEEd6VNpSWJzf2tw _DjL78SiEEd6VNpSWJzf2tw _DjL78yiEEd6VNpSWJzf2tw _DjL79CiEEd6VNpSWJzf2tw _7H9dsOIIEd--IupE_yo_tA _TjzjwfdNEd-5P-QeUarQcw">
+      <methodElementProperty xmi:id="_1i-4cbemEd-oHLor78AFuw" name="process_synFree" value="true"/>
+      <presentation xmi:id="-QZvhFolPgpp7IJQMyOWYyw" href="uma://-QZvhFolPgpp7IJQMyOWYyw#-QZvhFolPgpp7IJQMyOWYyw"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

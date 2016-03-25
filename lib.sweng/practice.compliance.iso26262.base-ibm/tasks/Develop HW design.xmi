@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-JC1hkMVikQAISEwyEmXZew" name=",_g0otsJ5vEeCHFd5_MqJHKQ" guid="-JC1hkMVikQAISEwyEmXZew" version="7.5.1">
+  <mainDescription>&lt;p>&#xD;
+    The HW design shall implement the HW safety requirements, with each element inheriting the highest ASIL from the&#xD;
+    hardware safety requirements that are allocated to it. It is possible to lower the ASIL of a particular element based&#xD;
+    upon the ASIL decomposition rules outline in ISO 26262, volume 9, clause 5. If sub-elements with different ASIL exist&#xD;
+    within the main element then the highest ASIL is applied, unless the rules for coexistence, outlined in ISO 26262, volume&#xD;
+    9, clause 6 are met.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    The safety requirements shall be traced down to the level of the HW component, it is not necessary to trace safety&#xD;
+    requirements and assign ASIL to hardware parts.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Well trusted&amp;nbsp;hardware components and&amp;nbsp;robust design principles should be considered for implementing the&#xD;
+    system (according to ISO 26262, volume 4, clause 7.4.4.6).&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Non-functional causes of failure for HW components and parts should be considered during architectural design, such as&#xD;
+    temperature , vibration, water, dust, EMI, cross talk interference etc.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    A number of guiding principles regarding the level of granularity, to avoid failures resulting from high complexity are&#xD;
+    given in ISO 26262, volume 5, clause 7.4.1.6.&#xD;
+&lt;/p></mainDescription>
+  <purpose>To develop the HW system design</purpose>
+</org.eclipse.epf.uma:TaskDescription>

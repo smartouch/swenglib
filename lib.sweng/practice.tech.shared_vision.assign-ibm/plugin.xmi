@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_4PlysIqUEd2D5-8hD0M9JQ" guid="_4PlysIqUEd2D5-8hD0M9JQ"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_4PlyoIqUEd2D5-8hD0M9JQ" userChangeable="false" name="practice.tech.shared_vision.assign-ibm" guid="_4PlyoIqUEd2D5-8hD0M9JQ" presentationName="IBM Shared Vision Assignments" briefDescription="IBM assignments" authors="Jim Ruehlin" changeDate="2008-10-15T09:36:01.281-0700">
+    <methodElementProperty xmi:id="_3EIiJLemEd-oHLor78AFuw" name="plugin_synFree" value="true"/>
+    <copyrightStatement href="uma://_iX6DsBXGEdyM9L6rbYAZaw#_VBVtYBXVEdyM9L6rbYAZaw"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4PlyoYqUEd2D5-8hD0M9JQ" name="Content" guid="_4PlyoYqUEd2D5-8hD0M9JQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4PlyooqUEd2D5-8hD0M9JQ" name="Categories" guid="_4PlyooqUEd2D5-8hD0M9JQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4Plyo4qUEd2D5-8hD0M9JQ" name="Domains" guid="_4Plyo4qUEd2D5-8hD0M9JQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4PlypIqUEd2D5-8hD0M9JQ" name="Disciplines" guid="_4PlypIqUEd2D5-8hD0M9JQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_GN5gkIqVEd2D5-8hD0M9JQ" name="requirements_discipline.assign-ibm" guid="_GN5gkIqVEd2D5-8hD0M9JQ" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Discipline" href="uma://_MRPloEFXEdy9ENCpSugIjA#_iGSHtVZ-EdyIUdvDLLUdeg"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4PlypYqUEd2D5-8hD0M9JQ" name="RoleSets" guid="_4PlypYqUEd2D5-8hD0M9JQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4PlypoqUEd2D5-8hD0M9JQ" name="WP Types" guid="_4PlypoqUEd2D5-8hD0M9JQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4Plyp4qUEd2D5-8hD0M9JQ" name="Tools" guid="_4Plyp4qUEd2D5-8hD0M9JQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4PlyqIqUEd2D5-8hD0M9JQ" name="StandardCategories" guid="_4PlyqIqUEd2D5-8hD0M9JQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4PlyqYqUEd2D5-8hD0M9JQ" name="CustomCategories" guid="_4PlyqYqUEd2D5-8hD0M9JQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4PlyqoqUEd2D5-8hD0M9JQ" name="Hidden" guid="_4PlyqoqUEd2D5-8hD0M9JQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_4Plyq4qUEd2D5-8hD0M9JQ" name="Custom Categories" guid="_4Plyq4qUEd2D5-8hD0M9JQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_4PlyrIqUEd2D5-8hD0M9JQ" name="CoreContent" guid="_4PlyrIqUEd2D5-8hD0M9JQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_ZDihgJmWEd2S6-8lyy88lw" name="role_assignments" guid="_ZDihgJmWEd2S6-8lyy88lw" presentationName="Role Assignments">
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_ZDihgZmWEd2S6-8lyy88lw" name="analyst.assign_wp" guid="_ZDihgZmWEd2S6-8lyy88lw" variabilityType="contributes">
+            <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:Role" href="uma://_A118oMYaEdyXeo04os5BOw#_0VxJsMlgEdmt3adZL5Dmdw"/>
+            <responsibleFor href="uma://_OynuUNDqEdunspUKKm1F4Q#_kumgAHUvEd2KwLyf6ks5lg"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_4PlyrYqUEd2D5-8hD0M9JQ" name="CapabilityPatterns" guid="_4PlyrYqUEd2D5-8hD0M9JQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_4PlyroqUEd2D5-8hD0M9JQ" name="DeliveryProcesses" guid="_4PlyroqUEd2D5-8hD0M9JQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_4Plyr4qUEd2D5-8hD0M9JQ" name="ProcessContributions" guid="_4Plyr4qUEd2D5-8hD0M9JQ"/>
+    <bases href="uma://_MRPloEFXEdy9ENCpSugIjA#_MRPloEFXEdy9ENCpSugIjA"/>
+    <bases href="uma://_xCV7YK_jEdyRnp6Y1hLYVQ#_xCV7YK_jEdyRnp6Y1hLYVQ"/>
+    <bases href="uma://_-JfLYEMEEdyP_Jn83ylwUQ#_-JfLYEMEEdyP_Jn83ylwUQ"/>
+    <bases href="uma://_A118oMYaEdyXeo04os5BOw#_A118oMYaEdyXeo04os5BOw"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>

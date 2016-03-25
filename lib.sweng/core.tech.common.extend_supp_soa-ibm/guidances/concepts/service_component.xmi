@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmi:id="-K5CdAMPBymopMkksa_Zoag" name="service_component,_Gcmp8GZaEd65K8S2sWS35w" guid="-K5CdAMPBymopMkksa_Zoag" changeDate="2010-09-14T14:05:03.890-0700" version="7.5.0">
+  <mainDescription>&lt;p>&#xD;
+    &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.bus.common.extend-ibm/guidances/concepts/functional_area_analysis_9B1F96D5.html&quot; guid=&quot;_fk1woEo1Ed6D_7XK49c0nw&quot;>Concept: Functional Area Analysis&lt;/a>&amp;nbsp;and &lt;a class=&quot;elementLinkWithType&quot; href=&quot;./../../../core.bus.common.extend-ibm/guidances/concepts/business_subsystem_622C6CDE.html&quot; guid=&quot;_zfz4kGpmEd6g0_jzBUWUGg&quot;>Concept: Business Subsystem (or Business Service Interface)&lt;/a>&amp;nbsp;describe how&#xD;
+    business subsystems&amp;nbsp;abstractly represent aggregations of cohesive business functionality.&amp;nbsp; These are&#xD;
+    not&amp;nbsp;IT assets and are not deployable into the IT infrastructure; they provide a bridge between the business and IT&#xD;
+    perspectives. Each&amp;nbsp;business subsystem (or a functional area, if it has no business subsystems)&amp;nbsp;is mapped into&#xD;
+    an &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/design_subsystem_47086B8E.html&quot; guid=&quot;_5inEwEo2Ed6D_7XK49c0nw&quot;>Design Subsystem&lt;/a>, which then is realized by one or more Service Components.&amp;nbsp;&#xD;
+    A&amp;nbsp;Service Component is an enterprise-scale asset (a managed software element with guaranteed availability, load&#xD;
+    balancing, security, performance, and versioning). The Service Component is in turn realized by multiple Functional and&#xD;
+    Technical Components according to the diagram below.&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img alt=&quot;&quot; src=&quot;./resources/soa_components.gif&quot; width=&quot;254&quot; height=&quot;278&quot;     usemap=&quot;#map1252008642968&quot; />&lt;map id=&quot;map1252008642968&quot; name=&quot;map1252008642968&quot;>&#xD;
+        &lt;area title=&quot;Design Subsystem&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/design_subsystem_47086B8E.html&quot; shape=&quot;rect&quot; alt=&quot;Design Subsystem&quot; coords=&quot;42,124,251,154&quot; guid=&quot;_5inEwEo2Ed6D_7XK49c0nw&quot;>&lt;/area>&#xD;
+        &lt;area title=&quot;Functional Component&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/functional_component_595EAFE6.html&quot; shape=&quot;rect&quot; alt=&quot;Functional Component&quot; coords=&quot;38,243,130,273&quot; guid=&quot;_Ocmr0GWpEd6Zd-lbA790BQ&quot;>&lt;/area>&#xD;
+        &lt;area title=&quot;Technical Component&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/concepts/technical_component_D89DA554.html&quot; shape=&quot;rect&quot; alt=&quot;Technical Component&quot; coords=&quot;161,244,250,277&quot; guid=&quot;_RjrxgGWpEd6Zd-lbA790BQ&quot;>&lt;/area>&#xD;
+        &lt;area title=&quot;Functional Area Analysis&quot; href=&quot;./../../../core.bus.common.extend-ibm/guidances/concepts/functional_area_analysis_9B1F96D5.html&quot; shape=&quot;rect&quot; alt=&quot;Functional Area Analysis&quot; coords=&quot;39,1,256,98&quot; guid=&quot;_fk1woEo1Ed6D_7XK49c0nw&quot;>&lt;/area>&#xD;
+    &lt;/map>&amp;nbsp;&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    Generally, each service assigned to a subsystem will result in a service component; functional and technical&#xD;
+    components&amp;nbsp;can be shared between service components within the same business subsystem.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    See &lt;a class=&quot;elementLink&quot; href=&quot;./../../../core.tech.common.extend_supp_soa-ibm/guidances/guidelines/service_component_patterns_24F299DA.html&quot; guid=&quot;_iQvsEGWmEd6Zd-lbA790BQ&quot;>Service Component Patterns&lt;/a>&amp;nbsp;for&amp;nbsp;examples of five common patterns for&#xD;
+    realizing service components.&#xD;
+&lt;/p></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>
