@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_612EoPDwEeWB4ago_oakSA" guid="_612EoPDwEeWB4ago_oakSA">
+    <subManagers xmi:id="_7PesoPDwEeWB4ago_oakSA" href="uma://_6RCudfDwEeWB4ago_oakSA#_7PesoPDwEeWB4ago_oakSA"/>
+    <subManagers xmi:id="_7PxAgvDwEeWB4ago_oakSA" href="uma://_6RCuc_DwEeWB4ago_oakSA#_7PxAgvDwEeWB4ago_oakSA"/>
+    <resourceDescriptors xmi:id="_7PVisPDwEeWB4ago_oakSA" id="_6RCudfDwEeWB4ago_oakSA" uri="deliveryprocesses/RUP@EC%20Project%20Lifecycle/model.xmi"/>
+    <resourceDescriptors xmi:id="_7PxAgfDwEeWB4ago_oakSA" id="_6RCuc_DwEeWB4ago_oakSA" uri="deliveryprocesses/Agile%20RUP@EC%20Project%20Lifecycle/model.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_6RCucPDwEeWB4ago_oakSA" name="eu.europa.ec.digit.core.base-sweng" guid="_6RCucPDwEeWB4ago_oakSA" briefDescription="Sample plug-in created during the tuto" authors="O. Béghain (Smartouch)">
+    <methodElementProperty xmi:id="_6Sh8MPDwEeWB4ago_oakSA" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_6Sh8MfDwEeWB4ago_oakSA" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6RCulPDwEeWB4ago_oakSA" name="Content" guid="_6RCulPDwEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_6THyEPDwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6RCuofDwEeWB4ago_oakSA" name="Categories" guid="_6RCuofDwEeWB4ago_oakSA">
+        <methodElementProperty xmi:id="_6THyEfDwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6RCuo_DwEeWB4ago_oakSA" name="Domains" guid="_6RCuo_DwEeWB4ago_oakSA">
+          <methodElementProperty xmi:id="_6THyEvDwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Domain" xmi:id="_6RCuqfDwEeWB4ago_oakSA" name="domain-softwareEngineering" guid="_6RCuqfDwEeWB4ago_oakSA" presentationName="Sofware Engineering">
+            <methodElementProperty xmi:id="_6Sh8NvDwEeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6RCusvDwEeWB4ago_oakSA" name="Disciplines" guid="_6RCusvDwEeWB4ago_oakSA">
+          <methodElementProperty xmi:id="_6THyE_DwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_HOLL4PD0EeWB4ago_oakSA" name="intentions" guid="_HOLL4PD0EeWB4ago_oakSA" presentationName="Intentions">
+            <methodElementProperty xmi:id="_RdrQUPD1EeWB4ago_oakSA" name="me_edited" value="true"/>
+            <subdiscipline xmi:id="_d-StsPD0EeWB4ago_oakSA" name="requirements_definition_and_management" guid="_d-StsPD0EeWB4ago_oakSA" presentationName="Requirements Definition and Management">
+              <methodElementProperty xmi:id="_ReRGMPD1EeWB4ago_oakSA" name="me_edited" value="true"/>
+            </subdiscipline>
+            <subdiscipline xmi:id="_kgeBQPD0EeWB4ago_oakSA" name="business_modeling" guid="_kgeBQPD0EeWB4ago_oakSA" presentationName="Business Modeling">
+              <methodElementProperty xmi:id="_Rf6E8PD1EeWB4ago_oakSA" name="me_edited" value="true"/>
+            </subdiscipline>
+            <subdiscipline xmi:id="_l-fecPD0EeWB4ago_oakSA" name="change_requests_management" guid="_l-fecPD0EeWB4ago_oakSA" presentationName="Change Requests Management">
+              <methodElementProperty xmi:id="_Rg8mwPD1EeWB4ago_oakSA" name="me_edited" value="true"/>
+            </subdiscipline>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_JRAmUPD0EeWB4ago_oakSA" name="realisation" guid="_JRAmUPD0EeWB4ago_oakSA" presentationName="Realisation">
+            <methodElementProperty xmi:id="_KvU-cPD0EeWB4ago_oakSA" name="me_edited" value="true"/>
+            <subdiscipline xmi:id="_9WYx8PD0EeWB4ago_oakSA" name="enterprise_architecture_management" guid="_9WYx8PD0EeWB4ago_oakSA" presentationName="Enterprise Architecture Management">
+              <methodElementProperty xmi:id="_RmKd8PD1EeWB4ago_oakSA" name="me_edited" value="true"/>
+            </subdiscipline>
+            <subdiscipline xmi:id="_CxkoQPD1EeWB4ago_oakSA" name="implementation" guid="_CxkoQPD1EeWB4ago_oakSA" presentationName="Implementation">
+              <methodElementProperty xmi:id="_RnNm0PD1EeWB4ago_oakSA" name="me_edited" value="true"/>
+            </subdiscipline>
+            <subdiscipline xmi:id="_EG9G0PD1EeWB4ago_oakSA" name="analysis_and_design" guid="_EG9G0PD1EeWB4ago_oakSA" presentationName="Analysis and Design">
+              <methodElementProperty xmi:id="_RoQIoPD1EeWB4ago_oakSA" name="me_edited" value="true"/>
+            </subdiscipline>
+            <subdiscipline xmi:id="_JblpMPD1EeWB4ago_oakSA" name="build_management" guid="_JblpMPD1EeWB4ago_oakSA" presentationName="Build Management">
+              <methodElementProperty xmi:id="_Ro_vgPD1EeWB4ago_oakSA" name="me_edited" value="true"/>
+            </subdiscipline>
+            <subdiscipline xmi:id="_LdYh0PD1EeWB4ago_oakSA" name="software_configuration_management" guid="_LdYh0PD1EeWB4ago_oakSA" presentationName="Software Configuration Management">
+              <methodElementProperty xmi:id="_RpvWYPD1EeWB4ago_oakSA" name="me_edited" value="true"/>
+            </subdiscipline>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_L0xjkPD0EeWB4ago_oakSA" name="verification" guid="_L0xjkPD0EeWB4ago_oakSA" presentationName="Verification">
+            <methodElementProperty xmi:id="_Mj23IPD0EeWB4ago_oakSA" name="me_edited" value="true"/>
+            <subdiscipline xmi:id="_PvjhoPD1EeWB4ago_oakSA" name="test_definition_and_management" guid="_PvjhoPD1EeWB4ago_oakSA" presentationName="Test Definition and Management">
+              <methodElementProperty xmi:id="_cFwCQPD1EeWB4ago_oakSA" name="me_edited" value="true"/>
+            </subdiscipline>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Discipline" xmi:id="_NY5owPD0EeWB4ago_oakSA" name="management" guid="_NY5owPD0EeWB4ago_oakSA" presentationName="Management">
+            <methodElementProperty xmi:id="_OKhS8PD0EeWB4ago_oakSA" name="me_edited" value="true"/>
+            <subdiscipline xmi:id="_wroWkPD0EeWB4ago_oakSA" name="work_management" guid="_wroWkPD0EeWB4ago_oakSA" presentationName="Work Management">
+              <methodElementProperty xmi:id="_Rh1-oPD1EeWB4ago_oakSA" name="me_edited" value="true"/>
+            </subdiscipline>
+            <subdiscipline xmi:id="_yRaBkPD0EeWB4ago_oakSA" name="deployment_management" guid="_yRaBkPD0EeWB4ago_oakSA" presentationName="Deployment Management">
+              <methodElementProperty xmi:id="_Rjx4UPD1EeWB4ago_oakSA" name="me_edited" value="true"/>
+            </subdiscipline>
+            <subdiscipline xmi:id="_0ZwOIPD0EeWB4ago_oakSA" name="process_and_environment_management" guid="_0ZwOIPD0EeWB4ago_oakSA" presentationName="Process and Environment Management">
+              <methodElementProperty xmi:id="_Rk1BMPD1EeWB4ago_oakSA" name="me_edited" value="true"/>
+            </subdiscipline>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6RCusPDwEeWB4ago_oakSA" name="RoleSets" guid="_6RCusPDwEeWB4ago_oakSA">
+          <methodElementProperty xmi:id="_6THyFPDwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSetGrouping" xmi:id="_zk1bgPD4EeWB4ago_oakSA" name="analyst_profiles" guid="_zk1bgPD4EeWB4ago_oakSA" presentationName="Analyst Profiles">
+            <methodElementProperty xmi:id="_jIVXYPD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSetGrouping" xmi:id="_3gNr8PD4EeWB4ago_oakSA" name="manager_profiles" guid="_3gNr8PD4EeWB4ago_oakSA" presentationName="Manager Profiles">
+            <methodElementProperty xmi:id="_jJE-QPD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSetGrouping" xmi:id="___WbcPD4EeWB4ago_oakSA" name="tester_profiles" guid="___WbcPD4EeWB4ago_oakSA" presentationName="Tester Profiles">
+            <methodElementProperty xmi:id="_jLxF4PD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:RoleSetGrouping" xmi:id="_DDmPkPD5EeWB4ago_oakSA" name="programmer_profiles" guid="_DDmPkPD5EeWB4ago_oakSA" presentationName="Programmer Profiles">
+            <methodElementProperty xmi:id="_jMp2sPD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6RCusfDwEeWB4ago_oakSA" name="WP Types" guid="_6RCusfDwEeWB4ago_oakSA">
+          <methodElementProperty xmi:id="_6THyFfDwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6RCut_DwEeWB4ago_oakSA" name="Tools" guid="_6RCut_DwEeWB4ago_oakSA">
+          <methodElementProperty xmi:id="_6THyFvDwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6RCuovDwEeWB4ago_oakSA" name="StandardCategories" guid="_6RCuovDwEeWB4ago_oakSA">
+          <methodElementProperty xmi:id="_6THyF_DwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+        </childPackages>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6RCuqvDwEeWB4ago_oakSA" name="CustomCategories" guid="_6RCuqvDwEeWB4ago_oakSA">
+          <methodElementProperty xmi:id="_6THyGPDwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6RCurvDwEeWB4ago_oakSA" name="Hidden" guid="_6RCurvDwEeWB4ago_oakSA">
+            <methodElementProperty xmi:id="_6THyGfDwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_6RCur_DwEeWB4ago_oakSA" name="Custom Categories" guid="_6RCur_DwEeWB4ago_oakSA" categorizedElements="_6RCurfDwEeWB4ago_oakSA _6RCurPDwEeWB4ago_oakSA _6RCuq_DwEeWB4ago_oakSA"/>
+          </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_6RCurfDwEeWB4ago_oakSA" name="lifecycle-agileRupAtEc" guid="_6RCurfDwEeWB4ago_oakSA" presentationName="Agile RUP@EC Project Lifecycle (depreceated)">
+            <methodElementProperty xmi:id="_6Sh8PPDwEeWB4ago_oakSA" name="me_edited" value="true"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_6RCuc_DwEeWB4ago_oakSA#_6RCudPDwEeWB4ago_oakSA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_6RCurPDwEeWB4ago_oakSA" name="lifecycle-rupAtEc" guid="_6RCurPDwEeWB4ago_oakSA" presentationName="RUP@EC Project Lifecycle (depreceated)">
+            <methodElementProperty xmi:id="_6Sh8PfDwEeWB4ago_oakSA" name="me_edited" value="true"/>
+            <categorizedElements xsi:type="org.eclipse.epf.uma:DeliveryProcess" href="uma://_6RCudfDwEeWB4ago_oakSA#_6RCudvDwEeWB4ago_oakSA"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_6RCuq_DwEeWB4ago_oakSA" name="cat-allPrjLcActivities" guid="_6RCuq_DwEeWB4ago_oakSA" presentationName="Activities">
+            <methodElementProperty xmi:id="_6Sh8PvDwEeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_6RCulfDwEeWB4ago_oakSA" name="CoreContent" guid="_6RCulfDwEeWB4ago_oakSA">
+        <methodElementProperty xmi:id="_6THyGvDwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_HTrksPD5EeWB4ago_oakSA" name="sweng_roles_tasks_and_artefacts" guid="_HTrksPD5EeWB4ago_oakSA" presentationName="SWEng Roles Tasks And Artefacts">
+          <methodElementProperty xmi:id="_HTrksfD5EeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_MBk3MPD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_MuRlIPD5EeWB4ago_oakSA" name="business_analyst" guid="_MuRlIPD5EeWB4ago_oakSA" presentationName="Business Analyst">
+            <methodElementProperty xmi:id="_N1zN4PD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_OQeXsPD5EeWB4ago_oakSA" name="system_analyst" guid="_OQeXsPD5EeWB4ago_oakSA" presentationName="System Analyst">
+            <methodElementProperty xmi:id="_PELskPD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_PkXogPD5EeWB4ago_oakSA" name="requirements_specifier" guid="_PkXogPD5EeWB4ago_oakSA" presentationName="Requirements Specifier">
+            <methodElementProperty xmi:id="_QlLlQPD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Som1kPD5EeWB4ago_oakSA" name="designer" guid="_Som1kPD5EeWB4ago_oakSA" presentationName="Designer">
+            <methodElementProperty xmi:id="_TuzBkPD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_UQLQUPD5EeWB4ago_oakSA" name="developer" guid="_UQLQUPD5EeWB4ago_oakSA" presentationName="Developer">
+            <methodElementProperty xmi:id="_jNaEoPD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Vo1FUPD5EeWB4ago_oakSA" name="software_architect" guid="_Vo1FUPD5EeWB4ago_oakSA" presentationName="Software Architect">
+            <methodElementProperty xmi:id="_Wm2MwPD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_Yw8s0PD5EeWB4ago_oakSA" name="test_analyst" guid="_Yw8s0PD5EeWB4ago_oakSA" presentationName="Test Analyst">
+            <methodElementProperty xmi:id="_ZvO6APD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_agafUPD5EeWB4ago_oakSA" name="test_designer" guid="_agafUPD5EeWB4ago_oakSA" presentationName="Test Designer">
+            <methodElementProperty xmi:id="_bdM3sPD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_cCwb0PD5EeWB4ago_oakSA" name="tester" guid="_cCwb0PD5EeWB4ago_oakSA" presentationName="Tester">
+            <methodElementProperty xmi:id="_jOvhYPD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_eWkRgPD5EeWB4ago_oakSA" name="test_manager" guid="_eWkRgPD5EeWB4ago_oakSA" presentationName="Test Manager">
+            <methodElementProperty xmi:id="_jQYgIPD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_hitdYPD5EeWB4ago_oakSA" name="team_lead" guid="_hitdYPD5EeWB4ago_oakSA" presentationName="Team Lead">
+            <methodElementProperty xmi:id="_qNxJAPD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_q5uQEPD5EeWB4ago_oakSA" name="deployment_manager" guid="_q5uQEPD5EeWB4ago_oakSA" presentationName="Deployment Manager">
+            <methodElementProperty xmi:id="_EkF8gPD6EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_sovWoPD5EeWB4ago_oakSA" name="project_manager" guid="_sovWoPD5EeWB4ago_oakSA" presentationName="Project Manager">
+            <methodElementProperty xmi:id="_tnBj0PD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_vJ99QPD5EeWB4ago_oakSA" name="process_engineer" guid="_vJ99QPD5EeWB4ago_oakSA" presentationName="Process Engineer">
+            <methodElementProperty xmi:id="_Ek1jYPD6EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_yH8xUPD5EeWB4ago_oakSA" name="end_user" guid="_yH8xUPD5EeWB4ago_oakSA" presentationName="End User">
+            <methodElementProperty xmi:id="_zbGbQPD5EeWB4ago_oakSA" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6RCuuPDwEeWB4ago_oakSA" name="CapabilityPatterns" guid="_6RCuuPDwEeWB4ago_oakSA">
+        <methodElementProperty xmi:id="_6THyG_DwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6RCuyPDwEeWB4ago_oakSA" name="Software Engineering" guid="_6RCuyPDwEeWB4ago_oakSA">
+          <methodElementProperty xmi:id="_6Sh8S_DwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6RCuyvDwEeWB4ago_oakSA" name="Software Requirements Management" guid="_6RCuyvDwEeWB4ago_oakSA">
+            <methodElementProperty xmi:id="_6Sh8TPDwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+          </childPackages>
+          <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6RCuyfDwEeWB4ago_oakSA" name="Software Testing" guid="_6RCuyfDwEeWB4ago_oakSA">
+            <methodElementProperty xmi:id="_6Sh8TfDwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6RCucvDwEeWB4ago_oakSA" name="DeliveryProcesses" guid="_6RCucvDwEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_6THyHPDwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_6RCudfDwEeWB4ago_oakSA" href="uma://_6RCudfDwEeWB4ago_oakSA#_6RCudfDwEeWB4ago_oakSA"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_6RCuc_DwEeWB4ago_oakSA" href="uma://_6RCuc_DwEeWB4ago_oakSA#_6RCuc_DwEeWB4ago_oakSA"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_6RCucfDwEeWB4ago_oakSA" name="ProcessContributions" guid="_6RCucfDwEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_6THyJfDwEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+    </methodPackages>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>
