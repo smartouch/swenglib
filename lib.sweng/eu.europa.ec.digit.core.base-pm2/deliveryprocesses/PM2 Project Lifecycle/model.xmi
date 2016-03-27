@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_5Rl5EPDvEeWB4ago_oakSA" guid="_5Rl5EPDvEeWB4ago_oakSA">
+    <resourceDescriptors xmi:id="_5Rl5EfDvEeWB4ago_oakSA" id="-LSu9xQKicqnm3oQFY2blrw" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_4ROBovDvEeWB4ago_oakSA" name="PM2 Project Lifecycle" guid="_4ROBovDvEeWB4ago_oakSA">
+    <methodElementProperty xmi:id="_5R5bEPDvEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_5R5bEfDvEeWB4ago_oakSA" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_4ROBrfDvEeWB4ago_oakSA" name="Initiating" guid="_4ROBrfDvEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_5R5bEvDvEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_4ROBsPDvEeWB4ago_oakSA" name="Candidate Initiative Identification" guid="_4ROBsPDvEeWB4ago_oakSA">
+        <methodElementProperty xmi:id="_5R5bE_DvEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+        <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_4ROBsfDvEeWB4ago_oakSA" name="Candidate Initiative Identification" guid="_4ROBsfDvEeWB4ago_oakSA" superActivities="_4ROBrvDvEeWB4ago_oakSA" variabilityType="extends">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_4ROBg_DvEeWB4ago_oakSA#_4ROBifDvEeWB4ago_oakSA"/>
+        </processElements>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_4ROBrvDvEeWB4ago_oakSA" name="Initiating" guid="_4ROBrvDvEeWB4ago_oakSA" presentationName="Initiating" superActivities="_4ROBpPDvEeWB4ago_oakSA" breakdownElements="_4ROBsfDvEeWB4ago_oakSA _4ROBsvDvEeWB4ago_oakSA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_4ROBsvDvEeWB4ago_oakSA" name="milestone-rfp" guid="_4ROBsvDvEeWB4ago_oakSA" presentationName="RfP milestone" briefDescription="Ready for Planning" superActivities="_4ROBrvDvEeWB4ago_oakSA" linkToPredecessor="_4ROBr_DvEeWB4ago_oakSA">
+        <checklists href="uma://_4ROBMPDvEeWB4ago_oakSA#_4ROBQfDvEeWB4ago_oakSA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_4ROBr_DvEeWB4ago_oakSA" guid="_4ROBr_DvEeWB4ago_oakSA" pred="_4ROBsfDvEeWB4ago_oakSA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_4ROBpvDvEeWB4ago_oakSA" name="Planning" guid="_4ROBpvDvEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_5R5bFPDvEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_4ROBqPDvEeWB4ago_oakSA" name="Planning" guid="_4ROBqPDvEeWB4ago_oakSA" presentationName="Planning" superActivities="_4ROBpPDvEeWB4ago_oakSA" linkToPredecessor="_4ROBqfDvEeWB4ago_oakSA" breakdownElements="_4ROBp_DvEeWB4ago_oakSA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_4ROBp_DvEeWB4ago_oakSA" name="milestone-RfE" guid="_4ROBp_DvEeWB4ago_oakSA" presentationName="RfE milestone" briefDescription="Ready for Execution" superActivities="_4ROBqPDvEeWB4ago_oakSA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_4ROBqfDvEeWB4ago_oakSA" guid="_4ROBqfDvEeWB4ago_oakSA" pred="_4ROBrvDvEeWB4ago_oakSA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_4ROBuPDvEeWB4ago_oakSA" name="Executing" guid="_4ROBuPDvEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_5R5bFfDvEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_4ROBvfDvEeWB4ago_oakSA" name="Executing Iteration" guid="_4ROBvfDvEeWB4ago_oakSA">
+        <methodElementProperty xmi:id="_5R5bFvDvEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+        <processElements xsi:type="org.eclipse.epf.uma:Iteration" xmi:id="_4ROBvvDvEeWB4ago_oakSA" name="Executing Iteration" guid="_4ROBvvDvEeWB4ago_oakSA" presentationName="Executing Iteration" superActivities="_4ROBvPDvEeWB4ago_oakSA" isRepeatable="true"/>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_4ROBvPDvEeWB4ago_oakSA" name="Executing" guid="_4ROBvPDvEeWB4ago_oakSA" presentationName="Executing" superActivities="_4ROBpPDvEeWB4ago_oakSA" linkToPredecessor="_4ROBu_DvEeWB4ago_oakSA" breakdownElements="_4ROBvvDvEeWB4ago_oakSA _4ROBuvDvEeWB4ago_oakSA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Milestone" xmi:id="_4ROBuvDvEeWB4ago_oakSA" name="milestone-rfc" guid="_4ROBuvDvEeWB4ago_oakSA" presentationName="RfC milestone" briefDescription="Ready for Closing" superActivities="_4ROBvPDvEeWB4ago_oakSA" linkToPredecessor="_4ROBufDvEeWB4ago_oakSA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_4ROBu_DvEeWB4ago_oakSA" guid="_4ROBu_DvEeWB4ago_oakSA" pred="_4ROBqPDvEeWB4ago_oakSA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_4ROBufDvEeWB4ago_oakSA" guid="_4ROBufDvEeWB4ago_oakSA" pred="_4ROBvvDvEeWB4ago_oakSA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_4ROBqvDvEeWB4ago_oakSA" name="Closing" guid="_4ROBqvDvEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_5R5bF_DvEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_4ROBrPDvEeWB4ago_oakSA" name="Closing" guid="_4ROBrPDvEeWB4ago_oakSA" presentationName="Closing" superActivities="_4ROBpPDvEeWB4ago_oakSA" linkToPredecessor="_4ROBq_DvEeWB4ago_oakSA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_4ROBq_DvEeWB4ago_oakSA" guid="_4ROBq_DvEeWB4ago_oakSA" pred="_4ROBvPDvEeWB4ago_oakSA"/>
+    </childPackages>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_4ROBtPDvEeWB4ago_oakSA" name="Monitoring and Control" guid="_4ROBtPDvEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_5R5bGPDvEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_4ROBtfDvEeWB4ago_oakSA" name="Issues and Risks Management" guid="_4ROBtfDvEeWB4ago_oakSA">
+        <methodElementProperty xmi:id="_5R5bGfDvEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+        <processElements xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_4ROBtvDvEeWB4ago_oakSA" name="Issues and Risks Management" guid="_4ROBtvDvEeWB4ago_oakSA" superActivities="_4ROBt_DvEeWB4ago_oakSA" variabilityType="extends">
+          <variabilityBasedOnElement xsi:type="org.eclipse.epf.uma:CapabilityPattern" href="uma://_4ROBj_DvEeWB4ago_oakSA#_4ROBlPDvEeWB4ago_oakSA"/>
+        </processElements>
+      </childPackages>
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_4ROBt_DvEeWB4ago_oakSA" name="Monitoring and Control" guid="_4ROBt_DvEeWB4ago_oakSA" presentationName="Monitoring and Control" superActivities="_4ROBpPDvEeWB4ago_oakSA" isOngoing="true" breakdownElements="_4ROBtvDvEeWB4ago_oakSA"/>
+    </childPackages>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_4ROBpfDvEeWB4ago_oakSA" guid="_4ROBpfDvEeWB4ago_oakSA" pred="_4ROBrvDvEeWB4ago_oakSA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_4ROBo_DvEeWB4ago_oakSA" guid="_4ROBo_DvEeWB4ago_oakSA" pred="_4ROBqPDvEeWB4ago_oakSA"/>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkOrder" xmi:id="_4ROBs_DvEeWB4ago_oakSA" guid="_4ROBs_DvEeWB4ago_oakSA" pred="_4ROBvPDvEeWB4ago_oakSA"/>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_4ROBpPDvEeWB4ago_oakSA" name="PM2 Project Lifecycle" guid="_4ROBpPDvEeWB4ago_oakSA" presentationName="PM2 Project Lifecycle" breakdownElements="_4ROBrvDvEeWB4ago_oakSA _4ROBqPDvEeWB4ago_oakSA _4ROBvPDvEeWB4ago_oakSA _4ROBrPDvEeWB4ago_oakSA _4ROBt_DvEeWB4ago_oakSA">
+      <presentation xmi:id="-LSu9xQKicqnm3oQFY2blrw" href="uma://-LSu9xQKicqnm3oQFY2blrw#-LSu9xQKicqnm3oQFY2blrw"/>
+      <includesPatterns href="uma://_4ROBg_DvEeWB4ago_oakSA#_4ROBifDvEeWB4ago_oakSA"/>
+      <includesPatterns href="uma://_4ROBj_DvEeWB4ago_oakSA#_4ROBlPDvEeWB4ago_oakSA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

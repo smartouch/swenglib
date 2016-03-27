@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:rmc="http://www.ibm.com/rmc" rmc:version="7.5.1" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_5PqmcPDvEeWB4ago_oakSA" guid="_5PqmcPDvEeWB4ago_oakSA">
+    <resourceDescriptors xmi:id="_5PqmcfDvEeWB4ago_oakSA" id="-WNm2G36XEdoAfIQ6B2-lfw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_5QQcUPDvEeWB4ago_oakSA" id="-dc0gxhfBhq7-dUENYPQ4lQ" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_4ROBg_DvEeWB4ago_oakSA" name="Candidate Initiative Identification" guid="_4ROBg_DvEeWB4ago_oakSA">
+    <methodElementProperty xmi:id="_5QQcUfDvEeWB4ago_oakSA" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_5QQcUvDvEeWB4ago_oakSA" name="me_edited" value="true"/>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4ROBjPDvEeWB4ago_oakSA" name="task-consolidateBusinessCase" guid="_4ROBjPDvEeWB4ago_oakSA" presentationName="Consolidate Business Case" superActivities="_4ROBifDvEeWB4ago_oakSA" mandatoryInput="_4ROBiPDvEeWB4ago_oakSA" output="_4ROBjfDvEeWB4ago_oakSA" performedPrimarilyBy="_4ROBivDvEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_5QQcU_DvEeWB4ago_oakSA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <methodElementProperty xmi:id="_5QQcVPDvEeWB4ago_oakSA" name="wbe_GlobalPresentedAfter" value="_gLjowG0ZEeWiH_Hnzgh00A"/>
+      <Task href="uma://_4ROBMPDvEeWB4ago_oakSA#_4ROBO_DvEeWB4ago_oakSA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_4ROBivDvEeWB4ago_oakSA" name="role_po" guid="_4ROBivDvEeWB4ago_oakSA" presentationName="Project Owner" briefDescription="A PO is..." isPlanned="false" superActivities="_4ROBifDvEeWB4ago_oakSA" modifies="_4ROBiPDvEeWB4ago_oakSA _4ROBjfDvEeWB4ago_oakSA" responsibleFor="_4ROBiPDvEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_5QQcVfDvEeWB4ago_oakSA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_5QQcVvDvEeWB4ago_oakSA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <presentation xmi:id="-WNm2G36XEdoAfIQ6B2-lfw" href="uma://-WNm2G36XEdoAfIQ6B2-lfw#-WNm2G36XEdoAfIQ6B2-lfw"/>
+      <Role href="uma://_4ROBMPDvEeWB4ago_oakSA#_4ROBPvDvEeWB4ago_oakSA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4ROBiPDvEeWB4ago_oakSA" name="pir" guid="_4ROBiPDvEeWB4ago_oakSA" presentationName="Project Initiation Request" briefDescription="A PIR is..." isPlanned="false" superActivities="_4ROBifDvEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_5QQcV_DvEeWB4ago_oakSA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_5QQcWPDvEeWB4ago_oakSA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_4ROBMPDvEeWB4ago_oakSA#_4ROBRvDvEeWB4ago_oakSA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4ROBjfDvEeWB4ago_oakSA" name="artifact-businessCase" guid="_4ROBjfDvEeWB4ago_oakSA" presentationName="Business Case" isPlanned="false" superActivities="_4ROBifDvEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_5QQcWfDvEeWB4ago_oakSA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_5QQcWvDvEeWB4ago_oakSA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_4ROBMPDvEeWB4ago_oakSA#_4ROBOvDvEeWB4ago_oakSA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4ROBhfDvEeWB4ago_oakSA" name="task-consolidateProjectCharter" guid="_4ROBhfDvEeWB4ago_oakSA" presentationName="Consolidate Project Charter" superActivities="_4ROBifDvEeWB4ago_oakSA" mandatoryInput="_4ROBjfDvEeWB4ago_oakSA" performedPrimarilyBy="_4ROBi_DvEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_5QQcW_DvEeWB4ago_oakSA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <methodElementProperty xmi:id="_5QQcXPDvEeWB4ago_oakSA" name="wbe_GlobalPresentedAfter" value="_eUpKcG0ZEeWiH_Hnzgh00A"/>
+      <Task href="uma://_4ROBMPDvEeWB4ago_oakSA#_4ROBOPDvEeWB4ago_oakSA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_4ROBi_DvEeWB4ago_oakSA" name="role-pm" guid="_4ROBi_DvEeWB4ago_oakSA" presentationName="Project Manager" isPlanned="false" superActivities="_4ROBifDvEeWB4ago_oakSA" responsibleFor="_4ROBh_DvEeWB4ago_oakSA _4ROBhPDvEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_5QQcXfDvEeWB4ago_oakSA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_5QQcXvDvEeWB4ago_oakSA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <Role href="uma://_4ROBMPDvEeWB4ago_oakSA#_4ROBSvDvEeWB4ago_oakSA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4ROBhPDvEeWB4ago_oakSA" name="artifact-riskLog" guid="_4ROBhPDvEeWB4ago_oakSA" presentationName="Risk Log" isPlanned="false" superActivities="_4ROBifDvEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_5QQcX_DvEeWB4ago_oakSA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_5QQcYPDvEeWB4ago_oakSA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_4ROBMPDvEeWB4ago_oakSA#_4ROBP_DvEeWB4ago_oakSA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_4ROBh_DvEeWB4ago_oakSA" name="artifact-issueLog" guid="_4ROBh_DvEeWB4ago_oakSA" presentationName="Issue Log" isPlanned="false" superActivities="_4ROBifDvEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_5QQcYfDvEeWB4ago_oakSA" name="descriptor_createdByReference" value="true"/>
+      <methodElementProperty xmi:id="_5QQcYvDvEeWB4ago_oakSA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <WorkProduct href="uma://_4ROBMPDvEeWB4ago_oakSA#_4ROBQPDvEeWB4ago_oakSA"/>
+    </processElements>
+    <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_4ROBhvDvEeWB4ago_oakSA" name="task-consolidate_pir" guid="_4ROBhvDvEeWB4ago_oakSA" presentationName="Consolidate Project Initiation Request" briefDescription="Produce the PIR" superActivities="_4ROBifDvEeWB4ago_oakSA" output="_4ROBiPDvEeWB4ago_oakSA" performedPrimarilyBy="_4ROBivDvEeWB4ago_oakSA">
+      <methodElementProperty xmi:id="_5QQcY_DvEeWB4ago_oakSA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+      <methodElementProperty xmi:id="_5QQcZPDvEeWB4ago_oakSA" name="wbe_GlobalPresentedAfter" value="_BLLAEWz8EeWiH_Hnzgh00A"/>
+      <guidelines href="uma://_4ROBMPDvEeWB4ago_oakSA#_4ROBN_DvEeWB4ago_oakSA"/>
+      <Task href="uma://_4ROBMPDvEeWB4ago_oakSA#_4ROBTPDvEeWB4ago_oakSA"/>
+      <selectedSteps href="uma://-l2EXLxqA-jJC2S8LXKhKMg#_4ROBTvDvEeWB4ago_oakSA"/>
+      <selectedSteps href="uma://-l2EXLxqA-jJC2S8LXKhKMg#_4ROBTfDvEeWB4ago_oakSA"/>
+    </processElements>
+    <process xsi:type="org.eclipse.epf.uma:CapabilityPattern" xmi:id="_4ROBifDvEeWB4ago_oakSA" name="Candidate Initiative Identification" guid="_4ROBifDvEeWB4ago_oakSA" presentationName="Candidate Initiative Identification" briefDescription="From idea/problem/opportunity to business case and draft project charter" breakdownElements="_4ROBhvDvEeWB4ago_oakSA _4ROBjPDvEeWB4ago_oakSA _4ROBivDvEeWB4ago_oakSA _4ROBiPDvEeWB4ago_oakSA _4ROBjfDvEeWB4ago_oakSA _4ROBhfDvEeWB4ago_oakSA _4ROBi_DvEeWB4ago_oakSA _4ROBhPDvEeWB4ago_oakSA _4ROBh_DvEeWB4ago_oakSA">
+      <presentation xmi:id="-dc0gxhfBhq7-dUENYPQ4lQ" href="uma://-WNm2G36XEdoAfIQ6B2-lfw#-dc0gxhfBhq7-dUENYPQ4lQ"/>
+      <defaultContext href="uma://_7OkeoD8VEeK1Jd8zcIuUZw#_4ROBw_DvEeWB4ago_oakSA"/>
+      <validContext href="uma://_7OkeoD8VEeK1Jd8zcIuUZw#_4ROBw_DvEeWB4ago_oakSA"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>
